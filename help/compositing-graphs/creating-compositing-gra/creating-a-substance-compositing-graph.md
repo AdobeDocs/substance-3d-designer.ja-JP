@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでSubstance合成グラフを作成し、プロシージャルテクスチャワークフローを構築する方法について説明します。
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  [エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の&#x200B;*既存*&#x200B;のパッケージ項目で、<b>RMB</b>をクリックし、コンテキストメニューの<b>新規/Substanceグラフ</b>に移動します。
+  [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の&#x200B;*既存*&#x200B;のパッケージ項目で、<b>RMB</b>をクリックし、コンテキストメニューの<b>新規/Substanceグラフ</b>に移動します。
 
   </td>
   <td style="border: 0;" valign="top">
@@ -81,7 +81,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  [メインメニュー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)で、<b>ファイル/新規/Substanceグラフ…</b>に移動します
+  [メインメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)で、<b>ファイル/新規/Substanceグラフ…</b>に移動します
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 <b>サイズ</b>：ほとんどのノードの出力解像度を制御するグラフの親解像度。詳細については、[出力サイズ](../../compositing-graphs/output-size/output-size.md)ページを参照してください。 デフォルトでは、幅とHeightがリンクされています。幅とHeightのコンボボックスの間にある「リンク」ボタンをクリックすると、リンクを解除できます。
 
-<b></b>でグラフを作成する：このコンボボックスを使って新しいグラフ用の&#x200B;*新しい*&#x200B;パッケージを作成するか、既に[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルに読み込まれている&#x200B;*既存の*&#x200B;パッケージに新しいグラフを追加できます。
+<b></b>でグラフを作成する：このコンボボックスを使って新しいグラフ用の&#x200B;*新しい*&#x200B;パッケージを作成するか、既に[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルに読み込まれている&#x200B;*既存の*&#x200B;パッケージに新しいグラフを追加できます。
 
 ### ヘルプツールチップ
 

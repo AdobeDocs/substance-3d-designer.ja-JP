@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance合成グラフで継承を使用して、再利用可能なグラフ階層とバリエーションを作成する方法について説明します。
 helpx_creative_field: ""
@@ -93,7 +93,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 ### 継承方法の変更
 
-[プロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルでは、ノードのプロパティの[基本パラメーター](../../compositing-graphs/graph-parameters/graph-parameters.md)セクションに一覧表示されているすべてのパラメーターに、ラベルの反対側に（アイコン） <b>継承メソッドの設定</b>ドロップダウンボタンがあります。\
+[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルでは、ノードのプロパティの[基本パラメーター](../../compositing-graphs/graph-parameters/graph-parameters.md)セクションに一覧表示されているすべてのパラメーターに、ラベルの反対側に（アイコン） <b>継承メソッドの設定</b>ドロップダウンボタンがあります。\
 このボタンをクリックすると、パラメータに使用する継承方法を選択できます。
 
 ![継承メソッドを変更しています](../../assets/inheritance-change.gif "継承メソッドを変更しています"){width="512px"}

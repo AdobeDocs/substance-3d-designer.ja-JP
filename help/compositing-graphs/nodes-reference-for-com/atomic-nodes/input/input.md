@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 入力ノードを使用して、ユーザーが公開および調整できるSubstanceグラフの入力パラメーターを作成します。
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> [Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)では、入力ノードの&#x200B;*入力に対する相対*&#x200B;継承方法が&#x200B;*サポートされていません*。 パッケージを公開する前に、すべての入力ノードの継承メソッドを&#x200B;*親に対する相対*&#x200B;に設定してください。
+> [Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/jp/substance-3d-assets.html)では、入力ノードの&#x200B;*入力に対する相対*&#x200B;継承方法が&#x200B;*サポートされていません*。 パッケージを公開する前に、すべての入力ノードの継承メソッドを&#x200B;*親に対する相対*&#x200B;に設定してください。
 
 ## 統合の属性
 

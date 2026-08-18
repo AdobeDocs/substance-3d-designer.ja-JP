@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Substance 3D Designerベイカーを使用してメッシュベースの情報を計算し、テクスチャファイルに変換する方法を説明します。
 helpx_creative_field: ""

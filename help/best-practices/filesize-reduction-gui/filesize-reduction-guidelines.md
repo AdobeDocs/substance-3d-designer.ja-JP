@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Substanceグラフのファイルサイズを縮小して、パフォーマンスとストレージの要件を最適化するためのガイドラインについて説明します。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## ファイルサイズの係数
 
-[SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)の合計ファイルサイズに影響を与える要因がいくつかあります。 以下に簡単な説明を示します。
+[SBSAR](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)の合計ファイルサイズに影響を与える要因がいくつかあります。 以下に簡単な説明を示します。
 
 +++解決策
 明らかに大きな効果がある。 Substanceファイルを大きな解像度で動作させる場合もあります。その場合は、できる限り小さな解像度を使用してください。 標準の解像度マスクを使用して、小さなビットマップを大きく見せることができます。
@@ -63,14 +63,14 @@ ht-degree: 1%
 +++パッケージ内のビットマップ形式
 リソースプロパティで、「Raw」圧縮と「Jpeg」圧縮の間で選択できます。 これは、最終結果に大きな影響を与える可能性があります。
 
-*見つかった場所：ビットマップリソース[プロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)、[エクスプローラウィンドウを使用。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*見つかった場所：ビットマップリソース[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)、[エクスプローラウィンドウを使用。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
 +++パッケージのビットマップ圧縮品質
 「Jpeg」ビットマップ形式を使用する場合、以下のスライダーは画質とファイルサイズに影響を与える可能性があります。 このスライダは予測可能な動作ではありませんが、1は最高画質のJPG圧縮に対応し、0.5は最小サイズに対応します。
 
-*見つかった場所：ビットマップリソース[プロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)、[エクスプローラウィンドウを使用。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*見つかった場所：ビットマップリソース[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)、[エクスプローラウィンドウを使用。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 

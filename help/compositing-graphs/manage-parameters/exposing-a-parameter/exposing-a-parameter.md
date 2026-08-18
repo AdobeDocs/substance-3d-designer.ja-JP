@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Substance 3D Designer合成グラフでパラメーターを公開し、マテリアルをカスタマイズおよび再利用可能にする方法について説明します。
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ ht-degree: 4%
 
 ### 単一露光法
 
-1. [プロパティウィンドウ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)の[特定のパラメーター]タブで、表示するパラメーターを指定します
+1. [プロパティウィンドウ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)の[特定のパラメーター]タブで、表示するパラメーターを指定します
 1. ![](../../../assets/image2020-9-17-15-35-59.png)ドロップダウンオプションボタンをクリックします
 1. 最初のオプションであるドロップダウンリストから![](../../../assets/image2020-9-17-15-37-7.png) <b>新しいグラフ入力として表示</b>を選択します。
 1. <b>パラメーターを公開</b>ダイアログが表示されます。必要に応じてパラメーターのプロパティを設定します。
@@ -79,7 +79,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 > ほとんどの数値フィールドは、入力として&#x200B;*基本的な数式*&#x200B;をサポートしています（例： `17+3.5`、`7/3`、`(4+2)*3`）。 *Enter*&#x200B;を押して式を検証すると、結果がフィールドに入力されます。 数式が無効な場合、フィールドは以前の値に戻ります。\
-> [プロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)ドックなど、アプリケーションの他の部分の数値フィールドの一部も、この機能をサポートしています。
+> [プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)ドックなど、アプリケーションの他の部分の数値フィールドの一部も、この機能をサポートしています。
 
 ![メソッドの一括公開](../../../assets/batch-expose-2.gif "メソッドの一括公開"){width="512px"}
 
@@ -104,7 +104,7 @@ ht-degree: 4%
 | --- | --- |
 | [グラデーションランプ](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)、[カーブエディター](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)、[フォント](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)、[レベルヒストグラム](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | ユーザーが作成したパラメーターでは使用できないウィジェットを要求します。 |
 
-もう1つの重要な制限は、[静的パラメーター](../../../glossary/glossary.md)に関するものです。 これらは、[公開されたSubstance 3Dアセット](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)では変更できません。
+もう1つの重要な制限は、[静的パラメーター](../../../glossary/glossary.md)に関するものです。 これらは、[公開されたSubstance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)では変更できません。
 
 グラフが&#x200B;*cooked*&#x200B;された後（つまり、アルゴリズムを迅速かつ効率的に実行するために処理された後）、静的パラメーター – 動的パラメーターとは対照的に – *オンザフライ編集*&#x200B;はできません。 グラフが&#x200B;*編集*&#x200B;または&#x200B;*公開*&#x200B;されるたびに、Designerでクッキングが行われます。
 
@@ -185,7 +185,7 @@ ht-degree: 4%
 
 >[!WARNING]
 >
-> プレビューモードは、[公開されたSubstance 3Dアセット](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)のエクスペリエンスをできるだけ正確に表現することを目的としています。 そのため、このページに記載されている制限は、このモードで適用されます（*静的パラメーターがリストに存在しない*&#x200B;など）。
+> プレビューモードは、[公開されたSubstance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)のエクスペリエンスをできるだけ正確に表現することを目的としています。 そのため、このページに記載されている制限は、このモードで適用されます（*静的パラメーターがリストに存在しない*&#x200B;など）。
 
 ![入力パラメーターのコピーと貼り付け](../../../assets/copy-paste-params-2.gif "入力パラメーターのコピーと貼り付け"){width="512px"}
 
