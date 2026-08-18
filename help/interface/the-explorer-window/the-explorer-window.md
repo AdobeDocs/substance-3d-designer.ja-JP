@@ -120,7 +120,7 @@ ht-degree: 2%
 
 <b>依存関係のあるエクスポート</b>は、保存および発行とは異なります。 SBSファイルを取得し、参照されているすべてのリソースと依存関係を収集して、自己完結型のパッケージを作成します。 このダイアログでは、収集するライブラリと、ファイルを圧縮アーカイブ(7-zip)にするかどうかを選択できます。 これは、依存関係の欠落を気にすることなく、SBSファイルを他のユーザーと共有する場合に適しています。
 
-<b>送信先…</b>では、サブメニューが開き、[パッケージを直接[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)に送信](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)するか、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)に送信するか、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)に送信するか、[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)にするかを選択できます。
+<b>送信先…</b>では、サブメニューが開き、[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)パッケージを直接[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)に送信するか、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)に送信するか、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)に送信するか、[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)にするかを選択できます。
 
 <b>コピー</b>選択したパッケージをコピーします。
 
