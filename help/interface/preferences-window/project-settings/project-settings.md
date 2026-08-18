@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window/project-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの環境設定でプロジェクト設定を行い、プロジェクトのデフォルトの動作をカスタマイズします。
 helpx_creative_field: ""
@@ -116,7 +116,7 @@ Designerの作業環境で使用する複数のプロジェクトファイルを
 | <b>3Dシーン</b> | デフォルトでは、Designerは3Dビューで&#x200B;**MikkT接線空間**&#x200B;を使用します。 MikkTは広く使用されており、Unity、Unreal Engine 4、Blender、xNormalなどのプログラムでは既定値になっています。この設定で&#x200B;*DLLファイル*&#x200B;入力の形式でDesignerに提供する、3Dビュー用の&#x200B;**独自の接線空間**&#x200B;を使用できます。 DLLファイルからラベルが自動検出され、プラグインの説明を編集できます。<br><br>*デフォルト： mikktspace.dll*&#x200B;常に接線フレームを再計算する&#x200B;<br><br>*デフォルト：選択しない*&#x200B;法線と接線のスムージング角度&#x200B;<br><br>*デフォルト： 180.0°* |
 | <b>その他</b> | 法線マップは、<b>DirectX</b>または<b>OpenGL</b>のいずれかのフォーマットを使用して生成または処理できます。 この設定により、[3Dビュー](../../../interface/3d-view/3d-view.md)の[マテリアルプロパティ](../../../interface/3d-view/material-properties/material-properties.md)や[標準](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)フィルターノードパラメーターなど、いくつかの場所でこの書式の値が設定されます。<br><br>*既定： DirectX*<br><br>[標準](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)フィルターノードについては、<b>Alphaチャンネルコンテンツ</b>パラメーターの既定値を設定できます。 すべての場合にアルファを1に強制的に設定するか、入力からの情報をアルファに入力するかを選択できます。<br><br>*既定：強制的にAlphaを1*&#x200B;にします。 |
 | <b>画像の形式</b> | これにより、*書き出し*&#x200B;画像のデフォルトのフォーマットを指定できます&#x200B;<br><br>*デフォルト：デフォルト(BMP)/Pizベースのウェーブレット、チェックなし、チェックなし(EXR)/チェックなし、75(JPG)/最高速度、チェックなし(PNG)/デフォルト(TGA)/LZW(TIF)/チェックなし、75(WEBP)* |
-| <b>依存関係のパス</b> | <p>SBSパッケージには通常、<b>依存関係</b>があります。つまり、他のSBSパッケージ、ビットマップ、ベクターファイルなどの<i>外部リソース</i>に依存しています。<br>これらの依存関係は、[依存関係マネージャー](../../../interface/dependency-manager/dependency-manager.md)に一覧表示されており、これらのリソースをポイントする<b>パス</b>でSBSパッケージ</i>内に格納され、<i>参照されます。</p><p>SBSパッケージと<i>同じパス</i>を含む依存関係（つまり、同じ場所またはサブフォルダー内にある依存関係）の場合、参照パスはSBSパッケージの場所に対して<b>相対的</b>に書き込まれます。</p><p>例： SBSパッケージ<code>myproject/mypackage.sbs</code>、画像<code>myproject/myfolder/myimage.png</code> は、<code>myfolder/myimage.pngを参照します</code> <code>mypackage.sbsのパス</code>).</p><p>SBSパッケージと同じパスが<i>含まれていない</i>依存関係の場合（つまり、SBSパッケージとは別の場所に配置されている場合）、パスの書き込み方法を選択できます。</p><p><b>相対パス</b>に設定されている場合、リソースは上記と同じ方法で参照されます。</p><p>例： SBSパッケージ<code>myparentfolder/myproject/mypackage.sbs</code>、画像<code>myparentfolder/myotherfolder/myimage.png</code> は、<code>../myotherfolder/myimage.pngを参照します</code> <code>mypackage.sbsのパス</code>.</p><p><b>絶対パス</b>に設定されている場合、リソースは完全なシステムパスによって参照されます。</p><p>例： SBSパッケージ<code>myparentfolder/myproject/mypackage.sbs</code>、画像<code>myparentfolder/myotherfolder/myimage.png</code> <code>mypackage.sbsでこの完全なパスを参照します</code></p><p><i>既定： ...相対パス。</i></p><p><i>注意：</i>どのような場合でも、リソースを移動すると<i>依存関係が解除</i>され、グラフでは<b>ゴーストインスタンス</b>のノードが生成されます。  SBSパッケージと共に、1つのプロジェクトフォルダー内のすべての依存関係を<i>統合</i>するには、[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルの<b>依存関係を保持してエクスポート…</b>機能を使用できます。 これにより、自由に移動できる<i>自己完結型</i>プロジェクトフォルダーが効率的に作成されます。 |
+| <b>依存関係のパス</b> | <p>SBSパッケージには通常、<b>依存関係</b>があります。つまり、他のSBSパッケージ、ビットマップ、ベクターファイルなどの<i>外部リソース</i>に依存しています。<br>これらの依存関係は、[依存関係マネージャー](../../../interface/dependency-manager/dependency-manager.md)に一覧表示されており、これらのリソースをポイントする<b>パス</b>でSBSパッケージ</i>内に格納され、<i>参照されます。</p><p>SBSパッケージと<i>同じパス</i>を含む依存関係（つまり、同じ場所またはサブフォルダー内にある依存関係）の場合、参照パスはSBSパッケージの場所に対して<b>相対的</b>に書き込まれます。</p><p>例： SBSパッケージ<code>myproject/mypackage.sbs</code>、画像<code>myproject/myfolder/myimage.png</code> は、<code>myfolder/myimage.pngを参照します</code> <code>mypackage.sbsのパス</code>).</p><p>SBSパッケージと同じパスが<i>含まれていない</i>依存関係の場合（つまり、SBSパッケージとは別の場所に配置されている場合）、パスの書き込み方法を選択できます。</p><p><b>相対パス</b>に設定されている場合、リソースは上記と同じ方法で参照されます。</p><p>例： SBSパッケージ<code>myparentfolder/myproject/mypackage.sbs</code>、画像<code>myparentfolder/myotherfolder/myimage.png</code> は、<code>../myotherfolder/myimage.pngを参照します</code> <code>mypackage.sbsのパス</code>.</p><p><b>絶対パス</b>に設定されている場合、リソースは完全なシステムパスによって参照されます。</p><p>例： SBSパッケージ<code>myparentfolder/myproject/mypackage.sbs</code>、画像<code>myparentfolder/myotherfolder/myimage.png</code> <code>mypackage.sbsでこの完全なパスを参照します</code></p><p><i>既定： ...相対パス。</i></p><p><i>注意：</i>どのような場合でも、リソースを移動すると<i>依存関係が解除</i>され、グラフでは<b>ゴーストインスタンス</b>のノードが生成されます。  SBSパッケージと共に、1つのプロジェクトフォルダー内のすべての依存関係を<i>統合</i>するには、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルの<b>依存関係を保持してエクスポート…</b>機能を使用できます。 これにより、自由に移動できる<i>自己完結型</i>プロジェクトフォルダーが効率的に作成されます。 |
 
 ### ライブラリ
 
@@ -136,14 +136,14 @@ SBSパッケージがライブラリに追加される場合、**ライブラリ
 
 *既定：確認済み*
 
-ライブラリに含まれている[Photoshop](https://www.adobe.com/products/photoshop.html)ドキュメント（\*.PSDファイル）に<b>複数のレイヤー</b>がある場合、ライブラリの*&#x200B;各レイヤーのコンテンツを個別の画像項目*として表示するオプションを使用できます。
+ライブラリに含まれている[Photoshop](https://www.adobe.com/jp/products/photoshop.html)ドキュメント（\*.PSDファイル）に<b>複数のレイヤー</b>がある場合、ライブラリの*&#x200B;各レイヤーのコンテンツを個別の画像項目*として表示するオプションを使用できます。
 
 *既定：確認済み*
 
 >[!NOTE]
 >
 > カスタムリソースはライブラリに追加されますが、既存のライブラリカテゴリに対して設定されているフィルター処理ルールのため、*表示されない*&#x200B;可能性があります。 プロジェクトの作業中にコンテンツが確実に見つかるように、フォルダーに整理された&#x200B;*独自のフィルター*&#x200B;を作成することをお勧めします。\
-> 詳細については、ドキュメントの[カスタムコンテンツとフィルターの管理](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)セクションを参照してください。
+> 詳細については、ドキュメントの[カスタムコンテンツとフィルターの管理](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)セクションを参照してください。
 
 ### Python
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: SVGのベクターグラフィックをSubstance 3D Designerのリソースとして読み込んで使用し、プロシージャルなマテリアルを作成できます。
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ SVGストレージは、リンクされているか、インポートされて�
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/products/illustrator.html)では、以下のオプションに注意を払う場合、SVGの書き出しを最大限に制御できます。
+[Illustrator](https://www.adobe.com/jp/products/illustrator.html)では、以下のオプションに注意を払う場合、SVGの書き出しを最大限に制御できます。
 
 * <b>名前を付けて保存</b>のみを使用してください。名前を付けて書き出しは&#x200B;*使用できません。*
 * <b>SVGプロファイル</b>は特に重要ではありませんが、小さなプロファイルは間違いなく正しい設定にデフォルトで（ほとんどの場合）設定されます。

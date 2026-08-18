@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでビットマップ、フォント、3Dシーンなどのリソースを読み込み、作成、管理する方法について説明します。
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ ht-degree: 7%
 
 * [ビットマップ](../resources/bitmap-resource/bitmap-resource.md)
 * [ベクターグラフィック（SVG）](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D シーンリソース](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D シーンリソース](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [フォント](../resources/font-resource/font-resource.md)
 
 </td>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: 再利用可能な値やパラメーターを使用するために、Substance 3D Designer関数グラフでカスタム変数を作成する方法について説明します。
 helpx_creative_field: ""

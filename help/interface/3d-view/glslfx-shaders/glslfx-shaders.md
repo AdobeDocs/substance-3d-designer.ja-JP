@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 3DビューでGLSLFXシェーダを使用して、マテリアルレンダリングとプレビュー効果をカスタマイズします。
 helpx_creative_field: ""

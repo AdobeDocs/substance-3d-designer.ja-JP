@@ -38,7 +38,7 @@ DesignerでMDLマテリアルを作成したら、そのマテリアルを&#x200
 * 公開されたパラメーターとデフォルト値
 * その注釈（すなわち、メタデータ）：作成者、タグ、カテゴリ、...
 
-MDLモジュールのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールをエクスポートするには、[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の![](../../assets/mdl-export-module-icon.png) <b>MDLモジュールのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDLモジュールの対象の場所と名前を選択すると、エクスポート処理中にログに記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
+MDLモジュールのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールをエクスポートするには、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の![](../../assets/mdl-export-module-icon.png) <b>MDLモジュールのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDLモジュールの対象の場所と名前を選択すると、エクスポート処理中にログに記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
 
 書き出されたモジュールには、パッケージ内の[MDLグラフ](../../mdl-graphs/mdl-graphs.md)で定義されたMDLマテリアル&#x200B;*all*&#x200B;の定義が含まれます。
 
@@ -60,7 +60,7 @@ MDLモジュールプリセットは、基になるモジュールとほとん�
 
 シーンマテリアル`my_material`に割り当てられたMDLマテリアルのプリセットは、次の場所からエクスポートできます。
 
-* [エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネル。MDLグラフリソースで<b>RMB</b>をクリックし、コンテキストメニューで「<b>プリセットを書き出し…</b>」オプションを選択します
+* [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネル。MDLグラフリソースで<b>RMB</b>をクリックし、コンテキストメニューで「<b>プリセットを書き出し…</b>」オプションを選択します
 * [3Dビュー](../../interface/3d-view/3d-view.md)パネルで、<b>マテリアル/my\_material/プリセットを書き出し…</b>メニューオプションを使用します
 
 このメニューオプションを選択すると、<b>MDLマテリアルプリセットを書き出し</b>ダイアログが開き、次のオプションが表示されます。
@@ -69,11 +69,11 @@ MDLモジュールプリセットは、基になるモジュールとほとん�
 * <b>MDLファイル名</b>: MDLモジュールの名前
 * <b>インポートされたMDLモジュールの埋め込み</b>: MDLモジュールがインポートされたモジュールに依存している場合（モジュール依存関係がある場合など）、このオプションをオンにすると、モジュール依存関係がエクスポートされたMDLモジュールに&#x200B;*埋め込み*&#x200B;され、ファイルサイズや動的継承を犠牲にして、事実上&#x200B;*自給自足*&#x200B;になります
 
-書き出されたプリセットでは、3Dビューのマテリアルのパラメーター&#x200B;*現在の値*&#x200B;が&#x200B;*新しい既定値*&#x200B;値として使用されます。 これらの値は、<b>マテリアル/my\_material/編集</b>オプションを使用して変更できます。このオプションでは、マテリアルの公開パラメーターが[プロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルに表示されます。
+書き出されたプリセットでは、3Dビューのマテリアルのパラメーター&#x200B;*現在の値*&#x200B;が&#x200B;*新しい既定値*&#x200B;値として使用されます。 これらの値は、<b>マテリアル/my\_material/編集</b>オプションを使用して変更できます。このオプションでは、マテリアルの公開パラメーターが[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルに表示されます。
 
 >[!WARNING]
 >
-> [エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルからMDLモジュールをエクスポートすると、パッケージ内のMDLグラフによって定義された&#x200B;*すべての* MDLマテリアルを保持するMDLモジュールが作成されます。[3Dビュー](../../interface/3d-view/3d-view.md)からMDLプリセットをエクスポートすると、MDLモジュールに作成され、メニューの&#x200B;*選択したマテリアル* （この例では`my_material`）に適用されたMDLマテリアルの定義が&#x200B;*のみ*&#x200B;保持されます。
+> [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルからMDLモジュールをエクスポートすると、パッケージ内のMDLグラフによって定義された&#x200B;*すべての* MDLマテリアルを保持するMDLモジュールが作成されます。[3Dビュー](../../interface/3d-view/3d-view.md)からMDLプリセットをエクスポートすると、MDLモジュールに作成され、メニューの&#x200B;*選択したマテリアル* （この例では`my_material`）に適用されたMDLマテリアルの定義が&#x200B;*のみ*&#x200B;保持されます。
 
 ![MDLプリセットの書き出し経路](../../assets/mdl-export-preset.png "MDLプリセットの書き出し経路")
 
@@ -83,7 +83,7 @@ MDLモジュールプリセットは、基になるモジュールとほとん�
 
 MDLモジュールアーカイブは、上記のMDLモジュールと、*テクスチャ*&#x200B;やReadmeファイルなどのリソースを、*単一の移動可能なファイル*&#x200B;に結合します。
 
-MDLモジュールアーカイブのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールアーカイブをエクスポートするには、[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の![](../../assets/mdl-export-module-icon.png) <b>MDLモジュールアーカイブのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDLモジュールアーカイブの対象の場所と名前を選択すると、エクスポート処理中にログに記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
+MDLモジュールアーカイブのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールアーカイブをエクスポートするには、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の![](../../assets/mdl-export-module-icon.png) <b>MDLモジュールアーカイブのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDLモジュールアーカイブの対象の場所と名前を選択すると、エクスポート処理中にログに記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
 
 エクスポートされたモジュールアーカイブには、パッケージ内の[MDLグラフ](../../mdl-graphs/mdl-graphs.md)で定義されたMDLマテリアル&#x200B;*all*&#x200B;の定義を保持するMDLモジュールが含まれます。 [Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)が[MDLグラフ](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)にインスタンス化され、[ルート](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)ノードに移動するストリームに接続されている場合、出力されるテクスチャは&#x200B;*アーカイブに保存*&#x200B;されます。
 
@@ -108,7 +108,7 @@ MDLモジュールアーカイブのエクスポートは、*パッケージ*&#x
 
 たとえば、公開されたパラメーターの値を変更してマテリアルの動作を制御することはできますが、カプセル化されたMDLモジュールでは、これらのパラメーターの&#x200B;*定義*&#x200B;は&#x200B;*利用できません*&#x200B;です。
 
-カプセル化されたMDLモジュールの書き出しは、MDLグラフのコンテキストメニューで<b>[書き出し形式] .mdle</b>オプションを選択することにより、MDLグラフレベルの[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で実行されます。 書き出すMDLカプセル化モジュールのターゲットの場所と名前を選択すると、書き出し処理中に記録されたメッセージの一覧を含む<b>レポートの書き出し</b>ダイアログが表示されます。
+カプセル化されたMDLモジュールの書き出しは、MDLグラフのコンテキストメニューで<b>[書き出し形式] .mdle</b>オプションを選択することにより、MDLグラフレベルの[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で実行されます。 書き出すMDLカプセル化モジュールのターゲットの場所と名前を選択すると、書き出し処理中に記録されたメッセージの一覧を含む<b>レポートの書き出し</b>ダイアログが表示されます。
 
 *のみ* *選択したMDLグラフ*&#x200B;の材料定義は、エクスポートされたカプセル化されたMDLモジュールに含まれます。
 

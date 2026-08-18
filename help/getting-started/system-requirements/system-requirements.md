@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの必要システム構成を確認して、コンピューターが必要な仕様を満たしていることを確認してください。
 helpx_creative_field: ""

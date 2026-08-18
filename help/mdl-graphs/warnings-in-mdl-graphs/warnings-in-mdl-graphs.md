@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)のMDLグラフによってトリガーされる可能性のある警告メッセージとエラーメッセージを一覧表示し、それぞれの一般的なトラブルシューティング手順を示します。
 
-警告は、[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。
+警告は、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでプロシージャルマテリアルを作成する場合の基本的なワークフローについて説明します。
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Substance 3D Designerはノードベースのエディターです。 つまり�
 
 ## ノードベースのワークフロー
 
-Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェアでの作業とは異なります。 操作（メニューオプションに移動して彩度を調整したり、スライダーを変更するなど）を手動で実行する代わりに、画像を編集または作成する<b>論理的な手順</b>を構築します。 これは、「[ノード](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)」と呼ばれる小さな構成要素のネットワークを構築することで発生します。 画像データは、<b>から右</b>へと構成要素を通って移動し、情報のパスを決定するリンクによって接続されます。 すべてのノードが接続されている場合は、最終的な結果に貢献します。
+Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェアでの作業とは異なります。 操作（メニューオプションに移動して彩度を調整したり、スライダーを変更するなど）を手動で実行する代わりに、画像を編集または作成する<b>論理的な手順</b>を構築します。 これは、「[ノード](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)」と呼ばれる小さな構成要素のネットワークを構築することで発生します。 画像データは、<b>から右</b>へと構成要素を通って移動し、情報のパスを決定するリンクによって接続されます。 すべてのノードが接続されている場合は、最終的な結果に貢献します。
 
 主な利点は、ワークフローが<b>非線形</b>になることです。 履歴スタックに入る手動で実行されたアクションとは異なり、いつでもノードをスワップまたは変更できます。 最初のコントラスト調整で、画像の結果に最後まで影響し過ぎたと判断した場合は、後で実行したすべての作業を失うことなく、元に戻して調整したり、完全に切り抜いたりすることができます。
 
@@ -129,7 +129,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 
 関数<b>は、画像データ（ピクセルのセット全体）ではなく、単一の値</b>を処理します。 関数はノードネットワークを持つグラフですが、[使用されるノード](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)およびインターフェイスは[通常のSubstanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)とは異なります。 このワークフローは、<b>算術演算</b>に完全に基づいており、画像プレビューのサムネールが表示されることはありません。そのため、Substance 3D Designerを使用した<b>はるかに高度な作業</b>になります。
 
-関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[公開されたパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作の変更、[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作の作成、およびグラフの[値の使用です。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[公開されたパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作の変更、[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作の作成、およびグラフの[値の使用です。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
 
 </td>
 </tr>

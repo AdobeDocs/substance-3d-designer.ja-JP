@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Substanceグラフの出力は、2つの方法でMDL素材の公開パラメーターに&#x200B;*渡すことができます*。
 
-現在3Dビューで適用されているMDLマテリアルに種類&#x200B;*[variing](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;の公開されたパラメーターがある場合 – この種類は、[公開されたパラメーターのプロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)の<b>型修飾子</b>オプションを使用して設定される可能性があり、これらは&#x200B;*テクスチャ*&#x200B;に接続できます：
+現在3Dビューで適用されているMDLマテリアルに種類&#x200B;*[variing](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;の公開されたパラメーターがある場合 – この種類は、[公開されたパラメーターのプロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)の<b>型修飾子</b>オプションを使用して設定される可能性があり、これらは&#x200B;*テクスチャ*&#x200B;に接続できます：
 
 * <b>Color</b>パラメーターをRGBAテクスチャに接続できます
 * グレースケールテクスチャの<b>フロート</b>パラメーター

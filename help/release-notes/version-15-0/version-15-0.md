@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: 新しい3Dレンダラーと米ドルのネイティブサポートについては、Substance 3D Designerバージョン15.0のリリースノートを確認してください。
 helpx_creative_field: ""

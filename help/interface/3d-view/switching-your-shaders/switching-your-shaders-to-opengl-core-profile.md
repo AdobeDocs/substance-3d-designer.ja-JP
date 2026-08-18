@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 3DビューでシェーダをOpenGL Core Profileに切り替えて、互換性とパフォーマンスを向上させる方法について説明します。
 helpx_creative_field: ""

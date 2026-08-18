@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 3Dビューでラスタライザーレンダラーとパストレーサーレンダラーのいずれかを選択すると、プレビューの品質とパフォーマンスが異なります。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: より見やすいグラフを作成するために、ノード整列ツールを使用してグラフビューのノードを整理し、整列させます。
 helpx_creative_field: ""

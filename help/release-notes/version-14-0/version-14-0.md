@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: 新しいノード、グラフナビゲーション、パフォーマンスの向上については、 Substance 3D Designerバージョン14.0のリリースノートを参照してください。
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * <b>桑原フィルター</b> ：さらにスタイルを適用する場合は、[桑原カラー異方性](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[グレースケール](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)フィルターを使用して絵画調の効果を生み出すことができます。 ディテールでは、画像のディテールに合わせた異方性指向性ブラーを適用します。 その結果、画像は内側のシェイプの方向に流れているように見えます。
 
-これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize)で説明しています。 このガイドを使用して、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法を説明します。
+これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize_jp)で説明しています。 このガイドを使用して、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法を説明します。
 
 その他の強力なノードがパーティに参加します。
 

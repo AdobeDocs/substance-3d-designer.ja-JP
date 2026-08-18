@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフで使用可能なすべてのノードの完全なリファレンスガイドにアクセスできます。
 helpx_creative_field: ""

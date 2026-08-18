@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでSBSPRJプロジェクト設定ファイルを使用して、プロジェクト設定を管理する方法について説明します。
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 <b>全般： </b>グラフテンプレート、接線空間プラグイン、標準および画像形式の既定値。
 
-<b>ライブラリ： </b>ライブラリに表示する監視対象のパスと、[ライブラリビューのフィルターとカテゴリ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)。
+<b>ライブラリ： </b>ライブラリに表示する監視対象のパスと、[ライブラリビューのフィルターとカテゴリ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)。
 
 <b>MDL: </b>MDL監視パス。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 プロジェクトファイルの管理およびプロジェクト設定の変更の詳細については、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)ページを参照してください。
 
-プロジェクトファイルには、[ライブラリ](../../interface/the-library/the-library.md)のカスタム<b>カテゴリ</b>と<b>フィルター</b>も含まれています。これらの詳細については、[カスタムコンテンツとフィルターの管理](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)ページで確認できます。
+プロジェクトファイルには、[ライブラリ](../../interface/the-library/the-library.md)のカスタム<b>カテゴリ</b>と<b>フィルター</b>も含まれています。これらの詳細については、[カスタムコンテンツとフィルターの管理](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)ページで確認できます。
 
 ## XMLを外部編集
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonスクリプティングで、特色を使用して特殊なカラーワークフローを行う方法について説明します。
 helpx_creative_field: ""

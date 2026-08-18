@@ -64,7 +64,7 @@ Irayレンダラー&#x200B;*に切り替えると、一部の3Dビューメニ�
 
 ![Irayでレンダリングされた中世の城壁のマテリアル](../../../assets/iray-overview.png "Irayでレンダリングされた中世の城壁のマテリアル")
 
-*素材： [中世の城壁](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *著者： [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3Dアセット](https://helpx.adobe.com/substance-3d/unlisted/assets.html)* *ライブラリ*
+*素材： [中世の城壁](https://helpx.adobe.com/jp/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *著者： [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/assets.html)* *ライブラリ*
 
 </td>
 </tr>

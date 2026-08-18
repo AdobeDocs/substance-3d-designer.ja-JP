@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでワークスペースをカスタマイズし、ワークフローやレイアウトの環境設定を最適化する方法について説明します。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## ウィンドウメニュー
 
-このメニューを使用すると、Designerのメインユーザーインターフェイスを管理できます。 各オプションは、[このページ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>Windows</b>セクションで、メインツールバーについて説明されています。 ここでは、このメニューに関連する追加の概念について説明します。
+このメニューを使用すると、Designerのメインユーザーインターフェイスを管理できます。 各オプションは、[このページ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>Windows</b>セクションで、メインツールバーについて説明されています。 ここでは、このメニューに関連する追加の概念について説明します。
 
 ### ビューを表示/非表示にする
 

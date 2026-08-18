@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonプラグインでノードとプロパティを作成および操作する方法について説明します。
 helpx_creative_field: ""

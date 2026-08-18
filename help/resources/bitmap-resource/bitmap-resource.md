@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでビットマップリソースを読み込み、作成し、使用して、テクスチャベースのマテリアルを作成する方法について説明します。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ SVG（ベクトルグラフィック）リソースとは異なり、ビット�
 
 ### Substance 3Dアセット(SBSAR)
 
-[SBSARファイル](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)にはビットマップが埋め込まれています。つまり、ビットマップは最終的なSBSARファイルサイズに大きな影響を与えます。 ファイルサイズへの影響については、このページで詳しく説明します。 [SBSARファイルが公開されると、](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)はグラフの出力の計算に使用されるビットマップのみが埋め込まれます。 未使用のビットマップはすべて最適化され、最終的なSBSARパッケージから除外されます。ファイル化には影響しません。
+[SBSARファイル](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)にはビットマップが埋め込まれています。つまり、ビットマップは最終的なSBSARファイルサイズに大きな影響を与えます。 ファイルサイズへの影響については、このページで詳しく説明します。 [SBSARファイルが公開されると、](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)はグラフの出力の計算に使用されるビットマップのみが埋め込まれます。 未使用のビットマップはすべて最適化され、最終的なSBSARパッケージから除外されます。ファイル化には影響しません。
 
 ## ファイルタイプ、カラーモード、解像度
 
@@ -71,4 +71,4 @@ Substance 3D Designerでは、ビットマップのデータを簡単に編集�
 
 ## Filesizeの縮小
 
-[公開されたSubstance 3Dアセット](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)に埋め込まれたビットマップのファイルサイズを最小化する方法に関する推奨事項については、[ベストプラクティス](../../best-practices/best-practices.md)の[ファイルサイズを縮小するガイドライン](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)のページを参照してください。
+[公開されたSubstance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)に埋め込まれたビットマップのファイルサイズを最小化する方法に関する推奨事項については、[ベストプラクティス](../../best-practices/best-practices.md)の[ファイルサイズを縮小するガイドライン](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)のページを参照してください。
