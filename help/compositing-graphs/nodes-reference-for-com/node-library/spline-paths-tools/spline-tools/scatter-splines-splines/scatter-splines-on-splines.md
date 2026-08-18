@@ -37,7 +37,7 @@ ht-degree: 0%
 
 このノードは、スプラインの分散方法をコントロールするための詳細なカスタマイズオプションを提供し、単純な直線スプラインまたはユーザ独自のカスタムスプラインを散乱することができます。
 
-このノードでは、[スプラインマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)ノードを使用して色やイメージをマッピングしたり、スプライン](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)ノード上の[散乱を使用してシェイプを配置するためのスケルトンとして使用したりするための複雑な構造を作成できます。
+このノードでは、[スプラインマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)ノードを使用して色やイメージをマッピングしたり、スプライン[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)ノード上の散乱を使用してシェイプを配置するためのスケルトンとして使用したりするための複雑な構造を作成できます。
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ ht-degree: 0%
 | <b>カスタムスプライン開始Heightの乗算</b> *フロート* | カスタムスプラインの開始Heightと、分散スプラインの開始Heightとの関係を制御します。ここで、1は、カスタムスプラインの完全なHeightが使用されることを意味します。   カスタムスプラインのHeightの使用方法は、選択した<b>開始Heightモード</b>によって異なります： *– 親スプラインから（+カスタムスプライン）:* Heightは親スプラインの&#x200B;*– カスタムスプラインから：* Heightは直接使用されます |
 | <b>開始Heightオフセット</b> *フロート* | スキャッタスプラインの開始Heightに絶対オフセットを適用します。 |
 | <b>Heightの開始</b> *フロート* | スキャッタスプラインの開始Heightの絶対値を設定します。 |
-| <b>Heightモードの終了</b> *整数* | 分散スプラインの終了Heightを計算する手法。   [手動]すべてのスキャッタスプラインに同じ絶対値を設定します。   [親スプラインから（+カスタムスプライン）親スプラインのHeightを使用し、<b>[カスタムスプラインの終点Height]を使用してカスタムスプラインのHeightを追加します。</b>パラメーター。   [カスタムスプラインから]カスタムスプラインのHeightをそのまま使用します。     *注：* <b>スプラインの種類</b>をカスタムスプラインに設定し、<b>カスタムスプライン</b>入力を接続して、カスタムスプラインのHeightを使用します。 |
+| <b>Heightモードの終了</b> *整数* | 分散スプラインの終了Heightを計算する手法。   [手動]すべてのスキャッタスプラインに同じ絶対値を設定します。   &lbrack;親スプラインから（+カスタムスプライン）親スプラインのHeightを使用し、<b>[カスタムスプラインの終点Height]を使用してカスタムスプラインのHeightを追加します。</b>パラメーター。   [カスタムスプラインから]カスタムスプラインのHeightをそのまま使用します。     *注：* <b>スプラインの種類</b>をカスタムスプラインに設定し、<b>カスタムスプライン</b>入力を接続して、カスタムスプラインのHeightを使用します。 |
 | <b>カスタムスプラインの終了Height係数</b> *フロート* | カスタムスプラインの終了Heightと分散スプラインの終了Heightとの関係を制御します。ここで、1はカスタムスプラインの完全なHeightが使用されることを意味します。   カスタムスプラインのHeightの使用方法は、選択した<b>Heightの終了モード</b>によって異なります： *– 親スプラインから（+カスタムスプライン）:* Heightは親スプラインの&#x200B;*– カスタムスプラインから：* Heightは直接使用されます |
 | <b>終了Heightオフセット</b> *フロート* | スキャッタスプラインの終了Heightに絶対オフセットを適用します。 |
 | <b>エンドHeight</b> *フロート* | スキャッタスプラインの終了Heightの絶対値を設定します。 |
