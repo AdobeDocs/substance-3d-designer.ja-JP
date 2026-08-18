@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: DesignerからSubstance 3Dアセットファイル(SBSAR)を公開して、他のアプリケーションやエンジンで使用する方法について説明します。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 このページでは、Substance 3D Designerでパッケージを<b>Substance 3Dアセット</b>ファイル（拡張子<b>SBSAR</b>）として公開する方法について説明します。このファイルは、Substanceエコシステム内およびそれをサポートする他のアプリケーションで使用されます。
 
-通常は、ビットマップではなくSubstance 3Dアセットを使用することをお勧めします。その方が、非常に柔軟で軽量であるためです。 Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/jp/substance-3d-sampler.html)または[Player](https://helpx.adobe.com/substance-3d-player/home.html)で使用している場合は、[送信機能](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)を使用すると高速になります。
+通常は、ビットマップではなくSubstance 3Dアセットを使用することをお勧めします。その方が、非常に柔軟で軽量であるためです。 Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/substance-3d-sampler.html)または[Player](https://helpx.adobe.com/substance-3d-player/home.html)で使用している場合は、[送信機能](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)を使用すると高速になります。
 
 ![単純化されたSBSARファイルの公開](../../assets/exportflow.png "単純化されたSBSARファイルの公開")
 
@@ -49,13 +49,13 @@ Substanceグラフを公開する場合は、次の点に注意してくださ�
 
 ## 公開方法
 
-公開の準備ができたら、[エクスプローラーウィンドウ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)から公開ダイアログにアクセスできます。
+公開の準備ができたら、[エクスプローラーウィンドウ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)から公開ダイアログにアクセスできます。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[エクスプローラーウィンドウ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で、パッケージを右クリックし、![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsarファイル…**&#x200B;を選択します。別のホットキーCtrl + Pキーを使用します。
+[エクスプローラーウィンドウ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で、パッケージを右クリックし、![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsarファイル…**&#x200B;を選択します。別のホットキーCtrl + Pキーを使用します。
 
 ダイアログを使用して公開した後、![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsarファイルを以前のファイル**&#x200B;と同様に使用して、ダイアログが表示されることなく公開プロセスを繰り返し、同じ設定を使用してすぐに公開できます。
 
@@ -72,7 +72,7 @@ Substanceグラフを公開する場合は、次の点に注意してくださ�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[エクスプローラーウィンドウ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で、上部のツールバーの[Publish]ボタン![](../../assets/image2020-9-23-9-39-58.png)をクリックします。
+[エクスプローラーウィンドウ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で、上部のツールバーの[Publish]ボタン![](../../assets/image2020-9-23-9-39-58.png)をクリックします。
 
 ダイアログを使って発行した後は、[前の設定でPublish]ボタン![](../../assets/image2020-9-23-11-15-35.png)を使用して、ダイアログが表示されることなく発行プロセスを繰り返し、同じ設定で発行することができます。
 
