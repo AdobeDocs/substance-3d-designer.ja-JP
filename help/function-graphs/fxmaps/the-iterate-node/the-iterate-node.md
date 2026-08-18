@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
 description: FXMapの反復ノードを使用して、マテリアルに繰り返しパターンや手続き型のバリエーションを作成します。
 helpx_creative_field: ""

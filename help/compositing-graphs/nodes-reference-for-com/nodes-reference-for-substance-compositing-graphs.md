@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 使用可能なすべてのノードについて詳しくは、DesignerのSubstance合成グラフの完全なノードリファレンスを参照してください。
 helpx_creative_field: ""
@@ -35,10 +35,10 @@ SD内の「ノード」と呼ばれるものは、2つのメイングループ�
 
 [ノードライブラリ](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [テクスチャ生成](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
+* [テクスチャ生成](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
 * [フィルター](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
 * [マテリアルフィルター](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [メッシュベースの生成](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
+* [メッシュベースの生成](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
 * [スプラインとパスツール](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>

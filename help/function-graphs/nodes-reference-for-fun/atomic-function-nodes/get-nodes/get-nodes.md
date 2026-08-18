@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフの「取得」ノードにアクセスして、変数値とデータを取得します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 ![Substance関数グラフ – 浮動小数点の取得](../../../../assets/assign-getfloat.gif "Substance関数グラフ – 浮動小数点の取得"){zoomable="yes"}
 
-Getノードの基本的な機能は、ダイナミック変数をグラブし、それをGet Nodesの出力から返して関数で使用することです。 これらのGetノードは、[グラフプロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)で定義された入力パラメーターと[パラメーター関数](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の間のリンクを形成します。
+Getノードの基本的な機能は、ダイナミック変数をグラブし、それをGet Nodesの出力から返して関数で使用することです。 これらのGetノードは、[グラフプロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)で定義された入力パラメーターと[パラメーター関数](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の間のリンクを形成します。
 
 Getノードを使用するたびに、ドロップダウンメニューから使用可能な値を選択する必要があります。 Get nodesは<b>対応する型の値</b>を取得します。 つまり、Getノードのメニューには有効なオプションのみが表示され、無効なオプションを選択することはできません。 変数を使用できない場合は、型の不一致が発生しています
 
