@@ -60,7 +60,7 @@ MDLグラフは、次のいずれかの方法を使用して作成できます�
 テンプレートのリストは、**プロジェクト**&#x200B;コンボボックスの横にある&#x200B;*ボタン*&#x200B;を使用して、さまざまなモードで表示できます。
 
 * **![](../../assets/mdl-template-recent-icon.png)最近使用したテンプレートを表示**:リストをフィルターして、最後に使用したテンプレートを&#x200B;*最新のテンプレートから最新のテンプレートまで*&#x200B;順に表示します。一番上のアイテムが最新のテンプレートです
-* **![](../../assets/mdl-template-graphs-icon.png)グラフの表示**:テンプレートは、テンプレートのディレクトリにある[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)ファイルの順に、*ラベルのみ*&#x200B;で表示されます
+* **![](../../assets/mdl-template-graphs-icon.png)グラフの表示**:テンプレートは、テンプレートのディレクトリにある[Substance 3D](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)ファイルの順に、*ラベルのみ*&#x200B;で表示されます
 * **![](../../assets/mdl-template-packages-icon.png)Substance 3Dファイルの表示**:テンプレートは、テンプレートのディレクトリ内のファイルの順に、*属するSubstance 3Dファイルの子*&#x200B;としてラベルに従って表示されます
 * **![](../../assets/mdl-template-directory-icon.png)ディレクトリの表示**:テンプレートは、テンプレートのディレクトリ内のファイルの順序で、属するディレクトリの&#x200B;*子*&#x200B;としてラベルによって表示されます
 

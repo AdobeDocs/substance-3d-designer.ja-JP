@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Substance 3D Designerで3Dシーンリソースを読み込んで使用し、マテリアルのプレビューとテストを行う方法について説明します。
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 3Dシーンは&#x200B;*のみ*&#x200B;リンクできます。つまり、ディスク上の位置に留まり、アプリケーションで参照されるだけです。
 
-3Dシーンリソースを含むパッケージが[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)アセット(SBSAR)として公開されると、メッシュは&#x200B;*埋め込まれず*&#x200B;ですが、破棄されます。
+3Dシーンリソースを含むパッケージが[Substance 3D](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)アセット(SBSAR)として公開されると、メッシュは&#x200B;*埋め込まれず*&#x200B;ですが、破棄されます。
 
 ## メッシュマップをベイク処理する
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 * パッケージの&#x200B;*RMB*&#x200B;をクリックし、コンテキストメニューの<b>リンク/3Dメッシュ</b>オプションを選択します
 * サポートされている3Dシーンファイルを選択
 * <b>[Udimメッシュとしてリンク]</b>ダイアログプロンプトが表示された場合、UVタイルをベイクしない限り、*いいえ*&#x200B;をクリックしてください
-* [エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)にリソースを読み込んだ状態で、*RMB*&#x200B;をクリックし、コンテキストメニューの<b>モデル情報のベイク</b>オプションを選択します
+* [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)にリソースを読み込んだ状態で、*RMB*&#x200B;をクリックし、コンテキストメニューの<b>モデル情報のベイク</b>オプションを選択します
 * [モデル情報のベイク](../../bakers/bakers.md)ダイアログが表示され、メッシュマップのベイク処理を設定および実行できます
 
 ![メッシュマップのベイク処理](../../assets/bake-model-information.gif "メッシュマップのベイク処理"){width="512px"}

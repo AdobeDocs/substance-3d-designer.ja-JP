@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: 高度なワークフロー用のSubstance 3D Designerの関数グラフに組み込まれているシステム変数について説明します。
 helpx_creative_field: ""

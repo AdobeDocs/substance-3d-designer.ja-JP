@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの概要を説明し、プロシージャルなマテリアルやテクスチャを作成するための機能について説明します。
 helpx_creative_field: ""
@@ -155,7 +155,7 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 
 * [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)
 * [ベクターグラフィック(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3Dメッシュとシーン](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3Dメッシュとシーン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [フォント](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

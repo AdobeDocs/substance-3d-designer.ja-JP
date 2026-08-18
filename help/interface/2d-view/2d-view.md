@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの2Dビューを使用して、マテリアルグラフからのテクスチャ出力をプレビューおよび確認します。
 helpx_creative_field: ""
@@ -343,7 +343,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 詳しくは、ドキュメントの[ビットマップペイントエディター](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html)を参照してください。
+> 詳しくは、ドキュメントの[ビットマップペイントエディター](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html)を参照してください。
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 詳しくは、ドキュメントの[ベクターグラフィックエディター（非推奨）](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html)ページを参照してください。
+> 詳しくは、ドキュメントの[ベクターグラフィックエディター（非推奨）](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html)ページを参照してください。
 
 ![2D表示のカラーマネジメント](../../assets/2d-view-color-management-ocio.png "2D表示のカラーマネジメント"){width="360px"}
 

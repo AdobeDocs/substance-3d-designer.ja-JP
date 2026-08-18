@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 外部アプリケーションやワークフローで使用するために、Substance合成グラフからテクスチャとビットマップを書き出す方法について説明します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # ビットマップの書き出し
 
-このページでは、Substance 3D Designerで様々なビットマップファイル形式に書き出す方法と、複数のUVタイルを一括して書き出す方法について説明します。[PSDのファイルにエクスポートする場合、](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [専用の専用ページがあります。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+このページでは、Substance 3D Designerで様々なビットマップファイル形式に書き出す方法と、複数のUVタイルを一括して書き出す方法について説明します。[PSDのファイルにエクスポートする場合、](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [専用の専用ページがあります。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![簡易化された文書の書き出し](../../assets/exportflow.png "簡易化された文書の書き出し")
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 * パッケージではなく、Graph</b>からエクスポートする<b>。 パッケージは画像コンテンツだけを生成するわけではありません。
 * 書き出されるビットマップの数（および解像度）は、グラフの<b>出力</b>によって決まります。
 * すべての出力/ビットマップに対してファイルタイプが設定されています。
-* 書き出しは[公開](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)とは異なります。違いをよく理解してください。
+* 書き出しは[公開](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)とは異なります。違いをよく理解してください。
 
 ## 書き出し方法
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[エクスプローラーウィンドウ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で、書き出すグラフを右クリックし、**[出力をビットマップとして書き出し]**&#x200B;を選択します
+[エクスプローラーウィンドウ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)で、書き出すグラフを右クリックし、**[出力をビットマップとして書き出し]**&#x200B;を選択します
 
 ![](../../assets/export-explorer.gif)
 

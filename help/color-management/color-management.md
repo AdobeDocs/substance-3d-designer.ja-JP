@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: カラースペース、プロファイル、スポットカラーワークフローなど、Substance 3D Designerのカラーマネジメントについて説明します。
 helpx_creative_field: ""
@@ -161,7 +161,7 @@ Designerは、画像ファイルを保存する前に、画像を&#x200B;*指定
 
 ![出力ダイアログのエクスポート](../assets/2019-3-0-clr-mgt-export-outputs.png "出力ダイアログのエクスポート"){width="512px"}
 
-[2Dビュー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)から&#x200B;*保存*&#x200B;された画像には、カラースペース(OCIO)を割り当てたり、ICCプロファイル(Adobe ACE)を添付したりすることもできます。
+[2Dビュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)から&#x200B;*保存*&#x200B;された画像には、カラースペース(OCIO)を割り当てたり、ICCプロファイル(Adobe ACE)を添付したりすることもできます。
 
 ![2Dビューの書き出しオプション](../assets/2019-3-0-clr-mgt-save-image.png "2Dビューの書き出しオプション")
 
@@ -209,7 +209,7 @@ Designerに付属のHDRI環境は、<b>リニアsRGB</b>カラースペースで
 </tr>
 </table>
 
-これらは、*カラーマネジメント*&#x200B;なしで作成されたグラフや、[Substance 3Dアセット](https://helpx.adobe.com/substance-3d/unlisted/assets.html)ライブラリから作成されたマテリアルを操作する場合に便利です。
+これらは、*カラーマネジメント*&#x200B;なしで作成されたグラフや、[Substance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/assets.html)ライブラリから作成されたマテリアルを操作する場合に便利です。
 
 ![ライブラリの色変換ノード](../assets/2019-3-0-clr-mgt-nodes.png "ライブラリの色変換ノード"){width="512px"}
 

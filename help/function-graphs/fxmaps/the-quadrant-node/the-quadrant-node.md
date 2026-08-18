@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: FXMapのQuadrantノードを使用して、テクスチャを4つのセクションに分割し、タイルパターンおよびバリエーションを作成します。
 helpx_creative_field: ""

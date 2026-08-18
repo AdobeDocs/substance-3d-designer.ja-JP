@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: ノード、コネクション、ワークフローの基礎など、Substance合成グラフのキーコンセプトについて説明します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## サブグラフ/公開
 
-[グラフを公開する](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)かサブグラフを作成する、という2つの概念は非常によく似ており、抽象的です。 つまり、任意のグラフやノードのネットワークをまとめて「パッケージ化」し、再利用できるスタンドアロンのリソースにすることができます。 [サブグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)の作成は、効率的でスマートなワークフローで特定のコンテンツを再利用できるようにするために、ほとんどの場合アプリケーション内で行います。これは、一連のノードが何度も重複しないようにするためです。 パブリッシュには、[Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)形式にエクスポートする追加の手順が含まれ、Unreal Engineのマテリアルを作成する場合など、ノードのネットワークグラフをアプリケーションの外部で使用できるようになります。
+[グラフを公開する](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)かサブグラフを作成する、という2つの概念は非常によく似ており、抽象的です。 つまり、任意のグラフやノードのネットワークをまとめて「パッケージ化」し、再利用できるスタンドアロンのリソースにすることができます。 [サブグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)の作成は、効率的でスマートなワークフローで特定のコンテンツを再利用できるようにするために、ほとんどの場合アプリケーション内で行います。これは、一連のノードが何度も重複しないようにするためです。 パブリッシュには、[Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)形式にエクスポートする追加の手順が含まれ、Unreal Engineのマテリアルを作成する場合など、ノードのネットワークグラフをアプリケーションの外部で使用できるようになります。
 
 入力、出力、公開パラメーターは、サブグラフまたはパブリッシュされたSubstance 3Dアセットとして使用された後もグラフを操作するための唯一の手段であるため、このコンセプトにとって非常に重要です。 その理由は次のとおりです。
 

@@ -54,7 +54,7 @@ MDLグラフの結果は、<b>Root</b>ノードによって定義されます。
 
 ![MDLグラフのルートノード](../../assets/mdl-root-hl.png "MDLグラフのルートノード")
 
-*MDLグラフのルートノードとそのプロパティが[プロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *パネル*&#x200B;に表示されました
+*MDLグラフのルートノードとそのプロパティが[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *パネル*&#x200B;に表示されました
 
 ## コネクタとタイプ
 

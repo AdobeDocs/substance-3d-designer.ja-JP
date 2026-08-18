@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでメッシュベースのジェネレータノードにアクセスし、3Dメッシュジオメトリとプロパティに基づいてテクスチャを作成します。
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ ht-degree: 4%
   1つ以上のベイク済みマップに基づく白黒のマスクジェネレーター。
 * [風化](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   ベイク済みマップに基づいたフルマテリアルの耐候性エフェクト。
-* [ユーティリティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [ユーティリティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   パンを操作するための追加のユーティリティとツール。

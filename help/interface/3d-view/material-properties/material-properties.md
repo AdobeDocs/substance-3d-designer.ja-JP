@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: 3Dビューでマテリアルプロパティを設定し、3Dオブジェクト上にSubstanceマテリアルがどのように表示されるかをプレビューして調整します。
 helpx_creative_field: ""

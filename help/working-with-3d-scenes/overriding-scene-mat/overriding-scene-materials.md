@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: 3Dシーンの既存のマテリアルをオーバーライドして、テストやプレビュー用に独自のSubstanceマテリアルに置き換えます。
 helpx_creative_field: ""

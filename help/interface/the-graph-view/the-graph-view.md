@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのグラフビューを使用して、ノードベースのマテリアルグラフを作成および編集する方法について説明します。
 helpx_creative_field: ""
@@ -387,7 +387,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 </b>*– クリーン：* [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに接続されていないストリームの一部であるすべてのノードを削除します。\
 *– エクスポート出力：* [ビットマップエクスポートインターフェイス](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)を開きます。\
 *– 出力の再エクスポート：*&#x200B;前のエクスポート操作を再実行します。\
-*- PSDエクスポータ：*&#x200B;が[PSDエクスポータインターフェイスを開きます。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSDエクスポータ：*&#x200B;が[PSDエクスポータインターフェイスを開きます。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>ノードイメージキャッシュ\
 </b>ノードイメージキャッシュの表示を切り替えます。以下を参照してください。

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: 以前のバージョンに慣れているユーザー向けのSubstance 3D Designerベーカーのレガシーインターフェイスについて説明します。
 helpx_creative_field: ""
