@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの環境設定ウィンドウにアクセスして、アプリケーションの設定と動作をカスタマイズします。
 helpx_creative_field: ""
@@ -37,13 +37,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>最近使用した文書のリストには</b>件あります  *既定： 10* | これにより、[メインメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>ファイル</b>項目の<b>最近使用したパッケージ</b>に一覧表示するドキュメントの数を選択できます。 |
+| <b>最近使用した文書のリストには</b>件あります  *既定： 10* | これにより、[メインメニュー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>ファイル</b>項目の<b>最近使用したパッケージ</b>に一覧表示するドキュメントの数を選択できます。 |
 
 ### 履歴
 
 |  |  |
 | --- | --- |
-| **履歴のスタックサイズ** *既定： 200* | これは、[メインメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>編集/取り消し</b>項目で、任意の時点で使用可能な取り消し操作の数を示します。  **注意：**&#x200B;必要な取り消し操作が多いほど、アプリケーションに必要なメモリが多くなります。 |
+| **履歴のスタックサイズ** *既定： 200* | これは、[メインメニュー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>編集/取り消し</b>項目で、任意の時点で使用可能な取り消し操作の数を示します。  **注意：**&#x200B;必要な取り消し操作が多いほど、アプリケーションに必要なメモリが多くなります。 |
 
 ### 言語
 
@@ -111,13 +111,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>.sbsarに公開したり、別のアプリケーションに送信したりするときに、常に.sbsファイルを保存する</b>  *既定： True* | [公開](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)または[別のアプリケーションに送信](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)するときにSBSパッケージの自動保存を制御します。 |
+| <b>.sbsarに公開したり、別のアプリケーションに送信したりするときに、常に.sbsファイルを保存する</b>  *既定： True* | [公開](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)または[別のアプリケーションに送信](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)するときにSBSパッケージの自動保存を制御します。 |
 
 ### クッカー
 
 |  |  |
 | --- | --- |
-| <b>調理のサイズ制限</b>  *既定： 8192ピクセル* | 任意の[グラフ](../../compositing-graphs/substance-compositing-graphs.md)のすべての[ノード](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)に許可される最大ピクセル解像度を定義します。 グラフの出力は常に2の累乗の解像度の正方形イメージであるため、ここで設定する値は、最大幅と最大Heightの両方をピクセル単位で定義します。 |
+| <b>調理のサイズ制限</b>  *既定： 8192ピクセル* | 任意の[グラフ](../../compositing-graphs/substance-compositing-graphs.md)のすべての[ノード](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)に許可される最大ピクセル解像度を定義します。 グラフの出力は常に2の累乗の解像度の正方形イメージであるため、ここで設定する値は、最大幅と最大Heightの両方をピクセル単位で定義します。 |
 
 ### エンジン
 

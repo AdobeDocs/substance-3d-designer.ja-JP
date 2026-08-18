@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのホーム画面を使用すると、最近使用したプロジェクト、テンプレートおよび学習リソースにアクセスできます。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
 description: 「切り抜き」ノードを使用すると、マテリアル出力を特定の領域に切り抜いて、スキャンされたマテリアルおよびテクスチャを処理できます。
 helpx_creative_field: ""
