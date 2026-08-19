@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: 新しいノード、グラフナビゲーション、パフォーマンスの向上については、 Substance 3D Designerバージョン14.0のリリースノートを参照してください。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 この14.0バージョンでは、以下の新しいノードを備えた新しいコンテンツが多数追加されています。
 
-* <b>色の操作に特化したノード： </b>1つのノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレットを抽出します。これは、独自のカラーパレットを作成するためのツールノードファミリ（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>カラーパレット）と、IDマップを使用して他の画像に適用します([&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md))。 また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけて、クオンタイズカラーで計算されたIDマップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
+* <b>色の操作に特化したノード： </b>1つのノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレットを抽出します。これは、独自のカラーパレットを作成するためのツールノードファミリ（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>カラーパレット）と、IDマップを使用して他の画像に適用します(](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md))。 [また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけて、クオンタイズカラーで計算されたIDマップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * <b>桑原フィルター</b> ：さらにスタイルを適用する場合は、[桑原カラー異方性](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[グレースケール](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)フィルターを使用して絵画調の効果を生み出すことができます。 ディテールでは、画像のディテールに合わせた異方性指向性ブラーを適用します。 その結果、画像は内側のシェイプの方向に流れているように見えます。
 
-これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize_jp)で説明しています。 このガイドを使用して、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法を説明します。
+これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize)で説明しています。 このガイドを使用して、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法を説明します。
 
 その他の強力なノードがパーティに参加します。
 
