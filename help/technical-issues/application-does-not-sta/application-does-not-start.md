@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Substance 3D Designerを起動できない問題のトラブルシューティングを行い、アプリケーションを起動する方法を確認します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: アプリケーションが起動しない
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 統合GPU(iGPU)とディスクリートGPU(dGPU)の両方を搭載したシステムで、バージョン15.0以降のDesignerを起動できない。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](../../assets/check.svg)推奨ステップ</b>
 
 iGPUのグラフィックドライバーを更新します。 最新のドライバーは、次の場所で確認できます： [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
@@ -90,7 +90,7 @@ Windows 10にアップグレードできない場合は、Designer *過去*&#x20
 
 ホーム画面を閉じてメインウィンドウを表示するとクラッシュする。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](../../assets/check.svg)推奨ステップ</b>
 
 Designerは、システムの<b>libffi.so</b>ライブラリを読み込むため、Pythonコンポーネントを読み込めません。
 
@@ -132,7 +132,7 @@ steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>![(error)](../../assets/error.svg) Issu</b><b>e</b>
+<b>![（エラー）](../../assets/error.svg) Issu</b><b>e</b>
 
 `<b>xcb</b>`プラグインを読み込めません。 コマンドラインに次のメッセージが表示されます。
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Designerによって読み込まれたシステムライブラリは、Designer独自の<b>libcrypto.so.1.1</b>ライブラリと互換性がありません。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](../../assets/check.svg)推奨ステップ</b>
 
 Designerのインストールディレクトリから<b>`libcrypto.so.1.1`</b>ライブラリを削除して、代わりにシステムのライブラリが使用されるようにします。
 
