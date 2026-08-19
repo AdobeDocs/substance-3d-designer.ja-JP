@@ -30,7 +30,7 @@ ht-degree: 0%
 
 この14.0バージョンでは、以下の新しいノードを備えた新しいコンテンツが多数追加されています。
 
-* <b>色の操作に特化したノード： </b>1つのノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレットを抽出します。これは、独自のカラーパレットを作成するためのツールノードファミリ（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>カラーパレット）と、IDマップを使用して他の画像に適用します(](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md))。 [また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけて、クオンタイズカラーで計算されたIDマップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
+* <b>色の操作に特化したノード： </b>1つのノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレットを抽出します。これは、独自のカラーパレットを作成するためのツールノードファミリ（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>カラーパレット）と、IDマップを使用して他の画像に適用します([&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md))。 また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけて、クオンタイズカラーで計算されたIDマップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 * [コンテンツ] Substance関数グラフで「Negate Float1」ノードを廃止する
 * [コンテンツ] 「カラーを量子化」の名前を「カラーを量子化（シンプル）」に変更
 * [2Dビュー] 0 ～ 1の範囲外のピクセルの値が情報パネルに表示される
-* [Engine][Text]一部のフォントの新しいカーニング
+* [Engine]&#x200B;[Text]一部のフォントの新しいカーニング
 * [グラフ]インコンテキスト編集中にディープサブグラフを編集する際の無効化時間を短縮
 * [リンカー] SBSASMでビットマップを複製しない
 * [パラメーター]すべての入力パラメータータイプに新しい「関数」ウィジェットを追加します
