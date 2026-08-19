@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Designerバージョン12.4のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### パラメーターフィールドに数式を入力する
 
-特定のパラメータ値を入力する場合は、計算ツールを使用したり、頭の中で計算したりする必要がなくなりました。 [プロパティ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)やアプリケーション内の他の場所でパラメーターに数値を設定する場合、追加、分割、乗算、減算などの基本的な数式を直接入力できるようになりました。
+特定のパラメータ値を入力する場合は、計算ツールを使用したり、頭の中で計算したりする必要がなくなりました。 [プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)やアプリケーション内の他の場所でパラメーターに数値を設定する場合、追加、分割、乗算、減算などの基本的な数式を直接入力できるようになりました。
 
 ![](../../assets/final-formula.gif){width="640px"}
 
