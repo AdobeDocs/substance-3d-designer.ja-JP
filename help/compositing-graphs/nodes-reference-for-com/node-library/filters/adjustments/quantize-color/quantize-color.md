@@ -82,7 +82,7 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>出力</b> *色* | 量子化されたカラー画像。 |
-| <b>ID</b> *グレースケール* | 量子化された各カラーに一意の整数識別子が割り当てられたマップ。   これは次の場合に使用できます。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>IDが[IDの一部のクオンタイズ領域からマスク</b>をマスクに](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードから抽出します</li> <li data-preserve-html="true">[カラーパレットを適用](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)または[カラーパレットを変更](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)ノードを使用して、量子化された画像を<b>再配色</b>します</li> </ul> |
+| <b>ID</b> *グレースケール* | 量子化された各カラーに一意の整数識別子が割り当てられたマップ。   これは次の場合に使用できます。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>IDが</b>[IDの一部のクオンタイズ領域からマスク</b>をマスクに](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードから抽出します</li> <li data-preserve-html="true">[カラーパレットを適用](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)または[カラーパレットを変更](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)ノードを使用して、量子化された画像を<b>再配色します</li> </ul> |
 | <b>パレット</b> *色* | 画像から抽出されたパレットで、量子化後の残りの色を保持します。   画像は、ピクセルの行としてエンコードされたRGBカラーの順序付きリストで、最大256色を保持できます。   パレットは、[[カラーパレットの表示]](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)ノードで表示できます。 |
 | <b>パレットの色の適用量</b> *整数* | パレットに格納される色の量。 |
 
