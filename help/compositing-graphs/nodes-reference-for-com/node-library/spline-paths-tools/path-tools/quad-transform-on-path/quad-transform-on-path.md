@@ -1,0 +1,118 @@
+---
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+breadcrumb-title: ''
+description: '[パス上の四角形変換]ノードを使用して、パスカーブに沿った要素に四角形変換を適用します。'
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: パス上のクアッドメニュートランスフォーム
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 1%
+
+---
+
+
+# パス上のクアッドメニュートランスフォーム
+
+<table>
+<tr style="border: 0;">
+<td width="33.33%" style="border: 0;" valign="top">
+
+![ノードアイコン](../../../../../../assets/quad-transform-on-paths-icon.png "ノードアイコン")
+
+<b>イン：</b>スプラインおよびパスツール>パスツール
+
+</td>
+<td width="100.00%" style="border: 0;" valign="top">
+
+## 説明
+
+4つのハンドルを使用してパスを変形します。
+
+</td>
+</tr>
+</table>
+
+## 入力コネクタ
+
+<b>パス</b> *色*\
+エンコードされたセグメントパスのリスト。 この入力を[マスクの結果にパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)または別の&#x200B;*パス*&#x200B;処理ノードに接続します。
+
+## 出力コネクタ
+
+<b>パス</b> *色*\
+変換されたパス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。
+
+## パラメーター
+
+<b>p00</b> *浮動小数点2*\
+左上ハンドルの位置を指定します。
+
+<b>p01</b> *浮動小数点2*\
+右上ハンドルの位置を指定します。
+
+<b>p02</b> *浮動小数点2*\
+左下のハンドルの位置。
+
+<b>p03</b> *浮動小数点2*\
+右下のハンドルの位置。
+
+## 例
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<table>
+  <tr>
+    <td>
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <br><i>前</i>
+    </td>
+    <td>
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <br><i>後</i>
+    </td>
+  </tr>
+</table>
+
+</td>
+<td style="border: 0;" valign="top">
+
+<table>
+  <tr>
+    <td>
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <br><i>前</i>
+    </td>
+    <td>
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <br><i>後</i>
+    </td>
+  </tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![ノードの例1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "ノードの例1")
+
+</td>
+<td style="border: 0;" valign="top">
+
+![ノードの例2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "ノードの例2")
+
+</td>
+</tr>
+</table>
