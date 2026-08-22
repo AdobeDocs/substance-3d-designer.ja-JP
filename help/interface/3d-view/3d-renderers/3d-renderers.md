@@ -178,7 +178,7 @@ Heightを表示するには、次の2つの方法を使用できます。
 
 <b>テッセレーション+ ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
 
-アドビ標準マテリアルについては、アドビのドキュメントの[このセクション](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で詳細に説明されています。
+アドビ標準マテリアルについては、アドビのドキュメントの[このセクション](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で詳細に説明されています。
 
 +++
 

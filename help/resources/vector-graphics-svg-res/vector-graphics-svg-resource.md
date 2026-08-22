@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designerは、Scalable Vectorグラフィック形式を通じて、ベクターグラフィックの限られた形式をサポートしています。 SVGファイルは、様々な方法でリソースとして取り込み、グラフのリソースとして使用できます。
 
-SVGファイル[は、アトミックSVGノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)を使用して作成または編集できます。[UVからSVGベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)を使用して作成することもできます。
+SVGファイル[は、アトミックSVGノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)を使用して作成または編集できます。[UVからSVGベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)を使用して作成することもできます。
 
 >[!NOTE]
 >

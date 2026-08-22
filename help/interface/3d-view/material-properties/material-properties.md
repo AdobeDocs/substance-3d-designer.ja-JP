@@ -202,7 +202,7 @@ Adobe Standard Material(ASM)モデルはDesigner 11.2で導入されたもので
 Designerは新しいデフォルトモデルとしてOpenPBRに移行されますが、ASMは引き続き含まれ、そのプロパティも共有されます
 ラスタライザー、GPU パストレーサー、OpenGL [3Dレンダラー](../3d-renderers/3d-renderers.md)全体。
 
-モデルは、[こちら](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で文書化されています。
+モデルは、[こちら](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で文書化されています。
 
 <a name="usdpreviewsurface"></a>
 
