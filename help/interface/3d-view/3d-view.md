@@ -215,7 +215,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 >
 > **TDR （Windowsのみ）**
 > 
-> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
+> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
 
 ## メニューバー
 
@@ -299,7 +299,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 <b>定義の読み込み…: </b>（OpenGLレンダラーのみ）独自のカスタム[GLSLFXシェーダーを読み込むことができます。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 上のリストにシェーダが追加されます。
 
-<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
+<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
 
 <b>名前の変更：</b>このマテリアルのラベルを変更します。
 

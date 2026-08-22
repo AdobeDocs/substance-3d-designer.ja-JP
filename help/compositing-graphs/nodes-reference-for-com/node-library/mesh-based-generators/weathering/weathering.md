@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 風化
 
-耐候性ノードは、[マスクジェネレーター](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)を1歩進めます。パラメーターとベイク済みマップに基づいて、マテリアル全体の耐候性エフェクトを実行します。 このコンセプトは、Substance Painterの[スマートマテリアル](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)に非常によく似ています。
+耐候性ノードは、[マスクジェネレーター](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)を1歩進めます。パラメーターとベイク済みマップに基づいて、マテリアル全体の耐候性エフェクトを実行します。 このコンセプトは、Substance Painterの[スマートマテリアル](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/features/smart-materials-and-masks)に非常によく似ています。
 
 これらのノードから完全な結果を得るには、1つ以上のベイク済みマップが必要です。
 

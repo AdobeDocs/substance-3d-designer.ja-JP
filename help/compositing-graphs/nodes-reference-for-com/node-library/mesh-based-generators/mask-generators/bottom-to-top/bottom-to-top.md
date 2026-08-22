@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)の[スマートマスク](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)の[スマートマスク](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/features/smart-materials-and-masks)に似ています。
 
 これにより、モデルの下部から上部に白から黒へのトランジションが生成され、ジオメトリベースのフォールオフや選択を行う場合に便利です。
 

@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 > **TDR （Windowsのみ）**
 > 
-> GPUで大量の計算を実行する際（複雑なグラフのレンダリング、3Dビューでのレンダリング、3Dビューからのシーンの書き出しなど）に全体的な安定性を最大限に高めるには、<b>タイムアウトの検出と回復(TDR)</b>の値がドキュメントの[このページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨事項と一致していることを確認することを強くお勧めします。
+> GPUで大量の計算を実行する際（複雑なグラフのレンダリング、3Dビューでのレンダリング、3Dビューからのシーンの書き出しなど）に全体的な安定性を最大限に高めるには、<b>タイムアウトの検出と回復(TDR)</b>の値がドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨事項と一致していることを確認することを強くお勧めします。
 
 ## サポートされていない設定
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 アプリケーションを問題なく実行するために必要なGPUドライバーの最小バージョンを以下に示します。 このリストは、新しいバージョンのリリースに伴って変更される場合があります。
 
-新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
+新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 <b>DXR</b>には次の最小構成が必要です：
 
-* <b>Windows 10</b>バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
+* <b>Windows 10</b>バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
 * <b>Pascalアーキテクチャ搭載GPU</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -126,7 +126,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 ## タブレットの使用
 
-<b>Windows</b>のタブレットユーザーは、最も信頼性の高いエクスペリエンスを実現するために、次のページで説明されている設定を適用する必要があります： [ペンとタブレットの構成](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
+<b>Windows</b>のタブレットユーザーは、最も信頼性の高いエクスペリエンスを実現するために、次のページで説明されている設定を適用する必要があります： [ペンとタブレットの構成](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
 
 ## 言語
 
