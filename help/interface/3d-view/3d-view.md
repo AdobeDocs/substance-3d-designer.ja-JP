@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D ビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3561'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 1%
 * **GPU パストレーサー**&#x200B;レンダラーを使用した高品質のレイトレースレンダリング
 
 詳細については、こちらを参照してください： [3Dレンダラー](3d-renderers/3d-renderers.md)
+
++++ 3Dビューのドック
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## ビューポートの操作
 
@@ -548,7 +554,23 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 >[!NOTE]
 >
-> 3本の平行な線で表された左端の&#x200B;*ハンドル*&#x200B;を使用して、ツールバーを&#x200B;**3**&#x200B;**&#x200B; Dビュー**&#x200B;ドックの周りに*再配置*できます。
+> 3本の平行な線で表された左端の&#x200B;*ハンドル*&#x200B;を使用して、ツールバーを&#x200B;**3Dビュー**&#x200B;ドックの周りに&#x200B;*再配置*&#x200B;できます。
+
+### 3D レンダリング AOV
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p><img src="./3d-view.resources/aov/aov-icon.png" alt="3DレンダリングAOVアイコン" style="padding-left: 5px; padding-right: 5px" /> <b>3DレンダリングAOV</b>ボタンを使用して、異なる<a href="../../glossary/glossary.md#aov">AOV</a>を表示できます。</p>
+            <p>AOVを使用すると、メッシュとマテリアルの情報を個別に検査して、集中的な作業やデバッグを行うことができます。</p>
+            <p>一部のAOVには、ビューポートで1 （純粋な白）または0 （純粋な黒）にクランプされる<i>HDR値</i>が含まれています。<br>すべての値を検査するには、AOVの3DレンダリングをHDR値をサポートする画像ファイル形式（<code>.exr</code>など）に書き出します。<br>現在のAOVを書き出すには、[<code>Camera > Save render...</code>]メニューオプションを使用します。</p>
+            <p><i>注意：</i> AOVは、ラスタライザーとGPU パストレーサー <a href="./3d-renderers/3d-renderers.md">3Dレンダラー</a>を使用している場合にのみ使用できます。</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="合成された3DレンダリングAOV" />
+        </td>
+    </tr>
+</table>
 
 ### カラーチャンネル
 
