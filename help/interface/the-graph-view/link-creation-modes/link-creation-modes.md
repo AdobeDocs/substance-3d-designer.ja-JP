@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: ノードを効率的に接続するためのSubstance 3D Designerグラフビューのリンク作成モードについて説明します。
 helpx_creative_field: ""

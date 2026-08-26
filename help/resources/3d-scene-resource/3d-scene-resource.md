@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Substance 3D Designerで3Dシーンリソースを読み込んで使用し、マテリアルのプレビューとテストを行う方法について説明します。
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 3Dシーンは&#x200B;*のみ*&#x200B;リンクできます。つまり、ディスク上の位置に留まり、アプリケーションで参照されるだけです。
 
-3Dシーンリソースを含むパッケージが[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)アセット(SBSAR)として公開されると、メッシュは&#x200B;*埋め込まれず*&#x200B;ですが、破棄されます。
+3Dシーンリソースを含むパッケージが[Substance 3D](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)アセット(SBSAR)として公開されると、メッシュは&#x200B;*埋め込まれず*&#x200B;ですが、破棄されます。
 
 ## メッシュマップをベイク処理する
 

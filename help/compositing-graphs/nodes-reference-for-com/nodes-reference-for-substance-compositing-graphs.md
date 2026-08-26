@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 使用可能なすべてのノードについて詳しくは、DesignerのSubstance合成グラフの完全なノードリファレンスを参照してください。
 helpx_creative_field: ""

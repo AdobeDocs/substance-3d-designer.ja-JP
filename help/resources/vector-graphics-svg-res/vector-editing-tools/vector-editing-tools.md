@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのベクトル編集ツールを使用して、プロシージャルテクスチャ用のSVGグラフィックを作成および編集します。
 helpx_creative_field: ""

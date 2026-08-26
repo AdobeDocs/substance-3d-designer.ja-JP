@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフの関数ノードにアクセスして、カスタム関数グラフを呼び出して実行します。
 helpx_creative_field: ""

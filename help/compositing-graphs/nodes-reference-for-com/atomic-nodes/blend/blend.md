@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: ブレンドノードを使用すると、様々なブレンドモードを使用して2つのテクスチャをブレンドし、合成効果を作成できます。
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
+その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
 
 >[!TIP]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/using-threads.html"
 breadcrumb-title: ''
 description: 並列処理とパフォーマンスのために、Substance 3D Designer Pythonスクリプティングでスレッドを使用する方法について説明します。
 helpx_creative_field: ""

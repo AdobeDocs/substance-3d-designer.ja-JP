@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html"
 breadcrumb-title: ''
 description: Substance 3D Designerで環境変数を使用して、パスやシステム設定を構成する方法について説明します。
 helpx_creative_field: ""

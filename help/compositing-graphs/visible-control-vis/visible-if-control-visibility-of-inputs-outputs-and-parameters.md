@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでvisible if式を使用し、条件に基づいてパラメーターの表示を制御する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのグラフビューを使用して、ノードベースのマテリアルグラフを作成および編集する方法について説明します。
 helpx_creative_field: ""

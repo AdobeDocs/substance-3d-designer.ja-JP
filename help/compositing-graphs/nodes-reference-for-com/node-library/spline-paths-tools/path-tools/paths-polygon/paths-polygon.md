@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: パスポリゴンノードを使用して、ジオメトリパターンの生成用に頂点データからポリゴンパスを作成します。
 helpx_creative_field: ""

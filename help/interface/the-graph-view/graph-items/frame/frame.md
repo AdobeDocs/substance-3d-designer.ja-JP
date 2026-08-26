@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのグラフビューでフレームを使用すると、ノードを整理してグループ化し、見やすくすることができます。
 helpx_creative_field: ""

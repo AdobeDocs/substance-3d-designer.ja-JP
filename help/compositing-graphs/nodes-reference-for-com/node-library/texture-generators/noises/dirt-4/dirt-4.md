@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
 breadcrumb-title: ''
 description: Dirt 4ノードを使用して、風化したサーフェスのディテールとアキュムレーションエフェクトを作成するための中間のDirtパターンを作成します。
 helpx_creative_field: ""

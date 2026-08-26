@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: ビュー、パネル、カスタマイズオプションを含むSubstance 3D Designerワークスペースのインターフェイスについて説明します。
 helpx_creative_field: ""
