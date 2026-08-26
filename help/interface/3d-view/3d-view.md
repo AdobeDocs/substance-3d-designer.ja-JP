@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの3Dビューを使用して、3Dオブジェクトのマテリアルをプレビューし、照明条件をテストします。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D ビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3561'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 1%
 * **GPU パストレーサー**&#x200B;レンダラーを使用した高品質のレイトレースレンダリング
 
 詳細については、こちらを参照してください： [3Dレンダラー](3d-renderers/3d-renderers.md)
+
++++ 3Dビューのドック
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## ビューポートの操作
 
@@ -122,9 +128,9 @@ Designerは、デフォルトで画像ベースの照明(IBL)で動作します�
 
 グラフのすべての出力を表示するには、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)で空の領域&#x200B;*RMB*&#x200B;をクリックし、コンテキストメニューの&#x200B;**「3Dビューで出力を表示」**&#x200B;オプションを選択します。
 
-[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)ドックのグラフリソースでRMBをクリックし、コンテキストメニューの&#x200B;**「3Dビューで出力を表示」**&#x200B;オプションを選択すると、グラフを開かずに出力を表示することもできます。
+[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)ドックのグラフリソースでRMBをクリックし、コンテキストメニューの&#x200B;**「3Dビューで出力を表示」**&#x200B;オプションを選択すると、グラフを開かずに出力を表示することもできます。
 
-グラフのコンテキストメニューを使用する代わりに、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)のドックから[3Dビュー](https://substance3d.adobe.com/)にグラフをドラッグして、同じ結果を得ることができます。
+グラフのコンテキストメニューを使用する代わりに、[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)のドックから[3Dビュー](https://substance3d.adobe.com/)にグラフをドラッグして、同じ結果を得ることができます。
 
 *グラフを読み込み中*&#x200B;の出力は、既定では3Dビューに自動的に適用されます。 この動作は、[環境設定](../../interface/preferences-window/preferences-window.md)で無効にできます。 **編集/環境設定/グラフ/共通**&#x200B;に移動し、「**グラフを開くときに3Dビューで出力を表示**」オプションをオフにします。
 
@@ -144,7 +150,7 @@ Designerは、デフォルトで画像ベースの照明(IBL)で動作します�
 
 また、*RMB*&#x200B;を使用して、任意のノードをグラフビューから3Dビューにドラッグアンドドロップすることもできます。 ノードを割り当てる使用可能なチャンネルのリストが表示されます。 「任意」をクリックして確定します。
 
-個々のグラフ出力を表示するには、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)ドックでグラフリソースを展開し、*LMB*&#x200B;を使用して出力を3Dビューにドラッグします。 ノードを割り当てる使用可能なチャンネルのリストが表示されます。 「任意」をクリックして確定します。
+個々のグラフ出力を表示するには、[エクスプローラー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)ドックでグラフリソースを展開し、*LMB*&#x200B;を使用して出力を3Dビューにドラッグします。 ノードを割り当てる使用可能なチャンネルのリストが表示されます。 「任意」をクリックして確定します。
 
 ![カスタム3Dメッシュの表示](../../assets/3d-mesh.gif "カスタム3Dメッシュの表示")
 
@@ -215,7 +221,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 >
 > **TDR （Windowsのみ）**
 > 
-> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
+> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
 
 ## メニューバー
 
@@ -260,7 +266,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 * トーラス
 
-<b>UVを2Dビューで表示：</b>現在選択されているメッシュのUVを[2Dビュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)にオーバーレイとして表示します。
+<b>UVを2Dビューで表示：</b>現在選択されているメッシュのUVを[2Dビュー](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)にオーバーレイとして表示します。
 
 <b>現在のシーンから3Dリソースを作成…:</b>現在のシーンからパッケージ内に新しい[3Dシーンリソース](../../resources/3d-scene-resource/3d-scene-resource.md)を作成します。
 
@@ -299,7 +305,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 <b>定義の読み込み…: </b>（OpenGLレンダラーのみ）独自のカスタム[GLSLFXシェーダーを読み込むことができます。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 上のリストにシェーダが追加されます。
 
-<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
+<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
 
 <b>名前の変更：</b>このマテリアルのラベルを変更します。
 
@@ -548,7 +554,23 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 >[!NOTE]
 >
-> 3本の平行な線で表された左端の&#x200B;*ハンドル*&#x200B;を使用して、ツールバーを&#x200B;**3**&#x200B;**&#x200B; Dビュー**&#x200B;ドックの周りに*再配置*できます。
+> 3本の平行な線で表された左端の&#x200B;*ハンドル*&#x200B;を使用して、ツールバーを&#x200B;**3Dビュー**&#x200B;ドックの周りに&#x200B;*再配置*&#x200B;できます。
+
+### 3D レンダリング AOV
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p><img src="./3d-view.resources/aov/aov-icon.png" alt="3DレンダリングAOVアイコン" style="padding-left: 5px; padding-right: 5px" /> <b>3DレンダリングAOV</b>ボタンを使用して、異なる<a href="../../glossary/glossary.md#aov">AOV</a>を表示できます。</p>
+            <p>AOVを使用すると、メッシュとマテリアルの情報を個別に検査して、集中的な作業やデバッグを行うことができます。</p>
+            <p>一部のAOVには、ビューポートで1 （純粋な白）または0 （純粋な黒）にクランプされる<i>HDR値</i>が含まれています。<br>すべての値を検査するには、AOVの3DレンダリングをHDR値をサポートする画像ファイル形式（<code>.exr</code>など）に書き出します。<br>現在のAOVを書き出すには、[<code>Camera > Save render...</code>]メニューオプションを使用します。</p>
+            <p><i>注意：</i> AOVは、ラスタライザーとGPU パストレーサー <a href="./3d-renderers/3d-renderers.md">3Dレンダラー</a>を使用している場合にのみ使用できます。</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="合成された3DレンダリングAOV" />
+        </td>
+    </tr>
+</table>
 
 ### カラーチャンネル
 

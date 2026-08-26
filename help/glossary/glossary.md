@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの用語集にアクセスし、用語、コンセプト、技術用語の定義を検索します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 用語集
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Designerの用語や概念について説明します。
 
-## #&#x200B;
+## #
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>3Dシーン</b> | 3D空間のビジュアライゼーションを表現およびアニメートするために必要なオブジェクトとデータのコレクション。<ul data-preserve-html="true"> <li data-preserve-html="true">[メッシュ](#mesh)</li> <li data-preserve-html="true">[マテリアル](#material)</li> <li data-preserve-html="true">カメラ</li> <li data-preserve-html="true">ライト</li> <li data-preserve-html="true">アニメーション</li> <li data-preserve-html="true">シミュレーション</li> <li data-preserve-html="true">...</li> </ul>3Dシーンを保存する[一般的なファイル形式](https://www.adobe.com/jp/products/substance3d/discover/3d-files-formats.html)には、Pixarの[USD](#usd)やAutodeskのFBXが含まれます。 すべてのファイル形式が、これらのコンポーネントをすべてサポートしているわけではありません |
+| <b><span id="three-d-scene"></span>3Dシーン</b> | 3D空間のビジュアライゼーションを表現およびアニメートするために必要なオブジェクトとデータのコレクション。<ul data-preserve-html="true"> <li data-preserve-html="true">[メッシュ](#mesh)</li> <li data-preserve-html="true">[マテリアル](#material)</li> <li data-preserve-html="true">カメラ</li> <li data-preserve-html="true">ライト</li> <li data-preserve-html="true">アニメーション</li> <li data-preserve-html="true">シミュレーション</li> <li data-preserve-html="true">...</li> </ul>3Dシーンを保存する[一般的なファイル形式](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html)には、Pixarの[USD](#usd)やAutodeskのFBXが含まれます。 すべてのファイル形式が、これらのコンポーネントをすべてサポートしているわけではありません |
 
 ## A
 
@@ -33,6 +33,7 @@ ht-degree: 1%
 | <b><span id="alpha"></span>Alphaチャンネル</b> | カラー画像の4番目のチャンネル。不透明度を表すのに使用されます。 |
 | <b><span id="ambient-occlusion"></span>環境オクルージョン</b> | 露光量が少なく、そのため到達が困難なサーフェス上の環境光の減衰。 |
 | <b><span id="anisotropy"></span>異方性</b> | 方向に依存するプロパティ。 つまり、異なる軸で測定または観察された場合に異なる結果を提供します。   異方性マテリアルの外観は見た場所によって異なり、異方性フィルタはすべての方向に均一に適用されるわけではありません。 |
+| <b><span id="aov" ></span>AOV</b> | 任意出力変数(AOV)とは、[レンダリング](#rendering)で使用される用語で、深度、法線、カスタムデータなど、レンダリングから出力できる追加のデータチャンネルを表します。 |
 | <b><span id="api"></span>API</b> | アプリケーションプログラミングインターフェイス(API)は、ユーザーがプログラムの別のアプリケーションの関数およびプロシージャにアクセスできるようにする関数およびプロシージャの集まりです。   APIは、ユーザーとプログラムの間に、制御された安全なレイヤーを提供します。 また、他のプログラミング言語を使用して、プログラムの操作を容易にし、より広くアクセスできるようにします。   Designerは[Python API](../scripting/scripting.md)を提供しており、データの操作、カスタムツールの作成、ワークフローの高速化を行うための広範な機能に簡単にアクセスできます。 |
 | <b><span id="atomic-node"></span>アトミックノード</b> | グラフの基本的な構成単位。 すべての[インスタンスノード](#instance-node)は、アトミックノードのグラフに分割できます。 各グラフの種類には、固有のアトミックノードのセットがあります。 |
 
