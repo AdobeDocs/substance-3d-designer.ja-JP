@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDLグラフの警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)のMDLグラフによってトリガーされる可能性のある警告メッセージとエラーメッセージを一覧表示し、それぞれの一般的なトラブルシューティング手順を示します。
 
-警告は、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。
+警告は、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Substanceモデルグラフの出力ノードは&#x200B;*オレンジ*&#x200B;�
 シーンリソースノードの場合
 
 [エクスプローラー](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)パネルで参照されているリソースを検索し、<b>ファイルパス</b>属性に保存されている場所にリソースが存在することを確認してください。\
-表示されない場合は、エクスプローラーのリソース項目の&#x200B;*元*&#x200B;をクリックし、<b>再配置…を選択します。コンテキストメニューの</b>オプションを使用して、そのリソースの新しい有効なターゲットファイルを設定します。
+表示されない場合は、エクスプローラーのリソース項目で&#x200B;*RMB*&#x200B;をクリックし、コンテキストメニューの<b>再配置…</b>オプションを選択して、そのリソースの新しい有効なターゲットファイルを設定します。
 
 ![&#39;参照リソースが見つかりません&#39;ソリューション](../../assets/warnings-model-referenced-resource.gif "&#39;参照リソースが見つかりません&#39;ソリューション")
 

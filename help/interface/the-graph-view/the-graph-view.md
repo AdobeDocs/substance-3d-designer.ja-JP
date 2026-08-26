@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのグラフビューを使用して、ノードベースのマテリアルグラフを作成および編集する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: グラフビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 * ノードツールバーのアイコンをクリックまたはドラッグします（以下を参照）。 この方法で配置できるのは[Atomicノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみです。
 * グラフの空の領域を右クリックして、<b>[ノードの追加]</b>を選択します。 この方法で配置できるのは[Atomicノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみです。
-* サムネールをライブラリ表示からグラフ表示にドラッグします。 このメソッドは、ノードインスタンス[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)を含むすべての種類のノードに対して機能します。
+* サムネールをライブラリ表示からグラフ表示にドラッグします。 このメソッドは、ノードインスタンス](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)を含む[すべての種類のノードに対して機能します。
 * <b>スペースバー</b>を押して、<b>ノードメニュー</b>にアクセスします。 以下を参照してください。
 * ノードにマップされたキーボードショートカットを使用します。 マッピングは[環境設定ウィンドウ](../../interface/preferences-window/preferences-window.md)で実行されます。
 
@@ -387,7 +387,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 </b>*– クリーン：* [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに接続されていないストリームの一部であるすべてのノードを削除します。\
 *– エクスポート出力：* [ビットマップエクスポートインターフェイス](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)を開きます。\
 *– 出力の再エクスポート：*&#x200B;前のエクスポート操作を再実行します。\
-*- PSDエクスポータ：*&#x200B;が[PSDエクスポータインターフェイスを開きます。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSDエクスポータ：* [PSDエクスポータ](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md)インターフェイスを開きます。
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>ノードイメージキャッシュ\
 </b>ノードイメージキャッシュの表示を切り替えます。以下を参照してください。

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: パス選択ノードを使用して、条件に基づいてパスリストから特定のパスを選択し、フィルタリングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パスの選択
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -55,7 +55,7 @@ ht-degree: 1%
 *- ID別：* <b>パスID</b>で指定されたインデックスと一致するパスを一覧から選択します。\
 *– 長さ：*&#x200B;長さが<b>ターゲットの長さ</b>で指定されたしきい値を上回るか下回るパスを選択します。
 
-<b>パスID</b> *整数* （<b>選択モード</b>が&#x200B;*ID別*&#x200B;に設定されている場合に使用可能）\
+<b>パスID</b> *Integer* （<b>選択モード</b>が&#x200B;*ID別*&#x200B;に設定されている場合に使用可能）\
 選択したパスのインデックス。\
 <b>パス&#x200B;*のパス数を超える値を指定すると、空白の出力が*</b>&#x200B;になります。
 

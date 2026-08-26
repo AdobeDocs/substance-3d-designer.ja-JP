@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/using-color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-color-management.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonスクリプティングでカラーマネジメント機能を使用して、正確なカラーを再現する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カラーマネジメントの使用
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -154,6 +154,6 @@ for res in resources:
 
 ## カラースペース変換を使用したSDTextureの記述
 
-**SDTexture**&#x200B;クラスの&#x200B;**save**&#x200B;メソッドで、オプションの&#x200B;**outputColorSpace**&#x200B;パラメーターを使用できるようになりました。 指定すると、画像を保存する前にカラースペースの変換が&#x200B;*適用されます*。
+**SDTexture**&#x200B;クラスの&#x200B;**save**&#x200B;メソッドで、オプションの&#x200B;**outputColorSpace**&#x200B;パラメーターを使用できるようになりました。 指定すると、画像を保存する前にカラースペースの変換が&#x200B;*適用されます*。
 
 カラーマネジメントモードが埋め込みICCプロファイル&#x200B;*および*&#x200B;をサポートしている場合、出力先のファイル形式もそれらをサポートしているため、カラースペースICCプロファイルは&#x200B;*結果の画像ファイルに埋め込まれます*。

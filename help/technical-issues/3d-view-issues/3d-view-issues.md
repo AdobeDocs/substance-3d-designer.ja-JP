@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: レンダリング、表示、パフォーマンスの問題など、Substance 3D Designerの3Dビューに関する問題のトラブルシューティング
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3Dビューの問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Heightマップに基づく3Dオブジェクトの変形効果は、**テッセ�
 
 新しい3Dレンダラーは、バージョン15.1でアップグレードされ、最新のGPUドライバーが必要です。 システムのGPUドライバーを最新バージョンに更新してください。
 
-ドライバーは、次の場所で確認できます： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+ドライバーは次の場所で確認できます： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [インテル](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 バージョン15.0以降
 
@@ -243,7 +243,7 @@ Designerでは、3Dメッシュで指定されていない限り、法線のス�
 
 まず、ご使用のシステムがDesignerの[必要システム構成](../../getting-started/system-requirements/system-requirements.md)を満たしていることを確認してください。
 
-次に、グラフィックドライバーを更新します。 次のリンクを参照して、GPUの最新ドライバーを確認できます。[NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [インテル](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+次に、グラフィックドライバーを更新します。 次のリンクを参照して、GPUの最新ドライバーを確認できます。[NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [インテル](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 お使いのシステムに、統合GPU (iGPU)とディスクリートGPU (dGPU)の両方が搭載されている場合は、*両方のドライバーを更新*&#x200B;してください。
 

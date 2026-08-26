@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDLグラフの主な概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ MDLマテリアルでは、物理ベースのレンダリングソリューシ�
 </tr>
 </table>
 
-MDLグラフを作成または読み込むと、Designerによって最初に検出された[ピン留めされていない](../../interface/customizing-your-wor/customizing-your-workspace.md) 3Dビューパネルが&#x200B;*自動的に* Iray[&#128279;](../../interface/3d-view/iray/iray.md)レンダラーに切り替わります。 使用できる3Dビューがない場合は、*新しい* 3Dビューパネルが作成され、Irayレンダラーに切り替えられ、編集中のMDLマテリアルのレンダリングがホストされます。
+MDLグラフを作成または読み込むと、Designerによって最初に検出された[ピン留めされていない](../../interface/customizing-your-wor/customizing-your-workspace.md) 3Dビューパネルが&#x200B;*自動的に* Iray](../../interface/3d-view/iray/iray.md)レンダラーに切り替わります。 [使用できる3Dビューがない場合は、*新しい* 3Dビューパネルが作成され、Irayレンダラーに切り替えられ、編集中のMDLマテリアルのレンダリングがホストされます。
 
 3DビューパネルでIrayレンダラーが選択されている場合、そのパネルの「マテリアル」メニューで、使用可能なMDLマテリアルを切り替えることができます。これには、エクスプローラーパネルに読み込まれるマテリアルと、DesignerのMDLライブラリ内のマテリアルが含まれます。 IrayでのMDLマテリアルの操作について詳しくは、このドキュメントの[Iray](../../interface/3d-view/iray/iray.md)セクションを参照してください。
 
@@ -54,7 +54,7 @@ MDLグラフの結果は、<b>Root</b>ノードによって定義されます。
 
 ![MDLグラフのルートノード](../../assets/mdl-root-hl.png "MDLグラフのルートノード")
 
-*MDLグラフのルートノードとそのプロパティが[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *パネル*&#x200B;に表示されました
+*MDLグラフのルートノードとそのプロパティが[プロパティ](../../interface/properties/properties.md)* *パネル*&#x200B;に表示されました
 
 ## コネクタとタイプ
 

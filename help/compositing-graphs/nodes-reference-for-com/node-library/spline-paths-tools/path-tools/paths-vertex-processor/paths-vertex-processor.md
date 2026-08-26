@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: パス頂点プロセッサノードを使用すると、高度なオプションでパス頂点を変換および操作できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パス頂点プロセッサ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ## パラメーター
 
-<b>以前のアクセスされた頂点</b> *整数*\
+<b>前のアクセス頂点</b> *整数*\
 このパラメーターを使用すると、<b>path</b>パラメーター関数の<b>Get</b>ノードを使用して、頂点単位関数 (*prev.pos*)および前の頂点(*prev[2].pos*)に沿った前の頂点の場所を取得できます。
 
 <b>次にアクセスされた頂点</b> *整数*\

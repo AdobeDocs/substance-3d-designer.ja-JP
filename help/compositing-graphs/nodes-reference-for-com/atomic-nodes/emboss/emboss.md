@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
 description: '[エンボス]ノードを使用して、テクスチャにエンボス効果を加え、サーフェスのディテールに深度とリリーフを加えます。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: エンボス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -78,10 +78,10 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>適用度</b> *フロート* | イルミネーションエフェクトのグローバルな強度を調整します。   「Height」マップの強さを設定し、照明効果の強さを設定します |
-| <b>明るい角度</b> *フロート* | ライトをシミュレートする角度を設定します。   エンボス画像のハイライトの照明角度を定義します |
-| <b>ハイライトの色</b> *フロート/フロート4* | 明るい角度に向いている領域のカラーを設定します。   入力画像がカラーの場合にハイライトのカラーを設定します。 |
-| <b>シャドウの色</b> *フロート/フロート4* | 明るい角度から遠ざかる領域のカラーを設定します。   エンボス画像のシャドウ領域のカラーを設定します。 |
+| <b>適用度</b> *フロート* | イルミネーションエフェクトのグローバルな強度を調整します。   「Height」マップの強さを設定し、照明効果の強さを設定します |
+| <b>明るい角度</b> *フロート* | ライトをシミュレートする角度を設定します。   エンボス画像のハイライトの照明角度を定義します |
+| <b>ハイライトの色</b> *フロート/フロート4* | 明るい角度に向いている領域のカラーを設定します。   入力画像がカラーの場合にハイライトのカラーを設定します。 |
+| <b>シャドウの色</b> *フロート/フロート4* | 明るい角度から遠ざかる領域のカラーを設定します。   エンボス画像のシャドウ領域のカラーを設定します。 |
 
 ## 入力コネクタ
 

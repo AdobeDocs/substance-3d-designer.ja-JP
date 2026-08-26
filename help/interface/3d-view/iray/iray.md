@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Irayレンダラー&#x200B;*に切り替えると、一部の3Dビューメニ�
 
 ![Irayでレンダリングされた中世の城壁のマテリアル](../../../assets/iray-overview.png "Irayでレンダリングされた中世の城壁のマテリアル")
 
-*素材： [中世の城壁](https://helpx.adobe.com/jp/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *著者： [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/assets.html)* *ライブラリ*
+*素材： [中世の城壁](https://oggyart.artstation.com/projects/Xnzx0a)* *著者： [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3Dアセット](https://substance3d.adobe.com/assets)* *ライブラリ*
 
 </td>
 </tr>

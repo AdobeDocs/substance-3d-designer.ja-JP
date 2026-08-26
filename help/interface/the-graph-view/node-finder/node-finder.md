@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Node Finderを使用すると、Substanceグラフ内のノードをすばやく検索して見つけることができ、効率的にナビゲーションを行うことができます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ノードファインダー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![ノードファインダーツールバー](../../../assets/node-finder-toolbar.png "ノードファインダーツールバー"){zoomable="yes"}
 
-ノードファインダーツールを使用すると、テキストクエリを使用して<b>ノードおよび変数の検索</b>を実行できます。 クエリに一致しないすべてのノードがグレー表示され、結果が表示されなくなります。
+ノードファインダーツールを使用すると、テキストクエリを使用して<b>ノードおよび変数の検索</b>を実行できます。 クエリに一致しないすべてのノードがグレー表示され、結果が表示されなくなります。
 
 クエリは次のいずれかの条件に一致します。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * ノードの<b>UID</b> （一意の識別子）
 * ノードの<b>ラベル</b>
 
-検索は[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)を繰り返しスキャンできるため、ノードおよび変数を[サブグラフ](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)全体で検索できます。 検索する用語が正確にわからない場合は、あいまいな検索オプションを使用してクエリに許容値を適用できます。
+検索は[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)を繰り返しスキャンできるため、ノードおよび変数を[サブグラフ](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)全体で検索できます。 検索する用語が正確にわからない場合は、あいまいな検索オプションを使用してクエリに許容値を適用できます。
 
 ## インターフェイス
 

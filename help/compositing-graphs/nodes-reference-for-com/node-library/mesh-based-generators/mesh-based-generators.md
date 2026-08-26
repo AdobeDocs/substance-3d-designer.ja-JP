@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでメッシュベースのジェネレータノードにアクセスし、3Dメッシュジオメトリとプロパティに基づいてテクスチャを作成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: メッシュベース生成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 4%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 4%
 
 メッシュベースのジェネレータは、法線マップ、曲率、周囲オクルージョンなどの[ベイク済みマップ](../../../../bakers/bakers.md)を処理するためのノードです。
 
-このカテゴリの名前は、Designerで3Dメッシュに基づくデータを使用する唯一の方法がベイク済みマップであるという事実から付けられています。 このカテゴリの機能の一部は、Substance 3D Painterの[スマートマテリアルとマスク](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/features/smart-materials-and-masks)に似ています。
+このカテゴリの名前は、Designerで3Dメッシュに基づくデータを使用する唯一の方法がベイク済みマップであるという事実から付けられています。 このカテゴリの機能の一部は、Substance 3D Painterの[スマートマテリアルとマスク](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)に似ています。
 
 主に3つのカテゴリがあります。
 
-* [マスクジェネレータ](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [マスクジェネレータ](mask-generators/mask-generators.md)\
   1つ以上のベイク済みマップに基づく白黒のマスクジェネレーター。
-* [風化](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  ベイク済みマップに基づいたフルマテリアルの耐候性エフェクト。
-* [ユーティリティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [風化](weathering/weathering.md)
+ベイク済みマップに基づいたフルマテリアルの耐候性エフェクト。
+* [ユーティリティ](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   パンを操作するための追加のユーティリティとツール。

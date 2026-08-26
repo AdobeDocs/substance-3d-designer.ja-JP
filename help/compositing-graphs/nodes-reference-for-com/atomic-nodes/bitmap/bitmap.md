@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ''
 description: ビットマップノードを使用すると、ビットマップイメージを読み込んで、Substance合成グラフのテクスチャとして使用することができます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ビットマップ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 このノードは、[ビットマップ](../../../../glossary/glossary.md)をグラフに読み込むためか、[ビットマップペイントツール](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)で使用する新しいビットマップを作成するために使用されます。
 
-このノードを作成するには、いくつかの方法があります。これらすべての方法では、リソースのリンクとインポートの違いを[理解する必要があります。](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+このノードを作成するには、いくつかの方法があります。これらすべての方法を実行するには、[リソースのリンクとインポートの違いを理解する必要があります。](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>カラーモード</b> *ブール値* | カラーまたはグレースケールで返すノードの出力タイプを指定します。 |
-| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[ビットマップリソース](../../../../resources/bitmap-resource/bitmap-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターのテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのビットマップノードにドラッグアンドドロップすることをお勧めします。 |
+| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[ビットマップリソース](../../../../resources/bitmap-resource/bitmap-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターのテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのビットマップノードにドラッグアンドドロップすることをお勧めします。 |
 | <b>メソッドのサイズ変更</b> *整数* | ビットマップを拡大または縮小するときに使用する再サンプル方法です。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>滑らかな引き伸ばし：</i>引き伸ばされた画像の元のピクセルを補間するには、[バイリニアフィルター](../../../../glossary/glossary.md)を適用します。</li> <li data-preserve-html="true"><i>最も近い伸縮：</i>画像を伸縮し、最も近いソースピクセルの色をそのまま使用します。</li> </ul> |
 
 ## ビットマップペイントツール

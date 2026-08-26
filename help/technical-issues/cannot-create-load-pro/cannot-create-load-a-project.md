@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでのプロジェクトの作成または読み込みに関する問題をトラブルシューティングして、解決策を見つけます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プロジェクトを作成できません
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Substance 3D Designerの進化に伴い、Substance 3Dファイルフォーマ�
 
 システムの&#x200B;*電源プラン*&#x200B;を管理するソフトウェア（ASUS Armory Crateなど）を探します。特にラップトップの場合に便利です。
 
-一部の電源管理アプリケーションは、システムのGPUへの他のアプリケーションのアクセスを制限したり、GPUのパフォーマンスを妨げたりすることがあり、これによりクラッシュが発生する場合があります。 電源管理アプリケーションが存在し、アクティブである場合は、最高のパフォーマンスを実現するプランに切り替えます。
+一部の電源管理アプリケーションは、システムのGPUへの他のアプリケーションのアクセスを制限したり、GPUのパフォーマンスを妨げたりすることがあり、これによりクラッシュが発生する場合があります。 電源管理アプリケーションが存在し、アクティブである場合は、最高のパフォーマンスを実現するプランに切り替えます。
 
 ディスクリートGPUを使用する
 

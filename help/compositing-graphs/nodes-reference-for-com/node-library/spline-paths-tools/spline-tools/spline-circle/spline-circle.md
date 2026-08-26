@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: '[スプライン円]ノードを使用して、丸いパターンとシェイプを生成するための円形スプラインを作成します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン円
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -47,9 +47,9 @@ ht-degree: 0%
 <b> R</b> - X位置\
 <b> G</b> - Y位置\
 <b> B</b> - Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
 <b> R</b> – 接線X\
@@ -64,18 +64,18 @@ ht-degree: 0%
 <b>プレビュー</b> *グレースケール*&#x200B;出力スプラインをグレースケールイメージとしてプレビューします。
 
 <b>スプライン座標</b> *色*&#x200B;出力スプラインの点の座標は、色画像のRGBAチャンネルでエンコードされます。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *カラー*&#x200B;カラー画像のRGBAチャンネルでエンコードされた出力スプラインの追加データ。\
-    <b>R</b> – 接線X\
-    <b>G</b> – 接線Y\
-    <b>B</b> – 未使用\
-    <b>A</b> – 未使用
+<b>R</b> – 接線X\
+<b>G</b> – 接線Y\
+<b>B</b> – 未使用\
+<b>A</b> – 未使用
 
 <b>スプラインの量</b> *整数*&#x200B;出力スプラインの数です。
 

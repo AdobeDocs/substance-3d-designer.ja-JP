@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの2Dビューを使用して、マテリアルグラフからのテクスチャ出力をプレビューおよび確認します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 2D ビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 グラフビューでは、<b>2Dビューで出力を表示</b>コンテキストメニューオプションを使用して、画像を2Dビューに送信できます。このオプションには、*RMB*&#x200B;をクリックしてアクセスします。
 
 * ...を&#x200B;*ノード*&#x200B;上に置き、*そのノードの出力*&#x200B;を表示します。 ノードに複数の出力がある場合は、サブメニューから目的の出力を選択します
-* ...グラフ表示の&#x200B;*空きスペース*&#x200B;に、*そのグラフの出力*&#x200B;を表示します。 グラフに複数の出力がある場合は、サブメニューから目的の出力を選択します
+* ...グラフ表示の&#x200B;*空きスペース*&#x200B;に、*そのグラフの出力*&#x200B;を表示します。 グラフに複数の出力がある場合は、サブメニューから目的の出力を選択します
 
 グラフを読み込むと、デフォルトで&#x200B;*最初の出力*&#x200B;が2Dビューに自動的に表示されます。 この動作は、[環境設定](../../interface/preferences-window/preferences-window.md)で無効にできます。 <b>編集/環境設定/グラフ/Substance合成グラフ</b>に移動し、*グラフを開くときに<b>出力を2Dビューで表示</b>する*&#x200B;をオフにします。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ファイルを選択すると、新しいツールバーが表示され、画像オーバーレイについて次のコントロールが表示されます。
 
-<b>![](../../assets/2d-view-icon-background-close.png)閉じる： </b> *閉じる*&#x200B;オーバーレイコントロールツールバーおよび&#x200B;*無効*&#x200B;背景画像オーバーレイ。
+<b>![](../../assets/2d-view-icon-background-close.png)閉じる：</b> オーバーレイコントロールツールバーを&#x200B;*閉じる*&#x200B;と、背景画像オーバーレイを&#x200B;*無効*&#x200B;にします。
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png)画像の読み込み：</b>オーバーレイとして使用する&#x200B;*別の画像ファイル*&#x200B;を選択します。
 
@@ -181,9 +181,9 @@ ht-degree: 0%
 
 [3Dビュー](../../interface/3d-view/3d-view.md)ドックの<b>シーン</b>メニューで「<b>UVを2Dビューで表示</b>」オプションが有効になっている場合、UVオーバーレイ機能を2Dビューで使用できます。
 
-<b>[UV]</b>ボタンを使用して有効にすることができます。 ![](../../assets/2d-view-icon-uv.png)
+<b>[UV]</b>ボタンを使用して有効にすることができます。![](../../assets/2d-view-icon-uv.png)
 
-これにより、3Dビュー[&#128279;](../../interface/3d-view/3d-view.md)で現在選択されているメッシュのUVが色付きのワイヤーフレームとして表示されます。
+これにより、3Dビュー](../../interface/3d-view/3d-view.md)で現在選択されているメッシュ[のUVが色付きのワイヤーフレームとして表示されます。
 
 メッシュファイルでマテリアルカラー情報が使用できる場合、そのマテリアルカラーがUVオーバーレイのカラーとして使用されます。
 
@@ -343,7 +343,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 詳しくは、ドキュメントの[ビットマップペイントエディター](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html)を参照してください。
+> 詳しくは、ドキュメントの[ビットマップペイントツール](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)を参照してください。
 
 <table>
 <tr style="border: 0;">
@@ -351,7 +351,7 @@ ht-degree: 0%
 
 ## ベクターグラフィックエディター
 
-<b>ベクターグラフィックスエディター</b>は、*インポート済み* [&#x200B; SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)で使用できます。リンクされたリソースは&#x200B;*サポートされていません*。
+<b>ベクターグラフィックスエディター</b>は、*インポート済み* [ SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)で使用できます。リンクされたリソースは&#x200B;*サポートされていません*。
 
 >[!NOTE]
 >
@@ -368,7 +368,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 詳しくは、ドキュメントの[ベクターグラフィックエディター（非推奨）](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html)ページを参照してください。
+> 詳しくは、ドキュメントの[ベクター編集ツール](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) （非推奨）のページを参照してください。
 
 ![2D表示のカラーマネジメント](../../assets/2d-view-color-management-ocio.png "2D表示のカラーマネジメント"){width="360px"}
 

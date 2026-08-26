@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのビットマップペイントツールを使用すると、テクスチャ編集用にビットマップリソースに直接ペイントできます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ビットマップペイントツール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 *新しい*&#x200B;ビットマップは、次の方法で作成できます：
 
-* [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルで、*SBSパッケージ*&#x200B;のRMBまたはパッケージ内の&#x200B;*フォルダー*&#x200B;をクリックしてコンテキストメニューを開き、<b>新規</b>サブメニューを開いて、<b>ビットマップ</b>オプションを選択します
+* [エクスプローラー](../../../interface/the-explorer-window/the-explorer-window.md)パネルで、*SBSパッケージ*&#x200B;のRMBまたはパッケージ内の&#x200B;*フォルダー*&#x200B;をクリックしてコンテキストメニューを開き、<b>新規</b>サブメニューを開いて、<b>ビットマップ</b>オプションを選択します
 * [グラフ](../../../interface/the-graph-view/the-graph-view.md)で、[ビットマップノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)を作成し、コンテキストメニューの<b>新しいリソースから…</b>オプションを選択します
 
 <b>新しいビットマップ</b>ウィンドウが開き、新しいビットマップリソースの&#x200B;*名前*、*解像度*&#x200B;および&#x200B;*背景色*&#x200B;を設定できます。
@@ -128,13 +128,13 @@ ht-degree: 0%
 
 プリセットは、*ライブラリ*&#x200B;に整理されて保存されます。このライブラリは、![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>ブラシライブラリ</b>メニューで管理できます。
 
-<b>ライブラリの書き出し： </b> *現在のプリセットとそのすべての設定をライブラリファイルに保存*
+<b>ライブラリのエクスポート：</b> 現在のプリセットとそのすべての設定をライブラリファイルに&#x200B;*保存*
 
-<b>ライブラリの読み込み： </b> *既存のライブラリファイルからプリセットを読み込み*&#x200B;して、現在のリストに&#x200B;*追加*&#x200B;する – *同じ名前のプリセットは、ライブラリファイルのプリセットに置き換えられます*
+<b>ライブラリのインポート：</b> 既存のライブラリファイルから&#x200B;*読み込み*&#x200B;個のプリセットを読み込み、現在のリストに&#x200B;*追加*&#x200B;します。*同じ名前のプリセットは、ライブラリファイルのものと置き換えられます*
 
 <b>ライブラリのリセット：</b>は、現在のプリセットを既定のライブラリにリセットします
 
-<b>ライブラリを置き換え： </b> *既存のライブラリファイルからプリセットを読み込み*&#x200B;して、現在のリストを&#x200B;*閉じる*
+<b>ライブラリの置き換え：</b> 既存のライブラリファイルから&#x200B;*プリセットを読み込み*、現在のリストから&#x200B;*プリセットを閉じる*
 
 </td>
 <td style="border: 0;" valign="top">

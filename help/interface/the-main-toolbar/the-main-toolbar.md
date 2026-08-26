@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのメインツールバーについて説明します。このメインツールバーから、一般的なワークフローのツールやコマンドにアクセスできます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: メインツールバー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 <b>新規：</b>は、グラフまたはパッケージを作成するためのサブメニューを開きます。
 
-* <b>新しいSubstanceグラフ…:</b>(Ctrl + N)新しい[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)を設定できる[新しいSubstanceグラフ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html)ウィンドウを表示します。
+* <b>新しいSubstanceグラフ…:</b>(Ctrl + N)新しい[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)を設定できる[新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示します。
 * <b>新しいSubstance関数グラフ：</b> [Substance関数グラフ](../../function-graphs/function-graphs.md)を使用して新しいパッケージを作成します。
 * <b>空：</b>空のパッケージを作成します。
 
@@ -110,11 +110,11 @@ ht-degree: 2%
 
 <b>ウィンドウの最大化を解除：</b>任意のパネルが&#x200B;*最大化*&#x200B;されている場合、このオプションはウィンドウの最大化を解除し、レイアウトを&#x200B;*最大化の前*&#x200B;と同じ状態に復元します
 
-<b>エクスプローラー：</b> [エクスプローラーウィンドウの表示と非表示を切り替えます。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>エクスプローラー：</b> [エクスプローラー](../the-explorer-window/the-explorer-window.md)の表示/非表示を切り替えます。
 
 <b>グラフ：</b> [グラフウィンドウ](../../interface/the-graph-view/the-graph-view.md)の表示/非表示を切り替えます。
 
-<b>パラメーター：</b> [プロパティウィンドウ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)の表示/非表示を切り替えます。
+<b>パラメーター：</b> [プロパティ](../properties/properties.md)を表示/非表示にします。
 
 <b>コンソール：</b>コンソールウィンドウの表示/非表示を切り替えます。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 <b>依存関係マネージャー：</b> [依存関係マネージャー](../../interface/dependency-manager/dependency-manager.md)の表示/非表示を切り替えます。
 
-<b>2Dビュー：</b> [2Dビューの表示/非表示を切り替えます。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>2Dビュー：</b> [2Dビュー](../2d-view/2d-view.md)を表示/非表示にします。
 
 <b>ライブラリ：</b> [ライブラリウィンドウの表示/非表示を切り替えます。](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ ht-degree: 2%
 
 <b>フィードバックを送信…:</b> Adobeの[サポートコミュニティ](https://www.adobe.com/go/Substance-3D-feedback-Designer_jp)のホームページでWebブラウザーを開きます。
 
-<b>Substance 3Dアセット：</b>サブスクライバー（以前のSubstance Source）は、[プレミアム3Dコンテンツ](https://helpx.adobe.com/jp/substance-3d/unlisted/assets.html)を参照してください。
+<b>Substance 3Dアセット：</b>サブスクライバー（以前のSubstance Source）は、[プレミアム3Dコンテンツ](https://substance3d.adobe.com/assets)を参照してください。
 
-<b>Substance 3Dコミュニティアセット:</b> [無料のコミュニティアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/community-assets.html) （以前のSubstance share）を参照できます。
+<b>Substance 3Dコミュニティアセット:</b> [無料のコミュニティアセット](https://substance3d.adobe.com/community-assets/) （以前のSubstance share）を参照できます。
 
 <b>アカウントの管理\*:</b> AdobeアカウントのWebページを開きます。
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>新機能…:</b> Designerの最新リリースに追加された機能を示す画面が表示されます
 
-<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/jp/substance-3d.html)での場所を案内する画面を表示します
+<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/substance-3d.html)での場所を案内する画面を表示します
 
 <b>パートナー：</b> Designerのパートナーが提供するサードパーティ統合に関する免責事項および通知にアクセスできます。
 

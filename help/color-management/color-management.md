@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: カラースペース、プロファイル、スポットカラーワークフローなど、Substance 3D Designerのカラーマネジメントについて説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: カラーマネジメント
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1678'
 ht-degree: 1%
 
 ---
@@ -104,13 +104,13 @@ Designerには、多くのICCプロファイルが同梱されています。 �
 
 |  |  |
 | --- | --- |
-| <b>2Dおよび3Dビューの既定の表示</b> | [2Dビュー](../interface/2d-view/2d-view.md)および[3Dビュー](../interface/3d-view/3d-view.md)ビューポートの既定の&#x200B;*ディスプレイ*&#x200B;カラースペースを設定します。 *既定：*** OSから取得したメイン画面用のICCプロファイル&#x200B;**&#x200B;** |
+| <b>2Dおよび3Dビューの既定の表示</b> | [2Dビュー](../interface/2d-view/2d-view.md)および[3Dビュー](../interface/3d-view/3d-view.md)ビューポートの既定の&#x200B;*ディスプレイ*&#x200B;カラースペースを設定します。 *既定：*** OSから取得したメイン画面用のICCプロファイル&#x200B;**** |
 
 ### グラフ表示
 
 |  |  |
 | --- | --- |
-| <b>サムネールのカラー管理</b> | *チェック*&#x200B;すると、Designerは&#x200B;*ノードサムネール*&#x200B;を現在の&#x200B;*作業用カラースペース*&#x200B;に変換します。 *既定：***&#x200B;未確認&#x200B;**&#x200B;** |
+| <b>サムネールのカラー管理</b> | *チェック*&#x200B;すると、Designerは&#x200B;*ノードサムネール*&#x200B;を現在の&#x200B;*作業用カラースペース*&#x200B;に変換します。 *既定：***&#x200B;未確認&#x200B;**** |
 
 ## レガシーモード
 
@@ -161,7 +161,7 @@ Designerは、画像ファイルを保存する前に、画像を&#x200B;*指定
 
 ![出力ダイアログのエクスポート](../assets/2019-3-0-clr-mgt-export-outputs.png "出力ダイアログのエクスポート"){width="512px"}
 
-[2Dビュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)から&#x200B;*保存*&#x200B;された画像には、カラースペース(OCIO)を割り当てたり、ICCプロファイル(Adobe ACE)を添付したりすることもできます。
+[2Dビュー](../interface/2d-view/2d-view.md)から&#x200B;*保存*&#x200B;された画像には、カラースペース(OCIO)を割り当てたり、ICCプロファイル(Adobe ACE)を添付したりすることもできます。
 
 ![2Dビューの書き出しオプション](../assets/2019-3-0-clr-mgt-save-image.png "2Dビューの書き出しオプション")
 
@@ -209,7 +209,7 @@ Designerに付属のHDRI環境は、<b>リニアsRGB</b>カラースペースで
 </tr>
 </table>
 
-これらは、*カラーマネジメント*&#x200B;なしで作成されたグラフや、[Substance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/assets.html)ライブラリから作成されたマテリアルを操作する場合に便利です。
+これらは、*カラーマネジメント*&#x200B;なしで作成されたグラフや、[Substance 3Dアセット](https://substance3d.adobe.com/assets)ライブラリから作成されたマテリアルを操作する場合に便利です。
 
 ![ライブラリの色変換ノード](../assets/2019-3-0-clr-mgt-nodes.png "ライブラリの色変換ノード"){width="512px"}
 

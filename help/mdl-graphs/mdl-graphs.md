@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDLグラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ MDLは[Materials Definition Language](http://www.nvidia.com/object/material-defi
 MDLグラフは、[Substanceグラフ](../compositing-graphs/substance-compositing-graphs.md)と相補的です。後者の出力&#x200B;*テクスチャ*&#x200B;は、MDLマテリアルによって&#x200B;*サンプリング*&#x200B;され、その動作と外観に影響を与えることができます。
 
 ガイド付き学習パスについては、このドキュメントのセクション&#x200B;*の順番*&#x200B;に従うことをお勧めします。このセクションは、すぐ下にあるMDLグラフリソースのプロパティから始まります。\
-飛び込みたくないか？ [MDL学習リソース](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)セクションでMDLグラフの使用を開始しましょう。
+飛び込みたくないか？ 「MDL学習リソース」セクションでMDLグラフの使用を開始しましょう。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ MDLグラフは、[Substanceグラフ](../compositing-graphs/substance-compositi
 
 ![MDLグラフのプロパティ](../assets/mdl-main.png "MDLグラフのプロパティ")
 
-*[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルのMDLグラフのプロパティ*
+*プロパティパネルのMDLグラフプロパティ*
 
 ## MDLグラフのプロパティ
 
@@ -89,7 +89,7 @@ MDLグラフは、[Substanceグラフ](../compositing-graphs/substance-compositi
 
 ### グラフ入力
 
-このセクションでは、MDLグラフの[公開パラメーター](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)に接続されている対話型パラメーターの一覧を表示し、*既定値*&#x200B;を定義します。 いつでも&#x200B;*調整*&#x200B;および&#x200B;*並べ替え*&#x200B;できます。
+このセクションでは、MDLグラフの公開パラメーターに接続されている対話型パラメーターの一覧を表示し、*既定値*&#x200B;を定義します。 いつでも&#x200B;*調整*&#x200B;および&#x200B;*並べ替え*&#x200B;できます。
 
 これらの入力のインターフェイスと動作は、これらの入力が接続されている公開パラメーターの&#x200B;*値型*&#x200B;と&#x200B;*範囲*&#x200B;で定義されます。 例：
 

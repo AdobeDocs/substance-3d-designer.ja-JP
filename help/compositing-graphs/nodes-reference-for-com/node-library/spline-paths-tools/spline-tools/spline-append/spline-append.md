@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: '[スプライン追加]ノードを使用して、複数のスプラインを一緒に追加し、長い連続パスを作成します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン追加
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -50,36 +50,36 @@ ht-degree: 0%
 <b>プレビュー#1</b> *グレースケール*&#x200B;入力スプラインの最初のセットをグレースケールイメージとしてプレビューします。
 
 <b>スプライン#1座標</b> *色*&#x200B;入力スプラインの最初のセットの座標です。カラー画像のRGBAチャンネルでエンコードされます。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプライン#1データ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの最初のセットの追加データ。\
-    <b>R</b> – 接線X\
-    <b>G</b> – 接線Y\
-    <b>B</b> – 未使用\
-    <b>A</b> – 未使用
+<b>R</b> – 接線X\
+<b>G</b> – 接線Y\
+<b>B</b> – 未使用\
+<b>A</b> – 未使用
 
 <b>スプライン#1量</b> *整数*&#x200B;最初のセット内の入力スプラインの数です。
 
 <b>プレビュー#2</b> *グレースケール*&#x200B;入力スプラインの2番目のセットのプレビューをグレースケールイメージとして表示します。
 
 <b>スプライン#2座標</b> *色*&#x200B;入力スプラインの2番目のセットの座標です。カラー画像のRGBAチャンネルでエンコードされています。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプライン#2データ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた2番目の入力スプラインセットの追加データです。\
-    <b>R</b> – 接線X\
-    <b>G</b> – 接線Y\
-    <b>B</b> – 未使用\
-    <b>A</b> – 未使用
+<b>R</b> – 接線X\
+<b>G</b> – 接線Y\
+<b>B</b> – 未使用\
+<b>A</b> – 未使用
 
 <b>スプライン#2量</b> *整数* 2番目のセット内の入力スプラインの数です。
 
@@ -88,18 +88,18 @@ ht-degree: 0%
 <b>プレビュー</b> *グレースケール*&#x200B;出力スプラインをグレースケールイメージとしてプレビューします。
 
 <b>スプライン座標</b> *色*&#x200B;出力スプラインの点の座標は、色画像のRGBAチャンネルでエンコードされます。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *カラー*&#x200B;カラー画像のRGBAチャンネルでエンコードされた出力スプラインの追加データ。\
-    <b>R</b> – 接線X\
-    <b>G</b> – 接線Y\
-    <b>B</b> – 未使用\
-    <b>A</b> – 未使用
+<b>R</b> – 接線X\
+<b>G</b> – 接線Y\
+<b>B</b> – 未使用\
+<b>A</b> – 未使用
 
 <b>スプラインの量</b> *整数*&#x200B;出力スプラインの数です。
 

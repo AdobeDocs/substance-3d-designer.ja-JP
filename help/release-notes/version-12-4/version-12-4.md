@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Designerバージョン12.4のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: バージョン 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### パラメーターフィールドに数式を入力する
 
-特定のパラメータ値を入力する場合は、計算ツールを使用したり、頭の中で計算したりする必要がなくなりました。 [プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)やアプリケーション内の他の場所でパラメーターに数値を設定する場合、追加、分割、乗算、減算などの基本的な数式を直接入力できるようになりました。
+特定のパラメータ値を入力する場合は、計算ツールを使用したり、頭の中で計算したりする必要がなくなりました。 アプリケーションのプロパティやその他の場所でパラメーターの数値を設定する際に、加算、除算、乗算、減算などの基本的な数式を直接入力できるようになりました。
 
 ![](../../assets/final-formula.gif){width="640px"}
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 * [3Dビュー] ワイヤーフレーム表示プロパティが保存されない
 * [コンテンツ] [放射状ブラー]カラーパラメータはアルファチャンネルには影響しません
 * [ローカリゼーション]環境のOpenGLプロパティに、追加のスライダーおよびボタンが表示されます。
-* [MDL]&#x200B;[Substanceモデル]公開されたノードを削除するとクラッシュする
+* [MDL][Substanceモデル]公開されたノードを削除するとクラッシュする
 * [環境設定]削除してもデフォルトの\_configファイルが再作成されない
 * [Substanceモデル]インスタンスレベルで表示されないパラメーターの並べ替えがクラッシュする
 * [API] SDProperty.getDefaultValue()は、ほとんどの場合Noneを返します

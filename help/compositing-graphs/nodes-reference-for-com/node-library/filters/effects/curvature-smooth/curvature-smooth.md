@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Curvature Smoothノードを使用して、サーフェスの詳細を抽出するためにHeightマップからスムーズな曲率マップを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲線スムーズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>曲線</b> *グレースケール* | 入力法線マップから計算された曲率マップ。   平坦な領域は50%グレーになります。 凸状の領域はより明るく、凹状の領域はより暗くなります。 |
-| <b>凸面</b> *グレースケール* | 入力法線マップから計算された凸状マップ。   領域が凸状であるほど、マップ内の領域は明るくなります。  平坦な領域または凹状の領域は黒になります。 |
-| <b>凹部</b> *グレースケール* | 入力法線マップから計算された凹部マップ。   領域が凹面であるほど、マップ内の領域は明るくなります。  平坦または凸状の領域は黒になります。 |
+| <b>曲線</b> *グレースケール* | 入力法線マップから計算された曲率マップ。   平坦な領域は50%グレーになります。 凸状の領域はより明るく、凹状の領域はより暗くなります。 |
+| <b>凸面</b> *グレースケール* | 入力法線マップから計算された凸状マップ。   領域が凸状であるほど、マップ内の領域は明るくなります。  平坦な領域または凹状の領域は黒になります。 |
+| <b>凹部</b> *グレースケール* | 入力法線マップから計算された凹部マップ。   領域が凹面であるほど、マップ内の領域は明るくなります。  平坦または凸状の領域は黒になります。 |
 
 ## パラメーター
 

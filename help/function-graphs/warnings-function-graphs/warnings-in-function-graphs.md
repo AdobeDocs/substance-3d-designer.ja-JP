@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer機能グラフの警告について理解し、よくある問題を解決する方法を学びます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 関数グラフの警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 このページには、Substance 3D Designerの[関数グラフ](../../function-graphs/function-graphs.md)によってトリガーされる可能性のある警告メッセージとエラーメッセージが一覧表示され、それぞれの一般的なトラブルシューティング手順が示されます。
 
-警告は、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。\
+警告は、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。\
 関数が[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)のパラメーター&#x200B;*に適用されている*&#x200B;場合、警告が発生すると、そのパラメーターに関して「*[x]パラメーターの関数にエラーがあります*」が発生します。
 
 ## ![（エラー）](../../assets/error.svg)出力ノードが定義されていません

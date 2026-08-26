@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: 断面ノードを使用して、カットとスライスのエフェクトのHeightマップに基づいて断面マスクを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 断面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## パラメーター
 
-<b>断面座標</b> *浮動小数点*\
+<b>断面座標</b> *フロート*\
 スライスをサンプリングする座標を設定します。 断面の軸に応じて、X座標またはY座標を指定できます。
 
 <b>セクション軸</b> *整数*\
@@ -56,17 +56,17 @@ ht-degree: 0%
 
 ヘルパーの設定
 
-<b>ヘルパースケール</b> *浮動小数点*\
-    オーバーレイのサイズを倍数で表します。1.0は画像全体です。
+<b>ヘルパーのスケール</b> *フロート*\
+オーバーレイのサイズを倍数で表します。1.0は画像全体です。
 
 <b>ヘルパーの位置</b> *浮動小数点2*\
-    出力画像のオーバーレイの(X、Y)位置。(0.0、0.0)は左上、(1.0、1.0)は右下です。
+出力画像のオーバーレイの(X、Y)位置。(0.0、0.0)は左上、(1.0、1.0)は右下です。
 
-<b>Heightスケール</b> *浮動小数点*
+<b>Heightスケール</b> *フロート*
 
 グラフ全体を縮小します。 HDR表示に便利です。
 
-<b>Heightオフセット</b> *浮動小数点*\
+<b>Heightオフセット</b> *フロート*\
 グラフ全体を上下にシフトします。 HDR表示に便利です。
 
 <b>描画スタイル</b> *整数*\
@@ -83,7 +83,7 @@ ht-degree: 0%
 ポリゴンスタイルまたはラインスタイルで描画するときに使用するセグメントの数を設定します。\
 *注意：*&#x200B;を使用できるのは、&#39;スムーズ/ポリゴン&#39;が&#39;ポリゴン&#39;に設定されているか、&#39;描画スタイル&#39;が&#39;線&#39;に設定されている場合のみです。
 
-<b>行のThickness</b> *浮動小数点*\
+<b>行のThickness</b> *フロート*\
 線のThicknessを設定します。\
 *注意：* &#39;図面スタイル&#39;が&#39;線&#39;に設定されている場合にのみ使用できます。
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 線のカラーと減衰を選択できます。\
 *注意：* &#39;図面スタイル&#39;が&#39;線&#39;に設定されている場合にのみ使用できます。
 
-<b>行のSmoothness</b> *浮動小数点*\
+<b>行のSmoothness</b> *フロート*\
 線のグラデーションの減衰を設定します。\
 *注意：* &#39;図面スタイル&#39;が&#39;線&#39;に設定されている場合にのみ使用できます。
 
-<b>カラー</b> *浮動小数点*\
+<b>色</b> *フロート*\
 線または図形のグレースケールの色です。\
 *注意：* &#39;描画スタイル&#39;が&#39;実線&#39;または&#39;線&#39;に設定され、&#39;線スタイル&#39;が&#39;滑らか&#39;または&#39;実線&#39;に設定されている場合にのみ使用できます。
 
-<b>背景色</b> *浮動小数点*&#x200B;背景のグレースケールカラー。\
+<b>背景色</b> *フロート*&#x200B;背景のグレースケールの色です。\
 *注意：* &#39;描画スタイル&#39;が&#39;線&#39;に設定され、&#39;線のスタイル&#39;が&#39;セグメントID&#39;または&#39;線に沿ったグラデーション&#39;に設定されている場合は使用できません。
 
 ## 例

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: Atlas Splitterノードを使用して、テクスチャアトラスを個別のテクスチャに分割し、スキャンしたマテリアルを処理します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -48,10 +48,10 @@ ht-degree: 0%
 <b>グリッドビュー</b> *ブール値*\
 検出されたすべての図形をグリッドに表示します。
 
-<b>グリッドの不透明度</b> *浮動小数点*\
+<b>グリッドの不透明度</b> *フロート*\
 グリッドビューがTrueの場合にグリッドラインの不透明度を設定します。 デバッグオプション
 
-<b>グリッド選択の不透明度</b> *浮動小数点*\
+<b>グリッド選択の不透明度</b> *フロート*\
 グリッド表示がTrueの場合に、グリッド選択ハイライトの不透明度を設定します。 デバッグオプション
 
 <b>自動スケール</b> *ブール値*\
@@ -63,16 +63,16 @@ ht-degree: 0%
 <b>図形の選択</b> *整数*\
 グリッド表示では、ハイライト表示するセルを設定し、グリッド表示の外側では、返すセルを設定します。
 
-<b>小さい図形を無視</b> *浮動小数点*\
+<b>次より小さい図形を無視</b> *フロート*\
 対角線のサイズが指定した値よりも小さい図形を無視します。
 
 <b>自動回転</b> *ブール値*\
 バウンディングボックスのサイズ比率に従ってシェイプを自動的に回転します。
 
-<b>回転</b> *浮動小数点*\
+<b>回転</b> *フロート*\
 グローバルシェイプの回転角度
 
-<b>標準形式の入力</b> *整数*\
+<b>標準形式を入力</b> *整数*\
 入力法線の形式を設定します。 間違った形式を設定すると、間違った結果になります。
 
 <b>不透明度マスクを縮小</b> *整数*\
@@ -87,24 +87,24 @@ USer 1およびUser 2の入力と設定を、対象となっていない追加�
 <b>カスタム背景色</b> *ブール値*\
 レイヤーの内容を拡張するのではなく、カスタムの背景色を選択できます。
 
-<b>ベースカラーの背景カラー</b> *浮動小数点3*\
+<b>基本色の背景の色</b> *浮動小数点3*\
 ベースカラーのカスタム背景色。
 
-<b>標準の背景カラー</b> *浮動小数点3*\
+<b>標準の背景の色</b> *浮動小数点3*\
 法線マップのカスタムBGカラー
 
-<b>メタリック背景カラー</b> *浮動小数点*\
+<b>メタリック背景カラー</b> *フロート*\
 メタリックのカスタムBGカラー。
 
-<b>粗さの背景カラー</b> *浮動小数点*\
+<b>粗さの背景色</b> *フロート*\
 粗さのカスタム背景カラー
 
-<b>Heightの背景の色</b> *浮動小数点*\
+<b>Heightの背景の色</b> *フロート*\
 Heightのカスタム背景カラー
 
-<b>ユーザー1 Bgカラー</b> *浮動小数点*\
+<b>ユーザー1 Bgカラー</b> *フロート*\
 カスタムユーザー1マップのカスタムBGカラー
 
-<b>ユーザー2 Bgカラー</b> *浮動小数点*&#x200B;カスタムユーザー1マップのカスタムBGカラー
+<b>ユーザー2 Bgカラー</b> *フロート*&#x200B;カスタムユーザー1マップのカスタムBGカラー
 
 ## 例

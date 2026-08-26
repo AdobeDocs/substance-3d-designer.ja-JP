@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer機能グラフのアクセス制御ノードは、フローおよび実行ロジックを制御します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: コントロール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 シーケンスノードの詳細については、このドキュメントの[Using the Set/Sequence nodes](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)ページを参照してください。
 
 +++入力コネクタ
-<b>In</b> *変数型*\
+<b>インチ</b> *変数の型*\
 最初に計算されるグラフの部分
 
 <b>最後</b> *変数の型*\
@@ -110,20 +110,20 @@ ht-degree: 1%
 > <b>Exit Cond.</b>に接続されているノード また、<b>ループ本文</b>の分岐は、グラフの他の分岐に接続できません。
 
 +++入力コネクタ
-<b>初期化</b> *変数の種類*\
+<b>初期化</b> *変数の型*\
 最初の反復の前に計算されるグラフの部分、つまりループの開始。
 
-<b>続行を終了します。</b> *ブール値*\
+<b>続行を終了</b> *ブール値*\
 ループを停止するためにtrueとなる必要がある条件。 反復処理ごとに再計算されます。\
 *注意：*&#x200B;繰り返しの最大数は、引き続き<b>最大繰り返し</b>パラメーターに制限されています。
 
-<b>ループ本文</b> *変数の種類*\
+<b>ループ本文</b> *変数の型*\
 ループから得られるグラフ。 反復処理ごとに再計算されます。
 
 +++
 
 +++パラメーター
-<b>最大 反復回数</b> *整数*\
+<b>最大 反復</b> *整数*\
 ノードが実行する最大反復回数。\
 この最大数に達するか、終了条件がtrueになったときに、次のいずれかの条件が最初に満たされると、ノードの反復が停止します。\
 この最大値は、値を&#x200B;*-1*&#x200B;に設定することで無効にできます。 この時点では、終了条件のみが反復を停止できます。

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでパラメータープリセットを作成し、使用して、パラメーター設定を保存および適用する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: パラメータープリセット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 外部プリセットには、ディスク上の外部ファイルである\*.SBSPRSファイルが含まれます。 これらは異なるグラフやノード間で転送できますが、アプリケーション内でのみ転送できます。 その主な目的はまさにこうです。つまり、多くの値を転送するには大きすぎて1つずつコピーできないということです。
 
-外部プリセットは、[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のすべての特定のパラメーター、[原子ノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のほとんどの特定のパラメーター（[例外は公開できないパラメーター](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）、および[グラフのプロパティの公開された入力パラメーターで使用できます。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+外部プリセットは、[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のすべての特定のパラメーター、[原子ノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のほとんどの特定のパラメーター（[例外は公開できないパラメーター](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）、およびSubstanceグラフの[パラメーター](../../graph-parameters/graph-parameters.md)パラメーターの公開された入力パラメーターで使用できます。
 
 これらは、このメニューから簡単に保存して読み込むことができます。 保存したSBSPRSファイルは、他のノードまたはグラフにロードできます。
 

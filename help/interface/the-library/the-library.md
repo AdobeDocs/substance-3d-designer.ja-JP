@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのライブラリを使用すると、ノードプリセット、マテリアル、カスタムコンテンツにアクセスして管理できます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ライブラリ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8cb5aa2a7e1cd668f00808b3cd0e15063990fb8b
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 * [SBS](../../getting-started/overview/overview.md)および[SBSAR](../../getting-started/overview/overview.md)ファイルの[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)は、*最初の出力*&#x200B;で表されます。グラフの作成者が設定した場合は、*カスタムアイコン*&#x200B;で表されます
 * [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)と[ベクターグラフィックス(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)は、ビットマップ自体の&#x200B;*ミニチュアレンダリング*&#x200B;で表されます
-* [3Dメッシュ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、[関数グラフ](../../function-graphs/the-function-graph/the-function-graph.md)、[フォント](../../resources/font-resource/font-resource.md)および[AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)ファイルは、種類ごとに&#x200B;*汎用アイコン*&#x200B;で表されます
+* [3Dシーン](../../resources/3d-scene-resource/3d-scene-resource.md)、[関数グラフ](../../function-graphs/the-function-graph/the-function-graph.md)、[フォント](../../resources/font-resource/font-resource.md)および[AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)のファイルは、種類ごとに&#x200B;*汎用アイコン*&#x200B;で表されます
 
 >[!WARNING]
 >

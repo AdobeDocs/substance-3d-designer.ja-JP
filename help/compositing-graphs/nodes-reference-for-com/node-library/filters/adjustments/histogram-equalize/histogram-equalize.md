@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: ヒストグラムのイコライザーノードを使用して、ピクセルの強度を再分散し、コントラストと明るさを向上させます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ヒストグラムイコライザー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -75,8 +75,8 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>ヒストグラムの解像度</b> *整数* | ヒストグラムの幅。 値を大きくすると、より細かい値の分布が可能になります。   使用可能な解像度は、ピクセル単位で256、512、1024、2048、4096です |
-| <b>ヒストグラムのスムージング</b> *フロート* | ヒストグラムは、画像内のグレースケール値を再配分して、各値の間の&#x200B;*差*&#x200B;を均等にすることでスムージングできます。   このパラメーターは、スムージングの強度を調整します。 |
+| <b>ヒストグラムの解像度</b> *整数* | ヒストグラムの幅。 値を大きくすると、より細かい値の分布が可能になります。   使用可能な解像度は、ピクセル単位で256、512、1024、2048、4096です |
+| <b>ヒストグラムのスムージング</b> *フロート* | ヒストグラムは、画像内のグレースケール値を再配分して、各値の間の&#x200B;*差*&#x200B;を均等にすることでスムージングできます。   このパラメーターは、スムージングの強度を調整します。 |
 
 ## 例
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの概要を説明し、プロシージャルなマテリアルやテクスチャを作成するための機能について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 概要
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -46,11 +46,11 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 
 <b>[ノンリニア](../../compositing-graphs/substance-compositing-graphs.md) </b>：一度に多数のテクスチャ出力を作成できます。 1つのマスクまたはスライダーを編集すると、自動的に接続された出力が再計算されます。 ベースカラー、ラフネス、法線などのマップを個別に作成する必要がなくなりました。
 
-<b> [非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>：作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
+<b>[非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b> ：作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
 
-<b> [統合ベーキング](../../bakers/bakers.md) </b>:ソフトウェア内から高度で高速なメッシュベーキングツールにアクセスします。 ベークは別のソフトウェアで行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかります。
+<b>[統合されたベイク処理](../../bakers/bakers.md) </b>:ソフトウェア内から高度で高速なメッシュベイク処理ツールにアクセスできます。 ベークは別のソフトウェアで行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかります。
 
-<b> [パラメトリック](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: 1つのスライダーまたはドロップダウンを使用して、テクスチャのほぼすべての側面を制御するように設定できます。 これにより、1つのアセットに無限のコントロールとバリエーションを追加できます。
+<b>[パラメトリック](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: 1つのスライダーまたはドロップダウンを使用して、テクスチャのほぼすべての側面を制御するように設定できます。 これにより、1つのアセットに無限のコントロールとバリエーションを追加できます。
 
 ## Filetypes
 
@@ -77,7 +77,7 @@ Substanceファイルは、Designerの&#x200B;**メインソースファイル**
 
 *(\*.SBSAR)*
 
-Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Engine、Unity Engineなど、[Substance 3Dと連携](https://experienceleague.adobe.com/ja/docs/substance-3d/ecosystem/home)するアプリケーション（外部プラグインを含むものもあります）で使用できます。
+Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Engine、Unity Engineなど、[Substance 3Dと連携](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)するアプリケーション（外部プラグインを含むものもあります）で使用できます。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 
 * [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)
 * [ベクターグラフィック(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3Dメッシュとシーン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3Dシーン](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [フォント](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [AxFファイル](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

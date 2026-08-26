@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: '[点リスト]ノードを使用して、スプラインおよびパスの生成に使用する点のリストを作成および管理します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ポイントリスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ ht-degree: 0%
 
 <b>ポイントリストの入力</b> *色*\
 カラー画像のRGBAチャンネルでエンコードされた入力ポイントのリスト：\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-            *整数部：Smoothness;\
-            *分数部：Thickness
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*整数部：Smoothness;\
+*分数部：Thickness
 
 <b>ポイント番号の入力</b> *整数*\
 入力ポイントの数。
@@ -71,12 +71,12 @@ ht-degree: 0%
 
 <b>ポイントリスト&#x200B;</b>*色*\
 カラー画像のRGBAチャンネルでエンコードされたポイントの出力リスト\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-            *整数部：Smoothness;\
-            *分数部：Thickness
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*整数部：Smoothness;\
+*分数部：Thickness
 
 <b>ポイント番号&#x200B;</b>*整数*\
 出力されるポイント数。
@@ -105,13 +105,13 @@ ht-degree: 0%
 <b>ラベルの表示</b> *ブール値*\
 各ポイントについて、「プレビュー」出力でポイントの横にポイント名が表示されます。
 
-<b>ラベルサイズ</b> *浮動小数点* （&#39;ラベルの表示&#39;が&#39;True&#39;に設定されている場合に使用可能）\
+<b>ラベルサイズ</b> *Float* （&#39;Show Labels&#39;が&#39;True&#39;に設定されている場合に使用可能）\
 テクスチャ空間の各ポイントのラベルのサイズです。0.1はテクスチャの幅の10分の1です。
 
 <b>ポイントの表示</b> *ブール値*\
 「プレビュー」出力にポイントが表示されます。
 
-<b>ポイントサイズ</b> *浮動小数点* （&#39;Show Points&#39;が&#39;True&#39;に設定されている場合に使用可能）\
+<b>ポイントサイズ</b> *Float* （&#39;Show Points&#39;が&#39;True&#39;に設定されている場合に使用可能）\
 テクスチャ空間のポイントの半径。0.1はテクスチャの幅の10分の1です。
 
 +++

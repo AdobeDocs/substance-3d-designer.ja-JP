@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのパフォーマンス最適化ガイドラインについて説明します。これにより、グラフパフォーマンスが向上し、処理時間が短縮されます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: パフォーマンス最適化ガイドライン
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 +++
 
 +++16ビットが不要な場合は8ビットを使用します
-Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの色または8ビットのグレースケールをサポートしていません*。 GPUエンジンは、8/16ビットとグレースケール/カラーの4つの組み合わせをすべてサポートしています。 *現在、UnityおよびUnreal EngineプラグインではCPUエンジンのみが使用されています*。
+Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの色または8ビットのグレースケールをサポートしていません*。 GPUエンジンは、8/16ビットとグレースケール/カラーの4つの組み合わせをすべてサポートしています。 *現在、UnityおよびUnreal EngineプラグインではCPUエンジンのみが使用されています*。
 
 +++
 
@@ -141,7 +141,7 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 
 >[!WARNING]
 >
-> [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードを[親を基準にする]に設定して、Substance 3Dアセット(SBSAR)にグラフを[公開](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)すると、元のサイズではなく&#x200B;**256x256**&#x200B;の解像度でビットマップが保存されます。 代わりに、ビットマップノードの[継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を&#39;絶対&#39;として[出力サイズ](../../compositing-graphs/output-size/output-size.md)に保持し、ビットマップノードの直後に&#39;親に対して相対&#39;に設定された[変換2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)ノードを使用することをお勧めします。
+> [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードを[親を基準にする]に設定して、Substance 3Dアセット(SBSAR)にグラフを[公開](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)すると、元のサイズではなく&#x200B;**256x256**&#x200B;の解像度でビットマップが保存されます。 代わりに、ビットマップノードの[継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を&#39;絶対&#39;として[出力サイズ](../../compositing-graphs/output-size/output-size.md)に保持し、ビットマップノードの直後に&#39;親に対して相対&#39;に設定された[変換2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)ノードを使用することをお勧めします。
 
 ![埋め込みビットマップの最適化1](../../assets/input-1.jpg "埋め込みビットマップの最適化1")
 
@@ -151,7 +151,7 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-また、[公開済み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)のSubstance 3Dアセット(SBSAR)のサイズを最小限にするために、ビットマップリソースのフォーマットをJpegに設定することをお勧めします。
+また、ビットマップリソースのフォーマットをJpegに設定して、パブリッシュされるSubstance 3Dアセット(SBSAR)のサイズを最小限に抑えることをお勧めします。
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: パス形式の仕様と、パスノードとスプラインノードで使用されるデータ構造について学習します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パス形式の仕様
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -90,7 +90,7 @@ top[uv\_pos]とbottom[uv\_pos]を組み合わせると、ドキュメントの�
 
 このドキュメントで定義された最後の頂点のアドレス。 これは、新しいデータを追加する場合に便利です。
 
-したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 &rbrack;0, 1[×]0,.5&lbrack;
+したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -111,7 +111,7 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 +++上
 <b>X</b>
 
-このパス内の頂点の数。 [0, 16777216]の範囲内である必要があります。
+このパス内の頂点の数。 [0, 16777216]の範囲内である必要があります。
 
 クローズパスの始点と終点が同じ位置にある場合は、2つの頂点がカウントされます。\
 頂点が0個のパスは有効なパスです。

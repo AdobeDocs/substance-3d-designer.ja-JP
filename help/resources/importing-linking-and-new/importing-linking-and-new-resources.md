@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでマテリアルプロジェクト用にリソースを読み込み、リンクし、新しいリソースを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 新しいリソースの読み込み、リンクおよび追加
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -20,21 +20,21 @@ ht-degree: 2%
 
 # 新しいリソースの読み込み、リンクおよび追加
 
-[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)では、グラフで使用するリソースを3つのモードで取り込んだり、新しいリソースを作成したりできます。 これらのリソースには、[ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)、[ベクターグラフィックス](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、[3Dシーン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)および[フォント](../../resources/font-resource/font-resource.md)など、様々な種類があります。 このページでは、様々な方法と、それらが最適に使用されるタイミングについて説明します。
+[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)では、グラフで使用するリソースを3つのモードで取り込んだり、新しいリソースを作成したりできます。 これらのリソースには、[ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)、[ベクターグラフィックス](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、[3Dシーン](../3d-scene-resource/3d-scene-resource.md)および[フォント](../../resources/font-resource/font-resource.md)など、様々な種類があります。 このページでは、様々な方法と、それらが最適に使用されるタイミングについて説明します。
 
-すべてのメソッドにアクセスするには、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) [でパッケージのRMBをクリックします。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+すべてのメソッドにアクセスするには、ExplorerでパッケージのRMBをクリックします。
 
 次の表では、各メソッドの機能の違いについて簡単に説明します。
 
 |                                                                                                                                                                         | 新規 | 読み込み | リンク |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| グラフ([Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md) | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md),[ベクターグラフィックス(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| [3Dシーン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、[フォント](../../resources/font-resource/font-resource.md) | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| SBSファイルの横に作成されます | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Designerで編集可能 | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| 外部編集は自動的に同期されます | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 公開されたSBSARに埋め込まれています | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| グラフ([Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md) | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md),[ベクターグラフィックス(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 3Dシーン、[フォント](../../resources/font-resource/font-resource.md) | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| SBSファイルの横に作成されます | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| Designerで編集可能 | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| 外部編集は自動的に同期されます | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 公開されたSBSARに埋め込まれています | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
 
 ## 新しいリソース
 

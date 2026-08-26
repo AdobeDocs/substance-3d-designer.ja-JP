@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: '[スプラインポリゴン二次]ノードを使用して、複数の制御点を持つ複雑な二次スプラインを作成します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン（多二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -54,8 +54,8 @@ ht-degree: 0%
 <b> G</b> - Y位置\
 <b> B</b> - Height\
 <b> A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
 <b> R</b> – 接線X\
@@ -69,12 +69,12 @@ ht-degree: 0%
 
 <b>入力ポイントリスト</b> *色* （[入力ポイントリストを使用]がTrueの場合に使用可能）\
 カラー画像のRGBAチャンネルでエンコードされたポイントのリスト：\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *整数部：Smoothness;\
-        *分数部：Thickness
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*整数部：Smoothness;\
+*分数部：Thickness
 
 <b>ポイント番号</b> *Integer* （[入力ポイントリストの使用]がTrueの場合に使用可能）\
 ポイントの数。
@@ -88,18 +88,18 @@ ht-degree: 0%
 <b>プレビュー</b> *グレースケール*&#x200B;出力スプラインをグレースケールイメージとしてプレビューします。
 
 <b>スプライン座標</b> *色*&#x200B;出力スプラインの点の座標は、色画像のRGBAチャンネルでエンコードされます。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *カラー*&#x200B;カラー画像のRGBAチャンネルでエンコードされた出力スプラインの追加データ。\
-    <b>R</b> – 接線X\
-    <b>G</b> – 接線Y\
-    <b>B</b> – 未使用\
-    <b>A</b> – 未使用
+<b>R</b> – 接線X\
+<b>G</b> – 接線Y\
+<b>B</b> – 未使用\
+<b>A</b> – 未使用
 
 <b>スプラインの量</b> *整数*&#x200B;出力スプラインの数です。
 

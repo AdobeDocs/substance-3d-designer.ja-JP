@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: ピクセルプロセッサノードを使用すると、高度なテクスチャ操作を行うカスタム式を使用して個々のピクセルを処理できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ピクセルプロセッサー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -95,7 +95,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 |
-| <b>ピクセル関数あたり</b> *フロート/フロート4* | [Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)が出力画像のピクセルごとに評価されました。   現在のピクセルの[正規化](../../../../glossary/glossary.md)位置にアクセスするには、<b>$pos</b>変数に設定された[Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)ノードを使用します。 |
+| <b>ピクセル関数あたり</b> *フロート/フロート4* | [Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)が出力画像のピクセルごとに評価されました。   現在のピクセルの[正規化](../../../../glossary/glossary.md)位置にアクセスするには、<b>$pos</b>変数に設定された[Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)ノードを使用します。 |
 
 ## 入力コネクタ
 

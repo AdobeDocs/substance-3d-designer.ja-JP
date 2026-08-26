@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: ノードグラフの機能強化とAxF書き出しのサポートについては、Substance 3D Designerバージョン13.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # バージョン 13.1
 
-<b>Substance 3D Designer 13.1</b>では、マテリアル作成のエクスペリエンスを向上させるために、主にフレームに関して、ノードグラフの品質が大幅に向上しています。 AxF形式を使用するユーザーの相互運用性ワークフローを可能にするAxF書き出しの追加もあります。 
+<b>Substance 3D Designer 13.1</b>では、マテリアル作成のエクスペリエンスを向上させるために、主にフレームに関して、ノードグラフの品質が大幅に向上しています。 AxF形式を使用するユーザーの相互運用性ワークフローを可能にするAxF書き出しの追加もあります。
 
 *リリース日： 2023年12月12日*
 

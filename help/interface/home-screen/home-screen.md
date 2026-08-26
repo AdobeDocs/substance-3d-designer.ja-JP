@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのホーム画面を使用すると、最近使用したプロジェクト、テンプレートおよび学習リソースにアクセスできます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ホーム画面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![ホーム画面](../../assets/home-screen-home.jpg "ホーム画面")
 
-<b>ホーム画面<b> </b></b>Substance 3D Designerを起動すると歓迎されます。 プロジェクトを開始し、便利なリンクにアクセスするのに役立ちます。
+<b>ホーム画面<b> </b></b>Substance 3D Designerを起動すると歓迎されます。 プロジェクトを開始し、便利なリンクにアクセスするのに役立ちます。
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 出力
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -49,11 +49,11 @@ Outputノードは、Substanceグラフの<b>result</b>を指定します。複�
 
 |  |  |
 | --- | --- |
-| <b>識別子</b> *文字列* | 出力の一意の識別子。 このプロパティは、空白のままにすることはできません。また、特殊文字やスペースを含めることはできません。   識別子は、ノードのラベルとして使用されます。「ラベル」プロパティは空白のままです。 また、[書き出されたテクスチャ](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)に名前を付ける場合にも使用できます。 |
+| <b>識別子</b> *文字列* | 出力の一意の識別子。 このプロパティは、空白のままにすることはできません。また、特殊文字やスペースを含めることはできません。   識別子は、ノードのラベルとして使用されます。「ラベル」プロパティは空白のままです。 また、[書き出されたテクスチャ](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)に名前を付ける場合にも使用できます。 |
 | <b>説明</b> *文字列* | 出力のツールチップとして使用されるオプションの説明は、Substanceグラフです。 |
 | <b>ラベル</b> *文字列* | このグラフを表す[インスタンスノード](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)で、出力ノードと対応するコネクタのラベルとして使用されます。 ラベルには、スペースや特殊文字を含めることができます。 |
-| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/jp/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
-| <b>グループ</b> *文字列* | Designerの[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)で出力をグループ化するために使用される属性です。   同一の「グループ」属性を持つ出力は、「コンパクトマテリアル」リンク作成モードで1つの接続として表示されます。 |
+| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
+| <b>グループ</b> *文字列* | Designerの[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)で出力をグループ化するために使用される属性です。   同一の「グループ」属性を持つ出力は、「コンパクトマテリアル」リンク作成モードで1つの接続として表示されます。 |
 
 ## 統合の属性
 
@@ -66,7 +66,7 @@ Outputノードは、Substanceグラフの<b>result</b>を指定します。複�
 |  |  |
 | --- | --- |
 | <b>コンポーネント</b> *文字列* | AxFワークフローで、一部のテクスチャチャンネルを適切なSVBRDFシェーダ入力にマップするために使用されます。 |
-| <b>使用方法</b> *文字列* | 出力ノードのタイプと使用方法を定義します。 このプロパティは、次の点で重要です。<ul data-preserve-html="true"> <li data-preserve-html="true">一部の[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)を使用する場合のSubstanceグラフのノードの接続 </li> <li data-preserve-html="true">3Dビューのシェーダへのテクスチャの接続（以下を参照： &#39;[3Dビューでの使用の役割について](#usages-role-3dview)&#39;）</li> <li data-preserve-html="true">統合/プラグインでのテクスチャとマテリアルの接続</li> </ul> |
+| <b>使用方法</b> *文字列* | 出力ノードのタイプと使用方法を定義します。 このプロパティは、次の点で重要です。<ul data-preserve-html="true"> <li data-preserve-html="true">一部の[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)を使用する場合のSubstanceグラフのノードの接続 </li> <li data-preserve-html="true">3Dビューのシェーダへのテクスチャの接続（以下を参照： &#39;[3Dビューでの使用の役割について](#usages-role-3dview)&#39;）</li> <li data-preserve-html="true">統合/プラグインでのテクスチャとマテリアルの接続</li> </ul> |
 | <b>カラースペース</b> *文字列* | 出力を解釈するカラースペースを設定します。 他のアプリケーションの一部の統合で使用され、Designerには影響しません。 |
 
 ### 3Dビューでの使用の役割について

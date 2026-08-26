@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance合成グラフで継承を使用して、再利用可能なグラフ階層とバリエーションを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance グラフの継承
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 >[!WARNING]
 >
-> このページで説明する概念を理解するための重要なお知らせ： *インスタンスノード*&#x200B;は、別のグラフ[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表すノードであり、その&#x200B;*独自の個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されます。\
+> このページで説明する概念を理解するための重要なお知らせ： *インスタンスノード*&#x200B;は、別のグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表す[ノードであり、その&#x200B;*独自の個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されます。\
 > 例えば、同じグラフ内の2つの[Perlinノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)ノードは、両方とも&#x200B;*同じ*&#x200B;ソースグラフ（`noise_perlin_noise.sbs`の`perlin_noise`）を、*独自のパラメーター値のセット*&#x200B;で表現したものです。
 
 >[!NOTE]
@@ -93,7 +93,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 ### 継承方法の変更
 
-[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルでは、ノードのプロパティの[基本パラメーター](../../compositing-graphs/graph-parameters/graph-parameters.md)セクションに一覧表示されているすべてのパラメーターに、ラベルの反対側に（アイコン） <b>継承メソッドの設定</b>ドロップダウンボタンがあります。\
+プロパティパネルでは、ノードのプロパティの[基本パラメーター](../../compositing-graphs/graph-parameters/graph-parameters.md)セクションに一覧表示されているすべてのパラメーターに、ラベルの反対側に（アイコン） <b>継承メソッドの設定</b>ドロップダウンボタンがあります。\
 このボタンをクリックすると、パラメータに使用する継承方法を選択できます。
 
 ![継承メソッドを変更しています](../../assets/inheritance-change.gif "継承メソッドを変更しています"){width="512px"}

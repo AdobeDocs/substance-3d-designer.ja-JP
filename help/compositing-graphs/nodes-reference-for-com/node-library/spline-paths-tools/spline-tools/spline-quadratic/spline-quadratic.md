@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: スプライン二次ノードを使用して、3つの制御点を持つ滑らかな二次スプラインを作成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: スプライン（二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 | <b>Heightの開始</b> *フロート* | <b>p1</b>ポイントのHeightを調整します。このポイントの値が小さいほど、位置が低くなり、深くなります。  これは、<b>p1</b>のスプラインのHeightに影響します。 |
 | <b>エンドHeight</b> *フロート* | <b>p3</b>ポイントのHeightを調整します。このポイントの値が小さいほど、位置が低くなり、深くなります。  これは、<b>p3</b>のスプラインのThicknessに影響を与えます。 |
 | <b>自動接線Height</b> *ブール値* | <b>p3</b>ポイントのHeightを調整します。このポイントの値が小さいほど、位置が低くなり、深くなります。  これは、<b>p3</b>のスプラインのThicknessに影響を与えます。 |
-| <b>接線Height</b> *フロート* | <b>p2</b>点で制御される接線によって駆動されるHeightを調整します。  これは、<b>p1</b>から引き離され、<b>p3</b>に入る際に、スプラインに沿ったHeightに影響を与えます。   *注意：*&#x200B;このパラメーターは、<b>自動接線Height</b>が&#39;False&#39;に設定されている場合にのみ使用できます。 |
+| <b>接線Height</b> *フロート* | <b>p2</b>点で制御される接線によって駆動されるHeightを調整します。  これは、<b>p1</b>から引き離され、<b>p3</b>に入る際に、スプラインに沿ったHeightに影響を与えます。   *注意：*&#x200B;このパラメーターは、<b>自動接線Height</b>が&#39;False&#39;に設定されている場合にのみ使用できます。 |
 
 
 +++
@@ -87,8 +87,8 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>Thicknessの開始</b> *フロート* | <b>p1</b>ポイントのThicknessを調整します。 これは、<b>p1</b>のスプラインのThicknessに影響します。   *注：* Thicknessは特定のスプラインノードによって使用されています。 |
-| <b>エンドThickness</b> *フロート* | <b>p3</b>ポイントのThicknessを調整します。 これは、<b>p3</b>のスプラインのThicknessに影響を与えます。   *注：* Thicknessは特定のスプラインノードによって使用されています。 |
+| <b>Thicknessの開始</b> *フロート* | <b>p1</b>ポイントのThicknessを調整します。 これは、<b>p1</b>のスプラインのThicknessに影響します。   *注：* Thicknessは特定のスプラインノードによって使用されています。 |
+| <b>エンドThickness</b> *フロート* | <b>p3</b>ポイントのThicknessを調整します。 これは、<b>p3</b>のスプラインのThicknessに影響を与えます。   *注：* Thicknessは特定のスプラインノードによって使用されています。 |
 | <b>自動接線Thickness</b> *ブール値* | <b>開始Thickness</b>から<b>終了Thickness</b>まで直線的に補間するスプライン接線のThicknessを自動設定します。   *注：* Thicknessは特定のスプラインノードによって使用されています。 |
 | <b>接線Thickness</b> *フロート* | <b>p2</b>点で制御される接線によって駆動されるThicknessを調整します。  これは、<b>p1</b>から引き離され、<b>p3</b>に入る際に、スプラインに沿ったThicknessに影響を与えます。   *注：* Thicknessは特定のスプラインノードによって使用されています。  *注2:*&#x200B;このパラメーターは、<b>自動接線Thickness</b>が&#39;False&#39;に設定されている場合にのみ使用できます。 |
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>接線を表示</b> *ブール値* | <b>プレビュー</b>の出力に、<b>p1</b>点&#39;out&#39;接線と<b>p3</b>点&#39;in&#39;接線を表示します。スプラインの方向を反転します。 |
+| <b>接線を表示</b> *ブール値* | <b>プレビュー</b>出力の<b>p1</b>ポイント&#39;out&#39;接線と<b>p3</b>ポイント&#39;in&#39;接線を表示します。スプラインの方向を反転します。 |
 | <b>方向ヘルパーの表示</b> *ブール値* | <b>プレビュー</b>出力のスプラインの始点に点を表示し、終点に矢印を表示します。 |
 | <b>Thicknessの封筒を表示</b> *ブール値* | スプラインのThicknessのエッジに追加の線分を表示します。 |
 | <b>セグメント数</b> *整数* | <b>プレビュー</b>出力でスプラインの視覚化を描画するために使用するセグメントの数を調整します。  値が大きいほど、線は滑らかになります。 |

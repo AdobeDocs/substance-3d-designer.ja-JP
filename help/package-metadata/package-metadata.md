@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでパッケージメタデータを作成および管理し、整理されたアセットライブラリを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パッケージメタデータ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Pythonプラグインを開発している場合、テストやデバッグの�
 
 メタデータは、JSON形式に従って/assemblies/content/0000/metadata.jsonという名前のファイルに保存されます（パスは.sbsarアーカイブのルートからの相対パスです）。
 
-通常の（文字列）メタデータはそのまま保存されます。例： &quot;key&quot;: &quot;stringValue&quot;、1行につき1つ。 繰り返しますが、さまざまなキーの元の順序は保持されず、実装が定義されます。 通常のPythonのディクットのように、プロセスの中の順序に決して頼らないでください！
+通常の（文字列）メタデータはそのまま保存されます。例：「key」:「stringValue」、1行につき1つ。 繰り返しますが、さまざまなキーの元の順序は保持されず、実装が定義されます。 通常のPythonのディクットのように、プロセスの中の順序に決して頼らないでください！
 
 URLメタデータの目的は、ユーザーとプラグインが.sbsarアーカイブに外部ファイルを含めることができるようにすることであるため、これらは特定の変換の対象となります。最初に、保存されたURLに一致するリソースのファイルが、実装で定義された場所（通常は、このファイルのみを含む番号付きのサブフォルダー）のアーカイブにコピーされます。 ポイントは、名前の競合を避けることです)。 ファイルは元の名前を保持します（リソースの名前はこの時点で破棄されます）。 次に、 metadata.jsonの元のURLの代わりに、 metadata.jsonに関連するアーカイブ内のコピーされたファイルへのパスが書き込まれます。
 

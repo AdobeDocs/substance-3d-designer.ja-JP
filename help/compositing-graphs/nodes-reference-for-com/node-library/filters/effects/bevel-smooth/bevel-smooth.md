@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: ベベルスムーズノードを使用して、リアルなサーフェスのシェイプやパターンに滑らかなベベルエッジを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ベベルスムーズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -71,16 +71,16 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>マスク入力</b> *グレースケール*&#x200B;プライマリ | マスクの抽出元の画像。   「マスクのしきい値」の値を超えるすべての値は、そのマスクでは白になります。 |
-| <b>ソース入力</b> *グレースケール* | &#39;Output Mode&#39;パラメーターが&#39;Divalsion&#39;に設定されている場合にのみ使用されるオプション入力です。   その場合、この画像はマスクの白い領域にオーバーレイされ、境界線のグレースケール値は拡張されます。 |
-| <b>距離マップ</b> *グレースケール* | [距離マップマルチプライヤ]パラメータの値が0より大きい場合に使用されるオプションの入力。   マスクの境界線に沿ってベベル/膨張の距離を調整します。暗い値にすると距離が短くなります。 |
+| <b>マスク入力</b> *グレースケール*&#x200B;プライマリ | マスクの抽出元の画像。   「マスクのしきい値」の値を超えるすべての値は、そのマスクでは白になります。 |
+| <b>ソース入力</b> *グレースケール* | &#39;Output Mode&#39;パラメーターが&#39;Divalsion&#39;に設定されている場合にのみ使用されるオプション入力です。   その場合、この画像はマスクの白い領域にオーバーレイされ、境界線のグレースケール値は拡張されます。 |
+| <b>距離マップ</b> *グレースケール* | [距離マップマルチプライヤ]パラメータの値が0より大きい場合に使用されるオプションの入力。   マスクの境界線に沿ってベベル/膨張の距離を調整します。暗い値にすると距離が短くなります。 |
 
 ## 出力コネクタ
 
 |  |  |
 | --- | --- |
 | <b>出力</b> *グレースケール* | 選択した「出力モード」に従った結果画像。 |
-| <b>UV</b> *色* | マスクの境界に沿ってUVを広げるUVマップ。   これは、[UVマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)ノードに接続して、拡張されたUVを使用して他の画像をマッピングできます。 |
+| <b>UV</b> *色* | マスクの境界に沿ってUVを広げるUVマップ。   これは、[UVマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)ノードに接続して、拡張されたUVを使用して他の画像をマッピングできます。 |
 
 ## パラメーター
 
@@ -89,10 +89,10 @@ ht-degree: 0%
 | <b>出力モード</b> *整数* | マスクの境界線を広げる方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>ベベル：</b>最大&#39;距離&#39;で0に達する位置で1から0までグラデーションを描画します</li> <li data-preserve-html="true"><b>膨張：</b>均一な色を&#39;最大距離&#39;まで描画します。 このカラーは白です。または、マスクの境界線にあるカラー「ソース入力」画像（接続されている場合）です</li> <li data-preserve-html="true"><b>距離：</b>最も近いマスク境界からの未加工の距離（正規化されたイメージスペース）。1はイメージの最短辺の長さです</li> </ul> |
 | <b>方向</b> *整数* *&#39;出力モード&#39;が&#39;ベベル&#39;または&#39;拡張&#39;に設定されている場合に使用できます* | 拡張する必要があるマスク境界の側：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>内側：</b>マスクの内側に向かって描画します</li> <li data-preserve-html="true"><b>外側：</b>マスクの外側に向かって描画します</li> <li data-preserve-html="true"><b>イン/アウト:</b>マスクの内側と外側の両方に向かって描画します</li> </ul> |
 | <b>最大距離</b> *フロート* | 正規化されたイメージスペースでの拡張の距離です。1は入力イメージの短い側の長さです。 |
-| <b>マスクSmoothness</b> *フロート* | マスクに適用されるスムージングの強度。   値はぼかしの半径で、1単位は画像の256分の1です。 |
+| <b>マスクSmoothness</b> *フロート* | マスクに適用されるスムージングの強度。   値はぼかしの半径で、1単位は画像の256分の1です。 |
 | <b>マスクのオフセット</b> *フロート* | マスクの境界線を内側または外側に移動します。 |
-| <b>マスクのしきい値</b> *フロート* | 「マスク入力」画像でマスクの境界線を検出するために使用される値。   このしきい値を超える値はマスク図形の&#x200B;*内側*&#x200B;で、下回る値は&#x200B;*外側*&#x200B;です。 |
-| <b>スケール</b> *浮動小数点2* | 拡張の水平距離(X)と垂直距離(Y)を調整します。   これらの値は、[最大距離]パラメータ値の乗数です。 |
+| <b>マスクのしきい値</b> *フロート* | 「マスク入力」画像でマスクの境界線を検出するために使用される値。   このしきい値を超える値はマスク図形の&#x200B;*内側*&#x200B;で、下回る値は&#x200B;*外側*&#x200B;です。 |
+| <b>スケール</b> *浮動小数点2* | 拡張の水平距離(X)と垂直距離(Y)を調整します。   これらの値は、[最大距離]パラメータ値の乗数です。 |
 | <b>距離マップ乗数</b> *整数* | 「最大距離」に対する「距離マップ」の影響を調整します。 |
 
 ## 例

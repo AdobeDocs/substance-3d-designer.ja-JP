@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: 入力パラメーターと値で制御できる動的なグラデーションを作成するには、グラデーション（動的）ノードを使用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラデーション (ダイナミック)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -94,7 +94,7 @@ Gradient (Dynamic)は単独で使用するのが難しいノードではあり�
 
 |  |  |
 | --- | --- |
-| <b>グラデーションのアドレス指定</b> *ブール値* | グラデーションを繰り返す（タイル状にする）か、クランプするかを設定します。   このパラメーターは、グレースケール入力の[0, 1]の範囲のHDRピクセルのうち、どのように処理されるかを決定します： [0, 1]までクランプまたは折りたたみます。 |
+| <b>グラデーションのアドレス指定</b> *ブール値* | グラデーションを繰り返す（タイル状にする）か、クランプするかを設定します。   このパラメーターは、グレースケール入力の[0, 1]の範囲のHDRピクセルのうち、どのように処理されるかを決定します： [0, 1]までクランプまたは折りたたみます。 |
 | <b>グラデーションの向き</b> *整数* | 「グラデーション入力」をサンプリングする軸を設定します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>水平方向：</i> X軸でピクセルの行をサンプリングします。</li> <li data-preserve-html="true"><i>垂直方向：</i> Y軸上のピクセル列をサンプリングします。</li> </ul> |
 | <b>グラデーションの入力位置</b> *フロート* | 「グラデーション入力」でサンプリングされるピクセルの行または列の正規化された位置。 |
 

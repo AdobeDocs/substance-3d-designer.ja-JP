@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: ビュー、パネル、カスタマイズオプションを含むSubstance 3D Designerワークスペースのインターフェイスについて説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Workspace
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Designerの初期設定のドックのレイアウトは次のとおりです。
 
 ## プロパティ
 
-[プロパティドック](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)は、最も技術的なウィンドウです。 これは常に状況依存であり、選択したリソースまたはノードの動作を変更するスライダー、ドロップダウン、およびその他の要素を表示します。
+[プロパティドック](properties/properties.md)は、最も技術的なウィンドウです。 これは常に状況依存であり、選択したリソースまたはノードの動作を変更するスライダー、ドロップダウン、およびその他の要素を表示します。
 
 ![プロパティ](../assets/properties-15.jpg "プロパティ")
 

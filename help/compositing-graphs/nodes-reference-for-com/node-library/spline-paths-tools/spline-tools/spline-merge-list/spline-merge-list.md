@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: '[スプライン結合リスト]ノードを使用すると、複数のスプラインを結合して1つのスプラインリストにし、結合した操作を行うことができます。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン結合リスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
@@ -49,9 +49,9 @@ ht-degree: 1%
 <b> R</b> - X位置\
 <b> G</b> - Y位置\
 <b> B</b> - Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
 <b> R</b> – 接線X\
@@ -66,18 +66,18 @@ ht-degree: 1%
 <b>プレビュー</b> *グレースケール*&#x200B;マージされたスプラインをグレースケールイメージとしてプレビューします。
 
 <b>スプライン座標</b> *色*&#x200B;マージされたスプラインのポイントの座標は、カラー画像のRGBAチャンネルでエンコードされます。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた合成スプラインの追加データです。\
-    <b>R</b> – 接線X\
-    <b>G</b> – 接線Y\
-    <b>B</b> – 未使用\
-    <b>A</b> – 未使用
+<b>R</b> – 接線X\
+<b>G</b> – 接線Y\
+<b>B</b> – 未使用\
+<b>A</b> – 未使用
 
 <b>スプラインの量</b> *整数*&#x200B;マージされたスプラインの数です。
 

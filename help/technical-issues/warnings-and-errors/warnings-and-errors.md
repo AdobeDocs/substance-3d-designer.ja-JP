@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでよくある警告やエラーの解決策を確認して、問題を迅速にトラブルシューティングできます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 警告とエラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '817'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### エクスプローラー
 
-[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
+[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
 
 次の規則に従います。
 
@@ -83,7 +83,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### プロパティ
 
-[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
+[プロパティ](../../interface/properties/properties.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
 
 次の規則に従います。
 
@@ -106,7 +106,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### コンソール
 
-警告とエラーの両方が&#x200B;**コンソール**&#x200B;パネルに報告されます。このパネルには、[メインメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の&#x200B;**ウィンドウ**&#x200B;メニューからアクセスできます。 **チャネル**&#x200B;の設定を`ErrorMgr`に設定すると、警告やエラーを残りのコンソールエントリから分離できます。
+警告とエラーの両方が&#x200B;**コンソール**&#x200B;パネルに報告されます。このパネルには、[メインメニュー](../../interface/the-main-toolbar/the-main-toolbar.md)の&#x200B;**ウィンドウ**&#x200B;メニューからアクセスできます。 **チャネル**&#x200B;の設定を`ErrorMgr`に設定すると、警告やエラーを残りのコンソールエントリから分離できます。
 
 >[!NOTE]
 >

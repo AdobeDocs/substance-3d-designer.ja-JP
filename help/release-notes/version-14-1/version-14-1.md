@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: ノード配置ツールと新しいスプラインおよびパスノードについて詳しくは、Substance 3D Designerバージョン14.1のリリースノートを参照してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -146,7 +146,7 @@ ht-degree: 1%
 * [関数グラフ]長い値が「実数」ノードに重なって表示される
 * [Fx-Map]象限ノードプロパティを表示するとクラッシュする
 * [グラフ] [UDIM] UDIMリストにスクロールバーがあると、1..1 1..2のエントリになる
-* [グラフ]&#x200B;[ショートカット]ショートカットを使用して作成したノードが、ノード複製後に既存のリンクに配置されない
+* [グラフ][ショートカット]ショートカットを使用して作成したノードが、ノード複製後に既存のリンクに配置されない
 * [プロパティ]値が無効な場合にパラメータが正しく表示されない
 * [Publish]パッケージを公開すると、相互依存が無限ループに陥る
 * [Publish]依存関係がアンロードされたパッケージで「Publish」アクションを使用すると、サイレントエラーが発生する

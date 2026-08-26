@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: シェイプマッパーノードを使用して、カスタマイズ可能なトランスフォームと配置を使用して、シェイプをテクスチャにマッピングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シェイプマッパー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 3%
@@ -88,8 +88,8 @@ ht-degree: 3%
 | --- | --- |
 | <b>図形</b>整数 | パターンを配置するシェイプのタイプを設定します。<ul data-preserve-html="true"> <li data-preserve-html="true">円</li> <li data-preserve-html="true">多角形ツール</li> </ul> |
 | <b>パターン適用量</b>整数 | 選択した図形に配置するパターンの量です。 |
-| <b>パターンの量でセグメントをリンク</b>ブール値&#x200B;*&#39;図形&#39;が&#39;多角形&#39;に設定されている場合に使用できます* | <b>パターンの量</b>を<b>セグメント</b>の数として使用します。   これにより、パターンが角に回り込むことがなくなり、直線的で一貫した外観が得られます。 |
-| <b>セグメント</b>整数&#x200B;*&#39;Shape&#39;が&#39;Polygon&#39;に設定され、&#39;Link segments with pattern amount&#39;が&#39;False&#39;に設定されている場合に使用できます* | パターンが配置されるポリゴンのセグメントの量。   セグメントは&#x200B;*均等なサイズ*、すべての頂点は&#x200B;*中心から等距離*&#x200B;です。セグメントの数を増やすと、多角形が円に向かって収束します。 |
+| <b>パターンの量でセグメントをリンク</b>ブール値&#x200B;*&#39;図形&#39;が&#39;多角形&#39;に設定されている場合に使用できます* | <b>パターンの量</b>を<b>セグメント</b>の数として使用します。   これにより、パターンが角に回り込むことがなくなり、直線的で一貫した外観が得られます。 |
+| <b>セグメント</b>整数&#x200B;*&#39;Shape&#39;が&#39;Polygon&#39;に設定され、&#39;Link segments with pattern amount&#39;が&#39;False&#39;に設定されている場合に使用できます* | パターンが配置されるポリゴンのセグメントの量。   セグメントは&#x200B;*均等なサイズ*、すべての頂点は&#x200B;*中心から等距離*&#x200B;です。セグメントの数を増やすと、多角形が円に向かって収束します。 |
 | <b>半径</b>浮動小数点 | シェイプの半径の乗数。1.0はイメージの最も短い側の長さの半分です。 |
 | <b>幅</b>実数 | シェイプに沿ったパターンの幅の乗数。1.0はイメージの最も短い側の長さの半分です。 |
 | <b>回転</b>浮動小数点 | 図形に適用する回転角度を、水平方向の右から時計回りに回転する回数で指定します。 |

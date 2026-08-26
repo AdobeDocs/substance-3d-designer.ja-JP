@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのリソースの依存関係に関する警告とその解決方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 依存関係からの警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ ht-degree: 0%
 
    警告メッセージで指定された場所に依存パッケージが存在することを確認してください。 見つからない場合は、ファイルを見つけて元の場所に戻すか、その場所に再作成します。 ファイルが存在する場合は、Designerで&#x200B;*そのファイルを読み込んでみます*&#x200B;そのパッケージに関連する警告やエラーを確認します。 これらの特定の問題については、トラブルシューティングの手順を参照し、適宜修正してください。
 
-   次に、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルでホストパッケージのRMBをクリックし、コンテキストメニューの<b>再読み込み</b>オプションを選択して、ホストパッケージを再読み込みします。
+   次に、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルでホストパッケージのRMBをクリックし、コンテキストメニューの<b>再読み込み</b>オプションを選択して、ホストパッケージを再読み込みします。
 
    ![&#39;無効な依存パッケージ&#39;ソリューション1](../../assets/warnings-dep-invalid-dependent-pkg.gif "&#39;無効な依存パッケージ&#39;ソリューション1")
 1. <b>パッケージ内の依存関係を再配置します</b>
 
-   [依存関係マネージャー](../../interface/dependency-manager/dependency-manager.md)を使用して、依存関係を再配置できます。 [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルでホストパッケージのRMBをクリックし、コンテキストメニューの<b>依存関係マネージャー</b>オプションを選択します。
+   [依存関係マネージャー](../../interface/dependency-manager/dependency-manager.md)を使用して、依存関係を再配置できます。 [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのホストパッケージで「RMB」をクリックし、コンテキストメニューの<b>依存関係マネージャー</b>オプションを選択します。
 
    依存関係マネージャーの一覧で見つからない依存関係を探し、その依存関係のRMBをクリックして、[<b>再配置…</b>]オプションを選択します。 ファイルブラウザーダイアログを使用して依存関係パッケージを見つけ、[<b>開く</b>]をクリックします。
 
-   次に、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルでホストパッケージのRMBをクリックし、コンテキストメニューの<b>再読み込み</b>オプションを選択して、ホストパッケージを再読み込みします。
+   次に、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルでホストパッケージのRMBをクリックし、コンテキストメニューの<b>再読み込み</b>オプションを選択して、ホストパッケージを再読み込みします。
 
    ![&#39;無効な依存パッケージ&#39;ソリューション2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "&#39;無効な依存パッケージ&#39;ソリューション2")
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    ![&#39;リソース&#39;ソリューション1](../../assets/warnings-dep-udim-2.gif "に一致するファイルがありません&#39;リソース&#39;ソリューション1")に一致するファイルはありません
 1. <b>ファイルの場所を変更する</b>
 
-   ファイルが移動または名前変更された場合は、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルのリソース項目で「元に戻す」をクリックしてファイルを再配置し、<b>再配置</b>オプションを選択して、そのリソースを同じ種類のUDIM画像のセット&#x200B;*最初のファイル*&#x200B;にリンクします。
+   ファイルが移動または名前変更された場合は、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのリソース項目で「元に戻す」をクリックしてファイルを再配置し、<b>再配置</b>オプションを選択して、そのリソースを同じ種類のUDIM画像のセット&#x200B;*最初のファイル*&#x200B;にリンクします。
 
    ![&#39;リソース&#39;ソリューション2](../../assets/warnings-dep-udim.gif "に一致するファイルはありません。&#39;リソース&#39;ソリューション2")に一致するファイルはありません
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    ![&#39;リンクされたファイルが見つかりません&#39;ソリューション1](../../assets/warnings-dep-file-not-found.gif "&#39;リンクされたファイルが見つかりません&#39;ソリューション1")
 1. <b>ファイルの場所を変更する</b>
 
-   ファイルが移動または名前変更された場合は、[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルのリソース項目で「元に戻す」をクリックしてファイルを再配置し、<b>再配置</b>オプションを選択して、そのリソースを同じ種類の別のファイルにリンクします。
+   ファイルが移動または名前変更された場合は、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのリソース項目で「元に戻す」をクリックしてファイルを再配置し、<b>再配置</b>オプションを選択して、そのリソースを同じ種類の別のファイルにリンクします。
 
    ![&#39;リンクされたファイルが見つかりません&#39;ソリューション2](../../assets/warnings-dep-file-not-found-2.gif "&#39;リンクされたファイルが見つかりません&#39;ソリューション2")
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 ## ![（エラー）](../../assets/error.svg)参照リソースが見つかりません
 
-[3Dメッシュリソース](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)のUVタイルに割り当てられたグラフが、警告で報告された場所に見つかりません。
+[3Dシーンリソース](../3d-scene-resource/3d-scene-resource.md)のUVタイルに割り当てられたグラフが、警告で報告された場所で見つかりません。
 
 <b>![(tick)](../../assets/check.svg)ソリューション</b>
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. <b>グラフの復元</b>
 
-   [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルのパッケージの内容で、<b>UVタイル</b>の一覧で指定されているグラフを確認します。 存在しない場合は、復元または再作成します。
+   [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのパッケージの内容で、<b>UVタイル</b>の一覧で指定されているグラフを確認します。 存在しない場合は、復元または再作成します。
 
    ![&#39;参照リソースが見つかりません&#39;ソリューション1](../../assets/warnings-dep-udim-graph-2.gif "&#39;参照リソースが見つかりません&#39;ソリューション1")
 1. <b>別のグラフを選択</b>
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ## ![（エラー）](../../assets/error.svg) UVタイルが複数回割り当てられています
 
-[3Dメッシュリソース](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)のUVタイルが、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)に複数回割り当てられています。
+[3Dシーンリソース](../3d-scene-resource/3d-scene-resource.md)のUVタイルが、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)に複数回割り当てられています。
 
 <b>![(tick)](../../assets/check.svg)ソリューション</b>
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 ## ![（エラー）](../../assets/error.svg)無効なUVタイル
 
-[3Dメッシュリソース](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)にリストされたUVタイルがメッシュで定義されていないか、壊れています。
+[3Dシーンリソース](../3d-scene-resource/3d-scene-resource.md)にリストされたUVタイルが、メッシュで定義されていないか、破損しています。
 
 <b>![(tick)](../../assets/check.svg)ソリューション</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 3DビューでGLSLFXシェーダを使用して、マテリアルレンダリングとプレビュー効果をカスタマイズします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: GLSLFXシェーダ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 1%
@@ -595,14 +595,14 @@ vec3 iFS\_PointWSの変更；
 均一mat4 worldViewProjMatrix;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position;\
 iFS\_Normal = iVS\_Normal.xyz;\
 iFS\_UV = iVS\_UV;\
 iFS\_Tangent = iVS\_Tangent.xyz;\
 iFS\_Binormal = iVS\_Binormal.xyz;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
-&rbrace;
+}
 
 ### テッセレーション頂点シェーダファイル
 
@@ -610,9 +610,9 @@ iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 属性vec4 iVS\_Position;\
 属性vec4 iVS\_Normal;\
@@ -626,13 +626,13 @@ vec4 oVS\_Tangentの変化；\
 vec4 oVS\_Binormal;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = iVS\_Position;\
 oVS\_Normal = iVS\_Normal;\
 oVS\_UV = iVS\_UV;\
 oVS\_Tangent = iVS\_Tangent;\
 oVS\_Binormal = iVS\_Binormal;\
-&rbrace;
+}
 
 ### テッセレーションコントロールシェーダファイル
 
@@ -640,10 +640,10 @@ oVS\_Binormal = iVS\_Binormal;\
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400コア\
-&#x200B;#extension GL\_ARB\_tessellation\_shader ：有効にする
+#version 400コア\
+#extension GL\_ARB\_tessellation\_shader ：有効にする
 
 layout(vertices = 3) out;
 
@@ -660,7 +660,7 @@ out vec4 oTCS\_Binormal[];
 均一フローティングテッセレーション係数；
 
 void main()\
-&lbrace;\
+{\
 gl\_TessLevelOuter[0] = tessellationFactor;\
 gl\_TessLevelOuter[1] = tessellationFactor;\
 gl\_TessLevelOuter[2] = tessellationFactor;\
@@ -671,7 +671,7 @@ oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
 oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
-&rbrace;
+}
 
 ### テッセレーション評価シェーダファイル
 
@@ -679,9 +679,9 @@ oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400コア
+#version 400コア
 
 layout(triangles, equal\_spacing, ccw) in;
 
@@ -705,17 +705,17 @@ vec3 iFS\_Binormal;\
 vec3 iFS\_PointWSを出力しました。
 
 vec3 interpolate3D(vec3 v0, vec3 v1, vec3 v2, vec3 uvw)\
-&lbrace;\
+{\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 vec2 interpolate2D(vec2 v0, vec2 v1, vec2 v2, vec3 uvw)\
-&lbrace;\
+{\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 uvw = gl\_TessCoord.xyz;
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz, gl\_in[1].gl\_Position.xyz, gl\_in[2].gl\_Position.xyz, uvw);\
@@ -735,7 +735,7 @@ iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz;\
-&rbrace;
+}
 
 ### フラグメントシェーダーファイル
 
@@ -743,24 +743,24 @@ iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz;\
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 // #define ALG\_NORMAL\_DIRECTX\
-&#x200B;#define ALG\_NORMAL\_OPENGL
+#define ALG\_NORMAL\_OPENGL
 
-&#x200B;#ifdef ALG\_NORMAL\_DIRECTX\
+#ifdef ALG\_NORMAL\_DIRECTX\
 // #define FLIP\_NORMAL\_X\
-&#x200B;#define FLIP\_NORMAL\_Y\
+#define FLIP\_NORMAL\_Y\
 // #define FLIP\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_DIRECTX
+#endif //#ifdef ALG\_NORMAL\_DIRECTX
 
-&#x200B;#ifdef ALG\_NORMAL\_OPENGL\
+#ifdef ALG\_NORMAL\_OPENGL\
 // #define FLIP\_NORMAL\_X\
-&#x200B;#define FLIP\_NORMAL\_Y\
+#define FLIP\_NORMAL\_Y\
 // #define FLIP\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_OPENGL
+#endif //#ifdef ALG\_NORMAL\_OPENGL
 
 vec3 iFS\_Normalの変更；\
 可変vec2 iFS\_UV;\
@@ -801,17 +801,17 @@ uniform samplerCube environmentMap;
 均一mat4 viewInverseMatrix;
 
 vec4 litFct(float NdotL、float NdotH、float specExp)\
-&lbrace;\
+{\
 float ambient = 1.0;\
 float diffuse = max(NdotL, 0.0);\
 float Specular = step(0.0, NdotL) \&#42; pow(max(0.0, NdotH), specExp);\
 return vec4(ambient, diffuse, Specular, 1.0);\
-&rbrace;
+}
 
 vec3 lerpFct(vec3 v0, vec3 v1, float percent)\
-&lbrace;\
+{\
 return v0 + (v1-v0) \&#42; percent;\
-&rbrace;
+}
 
 //フォンシェーディング\
 void phong\_シェーディング(\
@@ -821,37 +821,37 @@ vec3 pointToLightDirWSでは、\
 vec3 pointToCameraDirWSでは、\
 vec3 DiffuseContribを見つけます。\
 inout vec3 SpecularContrib)\
-&lbrace;\
+{\
 vec3 Hn = normalize(pointToCameraDirWS + pointToLightDirWS);\
 vec4 litV = litFct(dot(normalWS, pointToLightDirWS), dot(normalWS, Hn), SpecExpon);\
 DiffuseContrib = litV.y \&#42; LightColor;\
 SpecularContrib = litV.y \&#42; litV.z \&#42; Ks \&#42; LightColor;\
-&rbrace;
+}
 
 vec3 fixNormalSample(vec3 v)\
-&lbrace;\
+{\
 vec3結果= v - vec3(0.5,0.5,0.5);
 
-&#x200B;#ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_X\
 result.x = -result.x;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_X\
-&#x200B;#ifdef FLIP\_NORMAL\_Y\
+#endif // ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_Y\
 result.y = -result.y;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Y\
-&#x200B;#ifdef FLIP\_NORMAL\_Z\
+#endif // ifdef FLIP\_NORMAL\_Y\
+#ifdef FLIP\_NORMAL\_Z\
 result.z = -result.z;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Z
+#endif // ifdef FLIP\_NORMAL\_Z
 
 結果を返す。\
-&rbrace;
+}
 
 vec3 normalVecOSToWS(vec3 normal)\
-&lbrace;\
+{\
 return normal;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 cameraPosWS = viewInverseMatrix[3].xyz;\
 vec3 pointToLight0DirWS = normalize(Lamp0Pos - iFS\_PointWS);\
 vec3 pointToLight1DirWS = normalize(Lamp1Pos - iFS\_PointWS);\
@@ -936,16 +936,16 @@ vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 vec3 emissive = texture2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
-&#x200B;+ specularColor\&#42;specContrib\
-&#x200B;+ diffuseColor.rgb\&#42;diffContrib\
-&#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
++ specularColor\&#42;specContrib\
++ diffuseColor.rgb\&#42;diffContrib\
++ (reflColor\&#42;specularColor\&#42;FallofRefl)\
 +放射；
 
 //最終的なカラー\
 vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
-&rbrace;
+}
 
 ### GLSLFXファイル
 

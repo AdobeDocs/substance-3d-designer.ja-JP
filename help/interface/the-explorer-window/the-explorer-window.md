@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのエクスプローラーウィンドウを使用して、プロジェクトのファイルやリソースを参照、整理、管理します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: エクスプローラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -48,8 +48,8 @@ ht-degree: 2%
 * 読み込まれたパッケージを保存して閉じる
 * [リソースの読み込みとリンク](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [グラフ結果のテクスチャへの書き出し](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [Substance 3Dアセット(SBSAR)へのパッケージのPublish](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [他のSubstance 3Dアプリケーションへのパッケージの送信](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [Substance 3Dアセット(SBSAR)へのパッケージのPublish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [他のSubstance 3Dアプリケーションへのパッケージの送信](send-to-interoperability/send-to-interoperability.md)
 * [メッシュからマップをベイクする](../../bakers/bakers.md)
 
 ## 上ツールバー
@@ -61,7 +61,7 @@ ht-degree: 2%
 ![](../../assets/sendto-icon.jpg) <b>Publishまたは[送信](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>選択した要素：
 
 * [選択したパッケージをSubstance 3Dアセット(SBSAR)にPublish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* 選択したパッケージを[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)さん、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)さん、または[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)に送信します。
+* 選択したパッケージを[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)さん、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)さん、または[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)に送信します。
 
 ![](../../assets/republish.png) <b>Publishまたは以前と同じ形式で送信： </b>選択したアイテムをPublishするか、以前と同じ設定で送信します。 このオプションは、*現在*&#x200B;セッションで既に&#x200B;*少なくとも1回*&#x200B;公開されているパッケージでのみ使用できます。
 
@@ -116,11 +116,11 @@ ht-degree: 2%
 
 <b>再読み込み</b>、<b>保存、別名で保存</b>および<b>コピーを別名で保存</b>を使用すると、ディスクに保存したり、以前に保存したバージョンのパッケージをディスクから取り消したりできます。
 
-<b>Publish .sbsarファイル</b>および<b> .sbsarファイル</b>を再パブリッシュすると、[最適化されていないコンパイルされていないSubstanceグラフを効率的でポータブルなSBSARファイルにPublishして、他のSubstanceアプリケーションや統合で使用できるようになります](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)。 「前と同じPublish」を選択すると、同じオプションを使用して前のPublishの操作が繰り返され、オプションダイアログをスキップすることで、繰り返し操作を高速化できます。 ツールバーには、同じ機能を持つボタンが含まれています。
+<b>Publish .sbsarファイル</b>および<b> .sbsarファイル</b>を再発行すると、最適化されていないコンパイルされていないSubstanceグラフを効率的でポータブルなSBSARファイルに[公開](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)して、他のSubstanceアプリケーションや統合で利用できます。 「前と同じPublish」を選択すると、同じオプションを使用して前のPublishの操作が繰り返され、オプションダイアログをスキップすることで、繰り返し操作を高速化できます。 ツールバーには、同じ機能を持つボタンが含まれています。
 
 <b>依存関係のあるエクスポート</b>は、保存および発行とは異なります。 SBSファイルを取得し、参照されているすべてのリソースと依存関係を収集して、自己完結型のパッケージを作成します。 このダイアログでは、収集するライブラリと、ファイルを圧縮アーカイブ(7-zip)にするかどうかを選択できます。 これは、依存関係の欠落を気にすることなく、SBSファイルを他のユーザーと共有する場合に適しています。
 
-<b>送信先…</b>では、サブメニューが開き、[&#128279;](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)パッケージを直接[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)に送信するか、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)に送信するか、[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)に送信するか、[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)にするかを選択できます。
+<b>送信先…</b>は、パッケージを直接[送信先](send-to-interoperability/send-to-interoperability.md)として[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)または[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)に送信するためのサブメニューを開きます。
 
 <b>コピー</b>選択したパッケージをコピーします。
 

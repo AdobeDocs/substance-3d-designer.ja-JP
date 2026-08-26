@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: より見やすいグラフを作成するために、ノード整列ツールを使用してグラフビューのノードを整理し、整列させます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ノード整列ツール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![ノードの配置ツールバー](../../../assets/node-alignment-toolbar.png "ノードの配置ツールバー"){zoomable="yes"}
 
-ノード整列ツールを使用すると、ノードをグラフに配置して、読みやすさとオーサリングの操作性を向上させることができます。 ノードを整列したり、均等に配置したり、グリッドにスナップするアクションを提供します。
+ノード整列ツールを使用すると、ノードをグラフに配置して、読みやすさとオーサリングの操作性を向上させることができます。 ノードを整列したり、均等に配置したり、グリッドにスナップするアクションを提供します。
 
 これらは、現在選択されている<b>ノードにのみ</b>作用します。
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 ### スタック
 
-<b>スタック</b>オプション![](../../../assets/node-alignment-stack.png)を使用すると、線形を使用する際に<b>重なりを避けることができます</b>。 デフォルトでは有効になっています。
+<b>スタック</b>オプション![](../../../assets/node-alignment-stack.png)を使用すると、線形を使用する際に<b>重なりを避けることができます</b>。 デフォルトでは有効になっています。
 
 有効にすると、ノードは選択範囲内の別のノードと衝突するまで、参照位置に可能な限り移動します。 これにより、各ノード間で1つの中間グリッドセルのマージンで、選択した軸に効果的にそれらを積み重ねることができます。
 

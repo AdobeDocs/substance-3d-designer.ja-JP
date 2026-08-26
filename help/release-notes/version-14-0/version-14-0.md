@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: 新しいノード、グラフナビゲーション、パフォーマンスの向上については、 Substance 3D Designerバージョン14.0のリリースノートを参照してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # バージョン 14.0
 
-<b>Substance 3D Designer 14.0 </b>では、QOLが向上しています（グラフナビゲーション、パフォーマンスなど）。 しかし、何よりも新しいノード（カラーマニピュレーション、桑原フィルター、ヒストグラムツール、ベベルスムーズ、方向の距離など）が多く含まれています。 これらの変更について詳しくは、以下を参照してください。 
+<b>Substance 3D Designer 14.0 </b>では、QOLが向上しています（グラフナビゲーション、パフォーマンスなど）。 しかし、何よりも新しいノード（カラーマニピュレーション、桑原フィルター、ヒストグラムツール、ベベルスムーズ、方向の距離など）が多く含まれています。 これらの変更について詳しくは、以下を参照してください。
 
 *リリース日：2024年7月30日*
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 この14.0バージョンでは、以下の新しいノードを備えた新しいコンテンツが多数追加されています。
 
-* <b>色の操作に特化したノード： </b>1つのノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレットを抽出します。これは、独自のカラーパレットを作成するためのツールノードファミリ（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>カラーパレット）と、IDマップを使用して他の画像に適用します([&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md))。 また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけて、クオンタイズカラーで計算されたIDマップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
+* <b>色の操作に専用のノード： </b>1ノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレット（独自のカラーパレットを作成するためのツールノードのファミリー）を抽出します（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b>） IDマップ（[カラーパレットを適用](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）を使用して別の画像に適用する</b>カラーパレット)および1つです。 また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけて、クオンタイズカラーで計算されたIDマップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 
 * <b>桑原フィルター</b> ：さらにスタイルを適用する場合は、[桑原カラー異方性](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[グレースケール](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)フィルターを使用して絵画調の効果を生み出すことができます。 ディテールでは、画像のディテールに合わせた異方性指向性ブラーを適用します。 その結果、画像は内側のシェイプの方向に流れているように見えます。
 
-これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize_jp)で説明しています。 このガイドを使用して、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法を説明します。
+これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize)で説明しています。 このガイドを使用して、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法を説明します。
 
 その他の強力なノードがパーティに参加します。
 
 * [<b>曲線の滑らかさ</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) ：この新しいバージョンでは、すべてのタイリングモードが正しくサポートされ、2つの新しい出力（凸面と凹面）が追加され、精度とパフォーマンスの両方が向上しました。
-* <b>[Histogram equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b>このノードは、等分布になるように値を調整することで、グレースケールイメージのヒストグラムを等化します。 このノードには2つの関連ノードがあります。画像のヒストグラムを出力する[ヒストグラムレンダリング](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)と、ヒストグラムをピクセル列としてエンコードする[ヒストグラム計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>です。
-* <b>[ベベルスムーズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b>この機能により、マスクの境界線（外側、内側、または両方）からグラデーションまたはフラットカラーを描くことができます。 節点[方向の距離](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>は、グラデーションも描画しますが、特定の方向に向けられます。
+* <b>[Histogram equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b>このノードは、等分布になるように値を調整することで、グレースケールイメージのヒストグラムを等化します。 このノードには、画像のヒストグラムを出力する[ヒストグラムレンダリング](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)と[ヒストグラム計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b>という2つの関連ノードが付属しています </b>ヒストグラムをピクセルの行としてエンコードします。
+* <b>[ベベルスムーズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b>この機能により、マスクの境界線（外側、内側、または両方）からグラデーションまたはフラットカラーを描くことができます。 ノード[方向の距離](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>グラデーションも描画しますが、特定の方向に描画します。
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b>このノードは、[Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)ノードの反対であり、Heightマップによって記述された表面の詳細を法線マップから削除します。
 
 <table>
@@ -198,7 +198,7 @@ ht-degree: 0%
 * [コンテンツ] Substance関数グラフで「Negate Float1」ノードを廃止する
 * [コンテンツ] 「カラーを量子化」の名前を「カラーを量子化（シンプル）」に変更
 * [2Dビュー] 0 ～ 1の範囲外のピクセルの値が情報パネルに表示される
-* [Engine]&#x200B;[Text]一部のフォントの新しいカーニング
+* [Engine][Text]一部のフォントの新しいカーニング
 * [グラフ]インコンテキスト編集中にディープサブグラフを編集する際の無効化時間を短縮
 * [リンカー] SBSASMでビットマップを複製しない
 * [パラメーター]すべての入力パラメータータイプに新しい「関数」ウィジェットを追加します

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: ワークフローの構成を改善するために、Substance合成グラフでパラメーターを管理および整理する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パラメーターを管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -59,7 +59,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 * <b>パラメーターの貼り付け：</b>以下の[パラメーターのコピーと貼り付け](../../compositing-graphs/manage-parameters/manage-parameters.md)のセクションを参照してください。
 * <b>パラメーターをプリセットファイルとして保存する：</b> [この専用ページ](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)のパラメータープリセットの詳細をご覧ください。
 * <b>プリセットファイルからパラメーターを適用する：</b> [この専用ページ](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)のパラメータープリセットの詳細をご覧ください。
-* <b>すべてリセット：</b>すべてのパラメーターを既定値と範囲にリセットします。 関数がパラメーターに適用されると、その関数は破棄されます。
+* <b>すべてリセット：</b>すべてのパラメーターを既定値と範囲にリセットします。 関数がパラメーターに適用されると、その関数は破棄されます。
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 ## パラメーターのコピー&amp;ペースト
 
-ソースノードのすべてのパラメータ値をコピーし、ターゲットノードに貼り付けることができます。 ソースノードとターゲットノードのパラメーターは、それらの識別子と種類の両方に基づいて<b>一致します</b>。
+ソースノードのすべてのパラメータ値をコピーし、ターゲットノードに貼り付けることができます。 ソースノードとターゲットノードのパラメーターは、それらの識別子と種類の両方に基づいて<b>一致します</b>。
 
 たとえば、識別子が&#39;scale&#39;で型が&#39;Float&#39;のパラメータ&#39;Scale&#39;を、識別子も&#39;scale&#39;で型が&#39;Float&#39;の別のパラメータ&#39;Shape Scale&#39;にコピーして貼り付けることができます。
 

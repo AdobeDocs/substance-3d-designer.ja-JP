@@ -10,9 +10,9 @@ helpx_tags: ""
 title: SubstanceグラフとMDL資料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Substanceグラフの出力は、2つの方法でMDL素材の公開パラメーターに&#x200B;*渡すことができます*。
 
-現在3Dビューで適用されているMDLマテリアルに種類&#x200B;*[variing](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;の公開されたパラメーターがある場合 – この種類は、[公開されたパラメーターのプロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)の<b>型修飾子</b>オプションを使用して設定される可能性があり、これらは&#x200B;*テクスチャ*&#x200B;に接続できます：
+現在3Dビューで適用されているMDLマテリアルに&#x200B;*[varying](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;の公開パラメーターがある場合 – この型は[公開パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)のプロパティの<b>型修飾子</b>オプションを使用して設定される可能性があり、これらは&#x200B;*テクスチャ*&#x200B;に接続できます：
 
 * <b>Color</b>パラメーターをRGBAテクスチャに接続できます
 * グレースケールテクスチャの<b>フロート</b>パラメーター
@@ -52,7 +52,7 @@ Substanceグラフのインスタンスを<b>エクスプローラー</b>パネ�
 
 
 
-MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview.md) (SBS)の*[&#x200B; Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)インスタンス
+MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview.md) (SBS)の*[ Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)インスタンス
 
 +++
 
@@ -61,7 +61,7 @@ MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview
 
 
 
-*[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)MDLグラフの[Substance 3Dアセット](../../getting-started/overview/overview.md) (SBSAR)のインスタンス*
+*[MDLグラフの[Substance 3Dアセット](../../getting-started/overview/overview.md) (SBSAR)の](../../compositing-graphs/substance-compositing-graphs.md)インスタンス*
 
 +++
 

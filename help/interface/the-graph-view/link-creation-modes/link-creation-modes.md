@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: ノードを効率的に接続するためのSubstance 3D Designerグラフビューのリンク作成モードについて説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: リンク作成モード
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ ht-degree: 0%
 
 ## モード
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 標準 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> コンパクト | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> コンパクトマテリアル |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 標準 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> コンパクト | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> コンパクトマテリアル |
 | --- | --- | --- | --- |
 | <b>入力</b> | すべての入力が表示されます | すべての入力が表示されます | 1つのグループにつき1入力のみ |
 | <b>出力</b> | すべての出力が表示されます | すべての出力が表示されます | グループあたり1つの出力のみ |
 | <b>リンク</b> | すべてのリンクが表示されます | すべてのリンクが表示されます | 1つのグループにつき1つのリンクのみ（緑） |
-| <b>接続</b> | リンクは1つずつ接続します | リンクは、一致する使用法に基づいてマルチリンクマテリアルグループとして接続します。   一方の端に使用法が存在する場合、接続は標準になります。 | リンクは、単一リンクのマテリアルグループとして接続します。 |
+| <b>接続</b> | リンクは1つずつ接続します | リンクは、一致する使用法に基づいてマルチリンクマテリアルグループとして接続します。   一方の端に使用法が存在する場合、接続は標準になります。 | リンクは、単一リンクのマテリアルグループとして接続します。 |
 
 ## グループの割り当て
 

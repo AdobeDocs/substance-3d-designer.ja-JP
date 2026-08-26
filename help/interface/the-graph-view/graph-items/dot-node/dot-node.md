@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのドットノードとポータルノードを使用して、コネクションポイントを作成し、グラフフローを整理します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ドットノード（ポータルも含む）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>ドット</b>ノードは、接続を再ルーティングおよびグループ化することでグラフを簡素化およびクリーンアップできるヘルパーです。 このオプションは、他のコネクションやノード上で多数の長いコネクションが実行されているグラフで特に便利です。
+<b>ドット</b>ノードは、接続を再ルーティングおよびグループ化することでグラフを簡素化およびクリーンアップできるヘルパーです。 このオプションは、他のコネクションやノード上で多数の長いコネクションが実行されているグラフで特に便利です。
 
 ドットノードのペアを<b>ポータル</b>として使用して、長距離を経由する接続を非表示にしたり、接続のルーティングが困難な場所で使用したりできます。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-ドットノードを<b>ポータル</b>として使用すると、読みやすさを損なう面倒な長いリンクを設定することなく、グラフ内の長距離にわたってデータを送信できます。 これにより、ドットノード間のリンクが効果的に非表示になります。
+ドットノードを<b>ポータル</b>として使用すると、読みやすさを損なう面倒な長いリンクを設定することなく、グラフ内の長距離にわたってデータを送信できます。 これにより、ドットノード間のリンクが効果的に非表示になります。
 
 </td>
 </tr>

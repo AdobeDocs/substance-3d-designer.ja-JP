@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: ブレンドノードを使用すると、様々なブレンドモードを使用して2つのテクスチャをブレンドし、合成効果を作成できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ブレンド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
+その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ ht-degree: 9%
 |  |  |
 | --- | --- |
 | <b>不透明度</b> *フロート* | 背景にブレンドされる前景レイヤーの不透明度。 このエフェクトは、不透明度の入力とは独立して機能し、追加のマルチプライヤとして機能します。 |
-| <b>描画モード</b> *整数* [静的](../../../../glossary/glossary.md) | 使用するブレンド操作を設定します。   [描画モードに関する専用ページ](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)を参照してください。 |
+| <b>描画モード</b> *整数* [静的](../../../../glossary/glossary.md) | 使用するブレンド操作を設定します。   [描画モードに関する専用ページ](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)を参照してください。 |
 | <b>Alphaブレンド</b> *整数* [静的](../../../../glossary/glossary.md) | カラー入力にAlphaチャンネルがある場合のブレンド動作を指定します。<ul data-preserve-html="true"> <li data-preserve-html="true">ソースアルファを使用</li> <li data-preserve-html="true">アルファを無視</li> <li data-preserve-html="true">ストレートアルファブレンディング</li> <li data-preserve-html="true">合成アルファブレンド</li> </ul> |
 | <b>切り抜き領域</b> *浮動小数点4* [静的](../../../../glossary/glossary.md) | 追加の不透明度マスクのように動作するカスタムの切り抜き領域を設定できるようにします。 切り抜いた領域には、背景のみが表示されます。 |
 

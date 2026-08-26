@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Substanceグラフのパラメーターが正常に機能しない問題をトラブルシューティングし、解決策を見つけます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: パラメーターが予期したとおりに機能しない
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '303'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 <b>![（エラー）](../../assets/error.svg)問題</b>
 
-Designerで[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用しているとき、またはそのグラフから公開された[Substance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)のパラメーターリストに、グラフの公開パラメーターの一部が&#x200B;*表示されていません*。
+Designerで[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用しているとき、またはそのグラフのSubstance 3Dアセット(SBSAR)のパラメーターリスト[公開済み](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)に含まれているときに、グラフの公開パラメーターの一部が&#x200B;*表示されていません*。
 
 <b>![(tick)](../../assets/check.svg)おすすめの手順</b>
 
