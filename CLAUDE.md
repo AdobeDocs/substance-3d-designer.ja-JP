@@ -9,11 +9,11 @@ ht-degree: 0%
 
 このファイルは、このリポジトリーでコードを操作する際のガイダンスとしてClaude Code (claude.ai/code)を提供します。
 
-# Substance 3D Designerドキュメント
+&#x200B;# Substance 3D Designerドキュメント
 
 このリポジトリーには、Substance 3D Designerに関するドキュメントが含まれています。 アプリケーションコード、ビルドステップ、またはテストスイートがありません。リポジトリ&#x200B;*は*&#x200B;のコンテンツで、マークダウンで記述され、[Adobe Experience League](https://experienceleague.adobe.com/docs/substance3d-designer.html?lang=en)に公開されています。
 
-# リポジトリ構造
+&#x200B;# リポジトリ構造
 
 * `help/` – すべてのドキュメントコンテンツ。目次をミラーリングするように構成されています。
 * `help/guide/TOC.md` – 目次。 すべてのエントリは、ページのマークダウンファイルへの相対リンクです（`/help/...`をルートとする）。 `TOC.md`にはページツリーメタデータ（`user-guide-title`、`breadcrumb-title`、`nudge`、`{#section-id}`などのセクションアンカー）も含まれています。
@@ -54,20 +54,20 @@ user-guide-title: ""
 
 `description`を正確かつ簡潔に保ちます。SEO/検索スニペットに使用されます。
 
-# コンテンツオーサリングルール
+&#x200B;# コンテンツオーサリングルール
 
 * 英語は真理の源だ。他のすべての言語はそこから翻訳される。
 * 他のドキュメントページへのリンクはすべて&#x200B;**相対**&#x200B;リンクにする必要があります。外部リソースへのリンクはすべて&#x200B;**絶対**&#x200B;リンクにする必要があります。
 * コンテンツは、GitHubフレーバーのマークダウンで、Experience Leagueのカスタム拡張機能/gotchasを使用して書かれています。[こちら](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown)で文書化されています。 詳細については、`write-experience-league-markdown`スキルを使用してください（存在する場合）。
 * 送信されたすべての変更は、CIで自動化されたリンクチェックとリンク検証を通じて処理されます（以下を参照）。ルールが適用される、またはリンクを修正する必要があると仮定する前に、`markdownlint_custom.json`と`linkcheckexclude.json`を確認してください。
 
-# 検証/CI
+&#x200B;# 検証/CI
 
 * `.github/workflows/validate-articles.yml`はPR上で実行され、`main`にプッシュされます（`retest`のPRコメントを介して）。共有された`Adobe-Enterprise-Docs/workflows`再利用可能なワークフローを呼び出して、マークダウンをリンクし、リンクを検証します。 このリポジトリにはローカルに対応するスクリプトはありません。CIは合格/不合格の真のソースです。
 * `.github/workflows/mirror.yml`は、プッシュ時に公開リポジトリに`main`をミラーリングします。これはインフラストラクチャであり、コンテンツの変更が反映される必要はありません。
 * `markdownlint_custom.json`は、共有されている`markdownlint.json`ルールセットを拡張し、Experience LeagueのカスタムMarkdown拡張機能（インラインHTML、非標準の強調など）と競合するいくつかのルール(MD005、MD007、MD018、MD032、MD033、MD034、MD037、MD040)を無効にします。 これらの無効なルールを満たすためにコンテンツを「修正」しないでください。
 * `linkcheckexclude.json`は、リンクチェッカーがスキップするリンクパターン（現在`example.com`/`example-end.com`）をホワイトリストに登録します。
 
-# 作業中の規則
+&#x200B;# 作業中の規則
 
 * これはリリースノート重視のドキュメントです。リリースノートは`help/release-notes/`下にあり、バージョンごとに1つのフォルダー（例： `version-16-0`）に加えて、`all-changes`および`old-versions`のアグリゲーションページに格納されます。 新しいリリースを追加する場合は、既存のバージョンフォルダーにテンプレートとして従います。
