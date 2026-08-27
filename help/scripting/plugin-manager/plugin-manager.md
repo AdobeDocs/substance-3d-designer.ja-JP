@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのプラグインマネージャーを使用して、拡張機能のためのPythonプラグインをインストール、管理、設定します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プラグインマネージャー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # プラグインマネージャー
 
-<b>プラグインマネージャー</b>ダイアログには、メインメニューバーの<b>ツール</b>メニューからアクセスできます。 *アクティブ*&#x200B;なプラグインと、*プラグインの読み込みと読み込み解除*&#x200B;プラグインを確認できます。
+<b>プラグインマネージャー</b>ダイアログには、メインメニューバーの<b>ツール</b>メニューからアクセスできます。 *アクティブ*&#x200B;なプラグインと、*プラグインの読み込みと読み込み解除*&#x200B;プラグインを確認できます。
 
 ![プラグインマネージャー](../../assets/pluginmgr.png "プラグインマネージャー")
 

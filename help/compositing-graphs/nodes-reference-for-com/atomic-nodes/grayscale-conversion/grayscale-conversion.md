@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ''
 description: さまざまな変換方法を使用してカラーテクスチャをグレースケールに変換するには、グレースケール変換ノードを使用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グレースケール変換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -92,9 +92,9 @@ ht-degree: 7%
 
 |  |  |
 | --- | --- |
-| <b>チャンネルの太さ</b> *浮動小数点4* | グレースケール変換の各RGBAチャンネルのウェイトを設定します。   デフォルトでは、RGBチャンネルで均等に分割されます。 |
-| <b>アルファを統合</b> *ブール値* | グレースケール値にはAlpha情報を含めることができないため、最終的なグレースケール結果に対するAlphaの動作を設定します。   *True*&#x200B;の場合、グレースケール変換は入力画像のAlphaチャンネルに対して乗算されます |
-| <b>背景の値</b> *フロート* | 入力にアルファマスクが含まれている場合に、ベース背景値を設定します。 つまり、透明として扱うピクセルを指定します。   *&#39;アルファの平坦化&#39;が&#39;True&#39;に設定されている場合に使用できます。* |
+| <b>チャンネルの太さ</b> *浮動小数点4* | グレースケール変換の各RGBAチャンネルのウェイトを設定します。   デフォルトでは、RGBチャンネルで均等に分割されます。 |
+| <b>アルファを統合</b> *ブール値* | グレースケール値にはAlpha情報を含めることができないため、最終的なグレースケール結果に対するAlphaの動作を設定します。   *True*&#x200B;の場合、グレースケール変換は入力画像のAlphaチャンネルに対して乗算されます |
+| <b>背景の値</b> *フロート* | 入力にアルファマスクが含まれている場合に、ベース背景値を設定します。 つまり、透明として扱うピクセルを指定します。   *&#39;アルファの平坦化&#39;が&#39;True&#39;に設定されている場合に使用できます。* |
 
 ## 入力コネクタ
 

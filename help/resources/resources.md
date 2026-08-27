@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでビットマップ、フォント、3Dシーンなどのリソースを読み込み、作成、管理する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: リソース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -55,10 +55,10 @@ ht-degree: 7%
 
 非グラフリソースは通常、グラフの追加データとして使用したり、グラフからの結果を視覚化したりするためのヘルパーリソースです。 次のタイプが存在し、それぞれドキュメントのこのセクションにサブページがあります。
 
-* [ビットマップ](../resources/bitmap-resource/bitmap-resource.md)
-* [ベクターグラフィック（SVG）](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D シーンリソース](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [フォント](../resources/font-resource/font-resource.md)
+* [ビットマップ](bitmap-resource/bitmap-resource.md)
+* [ベクターグラフィック（SVG）](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [3D シーンリソース](3d-scene-resource/3d-scene-resource.md)
+* [フォント](font-resource/font-resource.md)
 
 </td>
 </tr>

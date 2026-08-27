@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Substance 3D Designerで、テクスチャを様々な合成エフェクトと組み合わせる際に使用できる描画モードについて説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 描画モード
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 *オーバーレイ*&#x200B;描画モードは、乗算とスクリーンの描画モードを組み合わせたものです。
 
-* &#x200B;
+* 
   * 下のレイヤーのピクセルの値が0.5未満の場合は、*乗算*&#x200B;型の描画が適用されます
   * 下のレイヤーのピクセルの値が0.5より大きい場合は、*スクリーン*&#x200B;の種類の描画が適用されます
 

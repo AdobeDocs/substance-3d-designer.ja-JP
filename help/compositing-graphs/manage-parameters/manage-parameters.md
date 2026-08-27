@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: ワークフローの構成を改善するために、Substance合成グラフでパラメーターを管理および整理する方法について説明します。
 helpx_creative_field: ""
@@ -135,7 +135,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </tr>
 </table>
 
-## Atomicノードの制限
+## アトミックノード制限
 
 特定の実装と制御のため、一部の[原子ノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)では使用できない機能があります。
 
@@ -144,7 +144,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 * [パラメータをコピー/貼り付け](#copy-paste-parameters)
 * [プリセットファイルの保存と適用](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
-...これらのアトミックノードには使用できません。
+...これらのアトミックノードは使用できません。
 
 <table>
 <tr style="border: 0;">

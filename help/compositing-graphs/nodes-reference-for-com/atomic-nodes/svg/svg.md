@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: SVGノードを使用して、SVGのベクターグラフィックをテクスチャとして読み込んでレンダリングし、スケーラブルなグラフィックエレメントを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -99,8 +99,8 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>カラーモード</b> *ブール値* | カラーまたはグレースケールで返すノードの出力タイプを指定します。 |
-| <b>背景色</b> *カラー/グレースケール* | ベクターシェイプで覆われていない領域で使用する出力画像の背景色を設定します。   *入力が接続されている場合は、&#39;[Background](#inputs)&#39;入力によって上書きされます。* |
-| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターのテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのSVGノードにドラッグアンドドロップすることをお勧めします。 |
+| <b>背景色</b> *カラー/グレースケール* | ベクターシェイプで覆われていない領域で使用する出力画像の背景色を設定します。   *入力が接続されている場合は、&#39;[Background](#inputs)&#39;入力によって上書きされます。* |
+| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターのテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのSVGノードにドラッグアンドドロップすることをお勧めします。 |
 
 ## ベクター編集ツール
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | ベクターシェイプで覆われていない領域で使用する出力画像の背景色を設定します。   *接続時に&#39;[背景色](#parameters)&#39;パラメーターを上書きします。* |
+| <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | ベクターシェイプで覆われていない領域で使用する出力画像の背景色を設定します。   *接続時に&#39;[背景色](#parameters)&#39;パラメーターを上書きします。* |
 
 ## 出力コネクタ
 

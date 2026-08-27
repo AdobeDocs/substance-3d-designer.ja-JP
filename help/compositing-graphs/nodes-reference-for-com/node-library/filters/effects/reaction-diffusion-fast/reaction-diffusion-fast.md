@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: プロシージャテクスチャ用の高速反応拡散アルゴリズムを使用して有機的なパターンを生成するには、反応拡散の高速ノードを使用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 反応拡散速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -53,9 +53,9 @@ ht-degree: 1%
 
 ## パラメーター
 
-<b>半径</b> *浮動小数点*&#x200B;効果の範囲。
+<b>半径</b> *フロート*&#x200B;効果の広がりの範囲。
 
-<b>コントラスト</b> *浮動小数点*\
+<b>コントラスト</b> *フロート*\
 入力のコントラストを調整します。一種の閾値として機能します。
 
 ## 例

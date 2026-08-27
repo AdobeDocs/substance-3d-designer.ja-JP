@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: グラフインスタンスとサブグラフを使用して、再利用可能なグラフコンポーネントとモジュール化されたマテリアルワークフローを作成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: グラフインスタンスとサブグラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Designerで複数のノードのチェーンを複製する場合は、再利用
 
 ### 独自のグラフインスタンスをノードライブラリに追加できますか？
 
-<b>はい、可能です</b>ただし、特定の設定が必要です。 詳細については、このドキュメントの[カスタムコンテンツとフィルターの管理](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)ページを参照してください。
+<b>はい、可能です</b>ただし、特定の設定が必要です。 詳細については、このドキュメントの[カスタムコンテンツとフィルターの管理](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)ページを参照してください。
 
 ### グラフインスタンスのソースグラフを検査できますか？
 

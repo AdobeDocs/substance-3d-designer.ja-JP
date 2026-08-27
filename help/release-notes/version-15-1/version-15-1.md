@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Designerバージョン15.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 ## グラフ作成の改善
 
-このリリースでは、[グラフ作成ウィンドウ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)が<b>全面的に再設計</b>され、Substance 3D Designerでの最初のユーザーエクスペリエンスが向上しました。 このアップデートの主な目標は、テンプレート選択プロセスを合理化して、ユーザーが要件に最も適したテンプレートを効率的に特定できるようにすることです。
+このリリースでは、[グラフ作成ウィンドウ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)が<b>全面的に再設計</b>され、Substance 3D Designerでの最初のユーザーエクスペリエンスが向上しました。 このアップデートの主な目標は、テンプレート選択プロセスを合理化して、ユーザーが要件に最も適したテンプレートを効率的に特定できるようにすることです。
 
-サムネールには、目的のマテリアルタイプの<b>視覚的な参照</b>が即座に表示され、詳細なツールチップにはすべての関連情報が表示されます。 整理しやすくするために、テンプレートは、マテリアル、フィルター、スキャン処理などの特定の<b>カテゴリ</b>に分類されるようになりました。
+サムネールには、目的のマテリアルタイプの<b>視覚的な参照</b>が即座に表示され、詳細なツールチップにはすべての関連情報が表示されます。 整理しやすくするために、テンプレートは、マテリアル、フィルター、スキャン処理などの特定の<b>カテゴリ</b>に分類されるようになりました。
 
 メインインターフェイスはアップグレードされましたが、リスト、パッケージ、ディレクトリのオプションなど、以前のビューに引き続きアクセスできます。
 
@@ -44,7 +44,7 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 ![サンプル用の新しいグラフ作成ウィンドウ](../../assets/GraphSample.png){zoomable="yes"}
 
-このニーズを満たすために、我々は生地（革やサテンを含む）、木材、金属、プラスチック、セラミックなどの材料サンプルを含んでいます。 これらの例は、プロジェクトを簡単に開始し、Substance 3D Designerで使用可能なメインファミリーノードについて理解するのに役立ちます
+このニーズを満たすために、我々は生地（革やサテンを含む）、木材、金属、プラスチック、セラミックなどの材料サンプルを含んでいます。 これらの例は、プロジェクトを簡単に開始し、Substance 3D Designerで使用可能なメインファミリーノードについて理解するのに役立ちます
 
 各グラフには<b>注釈</b>が付いており、慎重に整理されています。また、できるだけ理解しやすくするために、最小限のノード数が含まれています。
 
@@ -68,7 +68,7 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 以下の[リリースノート](#release-notes)で、更新されたノイズの完全なリストを参照してください。
 
-例： [セル 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [雲2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向の傷](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [湿気ノイズ1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+例： [セル1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [雲2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向の傷](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [湿気ノイズ1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![方向障害ノイズ](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -199,8 +199,8 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 * [3Dビュー]Specular levelが正しく適用されない
 * [3Dビュー] Eclairラスタライザーを使用すると、Specular edge colorが機能しない
 * [3Dビュー]ユーザが追加したマテリアルが既定のシーンに適用されない
-* [3D表示]&#x200B;[ベーカーさん]オーバーライドしたマテリアルカラーや「カラー」ベーカーを使用した場合に、マテリアルカラーが暗すぎる
-* [3Dビュー]&#x200B;[ベイカー] FBXファイルのマテリアルカラーが表示されない
+* [3D表示][ベーカーさん]オーバーライドしたマテリアルカラーや「カラー」ベーカーを使用した場合に、マテリアルカラーが暗すぎる
+* [3Dビュー][ベイカー] FBXファイルのマテリアルカラーが表示されない
 * [ベイカー] FBXファイルのマテリアルカラーが正しく検出されない
 * [ベイカー] JSONプリセットの書き出しで、「recompute\_tangents」オプションが常に「false」になる
 * [ベイカー] CLI:JSONファイルを使用して同じベイカーを連続して実行するとクラッシュする

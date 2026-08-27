@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: '[色を統一]ノードを使用して、単色の塗り潰しとベースレイヤを作成するための均一な色のテクスチャを生成します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 均一カラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -96,7 +96,7 @@ ht-degree: 8%
 |  |  |
 | --- | --- |
 | <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 |
-| <b>出力色</b> *フロート/フロート4* | 出力画像に使用する単色を選択します。   「カラー」カラーモードを使用する場合、Alphaチャンネルは不透明度に使用されます。0は完全に透明で、1は完全に不透明です。 |
+| <b>出力色</b> *フロート/フロート4* | 出力画像に使用する単色を選択します。   「カラー」カラーモードを使用する場合、Alphaチャンネルは不透明度に使用されます。0は完全に透明で、1は完全に不透明です。 |
 
 ## 出力コネクタ
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: FX-Mapノードを使用して、プロシージャパターンおよびプロシージャエフェクトを作成するために、テクスチャに関数グラフを適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -71,11 +71,11 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 
 ## パラメーター
 
-他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって決定されることに注意してください。
+他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって[決定されることに注意してください。
 
 |  |  |
 | --- | --- |
-| <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 カラーは、グレースケールよりもはるかに低速になります。 |
+| <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 カラーは、グレースケールよりもはるかに低速になります。 |
 | <b>背景</b> *フロート/フロート4* | 結果を合成する背景色を設定します。 |
 | <b>領域のレンダリング</b> *浮動小数点4* | FX-Mapの各側面の開始ピクセル範囲を設定し、結果としてストレッチ効果を作成できます。 |
 | <b>タイル領域</b> *浮動小数点4* | FX-Mapのタイリング距離をオフセットします。 |

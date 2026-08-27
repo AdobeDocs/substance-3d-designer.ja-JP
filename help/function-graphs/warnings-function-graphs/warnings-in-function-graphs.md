@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer機能グラフの警告について理解し、よくある問題を解決する方法を学びます。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 **![(tick)](../../assets/check.svg)ソリューション**
 
-この関数に予期される型と一致する値を出力するグラフ内のノードがある場合は選択し、RMBをクリックして、コンテキストメニューの&#x200B;**出力ノードとして設定**&#x200B;オプションを選択します。\
+この関数に予期される型に一致する値を出力するグラフのノードがある場合は選択し、RMBをクリックして、コンテキストメニューの&#x200B;**出力ノードとして設定**&#x200B;オプションを選択します。\
 関数グラフの出力ノードは&#x200B;*オレンジ*&#x200B;色で表示されます。
 
 >[!NOTE]
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 関数に必要な出力値の種類がある場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅にメモが表示され、その種類を知ることができます。
+> 関数に必要な出力値の型がある場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に注記を表示すると、その型を確認できます。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">

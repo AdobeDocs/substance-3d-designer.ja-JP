@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
 breadcrumb-title: ''
 description: 湿潤ノイズノードを使用して、湿潤表面効果を作成するための湿気と凝縮パターンを生成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: うるおいノイズ1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 1%
 
 ---
@@ -42,26 +42,6 @@ ht-degree: 1%
 硬さとサイズが様々に異なり、ベースグレーから始まり、以下のカラーに分散され、追加または削除されるディスク。
 
 関連項目： [湿気ノイズ2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 出力
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
 
 </td>
 </tr>

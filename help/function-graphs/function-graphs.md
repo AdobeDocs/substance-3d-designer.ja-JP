@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: DesignerでSubstance関数グラフを作成および使用して、カスタム関数および再利用可能なノードネットワークを構築する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance関数グラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [Substance関数グラフ](https://substance3d.adobe.com/) <b>画像データ（ピクセルのセット全体）の代わりに単一値</b>を処理します（整数、浮動小数、ベクトル）。 関数はノードネットワークを持つグラフですが、[使用されるノード](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)およびインターフェイスは[通常のSubstanceグラフ](../compositing-graphs/substance-compositing-graphs.md)とは異なります。 このワークフローは、<b>算術演算</b>に完全に基づいており、画像プレビューのサムネールが表示されることはありません。そのため、Substance 3D Designerを使用した<b>はるかに高度な作業</b>になります。
 
-関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[公開されたパラメーター](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作の変更、[ピクセルプロセッサ](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作の作成、およびグラフの[値の使用です。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[公開されたパラメーター](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作を変更すること、[ピクセルプロセッサ](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作を作成すること、および[値をSubstanceグラフ](../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)で使用することです。
 
 </td>
 </tr>

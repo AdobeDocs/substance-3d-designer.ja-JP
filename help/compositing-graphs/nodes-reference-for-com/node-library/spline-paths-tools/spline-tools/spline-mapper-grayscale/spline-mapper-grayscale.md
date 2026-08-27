@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: スプラインマッパーグレースケールノードを使用して、カスタマイズ可能なパラメータを使用してスプラインパスに沿ってグレースケールテクスチャをマッピングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラインマッパーグレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -57,9 +57,9 @@ ht-degree: 0%
 <b> R</b> - X位置\
 <b> G</b> - Y位置\
 <b> B</b> - Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<b>A</b> – パックされたデータ：\
+*記号：スプラインが閉じている（負）か、開いている（正）;\
+*絶対値：Thickness + 1。
 
 <b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
 <b> R</b> – 接線X\
@@ -129,7 +129,7 @@ ht-degree: 0%
 <b>シリンダHeight乗数</b> *フロート* （&#39;Shape&#39;が&#39;Half Cylinder&#39;または&#39;Cylinder&#39;に設定されている場合に使用可能）Height出力における円柱のHeightの割合の強度の乗数。\
 Height調整は累積的です。
 
-<b>円柱Heightのオフセット</b> *フロート* （&#39;Shape&#39;が&#39;Half Cylinder&#39;または&#39;Cylinder&#39;に設定されている場合に使用可能） \
+<b>円柱Heightのオフセット</b> *フロート* （&#39;図形&#39;が&#39;半円柱&#39;または&#39;円柱&#39;に設定されている場合に使用可能）\
 円柱または半円柱のシェイププロファイルの中心をスプラインのサーフェスからサーフェスの下の1つの直径にオフセットします。
 
 <b>UVのツイスト強度</b> *フロート* （&#39;Shape&#39;が&#39;Half Cylinder&#39;または&#39;Cylinder&#39;に設定されている場合に使用可能）画像のねじれ。円柱の周りを回転します。\

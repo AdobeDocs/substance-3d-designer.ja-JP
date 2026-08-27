@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでSBSPRJプロジェクト設定ファイルを使用して、プロジェクト設定を管理する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: プロジェクト構成ファイル – SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 0%
 
 <b>全般： </b>グラフテンプレート、接線空間プラグイン、標準および画像形式の既定値。
 
-<b>ライブラリ： </b>ライブラリに表示する監視対象のパスと、[ライブラリビューのフィルターとカテゴリ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)。
-
-<b>MDL: </b>MDL監視パス。
+<b>ライブラリ： </b>ライブラリに表示する監視対象のパス。
 
 <b>スクリプト： </b>コールバックスクリプトとインタープリター。
 
@@ -79,7 +77,7 @@ ht-degree: 0%
 
 プロジェクトファイルの管理およびプロジェクト設定の変更の詳細については、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)ページを参照してください。
 
-プロジェクトファイルには、[ライブラリ](../../interface/the-library/the-library.md)のカスタム<b>カテゴリ</b>と<b>フィルター</b>も含まれています。これらの詳細については、[カスタムコンテンツとフィルターの管理](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)ページで確認できます。
+プロジェクトファイルには、[ライブラリ](../../interface/the-library/the-library.md)のカスタム<b>カテゴリ</b>と<b>フィルター</b>も含まれています。これらの詳細については、[カスタムコンテンツとフィルターの管理](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)ページで確認できます。
 
 ## XMLを外部編集
 
@@ -91,7 +89,7 @@ Windowsの場合、[メモ帳++](https://notepad-plus-plus.org)は無料で利�
 
 ## 相対パスとエイリアス
 
-エイリアスと組み合わされた相対パスは、プロジェクト構成の中でもより複雑で最も重要な部分の1つです。このセクションではそれらの点を明確にします。 特定のプロジェクトファイルに対してカスタムエイリアスを追加する操作は、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で行います。
+エイリアスと組み合わされた相対パスは、プロジェクト構成の中でもより複雑で最も重要な部分の1つです。このセクションではそれらの点を明確にします。 特定のプロジェクトファイルに対してカスタムエイリアスを追加する操作は、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で行います。
 
 ファイルが複数のユーザーのPCでシステム内の他のファイルを参照する場合の大きな問題の1つは、絶対ファイルパスが機能しないことです。 ユーザーは、完全に異なる場所にSVNリポジトリを定義できます。 C:/John/Gamedev/SubstanceLibraryまたはD:/Dev/SubstanceLibrary)。 エイリアスと相対パスの両方が連携してこの問題を解決します。 他のユーザーのファイルを開いて、ローカルにあるユーザーの特定の場所で使用されているカスタムノードを探す場合があります。この場合、同じ方法で定義されている可能性は低くなります。
 

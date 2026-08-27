@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: パス形式の仕様と、パスノードとスプラインノードで使用されるデータ構造について学習します。
 helpx_creative_field: ""
@@ -90,7 +90,7 @@ top[uv\_pos]とbottom[uv\_pos]を組み合わせると、ドキュメントの�
 
 このドキュメントで定義された最後の頂点のアドレス。 これは、新しいデータを追加する場合に便利です。
 
-したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 &rbrack;0, 1[×]0,.5&lbrack;
+したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 ]0, 1[×]0,.5[
 
 <b>ZW</b>
 

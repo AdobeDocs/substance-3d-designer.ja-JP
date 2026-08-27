@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: SVGのベクターグラフィックをSubstance 3D Designerのリソースとして読み込んで使用し、プロシージャルなマテリアルを作成できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ベクターグラフィック（SVG）リソース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designerは、Scalable Vectorグラフィック形式を通じて、ベクターグラフィックの限られた形式をサポートしています。 SVGファイルは、様々な方法でリソースとして取り込み、グラフのリソースとして使用できます。
 
-SVGファイル[は、アトミックSVGノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)を使用して作成または編集できます。[UVからSVGベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)を使用して作成することもできます。
+SVGファイル[は、アトミックSVGノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)を使用して作成または編集できます。[UVからSVGベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)を使用して作成することもできます。
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ SVGストレージは、リンクされているか、インポートされて�
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/jp/products/illustrator.html)では、以下のオプションに注意を払う場合、SVGの書き出しを最大限に制御できます。
+[Illustrator](https://www.adobe.com/products/illustrator.html)では、以下のオプションに注意を払う場合、SVGの書き出しを最大限に制御できます。
 
 * <b>名前を付けて保存</b>のみを使用してください。名前を付けて書き出しは&#x200B;*使用できません。*
 * <b>SVGプロファイル</b>は特に重要ではありませんが、小さなプロファイルは間違いなく正しい設定にデフォルトで（ほとんどの場合）設定されます。

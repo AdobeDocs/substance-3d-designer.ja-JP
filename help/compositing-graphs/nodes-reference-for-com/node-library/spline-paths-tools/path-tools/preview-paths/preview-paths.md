@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: 「パスをプレビュー」ノードを使用して、デバッグや検証のために2Dビューでパスデータを表示します。
+description: 「パスのプレビュー」ノードを使用して、デバッグおよび検証用に2D ビュー内のパスデータを表示します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パスをプレビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -52,12 +52,12 @@ ht-degree: 1%
 ## パラメーター
 
 <b>コーナーを表示</b> *ブール値*\
-コーナーとしてマークされた各頂点に正方形を表示します（加算ブレンド）。
+各頂点にコーナーマークの付いた正方形を表示します（加算ブレンド）。
 
 <b>頂点を表示</b> *ブール値*\
-各頂点に円形シェイプを表示します（加算ブレンド）。 コーナーは引き続き正方形として表示されます。
+各頂点に円形を表示します（加算ブレンド）。 コーナーは引き続き正方形として表示されます。
 
-<b>セグメントのThickness(px)</b> *浮動小数点*\
+<b>セグメントのThickness(px)</b> *フロート*\
 レンダリングされたセグメントのThicknessをピクセル単位で調整します。
 
 ## 例

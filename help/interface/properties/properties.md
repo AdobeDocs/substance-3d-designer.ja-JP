@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのプロパティパネルを使用して、ノードのプロパティとグラフパラメーターを表示および編集します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: プロパティ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Substanceエコシステムの主要な機能である[パラメーターの公�
 
 ## ノードとSubstanceグラフ
 
-[ノード](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)と[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)には、プロパティカテゴリのセットがわずかに重複しており、その機能も同様です。
+ノードと[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)には、プロパティカテゴリのセットがわずかに重なり合っており、その機能は似ています。
 
 <b>基本パラメーター</b>と<b>属性</b>がノードとグラフで同じです。
 
-ノードは、<b>特定のパラメーター</b>または<b>のインスタンスパラメーター</b>を提供します（[アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)または[インスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)であるかどうかによって異なります）。また、Substanceグラフの[値](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)を操作するための<b>入力値</b>も提供されます。
+ノードは、<b>特定のパラメーター</b>または<b>のインスタンスパラメーター</b>を提供します（[アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)または[インスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)であるかどうかによって異なります）。また、[値](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)を操作するための<b>入力値</b>も提供されます。
 
 [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)および[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomicノードは、可視性に<b>統合属性</b>および<b>条件</b>を備えているため、例外です。 これら2つのプロパティのセットは、「入力」および「出力」の「グラフのプロパティ」で一元的にアクセスすることもできます。
 
@@ -67,7 +67,7 @@ Substanceエコシステムの主要な機能である[パラメーターの公�
 
 ## リソースとパッケージ
 
-プロパティパネルは、[エクスプローラウィンドウ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の選択の変更にも応答します。 空の領域をダブルクリックする代わりに、グラフを選択する別の方法として使用できます。また、パッケージと[リソース](../../resources/resources.md)のプロパティを変更することもできます。
+プロパティパネルは、[エクスプローラー](../the-explorer-window/the-explorer-window.md)の選択範囲の変更にも応答します。 空の領域をダブルクリックする代わりに、グラフを選択する別の方法として使用できます。また、パッケージと[リソース](../../resources/resources.md)のプロパティを変更することもできます。
 
 パッケージには、**Information**、**Attributes**&#x200B;および&#x200B;**Metadata**&#x200B;セクションがあります。 [パッケージメタデータは専用のページに記述されています。](../../package-metadata/package-metadata.md)
 

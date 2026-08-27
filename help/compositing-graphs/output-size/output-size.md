@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Substance合成グラフの出力サイズを設定し、テクスチャの解像度と画質をコントロールします。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 出力サイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 出力サイズ
 
-これは、グラフの<b>ベースパラメーター</b>の1番目であり、<b>出力形式</b> （ビット深度）と共に、Designer内および他のアプリケーションの両方で、公開された[Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)ファイルとして、グラフの出力に大きな影響を与えるため、よく理解することが重要です。
+これは、グラフの<b>ベースパラメーター</b>の最初のパラメーターであり、<b>出力形式</b> （ビット深度）と共に、Designer内および他のアプリケーションの両方で、[公開されたSubstance 3Dアセット(SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)ファイルとして、グラフの出力に大きな影響を与えるため、よく理解することが重要です。
 
 >[!TIP]
 >
@@ -96,7 +96,7 @@ Output Sizeプロパティで&#x200B;*Relative to...* [inheritanceメソッド](
 * ノード： *入力に対する相対* – ノードの[プライマリ入力](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)によって継承された値がこの場合に使用されます
 * [ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノード： *絶対* - [ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)ページと[パフォーマンス最適化ガイドライン](../../best-practices/performance-optimization/performance-optimization-guidelines.md)を参照して、その理由を確認してください
 
-ノードまたはグラフの項目をクリックしてプロパティを表示し、[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルの<b>基本パラメーター</b>セクションで<b>出力サイズ</b>プロパティを見つけます。 「継承方法」ドロップダウンメニューをクリックして、目的の継承方法を選択します。
+ノードまたはグラフの項目をクリックしてプロパティを表示し、[プロパティ](../../interface/properties/properties.md)パネルの<b>基本パラメーター</b>セクションで<b>出力サイズ</b>プロパティを見つけます。 「継承方法」ドロップダウンメニューをクリックして、目的の継承方法を選択します。
 
 ![出力サイズの継承メソッド](../../assets/change-mode.gif "出力サイズの継承メソッド"){width="512px"}
 

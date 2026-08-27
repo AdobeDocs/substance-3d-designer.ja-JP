@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Gradient Mapノードを使用して、カラー化とエフェクトのグラデーションランプを使用してグレースケール値をカラーにマップします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラデーションマップ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 カスタムグラデーションを使用して、画像内のグレースケール値を再マップします。
 
-このノードには2つの目的があります。<b> </b>グレースケールからカラーへの変換ノードとして使用するか、またはカスタムカラーランプにマップするグレースケール入力を色付けすることができます。
+このノードは二重の目的を果たします。単純に<b>として使用できます。 </b>グレースケールからカラーへの変換ノード、またはグレースケール入力をカスタムカラーランプにマッピングしてカラー化します。
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ ht-degree: 2%
 | --- | --- |
 | <b>カラーモード</b> *ブール値* | 出力モードをカラーまたはグレースケールに設定します。 |
 | <b>グラデーションの追加</b> *ブール値* | [0, 1]の範囲外の繰り返し（タイル）またはクランプ値にグラデーションを設定します。 |
-| <b>グラデーション</b> *グラデーションキーの配列* | 入力グレースケール値のマップに使用するカスタムグラデーションランプ。   同じ場所で編集するか、[グラデーションエディター](#gradient-editor)を使用できます。 |
+| <b>グラデーション</b> *グラデーションキーの配列* | 入力グレースケール値のマップに使用するカスタムグラデーションランプ。   同じ場所で編集するか、[グラデーションエディター](#gradient-editor)を使用できます。 |
 
 ## グラデーションエディター
 

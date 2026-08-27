@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: 変換2Dノードを使用して、移動、回転、スケーリングなどのテクスチャに2D変換を適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変形 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -92,11 +92,11 @@ ht-degree: 5%
 
 |  |  |
 | --- | --- |
-| <b>変換行列</b> *浮動小数点4* | 直接編集する基になるマトリックスの変形を開きます。 回転とスケールを変更できます。 2Dビューのギズモを使用して調整することもできます。   警告：ビューに直接関連付けられるものではなく、ステップごとに適用できる相対調整です。 |
-| <b>オフセット</b> *浮動小数点2* | イメージの2Dディスプレイスメントを定義します。 位置またはオフセットを変更できます。また、2Dビューのギズモを使用して調整することもできます。   2Dビューの出力に直接関連します。 |
+| <b>変換行列</b> *浮動小数点4* | 直接編集する基になるマトリックスの変形を開きます。 回転とスケールを変更できます。 2Dビューのギズモを使用して調整することもできます。   警告：ビューに直接関連付けられるものではなく、ステップごとに適用できる相対調整です。 |
+| <b>オフセット</b> *浮動小数点2* | イメージの2Dディスプレイスメントを定義します。 位置またはオフセットを変更できます。また、2Dビューのギズモを使用して調整することもできます。   2Dビューの出力に直接関連します。 |
 | <b>Mipmapモード</b> *整数* | 手動[mipmap](../../../../glossary/glossary.md)レベルに切り替えることができます。これにより、テクスチャフィルターを使用して画像の斑点を減らすことができます。 |
-| <b>ミップマップレベル</b> *整数* | [mipmap](../../../../glossary/glossary.md)レベルを設定して使用します。     *&#39;Mipmapモード&#39;が&#39;手動&#39;に設定されている場合に使用できます* |
-| <b>マットの色</b> *浮動小数点4* | 変形のタイリングが無効な場合に、背景として使用される色です。 つまり、変換された入力が出力の領域をカバーしていない場合に使用するカラーを設定します。   RGBAカラーで作業している場合は、透明にすることができます。 |
+| <b>ミップマップレベル</b> *整数* | [mipmap](../../../../glossary/glossary.md)レベルを設定して使用します。     *&#39;Mipmapモード&#39;が&#39;手動&#39;に設定されている場合に使用できます* |
+| <b>マットの色</b> *浮動小数点4* | 変形のタイリングが無効な場合に、背景として使用される色です。 つまり、変換された入力が出力の領域をカバーしていない場合に使用するカラーを設定します。   RGBAカラーで作業している場合は、透明にすることができます。 |
 | <b>フィルター</b> *整数* | 使用するダウンサンプリング方法を設定します。 ミップマップレベル量を減らしても特に効果がありません。 |
 
 ## 入力コネクタ

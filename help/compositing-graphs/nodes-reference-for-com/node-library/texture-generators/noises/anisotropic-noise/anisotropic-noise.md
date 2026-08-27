@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: '[異方性反射ノイズ]ノードを使用して、異方性反射テクスチャ効果を作成するための方向性ノイズパターンを作成します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 異方性ノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -45,26 +45,6 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 出力
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
-
 ## 出力
 
 |  |  |
@@ -81,8 +61,8 @@ ht-degree: 2%
 | <b>回転</b>ブール値 | ノイズを90度回転します。 |
 | <b>Smoothness</b>浮動小数点 | ストリップ間のフェードの量。0はフェードせず、1はストリップ全体でフェードします。 |
 | <b>Smoothness補間</b>浮動小数点 | ストリップをフェードするために適用される2つの補間方法の重み付けです。0はリニアで、1はガウスです。 |
-| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。   これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。   これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。   これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。   これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
 | <b>非正方形の展開</b>ブール値 | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
 
 ## 例
