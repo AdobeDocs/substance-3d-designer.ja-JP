@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの用語集にアクセスし、用語、コンセプト、技術用語の定義を検索します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene" data-preserve-html="true"></span>3Dシーン</b> | 3D空間のビジュアライゼーションを表現およびアニメートするために必要なオブジェクトとデータのコレクション。<ul data-preserve-html="true"> <li data-preserve-html="true">[メッシュ](#mesh)</li> <li data-preserve-html="true">[マテリアル](#material)</li> <li data-preserve-html="true">カメラ</li> <li data-preserve-html="true">ライト</li> <li data-preserve-html="true">アニメーション</li> <li data-preserve-html="true">シミュレーション</li> <li data-preserve-html="true">...</li> </ul>3Dシーンを保存する[一般的なファイル形式](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html)には、Pixarの[USD](#usd)やAutodeskのFBXが含まれます。 すべてのファイル形式が、これらのコンポーネントをすべてサポートしているわけではありません |
+| <b><span id="three-d-scene" data-preserve-html="true"></span>3Dシーン</b> | 3D空間のビジュアライゼーションを表現およびアニメートするために必要なオブジェクトとデータのコレクション。<ul data-preserve-html="true"> <li data-preserve-html="true">[メッシュ](#mesh)</li> <li data-preserve-html="true">[マテリアル](#material)</li> <li data-preserve-html="true">カメラ</li> <li data-preserve-html="true">ライト</li> <li data-preserve-html="true">アニメーション</li> <li data-preserve-html="true">シミュレーション</li> <li data-preserve-html="true">...</li> </ul>3Dシーンを保存する[一般的なファイル形式](https://www.adobe.com/jp/products/substance3d/discover/3d-files-formats.html)には、Pixarの[USD](#usd)やAutodeskのFBXが含まれます。 すべてのファイル形式が、これらのコンポーネントをすべてサポートしているわけではありません |
 
 ## A
 

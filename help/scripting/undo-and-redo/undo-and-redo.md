@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonスクリプトでユーザーのアクションを取り消したり、やり直したりする機能を実装する方法について説明します。
 helpx_creative_field: ""
