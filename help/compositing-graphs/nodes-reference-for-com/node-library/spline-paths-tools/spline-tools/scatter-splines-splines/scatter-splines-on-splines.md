@@ -37,7 +37,7 @@ ht-degree: 0%
 
 このノードは、スプラインの分散方法をコントロールするための詳細なカスタマイズオプションを提供し、単純な直線スプラインまたはユーザ独自のカスタムスプラインを散乱することができます。
 
-このノードでは、[スプラインマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)ノードを使用して色やイメージをマッピングしたり、スプライン](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)ノード上の[散乱を使用してシェイプを配置するためのスケルトンとして使用したりするための複雑な構造を作成できます。
+このノードでは、[スプラインマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)ノードを使用して色やイメージをマッピングしたり、スプライン[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)ノード上の散乱を使用してシェイプを配置するためのスケルトンとして使用したりするための複雑な構造を作成できます。
 
 </td>
 </tr>
