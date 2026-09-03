@@ -57,7 +57,7 @@ MDLグラフでは、値を出力するノードを公開することで、グ�
 
 表示できるノードのコンテキストメニューに<b>表示</b>オプションがあります。 ほとんどの場合、これらは値または浮動小数、カラー、テクスチャ座標などのデータを生成するノードです。
 
-ノードのコンテキストメニューの![「表示」オプション](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&amp;quot;表示&amp;quot；ノードのコンテキストメニューのオプション")
+ノードのコンテキストメニューの![「表示」オプション](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&quot;表示&amp;quot；ノードのコンテキストメニューのオプション")
 
 ノードのコンテキストメニューの&#x200B;*「表示」オプション*
 
