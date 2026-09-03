@@ -1,7 +1,7 @@
 ---
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -9,15 +9,15 @@ ht-degree: 0%
 
 このファイルは、このリポジトリーでコードを操作する際のガイダンスとしてClaude Code (claude.ai/code)を提供します。
 
-&#x200B;# Substance 3D Designerドキュメント
+# Substance 3D Designerドキュメント
 
 このリポジトリーには、Substance 3D Designerに関するドキュメントが含まれています。 アプリケーションコード、ビルドステップ、またはテストスイートがありません。リポジトリ&#x200B;*は*&#x200B;のコンテンツで、マークダウンで記述され、[Adobe Experience League](https://experienceleague.adobe.com/docs/substance3d-designer.html?lang=en)に公開されています。
 
-&#x200B;# リポジトリ構造
+# リポジトリ構造
 
 * `help/` – すべてのドキュメントコンテンツ。目次をミラーリングするように構成されています。
 * `help/guide/TOC.md` – 目次。 すべてのエントリは、ページのマークダウンファイルへの相対リンクです（`/help/...`をルートとする）。 `TOC.md`にはページツリーメタデータ（`user-guide-title`、`breadcrumb-title`、`nudge`、`{#section-id}`などのセクションアンカー）も含まれています。
-* `help/assets/` – 共有された、ページ固有ではない画像（ページ間で再利用されるアプリアイコンなど）。
+* `help/assets/` – レガシ共有イメージフォルダー。 ページ固有のメディアが、1ページあたりの`<md-file-name>.resources/`兄弟フォルダーに保存されるようになりました（以下のフォルダー/目次の表記規則を参照）。ページで参照されていない残りの画像はわずかしか残っていません。 使用しているページの`.resources`フォルダーに新しい画像を配置します。ここでは配置しません。
 * `help/glossary/glossary.md` – 単一の大きな用語集ページで、`#term`フラグメントによるクロスリンクに使用されるアンカースパン(`<span id="term"></span>`)でアルファベット順に整理されています。
 * `metadata.md` – リポジトリレベルの前付（クラウド/ソリューション/製品ID、`git-repo`など） これは`TOC.md`ごとに継承されます。 リポジトリ全体のメタデータの変更にのみ編集します。ページ固有のメタデータは、ページ自体の前付に属します。
 * `redirects.csv`、`linkcheckexclude.json`、`markdownlint_custom.json`、`pipeline.opts` – 公開パイプライン構成（リダイレクト、リンク確認例外、lintルールのオーバーライド、パイプラインオプション）。
@@ -31,6 +31,10 @@ ht-degree: 0%
 * ページに専用のメディア（画像、GIF、ビデオ）がある場合、そのページは`<md-file-name>.resources`という名前の兄弟サブフォルダーに格納されます。
 
 ページを追加または移動する場合、`TOC.md`とフォルダーレイアウトを同時に更新します。同期を維持する必要があります。
+
+## ノードのリファレンスページ
+
+ノードライブラリツリー（例： `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`）は、独自の一貫したレイアウトを持つ個別のページ型です。つまり、icon/description HTMLテーブルの後に、アンカーされた`## Inputs` / `## Outputs` / `## Parameters`テーブル(`#inputs`/`#outputs`/`#parameters`)と`## Examples`ギャラリーが続きます。 以下の通常のコンテンツページブロックではなく、`.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`をモデルにした&#x200B;**最小**&#x200B;前付（`title` + `description`のみ）を使用しています。 埋め込みメディア（アイコン、サンプル画像/GIF）は、ページの横にある兄弟`<node-name>.resources/`フォルダーに配置され、比較的参照されます。 完全なオーサリングテンプレートには`generate-node-documentation`スキルを使用してください（存在する場合）。
 
 ## ページの前付
 
@@ -54,20 +58,20 @@ user-guide-title: ""
 
 `description`を正確かつ簡潔に保ちます。SEO/検索スニペットに使用されます。
 
-&#x200B;# コンテンツオーサリングルール
+# コンテンツオーサリングルール
 
 * 英語は真理の源だ。他のすべての言語はそこから翻訳される。
 * 他のドキュメントページへのリンクはすべて&#x200B;**相対**&#x200B;リンクにする必要があります。外部リソースへのリンクはすべて&#x200B;**絶対**&#x200B;リンクにする必要があります。
-* コンテンツは、GitHubフレーバーのマークダウンで、Experience Leagueのカスタム拡張機能/gotchasを使用して書かれています。[こちら](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/writing-essentials/markdown)で文書化されています。 詳細については、`write-experience-league-markdown`スキルを使用してください（存在する場合）。
+* コンテンツは、GitHubフレーバーのマークダウンで、Experience Leagueのカスタム拡張機能/gotchasを使用して書かれています。[こちら](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown)で文書化されています。 詳細については、`write-experience-league-markdown`スキルを使用してください（存在する場合）。
 * 送信されたすべての変更は、CIで自動化されたリンクチェックとリンク検証を通じて処理されます（以下を参照）。ルールが適用される、またはリンクを修正する必要があると仮定する前に、`markdownlint_custom.json`と`linkcheckexclude.json`を確認してください。
 
-&#x200B;# 検証/CI
+# 検証/CI
 
 * `.github/workflows/validate-articles.yml`はPR上で実行され、`main`にプッシュされます（`retest`のPRコメントを介して）。共有された`Adobe-Enterprise-Docs/workflows`再利用可能なワークフローを呼び出して、マークダウンをリンクし、リンクを検証します。 このリポジトリにはローカルに対応するスクリプトはありません。CIは合格/不合格の真のソースです。
 * `.github/workflows/mirror.yml`は、プッシュ時に公開リポジトリに`main`をミラーリングします。これはインフラストラクチャであり、コンテンツの変更が反映される必要はありません。
 * `markdownlint_custom.json`は、共有されている`markdownlint.json`ルールセットを拡張し、Experience LeagueのカスタムMarkdown拡張機能（インラインHTML、非標準の強調など）と競合するいくつかのルール(MD005、MD007、MD018、MD032、MD033、MD034、MD037、MD040)を無効にします。 これらの無効なルールを満たすためにコンテンツを「修正」しないでください。
 * `linkcheckexclude.json`は、リンクチェッカーがスキップするリンクパターン（現在`example.com`/`example-end.com`）をホワイトリストに登録します。
 
-&#x200B;# 作業中の規則
+# 作業中の規則
 
 * これはリリースノート重視のドキュメントです。リリースノートは`help/release-notes/`下にあり、バージョンごとに1つのフォルダー（例： `version-16-0`）に加えて、`all-changes`および`old-versions`のアグリゲーションページに格納されます。 新しいリリースを追加する場合は、既存のバージョンフォルダーにテンプレートとして従います。
