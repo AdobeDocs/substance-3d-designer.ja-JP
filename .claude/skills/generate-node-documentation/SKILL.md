@@ -91,7 +91,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 
 ### &#x200B;3. オプションのコールアウト
 
-`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`などは、アイコン/説明テーブルの&#x200B;**後**に移動します（移動しません）
+`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`などは、アイコン/説明テーブルの&#x200B;**後**&#x200B;に移動します（移動しません）
 （セル内）。 `write-experience-league-markdown`スキルごとの構文です。
 
 ### &#x200B;4. 入力
