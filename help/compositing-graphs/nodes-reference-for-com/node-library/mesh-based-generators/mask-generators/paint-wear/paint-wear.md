@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
 breadcrumb-title: ''
-description: ペイントの摩耗ノードを使用して、メッシュジオメトリに基づいてペイントの摩耗マスクを生成し、リアルなペイントのチッピングエフェクトを作成します。
+description: ペイントの摩耗ノードを使用して、メッシュのジオメトリに基づいてペイントの摩耗マスクを作成し、リアルなペイントのチッピングエフェクトを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Paint Wear
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ペイントの摩耗
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
@@ -22,53 +22,55 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/paint-wear.png){width="128px"}
+![](paint-wear.resources/paint-wear-01.png){width="128px"}
 
-## ペイントの摩耗
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**中級**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
 
-このマスクは、ペイントが剥がれ落ちて、エッジがすり減っていることを表します。
-
-## パラメーター
-
-### 入力
-
-* **環境オクルージョン**: *グレースケール入力*\
-  内部エフェクトおよびマスクに使用されるベイク済みマップ。
-* **曲率**: *グレースケール入力*\
-  内部エフェクトおよびマスクに使用されるベイク済みマップ。
-* **バリエーションマスク**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **レベル**: *0.0 ～ 1.0*\
-  ペイントの摩耗量の合計を設定し、徐々に表示します。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
-* **オクルージョン**: *0.0 ～ 1.0*&#x200B;焼き上げた青が暗い領域の摩耗を防ぐ効果の量を設定します。
-* **半径**: *0.0 ～ 2.0*&#x200B;チッピング効果が凸状のエッジからどの程度広がるかを設定します。
-* **バリエーション**: *0.0 ～ 1.0*&#x200B;効果にブレンドするバリエーション(経年劣化)の量を設定します。
-* **バリエーションマスクの上書き**: *False/True*&#x200B;カスタムバリエーション(経年劣化)マップ入力スロットを有効にします。
-
-## サンプル画像
-
-![](../../../../../../assets/paint-wear-ex.gif)
+このマスクは、ペイントが欠損して縁がすり減っていることを示しています。
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>バリエーションマスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>レベル</b> <i>0.0 - 1.0</i> | ペイントの摩耗量の合計を設定し、徐々に表示します。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
+| <b>オクルージョン</b> <i>0.0 - 1.0</i> | ベイクされたAOが暗い領域の損耗を防ぐ効果の量を設定します。 |
+| <b>半径</b> <i>0.0 - 2.0</i> | チッピング効果が凸状のエッジからどれくらい広がるかを設定します。 |
+| <b>バリエーション</b> <i>0.0 - 1.0</i> | エフェクトにブレンドする変化の量(経年劣化)を設定します。 |
+| <b>バリエーションマスクの上書き</b> <i>False/True</i> | カスタムバリエーション(経年劣化)マップ入力スロットを有効にします。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="paint-wear.resources/paint-wear-02.gif" />
+        </td>
+    </tr>
 </table>

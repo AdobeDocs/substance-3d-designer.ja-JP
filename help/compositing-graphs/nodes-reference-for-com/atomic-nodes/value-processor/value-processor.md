@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バリュープロセッサー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード：値プロセッサ](../../../../assets/comp_valueprocessor_1.png "Atomicノード：値プロセッサ"){width="200px"}
+![Atomicノード：値プロセッサ](value-processor.resources/value-processor-01.png "Atomicノード：値プロセッサ"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

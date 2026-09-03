@@ -10,9 +10,9 @@ helpx_tags: ""
 title: コントロール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Elseノード](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Elseノード")
+![If...Elseノード](../../../../assets/IfElse_Node.jpg "If...Elseノード")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シーケンスノード](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "シーケンスノード")
+![シーケンスノード](../../../../assets/Sequence_Node.jpg "シーケンスノード")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -73,7 +73,7 @@ ht-degree: 1%
 シーケンスノードの詳細については、このドキュメントの[Using the Set/Sequence nodes](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)ページを参照してください。
 
 +++入力コネクタ
-<b>In</b> *変数型*\
+<b>インチ</b> *変数の型*\
 最初に計算されるグラフの部分
 
 <b>最後</b> *変数の型*\
@@ -85,7 +85,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Whleループノード](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Whle Loopノード")
+![ループノード中](../../../../assets/WhileLoop-Node.jpg "ループノード中")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -110,25 +110,25 @@ ht-degree: 1%
 > <b>Exit Cond.</b>に接続されているノード また、<b>ループ本文</b>の分岐は、グラフの他の分岐に接続できません。
 
 +++入力コネクタ
-<b>初期化</b> *変数の種類*\
+<b>初期化</b> *変数の型*\
 最初の反復の前に計算されるグラフの部分、つまりループの開始。
 
-<b>続行を終了します。</b> *ブール値*\
+<b>続行を終了</b> *ブール値*\
 ループを停止するためにtrueとなる必要がある条件。 反復処理ごとに再計算されます。\
 *注意：*&#x200B;繰り返しの最大数は、引き続き<b>最大繰り返し</b>パラメーターに制限されています。
 
-<b>ループ本文</b> *変数の種類*\
+<b>ループ本文</b> *変数の型*\
 ループから得られるグラフ。 反復処理ごとに再計算されます。
 
 +++
 
 +++パラメーター
-<b>最大 反復回数</b> *整数*\
-ノードが実行する最大反復回数。\
+<b>最大 反復</b> *整数*\
+ノードによって実行される反復の最大数です。\
 この最大数に達するか、終了条件がtrueになったときに、次のいずれかの条件が最初に満たされると、ノードの反復が停止します。\
 この最大値は、値を&#x200B;*-1*&#x200B;に設定することで無効にできます。 この時点では、終了条件のみが反復を停止できます。
 
-&#39;Maxを設定しています。 iterationsを–1に設定すると、追跡と更新を行うカウンタが1つ少なくなるため、小さなループでのパフォーマンスが向上します。
+&#39;Maxを設定しています。 反復の–1を指定すると、トラッキングとアップデートのカウンタが1つ少なくなるため、小さなループでパフォーマンスが向上します。
 
 ただし、<b>無限ループ</b>を生成してDesignerが応答しなくなる可能性があるため、ノードの構成には注意してください。
 

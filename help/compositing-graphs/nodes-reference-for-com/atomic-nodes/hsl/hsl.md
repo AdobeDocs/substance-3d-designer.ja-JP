@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード： HSL](../../../../assets/comp_hsl_1.png "原子ノード： HSL"){width="200px"}
+![原子ノード： HSL](hsl.resources/hsl-01.png "原子ノード： HSL"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,8 +78,8 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>色相</b> *フロート* | 入力画像のカラーを指定します。   0.5より小さい値を指定すると色相が負にシフトし、0.5より大きい値を指定するとプラスにシフトします。 |
-| <b>彩度</b> *フロート* | 入力画像のカラーの彩度を指定します。   0.5より小さい値を指定すると彩度が下がり、0.5より大きい値を指定すると彩度が上がります。 |
+| <b>色相</b> *フロート* | 入力画像のカラーを指定します。   0.5より小さい値を指定すると色相が負にシフトし、0.5より大きい値を指定するとプラスにシフトします。 |
+| <b>彩度</b> *フロート* | 入力画像のカラーの彩度を指定します。   0.5より小さい値を指定すると彩度が下がり、0.5より大きい値を指定すると彩度が上がります。 |
 | <b>明るさ</b> *フロート* | 入力イメージの明度を決定します。0.5より小さい値を指定すると明度が下がり、0.5より大きい値を指定すると明度が上がります。 |
 
 ## 入力コネクタ

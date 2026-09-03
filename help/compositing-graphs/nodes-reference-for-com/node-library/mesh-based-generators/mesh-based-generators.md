@@ -10,9 +10,9 @@ helpx_tags: ""
 title: メッシュベース生成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 4%
 
 主に3つのカテゴリがあります。
 
-* [マスクジェネレータ](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [マスクジェネレータ](mask-generators/mask-generators.md)\
   1つ以上のベイク済みマップに基づく白黒のマスクジェネレーター。
-* [風化](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  ベイク済みマップに基づいたフルマテリアルの耐候性エフェクト。
-* [ユーティリティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [風化](weathering/weathering.md)
+ベイク済みマップに基づいたフルマテリアルの耐候性エフェクト。
+* [ユーティリティ](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   パンを操作するための追加のユーティリティとツール。

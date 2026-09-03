@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
-description: Substance 3D Designerの概要を説明し、プロシージャルなマテリアルやテクスチャを作成するための機能について説明します。
+description: Substance 3D Designerの概要を紹介し、プロシージャルのマテリアルやテクスチャを作成するための機能について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 概要
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -20,25 +20,25 @@ ht-degree: 2%
 
 # 概要
 
-[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)は、ノードベースのインターフェイスで2Dテクスチャ、マテリアル、およびフィルターを作成することを目的としたアプリケーションで、プロシージャルな作成、パラメーター化、非破壊的なワークフローに重点を置いています。 これはSubstance 3Dエコシステムで最も長く使用されているアプリケーションであり、それを使用して作成されたリソースは最も汎用性が高く、動的です。
+[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)は、プロシージャル的な生成、パラメーター化、および非破壊的なワークフローに重点を置いた、ノードベースのインターフェイスで2D テクスチャ、マテリアル、およびフィルターを作成するためのアプリケーションです。 これはSubstance 3Dエコシステムで最も長く使用されているアプリケーションであり、それを使用して作成されたリソースは最も汎用性が高く、動的です。
 
 他のアプリケーションと比較した結果は次のとおりです。
 
-|  | <div><img alt="Substance 3D Samplerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Samplerアイコン" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painterアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designerアイコン" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Samplerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Substance 3D Samplerアイコン" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painterアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Substance 3D Designerアイコン" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>学習曲線</b> | 低 | 中 | 高 |
-| <b>資料の作成</b> | はい | はい | はい |
+| <b>マテリアルの作成</b> | はい | はい | はい |
 | <b>3Dモデルの作成</b> | いいえ | 制限付き\* | 制限付き\* |
 | <b>フィルター、パターン、エフェクトの作成</b> | いいえ | 制限付き | はい |
 | <b>パラメトリックコンテンツの書き出し</b> | いいえ | いいえ | はい |
 
-\*: ディスプレイスメントのみ。[3Dビュー](../../interface/3d-view/3d-view.md)セクションの<b>シーンの書き出し</b>機能を参照してください。
+\*: ディスプレイスメントのみ。[3D ビュー](../../interface/3d-view/3d-view.md)セクションの<b>シーンエクスポート</b>機能を参照してください。
 
 つまり、Substance 3D Designerは最も技術的で高度なテクスチャリングアプリであるといえます。
 
-これにより、ほぼすべてのユースケースまたはシナリオのコンテンツを作成できます。 つまり、UVマップされたメッシュに固有のマテリアルやテクスチャのセットなど、単一のタイプの出力に限定されず、より広範な用途に向けてコンテンツを作成できます。
+これにより、ほぼすべてのユースケースまたはシナリオのコンテンツを作成できます。 つまり、UVマッピングされたメッシュに固有のマテリアルやテクスチャのセットなど、1種類の出力に限定されず、より広範な用途に向けてコンテンツを作成できます。
 
-例えば、PainterおよびSamplerの手続き型スマートコンテンツのほとんどは、Designerで作成して書き出されています。 ブラシAlpha、ジェネレーター、フィルター、ベースマテリアルなどは、すべてDesignerで作成できます。
+例えば、PainterとSamplerにあるプロシージャルのスマートコンテンツのほとんどは、Designerから作成および書き出されています。 ブラシAlpha、ジェネレーター、フィルター、ベースマテリアルなどは、すべてDesignerで作成できます。
 
 ## ワークフロー
 
@@ -46,11 +46,11 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 
 <b>[ノンリニア](../../compositing-graphs/substance-compositing-graphs.md) </b>：一度に多数のテクスチャ出力を作成できます。 1つのマスクまたはスライダーを編集すると、自動的に接続された出力が再計算されます。 ベースカラー、ラフネス、法線などのマップを個別に作成する必要がなくなりました。
 
-<b> [非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>：作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
+<b>[非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b> ：作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
 
-<b> [統合ベーキング](../../bakers/bakers.md) </b>:ソフトウェア内から高度で高速なメッシュベーキングツールにアクセスします。 ベークは別のソフトウェアで行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかります。
+<b>[統合されたベイク処理](../../bakers/bakers.md) </b>:ソフトウェア内から高度で高速なメッシュベイク処理ツールにアクセスできます。 ベークは別のソフトウェアで行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかります。
 
-<b> [パラメトリック](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: 1つのスライダーまたはドロップダウンを使用して、テクスチャのほぼすべての側面を制御するように設定できます。 これにより、1つのアセットに無限のコントロールとバリエーションを追加できます。
+<b>[パラメトリック](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: 1つのスライダーまたはドロップダウンを使用して、テクスチャのほぼすべての側面を制御するように設定できます。 これにより、1つのアセットに無限のコントロールとバリエーションを追加できます。
 
 ## Filetypes
 
@@ -60,7 +60,7 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/overview-04.png)
 
 ### Substance 3Dファイル
 
@@ -71,7 +71,7 @@ Substanceファイルは、Designerの&#x200B;**メインソースファイル**
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/overview-05.png)
 
 ### Substance 3D アセット
 
@@ -82,7 +82,7 @@ Substanceアーカイブは<b>個のコンパイル済み最適化された</b>�
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/overview-06.png){width="48px"}
 
 ### 静的ファイル
 
@@ -104,7 +104,7 @@ Substance 3Dファイルには、様々な目的を持つ様々なリソース�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 
 * [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)
 * [ベクターグラフィック(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3Dメッシュとシーン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3Dシーン](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [フォント](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [AxFファイル](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

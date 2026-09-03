@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Substance 3D Designerには、NumericsとBooleansという2種類の変数があ
 
 そのためには、次のいずれかの数値を選択します。
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/variables-01.png)
 
 ## ブーリアン
 

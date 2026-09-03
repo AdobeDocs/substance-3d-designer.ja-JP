@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カラーサンプラーツール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # カラーサンプラーツール
 
-![カラーサンプラーツール](../../../assets/color-sampler-demo.png "カラーサンプラーツール"){zoomable="yes"}
+![カラーサンプラーツール](color-sampler.resources/color-sampler-01.png "カラーサンプラーツール"){zoomable="yes"}
 
 カラーSamplerツールを使用すると、パラメーターを微調整したり、ノードを切り替えたりしながら、[2Dビュー](../../../interface/2d-view/2d-view.md)で<b>指定のピクセルの値をトラッキング</b>できます。
 
@@ -30,16 +30,16 @@ ht-degree: 0%
 
 ツールにアクセスして使用するには、次の手順に従います。
 
-1. 2Dビューツールバーの![](../../../assets/color-sampler-information-button.png) <b>情報</b>ボタンをクリックして、情報ドックとツールバーを開きます
-1. 情報ツールバーの![](../../../assets/color-sampler-tool-icon.png) <b>カラーSamplerツール</b>をクリックします
-1. ビューポートで、サンプルする特定のピクセルをクリックして![](../../../assets/color-sampler-pin-icon.png) <b>ピン</b>を配置します
+1. 2Dビューツールバーの![](color-sampler.resources/color-sampler-02.png) <b>情報</b>ボタンをクリックして、情報ドックとツールバーを開きます
+1. 情報ツールバーの![](color-sampler.resources/color-sampler-03.png) <b>カラーSamplerツール</b>をクリックします
+1. ビューポートで、サンプルする特定のピクセルをクリックして![](color-sampler.resources/color-sampler-04.png) <b>ピン</b>を配置します
 1. 情報ドックの専用セクションでサンプル値を確認します
-1. ツールの操作が完了したら、![](../../../assets/color-sampler-remove-pin.png) <b>削除</b>ボタンをクリックして、ビューポートからピンを削除します。\
+1. ツールの操作が完了したら、![](color-sampler.resources/color-sampler-05.png) <b>削除</b>ボタンをクリックして、ビューポートからピンを削除します。\
    ピンを削除するには、ピンのRMBをクリックして、コンテキストメニューで「削除」アクションを選択します。
 
 以下に、このツールの動作を示します。
 
-![カラーサンプラー：ツールを使用](../../../assets/color-sampler-demo.gif "カラーサンプラー：ツールを使用"){zoomable="yes"}
+![カラーサンプラー：ツールを使用](color-sampler.resources/color-sampler-06.gif "カラーサンプラー：ツールを使用"){zoomable="yes"}
 
 *クリックして拡大*
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 情報パネルのカラーサムネールを、これらのパラメーターのカラーサムネールに直接ドラッグ&amp;ドロップすることもできます。
 
-![カラーサンプラー： RGBA値をコピー](../../../assets/color-sampler-demo-copy-rgba-values.gif "カラーサンプラー： RGBA値をコピー"){zoomable="yes"}
+![カラーサンプラー： RGBA値をコピー](color-sampler.resources/color-sampler-07.gif "カラーサンプラー： RGBA値をコピー"){zoomable="yes"}
 
 
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![サンプル情報](../../../assets/color-sampler-information.png "サンプル情報"){zoomable="yes"}
+![サンプル情報](color-sampler.resources/color-sampler-08.png "サンプル情報"){zoomable="yes"}
 
 </td>
 </tr>

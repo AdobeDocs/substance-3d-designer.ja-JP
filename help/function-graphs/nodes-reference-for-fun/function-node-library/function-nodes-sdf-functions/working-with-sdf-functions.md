@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SDF 関数の操作
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: dd03ffc77a6d09c680dcf3e1fc204e4cb86cc336
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -29,7 +29,7 @@ SDF 関数は、ツールセットで使用可能なSDFノードを組み合わ�
 1. [3Dビューア](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)ノードで、結果を視覚化するSDF 関数を作成します。
 2. 最終関数グラフをコピーします（または[インスタンス化](../../../../glossary/glossary.md#instance-node)）。[Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)など、SDF 関数をサポートするノードのSDF 関数パラメーターにコピーします。
 
-<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Substance 3D Designerの3D SDF 関数ノード機能のモーショングラフ" />
+<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="Substance 3D Designerの3D SDF 関数ノード機能のモーショングラフ" />
 
 ## SDF 関数とは
 
@@ -39,7 +39,7 @@ SDF 関数は、ツールセットで使用可能なSDFノードを組み合わ�
             <p>2Dで曲線としてプロットできるのと同様に、3Dでもサーフェスとしてプロットできます。</p><p>符号付き距離フィールドは、空間内の任意の点からサーフェス上の最も近い点までの距離を計算することによって、3D空間でサーフェスを定義する数学関数です。</p><p>「signed distance field」という名前をさらによく理解するために詳しく説明しましょう。<ul><li><b>符号付き</b>とは、ポイントがサーフェスの外側または前面にある場合は関数が正の値を返し、ポイントがサーフェスの内側または背面にある場合は負の値を返し、ポイントが正確にサーフェス上にある場合は0を返すことを意味します。</li><li><b>距離</b>とは、関数が空間内の任意の点からサーフェス上の*最も近い*点までの距離を計算することを意味します。</li><li><b>Field</b>は、関数が値のフィールドを記述することを意味します。これは、空間内の各ポイントには、最も近いサーフェスまでの距離を表す対応する値があるためです。</li></ul></p>
         </td>
         <td style="border: 0; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-what-is-an-sdf.gif" alt="SDF 関数によって生成されたシェイプを、圧倒的なアイソラインで視覚化したもの。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-02.gif" alt="SDF 関数によって生成されたシェイプを、圧倒的なアイソラインで視覚化したもの。" />
         </td>
     </tr>
 </table>
@@ -72,7 +72,7 @@ Substance関数グラフについて知っておくべきこと：
 
 +++ SDF 関数を定義する関数グラフの例
 
-![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
+![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-functions-03.png)
 
 +++
 
@@ -86,11 +86,11 @@ SDF 関数を作成するには、まずノードを視覚化して、調整す�
 
 [物理的な太陽/空](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md)ノードを使用すると、3Dビューアーで環境照明をすばやく設定できます。
 
-<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-setup.gif" alt="3Dビューアノードを設定してSDF 関数を視覚化する。" />
+<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-functions-04.gif" alt="3Dビューアノードを設定してSDF 関数を視覚化する。" />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>すべてのSDF 関数ノードとその入力コネクタには、その目的と使用方法を詳しく説明するツールチップがあります。</p><p>ぜひチェックしてみてください。</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="SDF 関数ノードの入力コネクタのツールチップ。" /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>すべてのSDF 関数ノードとその入力コネクタには、その目的と使用方法を詳しく説明するツールチップがあります。</p><p>ぜひチェックしてみてください。</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-05.png" alt="SDF 関数ノードの入力コネクタのツールチップ。" /></td></tr></table>
 
 ### ノード値の設定
 
@@ -101,22 +101,22 @@ Substance関数グラフのすべてのノードと同様に、SDF 関数ノー�
 
 SDF 関数ノードのほとんどの入力コネクタにはデフォルト値があります。この値はツールチップに表示されます。
 
-<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="SDFプリミティブの編集に使用する定数ノード。" />
+<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-functions-06.gif" alt="SDFプリミティブの編集に使用する定数ノード。" />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>一部の値を常に表示しておく必要がない場合は、<code>D</code>キーを使用してノードをドッキングしてスペースを節約し、グラフを除去します。</p><p>また、コメントを使用して値を追跡することもできます。</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="SDF 関数ノードの入力コネクタのツールチップ。" /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>一部の値を常に表示しておく必要がない場合は、<code>D</code>キーを使用してノードをドッキングすると、スペースを節約し、グラフを除去できます。</p><p>また、コメントを使用して値を追跡することもできます。</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-07.png" alt="SDF 関数ノードの入力コネクタのツールチップ。" /></td></tr></table>
 
 
-### バウンディングフレーム
+### 境界フレーム
 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>境界フレームは、3Dスペースのボックスで、<a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">シェイプスプラッタv2</a>の節点でSDF 関数が評価および描画される<i>境界</i>を定義します。</p><p>バウンディングフレームが小さすぎる場合は、シェイプの一部がトリミングされることがあります。 大きすぎると、不必要な計算が発生し、処理時間が長くなる可能性があります。</p><p><b>バウンディングフレーム</b>パラメーターを使用すると、バウンディングフレームの表示を有効にできます。 次に、<b>Bounding frame size</b>パラメーターの値を変更して、境界フレームのサイズを調整できます。</p><p><b>フレームからカラー化</b>パラメーターを使用して、バウンディングフレームの外側の領域を明るい赤で視覚化し、フレームを適宜調整できるようにします。</p>
+            <p>境界フレームは、3Dスペースのボックスで、<a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">シェイプスプラッタv2</a>ノードでSDF 関数が評価および描画される<i>境界</i>を定義します。</p><p>境界フレームが小さすぎる場合は、シェイプの一部がトリミングされることがあります。 大きすぎると、不要な計算が発生し、処理時間が長くなる可能性があります。</p><p><b>バウンディングフレーム</b>パラメーターを使用すると、バウンディングフレームの表示を有効にできます。 次に、<b>境界フレームのサイズ</b>パラメーターの値を変更して、境界フレームのサイズを調整できます。</p><p><b>[フレームの色抜き]</b>パラメーターを使用すると、境界フレームの外側の領域が明るい赤で表示されるので、それに応じてフレームを調整できます。</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-08.jpg" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
         </td>
     </tr>
 </table>
@@ -126,10 +126,10 @@ SDF 関数ノードのほとんどの入力コネクタにはデフォルト値�
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>シェイプの変形には、シェイプが描画される空間を実際に*変形*する必要があるため、変形の後にノードを使用すると、意外な結果が生じることがあります。<br>その場合、空間自体を視覚化すると便利です。これは、図形の<i>距離フィールドを視覚化</i>することで実現できます。</p><p>そのために、3Dビューアーノードは、図形の表面から所定の距離を表す等高線を繰り返す<i>等高線</i>を使用します。 <b>SDFアイソライン</b>パラメーターを使用すると、ビジュアル化が可能になります。<br>等値線は、<b>SDF等値線位置</b>パラメーターで指定されたHeightに配置された水平面に描画されます。</p><p>シェイプに適用されたトランスフォームによってアイソラインがどのように変形されるかを確認すると、シェイプ自体がどのように変形されるかを理解し、それに応じてノードのパラメータを調整するのに役立ちます。</p>
+            <p>シェイプの変形では、シェイプが描画される空間を実際に*変形する*必要があるため、トランスフォームの後にノードを使用すると、意外な結果が生じることがあります。<br>その場合、空間自体を視覚化すると便利です。これは、図形の<i>距離フィールドを視覚化</i>することで実現できます。</p><p>そのために、3Dビューアーノードは、図形の表面から所定の距離を表す等高線を繰り返す<i>等高線</i>を使用します。 <b>SDFアイソライン</b>パラメーターを使用すると、ビジュアル化が可能になります。<br>等値線は、<b>SDF等値線位置</b>パラメーターで指定されたHeightに配置された水平面に描画されます。</p><p>シェイプに適用されたトランスフォームによって等値線がどのように変形されるかを確認すると、シェイプ自体がどのように変形されるかを理解し、それに応じてノードのパラメーターを調整するのに役立ちます。</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-09.jpg" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
         </td>
     </tr>
 </table>
@@ -142,7 +142,7 @@ SDF 関数ノードは、その機能と目的に基づいてライブラリ内�
 
 +++ サンプルワークスペース
 
-![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-workspace.png)
+![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-functions-10.png)
 
 +++
 
@@ -256,7 +256,7 @@ SDF 関数を使用して作成されたシェイプに対して、基本的な�
 
 次に例を示します。
 
-![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-p-input.gif)
+![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-functions-11.gif)
 
 球が繰り返され、空間が3Dグリッドとして表示されます。 *スペースを繰り返す*&#x200B;ことで繰り返されます。\
 共有`P`がない場合、曲がった円柱は球で使用される繰り返しスペースを使用します。\
@@ -271,7 +271,7 @@ SDF 関数を使用して作成されたシェイプに対して、基本的な�
 
 **SDF境界フレームサイズ**&#x200B;パラメータを調整して、3Dビューアーノードで使用していた[境界フレーム](#the-bounding-frame)と一致させ、シェイプが正しく描画されていることを確認してください。
 
-![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
+![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
 **図形の種類**&#x200B;が`SDF function`に設定された&#x200B;*図形スプラッタv2。**SDF境界フレームサイズ**&#x200B;がシェイプに合わせて調整されています。*
 
 >[!TIP]
@@ -292,7 +292,7 @@ SDF図形にはマテリアルIDを割り当てることができます。マテ
 特定のマテリアルIDを使用してタグ付けする図形の部分の後に[マテリアルIDの設定](./sdf-functions-material/set-id/set-id.md)ノードを使用し、[Integer](../../atomic-function-nodes/constant-nodes/constant-nodes.md)定数ノードを使用して、必要なマテリアルID値を設定します。\
 3Dビューアーノードで、**Output**&#x200B;パラメーターを`Material ID`に設定して、図形のマテリアルIDを表示します。
 
-![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-material-id-01.png)\
+![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-functions-13.png)\
 *右側では、2つの3Dビューアーノードの出力が合成され、シェイプ（左）とそのマテリアルID （右）が表示されます。これにより、ブレンドしたシェイプで、マテリアルIDを分割している間にマテリアルがどのように補間されるかが示されます。*
 
 マテリアルIDは、Shape splatter v2コンパニオンノードで活用できます。
@@ -302,35 +302,35 @@ SDF図形にはマテリアルIDを割り当てることができます。マテ
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="シェイプスプラッタv2マッパカラーノードでのカラーマッピング用のSDFマテリアルID。"/><i>カラーマッピングに使用されるマテリアルID<br>図形スプラッタv2マッパーの色</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-14.jpg" alt="シェイプスプラッタv2マッパカラーノードでのカラーマッピング用のSDFマテリアルID。"/><i>カラーマッピングに使用されるマテリアル ID<br>図形スプラッタv2マッパーの色</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="Shape splatter v2マッパーのカラーノードでの三平面マッピング用のSDFマテリアルID。"/><i>三平面マッピングに使用されたマテリアルID<br>シェイプスプラッタのv2マッパーカラー</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-15.jpg" alt="Shape splatter v2マッパーのカラーノードでの三平面マッピングのSDF マテリアル ID。"/><i>三平面マッピングに使用されたマテリアル ID<br>図形スプラッタv2マッパーカラー</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="Shape splatter v2でマスクするSDFマテリアルIDをマスクノードに変換します。"/><br><i>マスクに使用されたマテリアルID<br>シェイプスプラッタv2でマスク</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-16.jpg" alt="シェイプスプラッタv2でマスクを行うSDF マテリアル IDをマスクノードに変換します。"/><br><i>シェイプスプラッタv2でマスクに<br>マスクに使用されたマテリアル ID</i>
         </td>
     </tr>
 </table>
 
-### カラー、粗さ、メタライズ
+### カラー、ラフネス、メタネス
 
-[[色の設定]](./sdf-functions-material/set-color/set-color.md)、[[粗さの設定]](./sdf-functions-material/set-roughness/set-roughness.md)、[[メタルの設定]](./sdf-functions-material/set-metalness/set-metalness.md)の各ノードを使用すると、SDF 関数内の図形に対してこれらのマテリアル属性を定義できます。
+[色の設定](./sdf-functions-material/set-color/set-color.md)、[ラフネスの設定](./sdf-functions-material/set-roughness/set-roughness.md)、および[メタネスの設定](./sdf-functions-material/set-metalness/set-metalness.md)ノードを使用すると、SDF 関数内の図形に対してこれらのマテリアル属性を定義できます。
 
-その後、そのSDF 関数を[Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)ノードでシェイプの種類として使用する場合、これらのマテリアル属性は、ノードの&#x200B;**SDFカラー**、**SDF粗さ**&#x200B;および&#x200B;**SDFメタネス**&#x200B;出力でマップとして使用できます。 これらのマップは、他のノードを使用した、より複雑なマテリアル作業のベースとして使用できます。
+その後、そのSDF 関数を[Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)ノードでシェイプの種類として使用する場合、これらのマテリアル属性は、ノードの&#x200B;**SDFカラー**、**SDF ラフネス**&#x200B;および&#x200B;**SDFメタネス**&#x200B;出力でマップとして使用できます。 これらのマップは、他のノードを使用する、より複雑なマテリアル作業のベースとして使用できます。
 
-以下の例に示すように、マテリアルIDとは異なり、値はブレンドされたシェイプ間でグラデーションとして&#x200B;*補間*&#x200B;されます。
+以下の例に示すように、マテリアル IDとは異なり、値はブレンドされたシェイプ間でグラデーションとして&#x200B;*補間*&#x200B;されます。
 
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-color.jpg" alt="シェイプスプラッタv2ノードのSDFカラー出力。"/><i>SDFカラー出力</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-17.jpg" alt="シェイプスプラッタv2ノードのSDFカラー出力。"/><i>SDFカラー出力</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-roughness.jpg" alt="シェイプスプラッタv2ノードのSDFの粗さ。"/><br><i>SDFの粗さの出力</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-18.jpg" alt="シェイプスプラッタv2ノードのSDFラフネス。"/><br><i>SDFラフネス出力</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-metalness.jpg" alt="シェイプスプラッタv2ノードのSDFメタネス。"/><i>SDFメタネス出力</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-19.jpg" alt="シェイプスプラッタv2ノードのSDFメタネス。"/><i>SDFメタネス出力</i>
         </td>
     </tr>
 </table>
@@ -340,10 +340,10 @@ SDF図形にはマテリアルIDを割り当てることができます。マテ
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p><b>錆びたボルト</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材料サンプル</a>は、シェイプスプラッタv2ノードのコンテキストで適用されたSDF 関数にジャンプできます。</p><p>グラフの構造、ノード設定、SDF 関数設定をガイドするように、グラフが整理され、注釈が付けられます。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2とSDF 関数ツールセットについて実践的に理解することができます。 好きなだけサンプルグラフを作って頂けるので、自由に試してみてください。</p>
+            <p><b>錆びたボルト</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">マテリアルサンプル</a>を使用すると、シェイプスプラッタv2ノードのコンテキストで適用されたSDF 関数にジャンプできます。</p><p>グラフの構造、ノード設定、およびSDF 関数設定をガイドするように、ノードが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2とSDF 関数ツールセットについて実践的に理解することができます。 好きなだけサンプルグラフを作って頂けるので、自由に試してみてください。</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
         </td>
     </tr>
 </table>

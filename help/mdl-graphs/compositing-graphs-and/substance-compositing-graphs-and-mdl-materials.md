@@ -10,9 +10,9 @@ helpx_tags: ""
 title: SubstanceグラフとMDL資料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Substanceグラフの出力は、2つの方法でMDL素材の公開パラメーターに&#x200B;*渡すことができます*。
 
-現在3Dビューで適用されているMDLマテリアルに種類&#x200B;*[variing](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;の公開されたパラメーターがある場合 – この種類は、[公開されたパラメーターのプロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)の<b>型修飾子</b>オプションを使用して設定される可能性があり、これらは&#x200B;*テクスチャ*&#x200B;に接続できます：
+現在3Dビューで適用されているMDLマテリアルに&#x200B;*[varying](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;の公開パラメーターがある場合 – この型は[公開パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)のプロパティの<b>型修飾子</b>オプションを使用して設定される可能性があり、これらは&#x200B;*テクスチャ*&#x200B;に接続できます：
 
 * <b>Color</b>パラメーターをRGBAテクスチャに接続できます
 * グレースケールテクスチャの<b>フロート</b>パラメーター
@@ -39,7 +39,7 @@ Substanceグラフで<b>[3Dビューで出力を表示]</b>オプションを使
 
 Substanceグラフの個々のテクスチャは、IDにかかわらず、SubstanceグラフノードでRMBを押して3Dビューにドラッグすることで、テクスチャサンプリングをサポートする任意のMDLマテリアルパラメータにコネクトすることができます。 使用可能なサンプラーの使用法のリストが表示され、選択したテクスチャのターゲット使用法を選択できます。
 
-![公開されたMDLグラフ入力](../../assets/mdl-graph-inputs-samplers.png "公開されたMDLグラフ入力")
+![公開されたMDLグラフ入力](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "公開されたMDLグラフ入力")
 
 *Substanceグラフによって出力されたテクスチャは、3DビューでMDLグラフの公開パラメーターに接続されています*
 
@@ -48,7 +48,7 @@ Substanceグラフの個々のテクスチャは、IDにかかわらず、Substa
 Substanceグラフのインスタンスを<b>エクスプローラー</b>パネルからMDLグラフにドラッグすると、MDLグラフに直接配置できます。 <b>Substance 3Dファイル</b> (SBS)と<b>Substance 3Dアセットファイル</b> (SBSAR)の両方のSubstanceグラフをMDLグラフで使用できます。
 
 +++Substance 3Dファイル(SBS)からのSubstanceグラフ
-![MDLグラフのSBSファイルのSubstanceグラフ](../../assets/mdl-sbs-instance-hl.png "MDLグラフのSBSファイルのSubstanceグラフ")
+![MDLグラフのSBSファイルのSubstanceグラフ](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "MDLグラフのSBSファイルのSubstanceグラフ")
 
 
 
@@ -57,7 +57,7 @@ MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview
 +++
 
 +++Substance 3Dアセット(SBSAR)のSubstanceグラフ
-![MDLグラフのSBSARファイルのSubstanceグラフ](../../assets/mdl-sbsar-instance-hl.png "MDLグラフのSBSARファイルのSubstanceグラフ")
+![MDLグラフのSBSARファイルのSubstanceグラフ](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "MDLグラフのSBSARファイルのSubstanceグラフ")
 
 
 

@@ -1,19 +1,19 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
 breadcrumb-title: ''
-description: Mesh 1ノードを使用すると、幾何学的およびグリッドベースのテクスチャを作成するための基本的なメッシュパターンを生成できます。
+description: '[メッシュ 1]ノードを使用して、ジオメトリやグリッドベースのテクスチャを作成するための基本的なメッシュパターンを作成します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: メッシュ1
+title: メッシュ 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-1.png){width="128px"}
+![](mesh-1.resources/mesh-1-01.png){width="128px"}
 
-## メッシュ1
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**単純**
+<b>イン：</b> テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-細いブロックで構成されたシンプルなメッシュパターン。 Heightマップと詳細マップの作成に適しています。
-
-## パラメーター
-
-* **タイル**: *1 - 16*\
-  結果をタイルする回数を設定します。
-* **45度回転**: *False/True*&#x200B;結果を45度回転します。
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-![](../../../../../../assets/mesh-1-ex.gif)
+細いブロックでシンプルなメッシュパターン。 Heightマップと詳細マップの作成に適しています。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>タイリング</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+| <b>45度回転</b> <i>False/True</i> | 結果を45度回転します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mesh-1.resources/mesh-1-02.gif" />
+        </td>
+    </tr>
 </table>

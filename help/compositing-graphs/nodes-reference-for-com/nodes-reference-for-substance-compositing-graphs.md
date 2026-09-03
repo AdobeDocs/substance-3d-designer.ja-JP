@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Substance グラフのノード参照
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 14%
+source-wordcount: '121'
+ht-degree: 16%
 
 ---
 
@@ -35,11 +35,11 @@ SD内の「ノード」と呼ばれるものは、2つのメイングループ�
 
 [ノードライブラリ](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [テクスチャ生成](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
-* [フィルター](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
-* [マテリアルフィルター](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [メッシュベースの生成](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
-* [スプラインとパスツール](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+* [テクスチャ生成](node-library/texture-generators/texture-generators.md)
+* [フィルター](node-library/filters/filters.md)
+* [マテリアルフィルター](node-library/material-filters/material-filters.md)
+* [メッシュベースの生成](node-library/mesh-based-generators/mesh-based-generators.md)
+* [スプラインとパスツール](node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
 <td style="border: 0;" valign="top">

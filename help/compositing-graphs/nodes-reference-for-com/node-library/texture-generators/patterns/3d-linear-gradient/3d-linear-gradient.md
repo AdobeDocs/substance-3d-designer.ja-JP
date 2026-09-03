@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D Linear gradient
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -22,39 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
+![](3d-linear-gradient.resources/3d-linear-gradient-01.png){width="128px"}
 
-## 3D Linear gradient
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**中級**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-入力の位置マップに基づいてボリュームグラデーションを作成します。 3D空間の2点間で黒から白へのトランジションを効果的に生成します。 GPUエンジンでのみ使用されます。
+入力の位置マップに基づいてボリュームグラデーションを作成します。 3D空間の2点間で黒から白へのトランジションを効果的に生成します。 GPU エンジンでのみ使用されます。
 
 同様の効果については、[3Dボリュームマスク](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md)も参照してください。
 
-## パラメーター
-
-* **ポイント位置モード**: *UV位置、ワールド空間の位置*&#x200B;グラデーションポイントの動作を、UV空間（2Dビューで設定する場合に最適）にするか、正確な位置を手動で入力する場合に3D座標にするかを選択します。
-* **ポイント1**:\
-  グラデーションの開始点。 位置モードに基づいて2D座標または3D座標を指定できます。
-* **ポイント2**:\
-  グラデーションの終点です。 位置モードに基づいて2D座標または3D座標を指定できます。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
-
-## サンプル画像
-
-![](../../../../../../assets/3d-gradient.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>ポイント位置モード</b> <i>UV職位、ワールド空間職位</i> | グラデーションポイントを手動で正確に配置する場合は、UV空間（2D ビューに設定する場合に最適）で動作するか、3D座標で動作するかを選択します。 |
+| <b>ポイント1</b> | グラデーションの開始点。 位置モードに基づいて2D座標または3D座標を指定できます。 |
+| <b>ポイント2</b> | グラデーションの終点です。 位置モードに基づいて2D座標または3D座標を指定できます。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-linear-gradient.resources/3d-linear-gradient-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 索引へのFlood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 2%
+source-wordcount: '201'
+ht-degree: 3%
 
 ---
 
@@ -22,40 +22,50 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
 
-## 索引へのFlood Fill
-
-**場所：** *フィルター/効果*
-
-**複合**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 「Flood Fillをインデックスに変換」を選択すると、すべてのFlood Fillセルが、左上隅の0から始まるインデックス番号に従って値に変換されます。 グレースケール濃淡を正規化された形式（0.0 ～ 1.0、Flood Fillで得られた数のセルで割った形式）またはHDRのクランプされていない値（0 ～ nでnはセルの数）で返すために使用できます。
 
-さらに、インデックスへのFlood Fillは、新しい[Valueシステムを使用して、見つかった図形の量とオプションの内部データテーブルを含む余分な値](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)を返します。
-
-### 入力
-
-* **Flood Fillボックス**: *色入力*&#x200B;標準Flood Fill入力マップ。 必須。
-* **特殊形状情報**: *色入力*&#x200B;追加のFlood Fillマップは、前のFlood Fillノードで明示的に有効にする必要があり、接続する必要があります！
-
-### パラメーター
-
-* **出力**: *正規化された整数*&#x200B;出力がLDR 0-1またはHDR 0-nの範囲にあるかどうかを確認します。
-* **次より小さい図形を無視**: *0.0 ～ 1.0*&#x200B;小さい図形を無視するための許容値。
-* **Flood Fillデータテーブルの表示**: *False/True*&#x200B;詳細な使用のために追加の（デバッグ）データを返します。
-
-## 例
-
-![](../../../../../../assets/flood-fill-ex02.jpg)
+さらに、インデックスへのFlood Fillでは[値](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)が使用され、見つかった図形の量と、オプションの内部データテーブルが返されます。
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>Flood Fillボックス</b> <i>カラー入力</i> | 標準入力マップ。 必須。 |
+| <b>特殊形状情報</b> <i>カラー入力</i> | 追加のFlood Fillマップは、前のFlood Fillノードで明示的に有効にする必要があり、接続する必要があります。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>出力</b> <i>正規化、整数</i> | 出力がLDR 0-1の範囲であるか、HDR 0-nの範囲であるかを確認します。 |
+| <b>次より小さい図形を無視</b> <i>0.0 - 1.0</i> | 小さいシェイプを無視するための許容値。 |
+| <b>Flood Fillデータテーブルの表示</b> <i>False/True</i> | 高度に使用するために追加の（デバッグ）データを返します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
+        </td>
+    </tr>
 </table>

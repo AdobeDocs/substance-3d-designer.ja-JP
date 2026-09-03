@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パイプラインとプロジェクトの構成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # パイプラインとプロジェクトの構成
 
-Substance 3D Designerには、パイプライン使用のためにアプリケーションを設定する強力なシステムがあります。 階層的な「**プロジェクト**」ファイルの高度なシステムを通じて、アプリケーションをStudioまたはProject標準に即座に設定し、すべての構成とライブラリのコンテンツをバージョン管理することができます。 このシステムの主な目的は、パイプラインに関連するすべての設定を一元化しながら、複数の設定を上書きして相互に拡張できるようにすることです。
+Substance 3D Designerには、パイプライン使用のためにアプリケーションを設定する強力なシステムがあります。 階層型の「**プロジェクト**」ファイルの高度なシステムを通じて、すべての構成とライブラリのコンテンツをバージョン管理しつつ、StudioまたはProject標準に即座に構成できます。 このシステムの主な目的は、パイプラインに関連するすべての設定を一元化しながら、複数の設定を上書きして相互に拡張できるようにすることです。
 
 >[!WARNING]
 >
@@ -39,7 +39,7 @@ Designerには3つの階層または構成ファイルがあり、それぞれ�
 </td>
 <td style="border: 0;" valign="top">
 
-![構成ファイル階層](../assets/filestructureoverview.png "構成ファイル階層")
+![構成ファイル階層](pipeline-and-project-configuration.resources/pipeline-and-project-configuration-01.png "構成ファイル階層")
 
 </td>
 </tr>
@@ -56,8 +56,8 @@ Designerには3つの階層または構成ファイルがあり、それぞれ�
 このページの子ページではすべての種類のファイルについて詳しく説明していますが、Designerのカスタム設定を理想的に定義する方法の概要は次のとおりです。
 
 1. <b>プロジェクトファイルに追加する設定を識別してグループ化します。</b> これはスタジオごとに異なり、一定の計画が必要です。\
-   ほとんどの場合、少なくとも2つのプロジェクトを定義する必要があります。1つはグローバルなスタジオ全体のデフォルト（標準テンプレート、シェーダファイル、ベイク処理の設定など）用、もう1つはライブラリコンテンツなどのより具体的なコンテンツ用です。 異なるプロジェクトを同時に実行している場合は、それぞれに複数のプロジェクト構成を作成することをお勧めします（合計で3つ以上）。
-1. <b>関連する[SBSPRJファイル](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)を作成し、それらをバージョン管理の下に配置してください。</b> Designerパイプラインおよびライブラリのコンテンツと、実際のプロジェクトのコンテンツおよびリソース（3Dモデル、テクスチャ、コード）を分離するために、*別のリポジトリ*&#x200B;を作成することを強くお勧めします。
+   ほとんどの場合、少なくとも2つのプロジェクトを定義する必要があります。1つはグローバルなスタジオ全体のデフォルト（標準テンプレート、シェーダーファイル、ベイク設定など）用で、もう1つはライブラリコンテンツなどのより具体的なコンテンツ用です。 異なるプロジェクトを同時に実行している場合は、それぞれに複数のプロジェクト構成を作成することをお勧めします（合計で3つ以上）。
+1. <b>関連する[SBSPRJファイル](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)を作成し、それらをバージョン管理の下に配置してコンテンツを配置します。</b> Designerパイプラインおよびライブラリのコンテンツと、実際のプロジェクトのコンテンツおよびリソース（3Dモデル、テクスチャ、コード）を分離するために、*別のリポジトリ*&#x200B;を作成することを強くお勧めします。
 1. <b>すべてのプロジェクトファイルを一覧表示する[&#x200B; SBSCFG構成](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)ファイルを作成し、バージョン管理</b>の下に配置します。 複数のプロジェクトがある場合は、プロジェクトごとに構成を作成できます。
 1. <b>各ユーザーの[User\_Preferences.xml](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)が関連する構成ファイルを参照するように設定します。</b>\
    すべてのユーザーに手動で行わせることも、XMLファイルに行を挿入してスクリプトを作成することもできます。 [関連ページの詳細情報](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)。

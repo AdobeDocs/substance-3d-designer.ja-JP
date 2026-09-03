@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 *リリース日：2023年6月6日*
 
-![パスを使用したマテリアル](../../assets/Paths2.png "パスを使用したマテリアル")
+![パスを使用したマテリアル](version-13-0.resources/version-13-0-01.png "パスを使用したマテリアル")
 
 *[Celine Dameron](https://www.artstation.com/cline)によるアートワーク*
 
@@ -39,7 +39,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 これらすべてのノードは、多くの可能性を提供し、彼らは確かに多くの創造的なアプリケーションを持つことになります。 このツールセットを使いやすくするために、理解すべき重要な概念のツアーについては、[パスとスプラインツールの操作](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)に関するセクションを参照してください。
 
-![スプラインを使用したマテリアル](../../assets/Splines.png "スプラインを使用したマテリアル")
+![スプラインを使用したマテリアル](version-13-0.resources/version-13-0-02.png "スプラインを使用したマテリアル")
 
 [Louise Melin](https://www.artstation.com/troglodette)*による*&#x200B;アートワーク
 
@@ -61,22 +61,22 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三次スプライン](../../assets/SplineCubic-Demo.gif "三次スプライン")
+![三次スプライン](version-13-0.resources/version-13-0-03.gif "三次スプライン")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインポリ二次](../../assets/SplinePolyQuadratic-Demo.gif "スプラインポリ二次")
+![スプラインポリ二次](version-13-0.resources/version-13-0-04.gif "スプラインポリ二次")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプライン円](../../assets/SplineCircle-Demo.gif "スプライン円")
+![スプライン円](version-13-0.resources/version-13-0-05.gif "スプライン円")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインブリッジリスト](../../assets/SplineBridge-List_Demo.gif "スプラインブリッジリスト")
+![スプラインブリッジリスト](version-13-0.resources/version-13-0-06.gif "スプラインブリッジリスト")
 
 </td>
 </tr>
@@ -88,23 +88,23 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 #### 変更
 
-また、スプラインを再調整およびツイークするためのツールも用意しています。 [2D変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)を適用する節点が見つかります。これには、回転、平行移動、縮尺などの節点、および[ワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>に適用する節点、およびスプラインの[Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>または[Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md)を修正する2つの節点があります。
+また、スプラインを再調整およびツイークするためのツールも用意しています。 [2D変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)を適用するノード（回転、移動、拡大/縮小など）と、[ワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b>に適用する別のノードが見つかります </b>図形と他の2つの節点を使用して[Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b>を編集 スプラインの</b>または[Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md)です。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![スプライン2D変形](../../assets/Spline2DTransform-Demo1.gif "スプライン2D変形")
+![スプライン2D変形](version-13-0.resources/version-13-0-07.gif "スプライン2D変形")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインワープ](../../assets/SplineWarp-Demo.gif "スプラインワープ")
+![スプラインワープ](version-13-0.resources/version-13-0-08.gif "スプラインワープ")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインサンプルThickness](../../assets/SplineSampleThickness-Demo.gif "スプラインサンプルThickness")
+![スプラインサンプルThickness](version-13-0.resources/version-13-0-09.gif "スプラインサンプルThickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -119,28 +119,28 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 最後のカテゴリは、スプラインに基づいて最終的なシェイプまたはパターンを作成するカテゴリです。 最初に思い浮かぶアイデアは、スプラインに沿って特定のシェイプを繰り返すことです。[スプライン上の散乱](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)を使用すると、分布（回転、スケーリング、オフセット、カラー、マスクなど）を完全に制御するための多くのパラメーターを使用して、その操作を実行できます。
 
-[スプライン塗りつぶし](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>ノードにより、閉じたスプラインからパターンを簡単に作成できます。 また、高度な制御と精度でスプラインにテクスチャをマッピングする場合は、[スプラインマッパー](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)ノードが用意されています。
+[スプラインの塗りつぶし](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b>のおかげで </b>ノードでは、閉じたスプラインからパターンを簡単に作成できます。 高度な制御と高精度を使用して、任意のテクスチャをスプラインにマッピングする場合は、[スプラインマッパー](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)ノードが自動的に作成されます。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![スプライングレースケールの散乱](../../assets/ScatterOnSplineGrayscale-Demo.gif "スプライングレースケールの散乱")
+![スプライングレースケールの散乱](version-13-0.resources/version-13-0-10.gif "スプライングレースケールの散乱")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプライン塗りつぶし](../../assets/SplineFill-Demo.gif "スプライン塗りつぶし")
+![スプライン塗りつぶし](version-13-0.resources/version-13-0-11.gif "スプライン塗りつぶし")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインマッパーの色](../../assets/SplineMapperColor-Demo.gif "スプラインマッパーの色")
+![スプラインマッパーの色](version-13-0.resources/version-13-0-12.gif "スプラインマッパーの色")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインフローマッパー](../../assets/SplineFlowMapper-Demo.gif "スプラインフローマッパー")
+![スプラインフローマッパー](version-13-0.resources/version-13-0-13.gif "スプラインフローマッパー")
 
 </td>
 </tr>
@@ -150,18 +150,18 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 「[パスのマスク](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)」ノードを使用すると、グレースケールパターンの境界線を、セグメントのリストの形式で抽出できます。
 
-その後、[パス2D変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)または[パスワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)ノードを使用してこれらのパスを処理し、必要に応じて微調整できます。  また、[Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)ノードのおかげで、パスをスプラインに変換でき、スキャッタリングなどこれまで言及されていたスプライン専用のノードをすべて利用できます。
+その後、[パス2D変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)または[パスワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)ノードを使用してこれらのパスを処理し、必要に応じて微調整できます。  また、[Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)ノードのおかげで、パスをスプラインに変換でき、スキャッタリングなどこれまで言及されていたスプライン専用のノードをすべて利用できます。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![パスのマスク](../../assets/MaskToPaths-Demo2.gif "パスのマスク")
+![パスのマスク](version-13-0.resources/version-13-0-14.gif "パスのマスク")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![パス2](../../assets/MaskToPaths-Demo1.gif "パス2")にマスク
+![パス2](version-13-0.resources/version-13-0-15.gif "パス2")にマスク
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 この新機能については、この専用の[チュートリアル](https://www.adobe.com/go/designer-tutorial-portals)で詳細に説明しています。
 
-![ポータルノード](../../assets/PortalNodeFinal.gif "ポータルノード")
+![ポータルノード](version-13-0.resources/version-13-0-16.gif "ポータルノード")
 
 ## ホーム画面
 
@@ -216,9 +216,9 @@ Designerを起動すると、他のAdobe製品と同様に、新しい[ホーム
 * 新機能の紹介や簡単なヒントを見つけるチュートリアルなど、学習リソースへのリンクを見つけることができます。
 * 「新機能」画面、「バージョン情報」画面、Substance 3D webサイト、サポートコミュニティフォーラムなどの直接リンク
 
-![ホーム画面 – ホーム](../../assets/HomeScreen.png "ホーム画面 – ホーム")
+![ホーム画面 – ホーム](version-13-0.resources/version-13-0-17.png "ホーム画面 – ホーム")
 
-![ホーム画面 – 詳細情報](../../assets/LearnPage.png "ホーム画面 – 詳細情報")
+![ホーム画面 – 詳細情報](version-13-0.resources/version-13-0-18.png "ホーム画面 – 詳細情報")
 
 ## 新しい言語
 

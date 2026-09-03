@@ -10,10 +10,10 @@ helpx_tags: ""
 title: MLVカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLVカラー：アイコン](../../../../../../assets/MLV_Color_Icon.png "MLVカラー：アイコン")
+![MLVカラー：アイコン](mlv-color.resources/mlv-color-01.png "MLVカラー：アイコン")
 
 <b>イン:</b>フィルター/ぼかし
 
@@ -45,45 +45,45 @@ MLVは<b>&#39;最小分散の平均&#39;</b>を表します。 このフィル�
 >
 > [MLVグレースケール](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-grayscale/mlv-grayscale.md)も参照してください。
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>入力&#x200B;</b>*色*&#x200B;処理するカラー画像です。
+## 入力
 
-## 出力コネクタ
+|  |  |
+|:---|:---|
+| <b>入力</b> <i>色</i> | 処理するカラー画像。 |
 
-<b>出力</b> *色*&#x200B;フィルター処理されたカラー画像。
+<a name="outputs"></a>
+
+## 出力
+
+|  |  |
+|:---|:---|
+| <b>出力</b> <i>色</i> | フィルター処理されたカラー画像。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>適用度</b> *フロート*&#x200B;画像に適用されたフィルターの強度です。\
-値が大きいほど、ディテールが滑らかになり、平坦な領域にノイズが発生します。
-
-<b>Smoothness</b> *フロート*&#x200B;構造化する領域に適用される滑らかさの強度です。その結果、領域が丸くなり、フィルタリングの強度が高い場合に発生することがあるステッピング効果が軽減されます。
-
-<b>基準</b> *整数*&#x200B;画像の構造化領域を定義する値を選択するために使用される基準です。\
-言い換えると、スムージングする領域にピクセルをどのように&#x200B;*グループ化*&#x200B;するかを指定します。\
-*– 分散：*&#x200B;平均の周りのばらつきが最も小さい値を選択します。これにより、ピクセルのクラスタが互いに類似するようになります\
-*– 変動係数：*&#x200B;平均を考慮しながら値を選択すると、明るい領域で逆に変動が少なくなります
-
-<b>ガウス</b> *ブール値*&#x200B;ガウス分布を使用して、ピクセルを構造化領域にグループ化します。\
-「True」の場合、より滑らかな領域になり、分割・統合の効果が減少します。
-
-<b>アルファに影響</b> *ブール値*&#39;True&#39;の場合、画像のアルファチャンネルにもフィルターが適用されます。\
-「False」の場合、アルファチャンネルは完全に無視され、出力にそのまま残ります。
-
-<b>反復回数</b> *整数*&#x200B;フィルターが実行され、各繰り返しが前の繰り返しの結果に適用される回数です。\
-反復が多いほど、より平坦でシャープな構造領域になります。
+|  |  |
+|:---|:---|
+| <b>適用度</b> *フロート* | 画像に適用されるフィルタリングの強さ。<br><br>値が大きいほど、ディテールがより滑らかになり、より平坦な領域にノイズします。 |
+| <b>Smoothness</b> *フロート* | 構造化する領域に適用されるスムージングの強さです。これにより、領域が丸くなり、フィルタリングの強さが高くなると発生するステッピング効果が軽減されます。 |
+| <b>基準</b> *整数* | 画像内の構造化エリアを定義する値を選択するために使用する基準です。<br><br>つまり、平滑化する領域にピクセルをどのように&#x200B;*グループ化*&#x200B;するかを指定します。<br><br>*– 分散：*&#x200B;平均の周りの分散が最も低い値を選択します。これにより、ピクセルのクラスターが互いに似たものになります。<br>*– 変動係数：*&#x200B;平均を考慮しながら値を選択すると、明るい領域の変動が逆に少なくなります |
+| <b>ガウス</b> *ブール値* | ガウス分布を使用して、ピクセルを構造化する領域にグループ化します。<br><br>&#39;True&#39;の場合、より滑らかな領域になり、フラット効果が減少します。 |
+| <b>アルファに影響</b> *ブール値* | 「True」の場合、フィルタリングは画像のアルファチャンネルにも適用されます。<br><br>&#39;False&#39;の場合、アルファチャンネルは完全に無視され、出力にそのまま残されます。 |
+| <b>反復回数</b> *整数* | 各反復が前の結果に適用される、フィルタの実行回数。<br><br>反復数が多いほど、より平坦でシャープな構造領域になります。 |
 
 ## 例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/mlv-color-02.png" alt="MLV_Variant4A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
       <br><i>後</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ MLVは<b>&#39;最小分散の平均&#39;</b>を表します。 このフィル�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/mlv-color-04.png" alt="MLV_Variant5A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
       <br><i>後</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ MLVは<b>&#39;最小分散の平均&#39;</b>を表します。 このフィル�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/mlv-color-06.png" alt="MLV_Variant3A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
       <br><i>後</i>
     </td>
   </tr>

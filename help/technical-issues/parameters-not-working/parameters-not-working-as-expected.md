@@ -10,10 +10,10 @@ helpx_tags: ""
 title: パラメーターが予期したとおりに機能しない
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 5%
+source-wordcount: '295'
+ht-degree: 6%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 5%
 
 ## プレビューモードでパラメーターが機能せず、公開されたSubstance 3Dアセット(SBSAR)です
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](parameters-not-working-as-expected.resources/error.svg)問題</b>
 
-Designerで[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用しているとき、またはそのグラフから公開された[Substance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)のパラメーターリストに、グラフの公開パラメーターの一部が&#x200B;*表示されていません*。
+グラフの一部の表示されるパラメーターは、Designerで[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用しているとき、またはそのグラフのSubstance 3Dアセット(SBSAR) [公開済み](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)のパラメーターリストに&#x200B;*表示されていません*。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](parameters-not-working-as-expected.resources/check.svg)推奨ステップ</b>
 
-不足しているパラメーターは可能性が高い[静的パラメーター](../../glossary/glossary.md)です。グラフが&#x200B;*cooked*&#x200B;になった後（つまり、アルゴリズムを迅速かつ効率的に実行するために処理された後）、*その場で編集することはできません*。 グラフが&#x200B;*編集*&#x200B;または&#x200B;*公開*&#x200B;されるたびに、Designerでクッキングが行われます。 このような制限の影響を受けるパラメーターは、このドキュメントの[パラメーターの公開](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)ページの[制限](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)セクションに記載されています。
+不足しているパラメーターは可能性が高い[静的パラメーター](../../glossary/glossary.md)です。アルゴリズムを迅速かつ効率的に実行するために、グラフを&#x200B;*cooked*&#x200B;した後に&#x200B;*その場で編集*&#x200B;することはできません。 グラフが&#x200B;*編集*&#x200B;または&#x200B;*公開*&#x200B;されるたびに、Designerでクッキングが行われます。 このような制限の影響を受けるパラメーターは、このドキュメントの[パラメーターの公開](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)ページの[制限](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)セクションに記載されています。
 
 そのため、静的パラメーターはDesignerでは表示および編集できますが、公開されたSubstance 3Dアセットでは&#x200B;*非表示*&#x200B;になります。 Substance 3Dアセットに公開する前に、[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用して、これらの制限が有効であることを確認できます。
 
@@ -47,10 +47,10 @@ Designerで[プレビューモード](../../compositing-graphs/manage-parameters
 
 ## パラメーターに適用されたSubstance関数グラフの結果が正しくありません
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](parameters-not-working-as-expected.resources/error.svg)問題</b>
 
 負の整数を使用した場合、ノードパラメータに適用されたSubstance関数グラフが期待値を出力しません。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](parameters-not-working-as-expected.resources/check.svg)推奨ステップ</b>
 
 負の整数は現在サポートされていません。 回避策として、[Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)値に負の整数値を使用し、[Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)ノードを使用して抽出します。

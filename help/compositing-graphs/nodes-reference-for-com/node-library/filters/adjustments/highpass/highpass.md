@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ハイパス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
+![](highpass.resources/highpass-01.png){width="128px"}
 
-![](../../../../../../assets/high-pass.png){width="128px"}
+![](highpass.resources/highpass-02.png){width="128px"}
 
-## ハイパス（グレースケール）
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -44,17 +40,27 @@ ht-degree: 1%
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「ハイパス」、グレースケール入力には「ハイパスグレースケール」を使用します。
 
-## パラメーター
-
-* **半径**: *0.0 - 64.0*\
-  フィルターの半径：半径を小さくすると小さな違いが除去され、半径を大きくすると大きな領域が除去されます。
-
-## サンプル画像
-
-![](../../../../../../assets/highpass.gif)
-
-![](../../../../../../assets/highpass-example.png){width="400px"}
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>半径</b> <i>0.0 - 64.0</i> | フィルターの半径：半径を小さくすると小さな違いが除去され、半径を大きくすると大きな領域が除去されます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass-04.png" />
+        </td>
+    </tr>
 </table>

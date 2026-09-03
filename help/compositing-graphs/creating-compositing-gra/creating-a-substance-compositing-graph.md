@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance グラフの作成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新しいSubstanceグラフダイアログ – ホーム画面から作成](../../assets/newGraphDialog-create-homeScreen.png "新しいSubstanceグラフダイアログ – ホーム画面から作成"){zoomable="yes"}
+  ![新しいSubstanceグラフダイアログ – ホーム画面から作成](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-01.png "新しいSubstanceグラフダイアログ – ホーム画面から作成"){zoomable="yes"}
 
   </td>
   </tr>
@@ -49,28 +49,12 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  [エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)の&#x200B;*既存*&#x200B;のパッケージ項目で、<b>RMB</b>をクリックし、コンテキストメニューの<b>新規/Substanceグラフ</b>に移動します。
+  [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)の&#x200B;*既存*&#x200B;のパッケージ項目で、<b>RMB</b>をクリックし、コンテキストメニューの<b>新規/Substanceグラフ</b>に移動します。
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新しいSubstanceグラフダイアログ – エクスプローラーから作成](../../assets/newGraphDialog-create-explorer.png "新しいSubstanceグラフダイアログ – エクスプローラーから作成"){zoomable="yes"}
-
-  </td>
-  </tr>
-  </table>
-
-* &#x200B;
-  <table>
-  <tr style="border: 0;">
-  <td style="border: 0;" valign="top">
-
-  メインツールバーで、![](../../assets/image2021-6-22-20-36-44.png) <b>新規Substanceグラフ</b>をクリックします。
-
-  </td>
-  <td style="border: 0;" valign="top">
-
-  ![新しいSubstanceグラフダイアログ – メインツールバーから作成](../../assets/newGraphDialog-create-mainToolbar.png "新しいSubstanceグラフダイアログ – メインツールバーから作成"){zoomable="yes"}
+  ![新しいSubstanceグラフダイアログ – エクスプローラーから作成](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-02.png "新しいSubstanceグラフダイアログ – エクスプローラーから作成"){zoomable="yes"}
 
   </td>
   </tr>
@@ -81,12 +65,28 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  [メインメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)で、<b>ファイル/新規/Substanceグラフ…</b>に移動します
+  メインツールバーで、![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-03.png) <b>新規Substanceグラフ</b>をクリックします。
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](../../assets/newGraphDialog-create-mainMenu.png)
+  ![新しいSubstanceグラフダイアログ – メインツールバーから作成](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-04.png "新しいSubstanceグラフダイアログ – メインツールバーから作成"){zoomable="yes"}
+
+  </td>
+  </tr>
+  </table>
+
+* &#x200B;
+  <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
+
+  メインメニューで、<b>ファイル/新規/Substanceグラフ…</b>に移動します
+
+  </td>
+  <td style="border: 0;" valign="top">
+
+  ![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-05.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
 
 新しいSubstanceグラフの作成方法に関係なく、常に<b>新しいSubstanceグラフ</b>ダイアログが表示され、新しいグラフを構成できます。
 
-![新しいSubstanceグラフダイアログ – マテリアル](../../assets/newGraphDialog-materials.png "新しいSubstanceグラフダイアログ – マテリアル"){zoomable="yes"}
+![新しいSubstanceグラフダイアログ – マテリアル](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-06.png "新しいSubstanceグラフダイアログ – マテリアル"){zoomable="yes"}
 
 ### テンプレート
 
@@ -139,7 +139,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – サムネイルカード](../../assets/newGraphDialog-thumbnailCard.png "新しいSubstanceグラフダイアログ – サムネイルカード")
+![新しいSubstanceグラフダイアログ – サムネイルカード](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-07.png "新しいSubstanceグラフダイアログ – サムネイルカード")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 すべてのサンプルは[マテリアルモデル](../../interface/3d-view/material-properties/material-properties.md#openpbr)に基づいています。
 
-![マテリアルサンプル – ホームスクリーンバナー](../../assets/materialSamples-banner.png "マテリアルサンプル – ホームスクリーンバナー"){zoomable="yes"}
+![マテリアルサンプル – ホームスクリーンバナー](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-08.png "マテリアルサンプル – ホームスクリーンバナー"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – テンプレートのヒント](../../assets/newGraphDialog-tooltipTemplate.png "新しいSubstanceグラフダイアログ – テンプレートのヒント"){zoomable="yes"}
+![新しいSubstanceグラフダイアログ – テンプレートのヒント](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-09.png "新しいSubstanceグラフダイアログ – テンプレートのヒント"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – 表示モード](../../assets/newGraphDialog-viewModes.png "新しいSubstanceグラフダイアログ – 表示モード"){zoomable="yes"}
+![新しいSubstanceグラフダイアログ – 表示モード](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-10.png "新しいSubstanceグラフダイアログ – 表示モード"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++表示モード
-![新しいSubstanceグラフダイアログ – サムネイルビュー](../../assets/newGraphDialog-viewMode-thumbnails.png "新しいSubstanceグラフダイアログ – サムネイルビュー"){zoomable="yes"}
+![新しいSubstanceグラフダイアログ – サムネイルビュー](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-11.png "新しいSubstanceグラフダイアログ – サムネイルビュー"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 サムネール付きのカードは、テンプレートタイプのプレビューまたはアイコンを提供します。
 
-![新しいSubstanceグラフダイアログ – 一覧ビュー](../../assets/newGraphDialog-viewMode-list.png "新しいSubstanceグラフダイアログ – 一覧ビュー"){zoomable="yes"}
+![新しいグラフダイアログ – リストビュー](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-12.png "新しいSubstanceグラフダイアログ – リストビュー"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 テンプレートは、ラベル別にのみ表示されます。
 
-![新しいSubstanceグラフダイアログ – パッケージビュー](../../assets/newGraphDialog-viewMode-packages.png "新しいSubstanceグラフダイアログ – パッケージビュー"){zoomable="yes"}
+![新しいグラフダイアログ – パッケージビュー](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-13.png "新しいSubstanceグラフダイアログ – パッケージビュー"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 パッケージファイル項目にカーソルを合わせると、フルパスのツールヒントが表示されます。
 
-![新しいSubstanceグラフダイアログ – ディレクトリビュー](../../assets/newGraphDialog-viewMode-directories.png "新しいSubstanceグラフダイアログ – ディレクトリビュー"){zoomable="yes"}
+![新しいSubstanceグラフダイアログ – ディレクトリビュー](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-14.png "新しいSubstanceグラフダイアログ – ディレクトリビュー"){zoomable="yes"}
 
 
 
@@ -240,19 +240,19 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 ### プロパティ
 
-テンプレートを選択した後、新しいグラフに関する基本的な情報を設定できます。 グラフ作成後にいつでも変更できます。
+テンプレートを選択した後、新しいグラフに関する基本的な情報を設定できます。 この設定は、グラフ作成後にいつでも変更できます。
 
-<b>グラフ名</b>:グラフの識別子です。 これは、指定されたパッケージに対して一意である必要があり、スペースや一部の特殊文字を含めることはできません。
+<b>グラフ名</b>: グラフの識別子。 これは、指定されたパッケージに対して一意である必要があり、スペースや一部の特殊文字を含めることはできません。
 
-<b>サイズ</b>：ほとんどのノードの出力解像度を制御するグラフの親解像度。詳細については、[出力サイズ](../../compositing-graphs/output-size/output-size.md)ページを参照してください。 デフォルトでは、幅とHeightがリンクされています。幅とHeightのコンボボックスの間にある「リンク」ボタンをクリックすると、リンクを解除できます。
+<b>サイズ</b>: グラフの親解像度。ほとんどのノードの出力解像度を制御します。詳細については、[出力サイズ](../../compositing-graphs/output-size/output-size.md)のページを参照してください。 デフォルトでは、幅とHeightがリンクされています。幅とHeightのコンボボックスの間にある「リンク」ボタンをクリックすると、リンクを解除できます。
 
-<b></b>でグラフを作成する：このコンボボックスを使って新しいグラフ用の&#x200B;*新しい*&#x200B;パッケージを作成するか、既に[エクスプローラー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)パネルに読み込まれている&#x200B;*既存の*&#x200B;パッケージに新しいグラフを追加できます。
+<b></b>でグラフを作成する：このコンボボックスを使って新しいグラフ用の&#x200B;*新しい*&#x200B;パッケージを作成するか、既に[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルに読み込まれている&#x200B;*既存の*&#x200B;パッケージに新しいグラフを追加できます。
 
 ### ヘルプツールチップ
 
 疑問符のアイコンにカーソルを合わせると、このページに直接リンクするボタンのツールチップが表示されます。このドキュメントは、必要に応じて参照できます。
 
-![新しいSubstanceグラフダイアログ – ヘルプのヒント](../../assets/newGraphDialog-tooltipHelp.png "新しいSubstanceグラフダイアログ – ヘルプのヒント"){zoomable="yes"}
+![新しいグラフダイアログ – ヘルプのヒント](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-15.png "新しいSubstanceグラフダイアログ – ヘルプのヒント"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -262,7 +262,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### カテゴリ別のフィルタリング
+### カテゴリ別フィルタリング
 
 カテゴリは、ユースケースまたはアセットタイプによって相互に関連するテンプレートをグループ化するために使用されます。
 
@@ -271,7 +271,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – カテゴリ別にフィルター処理](../../assets/newGraphDialog-categories.png "新しいSubstanceグラフダイアログ – カテゴリ別にフィルター処理"){zoomable="yes"}
+![新しいグラフダイアログ – カテゴリ別フィルタリング](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-16.png "新しいSubstanceグラフダイアログ – カテゴリ別フィルタリング"){zoomable="yes"}
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-テンプレートの<b>テンプレートデータ</b>には、テンプレートにカテゴリが設定されている場合があります [グラフ属性](../../compositing-graphs/graph-parameters/graph-parameters.md)。テンプレートのリストを絞り込むためのフィルターとして使用されます：
+テンプレートの<b>テンプレートデータ</b>には、テンプレートにカテゴリが設定されている場合があります [グラフ属性](../../compositing-graphs/graph-parameters/graph-parameters.md)。テンプレートの一覧を絞り込むためのフィルターとして使用されます：
 
 &lt;category>;&lt;subtitle>
 
@@ -290,7 +290,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – テンプレートカテゴリを設定しています](../../assets/newGraphDialog-templateCategorySetup.png "新しいSubstanceグラフダイアログ – テンプレートカテゴリを設定しています"){zoomable="yes"}
+![新しいSubstanceグラフダイアログ – テンプレートカテゴリを設定しています](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-17.png "新しいSubstanceグラフダイアログ – テンプレートカテゴリを設定しています"){zoomable="yes"}
 
 </td>
 </tr>
@@ -300,7 +300,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### プロジェクトファイルによるフィルタリング
+### プロジェクトファイル別のフィルタリング
 
 アクティブな[プロジェクトファイル](../../interface/preferences-window/project-settings/project-settings.md)のいずれかに1つ以上のテンプレートパスが指定されている場合、これらのパスで見つかったパッケージファイル内のグラフがテンプレートの一覧に追加されます。
 
@@ -309,7 +309,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – プロジェクトファイルによるフィルター処理](../../assets/newGraphDialog-projectFiles.png "新しいSubstanceグラフダイアログ – プロジェクトファイルによるフィルター処理"){zoomable="yes"}
+![新しいSubstanceグラフダイアログ – プロジェクトファイルによるフィルター処理](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-18.png "新しいSubstanceグラフダイアログ – プロジェクトファイルによるフィルター処理"){zoomable="yes"}
 
 </td>
 </tr>

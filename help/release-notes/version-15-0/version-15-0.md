@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *リリース日：2025年7月15日*
 
-![バナー](../../assets/banner-47.png "バージョン15.0バナー")
+![バナー](version-15-0.resources/version-15-0-01.png "バージョン15.0バナー")
 
 ## 新しい 3D レンダラー
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 この新しいリリースでは、ラスタライザーモード（マテリアルの作業中にリアルタイムのプレビューを表示）とパストレーサーモード（完全で正確なレンダリングを実現するレイトレースモード）を備えた高度な[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)にアクセスできます。 この新しいレンダラーは、ラスタライザーモードでのシャドウなどの機能を使用して機能を強化し、品質とパフォーマンスを向上させます。また、[MaterialX](https://materialx.org/)などの将来のテクノロジーをサポートするように設計されています。 Designerの既存のOpenGLレンダラーおよびIrayレンダラーを補完し、Substance 3D ViewerおよびSubstance 3D Samplerで利用できるレンダラーと連携して、エコシステム全体で統一されたエクスペリエンスを実現します。
 
-![ラスタライザの影と半透明](../../assets/feature_1b.png)
+![ラスタライザの影と半透明](version-15-0.resources/version-15-0-02.png)
 
 [3dビューツールバー](../../interface/3d-view/3d-view.md)が更新され、このレンダラーで使用できる新機能の一部にすばやくアクセスできるようになりました。
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 * <b>トーンマッピング： </b>広ダイナミックレンジ(HDR)効果を得るためのプロファイルを持つ色範囲。
 * <b>フィールドの深度:</b>は、カメラレンズのフォーカスプロパティをシミュレートします（ラスタライザのみ）。
 
-![Designer 15.0](../../assets/postfx.gif)の投稿FX
+![Designer 15.0](version-15-0.resources/version-15-0-03.gif)の投稿FX
 
 ## コンテキスト内のアセットエディション
 
 マテリアルを操作するときは、[特定の3Dシーンのコンテキストでプレビュー](../../working-with-3d-scenes/working-with-3d-scenes.md)することをお勧めします。 そのため、テクスチャ、カメラ、ライトを含む完全なシーンを読み込んでレンダリングできるようになりました。 チェリーの上に表示されます。このシーンがMaterialXシェーダを参照している場合は、ラスタライザを使用して正しくレンダリングされます。
 
-![Designerに読み込まれ、レンダリングされたUSDシーン](../../assets/feature_2.png)
+![Designerに読み込まれ、レンダリングされたUSDシーン](version-15-0.resources/version-15-0-04.png)
 
 読み込みが完了すると、メッシュを選択して（[Shift]を押しながらクリックするか、シーンブラウザのおかげで）、[そのマテリアルをオーバーライド](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)することで、シーンを操作できます。 その後、次の操作を実行できます。
 
@@ -76,17 +76,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ブレンドノード](../../assets/blend.gif)
+![ブレンドノード](version-15-0.resources/version-15-0-05.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ぼかしノード](../../assets/blur.gif)
+![ぼかしノード](version-15-0.resources/version-15-0-06.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![距離ノード](../../assets/distance.gif)
+![距離ノード](version-15-0.resources/version-15-0-07.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 非正方形テクスチャを操作する必要がある場合は、この新しいオプションが適しています。 3Dビューの[マテリアルプロパティ](../../interface/3d-view/material-properties/material-properties.md)で、タイリングを制御するUVオプションで、両方の軸に異なる値を設定できるようになりました。
 
-![異なるU Vスケール](../../assets/nonsquare.png){zoomable="yes"}
+![異なるU Vスケール](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
 
 ## ベイカー
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## ビデオ
 
-[![Substance 3D Designerのアップデート：新しいレンダラー、FXの投稿、コンテキストの編集 | Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D Designerのアップデート：新しいレンダラー、FXの投稿、コンテキストの編集 | Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## リリースノート
 
@@ -166,21 +166,21 @@ ht-degree: 0%
 * [ベーカー]トーンマッピングパラメータを管理する
 * [ベイカー]接線空間プラグイン選択を削除
 * [ベイカー]プリセットを保存するときに、ベイカーの保存ステータスが「有効」または「無効」になる
-* [ベイカー]セレクトウィジェットでデフォルトでマテリアルを選択
+* [ベイカー] Select WidgetでデフォルトでSelect マテリアルを選択します
 * [ベーカー]基本設定を基準にして法線の出力テクスチャの既定の方向を設定します
 * [ベイカー] UVタイルをデフォルトですべて設定する
-* [ベイカー] WordSpaceDirection追加オプションFromTexture/FromValue
-* [ベイカー]ワールドを接線に：既定値の入力を「テクスチャから」に設定します。
+* [ベイカー] WordSpaceDirection add option FromTexture/FromValue
+* [ベイカー]ワールドを正接に：既定の入力を[テクスチャから]に設定します。
 * [SBSBaker]バックエンドの順序を制御するオプションを作成します
 * [SBSBaker] StringList引数の使用を改善
-* [SBSBaker] 「match\_source\_instance」の名前を「match\_mesh\_name」に変更します
+* [SBSBaker] 「match\_source\_instance」の名前を「match\_メッシュ\_name」に変更します
 * [SBSBaker] 「Submesh」を「GeomSubset」に名前変更
 * [SBSBaker] substance3d\_bakerに名前変更
-* [コンテンツ]象限シェイプを表示するジェネレータノードに「半球」シェイプを追加する
+* [コンテンツ]象限シェイプを表示してジェネレータノードに「半球」シェイプを追加する
 * [Interop] GLTFファイル形式のサポート
 * [Interop] PLYファイル形式のサポート
 * [Interop] STLファイル形式のサポート
-* [ライブラリ]原子ノードのツールチップを統一する
+* [Library] アトミックノードのツールチップを統一する
 * [Mac] MacIntelプラットフォームのサポートを終了する
 * [Nodes] atomicノードのrichtooltipsを追加する
 * [パラメータ] [属性]セクションを既定で閉じる

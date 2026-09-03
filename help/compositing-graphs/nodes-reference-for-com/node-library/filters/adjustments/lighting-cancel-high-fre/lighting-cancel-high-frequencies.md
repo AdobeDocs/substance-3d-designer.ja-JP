@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ライティングで高周波数をキャンセル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-frequencies.png){width="128px"}
+![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-01.png){width="128px"}
 
-## ライティングで高周波数をキャンセル
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,18 +37,25 @@ ht-degree: 2%
 
 [低周波数の照明をキャンセル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)および、より高度な、推奨される[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)も参照してください。
 
-## パラメーター
-
-* **強度**: *0.0 -* 1.0\
-  ライトのキャンセル効果の強度。
-* **半径**: *0.0 ～ 10.0*&#x200B;キャンセルする光源の詳細の半径またはサイズ。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-highfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>適用度</b> <i>0.0 - 1.0</i> | ライトのキャンセル効果の強度。 |
+| <b>半径</b> <i>0.0 - 10.0</i> | キャンセルする光の詳細の半径またはサイズ。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-02.png" />
+        </td>
+    </tr>
 </table>

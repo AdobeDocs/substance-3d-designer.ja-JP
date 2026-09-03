@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 非正方形の変形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](non-square-transform.resources/non-square-transform-01.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](non-square-transform.resources/non-square-transform-02.png)
 
-## 非正方形の変形（グレースケール）
-
-**場所：** *フィルター/変換*
-
-**中級**
+<b>イン：</b>フィルター/変形
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -47,22 +43,29 @@ ht-degree: 0%
 * 非正方形トランスフォーム&#x200B;**ノード**&#x200B;の出力サイズを「*親に対して相対的*」に設定します。
 * 入力を1つの位置に変換するだけの場合は、**ノードの**&#x200B;並べて表示モードを「*並べて表示しない*」に設定します。
 
-## パラメーター
-
-* **タイルモード**: *自動、手動*&#x200B;非正方形の自動補正を有効にするかどうかを指定します。
-* **タイル**: *1 - 16*&#x200B;タイルモードが手動に設定されている場合にのみアクセスできます。 タイリングセーフな方法でスケールを変更できます。
-* **オフセット**: *0.0 - 1.0*\
-  結果を移動または変換します。 負の値を入力するには、スライダーをダブルクリックします。
-* **回転**: *0.0 ～ 1.0*&#x200B;入力画像を回転します。
-* **安全な回転（正方形のみ）**: *偽/真*&#x200B;安全な値にスナップして、ピクセルのシャープさを維持します。
-* **背景色**: *（カラー値）*画像を塗りつぶす背景色。 基本パラメーターの[タイルモードが「*タイル表示なし*」](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)に設定されている場合にのみ表示されます。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>タイルモード</b> <i>自動、手動</i> | 非正方形の自動補正を有効にするかどうかを指定します。 |
+| <b>タイル</b> <i>1 - 16</i> | [タイルモード]が[手動]に設定されている場合にのみ使用できます。 タイリングセーフな方法でスケールを変更できます。 |
+| <b>オフセット</b> <i>0.0 - 1.0</i> | 結果を移動または変換します。 負の値を入力するには、スライダーをダブルクリックします。 |
+| <b>回転</b> <i>0.0 - 1.0</i> | 入力画像を回転します。 |
+| <b>セーフ回転（正方形のみ）</b> <i>False/True</i> | ピクセルのシャープさを保つために、安全な値にスナップされます。 |
+| <b>背景色</b> <i>（カラー値）</i> | 画像を塗りつぶす背景色。 基本パラメーターの[タイルモードが「*タイル表示なし*」](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)に設定されている場合にのみ表示されます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-square-transform.resources/non-square-transform-03.png" />
+        </td>
+    </tr>
 </table>

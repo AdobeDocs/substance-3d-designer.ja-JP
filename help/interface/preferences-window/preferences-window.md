@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 環境設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b1b28e909a4d3c19c1dbc28e5ed25b3adc327ac3
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Preferencesウィンドウ
 
-![環境設定ウィンドウ](../../assets/image2021-6-22-20-56-1.png "環境設定ウィンドウ")
+![環境設定ウィンドウ](preferences-window.resources/preferences-window-01.png "環境設定ウィンドウ")
 
 このページには、<b>環境設定</b>ウィンドウとそのすべての設定が表示されます。
 
@@ -35,15 +35,15 @@ ht-degree: 1%
 
 ### 最近使用したドキュメント
 
-|  |  |
-| --- | --- |
-| <b>最近使用した文書のリストには</b>件あります  *既定： 10* | これにより、[メインメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>ファイル</b>項目の<b>最近使用したパッケージ</b>に一覧表示するドキュメントの数を選択できます。 |
+|  |                                                                                                                                         |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------|
+| <b>最近使用した文書のリストには</b>件あります  *既定： 10* | これにより、[メインメニュー](../the-main-toolbar/the-main-toolbar.md)の<b>ファイル</b>項目の<b>最近使用したパッケージ</b>エントリに一覧表示するドキュメントの数を選択できます。 |
 
 ### 履歴
 
 |  |  |
 | --- | --- |
-| **履歴のスタックサイズ** *既定： 200* | これは、[メインメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)の<b>編集/取り消し</b>項目で、任意の時点で使用可能な取り消し操作の数を示します。  **注意：**&#x200B;必要な取り消し操作が多いほど、アプリケーションに必要なメモリが多くなります。 |
+| **履歴のスタックサイズ** *既定： 200* | これは、[メインメニュー](../the-main-toolbar/the-main-toolbar.md)の<b>編集/取り消し</b>項目で、任意の時点で使用可能な取り消し操作の数を示します。  **注意：**&#x200B;必要な取り消し操作が多いほど、アプリケーションに必要なメモリが多くなります。 |
 
 ### 言語
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ### 自動バックアップ
 
-自動保存機能がデフォルトで含まれています。この機能では、開いている[SBSパッケージ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)の現在の状態のコピーを設定された期間で作成します。 自動保存は、SBSパッケージの場所にある<b>.autosave</b>フォルダーに配置されます。
+自動保存機能がデフォルトで含まれています。この機能では、開いている[SBSパッケージ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)の現在のステータスのコピーを設定された時間に作成します。 自動保存は、SBSパッケージの場所にある<b>.autosave</b>フォルダーに配置されます。
 
 |  |  |
 | --- | --- |
@@ -111,13 +111,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>.sbsarに公開したり、別のアプリケーションに送信したりするときに、常に.sbsファイルを保存する</b>  *既定： True* | [公開](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)または[別のアプリケーションに送信](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)するときにSBSパッケージの自動保存を制御します。 |
+| <b>.sbsarに公開したり、別のアプリケーションに送信したりするときに、常に.sbsファイルを保存する</b>  *既定： True* | [公開時](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)または別のアプリケーションへの送信時に、SBSパッケージの自動保存を制御します。 |
 
 ### クッカー
 
-|  |  |
-| --- | --- |
-| <b>調理のサイズ制限</b>  *既定： 8192ピクセル* | 任意の[グラフ](../../compositing-graphs/substance-compositing-graphs.md)のすべての[ノード](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)に許可される最大ピクセル解像度を定義します。 グラフの出力は常に2の累乗の解像度の正方形イメージであるため、ここで設定する値は、最大幅と最大Heightの両方をピクセル単位で定義します。 |
+|  |                                                                                                                                                                                                                                                                                                 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>調理のサイズ制限</b>  *既定： 8192ピクセル* | 任意のSubstance [グラフ](../../compositing-graphs/substance-compositing-graphs.md)内のすべてのノードに許可される最大ピクセル解像度を定義します。 グラフの出力は常に2の累乗の解像度の正方形イメージであるため、ここで設定する値は、最大幅と最大Heightの両方をピクセル単位で定義します。 |
 
 ### エンジン
 
@@ -147,24 +147,24 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>グラフを開くときに、すべてのノードのサムネイルを自動的に計算する</b>  *既定：確認済み* | オンにすると、グラフを読み込むときに、すべてのノードサムネールを自動的にレンダリングします。 |
+| <b>グラフを開くときに、すべてのノードのサムネイルを自動的に計算する</b>  *既定：確認済み* | オンにすると、グラフの読み込み時にすべてのノードサムネールが自動的にレンダリングされます。 |
 | <b>グラフを開くときに2Dビューで出力を表示する</b>  *既定：確認済み* | オンにすると、グラフを開いたときに、最初のグラフ出力が[2Dビュー](../../interface/2d-view/2d-view.md)に自動的に表示されます。 これには、[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに至るストリームの一部であるすべてのノードをレンダリングする効果もあります。 |
 | <b>新しく作成された合成ノードを自動的に表示します</b>  *既定：確認済み* | オンにすると、[2Dビュー](../../interface/2d-view/2d-view.md)が自動的に更新され、新しく作成されたノードの出力が表示されます。 |
-| <b>カラー/グレースケール変換ノードを自動的に挿入する</b>  *既定：未確認* | オンにすると、*特定のノードを配置*&#x200B;して適切な変換を実行することで、カラー/グレースケール接続の種類の不一致を自動的に解決します。   *グレースケール*&#x200B;出力（灰色のコネクタ）が&#x200B;*Color*&#x200B;入力（黄色のコネクタ）に接続されている場合、[Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードが2つのコネクタの間に自動的に配置されます。   *Color*&#x200B;出力（黄色のコネクタ）が&#x200B;*グレースケール*&#x200B;入力（灰色のコネクタ）に接続されている場合、[グレースケール変換](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)ノードが2つのコネクタの間に自動的に配置されます。 |
-| <b>コンテキストでグラフの編集を有効にする</b>  *既定：未確認* | 既定では、[インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)が参照するグラフをノード上で右クリックして[<b>参照を開く</b>]を選択すると、そのグラフが読み込まれ、*編集されます*。   オンにすると、インスタンス&#x200B;*によって参照されているグラフを、現在のグラフによってインスタンス*&#x200B;に渡された情報を使用して編集できます。 これを行うには、インスタンスノードを右クリックして<b>「コンテキスト内の参照を開く」</b>を選択するか、Ctrl+Eキーストロークを使用します。   つまり、インスタンス化されたグラフは、そのインスタンス化されたグラフのコンテキストで編集できます。 これは、作業中のグラフで編集の効果を確認する場合に非常に便利です。 以下の例を参照してください。  **注意：**&#x200B;コンテキスト内編集を使用している場合、[グラフプロパティ](../../compositing-graphs/graph-parameters/graph-parameters.md)の<b>プレビュー</b>および<b>プリセット</b>のタブは&#x200B;*無効*&#x200B;です。 |
+| <b>カラー/グレースケール変換ノードを自動的に挿入する</b>  *既定：未確認* | オンにすると、*特定のノードを配置*&#x200B;して適切な変換を実行することで、カラー/グレースケール接続の種類の不一致を自動的に解決します。   *グレースケール*&#x200B;出力（グレーコネクター）が&#x200B;*Color*&#x200B;入力（イエローコネクター）に接続されている場合、[グラデーションマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードが2つのコネクターの間に自動的に配置されます。   *カラー*&#x200B;出力（イエローのコネクター）が&#x200B;*グレースケール*&#x200B;入力（グレーのコネクター）に接続されている場合、[グレースケール変換](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) コネクターが2つのノードの間に自動的に配置されます。 |
+| <b>コンテキストでグラフの編集を有効にする</b>  *既定：未確認* | 既定では、[ノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)で参照されているグラフを右クリックして[<b>参照を開く</b>]をクリックすると、そのインスタンス化が読み込まれ、*編集されています。*   オンにすると、インスタンス&#x200B;*によって参照されているグラフを、現在のグラフによってインスタンス*&#x200B;に渡された情報を使用して編集できます。 これを行うには、インスタンスノードを右クリックして<b>「コンテキスト内の参照を開く」</b>を選択するか、Ctrl+Eキーストロークを使用します。   つまり、インスタンス化されたグラフは、そのインスタンス化されたグラフのコンテキストで編集できます。 これは、編集がグラフに与える影響を確認する場合に非常に便利です。 以下の例を参照してください。  **注意：**&#x200B;コンテキスト内編集を使用している場合、[グラフプロパティ](../../compositing-graphs/graph-parameters/graph-parameters.md)の<b>プレビュー</b>および<b>プリセット</b>のタブは&#x200B;*無効*&#x200B;です。 |
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![コンテキスト内の編集が無効になりました](../../assets/substance3ddesigner_incontext_no.gif "コンテキスト内の編集が無効になりました")
+![コンテキスト内の編集が無効になりました](preferences-window.resources/preferences-window-02.gif "コンテキスト内の編集が無効になりました")
 
 *参照を開く*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![コンテキスト内の編集が有効になりました](../../assets/substance3ddesigner_incontext_yes.gif "コンテキスト内の編集が有効になりました")
+![コンテキスト内の編集が有効になりました](preferences-window.resources/preferences-window-03.gif "コンテキスト内の編集が有効になりました")
 
 *コンテキスト内の参照を開く*
 

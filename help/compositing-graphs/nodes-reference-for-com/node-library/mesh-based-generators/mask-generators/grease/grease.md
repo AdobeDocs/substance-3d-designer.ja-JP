@@ -10,10 +10,10 @@ helpx_tags: ""
 title: グリース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 2%
+source-wordcount: '184'
+ht-degree: 5%
 
 ---
 
@@ -22,49 +22,52 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grease.png){width="128px"}
+![](grease.resources/grease-01.png){width="128px"}
 
-## グリース
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**単純**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
-このマスクは、特にキャラクターの顔やその他の特定の領域を対象としています。 Thicknessの低い領域にスキングリースタイプのマスクを生成します。
-
-## パラメーター
-
-### 入力
-
-* **Thickness**: *グレースケール入力*\
-  エフェクト全体のベースとなるベイク処理されたThicknessマップ。 必須！
-* **ノイズ**: *グレースケール入力*\
-  グリースデータを上書きするためのノイズ経年劣化マップ（オプション）。
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **レベル**: *0.0 ～ 1.0*\
-  表示するエフェクトの総量を設定します。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
-* **Thicknessのしきい値**: *0.0 ～ 1.0*&#x200B;効果が現れる最小のThicknessを設定します。 レベルも同様に重要です。Thicknessマップに合わせて調整してください。
-* **ノイズを上書き**: *False/True*&#x200B;カスタム入力スロットで内部グリース経年劣化マップを上書きするように設定します。
-
-## サンプル画像
-
-![](../../../../../../assets/grease-ex.gif)
+このマスクは、特にキャラクタ面やその他の特定領域を対象としています。 Thicknessの低い領域にスキングリースタイプのマスクを生成します。
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>Thickness</b> <i>グレースケール入力</i> | エフェクト全体の基になる厚みマップをベイクしました。 必須！ |
+| <b>ノイズ</b> <i>グレースケール入力</i> | グリースデータを上書きするためのノイズ経年劣化マップ（オプション）。 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>レベル</b> <i>0.0 - 1.0</i> | 表示するエフェクトの総量を設定します。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
+| <b>Thicknessしきい値</b> <i>0.0 - 1.0</i> | エフェクトを表示する最小Thicknessを設定します。 レベルも同様に重要です。Thicknessマップに合わせて調整してください。 |
+| <b>ノイズの上書き</b> <i>False/True</i> | カスタム入力スロットで内部グリース経年劣化マップを上書きします。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grease.resources/grease-02.gif" />
+        </td>
+    </tr>
 </table>

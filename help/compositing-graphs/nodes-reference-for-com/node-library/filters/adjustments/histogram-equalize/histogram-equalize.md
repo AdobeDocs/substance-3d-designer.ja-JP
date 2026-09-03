@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ヒストグラムイコライザー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ヒストグラムのイコライズ：アイコン](../../../../../../assets/histogram_equalize.png "ヒストグラムのイコライズ：アイコン"){width="200px"}
+![ヒストグラムのイコライズ：アイコン](histogram-equalize.resources/histogram-equalize-01.png "ヒストグラムのイコライズ：アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -39,88 +39,74 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-</tr>
-</table>
-
-## 入力コネクタ
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>入力</b> *グレースケール*&#x200B;プライマリ | ヒストグラムを平均化する画像。 |
+|:---|:---|
+| <b>入力</b> <i>グレースケール</i>プライマリ | ヒストグラムを平均化する画像。 |
 
-## 出力コネクタ
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | ヒストグラムのイコライゼーションが適用された結果画像。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | ヒストグラムのイコライゼーションが適用された結果画像。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>ヒストグラムの解像度</b> *整数* | ヒストグラムの幅。 値を大きくすると、より細かい値の分布が可能になります。   使用可能な解像度は、ピクセル単位で256、512、1024、2048、4096です |
-| <b>ヒストグラムのスムージング</b> *フロート* | ヒストグラムは、画像内のグレースケール値を再配分して、各値の間の&#x200B;*差*&#x200B;を均等にすることでスムージングできます。   このパラメーターは、スムージングの強度を調整します。 |
+|:---|:---|
+| <b>ヒストグラムの解像度</b> *整数* | ヒストグラムの幅。 値を大きくすると、より細かい値の分布が可能になります。   使用可能な解像度は、ピクセル単位で256、512、1024、2048、4096です |
+| <b>ヒストグラムのスムージング</b> *フロート* | ヒストグラムは、画像内のグレースケール値を再配分して、各値の間の&#x200B;*差*&#x200B;を均等にすることでスムージングできます。   このパラメーターは、スムージングの強度を調整します。 |
 
 ## 例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram-equalize-02.jpg" alt="histogram_equalize_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram-equalize-03.jpg" alt="histogram_equalize_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![ヒストグラムのイコライズ：例1](../../../../../../assets/histogram_equalize_example_3.png "ヒストグラムのイコライズ：例1"){zoomable="yes"}
+![ヒストグラムのイコライズ：例1](histogram-equalize.resources/histogram-equalize-04.png "ヒストグラムのイコライズ：例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram-equalize-05.jpg" alt="histogram_equalize_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram-equalize-06.jpg" alt="histogram_equalize_example_2_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![ヒストグラムのイコライズ：例2](../../../../../../assets/histogram_equalize_example_5.png "ヒストグラムのイコライズ：例2"){zoomable="yes"}
+![ヒストグラムのイコライズ：例2](histogram-equalize.resources/histogram-equalize-07.png "ヒストグラムのイコライズ：例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram-equalize-08.jpg" alt="histogram_equalize_example_4_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram-equalize-09.jpg" alt="histogram_equalize_example_4_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![ヒストグラムのイコライズ：例3](../../../../../../assets/histogram_equalize_example_6.png "ヒストグラムのイコライズ：例3"){zoomable="yes"}
+![ヒストグラムのイコライズ：例3](histogram-equalize.resources/histogram-equalize-10.png "ヒストグラムのイコライズ：例3"){zoomable="yes"}

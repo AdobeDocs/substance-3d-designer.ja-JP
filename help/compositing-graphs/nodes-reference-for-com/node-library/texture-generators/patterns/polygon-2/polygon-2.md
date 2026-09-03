@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 多角形2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 11%
 
 ---
 
@@ -22,39 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-2-1.png){width="128px"}
+![](polygon-2.resources/polygon-2-01.png){width="128px"}
 
-## 多角形2
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**中級**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 調整オプションのある滑らかなグラデーションポリゴンを生成します。 より高度なバージョンについては、[ポリゴン1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md)を参照してください。
 
-## パラメーター
-
-* **辺**: *3 ～ 32*&#x200B;辺の量。
-* **スケール**: *0.0 ～ 1.0*&#x200B;グローバルスケールを設定します。
-* **回転**: *0.0 ～ 1.0*&#x200B;シェイプ全体を回転します。
-* **カーブ**: *-1.0 - 1.0*&#x200B;グラデーションプロファイルカーブを変更します。
-* **グラデーション**: *0.0 ～ 1.0*&#x200B;グラデーションコントラストを調整します。
-* **グラデーションを反転**: *False/True*&#x200B;グラデーションの方向を反転します。
-* **自動スケール**: *False/True*&#x200B;既定の設定でキャンバスに合わせてスケールします。
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-![](../../../../../../assets/polygon-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>辺</b> <i>3 - 32</i> | 辺の量。 |
+| <b>スケール</b> <i>0.0 - 1.0</i> | グローバルスケールを設定します。 |
+| <b>回転</b> <i>0.0 - 1.0</i> | シェイプ全体を回転します。 |
+| <b>曲線</b> <i>-1.0 - 1.0</i> | グラデーションプロファイルカーブを変更します。 |
+| <b>グラデーション</b> <i>0.0 - 1.0</i> | グラデーションのコントラストを調整します。 |
+| <b>グラデーションを反転</b> <i>False/True</i> | グラデーション方向を反転します。 |
+| <b>自動スケール</b> <i>False/True</i> | デフォルト設定でカンバスに合わせて拡大・縮小します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="polygon-2.resources/polygon-2-02.gif" />
+        </td>
+    </tr>
 </table>

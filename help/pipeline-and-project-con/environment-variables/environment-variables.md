@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 環境変数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 3%
@@ -25,6 +25,6 @@ ht-degree: 3%
 | 変数 | 説明 |
 | --- | --- |
 | **SBS\_DESIGNER\_PYTHON\_PATH** | Designerが[Pythonプラグイン](../../scripting/plugin-basics/plugin-basics.md)を読み込むパス。 |
-| **SUBSTANCE\_DESIGNER\_ライセンス** | Designerで使用する必要があるライセンスファイル(*license.key*)の場所です。   Designer [ライセンス認証ウィザード](../../getting-started/activation-and-licenses/activation-and-licenses.md)で設定されたパスを上書きします。  **注意：**&#x200B;古いバージョンでは、代替の変数名を使用する必要がある場合があります：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>SUBSTANCE_DESIGNER_6_LICENSE</strong></li><li data-preserve-html="true"><strong>SUBSTANCE_DESIGNER_5_ライセンス</strong></li></ul> |
-| <b>OCIO</b> | OpenColorIO [カラーマネジメント](../../color-management/color-management.md)を使用する際に使用するOCIO設定ファイルへのパスです。   [プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)のDesignerのカラーマネジメント設定で設定されたパスをオーバーライドします。 |
+| **SUBSTANCE\_DESIGNER\_ライセンス** | Designerで使用する必要があるライセンスファイル(*license.key*)の場所です。   Designer [ライセンス認証ウィザード](../../getting-started/activation-and-licenses/activation-and-licenses.md)で設定されたパスを上書きします。  **注意：**&#x200B;古いバージョンでは、代替の変数名を使用する必要がある場合があります：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>SUBSTANCE_DESIGNER_6_LICENSE</strong></li><li data-preserve-html="true"><strong>SUBSTANCE_DESIGNER_5_ライセンス</strong></li></ul> |
+| <b>OCIO</b> | OpenColorIO [カラーマネジメント](../../color-management/color-management.md)を使用する際に使用するOCIO設定ファイルへのパスです。   [プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)のDesignerのカラーマネジメント設定で設定されたパスをオーバーライドします。 |
 | **ALLEGO\_LICENSE\_IDLE\_DELAY** | マルチユーザー構成の場合、ライセンスシートをリリースするまでの遅延時間デフォルトは7200秒（2時間）です。 |

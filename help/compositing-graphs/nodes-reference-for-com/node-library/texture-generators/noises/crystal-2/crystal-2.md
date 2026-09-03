@@ -10,10 +10,10 @@ helpx_tags: ""
 title: クリスタル2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-2.png){width="128px"}
+![](crystal-2.resources/crystal-2-01.png){width="128px"}
 
-## クリスタル2
-
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**単純**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,21 +37,26 @@ angularの布の折り目のようなパターンを作成します。 [折り�
 
 これはニッチなノイズの一部です。繊細な大理石のパターンを再現したり、布を使用したりする場合など、このタイプのディテールが必要な場合に便利です。
 
-## パラメーター
-
-* **スケール**: *1 - 16*\
-  エフェクトのグローバルスケールを設定します。
-* **障害**: *0.0 ～ 1.0*\
-  ノイズを位相シフトして、小さな変動を発生させます。
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/crystal-2-1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>スケール</b> <i>1 - 16</i> | エフェクトのグローバルスケールを設定します。 |
+| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="crystal-2.resources/crystal-2-02.png" />
+        </td>
+    </tr>
 </table>

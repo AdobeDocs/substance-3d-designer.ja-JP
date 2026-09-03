@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
-description: 以前のバージョンに慣れているユーザー向けのSubstance 3D Designerベーカーのレガシーインターフェイスについて説明します。
+description: 以前のバージョンに慣れているユーザー向けに、Substance 3D Designer ベイカーの従来のインターフェイスについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Bakers > Bakers Legacy Interface
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ベイカーズレガシインターフェイス
+title: ベイカーレガシーインターフェイス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -18,68 +18,68 @@ ht-degree: 3%
 ---
 
 
-# ベイカーズレガシインターフェイス
+# ベイカーレガシーインターフェイス
 
-バージョン6.0.4より前の[Adobe Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)で使用可能なベイカーインターフェイスの説明は次のとおりです。
+バージョン6.0.4より前の[Adobe Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)で使用できるベイカーインターフェイスについて説明します。
 
 ## 概要
 
-![](../../assets/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
 
-ベーカーパネルは4つの部分に分かれています。
+ベイカーパネルは4つの部分に分かれています。
 
 ### 1:シーン
 
-![](../../assets/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
 
-メッシュのどの部分がベイク処理に関与するかを定義します。
+メッシュのどの部分がベイク処理プロセスに関係しているかを定義できます。
 
 バージョン6の新機能では、マテリアル別に選択することもできます。
 
-![](../../assets/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
 
-### 2：パン屋
+### 2:ベイカー
 
-![](../../assets/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
 
-![](../../assets/image2017-3-13-9-47-47.png)ボタンを押すと、目的のベイカーを処理リストに追加できます
+![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png)ボタンを押すと、目的のベイカーを処理リストに追加できます
 
 >[!NOTE]
 >
-> ベイク処理はリスト順（上から下へ）に従って行われます。これは、ベイク処理の結果（法線マップなど）を別のベイク処理プロセスで再利用する場合に重要です
+> パンはリスト順（上から下へ）に従って処理されます。これは、法線マップなど、烘焙の結果を別のベイクプロセスで再利用する場合に重要になることがあります
 
-パン屋のレイアウトで「+」をクリックすると、スタックにパン屋を追加できます（スタックには必要な数のパン屋を追加できます）。
+ベイカーレイアウトの「+」をクリックすると、スタックにベイカーを追加できます（スタックには必要な数のベイカーを追加できます）。
 
-.![](../../assets/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
 
-![](../../assets/image2017-3-13-9-54-33.png)キーを押すと、リストからベイク処理を削除できます
+![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)キーを押すと、一覧からベイクプロセスを削除できます
 
-ベイクプロセスを選択して![](../../assets/image2017-3-13-9-55-33.png)を使用すると、ベイクプロセスリストを並べ替えることができます
+ベイク処理プロセスを選択して![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)を使用すると、ベイク処理プロセスの一覧を並べ替えることができます
 
 ### 3:ベイカーパラメーター
 
-![](../../assets/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
 
 このセクションには、現在選択されているベイカーに固有のオプションが表示されます。
 
 ### 4：共通パラメーター
 
-![](../../assets/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
 
 ベイカー間で共有されているパラメーターが表示されます。
 
 >[!NOTE]
 >
-> デフォルトでは、これらのパラメータのいずれかを変更すると、すべてのベイカーに影響します。ただし、すべてのベイカーに共通のオーバーライドパラメータをチェックした場合を除きます。この場合、変更は現在のベイカーに対してローカルになります。
+> デフォルトでは、これらのパラメータの1つを変更すると、すべてのベイカーに影響します。ただし、すべてのベイカーに共通のオーバーライドパラメータにチェックを入れた場合は、変更は現在のベイカーに対してローカルになります。
 
 * **[リソース名]**&#x200B;フィールドでは、必要に応じて、生成されたビットマップの名前を変更できます。
 * **ファイル形式**&#x200B;のドロップダウンリストでは、既定のファイル形式（WindowsまたはOS/2ビットマップ形式、「BMP」）を変更できます。
-* **&#x200B;**&#x200B;**[メッシュ固有のフォルダにリソースを配置する]チェックボックスを使用すると、生成されたビットマップをモデルと同じレベルで保存するか、[リソース]という名前の新しいサブフォルダ内に保存するかを選択できます。**
+* **&#x200B;**&#x200B;**[メッシュ固有のフォルダにリソースを配置する]チェックボックスをオンにすると、生成されたビットマップをモデルと同じレベルで保存するか、[Resources]という名前の新しいサブフォルダ内に保存するかを指定できます。**
 * **メソッド**&#x200B;を使用すると、新しいビットマップSubstanceをリソースパッケージにリンクするか埋め込むかを指定できます。
 * **フォルダー**&#x200B;では、マップを保存する場所を定義できます。
 
-ベーカーウィンドウの右下にある「OK」ボタンを押すと、ベイク処理が開始されます。
+ベイカーウィンドウの右下にある「OK」ボタンを押すと、ベイクプロセスが開始されます。
 
-バージョン6の新機能：キャンセルボタンを使用してベイク処理をキャンセルできるようになりました。
+バージョン6の新機能：「キャンセル」ボタンを使用して、ベイクプロセスをキャンセルできるようになりました。
 
-![](../../assets/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)

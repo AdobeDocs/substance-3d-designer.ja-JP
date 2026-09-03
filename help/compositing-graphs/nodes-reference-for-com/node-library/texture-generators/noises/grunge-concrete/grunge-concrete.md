@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 経年劣化コンクリート
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -22,39 +22,47 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grunge-concrete-01.jpg){width="200px"}
 
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**単純**
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-**経年劣化コンクリート**&#x200B;ノードは、コンクリート表面のHeightマップに似た経年劣化マップを生成します。
+**経年劣化コンクリート**&#x200B;ノードは、コンクリートサーフェスの高さマップに似た経年劣化マップを生成します。
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **バランス** *浮動小数点*&#x200B;暗い値と明るい値のバランスを調整します。
-* **コントラスト** *浮動小数点*&#x200B;画像のコントラストを調整します。
-* **反転** *ブール値*`1-x`操作を使用して画像の出力を反転します。
-* **非正方形拡張** *ブール値*&#x200B;非正方形の比率でのスカッシュとストレッチの補正を有効にします。
-* アドバンス
-  * **ベースのノイズ** *フロート*&#x200B;ベーステクスチャのノイズを調整します。
-  * **Dirtの斑点の不透明度** *浮動小数点* Dirtの斑点の不透明度を調整します。
-  * **Dirtを反転** *ブール値* Dirtの斑点の影響を反転します。
-  * **Scratchesの不透明度** *浮動小数点*&#x200B;傷の不透明度を調整します。
-  * **シャープ** *フロート*&#x200B;画像に適用するシャープ効果の強さを調整します。
-  * **大きな変動強度** *浮動小数点*&#x200B;ベーステクスチャに適用する大きなスケール（低周波）の変動を調整します。
+|  |  |
+|:---|:---|
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>詳細</b> |  |
+| <b>ベースのノイズ</b> <i>フロート</i> | ベーステクスチャのノイズを調整します。 |
+| <b>Dirtの斑点の不透明度</b> <i>フロート</i> | Dirt部分の不透明度を調整します。 |
+| <b>Dirtを反転</b> <i>ブール値</i> | Dirtの斑点の影響を反転します。 |
+| <b>Scratchesの不透明度</b> <i>フロート</i> | スクラッチの不透明度を調整します。 |
+| <b>シャープ</b> <i>フロート</i> | 画像に適用されるシャープ効果の強さを調整します。 |
+| <b>変動の強さ（大）</b> <i>フロート</i> | ベーステクスチャに適用される大きなスケール（低周波数）のバリエーションを調整します。 |
 
-## サンプル画像
+## 例
 
-![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-concrete.resources/grunge-concrete-02.jpg" />
+        </td>
+    </tr>
+</table>

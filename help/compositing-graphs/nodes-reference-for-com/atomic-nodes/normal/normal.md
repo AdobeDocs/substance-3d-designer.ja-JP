@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法線
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：標準](../../../../assets/comp_normal_1.png "原子ノード：標準"){width="200px"}
+![原子ノード：標準](normal.resources/normal-01.png "原子ノード：標準"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,9 +78,9 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>適用度</b> *フロート* | Heightマップの強さを変更します。   法線に変換するために入力Heightマップを変換する度合いを設定します。 入力マップによっては、100を超える値の効果はほとんどありません。 |
-| <b>標準の形式</b> *ブール値* | Heightマップ(OpenGL)のY座標を反転します。   グリーン(Y)チャンネルのエンコード方法を設定します。 基本的には、「緑色/Y方向に反転」スイッチです。 |
-| <b>Alphaチャンネルコンテンツ</b> *ブール値* | 法線マップのアルファチャンネルを入力テクスチャで塗りつぶします。   Fill Alphaの入力/フォースAlphaを1に設定する：このオプションを選択すると、入力を追加Alphaとして使用する代わりに、Alphaチャンネルを実線に設定することができます。 |
+| <b>適用度</b> *フロート* | Heightマップの強さを変更します。   法線に変換するために入力Heightマップを変換する度合いを設定します。 入力マップによっては、100を超える値の効果はほとんどありません。 |
+| <b>標準の形式</b> *ブール値* | Heightマップ(OpenGL)のY座標を反転します。   グリーン(Y)チャンネルのエンコード方法を設定します。 基本的には、「緑色/Y方向に反転」スイッチです。 |
+| <b>Alphaチャンネルコンテンツ</b> *ブール値* | 法線マップのアルファチャンネルを入力テクスチャで塗りつぶします。   Fill Alphaの入力/フォースAlphaを1に設定する：このオプションを選択すると、入力を追加Alphaとして使用する代わりに、Alphaチャンネルを実線に設定することができます。 |
 
 ## 入力コネクタ
 

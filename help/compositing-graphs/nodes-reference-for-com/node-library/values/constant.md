@@ -1,7 +1,7 @@
 ---
 helpx_url: ""
 breadcrumb-title: ''
-description: Substance 3D Designerで定数ノードにアクセスし、Substanceグラフで定数値を定義します。
+description: Substance 3D Designerの定数ノードにアクセスして、Substanceグラフの定数値を定義します。
 helpx_creative_field: ""
 helpx_description: ""
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2cb8395834eb64124ebadb2cd051aead9babfa69
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -20,30 +20,30 @@ ht-degree: 0%
 
 # 定数
 
-固定ノードは、Substanceグラフ内で使用するスタティック値を作成する方法です。
+固定ノードは、グラフ内で使用する静的値を作成する手段です。
 
 これらのノードは、ライブラリの&#x200B;**値>定数**&#x200B;セクションにあります。\
-これらはすべて、値を生成する単純な[Value processor](../../atomic-nodes/value-processor/value-processor.md)ノードを含みます。
+これらはすべて、値を生成する単純な[バリュープロセッサー](../../atomic-nodes/value-processor/value-processor.md)ノードを含みます。
 
 +++ ライブラリ内の定数ノード
 
-![constants-library.png](constant.resources/constants-library.png)
+![constants-library.png](constant.resources/constant-01.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="定数浮動小数ノード" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="定数浮動小数ノード" /></p>
 
 ## 整数
 
 定数整数は整数を生成し、1段階になります。
 
-[これらを浮動小数点](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)に変換できます。加算、減算、単純な比較よりも複雑な操作を実行する場合に推奨されます。
+[浮動小数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)に変換できます。これは、加算、減算、単純な比較よりも複雑な処理を行う場合に推奨されます。
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数型アイコン](../../../../assets/fn-constant-integer.png "整数型アイコン")
+![整数型アイコン](constant.resources/constant-03.png "整数型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2型アイコン](../../../../assets/fn-constant-integer2.png "Integer2型アイコン")
+![Integer2型アイコン](constant.resources/constant-04.png "Integer2型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 Integer2ノードは、(X,Y)成分を持つ静的2成分整数ベクトルを生成する。
 
-Integer2の一般的な使用例の1つは、[Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)ノードのように、XグリッドサイズとYグリッドサイズを設定することです。
+整数2の一般的な使用例の1つは、[Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)ノードのように、XおよびY グリッドサイズを設定することです。
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Integer2の一般的な使用例の1つは、[Tile Generator](../../../../compos
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3型アイコン](../../../../assets/fn-constant-integer3.png "Integer3型アイコン")
+![Integer3型アイコン](constant.resources/constant-05.png "Integer3型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Integer3ノードは、(X, Y, Z)成分を持つ静的3成分整数ベクトル�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4型アイコン](../../../../assets/fn-constant-integer4.png "Integer4型アイコン")
+![Integer4型アイコン](constant.resources/constant-06.png "Integer4型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Integer4ノードは、(X, Y, Z, W)成分を持つ静的4成分整数ベクト�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![フロートの種類のアイコン](../../../../assets/fn-constant-float.png "フロートの種類のアイコン")
+![フロートの種類のアイコン](constant.resources/constant-07.png "フロートの種類のアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Floatは単一の要素を持ち、精度が必要な単一の値に対して非
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2型アイコン](../../../../assets/fn-constant-float2.png "Float2型アイコン")
+![Float2型アイコン](constant.resources/constant-08.png "Float2型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2は、[サンプリング座標](../../../../function-graphs/nodes-referen
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3型アイコン](../../../../assets/fn-constant-float3.png "Float3型アイコン")
+![Float3型アイコン](constant.resources/constant-09.png "Float3型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3は、主に、[3D SDFノード](../../../../function-graphs/nodes-referen
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4型アイコン](../../../../assets/fn-constant-float4.png "Float4型アイコン")
+![Float4型アイコン](constant.resources/constant-10.png "Float4型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,16 +202,16 @@ Float4は、[均一カラーノード](../../../../compositing-graphs/nodes-refe
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![ブール型アイコン](../../../../assets/fn-constant-boolean.png "ブール型アイコン")
+![ブール型アイコン](constant.resources/constant-11.png "ブール型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>ブール値</b>
 
-ブール値は、2つの状態しか知らない、最も単純なデータ型です： <code>true</code> または<code>false</code>.
+ブーリアンは最も単純なデータ型で、次の2つの状態のみを認識します： <code>true</code> または<code>false</code>.
 
-この型は、切り替えパラメーターと[If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)条件を操作する場合によく使用されます。<br>ブーリアンは、[スイッチノード](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)を使用するなど、関数またはグラフのフローを制御する簡単で効率的な方法です。
+この型は、切り替えパラメーターと[If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)条件を操作する場合によく使用されます。<br>ブール値は、[スイッチノード](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)を使用するなど、関数またはグラフのフローを制御する簡単で効率的な方法です。
 
 </td>
 </tr>

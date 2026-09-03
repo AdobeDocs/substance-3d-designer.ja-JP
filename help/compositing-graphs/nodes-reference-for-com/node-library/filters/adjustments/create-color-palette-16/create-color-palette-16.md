@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
-description: 「カラーパレットを作成」ノードを使用して、テクスチャから16色のパレットを抽出し、スタイライズされた効果を得ます。
+description: 「カラーパレットを作成」ノードを使用して、テクスチャから16色のパレットを抽出し、定型化された効果を得ます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: カラーパレットを作成(16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![色の量子化アイコン](../../../../../../assets/CreateColorPalette16.png "色の量子化アイコン"){width="200px"}
+![色の量子化アイコン](create-color-palette-16.resources/create-color-palette-16-01.png "色の量子化アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -43,46 +43,32 @@ ht-degree: 1%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-</tr>
-</table>
-
-## 入力コネクタ
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>パレット</b> *色*&#x200B;プライマリ | ピクセルの行としてエンコードされたRGBカラーの順序付けされたリスト。 パレットには、最大256色を保持できます。   この入力はオプションです。 使用する場合は、ノードによって設定された色がこのパレットに追加されます。   パレットは、[[カラーパレットの表示]](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)ノードで表示できます。 |
-| <b>パレットの色の適用量</b> *整数* | パレットに格納される色の量。   この数が「パレット」画像入力の実際のカラー数と一致しない場合は、ビジュアライゼーションが不完全であるか、絶対に必要な数よりも多くの空きスロットがある可能性があります。 |
+|:---|:---|
+| <b>パレット</b> <i>色</i>プライマリ | ピクセルの行としてエンコードされたRGBカラーの順序付けされたリスト。 パレットには、最大256色を保持できます。   この入力はオプションです。 使用する場合は、ノードによって設定された色がこのパレットに追加されます。   パレットは、[[カラーパレットの表示]](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)ノードで表示できます。 |
+| <b>パレットの色の適用量</b> <i>整数</i> | パレットに格納される色の量。   この数が「パレット」画像入力の実際のカラー数と一致しない場合は、ビジュアライゼーションが不完全であるか、絶対に必要な数よりも多くの空きスロットがある可能性があります。 |
 
-## 出力コネクタ
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>パレット</b> *色* | 指定した色が追加された、更新されたパレット。 |
-| <b>パレットの色の適用量</b> *整数* | パレットに保存されているカラーの更新量。指定した量のカラーがパレットに追加されます。 |
+|:---|:---|
+| <b>パレット</b> <i>色</i> | 指定した色が追加された、更新されたパレット。 |
+| <b>パレットの色の適用量</b> <i>整数</i> | パレットに保存されているカラーの更新量。指定した量のカラーがパレットに追加されます。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>カラー適用量</b> *整数* | パレットに追加するカラーの量。 |
-| <b>色#</b> *浮動小数点3* *&#39;カラーの値&#39;として使用可能なパラメーターの数* | パレットに追加する色。   カラーは、この番号付きリストと同じ順序でパレットに追加されます。 |
+| <b>色#</b> *浮動小数点3* *&#39;カラーの値&#39;として使用可能なパラメーターの数* | パレットに追加する色。   カラーは、この番号付きリストと同じ順序でパレットに追加されます。 |
 
 ## 例
 
@@ -90,15 +76,15 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![カラーパレットの作成：例1](../../../../../../assets/create_color_palette_example_1.png "カラーパレットの作成：例1"){zoomable="yes"}
+![カラーパレットの作成：例1](create-color-palette-16.resources/create-color-palette-16-02.png "カラーパレットの作成：例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![カラーパレットの作成：例2](../../../../../../assets/create_color_palette_example_2.png "カラーパレットの作成：例2"){zoomable="yes"}
+![カラーパレットの作成：例2](create-color-palette-16.resources/create-color-palette-16-03.png "カラーパレットの作成：例2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![カラーパレットの作成：例3](../../../../../../assets/create_color_palette_example_3.png "カラーパレットの作成：例3"){zoomable="yes"}
+![カラーパレットの作成：例3](create-color-palette-16.resources/create-color-palette-16-04.png "カラーパレットの作成：例3"){zoomable="yes"}

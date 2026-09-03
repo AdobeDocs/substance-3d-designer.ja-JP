@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ワークフローの概要
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Substance 3D Designerはノードベースのエディターです。 つまり�
 
 [グラフの種類](#graph-types)
 
-![簡略化されたデータフロー](../../assets/graph-direction.png "簡略化されたデータフロー")
+![簡略化されたデータフロー](workflow-overview.resources/workflow-overview-01.png "簡略化されたデータフロー")
 
 ## ノードベースのワークフロー
 
-Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェアでの作業とは異なります。 操作（メニューオプションに移動して彩度を調整したり、スライダーを変更するなど）を手動で実行する代わりに、画像を編集または作成する<b>論理的な手順</b>を構築します。 これは、「[ノード](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)」と呼ばれる小さな構成要素のネットワークを構築することで発生します。 画像データは、<b>から右</b>へと構成要素を通って移動し、情報のパスを決定するリンクによって接続されます。 すべてのノードが接続されている場合は、最終的な結果に貢献します。
+Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェアでの作業とは異なります。 操作（メニューオプションに移動して彩度を調整したり、スライダーを変更するなど）を手動で実行する代わりに、画像を編集または作成する<b>論理的な手順</b>を構築します。 これは、「ノード」と呼ばれる小さな構成要素のネットワークを構築することによって起こります。 画像データは、<b>から右</b>へと構成要素を通って移動し、情報のパスを決定するリンクによって接続されます。 すべてのノードが接続されている場合は、最終的な結果に貢献します。
 
 主な利点は、ワークフローが<b>非線形</b>になることです。 履歴スタックに入る手動で実行されたアクションとは異なり、いつでもノードをスワップまたは変更できます。 最初のコントラスト調整で、画像の結果に最後まで影響し過ぎたと判断した場合は、後で実行したすべての作業を失うことなく、元に戻して調整したり、完全に切り抜いたりすることができます。
 
-![簡略化されたグラフインスタンス](../../assets/sub-graph.png "簡略化されたグラフインスタンス")
+![簡略化されたグラフインスタンス](workflow-overview.resources/workflow-overview-02.png "簡略化されたグラフインスタンス")
 
 ## グラフインスタンスワークフロー
 
@@ -48,7 +48,7 @@ Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェ�
 
 [Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)のグラフインスタンスの詳細については、ドキュメントに[専用セクション](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)があります。
 
-![グラフのパラメーターを簡易化](../../assets/parameters-5.png "グラフのパラメーターを簡易化")
+![グラフのパラメーターを簡易化](workflow-overview.resources/workflow-overview-03.png "グラフのパラメーターを簡易化")
 
 ## カスタムパラメーター
 
@@ -62,7 +62,7 @@ Substance 3D Designerで編集できる3種類のグラフの概要と、関連�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-04.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 一般的な使用例を以下に示します。
 
 +++シンプルなシェイプ
-![Substanceグラフのシンプルなシェイプ](../../assets/simpleshape.png "Substanceグラフのシンプルなシェイプ"){width="512px"}
+![Substanceグラフのシンプルなシェイプ](workflow-overview.resources/workflow-overview-05.png "Substanceグラフのシンプルなシェイプ"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 +++
 
 +++調整フィルター
-![Substanceグラフの調整フィルター](../../assets/simplefilter.png "Substanceグラフの調整フィルター"){width="512px"}
+![Substanceグラフの調整フィルター](workflow-overview.resources/workflow-overview-06.png "Substanceグラフの調整フィルター"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 +++
 
 +++完全なマテリアル
-![Substanceグラフの完全なマテリアル](../../assets/simplematerial.png "Substanceグラフの完全なマテリアル"){width="512px"}
+![Substanceグラフの完全なマテリアル](workflow-overview.resources/workflow-overview-07.png "Substanceグラフの完全なマテリアル"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-08.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -129,7 +129,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 
 関数<b>は、画像データ（ピクセルのセット全体）ではなく、単一の値</b>を処理します。 関数はノードネットワークを持つグラフですが、[使用されるノード](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)およびインターフェイスは[通常のSubstanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)とは異なります。 このワークフローは、<b>算術演算</b>に完全に基づいており、画像プレビューのサムネールが表示されることはありません。そのため、Substance 3D Designerを使用した<b>はるかに高度な作業</b>になります。
 
-関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[公開されたパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作の変更、[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作の作成、およびグラフの[値の使用です。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[公開されたパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作を変更すること、[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作を作成すること、およびSubstanceグラフで[値](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)を使用することです。
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 以下に、Substance関数グラフの一般的な使用例をいくつか示します。
 
 +++単純関数
-![簡易関数グラフ](../../assets/lerpfunction.png "簡易関数グラフ"){width="256px"}
+![簡易関数グラフ](workflow-overview.resources/workflow-overview-09.png "簡易関数グラフ"){width="256px"}
 
 
 
@@ -151,7 +151,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 +++
 
 +++高度な機能
-![高度な関数](../../assets/pixel-function.png "高度な関数"){width="512px"}
+![高度な関数](workflow-overview.resources/workflow-overview-10.png "高度な関数"){width="512px"}
 
 
 

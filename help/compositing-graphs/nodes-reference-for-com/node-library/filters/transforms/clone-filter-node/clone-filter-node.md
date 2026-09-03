@@ -10,10 +10,10 @@ helpx_tags: ""
 title: クローン（フィルタノード）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 2%
+source-wordcount: '179'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-4.png)
+![](clone-filter-node.resources/clone-filter-node-01.png)
 
-## クローン
-
-**場所：** *フィルター/変換*
-
-**中級**
+<b>イン：</b>フィルター/変形
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -45,28 +41,34 @@ ht-degree: 2%
 * マスクはデフォルトで黒に設定されているので、すべての結果を確認するには、少なくとも均一な白のグレースケール値を挿入する必要があります。
 * オフセットは、画像の外側を簡単にクリップするので、小さい値を使用します。
 
-## パラメーター
-
-### 入力
-
-* **ソース**: *カラー入力*\
-  コピーする画像。 重要：画像にアルファチャンネルが含まれていることが理想的です。
-* **マスク**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。 デフォルトは黒です。
-
-### パラメーター
-
-* **オフセット**: *-*\
-  結果を移動または変換します。 正の値は左と上、負の値は右と下です。 小さい値1.0以上を使用すると、画像の外側に移動します。
-* **ぼかしマスク**: *0.0 ～ 10.0\
-  ぼかしフィルターをマスクに適用して、エッジをソフトにします。*
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/clone-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>ソース</b> <i>カラー入力</i> | コピーする画像。 重要：画像にアルファチャンネルが含まれていることが理想的です。 |
+| <b>マスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 デフォルトは黒です。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>オフセット</b> <i>-</i> | 結果を移動または変換します。 正の値は左と上、負の値は右と下です。 小さい値1.0以上を使用すると、画像の外側に移動します。 |
+| <b>マスクをぼかす</b> <i>0.0 - 10.0</i> | ぼかしフィルターをマスクに適用して、エッジをソフトにします。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
+        </td>
+    </tr>
 </table>

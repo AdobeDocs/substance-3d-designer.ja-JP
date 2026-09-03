@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
-description: パスポリゴンノードを使用して、ジオメトリパターンの生成用に頂点データからポリゴンパスを作成します。
+description: Pathsポリゴンノードを使用して、ジオメトリパターンを生成するための頂点データからポリゴンパスを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Polygon
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 多角形のパス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/paths-polygon-icon.png "ノードアイコン")
+![ノードアイコン](paths-polygon.resources/paths-polygon-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -35,22 +35,27 @@ ht-degree: 2%
 
 パス形式でプリミティブ（多角形）を生成します。
 
-[パス2D変換](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)ノードを使用して、プリミティブを正確に配置します。
+プリミティブを正確に配置するには、[Path 2D 変形](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)ノードを使用します。
 
 </td>
 </tr>
 </table>
 
-## 出力コネクタ
+<a name="outputs"></a>
 
-<b>パス</b> *色*\
-1つのエンコードされたパスのリストが含まれ、エンコードされたセグメントのリストが記述されます。\
-これは、直接使用したり変更したりするためにインデントされません。 互換性のあるノードを見つけるためのパスを検索します。
+## 出力
+
+|  |  |
+|:---|:---|
+| <b>パス</b> <i>色</i> | 1つのエンコードされたパスのリストが含まれ、エンコードされたセグメントのリストが記述されます。<br>これは直接使用または変更するためにインデントされていません。 互換性のあるノードを見つけるためのパスを検索します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>辺の数</b> *整数*\
-ヒント： 100 ～ 1000の数値を入力して、円を生成します。
+|  |  |
+|:---|:---|
+| <b>辺の数</b> <i>整数</i> | ヒント： 100 ～ 1000の数値を入力して、円を生成します。 |
 
 ## 例
 
@@ -58,12 +63,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "ノードの例1")
+![ノードの例1](paths-polygon.resources/paths-polygon-02.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/PathsPolygon_Variant2.jpg "ノードの例2")
+![ノードの例2](paths-polygon.resources/paths-polygon-03.jpg "ノードの例2")
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: フラクタル和 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![フラクタル和 1 – アイコン](../../../../../../assets/fractal_sum_1.png "フラクタル和 1 – アイコン"){width="200px"}
+![フラクタル和 1 – アイコン](fractal-sum-1.resources/fractal-sum-1-01.png "フラクタル和 1 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -45,39 +41,23 @@ ht-degree: 4%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 出力
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 生成されるノイズをグレースケールビットマップとして表します。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
-| <b>非正方形の展開</b>ブール値 | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
+|:---|:---|
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>非正方形の拡張</b> <i>ブール値</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
 
 ## 例
 
@@ -85,26 +65,12 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![フラクタル和 1 – 例1](../../../../../../assets/fractal_sum_1_1.png "フラクタル和 1 – 例1"){zoomable="yes"}
+![フラクタル和 1 – 例1](fractal-sum-1.resources/fractal-sum-1-02.png "フラクタル和 1 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![フラクタル和 1 – 例2](../../../../../../assets/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "フラクタル和 1 – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![フラクタル和 1 – 例2](fractal-sum-1.resources/fractal-sum-1-03.gif "フラクタル和 1 – 例2"){zoomable="yes"}
 
 </td>
 </tr>

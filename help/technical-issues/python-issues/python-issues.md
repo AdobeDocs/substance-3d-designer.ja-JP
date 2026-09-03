@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Pythonの問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Pythonで実装されている機能には、[エクスプローラー](../../in
 
 ## &#39;QtForPython&#39;モジュールのロードに失敗します
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](python-issues.resources/error.svg)問題</b>
 
 &#39;QtForPython&#39; Pythonモジュールの読み込みに失敗します。これにより、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)のツールバーにある[Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[送信先](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)のアクションや、グラフの未使用のノードを削除するツールなど、Pythonで実装されている機能が見つからなくなります。
 
 さらに、多くの[Pythonプラグイン](../../scripting/plugin-basics/plugin-basics.md)が読み込みに失敗したり、予期したとおりに動作しなくなったりします。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](python-issues.resources/check.svg)推奨ステップ</b>
 
 DesignerのQtForPythonのインストールとその依存関係、およびシステム上の既存のインストールとの間に競合が発生している可能性があります。
 

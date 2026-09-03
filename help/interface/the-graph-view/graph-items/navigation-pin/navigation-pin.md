@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ピン
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ナビゲーションピンアイコン](../../../../assets/graphatomic-pin_1.png "ナビゲーションピンアイコン")
+![ナビゲーションピンアイコン](navigation-pin.resources/navigation-pin-01.png "ナビゲーションピンアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ ht-degree: 1%
 
 ビューポートの現在のズームレベルでピンがフレームされます。
 
-![ピン：ピンにジャンプ](../../../../assets/graph-pin_jumping.gif "ピン：ピンにジャンプ")
+![ピン：ピンにジャンプ](navigation-pin.resources/navigation-pin-02.gif "ピン：ピンにジャンプ")

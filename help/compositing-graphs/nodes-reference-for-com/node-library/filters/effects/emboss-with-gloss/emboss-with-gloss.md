@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 光沢入りエンボス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
@@ -22,47 +22,42 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/emboss-with-gloss.png){width="128px"}
+![](emboss-with-gloss.resources/emboss-with-gloss-01.png){width="128px"}
 
-## 光沢入りエンボス
-
-**場所：** *フィルター/効果*
-
-**中級**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-色とHeightの入力に光沢（Specular反射）を加えたエンボス効果を与えます。 Height情報に基づいて、フェイクのベイク処理されたライティングを画像に加えます。 テクスチャにベイク処理されたライティングを必要とする一部のテクスチャリングスタイルに便利です。
+色とHeightの入力に光沢（Specular反射）を加えたエンボス効果を与えます。 Height情報に基づいて、偽物のベイクされた照明を画像に加えます。 テクスチャに照明をベイクする必要がある一部のテクスチャリングスタイルに便利です。
 
-他のオプションを含むバージョンについては、[Uberエンボス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)を参照してください。 [エンボス](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)のよりシンプルでアトミックなバージョンもあります。
-
-## パラメーター
-
-### 入力
-
-* **カラー**: *カラー入力*
-* **Height**: *グレースケール入力*
-
-### パラメーター
-
-* **ハイライトの色**: *（色の値）*Specularのハイライトの色。
-* **シャドウカラー**: *（カラー値）*影の領域または明るくない領域で使用されるカラー。
-* **光沢**: *0.0 ～ 0.5*&#x200B;光沢ハイライトのサイズ。
-* **適用度**: *0.0 ～ 10.0*&#x200B;ハイライトの適用度。
-* **光源の角度**: *0.0 ～ 1.0*\
-  （偽物の）光の入射角度。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
+他のオプションを含むバージョンについては、[Uber エンボス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)を参照してください。 [エンボス](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)のより単純でアトミックなバージョンもあります。
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>色</b> <i>カラー入力</i> |  |
+| <b>Height</b> <i>グレースケール入力</i> |  |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>ハイライトの色</b> <i>（カラー値）</i> | Specularハイライトの色。 |
+| <b>シャドウの色</b> <i>（カラー値）</i> | 影の領域や明るくない領域で使用するカラー。 |
+| <b>光沢</b> <i>0.0 - 0.5</i> | 光沢度ハイライトのサイズ。 |
+| <b>適用度</b> <i>0.0 - 10.0</i> | ハイライトの強さ。 |
+| <b>光源の角度</b> <i>0.0 - 1.0</i> | （偽物の）光の入射角度。 |

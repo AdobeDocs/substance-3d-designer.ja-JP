@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Irayロゴ](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Irayロゴ](iray.resources/iray-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,9 +62,9 @@ Irayレンダラー&#x200B;*に切り替えると、一部の3Dビューメニ�
 </td>
 <td style="border: 0;" valign="top">
 
-![Irayでレンダリングされた中世の城壁のマテリアル](../../../assets/iray-overview.png "Irayでレンダリングされた中世の城壁のマテリアル")
+![Irayでレンダリングされた中世の城壁のマテリアル](iray.resources/iray-02.png "Irayでレンダリングされた中世の城壁のマテリアル")
 
-*素材： [中世の城壁](https://helpx.adobe.com/jp/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *著者： [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3Dアセット](https://helpx.adobe.com/jp/substance-3d/unlisted/assets.html)* *ライブラリ*
+*素材： [中世の城壁](https://oggyart.artstation.com/projects/Xnzx0a)* *著者： [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3Dアセット](https://substance3d.adobe.com/assets)* *ライブラリ*
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Irayレンダラー&#x200B;*に切り替えると、一部の3Dビューメニ�
 > メッシュ&#x200B;*を再分割すると、レンダリング前とレンダリング中の処理時間が指数的に*&#x200B;増加します。 入力された値を&#x200B;*控えめな*&#x200B;設定することをお勧めします。\
 > パラメトリックメソッドには&#x200B;*高* **数値**&#x200B;の値を使用し、長さメソッドには&#x200B;*低* **最小の長さ**&#x200B;の値を使用することに注意してください。
 
-![シーンオプション](../../../assets/iray-scene-subdivision.gif "シーンオプション")
+![シーンオプション](iray.resources/iray-03.gif "シーンオプション")
 
 <a name="materials"></a>
 
@@ -137,7 +137,7 @@ IrayはNVIDIAが開発した[MDL シェーディングモデル](https://www.nvi
 </td>
 <td style="border: 0;" valign="top">
 
-![マテリアルメニュー](../../../assets/iray-mdl-list.png "マテリアルメニュー")
+![マテリアルメニュー](iray.resources/iray-04.png "マテリアルメニュー")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 * <b>焦点距離</b>：焦点のカメラからの距離 – つまり、画像が最もシャープな場所です
 * <b>絞りの直径</b>:カメラの絞りを駆動する値です。 値が小さいほど、焦点の前と後の画像がシャープになります。つまり、この値は電界効果の深度の強さを制御します
 
-![カメラの設定](../../../assets/camera-dof.png "カメラの設定")
+![カメラの設定](iray.resources/iray-05.png "カメラの設定")
 
 <a name="environment"></a>
 
@@ -180,8 +180,8 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 * <b>半径</b>：球の半径(*球*&#x200B;および&#x200B;*球（地面*&#x200B;ドーム型）にのみ適用されます)
 * <b>幅</b>:ボックスの幅（*地面*&#x200B;ドーム型のボックスにのみ適用）
 * <b>Height</b>:ボックスのHeightです（地面&#x200B;*ドーム型の*&#x200B;ボックスにのみ適用）
-* <b>長さ</b>:ボックスの長さ（地面&#x200B;*ドーム型の*&#x200B;ボックスにのみ適用）
-* <b>視覚化</b>：有限サイズの環境ジオメトリの偽色オーバーレイを有効にします。 これは、ジオメトリを、キャプチャした環境マップの投影に合わせるために使用できます（地面のある&#x200B;*球*、*球*&#x200B;および地面のある&#x200B;*箱*&#x200B;のドーム型にのみ適用されます）
+* <b>長さ</b>:ボックスの長さ（ドームの種類が&#x200B;*地面*&#x200B;のボックスにのみ適用されます）
+* <b>視覚化</b>：有限サイズの環境ジオメトリの偽色オーバーレイを有効にします。 これは、キャプチャされた環境マップの投影にジオメトリを合わせるために使用できます（*球*、*地面付き球体*&#x200B;および&#x200B;*ボックスとグランド*&#x200B;ドームの種類にのみ適用されます）
 
 >[!NOTE]
 >
@@ -193,9 +193,9 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 * **地面**:グリッドを有効にします
 * **位置**：有限ドームの原点の位置（*球*&#x200B;ドーム型にも適用）
 * **反射率**：地面の映り込みの不透明度と色合い。黒は、映り込みが見えていないことを示します
-* **光沢**：地面の反射の光沢
+* **光沢度**：地面の反射の光沢度
 * **影の強度**：地面に落ちる影の不透明度
-* **テクスチャスケール**：地面の環境テクスチャ投影のサイズを制御します（*球*&#x200B;ドーム型にも適用されます）
+* **テクスチャスケール**：地上の環境テクスチャ投影のサイズを制御します（*球*&#x200B;ドームの種類にも適用されます）
 
 これらの設定の一部の影響を次に示します。
 
@@ -205,11 +205,11 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-environment-hidden.png" alt="Iray – 環境は非表示です">
+      <img src="iray.resources/iray-06.png" alt="Iray – 環境は非表示です">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-visible.png" alt="Iray – 環境が表示されます">
+      <img src="iray.resources/iray-07.png" alt="Iray – 環境の表示">
       <br><i>後</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 
 
 
-![Iray – 非表示の環境](../../../assets/iray-environment-hidden.png "Iray – 非表示の環境")
+![Iray – 非表示の環境](iray.resources/iray-06.png "Iray – 非表示の環境")
 
-![Iray – 表示される環境](../../../assets/iray-env-visible.png "Iray – 表示される環境")
+![Iray – 表示される環境](iray.resources/iray-07.png "Iray – 表示される環境")
 
 +++
 
@@ -229,11 +229,11 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray – 無限球のみ">
+      <img src="iray.resources/iray-08.png" alt="Iray – 無限球のみ">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray – 無限球とグリッド">
+      <img src="iray.resources/iray-09.png" alt="Iray – 無限球とグリッド">
       <br><i>後</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 
 
 
-![Iray – 無限球のみ](../../../assets/iray-env-infinite-sphere.png "Iray – 無限球のみ")
+![Iray – 無限球のみ](iray.resources/iray-08.png "Iray – 無限球のみ")
 
-![Iray – 地表を持つ無限球](../../../assets/iray-env-sphere-ground.png "Iray – 地表を持つ無限球")
+![Iray – 地表を持つ無限球](iray.resources/iray-09.png "Iray – 地表を持つ無限球")
 
 +++
 
 +++環境を回転
-![環境の回転](../../../assets/iray-env-rotation.gif "環境の回転")
+![環境の回転](iray.resources/iray-10.gif "環境の回転")
 
 
 
 +++
 
 +++グリッドを調整
-![地面の反射](../../../assets/iray-env-ground-options.gif "地面の反射")
+![地面の反射](iray.resources/iray-11.gif "地面の反射")
 
 
 
 +++
 
 +++無限球を調整
-![環境スケール（球）](../../../assets/iray-env-sphere-radius.gif "環境スケール（球）")
+![環境スケール（球）](iray.resources/iray-12.gif "環境スケール（球）")
 
 
 
 +++
 
 +++囲むボックスを調整
-![環境スケール（キューブ）](../../../assets/iray-env-box-dimensions.gif "環境スケール（キューブ）")
+![環境スケール（キューブ）](iray.resources/iray-13.gif "環境スケール（キューブ）")
 
 
 
@@ -287,7 +287,7 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 * <b>解像度</b>：効果的なレンダリング解像度です。 カメラのプロパティにあるUse window resolutionオプションがFalseに設定されている場合、画像の縦横比は解像度に合わせて自動的に調整されます
 * <b>シーンの統計</b>:レンダリングされたシーンに関連する統計のリストです。三角形の数、マテリアルの数などが含まれます
 
-![表示オプション](../../../assets/iray-display-data.png "表示オプション"){width="512px"}
+![表示オプション](iray.resources/iray-14.png "表示オプション"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-none.png" alt="Iray – 基本レンダリング">
+      <img src="iray.resources/iray-15.png" alt="Iray – 基本レンダリング">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray – コースティックサンプラーを有効">
+      <img src="iray.resources/iray-16.png" alt="Iray – コースティックサンプラーを有効">
       <br><i>後</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 
 
 
-![Iray – ベースレンダリング](../../../assets/iray-renderer-none.png "Iray – ベースレンダリング")
+![Iray – ベースレンダリング](iray.resources/iray-15.png "Iray – ベースレンダリング")
 
-![Iray – コースティックサンプラーが有効](../../../assets/iray-renderer-caustics.png "Iray – コースティックサンプラーが有効")
+![Iray – コースティックサンプラーが有効](iray.resources/iray-16.png "Iray – コースティックサンプラーが有効")
 
 +++
 
@@ -340,11 +340,11 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Fireflyフィルターが無効">
+      <img src="iray.resources/iray-16.png" alt="Iray - Fireflyフィルターが無効">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Fireflyフィルターが有効">
+      <img src="iray.resources/iray-17.png" alt="Iray - Fireflyフィルターが有効">
       <br><i>後</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 
 
 
-![Iray - Fireflyフィルターが無効](../../../assets/iray-renderer-caustics.png "Iray - Fireflyフィルターが無効")
+![Iray - Fireflyフィルターが無効](iray.resources/iray-16.png "Iray - Fireflyフィルターが無効")
 
-![Iray - Fireflyフィルターが有効](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Fireflyフィルターが有効")
+![Iray - Fireflyフィルターが有効](iray.resources/iray-17.png "Iray - Fireflyフィルターが有効")
 
 +++
 
@@ -364,11 +364,11 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser disabled">
+      <img src="iray.resources/iray-17.png" alt="Iray - Post-denoiser disabled">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray – 消音後の有効化">
+      <img src="iray.resources/iray-18.png" alt="Iray – 消音後の有効化">
       <br><i>後</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ Rayレンダラーを選択すると、カメラのプロパティで次の2つ�
 
 
 
-![Iray - Post-denoiser disabled](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser disabled")
+![Iray - Post-denoiser disabled](iray.resources/iray-17.png "Iray - Post-denoiser disabled")
 
-![Iray - Post-denoiserを有効にしました](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-denoiserを有効にしました")
+![Iray - Post-denoiserを有効にしました](iray.resources/iray-18.png "Iray - Post-denoiserを有効にしました")
 
 +++
 
@@ -404,4 +404,4 @@ Rayレンダラーは、NVIDIA GPUでのみハードウェアアクセラレー�
 > GPUハードウェアアクセラレーションは、[NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)テクノロジーを使用します。 最適な互換性と信頼性を得るには、*グラフィックスドライバーが最新*&#x200B;であることを確認してください。 お使いのNVIDIA GPUの最新ドライバーは、[こちら](https://www.nvidia.com/Download/index.aspx?lang=en-us)から確認できます。\
 > 複数のGPUを構成する場合、最高の信頼性を得るには、*SLIを無効にする*&#x200B;ことと、1つのGPUのみを選択することをお勧めします。
 
-![Irayの環境設定](../../../assets/iray-preferences-hardware.png "Irayの環境設定")
+![Irayの環境設定](iray.resources/iray-19.png "Irayの環境設定")

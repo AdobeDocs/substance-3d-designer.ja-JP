@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 # バージョン 14.0
 
-<b>Substance 3D Designer 14.0 </b>では、QOLが向上しています（グラフナビゲーション、パフォーマンスなど）。 しかし、何よりも新しいノード（カラーマニピュレーション、桑原フィルター、ヒストグラムツール、ベベルスムーズ、方向の距離など）が多く含まれています。 これらの変更について詳しくは、以下を参照してください。 
+<b>Substance 3D Designer 14.0 </b>では、グラフの操作やパフォーマンスなど、生活の質がいくつか向上します。 しかし、何よりも新しいノード（カラーマニピュレーション、桑原フィルター、ヒストグラムツール、ベベルスムーズ、方向の距離など）が多く含まれています。 これらの変更について詳しくは、以下を参照してください。
 
 *リリース日：2024年7月30日*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/version-14-0-01.png)
 
 ## 新規コンテンツ
 
 この14.0バージョンでは、以下の新しいノードを備えた新しいコンテンツが多数追加されています。
 
-* <b>色の操作に特化したノード： </b>1つのノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレットを抽出します。これは、独自のカラーパレットを作成するためのツールノードファミリ（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>カラーパレット）と、IDマップを使用して他の画像に適用します([&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md))。 また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけて、クオンタイズカラーで計算されたIDマップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
+* <b>色の操作に専用のノード： </b>1ノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレット（独自のカラーパレットを作成するためのツールノードのファミリー）を抽出します（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b>） </b>カラーパレット)と、ID マップ （[カラーパレットを適用](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）を使用して別の画像に適用するカラーパレット。 また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけ、クオンタイズカラーで計算されたID マップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
 
-![色の量子化2](../../assets/GIF3_2.gif){zoomable="yes"}
+![色の量子化2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
 
 * <b>桑原フィルター</b> ：さらにスタイルを適用する場合は、[桑原カラー異方性](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[グレースケール](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)フィルターを使用して絵画調の効果を生み出すことができます。 ディテールでは、画像のディテールに合わせた異方性指向性ブラーを適用します。 その結果、画像は内側のシェイプの方向に流れているように見えます。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 その他の強力なノードがパーティに参加します。
 
-* [<b>曲線の滑らかさ</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) ：この新しいバージョンでは、すべてのタイリングモードが正しくサポートされ、2つの新しい出力（凸面と凹面）が追加され、精度とパフォーマンスの両方が向上しました。
-* <b>[Histogram equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b>このノードは、等分布になるように値を調整することで、グレースケールイメージのヒストグラムを等化します。 このノードには2つの関連ノードがあります。画像のヒストグラムを出力する[ヒストグラムレンダリング](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)と、ヒストグラムをピクセル列としてエンコードする[ヒストグラム計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>です。
-* <b>[ベベルスムーズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b>この機能により、マスクの境界線（外側、内側、または両方）からグラデーションまたはフラットカラーを描くことができます。 節点[方向の距離](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>は、グラデーションも描画しますが、特定の方向に向けられます。
+* [<b>曲率のスムーズ</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) ：この新しいバージョンでは、すべてのタイリングモードが正しくサポートされ、2つの新しい出力（凸状と凹状）が追加され、精度と性能の両方が向上しました。
+* <b>[Histogram equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b>このノードは、等分布になるように値を調整することで、グレースケールイメージのヒストグラムを等化します。 このノードには、画像のヒストグラムを出力する[ヒストグラムレンダリング](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)と[ヒストグラム計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b>という2つの関連ノードが付属しています </b>ヒストグラムをピクセルの行としてエンコードします。
+* <b>[ベベルスムーズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b>この機能により、マスクの境界線（外側、内側、または両方）からグラデーションまたはフラットカラーを描くことができます。 ノード[方向の距離](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>グラデーションも描画しますが、特定の方向に描画します。
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b>このノードは、[Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)ノードの反対であり、Heightマップによって記述された表面の詳細を法線マップから削除します。
 
 <table>
@@ -56,11 +56,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_smooth_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_smooth_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
+      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smooth_example_6_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
+      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smooth_example_6_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 * <b>2Dビュー： </b>[2Dビュー](../../interface/2d-view/2d-view.md)でタイル表示が有効になっている場合、元のタイルにないピクセルについても値を取得できるようになりました。タイル間で[サンプリング](../../glossary/glossary.md)および値のトランジションを確認する場合に非常に役立ちます。
 
-![2dビュー](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![2dビュー](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
 
 * <b>グラデーションマップ</b>:マウスの中クリックを使用して、すべての[グラデーションキー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)を左または右に移動します（すべてのキー間のすべてのギャップを保持します）。
 * <b>パラメーター</b>:パラメーターを使用してカスタム関数を挿入するために、関数の編集ウィジェットを使用できるようになりました。 これは、[Substance関数グラフ](../../function-graphs/the-function-graph/the-function-graph.md)を使用してパラメーターを操作するカスタムツールを作成するための強力なソリューションです。
@@ -146,12 +146,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![関数の編集](../../assets/functionedit.png){zoomable="yes"}
+![関数の編集](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![関数2](../../assets/functionedit2.png){zoomable="yes"}の編集
+![関数2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}の編集
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラフ項目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![ドットノードアイコン](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![ドットノードアイコン](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## ドットノード（ポータルも含む）
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![フレームアイコン](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![フレームアイコン](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## フレーム
 
@@ -60,14 +60,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![コメントアイコン](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![コメントアイコン](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## 注釈
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![ナビゲーションピンアイコン](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![ナビゲーションピンアイコン](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## ピン
 

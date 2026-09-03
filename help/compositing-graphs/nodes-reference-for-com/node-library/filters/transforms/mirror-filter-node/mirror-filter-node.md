@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ミラー（フィルタノード）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-01.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-02.png){width="128px"}
 
-## ミラー（グレースケール）
-
-**場所：** *フィルター/変換*
-
-**中級**
+<b>イン：</b>フィルター/変形
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 選択した軸で、選択した側から入力画像を鏡像化します。 対称的な効果をすばやく得るための非常に便利な方法です。
 
-## パラメーター
-
-* **モード**: *ミラー軸X、ミラー軸Y、ミラー* *コーナー*&#x200B;左右または上下のミラーを選択します。
-* **軸Xのオフセット**: *0.0 ～ 1.0*&#x200B;軸Xが選択されている場合にのみ使用され、オフセットを定義します。
-* **軸Yのオフセット**: *0.0 ～ 1.0*&#x200B;軸Yを選択した場合にのみ使用され、オフセットを定義します。
-* **軸Xを反転**: *False/True*&#x200B;軸Xが選択されている場合にのみ使用されます。方向を反転します。
-* **軸Yを反転**: *False/True*&#x200B;軸Yが選択されている場合にのみ使用されます。方向を反転します。
-* **角の種類**: *左上、右上、左下、右下*&#x200B;角の種類を選択した場合にのみ使用され、鏡像化する角を定義します。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>モード</b> <i>ミラー軸X、ミラー軸Y、コーナーをミラー</i> | 左右対称、上下対称、またはその両方を選択します。 |
+| <b>軸 Xオフセット</b> <i>0.0 - 1.0</i> | 軸Xが選択されている場合にのみ使用され、オフセットを定義します。 |
+| <b>軸 Yオフセット</b> <i>0.0 - 1.0</i> | 軸Yが選択されている場合にのみ使用され、オフセットを定義します。 |
+| <b>軸X</b>を反転 <i>False/True</i> | [軸X]が選択されている場合にのみ使用されます。[方向を反転]を選択します。 |
+| <b>軸Yを反転</b> <i>False/True</i> | [軸Y]が選択されている場合にのみ使用されます。[方向を反転]を選択します。 |
+| <b>角の種類</b> <i>左上、右上、左下、右下</i> | コーナータイプを選択した場合にのみ使用し、ミラーの基準となるコーナーを定義します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mirror-filter-node.resources/mirror-filter-node-03.png" />
+        </td>
+    </tr>
 </table>

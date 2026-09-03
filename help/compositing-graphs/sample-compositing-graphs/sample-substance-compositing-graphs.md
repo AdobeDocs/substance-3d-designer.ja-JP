@@ -10,7 +10,7 @@ helpx_tags: ""
 title: サンプル Substance グラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 6%
@@ -32,12 +32,12 @@ ht-degree: 6%
 
 このプロジェクトでは、他のグラフのフィルターとして使用する簡単なグラフ設定を特徴としています。 [フィルター](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)は、1つ以上の入力画像を変更またはブレンドするノードです。
 
-[![サンプルファイルアイコンのフィルター](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
+[![サンプルファイルアイコンのフィルター](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Filters&#39; sample](../../assets/demo-filter.png "&#39;Filters&#39; sample"){zoomable="yes"}
+![&#39;Filters&#39; sample](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-02.png "&#39;Filters&#39; sample"){zoomable="yes"}
 
 </td>
 </tr>
@@ -53,12 +53,12 @@ ht-degree: 6%
 
 継承については、アドビのドキュメントの[このページ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)をご覧ください。
 
-[![継承のサンプルファイルアイコン](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
+[![継承のサンプルファイルアイコン](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;継承&#39;サンプル](../../assets/demo-inheritance.png "&#39;継承&#39;サンプル"){zoomable="yes"}
+![&#39;継承&#39;サンプル](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-03.png "&#39;継承&#39;サンプル"){zoomable="yes"}
 
 </td>
 </tr>
@@ -74,12 +74,12 @@ ht-degree: 6%
 
 このプロジェクトでは、ピクセルプロセッサーをジェネレーターとフィルターの2つの簡単な用途で使用する方法を紹介します。 また、[関数グラフ](../../function-graphs/function-graphs.md)で多くのことを行うための足がかりにもなります。
 
-[![ピクセルプロセッササンプルファイルアイコン](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
+[![ピクセルプロセッササンプルファイルアイコン](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;ピクセルプロセッサ&#39;サンプル](../../assets/demo-pixel-processor.png "&#39;ピクセルプロセッサ&#39;サンプル"){zoomable="yes"}
+![&#39;ピクセルプロセッサ&#39;サンプル](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-04.png "&#39;ピクセルプロセッサ&#39;サンプル"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: しきい値
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
@@ -22,37 +22,29 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/threshold-2.png){width="200px"}
+![](threshold.resources/threshold-01.png){width="200px"}
 
-## しきい値
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 **Mode**&#x200B;パラメーターで設定された&#x200B;*比較条件*&#x200B;が、入力ピクセル値に対して&#x200B;**Threshold**&#x200B;値と相対的に満たされた場合、白を返します。\
 [ヒストグラムスキャン](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)と似ていますが、コントラストは常に最大レベルです。 ヒストグラムスキャンと同様の結果をより正確かつ迅速に取得する方法として役立ちます。
 
-### パラメーター
-
-* **しきい値**: *0.0 ～ 1.0*\
-  入力ピクセル値を比較する輝度値。
-* **モード**:\
-  入力ピクセル値を&#x200B;**しきい値**&#x200B;値と比較する基準：
-  * *より大きい*
-  * *以上*
-  * *下*
-  * *以下*
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>しきい値</b> <i>0.0 - 1.0</i> | 入力ピクセル値を比較する輝度値。 |
+| <b>モード</b> | 入力ピクセル値を&#x200B;**しきい値**&#x200B;値と比較する基準：<br><br>- *大きい*<br>- *大きいか等しい*<br>- *小さい*<br>- *小さいか等しい* |

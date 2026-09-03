@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fillからグラデーション
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -22,49 +22,56 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-gradient.png){width="128px"}
+![](flood-fill-to-gradient.resources/flood-fill-to-gradient-01.png){width="128px"}
 
-## Flood Fillからグラデーション
-
-**場所：** *フィルター/効果*
-
-**単純**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)ベースを（ランダムな方向の）グラデーションに変換します。 タイルがランダムに傾いたり傾斜したりしているハイトマップを作成するのに非常に便利です。
 
-## パラメーター
-
-### 入力
-
-* **Flood Fill**: *色入力*&#x200B;基本Flood Fillデータ。
-* **角度入力**: *グレースケール入力*\
-  外部マップを使用してセルごとの角度を決定するオプションマップ。
-* **勾配入力**: *グレースケール入力*&#x200B;セルごとのグラデーションの勾配強度を決定するオプションのマップ。
-
-### *パラメーター*
-
-* **角度**: *0.0 ～ 1.0*&#x200B;すべてのタイルに均等なグローバル角度/方向を設定します。
-* **角度のバリエーション**: *0.0 ～ 1.0*&#x200B;各タイルの角度を個別にランダム化します。 これは最も便利で強力なパラメーターです。
-* **バウンディングボックスのサイズで乗算**: *0.0 ～ 1.0*&#x200B;タイルの個々のバウンディングボックスのサイズに合わせて、線形効果全体のサイズを調整します。 つまり、小さなタイルは大きなタイルよりも暗くなります。
-* **角度画像入力マルチプライヤ**: *0.0 - 1.0*&#x200B;生成されるグラデーション方向に対するオプションの角度入力マップの影響を設定します
-* **勾配イメージ入力マルチプライヤ**: *0.0 - 1.0*\
-  生成されるグラデーションの勾配強度に対する、オプションの勾配入力マップの影響を設定します。
-* **勾配強度で乗算**: *0.0 ～ 1.0*
-* **平坦な勾配の色**: *（グレースケール値）*平坦な勾配に対して単色の値を設定できます。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodgradient-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodgradient-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>カラー入力</i> | 基本Flood Fillデータ。 |
+| <b>角度入力</b> <i>グレースケール入力</i> | 外部マップを使用してセルごとの角度を決定するオプションマップ。 |
+| <b>勾配入力</b> <i>グレースケール入力</i> | セルごとのグラデーションの強さを決定するオプションのマップ。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>角度</b> <i>0.0 - 1.0</i> | すべてのタイルに対して均等なグローバル角度/方向を設定します。 |
+| <b>角度のバリエーション</b> <i>0.0 - 1.0</i> | 各タイルの角度を個別にランダム化します。 これは最も便利で強力なパラメーターです。 |
+| <b>バウンディングボックスのサイズで乗算</b> <i>0.0 - 1.0</i> | タイルの個々のバウンディングボックスサイズに合わせて、線形効果全体のサイズを調整します。 つまり、小さなタイルは大きなタイルよりも暗くなります。 |
+| <b>角度画像入力乗数</b> <i>0.0 - 1.0</i> | 生成されるグラデーション方向に対するオプションの角度入力マップの影響を設定 |
+| <b>勾配イメージ入力マルチプライヤ</b> <i>0.0 - 1.0</i> | 生成されるグラデーションの勾配強度に対する、オプションの勾配入力マップの影響を設定します。 |
+| <b>勾配の適用度で乗算</b> <i>0.0 - 1.0</i> |  |
+| <b>平坦な勾配の色</b> <i>（グレースケール値）</i> | フラット勾配のソリッド値を設定できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-03.png" />
+        </td>
+    </tr>
 </table>

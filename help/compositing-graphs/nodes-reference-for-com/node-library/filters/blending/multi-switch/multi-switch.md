@@ -10,10 +10,10 @@ helpx_tags: ""
 title: マルチスイッチ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-01.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch-02.png){width="128px"}
 
-## マルチスイッチ（グレースケール）
-
-**イン：** *フィルター/描画*
-
-**単純**
+<b>イン:</b>フィルター/描画
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -45,19 +41,23 @@ ht-degree: 2%
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「マルチスイッチ」、グレースケール入力には「マルチスイッチグレースケール」を使用します。
 
-## パラメーター
-
-### 入力
-
-* **入力1-20**: *カラー入力*
-
-### パラメーター
-
-* **入力番号**: *2 - 20*&#x200B;公開する入力数。 重要：数を減らしても、接続を削除しないでください。
-* **入力選択**: *1 - 20*&#x200B;結果として返される入力。
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>入力1-20</b> <i>カラー入力</i> |  |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>入力番号</b> <i>2 - 20</i> | 表示する入力の量。 重要：数を減らしても、接続を削除しないでください。 |
+| <b>選択範囲の入力</b> <i>1 - 20</i> | 結果として返す入力です。 |

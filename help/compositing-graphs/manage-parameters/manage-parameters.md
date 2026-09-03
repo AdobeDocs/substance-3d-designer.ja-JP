@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パラメーターを管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![プロパティのグローバル&#39;パラメーターの管理&#39;メニュー](../../assets/manage-parameters-menu-global.png "プロパティのグローバル&#39;パラメーターの管理&#39;メニュー"){zoomable="yes"}
+![プロパティのグローバル&#39;パラメーターの管理&#39;メニュー](manage-parameters.resources/manage-parameters-01.png "プロパティのグローバル&#39;パラメーターの管理&#39;メニュー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 * <b>パラメーターの貼り付け：</b>以下の[パラメーターのコピーと貼り付け](../../compositing-graphs/manage-parameters/manage-parameters.md)のセクションを参照してください。
 * <b>パラメーターをプリセットファイルとして保存する：</b> [この専用ページ](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)のパラメータープリセットの詳細をご覧ください。
 * <b>プリセットファイルからパラメーターを適用する：</b> [この専用ページ](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)のパラメータープリセットの詳細をご覧ください。
-* <b>すべてリセット：</b>すべてのパラメーターを既定値と範囲にリセットします。 関数がパラメーターに適用されると、その関数は破棄されます。
+* <b>すべてリセット：</b>すべてのパラメーターを既定値と範囲にリセットします。 関数がパラメーターに適用されると、その関数は破棄されます。
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![プロパティのローカルの[パラメーターの管理]メニュー](../../assets/manage-parameters-menu.png "プロパティのローカルの[パラメーターの管理]メニュー"){zoomable="yes"}
+![プロパティのローカルの[パラメーターの管理]メニュー](manage-parameters.resources/manage-parameters-02.png "プロパティのローカルの[パラメーターの管理]メニュー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー](../../assets/manage-parameters-node-menu.png "&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー"){zoomable="yes"}
+![&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー](manage-parameters.resources/manage-parameters-03.png "&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 ## パラメーターのコピー&amp;ペースト
 
-ソースノードのすべてのパラメータ値をコピーし、ターゲットノードに貼り付けることができます。 ソースノードとターゲットノードのパラメーターは、それらの識別子と種類の両方に基づいて<b>一致します</b>。
+ソースノードのすべてのパラメータ値をコピーし、ターゲットノードに貼り付けることができます。 ソースノードとターゲットノードのパラメーターは、それらの識別子と種類の両方に基づいて<b>一致します</b>。
 
 たとえば、識別子が&#39;scale&#39;で型が&#39;Float&#39;のパラメータ&#39;Scale&#39;を、識別子も&#39;scale&#39;で型が&#39;Float&#39;の別のパラメータ&#39;Shape Scale&#39;にコピーして貼り付けることができます。
 
@@ -129,22 +129,22 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td style="border: 0;" valign="top">
 
-![パラメーターのコピーと貼り付け](../../assets/copy-paste-parameters.gif "パラメーターのコピーと貼り付け"){zoomable="yes"}
+![パラメーターのコピーと貼り付け](manage-parameters.resources/manage-parameters-04.gif "パラメーターのコピーと貼り付け"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-## Atomicノードの制限
+## アトミックノード制限
 
-特定の実装と制御のため、一部の[原子ノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)では使用できない機能があります。
+一部の[アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)では、その実装と制御が固有であるため、一部の機能を使用できません。
 
 これらのアクション…
 
 * [パラメータをコピー/貼り付け](#copy-paste-parameters)
 * [プリセットファイルの保存と適用](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
-...これらのアトミックノードには使用できません。
+...これらのアトミックノードは使用できません。
 
 <table>
 <tr style="border: 0;">

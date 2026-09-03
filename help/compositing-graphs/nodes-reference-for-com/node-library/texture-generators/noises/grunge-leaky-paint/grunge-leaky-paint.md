@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 経年劣化漏えいペイント
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
-**インチ：** *テクスチャジェネレーター* */ノイズ*
-
-**単純**
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,31 +39,31 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **バランス** *浮動小数点*&#x200B;暗い値と明るい値のバランスを調整します。
-* **コントラスト** *浮動小数点*&#x200B;画像のコントラストを調整します。
-* **反転** *ブール値*`1-x`操作を使用して画像の出力を反転します。
-* **非正方形拡張** *ブール値*&#x200B;非正方形の比率でのスカッシュとストレッチの補正を有効にします。
-* アドバンス
-  * **漏れの強さ** *フロート*&#x200B;しずくの密度と強さを調整します。
-  * **リークスケール** *整数*&#x200B;ドリップの分離のスケールを調整します。
-  * **リーク角度ランダム** *フロート* *最大角度*&#x200B;の滴をランダムに回転できる角度を&#x200B;*ターン数*&#x200B;で調整します。
-  * **リークの鮮明さ** *フロート*&#x200B;滴り落ちる液体の鮮明さとシャープさを調整します。
+|  |  |
+|:---|:---|
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>詳細</b> |  |
+| <b>リーク強度</b> <i>フロート</i> | 滴りの密度と強さを調整します。 |
+| <b>リークスケール</b> <i>整数</i> | ドリップの分離のスケールを調整します。 |
+| <b>リーク角度ランダム</b> <i>フロート</i> | *最大角度*&#x200B;の滴をランダムに回転して、*ターン数*&#x200B;で調整します。 |
+| <b>リークの鮮明さ</b> <i>フロート</i> | 滴る部分の鮮明さとシャープさを調整します。 |
 
-## サンプル画像
+## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
+        </td>
+    </tr>
 </table>

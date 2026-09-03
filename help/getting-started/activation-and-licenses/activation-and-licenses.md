@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ライセンス認証とライセンス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 1%
 アクティベーションプロセスは、Designerをどこから購入したか、またはどこからアクセスできるかによって異なります。
 
 | エディション | アクティベーションプロセス |
-| --- | --- |
-| Creative Cloud デスクトップ | [HelpXドキュメント](https://helpx.adobe.com/jp/support/substance-3d-designer.html)の専用ページを参照してください。 問題が発生した場合、[Creative Cloudのドキュメント](https://helpx.adobe.com/jp/creative-cloud/user-guide.html)に詳細な回答が記載されている場合があります。 |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Creative Cloudデスクトップ(CCD) | CCDアプリから製品をインストールし、起動します。 ライセンスに問題がある場合は、次のページに移動してください。[サブスクリプションのエラーが原因で、アプリが起動しない](https://helpx.adobe.com/jp/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [アカウント、プラン、請求に関するヘルプ](https://helpx.adobe.com/jp/account/individual.html) |
 | スチーム | Steamライブラリから直接製品を起動します。 |
 | Substance（スタンドアロン） | 以下のアクティベーションプロセスを参照してください。 |
 
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 * <b>この製品の評価</b> ：従来の体験版は利用できなくなりました。 代わりに、各Substance 3Dアプリケーションの30日間の無料体験を[ここ](https://www.adobe.com/creativecloud/3d-augmented-reality.html)から、またはCreative Cloudデスクトップから開始できます。 各体験版は他のSubstance 3Dアプリケーションから独立しているため、一度に1つずつ、または一度に試すことができます。
 * <b>ライセンスファイルを使ってライセンス認証する</b>: 2022年9月30日より前に[Substance 3D Webサイト](https://store.substance3d.com/user)のアカウントページからダウンロードしたライセンスファイル(<b>\*.key</b>)を使って製品をライセンス認証します。
-* <b>アカウントを使用したライセンス認証</b> ：従来のSubstanceアカウントはライセンス認証に使用できなくなりました。 [Substanceアカウントについて詳しくは、こちらを参照してください](https://helpx.adobe.com/jp/substance-3d/unlisted/faq-end-of-life-accounts.html)。
+* <b>アカウントを使用したライセンス認証</b> ：従来のSubstanceアカウントはライセンス認証に使用できなくなりました。
 
 >[!IMPORTANT]
 >
-> ライセンス認証ウィザードを使用してライセンスファイルをインストールするには、Designerを管理者として実行し、アンチウイルスを一時的に無効にしてください。
+> ライセンスファイルをアクティベーションウィザードと共にインストールするには、Designerを管理者として実行し、ウイルス対策を一時的に無効にしてください。
 
-![ライセンス認証ウィザード](../../assets/activation-wizard.png "ライセンス認証ウィザード")
+![ライセンス認証ウィザード](activation-and-licenses.resources/activation-and-licenses-01.png "ライセンス認証ウィザード")
 
 ### 手動アクティベーション
 

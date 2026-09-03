@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カーブ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード： Curve](../../../../assets/comp_curve_1.png "原子ノード： Curve"){width="200px"}
+![原子ノード： Curve](curve.resources/curve-01.png "原子ノード： Curve"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ ht-degree: 2%
 | --- | --- |
 | <b>曲線を適用/表示</b> *ブール値* | ユーザー曲線を入力画像に適用する代わりに、出力にコピーできます |
 | <b>曲線アドレス指定</b> *ブール値* | このパラメーターは、入力の[0, 1]範囲外のHDRピクセルの処理方法（[0, 1]までクランプまたは折りたたむ）を決定します。 |
-| <b>曲線</b> *曲線キーの配列* | 入力グレースケール値のマッピングに使用するカスタムカーブ。   [曲線エディター](#curve-editor)を使用して編集できます。 |
+| <b>曲線</b> *曲線キーの配列* | 入力グレースケール値のマッピングに使用するカスタムカーブ。   [曲線エディター](#curve-editor)を使用して編集できます。 |
 
 ## カーブエディタ
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 ポイントを作成するには、カーブビューの任意の場所をダブルクリックします。
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/curve-02.gif)
 
 ### ポイントの影響を制御する
 
@@ -112,31 +112,31 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/curve-03.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png)ポイントモードを既定値にリセットします。
+![](curve.resources/curve-04.png)ポイントモードを既定値にリセットします。
 
-![](../../../../assets/image2017-2-17-14-12-6.png) 2つのベジェハンドラーをロックまたはロック解除して、ユーザーがまとめて移動したり、個別に移動したりできるようにします。
+![](curve.resources/curve-05.png) 2つのベジェハンドラーをロックまたはロック解除して、ユーザーがまとめて移動したり、個別に移動したりできるようにします。
 
-![](../../../../assets/image2017-2-17-14-14-0.png)ポイントの両側はベジェハンドラーによって制御されます。
+![](curve.resources/curve-06.png)ポイントの両側はベジェハンドラーによって制御されます。
 
-![](../../../../assets/image2017-2-17-14-16-22.png)ポイントの右側はベジェハンドラーによって制御され、左側は平らな状態のままです。
+![](curve.resources/curve-07.png)ポイントの右側はベジェハンドラーによって制御され、左側は平らな状態のままです。
 
-![](../../../../assets/image2017-2-17-14-18-25.png)ポイントの左側はベジェハンドラーによって制御され、右側は平らな状態を維持します。
+![](curve.resources/curve-08.png)ポイントの左側はベジェハンドラーによって制御され、右側は平らな状態を維持します。
 
-![](../../../../assets/image2017-2-17-14-19-32.png)点の側面は平らなままです
+![](curve.resources/curve-09.png)点の側面は平らなままです
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curve-10.gif)
 
 ### 入力ヒストグラムを表示
 
-![](../../../../assets/image2017-2-17-14-50-13.png)をクリックするだけで、入力のヒストグラムを表示/非表示にできます
+![](curve.resources/curve-11.png)をクリックするだけで、入力のヒストグラムを表示/非表示にできます
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/curve-12.png)
 
 ### 各チャンネルを個別に制御する（カラー入力）
 
@@ -151,15 +151,15 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/curve-13.png)
 
 </td>
 </tr>
 </table>
 
-RGBカーブモードでは、![](../../../../assets/image2017-2-17-14-55-0.png)を押すか押さないかで、個々のチャンネルカーブの表示と非表示を切り替えることができます。
+RGBカーブモードでは、![](curve.resources/curve-14.png)を押すか押さないかで、個々のチャンネルカーブの表示と非表示を切り替えることができます。
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/curve-15.png)
 
 ### 位置合わせ、鏡像化、反転
 
@@ -178,7 +178,7 @@ RGBカーブモードでは、![](../../../../assets/image2017-2-17-14-55-0.png)
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/curve-16.png)
 
 </td>
 </tr>
@@ -186,9 +186,9 @@ RGBカーブモードでは、![](../../../../assets/image2017-2-17-14-55-0.png)
 
 <b>水平方向/垂直方向に分布：</b>選択した軸にポイントを分布します
 
-<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択した点を反転します。
+<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択したポイントを反転します。
 
-<b>水平方向/垂直方向にミラー：</b>選択した軸に従って曲線全体をミラーします
+<b>水平方向/垂直方向にミラー：</b>選択した軸に従ってカーブ全体をミラーします
 
 ### キーボードショートカット
 
@@ -203,7 +203,7 @@ RGBカーブモードでは、![](../../../../assets/image2017-2-17-14-55-0.png)
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/curve-17.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ X軸またはY軸に沿って移動を制限します。
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/curve-18.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ X軸またはY軸に沿って移動を制限します。
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/curve-19.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ X軸またはY軸に沿って移動を制限します。
 
 ハンドラを微調整する際に、1つのハンドラがカーブビュー上を通過している場合があります。
 
-その場合は、![](../../../../assets/image2017-2-20-19-11-53.png)ボタンを使用してサイズをコンテンツに合わせることができます。
+その場合は、![](curve.resources/curve-20.png)ボタンを使用してサイズをコンテンツに合わせることができます。
 
-「![](../../../../assets/image2017-2-20-19-12-45.png)」ボタンにより、ズームレベルが1にリセットされます
+「![](curve.resources/curve-21.png)」ボタンにより、ズームレベルが1にリセットされます
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/curve-22.gif)
 
 ## 入力コネクタ
 

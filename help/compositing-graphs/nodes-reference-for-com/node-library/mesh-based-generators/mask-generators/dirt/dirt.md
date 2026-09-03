@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 汚れ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt-01.png){width="128px"}
 
-## 汚れ
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**中級**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,38 +37,44 @@ ht-degree: 2%
 
 このマスクは、ベイク処理されたAOと曲率に基づいて、隠れたエッジと沈んだエッジおよびコーナーのDirtを表します。
 
-## パラメーター
-
-### 入力
-
-* **曲率**: *グレースケール入力*\
-  内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！
-* **環境オクルージョン**: *グレースケール入力*\
-  内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！
-* **経年劣化入力**: *グレースケール入力*\
-  カスタム経年劣化マップ入力、オプション、パラメーターにより有効化
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-* **ワールドスペース標準**: *カラー入力*\
-  Triplanarにのみ使用されます。
-* **位置**: *カラー入力*\
-  Triplanarにのみ使用されます。
-
-### パラメーター
-
-* **Dirtレベル**: *0.0 ～ 1.0* Dirt量のメインコントロール。
-* **Dirtのコントラスト**: *0.0 ～ 1.0*&#x200B;マスク内のDirtのコントラストを制御します。
-* **経年劣化量**: *0.0 ～ 1.0* Dirtのグランジの度合いを設定します。 Dirtを完全に滑らかにするには、0に設定します。
-* **エッジのマスク**: *0.0 ～ 1.0*&#x200B;隆起したエッジから取り除くDirtの量（曲線マップに基づく）。
-* **カスタム経年劣化の使用**: *False/True*&#x200B;組み込み経年劣化の代わりにカスタム経年劣化マップ入力を使用できるようにします。
-* **経年劣化スケール**: *1 ～ 16*&#x200B;経年劣化の詳細のタイリングスケールを設定します。
-* **三平面を使用**: *False/True*&#x200B;経年劣化マッピングに[Triplanar projection](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)を使用して、シームを削除します。
-* **三平面ブレンドコントラスト**: *0.001 - 1.0*&#x200B;三平面投影のコントラストを設定します。
-
-## サンプル画像
-
-![](../../../../../../assets/dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！ |
+| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！ |
+| <b>経年劣化入力</b> <i>グレースケール入力</i> | カスタム経年劣化マップ入力、オプション、パラメーターにより有効化 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+| <b>ワールド空間標準</b> <i>カラー入力</i> | Triplanarにのみ使用されます。 |
+| <b>位置</b> <i>カラー入力</i> | Triplanarにのみ使用されます。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>Dirtレベル</b> <i>0.0 - 1.0</i> | Dirt量のメインコントロール。 |
+| <b>Dirtのコントラスト</b> <i>0.0 - 1.0</i> | マスクのDirtのメインコントラストを制御します。 |
+| <b>経年劣化量</b> <i>0.0 - 1.0</i> | Dirtのグランジ度合いを設定します。 Dirtを完全に滑らかにするには、0に設定します。 |
+| <b>エッジのマスク</b> <i>0.0 - 1.0</i> | 隆起したエッジから取り除くDirtの量（曲率マップに基づく）。 |
+| <b>カスタム経年劣化を使用する</b> <i>False/True</i> | 組み込み経年劣化の代わりにカスタム経年劣化マップ入力を使用できるようにします。 |
+| <b>経年劣化スケール</b> <i>1 - 16</i> | 経年劣化詳細のタイリング尺度を設定します。 |
+| <b>三平面を使用</b> <i>False/True</i> | 経年劣化マッピングに[トライプラナー投影](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)を使用すると、シームが削除されます。 |
+| <b>3平面のブレンドコントラスト</b> <i>0.001 - 1.0</i> | トライプラナー投影のコントラストを設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dirt.resources/dirt-02.gif" />
+        </td>
+    </tr>
 </table>

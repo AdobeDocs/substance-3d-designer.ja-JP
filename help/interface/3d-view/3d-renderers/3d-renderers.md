@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3Dレンダラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>ラスタライザ</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU パストレーサー</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ USDを基盤としているため、Adobeの[USDFileFormatプラグイン](https
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>ラスタライザ</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ USDを基盤としているため、Adobeの[USDFileFormatプラグイン](https
 
 >[!TIP]
 >
-> プロジェクト設定[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)の「「3Dビュー」」セクションで、新しい3Dビューを開始する際にデフォルトで使用するレンダラーを選択できます。
+> プロジェクト設定[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)の「3Dビュー」セクションで、新しい3D ビューを開始するときに既定で使用するレンダラーを選択できます。
 
 <a name="rasterizer"></a>
 
@@ -85,15 +85,15 @@ USDを基盤としているため、Adobeの[USDFileFormatプラグイン](https
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **サンプル**&#x200B;浮動小数点 | 画像が収束したとみなされるまでに、計算するピクセルサンプルの数を指定します。 |
 | **アンビエントオクルージョンの不透明度**&#x200B;浮動小数点 | アンビエントオクルージョンの不透明度の値を指定します。 |
-| **ディスプレイスメントを有効にする**&#x200B;ブール値 | 変位を有効にするかどうかを指定します。 |
+| **ディスプレイスメントを有効にする** ブーリアン | 変位を有効にするかどうかを指定します。 |
 | **ディスプレイスメントしきい値**&#x200B;浮動小数点 | GPU テセレーションを有効 / 無効にするしきい値を設定します。 |
-| **背面カリングを有効にする**&#x200B;ブール値 | trueの値を指定すると、法線がカメラから離れた方向を向いている三角形メッシュのカリングが有効になります。 falseの値を指定すると、背面カリングが無効になります。 |
+| **バックフェースカリングを有効にする** ブーリアン | trueの値を指定すると、法線がカメラから離れた方向を向いている三角形メッシュのカリングが有効になります。 falseの値を指定すると、背面カリングが無効になります。 |
 | **診断モード**&#x200B;整数 | レンダリングする診断モードを指定します。 |
-| **ラスタライザシャドウモード**&#x200B;整数 | シャドウのレンダリングに使用するテクニックを指定します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>影なし：</i>影はレンダリングされません。</li> <li data-preserve-html="true"><i>ボクセルが行進しました：</i>シャドウレイをボクセル化されたシーンに行進します。</li> </ul> |
+| **ラスタライザシャドウモード**&#x200B;の整数 | シャドウのレンダリングに使用するテクニックを指定します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>影なし：</i>影はレンダリングされません。</li> <li data-preserve-html="true"><i>ボクセルが行進しました：</i>シャドウレイをボクセル化されたシーンに行進します。</li> </ul> |
 | **ラスタライザシャドウサンプル数**&#x200B;整数 | 1ピクセルあたりにトレースするシャドウレイの数を指定します。 |
 | **ラスタライザーのシャドウの不透明度**&#x200B;浮動小数点 | シャドウの不透明度を0.0（シャドウなし）から1.0（完全なシャドウ）の間で指定します。 |
 | **ラスタライザ順序に依存しない透明化が有効**&#x200B;ブール値 | 透明なサーフェスをレンダリングする際の順序は考慮されません。 これにより、透明なサーフェスのレンダリングを高速化するための精度が犠牲になります。 |
-| **ラスタライザSSSを有効にする**&#x200B;ブール値 | サブサーフェススキャタリング効果を切り替えます。 |
+| **ラスタライザSSSを有効にする** ブーリアン | サブサーフェススキャタリング効果を切り替えます。 |
 | **ラスタライザSSSサンプル数**&#x200B;整数 | サブサーフェススキャタリングをレンダリングするために1ピクセルあたりに取得するサンプル数を指定します。 |
 | **ラスタライザの累積アンチエイリアスを有効にする**&#x200B;ブール値 | 重なり補正のアンチエイリアスを切り替えます。これにより、各ピクセルのローカルの平均色を重ねてレンダリングし、ジッターを適用することで、レンダリングされたイメージのSmoothnessやエッジが向上します。 つまり、値を累積して平均値を計算します。 |
 | **ラスタライザのボクセルグリッド解像度**&#x200B;整数 | ラスタライザを行進するボクセルで使用するボクセルグリッドの解像度を指定します。   値が大きいほどシャドウの精度は高くなりますが、パフォーマンスが低下します。 |
@@ -111,7 +111,7 @@ USDを基盤としているため、Adobeの[USDFileFormatプラグイン](https
 
 +++
 
-![ラスタライザ – 例1](../../../assets/3dRendererRasterizer.jpg "ラスタライザ – 例1"){zoomable="yes"}
+![ラスタライザ – 例1](3d-renderers.resources/3d-renderers-04.jpg "ラスタライザ – 例1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ USDを基盤としているため、Adobeの[USDFileFormatプラグイン](https
 
 +++
 
-![GPUパストレーサー – 例1](../../../assets/3dRendererPathtracer.jpg "GPUパストレーサー – 例1"){zoomable="yes"}
+![GPUパストレーサー – 例1](3d-renderers.resources/3d-renderers-05.jpg "GPUパストレーサー – 例1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -161,7 +161,7 @@ Heightを表示するには、次の2つの方法を使用できます。
 
 <b>パララックスオクルージョン</b> – ローカライズされたUV変形およびオクルージョンによってジオメトリを変更せずに、Heightのディスプレイスメントを偽装します。
 
-<b>テッセレーション+ ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
+<b>面分割+ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
 
 DesignerのOpenPBRについて詳しくは、[こちら](../material-properties/material-properties.md#openpbr)をご覧ください。
 
@@ -170,7 +170,7 @@ DesignerのOpenPBRについて詳しくは、[こちら](../material-properties/
 
 +++ Adobe Standard Material
 
-Adobeの標準シェーダ。 すべてのAdobeのSubstance 3Dアプリケーションが正しく表示され、幅広い機能がサポートされます。
+Adobeの標準化シェーダー。 すべてのAdobeのSubstance 3Dアプリケーションが正しく表示され、幅広い機能がサポートされます。
 
 Heightを表示するには、次の2つの方法を使用できます。
 
@@ -178,33 +178,33 @@ Heightを表示するには、次の2つの方法を使用できます。
 
 <b>テッセレーション+ ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
 
-アドビ標準マテリアルについては、アドビのドキュメントの[このセクション](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で詳細に説明されています。
+Adobe Standard Materialについては、アドビのドキュメントの[このセクション](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で詳細に説明されています。
 
 +++
 
 +++ AxF SVBRDF
 
-[AxFファイル](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)から抽出され、<b>SVBRDF</b>表現を使用してマテリアルを視覚化するための専用シェーダーです。
+[AxF ファイル](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)から抽出されたマテリアルを<b>SVBRDF</b>表現を使用して視覚化するための専用シェーダーです。
 
 Heightを表示するには、次の2つの方法を使用できます。
 
 <b>パララックスオクルージョン</b> – ローカライズされたUV変形およびオクルージョンによってジオメトリを変更せずに、Heightのディスプレイスメントを偽装します。
 
-<b>テッセレーション+ ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
+<b>面分割+ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
 
-このシェーダは現在&#x200B;*処理中*&#x200B;で、マテリアルの特性の概要を提供しますが、細かい調整には使用しないでください。一部の機能はまだサポートされていません。
+このシェーダーは現在&#x200B;*処理中*&#x200B;であり、マテリアルの特性の概要を示していますが、微調整には使用しないでください。一部の機能はまだサポートされていません。
 
 +++
 
 +++ ブリン
 
-「Old - generation」、非PBR正しいシェーダ。 不透明度、Height、標準などの標準チャンネルの横に、拡散、Specular、光沢の各チャンネルを使用します。
+「Old - generation」、PBR以外のシェーダーが正しい。 不透明度、Height、標準などの標準チャンネルの横に、拡散、Specular、光沢の各チャンネルを使用します。
 
 Heightを表示するには、次の2つの方法を使用できます。
 
 <b>パララックスオクルージョン</b> – ローカライズされたUV変形およびオクルージョンによってジオメトリを変更せずに、Heightのディスプレイスメントを偽装します。
 
-<b>テッセレーション+ ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
+<b>面分割+ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
 
 +++
 
@@ -274,19 +274,19 @@ Heightを表示するには、次の2つの方法を使用できます。
 
 +++ スペキュラ光沢
 
-Specular光沢モデルの標準PBRマテリアル。 [拡散反射光]、[Specular]、[光沢]の各チャンネルを使用します。
+Specular光沢モデルの標準PBRマテリアル。 Diffuse、Specular、光沢度チャンネルを使用します。
 
 Heightを表示するには、次の2つの方法を使用できます。
 
 <b>パララックスオクルージョン</b> – ローカライズされたUV変形およびオクルージョンによってジオメトリを変更せずに、Heightのディスプレイスメントを偽装します。
 
-<b>テッセレーション+ ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
+<b>面分割+ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
 
 +++
 
 +++ 消灯
 
-ライティングされていないデバッグシェーダで、ライティングなしでテクスチャマップを視覚化します。 &#39;color&#39;チャンネルのみを使用します。
+アンライトデバッグシェーダーを使用して、照明なしでテクスチャマップを視覚化します。 &#39;color&#39;チャンネルのみを使用します。
 
 +++
 
@@ -296,4 +296,4 @@ Designerでは、GLSLFXファイル[&#128279;](../../../interface/3d-view/glslfx
 > 
 > このレンダラーは&#x200B;**非推奨**&#x200B;です。新機能は提供されず、今後のバージョンのDesignerでは廃止されます。
 
-![OpenGL – 例1](../../../assets/3dRendererOpenGL.jpg "OpenGL – 例1"){zoomable="yes"}
+![OpenGL – 例1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL – 例1"){zoomable="yes"}

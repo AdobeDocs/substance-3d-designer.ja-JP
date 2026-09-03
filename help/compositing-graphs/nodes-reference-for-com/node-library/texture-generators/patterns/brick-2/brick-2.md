@@ -10,10 +10,10 @@ helpx_tags: ""
 title: レンガ2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 10%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-2.png){width="128px"}
+![](brick-2.resources/brick-2-01.png){width="128px"}
 
-## レンガ2
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**単純**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 シンプルなレンガのパターン。詳細については、[レンガジェネレータ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md)または[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)を参照してください。
 
-## パラメーター
-
-* **タイル**: *1 - 16*\
-  結果をタイルする回数を設定します。
-* **エッジのSmoothness**: *0.0 ～ 1.0*&#x200B;粗いエッジと滑らかなエッジをブレンドします。
-* **間隔の幅**: *0.0 ～ 1.0*&#x200B;間隔（間隔サイズ）を設定します。
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-![](../../../../../../assets/brick-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>タイル表示</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+| <b>エッジSmoothness</b> <i>0.0 - 1.0</i> | 粗いエッジと滑らかなエッジのブレンド。 |
+| <b>間隔の幅</b> <i>0.0 - 1.0</i> | 間隔（ギャップサイズ）を設定します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="brick-2.resources/brick-2-02.gif" />
+        </td>
+    </tr>
 </table>

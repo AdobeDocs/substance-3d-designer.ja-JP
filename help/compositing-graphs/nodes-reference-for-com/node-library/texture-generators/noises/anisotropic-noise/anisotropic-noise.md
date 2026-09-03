@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 異方性ノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![異方性ノイズ – アイコン](../../../../../../assets/anisotropic_noise_v2.png "異方性ノイズ – アイコン"){width="200px"}
+![異方性ノイズ – アイコン](anisotropic-noise.resources/anisotropic-noise-01.png "異方性ノイズ – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -45,45 +41,25 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 出力
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
-
 ## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 生成されるノイズをグレースケールビットマップとして表します。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>X量</b>整数 | X軸上のストリップの量。 |
-| <b>Y量</b>整数 | Y軸上のストリップの量。 |
-| <b>解像度ごとのY量</b>ブール値 | Trueの場合、Y軸上のストリップの数は、その軸上のイメージサイズと等しくなります。 |
-| <b>回転</b>ブール値 | ノイズを90度回転します。 |
-| <b>Smoothness</b>浮動小数点 | ストリップ間のフェードの量。0はフェードせず、1はストリップ全体でフェードします。 |
-| <b>Smoothness補間</b>浮動小数点 | ストリップをフェードするために適用される2つの補間方法の重み付けです。0はリニアで、1はガウスです。 |
-| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。   これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。   これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
-| <b>非正方形の展開</b>ブール値 | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
+|:---|:---|
+| <b>X金額</b> <i>整数</i> | X軸上のストリップの量。 |
+| <b>Y金額</b> <i>整数</i> | Y軸上のストリップの量。 |
+| <b>解像度ごとのY量</b> <i>ブール値</i> | Trueの場合、Y軸上のストリップの数は、その軸上のイメージサイズと等しくなります。 |
+| <b>回転</b> <i>ブール値</i> | ノイズを90度回転します。 |
+| <b>Smoothness</b> <i>フロート</i> | ストリップ間のフェードの量。0はフェードせず、1はストリップ全体でフェードします。 |
+| <b>Smoothnessの補間</b> <i>フロート</i> | ストリップをフェードするために適用される2つの補間方法の重み付けです。0はリニアで、1はガウスです。 |
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。   これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。   これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>非正方形の拡張</b> <i>ブール値</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
 
 ## 例
 
@@ -91,26 +67,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![異方性ノイズ – 例1](../../../../../../assets/anisotropic_noise_v2_1.png "異方性ノイズ – 例1"){zoomable="yes"}
+![異方性ノイズ – 例1](anisotropic-noise.resources/anisotropic-noise-02.png "異方性ノイズ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![異方性ノイズ – 例2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "異方性ノイズ – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![異方性ノイズ – 例2](anisotropic-noise.resources/anisotropic-noise-03.gif "異方性ノイズ – 例2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: パノラマ3D位置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-position.png){width="200px"}
+![](panorama-3d-position.resources/panorama-3d-position-01.png){width="200px"}
 
-## パノラマ3D位置
-
-**イン：** *3Dビュー/HDRI ツール*
-
-**単純**
+<b>内：</b> 3D ビュー > HDRI ツール
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-投影されたパノラマイメージのワールドスペース位置マップをレンダリングするヘルパーノード。 を使用すると、独自の球面変換およびルックアップを実行できます。
-
-## パラメーター
-
-* **上向きベクター**: *Z上向き、Y上向き*
-
-## サンプル画像
-
-![](../../../../../../assets/pano3d.png)
+空間的に投影されたパノラマイメージのワールドスペース位置マップをレンダリングするヘルパーノード。 を使用すると、独自の球面変換およびルックアップを実行できます。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>上向きベクター</b> <i>Z上、Y上</i> |  |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="panorama-3d-position.resources/panorama-3d-position-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance グラフの継承
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 このページでは、[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)内の[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)で継承がどのように適用され、グラフの出力に与える影響について説明します。
 
-![継承メソッド](../../assets/inheritance-overview-1.jpg "継承メソッド"){width="1400px"}
+![継承メソッド](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-01.jpg "継承メソッド"){width="1400px"}
 
 ## 概要
 
@@ -38,7 +38,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![&#39;絶対&#39;継承メソッドのアイコン](../../assets/ds-inheritance-absolute.png "&#39;絶対&#39;継承メソッドのアイコン"){width="128px"}
+![&#39;絶対&#39;継承メソッドのアイコン](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-02.png "&#39;絶対&#39;継承メソッドのアイコン"){width="128px"}
 
 <b>絶対</b>
 
@@ -47,7 +47,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;入力に対する相対&#39;継承メソッドのアイコン](../../assets/ds-inheritance-relative-to-input.png "&#39;入力に対する相対&#39;継承メソッドのアイコン"){width="128px"}
+![&#39;入力に対する相対&#39;継承メソッドのアイコン](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "&#39;入力に対する相対&#39;継承メソッドのアイコン"){width="128px"}
 
 <b>入力に対する相対</b>
 
@@ -56,7 +56,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;親に対する相対&#39;継承メソッドのアイコン](../../assets/ds-inheritance-relative-to-parent.png "&#39;親に対する相対&#39;継承メソッドのアイコン"){width="128px"}
+![&#39;親に対する相対&#39;継承メソッドのアイコン](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "&#39;親に対する相対&#39;継承メソッドのアイコン"){width="128px"}
 
 <b>親に対する相対</b>
 
@@ -66,7 +66,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 </tr>
 </table>
 
-![継承メソッドのデモンストレーション](../../assets/inheritance-overview.gif "継承メソッドのデモンストレーション")
+![継承メソッドのデモンストレーション](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-05.gif "継承メソッドのデモンストレーション")
 
 継承メソッドは、ノードの[基本パラメーター](../../compositing-graphs/graph-parameters/graph-parameters.md)に適用されます。これは、すべてのノードの動作の&#x200B;*基本的な側面*&#x200B;を制御する共通パラメーターのセットです。 次のパラメーターがあります。
 
@@ -86,17 +86,17 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 >[!NOTE]
 >
-> **出力サイズ：** Heightの値&#x200B;*が幅の値*&#x200B;と一致するように![](../../assets/props-output-size-lock.jpg)ロックボタンを使用してください\
-> **ランダムシード：** ![](../../assets/prop-randomise.jpg)ボタンを使用して、新しいランダム値をランダムシードに割り当てます。
+> **出力サイズ：** Heightの値&#x200B;*が幅の値*&#x200B;と一致するように![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-06.jpg)ロックボタンを使用してください\
+> **ランダムシード：** ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-07.jpg)ボタンを使用して、新しいランダム値をランダムシードに割り当てます。
 
 ## 変更の実行
 
 ### 継承方法の変更
 
-[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)パネルでは、ノードのプロパティの[基本パラメーター](../../compositing-graphs/graph-parameters/graph-parameters.md)セクションに一覧表示されているすべてのパラメーターに、ラベルの反対側に（アイコン） <b>継承メソッドの設定</b>ドロップダウンボタンがあります。\
+プロパティパネルでは、ノードのプロパティの[基本パラメーター](../../compositing-graphs/graph-parameters/graph-parameters.md)セクションに一覧表示されているすべてのパラメーターに、ラベルの反対側に（アイコン） <b>継承メソッドの設定</b>ドロップダウンボタンがあります。\
 このボタンをクリックすると、パラメータに使用する継承方法を選択できます。
 
-![継承メソッドを変更しています](../../assets/inheritance-change.gif "継承メソッドを変更しています"){width="512px"}
+![継承メソッドを変更しています](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-08.gif "継承メソッドを変更しています"){width="512px"}
 
 ほとんどの場合、*ノード*&#x200B;の基本パラメーターは&#x200B;*入力に対して相対的*&#x200B;に設定され、ノードをチェーン接続するという手続き型の動作を利用できます。また、*グラフ*&#x200B;の基本パラメーターは&#x200B;*親に対して相対的*&#x200B;に設定されているため、グローバルパラメーターをグラフが使用されるコンテキストに適応させることができます。
 
@@ -146,7 +146,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![&#39;入力に対する相対&#39;継承メソッドのアイコン](../../assets/ds-inheritance-relative-to-input.png "&#39;入力に対する相対&#39;継承メソッドのアイコン"){width="128px"}
+![&#39;入力に対する相対&#39;継承メソッドのアイコン](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "&#39;入力に対する相対&#39;継承メソッドのアイコン"){width="128px"}
 
 <b>入力に対する相対</b>
 
@@ -155,7 +155,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;親に対する相対&#39;継承メソッドのアイコン](../../assets/ds-inheritance-relative-to-parent.png "&#39;親に対する相対&#39;継承メソッドのアイコン"){width="128px"}
+![&#39;親に対する相対&#39;継承メソッドのアイコン](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "&#39;親に対する相対&#39;継承メソッドのアイコン"){width="128px"}
 
 <b>親に対する相対</b>
 
@@ -180,17 +180,17 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![プライマリ入力カラー/グレースケール](../../assets/inheritance-primary-input-both.png){width="48px"}
+![プライマリ入力カラー/グレースケール](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-09.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![基本入力カラー](../../assets/inheritance-primary-input-color.png){width="48px"}
+![基本入力カラー](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-10.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![プライマリ入力グレースケール](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
+![プライマリ入力グレースケール](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-11.png){width="48px"}
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 </td>
 <td style="border: 0;" valign="top">
 
-![入力コネクタの種類](../../assets/inheritance-primary-input.jpg "入力コネクタの種類")
+![入力コネクタの種類](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-12.jpg "入力コネクタの種類")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 **例A**
 
-![継承図A](../../assets/inheritance-schematic-a.png "継承図A"){zoomable="yes"}
+![継承図A](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-13.png "継承図A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **例B**
 
-![継承図B](../../assets/inheritance-schematic-b.png "継承図B"){zoomable="yes"}
+![継承図B](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-14.png "継承図B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 **C**&#x200B;の例
 
-![継承図C](../../assets/inheritance-schematic-c.png "継承図C"){zoomable="yes"}
+![継承図C](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-15.png "継承図C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **例D**
 
-![継承図D](../../assets/inheritance-schematic-d.png "継承図D"){zoomable="yes"}
+![継承図D](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-16.png "継承図D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -295,6 +295,6 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 [ブレンド](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)ノードは非常に頻繁に使用されるため、この影響を受けやすくなります。 <b>Background</b>入力はプライマリ入力です。
 
-![出力サイズの継承](../../assets/inheritance-blend.jpg "出力サイズの継承"){width="512px"}
+![出力サイズの継承](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-17.jpg "出力サイズの継承"){width="512px"}
 
 2つの入力をブレンドする順序に注意する必要があります。グラフを下に向けて維持する解像度と精度の入力は、背景入力にコネクトする必要があります。必要なブレンドモードを使用すれば可能です。 そうでない場合は、ブレンドノードのベースパラメータとその継承方法を調整して補正する必要があります。

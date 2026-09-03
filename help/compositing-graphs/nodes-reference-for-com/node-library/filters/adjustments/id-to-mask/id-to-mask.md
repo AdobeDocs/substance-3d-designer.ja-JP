@@ -10,10 +10,10 @@ helpx_tags: ""
 title: グレースケールをマスクするID
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グレースケールアイコンをマスクするID](../../../../../../assets/IDToMask.png "グレースケールアイコンをマスクするID"){width="200px"}
+![グレースケールアイコンをマスクするID](id-to-mask.resources/id-to-mask-01.png "グレースケールアイコンをマスクするID"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -33,64 +33,50 @@ ht-degree: 1%
 
 ## 説明
 
-選択したピクセル値を持つピクセルが白になるIDマップからマスクを作成します。
+選択したピクセル値を持つピクセルが白になるID マップからマスクを作成します。
 
-IDマップは、全体（例えば、シェイプ）の一部であるピクセルがすべて同じ一意の識別値を保持する画像です。 この場合、値は整数です。
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
+ID マップとは、全体の一部（シェイプなど）であるピクセルがすべて同じ一意のID値を保持している画像です。 この場合、値は整数です。
 
 </td>
 </tr>
 </table>
 
-## 入力コネクタ
+<a name="inputs"></a>
+
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *グレースケール*&#x200B;プライマリ | マスクの抽出元となる入力IDマップ。 |
+|:---|:---|
+| <b>ID</b> <i>グレースケール</i>プライマリ | マスクを抽出する入力ID マップ。 |
 
-## 出力コネクタ
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 入力IDマップから抽出されたバイナリマスク。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 入力ID マップから抽出されたバイナリマスク。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>選択モード</b> *整数* | IDマップのピクセル値を選択する方法です。マスクでは白にする必要があります。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>ソロ：</b>単一ピクセル値を選択</li> <li data-preserve-html="true"><b>範囲：</b>ピクセル値の範囲を選択します</li> </ul> |
-| <b>ID整数</b> *整数* *[選択モード]が[ソロ]に設定されている場合に使用できます* | 出力マスクで白にする必要があるIDマップ内のピクセル値。 |
-| <b>ID範囲</b> *Integer2* *&#39;選択モード&#39;が&#39;範囲&#39;に設定されている場合に使用できます* | IDマップのピクセル値の範囲（開始から終了まで）です。出力マスクでは白になります。 |
+| <b>ID 整数</b> *整数* *[選択モード]が[ソロ]に設定されている場合に使用できます* | 出力マスクで白にする必要があるIDマップ内のピクセル値。 |
+| <b>ID範囲</b> *整数2* *&#39;選択範囲モード&#39;が&#39;範囲&#39;に設定されている場合に使用可能* | ID マップ内のピクセル値の範囲です。最初から最後までで、出力マスクでは白になります。 |
 
 ## 例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -100,12 +86,12 @@ IDマップは、全体（例えば、シェイプ）の一部であるピクセ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![マスクするID：例2](../../../../../../assets/id_to_mask_example_2.gif "マスクするID：例2"){zoomable="yes"}
+![マスクするID：例2](id-to-mask.resources/id-to-mask-04.gif "マスクするID：例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![マスクするID：例3](../../../../../../assets/id_to_mask_example_3.png "マスクするID：例3"){zoomable="yes"}
+![マスクするID：例3](id-to-mask.resources/id-to-mask-05.png "マスクするID：例3"){zoomable="yes"}
 
 </td>
 </tr>

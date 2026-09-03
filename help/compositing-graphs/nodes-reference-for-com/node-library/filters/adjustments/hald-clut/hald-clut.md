@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ハルト・クラット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '90'
 ht-degree: 4%
 
 ---
@@ -22,37 +22,46 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hald-clut.png){width="128px"}
+![](hald-clut.resources/hald-clut-01.png){width="128px"}
 
-## ハルト・クラット
-
-**イン：** *フィルター/調整*
-
-**中級**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 入力画像にLUTを適用します。 LUTは4096\*4096の解像度でHald形式である必要があります。 詳細については、<http://www.quelsolaar.com/technology/clut.html>を参照してください。
 
-### 入力
+</td>
+</tr>
+</table>
 
-* **入力**: *カラー入力*\
-  LUTを適用する画像。
-* **lut**: *色入力* Lut入力スロット。 4096 x 4096でなければなりません。
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>入力</b> <i>カラー入力</i> | LUTを適用する画像。 |
+| <b>lut</b> <i>カラー入力</i> | Lut入力スロット。 4096 x 4096でなければなりません。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-* **Alpha別のLUT強度**: *偽/真* LUT効果にアルファチャンネルを重み付けするかどうかを定義します。
+|  |  |
+|:---|:---|
+| <b>AlphaごとのLUT強度</b> <i>False/True</i> | LUT効果をアルファチャンネルでウェイト付けするかどうかを定義します。 |
 
-例
+## 例
 
-![](../../../../../../assets/content-hald-clut.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hald-clut.resources/hald-clut-02.jpg" />
+        </td>
+    </tr>
 </table>

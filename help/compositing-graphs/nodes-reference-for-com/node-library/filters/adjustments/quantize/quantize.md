@@ -10,9 +10,9 @@ helpx_tags: ""
 title: カラーの量子化（シンプル）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![色の量子化アイコン](../../../../../../assets/quantize.png "色の量子化アイコン"){width="200px"}
+![色の量子化アイコン](quantize.resources/quantize-01.png "色の量子化アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -39,14 +39,13 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-<b>レッドチャンネルのクオンタイズ</b> *整数*&#x200B;赤チャンネルを近似するためのステップ数を設定します。
-
-<b>グリーンチャンネルのクオンタイズ</b> *整数*&#x200B;グリーンチャンネルの近似値として使用するステップ数を設定します。
-
-<b>ブルーチャンネルのクオンタイズ</b> *整数*
-
-ブルーチャンネルを近似するステップ数を設定します。
-
-<b>Alphaチャンネルのクオンタイズ</b> *整数* Alphaチャンネルを近似するためのステップ数を設定します。
+|  |  |
+|:---|:---|
+| <b>レッドチャンネルのクオンタイズ</b> *整数* | 赤チャンネルを近似するステップ数を設定します。 |
+| <b>グリーンチャンネルのクオンタイズ</b> *整数* | グリーンチャンネルを近似するステップ数を設定します。 |
+| <b>ブルーチャンネルのクオンタイズ</b> *整数* | ブルーチャンネルを近似するステップ数を設定します。 |
+| <b>Alphaチャンネルのクオンタイズ</b> *整数* | アルファチャンネルを近似するステップ数を設定します。 |

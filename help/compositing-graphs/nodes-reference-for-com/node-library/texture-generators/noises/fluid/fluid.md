@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 流体
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 1%
+source-wordcount: '118'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fluid.png){width="128px"}
+![](fluid.resources/fluid-01.png){width="128px"}
 
-## 流体
-
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**中級**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,21 +37,28 @@ ht-degree: 1%
 
 このノイズは、特定のニッチを埋めます：それは雨、漏れ、または重力の効果の下で流体のあらゆるタイプを生成するのに役立ちます。
 
-## パラメーター
-
-* **スケール**: *1 ～ 8*\
-  エフェクトのグローバルスケールを設定します。
-* **障害**: *0.0 ～ 1.0*\
-  ノイズを位相シフトして、小さな変動を発生させます。
-* **ワープの強さ**: *0.0 ～ 1.0*
-* **パターンサイズ**: *0.0 - 1.0*
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-![](../../../../../../assets/fluid-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>スケール</b> <i>1 - 8</i> | エフェクトのグローバルスケールを設定します。 |
+| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
+| <b>ワープの強さ</b> <i>0.0 - 1.0</i> |  |
+| <b>パターンサイズ</b> <i>0.0 - 1.0</i> |  |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fluid.resources/fluid-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 対称
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-01.png){width="128px"}
 
-## 対称
-
-**場所：** *フィルター/変換*
-
-**中級**
+<b>イン：</b>フィルター/変形
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,17 +37,25 @@ ht-degree: 4%
 
 このノードは[ミラー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)によく似ていますが、描画モードの制御が追加されています。
 
-## パラメーター
-
-* **対称モード**: *ミラーY、ミラーX、左斜め、右斜め、ミラーX/Y、ミラーX/ミラーY、左斜め/右斜め、右斜め/左斜め、8*&#x200B;対称幾何学的モードを選択します。
-* **転送モード**: *0 ～ 6*&#x200B;対称の描画モードを選択します：コピー、追加、削除、乗算、サブの追加、最大、最小。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>対称モード</b> <i>ミラーY、ミラーX、斜め左、斜め右、ミラーX/Y、ミラーX/ミラーY、斜め左/斜め右、斜め右/斜め左、8</i> | 対称形状モードを選択します。 |
+| <b>転送モード</b> <i>0 - 6</i> | 対称描画モード（コピー、追加、減算、乗算、サブを追加、最大、最小）を選択します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry.resources/symmetry-02.png" />
+        </td>
+    </tr>
 </table>

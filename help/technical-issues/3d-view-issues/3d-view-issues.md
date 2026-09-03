@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3Dビューの問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 低パフォーマンス：ディスクリートGPUは使用されていません
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
-Substance 3D Designerは、システムの&#x200B;*discrete* GPU (<b>dGPU</b>)を使用せず、*統合* GPU (<b>iGPU</b>)を使用します。 これにより、グラフや[3Dビュー](../../interface/3d-view/3d-view.md)をレンダリングする際のパフォーマンスが低下します。
+Substance 3D Designerは、システムの&#x200B;*discrete* GPU (<b>dGPU</b>)を使用せず、*統合* GPU (<b>iGPU</b>)を使用します。 この結果、グラフや[3Dビュー](../../interface/3d-view/3d-view.md)をレンダリングする際のパフォーマンスが低下します。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 グラフィックスを切り替え可能なシステムでは、GPUの製造元によって&#x200B;*dGPU*&#x200B;を強制的に実行できます。これは、専用ソフトウェアの&#x200B;*特定のアプリケーション*&#x200B;に使用されます。
 
@@ -47,11 +47,11 @@ Substance 3D Designerは、システムの&#x200B;*discrete* GPU (<b>dGPU</b>)�
 
 ## 3Dオブジェクトはフラットです
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
 あるセッションで詳細なボリュームを特徴とする3Dオブジェクトは、次のセッションではフラットになりますが、グラフは変更されておらず、Heightマップには同じデータが含まれています。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 Heightマップに基づく3Dオブジェクトの変形効果は、**テッセレーションディスプレイスメント**&#x200B;と呼ばれる手法を用いて行われる。 この方法には2つの手順があります。
 
@@ -75,17 +75,17 @@ Heightマップに基づく3Dオブジェクトの変形効果は、**テッセ�
 
 ## 3Dビューが完全に黒くなる
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
 バージョン15.0.0以降では、3Dビューのビューポートは平坦な黒になります。 テキストオーバーレイ（サンプルやレンダリング時間など）が表示されていても、3Dシーンが表示されない。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 バージョン15.1以降
 
 新しい3Dレンダラーは、バージョン15.1でアップグレードされ、最新のGPUドライバーが必要です。 システムのGPUドライバーを最新バージョンに更新してください。
 
-ドライバーは、次の場所で確認できます： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+ドライバーは次の場所で確認できます： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [インテル](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 バージョン15.0以降
 
@@ -113,11 +113,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最�
 
 ## 「レンダラーがサポートされていません」というメッセージが表示される
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
 バージョン15.0.0以降では、新しい3Dレンダラー（ラスタライザー、GPUパストレーサー）を使用すると、ビューポートの右下隅に「レンダラーはサポートされていません」というメッセージが表示されます。 3Dシーンは表示されません。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最新のテクノロジーを使用しているため古いGPUではサポートされていない新しい社内の[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)を導入しました。
 
@@ -144,7 +144,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最�
 
 ## 3Dオブジェクトは完全に滑らかに見えます
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
 **Height** [出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)に送信されたデータを処理すると、オブジェクトにはボリュームがあるように見えますが、シェーディングでHeight情報が無視されたかのように、*全体的に滑らかに*&#x200B;見えます。
 
@@ -152,7 +152,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最�
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)に接続されていることを確認してください。
 
@@ -163,7 +163,7 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 
 ## レンダリングがぼやけている/ピクセル化されている
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
 システムが&#x200B;*画面の拡大/縮小*&#x200B;を使用している場合、レンダリングされたイメージがぼやけたり、ピクセル化されたように見えます。
 
@@ -179,7 +179,7 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 初期設定では、Designerは&#x200B;*拡大/縮小*&#x200B;の表示解像度を使用して[3Dビュー](../../interface/3d-view/3d-view.md)のレンダリング解像度を定義します。 これを変更して、鮮明なレンダリングに&#x200B;*ネイティブ*&#x200B;のディスプレイ解像度を使用できます。
 
@@ -188,7 +188,7 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
 
 </td>
 </tr>
@@ -196,11 +196,11 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 
 ## &#39;Tessellation factor&#39;プロパティが見つかりません
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
 Designerをバージョン15.0.0にアップグレードした後、以前のマテリアルプロパティに「テッセレーション係数」パラメーターが見つかりません。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 新しいレンダラー（ラスタライザとGPU パストレーサー）を使用する場合、「テッセレーション係数」がこれらのレンダラーのプロパティにあります。 3Dビューで、<b>レンダラー/設定の編集</b>に移動します。 プロパティは、プロパティドックに表示されます。
 
@@ -214,20 +214,20 @@ Designerをバージョン15.0.0にアップグレードした後、以前のマ
 
 ## 3Dオブジェクトの見た目が正しくない：照明に合わせてシェーディングが調整されない
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
-オブジェクトのシェーディングは、法線、接線、および従法線ベクトルに依存します。 通常のマップではほとんどの場合[0, 1]の範囲が使用されますが、それらの座標では[-1, 1]の範囲が使用されます。 一方の値をもう一方の値に適応させるには、<b>バイアスとスケール</b>を適用する必要があります。value\*scale+biasです。
+オブジェクトのシェーディングは、法線、接線、および従法線ベクトルに依存します。 座標には`[-1, 1]`の範囲を使用しますが、法線マップではほとんどの場合`[0, 1]`の範囲を使用します。 一方の値をもう一方の値に適用するには、<b>バイアスとスケール</b>を適用する必要があります： `value * scale + bias`。
 
-例えば、スケール2とバイアス–1はx値[0, 1]から[-1, 1]にx値を適応させ、x\*2-1に変換します。
+たとえば、スケール2とバイアス–1は、x値を`[0, 1]`から`[-1, 1]`に強制的に適用します： `x * 2 - 1`。
 
-Designerでは、3Dメッシュで指定されていない限り、法線のスケールとバイアスは適用されません。 その情報が欠落している場合、[そのマテリアルのいずれかを上書き](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コンソールで警告が発生します：
+Designerでは、3D メッシュで指定されていない限り、標準尺度とバイアスは適用されません。 その情報が欠落している場合、[そのマテリアルのいずれかを上書き](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コンソールで警告が発生します：
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
 ```
 
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 少し前にUSD形式に書き出したシーンの場合：最新バージョンのUSDを使用してシーンを再書き出しします。これには必要なデータが含まれます。 法線のスケールとバイアスに関連するプロパティがある場合は、それに注意してください。これは、シーンのエクスポートに使用するソフトウェアによって異なります。
 
@@ -235,15 +235,15 @@ Designerでは、3Dメッシュで指定されていない限り、法線のス�
 
 ## 3Dビューの起動時にクラッシュする
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](3d-view-issues.resources/error.svg)問題**
 
 3Dビューの起動時、プロジェクトの作成時、プロジェクトの読み込み時、または3Dビューを手動で開始するときに、Designerがクラッシュする。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
 
 まず、ご使用のシステムがDesignerの[必要システム構成](../../getting-started/system-requirements/system-requirements.md)を満たしていることを確認してください。
 
-次に、グラフィックドライバーを更新します。 次のリンクを参照して、GPUの最新ドライバーを確認できます。[NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [インテル](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+次に、グラフィックドライバーを更新します。 次のリンクを参照して、GPUの最新ドライバーを確認できます。[NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [インテル](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 お使いのシステムに、統合GPU (iGPU)とディスクリートGPU (dGPU)の両方が搭載されている場合は、*両方のドライバーを更新*&#x200B;してください。
 

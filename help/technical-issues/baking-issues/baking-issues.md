@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ベイク処理の問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](baking-issues.resources/error.svg)問題</b>
 
 「一致」オプションが「メッシュ名による」に設定されている場合、一致が適用されないか、すべてのシーンオブジェクトに一貫して適用されません。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](baking-issues.resources/check.svg)推奨ステップ</b>
 
 Designer 14.1以前のバージョンでは、低ポリゴンおよび高ポリゴンのオブジェクトは、*親*&#x200B;オブジェクトの名前を使用して一致させられました。ほとんどの場合、親のトランスフォームです。
 
@@ -45,7 +45,7 @@ Designer 15.0以降、*ジオメトリ*&#x200B;オブジェクトの名前は直
 </td>
 <td style="border: 0;" valign="top">
 
-![シーンツリーのジオメトリオブジェクトとその親](../../assets/sceneTree_objectsName.png "シーンツリーのジオメトリオブジェクトとその親"){zoomable="yes"}
+![シーンツリーのジオメトリオブジェクトとその親](baking-issues.resources/baking-issues-01.png "シーンツリーのジオメトリオブジェクトとその親"){zoomable="yes"}
 
 </td>
 </tr>

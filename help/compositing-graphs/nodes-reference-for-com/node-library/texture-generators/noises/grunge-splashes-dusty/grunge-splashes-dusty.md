@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
-description: 経年劣化の飛び散りのほこりっぽいノードを使用して、風化したテクスチャのディテールを加えるほこりの飛び散ったパターンを作成します。
+description: 経年劣化スプラッシュのほこりのノードを使用して、風化したテクスチャのディテールを加えるほこりのスプラッシュパターンを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ほこりっぽい経年劣化飛沫
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grunge-splashes-dusty-01.jpg){width="200px"}
 
-**インチ：** *テクスチャジェネレーター* */ノイズ*
-
-**単純**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,31 +39,31 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **バランス** *浮動小数点*&#x200B;暗い値と明るい値のバランスを調整します。
-* **コントラスト** *浮動小数点*&#x200B;画像のコントラストを調整します。
-* **反転** *ブール値*`1-x`操作を使用して画像の出力を反転します。
-* **非正方形拡張** *ブール値*&#x200B;非正方形の比率でのスカッシュとストレッチの補正を有効にします。
-* アドバンス
-  * **はね量** *フロート*&#x200B;表面のはね量を調整します。
-  * **しぶきゆがみ** *フロート*&#x200B;しぶきに適用されるワープ効果の強さを調整します。
-  * **スプラッシュ/Dirt比** *フロート*&#x200B;表面のDirtとスプラッシュの&#x200B;*比*&#x200B;を調整します。
-  * **Dirtスプレッド** *フロート* Dirtのスプレッドを調整します。
+|  |  |
+|:---|:---|
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>詳細</b> |  |
+| <b>スプラッシュの数量</b> <i>フロート</i> | サーフェス上のスプラッシュの量を調整します。 |
+| <b>スプラッシュゆがみ</b> <i>フロート</i> | スプラッシュに適用されるワープ効果の強度を調整します。 |
+| <b>スプラッシュ/Dirt比</b> <i>フロート</i> | 表面のDirtとスプラッシュの&#x200B;*比*&#x200B;を調整します。 |
+| <b>Dirtスプレッド</b> <i>フロート</i> | Dirtの広がりを調整します。 |
 
-## サンプル画像
+## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungesplashesdusty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungesplashesdusty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-03.jpg" />
+        </td>
+    </tr>
 </table>

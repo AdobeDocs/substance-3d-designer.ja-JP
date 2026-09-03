@@ -10,9 +10,9 @@ helpx_tags: ""
 title: スプラインへのパス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/paths-to-splines-icon.png "ノードアイコン")
+![ノードアイコン](paths-to-spline.resources/paths-to-spline-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -47,35 +47,31 @@ ht-degree: 1%
 >
 > このノードは、[Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)ノードの後で、マスクをスプラインに変換するチェーンを形成するために使用できます。
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>パス</b> *色*\
-エンコードされたセグメントパスのリスト。 この入力を[マスクの結果にパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)または別のパス処理ノードに接続します。
+## 入力
 
-## 出力コネクタ
+|  |  |
+|:---|:---|
+| <b>パス</b> <i>色</i> | エンコードされたセグメントパスのリスト。 この入力を[マスクの結果にパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)または別のパス処理ノードに接続します。 |
 
-<b>スプライン座標&#x200B;</b>*色*&#x200B;入力スプラインの点の座標は、カラー画像のRGBAチャンネルでエンコードされます。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+<a name="outputs"></a>
 
-<b>スプラインデータ</b> *色*\
-<b>color</b>画像のRGBAチャンネルにエンコードされた入力スプラインの追加データ：\
-<b>R</b> – 接線X\
-<b>G</b> – 接線Y\
-<b>B</b> – 未使用\
-<b>A</b> – 未使用
+## 出力
 
-<b>スプラインの量</b> *整数*\
-入力スプラインの数。
+|  |  |
+|:---|:---|
+| <b>スプライン座標</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの点の座標：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> *記号：スプラインが閉じている（負）か開いている（正）;<br> *絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | <b>color</b>画像のRGBAチャンネルでエンコードされた入力スプラインの追加データ：<br><b>R</b> - 正接 X<br><b>G</b> - 正接 Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 入力スプラインの数。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>スプラインの精度</b> *整数*\
-対応するスプラインを構築するために入力されたパスの各パスでサンプリングされた頂点の数の2を底とする対数(log2)。
+|  |  |
+|:---|:---|
+| <b>スプラインの精度</b> <i>整数</i> | Paths入力の各パスでサンプリングされた頂点数の2を底とする対数(log2)で、対応するスプラインを構築します。 |
 
 ## 例
 
@@ -86,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-02.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/paths-to-spline-03.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -102,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-04.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/paths-to-spline-05.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>

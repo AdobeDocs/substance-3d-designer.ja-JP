@@ -10,10 +10,10 @@ helpx_tags: ""
 title: スプラインブリッジマッパーのグレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "ノードアイコン")
+![ノードアイコン](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -49,47 +49,38 @@ ht-degree: 0%
 >
 > [スプラインブリッジマッパーの色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-col/spline-bridge-mapper-color.md)も参照してください。
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>スプライン座標</b> *色*&#x200B;入力スプラインの点の座標は、カラー画像のRGBAチャンネルでエンコードされています：
+## 入力
 
-<b> R</b> - X位置\
-<b> G</b> - Y位置\
-<b> B</b> - Height\
-    <b>A</b> – パックされたデータ：\
-        *記号：スプラインが閉じている（負）か、開いている（正）;\
-        *絶対値：Thickness + 1。
+|  |  |
+|:---|:---|
+| <b>スプライン座標</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの点の座標：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> – 記号：スプラインが閉じている（負）か開いている（正）;<br>-絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データ。<br><b>R</b> -正接X<br><b>G</b> -正接Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 入力スプラインの数。 |
+| <b>カラーマップ</b> <i>グレースケール</i> | 入力スプラインにマップする必要がある入力グレースケールイメージ。 |
 
-<b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
-<b> R</b> – 接線X\
-<b> G</b> – 接線Y\
-<b> B</b> – 未使用\
-<b> A</b> – 未使用
+<a name="outputs"></a>
 
-<b>スプラインの量</b> *整数*&#x200B;入力スプラインの数です。
+## 出力
 
-<b>カラーマップ&#x200B;</b>*グレースケール*&#x200B;入力スプラインにマップする必要がある入力グレースケールイメージです。
+|  |  |
+|:---|:---|
+| <b>色</b> <i>グレースケール</i> | 入力カラー画像をスプラインにマッピングした結果(グレースケールイメージ)。 |
+| <b>Height</b> <i>グレースケール</i> | グレースケールイメージとして、スプラインにマッピングされたスプラインのHeight。 |
+| <b>UV</b> <i>色</i> | カラー画像の赤(U)チャンネルと緑(V)チャンネルでエンコードされた、マッピングされた画像のUV（座標）。 |
+| <b>マスク</b> <i>グレースケール</i> | スプライン間のマッピングのマスク。 |
 
-## 出力コネクタ
-
-<b>色</b> *グレースケール*&#x200B;入力カラー画像をスプラインに対してグレースケール画像としてマッピングした結果です。
-
-<b>Height</b> *グレースケール*&#x200B;スプラインにマップされたスプラインのHeightをグレースケールイメージで表したものです。
-
-<b>UV</b> *色*&#x200B;マップされたイメージのUV （座標）で、カラー画像の赤(U)および緑(V)チャンネルでエンコードされます。
-
-<b>マスク</b> *グレースケール*&#x200B;スプライン間のマッピングのマスク。
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>セグメント数</b> *整数*&#x200B;スプラインは、イメージ座標が通過する前にセグメントに簡略化されます。\
-セグメントの数が多いほど、曲線に沿ったマッピングがスムーズになります。
-
-<b>UVの伸縮を縮小</b> *ブール値*&#x200B;スプライン間の距離が不均等な場合にストレッチを最小限に抑えるために、1つのスプラインから次のスプラインにイメージ座標を補間する方法を調整します。
-
-<b>UV スケール</b> *浮動小数点2*&#x200B;画像座標のスケールを調整します。 値を大きくすると、画像がより密集してタイルされます。
-
-<b>UV回転</b> *フロート*&#x200B;画像の座標を中心に回転します。
+|  |  |
+|:---|:---|
+| <b>セグメント数</b> <i>整数</i> | スプラインは、イメージ座標が通過する前にセグメントに簡略化されます。 セグメントの数が多いほど、曲線に沿ったマッピングがスムーズになります。 |
+| <b>UVの伸縮を縮小</b> <i>ブール値</i> | 1つのスプラインから次のスプラインへのイメージ座標の補間方法を調整し、スプライン間の距離が不均等な場合の伸縮を最小限に抑えます。 |
+| <b>UV スケール</b> <i>浮動小数点2</i> | 画像座標の尺度を調整します。 値を大きくすると、画像がより密集してタイルされます。 |
+| <b>UV回転</b> <i>フロート</i> | イメージ座標を中心を基準に回転します。 |
 
 ## 例
 
@@ -100,11 +91,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -113,7 +104,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineBridgeMapper-Demo.gif "ノードの例2")
+![ノードの例2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "ノードの例2")
 
 </td>
 </tr>
@@ -123,12 +114,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "ノードの例1")
+![ノードの例1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "ノードの例2")
+![ノードの例2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "ノードの例2")
 
 </td>
 </tr>

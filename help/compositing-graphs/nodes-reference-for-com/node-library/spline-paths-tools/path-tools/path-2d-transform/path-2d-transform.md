@@ -10,10 +10,10 @@ helpx_tags: ""
 title: パス2D変形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: '235'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/path-2d-transform-icon.png "ノードアイコン")
+![ノードアイコン](path-2d-transform.resources/path-2d-transform-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -39,26 +39,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>パス</b> *色*\
-エンコードされたセグメントパスのリスト。 この入力を[マスクの結果にパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)または別のパス処理ノードに接続します。
+## 入力
 
-## 出力コネクタ
+|  |  |
+|:---|:---|
+| <b>パス</b> <i>色</i> | エンコードされたセグメントパスのリスト。 この入力を[マスクの結果にパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)または別のパス処理ノードに接続します。 |
 
-<b>パス</b> *色*\
-変換されたパス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。
+<a name="outputs"></a>
+
+## 出力
+
+|  |  |
+|:---|:---|
+| <b>パス</b> <i>色</i> | 変換されたパス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>マトリックスの変形</b> *浮動小数点4*\
-スプラインに適用される変換行列。 行列パラメーターを編集するには、次の3つのモードを使用できます。\
-*– 変換ギズモ：*&#x200B;スプライン2D変換ノードが選択されている場合、[2Dビュー](../../../../../../interface/2d-view/2d-view.md)に表示されたギズモのハンドルを調整します。\
-*– 回転/伸縮：*&#x200B;スプラインの回転と伸縮を個別に制御します。 値は常に現在の変換に対して相対的に適用されることに注意してください。 例えば、50%の幅を2回適用すると、25%の幅になります。\
-*– 行列の値：* <b>[行列の値の編集]</b>ボタンをクリックして、行列の生の数値を直接入力します。
-
-<b>オフセット</b> *浮動小数点2*\
-位置オフセットをX（水平）およびY（垂直）のスプラインに適用します。
+|  |  |
+|:---|:---|
+| <b>マトリックスの変形</b> <i>浮動小数点4</i> | スプラインに適用される変換行列。 マトリックスパラメーターは、次の3つの方法で編集できます。<br>*– 変換ギズモ：*&#x200B;スプライン2D変形ノードが選択された場合、[2D ビュー](../../../../../../interface/2d-view/2d-view.md)に表示されたギズモのハンドルを微調整します。<br>*– 回転/伸縮:*&#x200B;スプラインの回転と伸縮を個別に制御します。 値は常に現在の変換に対して相対的に適用されることに注意してください。 例えば、50%の幅を2回適用すると、幅が25%になります。<br>*– 行列の値：* <b>行列の値を編集</b>ボタンをクリックして、行列の生の数値を直接入力します。 |
+| <b>オフセット</b> <i>浮動小数点2</i> | 位置オフセットをX（水平）およびY（垂直）のスプラインに適用します。 |
 
 ## 例
 
@@ -69,11 +73,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Paths2DTransform-Variant1">
       <br><i>後</i>
     </td>
   </tr>
@@ -85,11 +89,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
+      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Paths2DTransform-Variant2">
       <br><i>後</i>
     </td>
   </tr>

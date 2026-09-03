@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 均一カラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：均一な色](../../../../assets/comp_uniform_1.png "原子ノード：均一な色"){width="200px"}
+![原子ノード：均一な色](uniform-color.resources/uniform-color-01.png "原子ノード：均一な色"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ ht-degree: 8%
 |  |  |
 | --- | --- |
 | <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 |
-| <b>出力色</b> *フロート/フロート4* | 出力画像に使用する単色を選択します。   「カラー」カラーモードを使用する場合、Alphaチャンネルは不透明度に使用されます。0は完全に透明で、1は完全に不透明です。 |
+| <b>出力色</b> *フロート/フロート4* | 出力画像に使用する単色を選択します。   「カラー」カラーモードを使用する場合、Alphaチャンネルは不透明度に使用されます。0は完全に透明で、1は完全に不透明です。 |
 
 ## 出力コネクタ
 

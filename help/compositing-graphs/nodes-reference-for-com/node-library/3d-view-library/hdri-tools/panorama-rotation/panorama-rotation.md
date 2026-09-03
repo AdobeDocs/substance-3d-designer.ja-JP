@@ -10,10 +10,10 @@ helpx_tags: ""
 title: パノラマの回転
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
 
-## パノラマの回転
-
-**イン：** *3Dビュー/HDRI ツール*
-
-**単純**
+<b>内：</b> 3D ビュー > HDRI ツール
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 入力された球面にマップされたパノラマ画像を中心点を中心に回転させ、投影/マッピングを正確に保ちます。 HDRI画像のティルトや調整に便利です。
 
-## パラメーター
-
-* **回転**: *0.0 ～ 1.0*
-* **方向角度**: *0.0 ～ 1.0*
-* **極の周りの事前回転**: *-1.0 - 1.0*
-* **極の周りのポスト回転**: *0.0 ～ 1.0*
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>回転</b> <i>0.0 - 1.0</i> |  |
+| <b>方向角度</b> <i>0.0 - 1.0</i> |  |
+| <b>極の周りの事前回転</b> <i>-1.0 - 1.0</i> |  |
+| <b>柱の周りのポスト回転</b> <i>0.0 - 1.0</i> |  |

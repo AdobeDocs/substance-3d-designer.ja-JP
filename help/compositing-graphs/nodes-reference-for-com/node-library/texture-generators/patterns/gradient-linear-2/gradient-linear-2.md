@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 線形グラデーション2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 2%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-2.png){width="128px"}
+![](gradient-linear-2.resources/gradient-linear-2-01.png){width="128px"}
 
-## 線形グラデーション2
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**単純**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,16 +37,25 @@ ht-degree: 2%
 
 シンプルであるにもかかわらず、非常に便利であり、多くの目的に役立ちます。 例えば、[ヒストグラムスキャン](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)と一緒にお試しください。
 
-## パラメーター
-
-* **タイル**: *1 - 16*\
-  結果をタイルする回数を設定します。
-* **回転**: **0, 90°**&#x200B;方向を左右から上下に、またはその逆に変更します。
-
-## サンプル画像
-
-![](../../../../../../assets/gradient-linear-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>タイル表示</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+| <b>回転</b> <i>0, 90°</i> | 方向を左右から上下に、またはその逆に変更します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-2.resources/gradient-linear-2-02.gif" />
+        </td>
+    </tr>
 </table>

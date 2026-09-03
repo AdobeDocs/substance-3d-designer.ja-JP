@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード： FX-Map](../../../../assets/fxmap.png "Atomicノード： FX-Map"){width="200px"}
+![Atomicノード： FX-Map](fx-map.resources/fx-map-01.png "Atomicノード： FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 
 |  |  |
 | --- | --- |
-| <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 カラーは、グレースケールよりもはるかに低速になります。 |
+| <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 カラーは、グレースケールよりもはるかに低速になります。 |
 | <b>背景</b> *フロート/フロート4* | 結果を合成する背景色を設定します。 |
 | <b>領域のレンダリング</b> *浮動小数点4* | FX-Mapの各側面の開始ピクセル範囲を設定し、結果としてストレッチ効果を作成できます。 |
 | <b>タイル領域</b> *浮動小数点4* | FX-Mapのタイリング距離をオフセットします。 |
@@ -102,4 +102,4 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 
 ## 例
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

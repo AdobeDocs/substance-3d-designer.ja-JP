@@ -10,10 +10,10 @@ helpx_tags: ""
 title: サンブリーチ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/sun-bleach.png){width="128px"}
+![](sun-bleach.resources/sun-bleach-01.png){width="128px"}
 
-## サンブリーチ
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**単純**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,26 +37,36 @@ ht-degree: 1%
 
 このマスクは[ライト](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)に似ていますが、AOもサポートされており、効果の上に明るい白レベルとフェードレベルを表すマスクになります。
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 入力
 
-* **標準のワールドスペース**: *カラー入力*
-* **環境オクルージョン**: *グレースケール入力*\
-  内部エフェクトおよびマスクに使用されるベイク済みマップ。
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
+|  |  |
+|:---|:---|
+| <b>通常のワールド空間</b> <i>カラー入力</i> |  |
+| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-* **レベル**: *0.0 ～ 1.0*\
-  漂白の総量を設定し、効果をさらに下げます。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
-* **オクルージョン**: *0.0 ～ 1.0*&#x200B;最終結果に対するAOの影響を設定します。
+|  |  |
+|:---|:---|
+| <b>レベル</b> <i>0.0 - 1.0</i> | 漂白の総量を設定し、効果をさらに下げます。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
+| <b>オクルージョン</b> <i>0.0 - 1.0</i> | 最終結果に対するAOの影響を設定します。 |
 
-## サンプル画像
+## 例
 
-![](../../../../../../assets/sun-bleach-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="sun-bleach.resources/sun-bleach-02.gif" />
+        </td>
+    </tr>
 </table>

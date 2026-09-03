@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ブルーノイズ（高速）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blue-noise.png){width="128px"}
+![](blue-noise-fast.resources/blue-noise-fast-01.png){width="128px"}
 
-## ブルーノイズ（高速）
-
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**単純**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 単純で高速なピクセルスケールのノイズです。
 
-## パラメーター
-
-* **回転**: *0.0 ～ 1.0*&#x200B;エフェクトの内部計算を回転します。 これにより、ノイズの見た目が大きく変わる場合があります。1から遠くなるほどエフェクトのピクセルスケールが小さくなり、より目に見える「波」が追加されます。
-
-## サンプル画像
-
-![](../../../../../../assets/blue-noise-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>回転</b> <i>0.0 - 1.0</i> | エフェクトの内部計算を回転します。 これにより、ノイズの見た目が大きく変わる場合があります。1から遠くなるほどエフェクトのピクセルスケールが小さくなり、より目に見える「波」が追加されます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="blue-noise-fast.resources/blue-noise-fast-02.gif" />
+        </td>
+    </tr>
 </table>

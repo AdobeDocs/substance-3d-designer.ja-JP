@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 露出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/exposure-9.png){width="250px"}
+![](exposure.resources/exposure-01.png){width="250px"}
 
-## 露出
-
-**イン：** *3Dビュー/HDRI ツール*
-
-**単純**
+<b>内：</b> 3D ビュー > HDRI ツール
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 入力画像の露光量を調整します。 写真編集ソフトウェアと同様に、「ストップ」値の概念でHDR写真を明るくしたり暗くしたりします。
 
-## パラメーター
-
-* **露光量(EV)** : *-8.0 ～ 8.0*&#x200B;露光量の値（ストップ）。
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>露光量(EV)</b> <i>-8.0 - 8.0</i> | 露光量の値（単位：ストップ）。 |

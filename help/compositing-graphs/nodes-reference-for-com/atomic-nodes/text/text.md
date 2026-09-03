@@ -10,7 +10,7 @@ helpx_tags: ""
 title: テキスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード： Text](../../../../assets/comp_text_1.png "Atomicノード： Text"){width="200px"}
+![Atomicノード： Text](text.resources/text-01.png "Atomicノード： Text"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,19 +84,19 @@ Truetype(.ttf)および特定のOpentypeフォントのみがサポートされ�
 | <b>テキスト</b> *文字列* | テキストの説明を指定します。 |
 | <b>フォント</b> *文字列* | テキストのレンダリングに使用するフォントリソース。 |
 | <b>フォントサイズ</b> *フロート* | テキストのフォントサイズをポイントで指定します。 |
-| <b>整列</b> *整数* | テキストの左揃え、中央揃え（デフォルト）、右揃えを設定します。 |
-| <b>変換</b> *浮動小数点4* | レンダリングされたテキストに適用される2 x 2の変換行列。 |
+| <b>整列</b> *整数* | テキストのアラインメントを左、中央（デフォルト）、または右に設定します。 |
+| <b>変換</b> *浮動小数4* | レンダリングされたテキストに適用される2 x 2の変換行列。 |
 | <b>位置</b> *浮動小数点2* | 出力画像でのテキストの位置。 |
-| <b>背景</b> *フロート/フロート4* | 出力画像の背景色です。 |
+| <b>背景</b> *浮動小数/浮動小数4* | 出力画像の背景色です。 |
 | <b>フォントの色</b> *フロート/フロート4* | テキストの色。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |
 | <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | 出力画像の背景色です。 |
 
-## 出力コネクタ
+## 出力コネクター
 
 |  |  |
 | --- | --- |

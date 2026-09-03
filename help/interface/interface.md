@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Workspace
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Designerの初期設定のドックのレイアウトは次のとおりです。
 
-![Substance 3D Designerのメインウィンドウ](../assets/interface-overview.jpg "Substance 3D Designerのメインウィンドウ")
+![Substance 3D Designerのメインウィンドウ](interface.resources/interface-01.jpg "Substance 3D Designerのメインウィンドウ")
 
 <table>
 <tr style="border: 0;">
@@ -34,19 +34,19 @@ Designerの初期設定のドックのレイアウトは次のとおりです。
 
 <b>2</b>エクスプローラー
 
-<b>3</b>グラフビュー
+<b>3</b> グラフビュー
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>4</b>のプロパティ
 
-<b>5</b> 2Dビュー
+<b>5</b> 2D ビュー
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>6</b> 3Dビュー
+<b>6</b> 3D ビュー
 
 <b>7</b>ライブラリ
 
@@ -68,12 +68,12 @@ Designerの初期設定のドックのレイアウトは次のとおりです。
 
 ## メインメニューとツールバー
 
-メインツールバーからは、[環境設定ウィンドウ](../interface/preferences-window/preferences-window.md)などの追加メニューにアクセスできます。また、新しいSubstanceグラフやパッケージをすばやく作成するためのいくつかのボタンも使用できます。
+メインツールバーからは、[環境設定ウィンドウ](../interface/preferences-window/preferences-window.md)などの追加のメニューにアクセスできます。また、新しいSubstance グラフやパッケージをすばやく作成するためのボタンも用意されています。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![メインメニューとツールバー](../assets/mainmenu-1.png "メインメニューとツールバー")
+![メインメニューとツールバー](interface.resources/interface-02.png "メインメニューとツールバー")
 
 </td>
 </tr>
@@ -89,34 +89,34 @@ Designerの初期設定のドックのレイアウトは次のとおりです。
 
 [エクスプローラーウィンドウ](the-explorer-window/the-explorer-window.md)は、あらゆる種類のファイルやリソースを操作するための主要な方法です。 メインツールバーのファイルメニューよりも多くのオプションを提供します。ここで、すべての作業セッションの開始と終了が行われます。
 
-![エクスプローラー](../assets/explorer-4.png "エクスプローラー")
+![エクスプローラー](interface.resources/interface-03.png "エクスプローラー")
 
 ## グラフビュー
 
 [グラフビューのドック](../interface/the-graph-view/the-graph-view.md)は、Substance 3D Designerで最も重要なウィンドウです。 Designerで使用可能な任意の種類のグラフ（[Substanceグラフ](../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../function-graphs/function-graphs.md)、[FX-Mapグラフ](../function-graphs/fxmaps/fxmaps.md)）のノードネットワークを表示し、作成および編集できます。
 
-![グラフビュー](../assets/graph-6.png "グラフビュー")
+![グラフビュー](interface.resources/interface-04.png "グラフビュー")
 
 ## プロパティ
 
-[プロパティドック](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)は、最も技術的なウィンドウです。 これは常に状況依存であり、選択したリソースまたはノードの動作を変更するスライダー、ドロップダウン、およびその他の要素を表示します。
+[プロパティドック](properties/properties.md)は、最も技術的なウィンドウです。 これは常に状況依存であり、選択したリソースまたはノードの動作を変更するスライダー、ドロップダウン、およびその他の要素を表示します。
 
-![プロパティ](../assets/properties-15.jpg "プロパティ")
+![プロパティ](interface.resources/interface-05.jpg "プロパティ")
 
 ## 2D ビュー
 
 [2Dビュー](../interface/2d-view/2d-view.md)は最も簡単なプレビューツールです。 この機能は、グラフと密接に連携しています。グラフビューの任意のノードをダブルクリックすると、2Dビューに視覚的な結果が表示されます。
 
-![2Dビュー](../assets/2d-view-1.jpg "2Dビュー")
+![2Dビュー](interface.resources/interface-06.jpg "2Dビュー")
 
 ## 3D ビュー
 
 [3Dビュー](../interface/3d-view/3d-view.md)は、最もインタラクティブで高度なプレビューウィンドウです。 2Dビューとは異なり、マテリアル全体をレンダリングするには、さまざまな出力マップを使用します。 つまり、ベースカラー、法線、粗さなど、すべてのチャンネルが表示されます。
 
-![3Dビュー](../assets/3dview-3.jpg "3Dビュー")
+![3Dビュー](interface.resources/interface-07.jpg "3Dビュー")
 
 ## ライブラリ
 
-[ライブラリドック](../interface/the-library/the-library.md)では、Designerのライブラリに含まれているすべてのコンテンツと[カスタムコンテンツ](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)に既定でアクセスできます。 アトミックノードとライブラリ内のインスタンスノードの違いをより深く理解するには、[ノードの概要](https://helpx.adobe.com/substance-designer/using/nodes-overview.html)を参照してください。
+[ライブラリドック](../interface/the-library/the-library.md)では、Designerのライブラリに含まれているすべてのコンテンツと[カスタムコンテンツ](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)に既定でアクセスできます。
 
-![ライブラリ](../assets/library-3.jpg "ライブラリ")
+![ライブラリ](interface.resources/interface-08.jpg "ライブラリ")

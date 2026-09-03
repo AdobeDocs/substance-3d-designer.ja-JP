@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プラグイン検索パス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Designerは、特定のディレクトリ（検索パスなど）でプラグイ
 1. <b>Python</b>タブで、*<b>+</b>*ボタンをクリックして、プラグインを含むディレクトリを追加します
 1. 「<b>OK</b>」をクリックして検証します
 
-![Pythonプラグイン検索パスの設定プロジェクト設定](../../assets/image-70.png "Pythonプラグイン検索パスの設定プロジェクト設定")
+![Pythonプラグイン検索パスの設定プロジェクト設定](plugin-search-paths.resources/plugin-search-paths-01.png "Pythonプラグイン検索パスの設定プロジェクト設定")
 
 ## 環境変数の使用
 

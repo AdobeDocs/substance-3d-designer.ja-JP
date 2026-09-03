@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 最小最大
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
@@ -22,33 +22,31 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/min-max.png){width="200px"}
+![](min-max.resources/min-max-01.png){width="200px"}
 
-## 最小最大
-
-**イン：** *フィルター/調整*
-
-**中級**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-「最小最大」は、グレースケール入力の最も明るい値と最も暗い値を検索し、[値](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)として返します。 これは、[レベル](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)ノードの値入力を公開し、Min Maxの値をプラグインする[自動レベル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)に代わるより細かい手動の方法として設計されています。
+「最小最大」を指定すると、グレースケール入力の最も明るい値と最も暗い値が検索され、[値](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)として返されます。 これは、[レベル](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)ノードの値入力を公開し、Min Maxの値をプラグインする[自動レベル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)に代わるより細かい手動の方法として設計されています。
 
-このノードをレベルで使用するには、[[パラメーターの公開]ドロップダウン](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)と[[値の入力]タブ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)の使用方法を少なくとも理解している必要があります。
-
-## パラメーター
-
-*パラメーターがありません。*
-
-## サンプル画像
-
-![](../../../../../../assets/minmax.png)
+このノードをレベルで使用するには、[[パラメーターの公開]ドロップダウン](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)と[[値の入力]タブ](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)の使い方を少なくとも知っている必要があります。
 
 </td>
 </tr>
+</table>
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="min-max.resources/min-max-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラデーション (ダイナミック)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード： Gradient dynamic](../../../../assets/comp_dyngradient_1.png "原子ノード： Gradient dynamic"){width="200px"}
+![原子ノード： Gradient dynamic](gradient-dynamic.resources/gradient-dynamic-01.png "原子ノード： Gradient dynamic"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -94,8 +94,8 @@ Gradient (Dynamic)は単独で使用するのが難しいノードではあり�
 
 |  |  |
 | --- | --- |
-| <b>グラデーションのアドレス指定</b> *ブール値* | グラデーションを繰り返す（タイル状にする）か、クランプするかを設定します。   このパラメーターは、グレースケール入力の[0, 1]の範囲のHDRピクセルのうち、どのように処理されるかを決定します： [0, 1]までクランプまたは折りたたみます。 |
-| <b>グラデーションの向き</b> *整数* | 「グラデーション入力」をサンプリングする軸を設定します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>水平方向：</i> X軸でピクセルの行をサンプリングします。</li> <li data-preserve-html="true"><i>垂直方向：</i> Y軸上のピクセル列をサンプリングします。</li> </ul> |
+| <b>グラデーションのアドレス指定</b> *ブール値* | グラデーションを繰り返す（タイル状にする）か、クランプするかを設定します。   このパラメーターは、グレースケール入力の[0, 1]の範囲のHDRピクセルのうち、[0, 1]までのクランプまたは折りたたみを処理する方法を指定します。 |
+| <b>グラデーションの向き</b> *整数* | 「グラデーション入力」をサンプリングする軸を設定します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>水平方向：</i> X軸のピクセル列をサンプリングします。</li> <li data-preserve-html="true"><i>垂直方向：</i> Y軸のピクセル列をサンプリングします。</li> </ul> |
 | <b>グラデーションの入力位置</b> *フロート* | 「グラデーション入力」でサンプリングされるピクセルの行または列の正規化された位置。 |
 
 ## 入力コネクタ

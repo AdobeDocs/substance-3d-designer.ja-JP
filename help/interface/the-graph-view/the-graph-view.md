@@ -10,9 +10,9 @@ helpx_tags: ""
 title: グラフビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 > 
 > ズーム方向は、[環境設定](../../interface/preferences-window/preferences-window.md)で反転できます。
 
-![ビューポートナビゲーション](../../assets/navigating.gif "ビューポートナビゲーション")
+![ビューポートナビゲーション](the-graph-view.resources/the-graph-view-01.gif "ビューポートナビゲーション")
 
 Fキーを使用して、選択したノードまたは何も選択されていない場合はグラフ全体に<b>フォーカス</b>します。
 
@@ -112,7 +112,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 <b>すべて選択：</b>グラフ内のすべてのノードを選択します。
 
-<b>前のピン：</b>グラフ内の前の[ピン](../../interface/the-graph-view/graph-items/graph-items.md)オブジェクトに移動します。
+<b>前のピン:</b> グラフ内の前の[ピン](../../interface/the-graph-view/graph-items/graph-items.md)オブジェクトに移動します。
 
 <b>次のピン：</b>グラフ内の次の[ピン](../../interface/the-graph-view/graph-items/graph-items.md)オブジェクトに移動します。
 
@@ -122,7 +122,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 <b>削除して再リンク：</b>選択したノードを削除し、可能であればアップストリームノードからダウンストリームノードに直接接続して置き換えます。
 
-<b>選択範囲の複製：</b>選択したノードを、上流の接続を含めて同じグラフのカーソルの位置に複製します。 カーソルがグラフビューのビューポートにない場合、ノードはビューポートの中心に配置されます。
+<b>選択範囲の複製：</b>選択したノードを、上流のコネクションを含めて同じグラフのカーソルの場所に複製します。 カーソルがグラフビューのビューポートにない場合、ノードはビューポートの中心に配置されます。
 
 <b>リンクなしで選択を複製：</b>カーソルの位置で、選択したノードを同じグラフに複製します（上りの接続を除く）。 カーソルがグラフビューのビューポートにない場合、ノードはビューポートの中心に配置されます。
 
@@ -130,7 +130,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 <b>ダウンストリームノードの選択：</b>選択したノードのダウンストリームのすべてのノードを選択します。
 
-<b>リンクの入れ替え\*:</b>選択した入力コネクタと出力コネクタのペアの接続を入れ替えます。
+<b>リンクを入れ替え\*:</b>選択した入力と出力のコネクターの組み合わせでつながりを入れ替えます。
 
 <b>ノード/選択を無効にする：</b>選択したノードを無効にして、ストリームの結果に影響を与えないようにします。以下の<b>ノードを無効にする</b>を参照してください。
 
@@ -142,7 +142,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 ### ノードの作成と管理
 
-ノードは、グラフの種類に関係なく、次の5つの方法でグラフに配置できます。
+グラフの種類に関係なく、次の5つの方法でグラフにノードを配置できます。
 
 * ノードツールバーのアイコンをクリックまたはドラッグします（以下を参照）。 この方法で配置できるのは[Atomicノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみです。
 * グラフの空の領域を右クリックして、<b>[ノードの追加]</b>を選択します。 この方法で配置できるのは[Atomicノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみです。
@@ -150,7 +150,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 * <b>スペースバー</b>を押して、<b>ノードメニュー</b>にアクセスします。 以下を参照してください。
 * ノードにマップされたキーボードショートカットを使用します。 マッピングは[環境設定ウィンドウ](../../interface/preferences-window/preferences-window.md)で実行されます。
 
-![ノードの配置](../../assets/nodecreation.gif "ノードの配置")
+![ノードの配置](the-graph-view.resources/the-graph-view-02.gif "ノードの配置")
 
 別のノードを選択したときにノードが配置された場合、Designerは新しいノードを古いノードに自動的に接続しようとします。\
 この自動接続により、古いノードの&#x200B;*後*&#x200B;の新しいノードが常にフローに配置されます。
@@ -180,7 +180,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グラフビュー：ノードメニュー](../../assets/graph-node-menu_fuzzy-search.png "グラフビュー：ノードメニュー")
+![グラフビュー：ノードメニュー](the-graph-view.resources/the-graph-view-03.png "グラフビュー：ノードメニュー")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 * <b>アップストリーム：</b>ノードのRMBをクリックして、<b>アップストリームノードの選択</b>オプションを選択します。ノードと、ノードの&#x200B;*入力*&#x200B;に接続されているストリームの一部であるすべてのノードが選択されます。
 * <b>ダウンストリーム：</b>ノード上のRMBをクリックして、<b>ダウンストリームノードの選択</b>オプションを選択します。ノードおよびノードの&#x200B;*出力*&#x200B;に接続されているストリームの一部であるすべてのノードが選択されます。
 
-![ノードの選択](../../assets/graph-selecting-nodes.gif "ノードの選択")
+![ノードの選択](the-graph-view.resources/the-graph-view-04.gif "ノードの選択")
 
 ### ノードコンテキストメニュー
 
@@ -268,7 +268,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 > * *input*&#x200B;コネクタの場合：ノードは、その入力に設定された既定値に戻ります。
 > * *output*&#x200B;コネクタの場合：グラフの計算時にデータは無視され、破棄されます。
 
-![ノードの接続](../../assets/links.gif "ノードの接続")
+![ノードの接続](the-graph-view.resources/the-graph-view-05.gif "ノードの接続")
 
 *任意の順序*&#x200B;で、各コネクタの[LMB]をクリックして、新しいリンクを<b>作成</b>できます。\
 また、ノードAが選択されている状態でノードBが作成された場合、ノードAの&#x200B;*最初の出力*&#x200B;はノードBの&#x200B;*プライマリ入力*&#x200B;に自動的に接続されます。
@@ -277,9 +277,9 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 <b>削除：</b>リンク上のLMBをクリックして&#x200B;*削除*<b>&#x200B;または</b>を押すか、リンクがある接続をAltキーを押しながらクリックして、リンクを削除します。 Altキーを押しながらクリックすると、その接続上のすべてのリンクが削除されます。
 
-<b>複製：</b> Ctrlキーを押しながらコネクタのLMBをクリックし、カーソルをドラッグしてリンクを複製します。 別のコネクタのLMBをクリックしてリンクを接続します。
+<b>複製：</b> Ctrlキーを押しながらカーソルのLMBをクリックしてコネクターをドラッグし、リンクを複製します。 別のコネクターでLMBをクリックしてリンクを接続します。
 
-<b>移動：</b> Shiftキーを押しながらコネクタのLMBをクリックしてカーソルをドラッグすると、コネクタから別のコネクタにリンクを選択して移動できます。 別のコネクタの[LMB]をクリックして、リンクを接続します。
+<b>移動：</b> Shiftキーを押しながらカーソルのLMBをクリックしてコネクターをドラッグすると、リンクを選択してコネクター間を移動できます。 別のコネクターで「LMB」をクリックしてリンクを接続します。
 
 ### ノードの無効化
 
@@ -291,14 +291,14 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 無効になっているノードの動作は次のとおりです。
 
-* ![](../../assets/graph-badge-disabled.png) <b>無効</b>バッジ&#x200B;*、* a *破線のアウトライン*、サムネイルの代わりに内部の*再ルーティング*リンクが表示されます。
+* ![](the-graph-view.resources/the-graph-view-06.png) <b>無効</b>バッジ&#x200B;*、* a *破線のアウトライン*、サムネイルの代わりに内部の*再ルーティング*リンクが表示されます。
 * ノードは、*メイン入力*&#x200B;で受信したデータを出力します。
 * 無効なノードは&#x200B;*チェーン*&#x200B;できます。
 * プロパティと接続は&#x200B;*変更されていません*;
 * 無効な状態は&#x200B;*保存*&#x200B;されており、セッション間で維持されます。
 * SBSARに公開する場合、結果のファイルはノードの無効な状態を&#x200B;*考慮*&#x200B;します。つまり、表示されたものが取得されます。
 
-<b>Shift + D</b>のキーストロークを使用するか、グラフを右クリックしてコンテキストメニューの<b>ノードを無効にする/選択を無効にする</b>項目を選択すると、ノードまたは選択したノードのグループを無効にできます。
+<b>Shift + D</b>のキーストロークを使用するか、ノードを右クリックしてコンテキストメニューの<b>Disable node/Disable selection</b>をクリックすると、選択したグラフのノードまたはグループを無効にできます。
 
 >[!IMPORTANT]
 >
@@ -309,7 +309,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 > * メイン入力と出力の&#x200B;*型*&#x200B;は&#x200B;*一致*&#x200B;する必要があります（グレースケールからグレースケール、色から色など）
 > * 選択したすべてのノードの状態が&#x200B;*同じである*&#x200B;必要があります。つまり、すべてのノードを有効にする必要があり、有効にする場合も同じルールが適用されます
 
-![ノードを無効にしています](../../assets/graph-disable-node.gif "ノードを無効にしています"){width="512px"}
+![ノードを無効にしています](the-graph-view.resources/the-graph-view-07.gif "ノードを無効にしています"){width="512px"}
 
 ## 2Dビューを操作する
 
@@ -341,78 +341,78 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 メインツールバーは、すべてのグラフタイプに含まれており、一般的な機能を提供するとともに、他のツールバーを表示するかどうかを切り替えることができます。 次の関数が用意されています。
 
-![](../../assets/image2020-6-26-16-25-57.png) <b>フォーカスの選択</b> (F)\
+![](the-graph-view.resources/the-graph-view-08.png) <b>フォーカスの選択</b> (F)\
 選択範囲にフォーカスを合わせるか、選択範囲が空の場合はシーン全体をフォーカスします。
 
-![](../../assets/image2020-6-26-16-26-8.png) <b>ズームのリセット</b> (Z)\
+![](the-graph-view.resources/the-graph-view-09.png) <b>ズームのリセット</b> (Z)\
 現在のズームレベルをデフォルトの状態に戻し、ビューをグラフの中央に配置します。 ズームインまたはズームアウトです。
 
-![](../../assets/image2020-6-26-16-26-26.png) <b>グラフビューのエクスポート\
+![](the-graph-view.resources/the-graph-view-10.png) <b>グラフビューのエクスポート\
 </b>グラフ全体を1:1の解像度で画像としてエクスポートします。 グラフ全体のスクリーンショットを共有する場合に便利です。
 
-![](../../assets/image2020-6-26-16-26-37.png) <b>ノード情報\
+![](the-graph-view.resources/the-graph-view-11.png) <b>ノード情報\
 </b>*– コネクタ名の表示：*&#x200B;ノード上の各コネクタの名前の表示を切り替えます。\
 *– ノードバッジの表示：*&#x200B;すべてのノードのノードバッジを切り替えます。\
 *– ノードサイズの表示：*&#x200B;ノード解像度の表示を切り替えます（[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)のみ）。\
 *– 表示タイミング：*&#x200B;各ノードのミリ秒のタイミングの表示を切り替えます（[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)のみ）。\
 *– ズームアウト時に文字の拡大を制限する：* [グラフ項目](../../interface/the-graph-view/graph-items/graph-items.md)の文字は、ズームのしきい値を超えて一定の画面サイズに維持され、ズームアウト時に文字が明確に表示されます。
 
-![](../../assets/image2020-6-26-16-26-52.png)<b>ノードファインダー</b> (Ctrl+F)\
+![](the-graph-view.resources/the-graph-view-12.png)<b>ノードファインダー</b> (Ctrl+F)\
 ツールがグラフ内のノード、公開されたパラメーター、その他の変数を検索できるようにします。 詳細については、[専用ページ](../../interface/the-graph-view/node-finder/node-finder.md)を参照してください。
 
-![](../../assets/image2020-6-26-16-27-43.png) <b>フローの強調表示\
+![](the-graph-view.resources/the-graph-view-13.png) <b>フローの強調表示\
 </b>現在選択されているノードの前または後に接続されているノードをハイライト表示します。 ノードの複雑なパスをトレースするのに適しています。
 
-![](../../assets/image2020-6-26-16-28-30.png) <b>ノードパレット\
+![](the-graph-view.resources/the-graph-view-14.png) <b>ノードパレット\
 </b>ノードツールバーの表示と非表示を切り替えます。以下を参照してください。
 
-![](../../assets/image2020-6-26-16-32-33.png) <b>長方形のリンク\
+![](the-graph-view.resources/the-graph-view-15.png) <b>長方形のリンク\
 </b>ノード間の丸みを帯びたリンクまたは四角形のリンクを切り替えます。 [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)では使用できません
 
-![](../../assets/image2020-6-26-16-38-2.png) <b>ノードの配置ツール\
+![](the-graph-view.resources/the-graph-view-16.png) <b>ノードの配置ツール\
 </b>選択したノードをグラフに配置します。 詳細については、[専用ページ](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)を参照してください。
 
 [Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)のみ：
 
-![](../../assets/image2020-6-26-16-29-6.png) <b>親ページサイズ\
+![](the-graph-view.resources/the-graph-view-17.png) <b>親ページサイズ\
 </b>親解像度コントロール設定の表示を切り替えます。以下を参照してください。
 
-![](../../assets/image2020-6-26-16-31-15.png) <b>リンク作成モード</b> (1、2、3)\
-標準(1)、マテリアル(2)、コンパクトマテリアル(3)のリンク作成モードから選択し、ノードコネクタを個別にまたはバッチでリンクします。 詳細については、[専用ページ](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)を参照してください。
+![](the-graph-view.resources/the-graph-view-18.png) <b>リンク作成モード</b> (1、2、3)\
+標準(1)、マテリアル(2)、コンパクトノード(3)のいずれかのリンク作成モードを選択して、マテリアル コネクターを個別にまたはバッチでリンクします。 詳細については、[専用ページ](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)を参照してください。
 
-![](../../assets/image2020-6-26-16-33-35.png) <b>タイミング制御\
+![](the-graph-view.resources/the-graph-view-19.png) <b>タイミング制御\
 </b>すべてのノードをリセットし、すべてのタイミングをリセットできます。
 
-![](../../assets/image2020-6-26-16-34-12.png) <b>ツール\
+![](the-graph-view.resources/the-graph-view-20.png) <b>ツール\
 </b>*– クリーン：* [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに接続されていないストリームの一部であるすべてのノードを削除します。\
 *– エクスポート出力：* [ビットマップエクスポートインターフェイス](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)を開きます。\
 *– 出力の再エクスポート：*&#x200B;前のエクスポート操作を再実行します。\
-*- PSDエクスポータ：*&#x200B;が[PSDエクスポータインターフェイスを開きます。](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSDエクスポータ：* [PSDエクスポータ](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md)インターフェイスを開きます。
 
-![](../../assets/image2020-6-26-16-37-16.png) <b>ノードイメージキャッシュ\
+![](the-graph-view.resources/the-graph-view-21.png) <b>ノードイメージキャッシュ\
 </b>ノードイメージキャッシュの表示を切り替えます。以下を参照してください。
 
-![](../../assets/graph-cleaner.jpg)未使用ノードの削除\
+![](the-graph-view.resources/the-graph-view-22.jpg)未使用ノードの削除\
 </b>使用されていないノードを削除するためのオプションをグラフに表示します。以下を参照してください。
 
 ### ノードパレット
 
 ノードツールバーは、グラフの種類によって異なります。
 
-[![ノードパレット](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![ノードパレット](the-graph-view.resources/the-graph-view-23.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md):</b> [原子ノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)および[グラフ項目](../../interface/the-graph-view/graph-items/graph-items.md)を参照してください。
 
 
-![グラフ項目パレット](../../assets/image2020-6-26-16-46-32.png "グラフ項目パレット")<br>
+![グラフ項目パレット](the-graph-view.resources/the-graph-view-24.png "グラフ項目パレット")<br>
 <b>[Substance関数のグラフ](../../function-graphs/function-graphs.md):</b> [グラフ項目](../../interface/the-graph-view/graph-items/graph-items.md)を参照してください。
 
 
-![FX-Mapパレット](../../assets/image2020-6-26-16-48-4.png "FX-Mapパレット")<br>
+![FX-Mapパレット](the-graph-view.resources/the-graph-view-25.png "FX-Mapパレット")<br>
 <b>[FX-Mapグラフ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> [グラフアイテムを参照してください。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### 親ページサイズ
 
-![親サイズツールバー](../../assets/image2020-6-26-17-0-48.png "親サイズツールバー")
+![親サイズツールバー](the-graph-view.resources/the-graph-view-26.png "親サイズツールバー")
 
 このツールバーは[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)でのみ使用でき、グラフの&#x200B;*親*&#x200B;の[出力サイズ](../../compositing-graphs/output-size/output-size.md)を設定します。グラフで&#x200B;*親に対する相対パス* [継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を使用する場合は、グラフの出力サイズに影響します。
 
@@ -420,7 +420,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 ### ノードイメージキャッシュ
 
-![ノードイメージキャッシュの設定](../../assets/graph-toolbar-node-cache.png "ノードイメージキャッシュの設定")
+![ノードイメージキャッシュの設定](the-graph-view.resources/the-graph-view-27.png "ノードイメージキャッシュの設定")
 
 [Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)のノードを計算するときにキャッシュの使用を切り替えます。
 
@@ -432,13 +432,13 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 ### 未使用ノードを削除
 
-![使用されていないノードの削除ドロップダウンメニュー](../../assets/graph-cleaner-menu.jpg "使用されていないノードの削除ドロップダウンメニュー")
+![使用されていないノードの削除ドロップダウンメニュー](the-graph-view.resources/the-graph-view-28.jpg "使用されていないノードの削除ドロップダウンメニュー")
 
 グラフを繰り返して試してみると、最終的な結果に影響を与えない一部のノードが取り残される可能性があります。 グラフレンダリングの最初の段階ですべてのノードが評価されるため、乱雑さと無駄な計算が増えます。
 
-![](../../assets/graph-cleaner.jpg)未使用のノードを削除</b>ツールは、*出力*&#x200B;ノードで終了するストリームの&#x200B;*部分ではなく*&#x200B;部分のすべてのノードを削除します。 唯一の例外は&#x200B;*input*&#x200B;ノードです。これを削除すると、このグラフを参照する[インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のインターフェイスが変更されるためです。
+![](the-graph-view.resources/the-graph-view-22.jpg)未使用のノードを削除</b>ツールは、*出力*&#x200B;ノードで終了するストリームの&#x200B;*部分ではなく*&#x200B;部分のすべてのノードを削除します。 唯一の例外は&#x200B;*input*&#x200B;ノードです。これを削除すると、このグラフを参照する[インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のインターフェイスが変更されるためです。
 
-![使用されていないノードを削除する](../../assets/graph-cleaner.gif "使用されていないノードを削除する")
+![使用されていないノードを削除する](the-graph-view.resources/the-graph-view-29.gif "使用されていないノードを削除する")
 
 最初のオプションでは、*現在*&#x200B;グラフに対してクリーニングが排他的に適用されます。
 

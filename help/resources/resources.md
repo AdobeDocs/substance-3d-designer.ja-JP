@@ -10,9 +10,9 @@ helpx_tags: ""
 title: リソース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/resources-01.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/resources-02.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,10 +55,10 @@ ht-degree: 7%
 
 非グラフリソースは通常、グラフの追加データとして使用したり、グラフからの結果を視覚化したりするためのヘルパーリソースです。 次のタイプが存在し、それぞれドキュメントのこのセクションにサブページがあります。
 
-* [ビットマップ](../resources/bitmap-resource/bitmap-resource.md)
-* [ベクターグラフィック（SVG）](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D シーンリソース](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [フォント](../resources/font-resource/font-resource.md)
+* [ビットマップ](bitmap-resource/bitmap-resource.md)
+* [ベクターグラフィック（SVG）](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [3D シーンリソース](3d-scene-resource/3d-scene-resource.md)
+* [フォント](font-resource/font-resource.md)
 
 </td>
 </tr>

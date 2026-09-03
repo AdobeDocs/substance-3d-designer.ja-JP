@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 # TODO
@@ -15,17 +15,24 @@ ht-degree: 2%
 ## 追加
 
 * AdobeDocsでのPython APIドキュメントのエントリポイント
+* 3Dビュー： `refineLevel = 0`を使用すると、高ポリゴンメッシュでディスプレイスメントを使用する際のパフォーマンスが向上します
 * 「ドキュメント」ポップアップページの例
 * 用語集：
   * HDR
+  * メタル/メタリック
+  * HDR
+  * スペキュラ
+  * Height地図
+  * 不透明度
+  * フラスタム
+  * タンジェントスペース
+  * シード/ランダムシード
+  * FX-Map
+  * ピクセルプロセッサー
+  * プリセット
 
 ## 修正
 
-* [概要](help/getting-started/overview/overview.md)のリンク切れ
-* [出力ノード](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)のリンクと書式が壊れています
-* HelpXリンク
-* ページ内の目次を削除(例： 新しいノイズ)
-* ノードのページレイアウトを修正します(例： 新しいノイズ)
 * ノードページの最初のサンプルイメージのリンクを修正(例： 新しいノイズ)
 * [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)に&#39;負の整数&#39;項目と壊れたリンクがありません
 

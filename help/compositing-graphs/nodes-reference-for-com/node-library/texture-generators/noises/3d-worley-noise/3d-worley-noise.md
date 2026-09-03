@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3Dワーリーノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,43 +22,53 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-worley.png){width="128px"}
+![](3d-worley-noise.resources/3d-worley-noise-01.png){width="128px"}
 
-## 3Dワーリーノイズ
-
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**中級**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 ライブラリで最も汎用性が高く高度なノイズの1つで、入力ポジションマップに基づいて3D空間でワーリーノイズを生成します。 標準的な[セル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)や[遠距離](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)ベースのノイズよりもはるかに強力な機能を備えた多くのオプションがあります。
 
-## パラメーター
-
-* **スケール**: *1 - 64*\
-  エフェクトのグローバルスケールを設定します。
-* **サイズ**: *0.0 ～ 1.0* X軸、Y軸、およびZ軸で個別に不均等スケーリングを実行します。
-* **モード**: *ユークリッド、マンハッタン、チェビシェフ、ミンコフスキー\
-  距離メトリックを変更します。 非常に異なるノイズの種類を使用できます。*
-* **ミンコフスキー数**: *0.0 ～ 20.0* Minkowski距離指標のみ。 異なる種類のメトリクスをブレンドします。
-* **スタイル**: *F1、F2、F2-F1、境界線、ランダムな色*&#x200B;メートル法の組み合わせの数式を設定します。 さらに多くの組み合わせを使用できます。
-* **境界線の幅**: *0.0 ～ 1.0*&#x200B;境界線の組み合わせ計算がアクティブな場合、境界線の幅を制御します。
-* **丸み**: *0.0 ～ 1.0* F1、F2、F2-F1モードでのみ使用できます。 レベルの中間位置を設定します。
-* **反転**: *False/True*\
-  結果を反転します。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/3d-worley-ex04.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/3d-worley-ex03.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/3d-worley-ex02.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/3d-worley-ex01.png" width="256px"/></div> |
-| --- | --- | --- | --- |
-|  |  |  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>スケール</b> <i>1 - 64</i> | エフェクトのグローバルスケールを設定します。 |
+| <b>サイズ</b> <i>0.0 - 1.0</i> | X、Y、Z軸に対して個別に不均等スケーリングを実行します。 |
+| <b>モード</b> <i>ユークリッド、マンハッタン、チェビシェフ、ミンコフスキー</i> | 距離メトリックを変更します。 非常に異なる種類のノイズを使用できます。 |
+| <b>ミンコフスキー数</b> <i>0.0 - 20.0</i> | Minkowski距離指標でのみ使用できます。 異なる種類のメトリクスをブレンドします。 |
+| <b>スタイル</b> <i>F1, F2, F2-F1，境界線，ランダムカラー</i> | メートル法の組み合わせ計算を設定します。 さらに多くの組み合わせを使用できます。 |
+| <b>境界線の幅</b> <i>0.0 - 1.0</i> | 境界線の組み合わせ数式がアクティブである場合、境界線の幅を制御します。 |
+| <b>丸み</b> <i>0.0 - 1.0</i> | F1、F2、F2-F1モードでのみ使用できます。 レベルの中間位置を設定します。 |
+| <b>反転</b> <i>False/True</i> | 結果を反転します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-noise-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-noise-03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-noise-04.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-noise-05.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: スターバースト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst-01.png){width="128px"}
 
-## スターバースト
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**中級**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 調整パラメーターを使用して、シンプルなスターバーストエフェクトを生成します。
 
-## パラメーター
-
-* **分岐**: *3 - 512*&#x200B;効果の分岐量。
-* **ぼかし量**: *0.0 ～ 32.0*&#x200B;ぼかしや柔らかさの合計量を制御します。
-* **ランダム度**: *0.0 ～ 1.0*&#x200B;軸のランダム度を設定し、中心を基準に枝をランダムに回転させます。
-* **最小サイズ**: *0.0 ～ 1.0*&#x200B;バリエーションの最小サイズを設定します。
-* **最大サイズ**: *0.0 ～ 2.0*&#x200B;最大サイズを設定し、変動が使用されない場合はグローバルスケールを制御します。
-* **サイズのバリエーション**: *0.0 ～ 1.0*&#x200B;分岐ごとにランダムなスケーリングを導入します。
-* **タイル**: *1 - 16*\
-  結果をタイルする回数を設定します。
-
-## サンプル画像
-
-![](../../../../../../assets/starburst-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>分岐</b> <i>3 - 512</i> | エフェクトの分岐の量。 |
+| <b>ぼかし量</b> <i>0.0 - 32.0</i> | ブラーまたは柔らかさの総量を制御します。 |
+| <b>ランダム度</b> <i>0.0 - 1.0</i> | 軸のランダム度を設定し、中心を基準に枝をランダムに回転させます。 |
+| <b>最小サイズ</b> <i>0.0 - 1.0</i> | 変動の最小サイズを設定します。 |
+| <b>最大サイズ</b> <i>0.0 - 2.0</i> | 最大サイズを設定し、変動が使用されない場合はグローバルスケールを制御します。 |
+| <b>サイズのバリエーション</b> <i>0.0 - 1.0</i> | 枝ごとにランダムにスケーリングします。 |
+| <b>タイル表示</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="starburst.resources/starburst-02.gif" />
+        </td>
+    </tr>
 </table>

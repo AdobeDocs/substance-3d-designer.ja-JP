@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 関数グラフのサンプル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
@@ -32,12 +32,12 @@ ht-degree: 5%
 
 このプロジェクトでは、関数グラフの概要と、[Substance合成グラフ](../../compositing-graphs/substance-compositing-graphs.md)のノードパラメーターに対する制御を拡張するための関数グラフの使用方法について説明します。
 
-[![Substance関数グラフのサンプルファイルアイコン](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
+[![Substance関数グラフのサンプルファイルアイコン](sample-function-graphs.resources/sample-function-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/demo-functions.png){width="512px"}
+![](sample-function-graphs.resources/sample-function-graphs-02.png){width="512px"}
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: スイッチ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-01.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-02.png){width="128px"}
 
-## 切り替え（グレースケール）
-
-**イン：** *フィルター/描画*
-
-**単純**
+<b>イン:</b>フィルター/描画
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -45,19 +41,23 @@ ht-degree: 4%
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「切り替え」、グレースケール入力には「グレースケールを切り替え」を使用します。
 
-## パラメーター
-
-### 入力
-
-* **入力1 (True)**: *カラーまたはグレースケールの入力*
-* **入力2 (False)**: *カラーまたはグレースケールの入力*
-
-### パラメーター
-
-* **スイッチ**: *False/True*&#x200B;入力1 (True)と2 (False)を切り替えます。
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>入力1 (True)</b> <i>カラーまたはグレースケールの入力</i> |  |
+| <b>入力2 (False)</b> <i>カラーまたはグレースケールの入力</i> |  |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>切り替え</b> <i>False/True</i> | 入力1(True)と2(False)を切り替えます。 |

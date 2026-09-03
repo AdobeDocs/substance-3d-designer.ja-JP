@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 自動レベル補正
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
+source-wordcount: '68'
+ht-degree: 2%
 
 ---
 
@@ -22,29 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/auto-levels.png){width="128px"}
+![](auto-levels.resources/auto-levels-01.png){width="128px"}
 
-## 自動レベル補正
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 入力のレベルが自動的に調整され、黒から白までの全範囲が使用されます。 つまり、画像の最も暗い値は完全な黒に調整され、最も明るい値は完全な白に調整されて、コントラストが最大化されます。
 
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/auto-levels-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="auto-levels.resources/auto-levels-02.png" />
+        </td>
+    </tr>
 </table>

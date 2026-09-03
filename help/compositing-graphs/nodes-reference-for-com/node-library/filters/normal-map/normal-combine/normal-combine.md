@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 通常の結合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine-01.png){width="128px"}
 
 <b>イン：</b>フィルター>標準マップ
 
@@ -45,17 +45,21 @@ ht-degree: 2%
 
 2つの法線マップのディテールを結合せずに（マスクを使用するなどして） 2つの法線マップをブレンドするには、[法線のブレンド](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)を使用する必要があります。
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>通常2</b> *色*&#x200B;説明
+## 入力
 
-<b>通常1</b> *色*&#x200B;説明
+|  |  |
+|:---|:---|
+| <b>標準2</b> <i>色</i> | 説明 |
+| <b>標準1</b> <i>色</i> | 説明 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>手法</b> *整数*&#x200B;使用する内部合成手法を設定します。品質を優先した速度で取引します。\
-* – ホワイトアウト（低画質）
-* チャンネルミキサー（高品質）
-* ディテール指向（高品質）*
+|  |  |
+|:---|:---|
+| <b>テクニック</b> *整数* | 使用する内部ブレンド手法を設定し、品質を優先した速度で取引します。<br><br>*– ホワイトアウト（低品質）<br>*&#x200B;チャンネルミキサー（高品質）<br>*詳細を重視（高品質）* |
 
 ## 例

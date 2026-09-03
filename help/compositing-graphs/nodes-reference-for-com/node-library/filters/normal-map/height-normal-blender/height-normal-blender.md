@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
-description: Height法線ブレンダーノードを使用して、サーフェスの詳細Heightを組み合わせるための情報と法線マップをブレンドします。
+description: Height法線ブレンダーノードを使用して、サーフェスのディテール情報を組み合わせるHeightと法線マップをブレンドします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Heightノーマルブレンダー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,46 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
 
-## Heightノーマルブレンダー
-
-**場所：** *フィルター/標準マップ*
-
-**単純**
+<b>イン：</b>フィルター> 法線マップ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-グレースケールの高さマップを法線マップにブレンドするショートカットノード。 Height入力は内部でノーマルマップに変換され、ノーマル入力と正しく合成されます。
+グレースケールの高さマップをノーマルマップにブレンドするショートカットノード。 Height入力は内部でノーマルマップに変換され、ノーマル入力と正しく合成されます。
 
 これは、個別のノードを使用して手動でディテールをブレンドするよりも迅速にディテールをブレンドする方法ですが、特定のニーズに対するコントロールと調整が欠けている場合があります。
-
-## パラメーター
-
-### 入力
-
-* **Height**: *グレースケール入力*\
-  ブレンドするグレースケールの高さ。
-* **標準**: *カラー入力*\
-  ブレンドするベース法線マップ。
-
-### パラメーター
-
-* **法線の強さ**: *0.0 ～ 16.0* Height入力の法線の強さ。
-* **標準の形式**: *DirectX、OpenGL*\
-  異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>グレースケール入力</i> | ブレンドするグレースケールの高さ。 |
+| <b>標準</b> <i>カラー入力</i> | ブレンドするベース法線マップ。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>法線の強度</b> <i>0.0 - 16.0</i> | Height入力の標準変換の強さ。 |
+| <b>標準の形式</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |

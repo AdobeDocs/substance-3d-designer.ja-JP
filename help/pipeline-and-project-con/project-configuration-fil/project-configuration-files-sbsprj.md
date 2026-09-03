@@ -10,9 +10,9 @@ helpx_tags: ""
 title: プロジェクト構成ファイル – SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJファイルアイコン](../../assets/sbsprj.png "SBSPRJファイルアイコン")
+![SBSPRJファイルアイコン](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "SBSPRJファイルアイコン")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 展開またはオーバーライド
 
-連続するプロジェクトのほとんどの設定は、前のプロジェクトの設定よりも<b>優先</b>されます。 たとえば、カスタムプロジェクトファイル内の別の接線空間プラグインは、DefaultまたはUserプロジェクトで定義されているTSプラグインをオーバーライドします。 したがって、明示的に必要な場合を除き、子プロジェクトの設定を上書きまたは変更しないことをお勧めします。
+連続するプロジェクトのほとんどの設定は、前のプロジェクトの設定よりも<b>優先</b>されます。 例えば、カスタムプロジェクトファイル内の別の接線空間プラグインは、デフォルトまたはユーザープロジェクトで定義されているTSプラグインを上書きします。 したがって、明示的に必要な場合を除き、子プロジェクトの設定を上書きまたは変更しないことをお勧めします。
 
 ただし、親の設定を上書きするのではなく、親の設定に対して<b>展開</b>する設定もあります。 これらの設定で最も顕著なのは、ライブラリパスとフィルターであるため、ライブラリを上書きするのではなく、常にライブラリにコンテンツを追加します。 さらに、エイリアス（相対ファイルパスのパスキーワード）が展開され、重複が定義されている場合はオーバーライドされます。 これにより、コンテンツファイルパスと参照を詳細に制御できます。
 
@@ -55,21 +55,19 @@ ht-degree: 0%
 
 プロジェクトファイルには、次の設定を含めることができます。
 
-<b>3Dビュー： </b>既定のシェーダ、HDR、およびシーンの状態の定義。
+<b>3D ビュー: </b>既定のシェーダー、HDR、およびシーンの状態の定義。
 
 <b>エイリアス： </b>相対パスのキーワードエイリアス。
 
-<b>ベイク： </b>名前付け規則をベイクするための設定です。
+<b>ベイク: </b>名前付け規則をベイクするための設定です。
 
 <b>全般： </b>グラフテンプレート、接線空間プラグイン、標準および画像形式の既定値。
 
-<b>ライブラリ： </b>ライブラリに表示する監視対象のパスと、[ライブラリビューのフィルターとカテゴリ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)。
-
-<b>MDL: </b>MDL監視パス。
+<b>ライブラリ： </b>ライブラリに表示する監視対象のパス。
 
 <b>スクリプト： </b>コールバックスクリプトとインタープリター。
 
-<b>バージョン管理： </b>バージョン管理をDesignerに統合するための設定です。
+<b>バージョン管理: </b>バージョン管理をDesignerに統合するための設定。
 
 ## プロジェクトファイルの変更
 
@@ -79,7 +77,7 @@ ht-degree: 0%
 
 プロジェクトファイルの管理およびプロジェクト設定の変更の詳細については、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)ページを参照してください。
 
-プロジェクトファイルには、[ライブラリ](../../interface/the-library/the-library.md)のカスタム<b>カテゴリ</b>と<b>フィルター</b>も含まれています。これらの詳細については、[カスタムコンテンツとフィルターの管理](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)ページで確認できます。
+プロジェクトファイルには、[ライブラリ](../../interface/the-library/the-library.md)のカスタム<b>カテゴリ</b>と<b>フィルター</b>も含まれています。これらの詳細については、[カスタムコンテンツとフィルターの管理](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)ページで確認できます。
 
 ## XMLを外部編集
 
@@ -87,11 +85,11 @@ Windowsの場合、[メモ帳++](https://notepad-plus-plus.org)は無料で利�
 
 エディターでSBSPRJファイルを開くと、UIのタブに対応するセクションを含む、非常に単純な構造化レイアウトが表示されます。 全ての設定がここで文書化されるわけではありません。
 
-![XML編集](../../assets/project-xml.png "XML編集")
+![XML編集](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "XML編集")
 
 ## 相対パスとエイリアス
 
-エイリアスと組み合わされた相対パスは、プロジェクト構成の中でもより複雑で最も重要な部分の1つです。このセクションではそれらの点を明確にします。 特定のプロジェクトファイルに対してカスタムエイリアスを追加する操作は、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で行います。
+エイリアスと組み合わされた相対パスは、プロジェクト構成の中でもより複雑で最も重要な部分の1つです。このセクションではそれらの点を明確にします。 特定のプロジェクトファイルに対してカスタムエイリアスを追加する操作は、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で行います。
 
 ファイルが複数のユーザーのPCでシステム内の他のファイルを参照する場合の大きな問題の1つは、絶対ファイルパスが機能しないことです。 ユーザーは、完全に異なる場所にSVNリポジトリを定義できます。 C:/John/Gamedev/SubstanceLibraryまたはD:/Dev/SubstanceLibrary)。 エイリアスと相対パスの両方が連携してこの問題を解決します。 他のユーザーのファイルを開いて、ローカルにあるユーザーの特定の場所で使用されているカスタムノードを探す場合があります。この場合、同じ方法で定義されている可能性は低くなります。
 

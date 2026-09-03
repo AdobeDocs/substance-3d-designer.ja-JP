@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 方向性ノイズ 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 2%
+source-wordcount: '307'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![方向性ノイズ 1 – アイコン](../../../../../../assets/directional_noise_1.png "方向性ノイズ 1 – アイコン"){width="200px"}
+![方向性ノイズ 1 – アイコン](directional-noise-1.resources/directional-noise-1-01.png "方向性ノイズ 1 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -45,45 +41,29 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 出力
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 生成されるノイズをグレースケールビットマップとして表します。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>スケール</b>整数 | ノイズタイルの生成に使用するグリッドの区画。    値を大きくすると、描かれるタイルの数が増え、ノイズが高くなります。 |
-| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
-| <b>異方性の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの方向の範囲を制御します。値を大きくすると、より狭く、より明確な方向になります。    方向は、<b>Disorder異方性角度</b>パラメーターで制御されます。 |
-| <b>乱雑な異方性角度</b>浮動小数点 | &#39;Disorder 異方性&#39;パラメーターが0でない場合に、<b>Disorder</b>パラメーターによって適用されるディスプレイスメントの向きを制御します。 |
-| <b>角度</b>浮動小数点 | ノイズの方向を設定するために使用する角度です。回転の回数で指定し、水平方向の右から開始します。 |
-| <b>角度ランダム</b>浮動小数点 | <b>角度</b>の値に適用されるランダムな変動の最大量（ターン数）。 |
-| <b>タイルのオフセット</b>浮動小数点2 | ノイズのレンダリングに使用される無限平面の部分の位置を制御します。 |
-| <b>非正方形の展開</b>ブール値 | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
+|:---|:---|
+| <b>スケール</b> <i>整数</i> | ノイズタイルの生成に使用するグリッドの区画。    値を大きくすると、描かれるタイルの数が増え、ノイズが高くなります。 |
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>異方性の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの方向の範囲を制御します。値を大きくすると、より狭く、より明確な方向になります。    方向は、<b>Disorder anisotropy angle</b>パラメーターによって制御されます。 |
+| <b>anisotropy angleの乱れ</b> <i>フロート</i> | &#39;Disorder 異方性&#39;パラメーターが0でない場合に、<b>Disorder</b>パラメーターによって適用されるディスプレイスメントの向きを制御します。 |
+| <b>角度</b> <i>フロート</i> | ノイズの方向を設定するために使用する角度です。回転の回数で指定し、水平方向の右から開始します。 |
+| <b>角度ランダム</b> <i>フロート</i> | <b>角度</b>の値に適用されるランダムな変動の最大量（ターン数）。 |
+| <b>タイルのオフセット</b> <i>浮動小数点2</i> | ノイズのレンダリングに使用される無限平面の部分の位置を制御します。 |
+| <b>非正方形の拡張</b> <i>ブーリアン</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
 
 ## 例
 
@@ -91,12 +71,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向性ノイズ 1 – 例1](../../../../../../assets/directional_noise_1_1.png "方向性ノイズ 1 – 例1"){zoomable="yes"}
+![方向性ノイズ 1 – 例1](directional-noise-1.resources/directional-noise-1-02.png "方向性ノイズ 1 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向性ノイズ 1 – 例2](../../../../../../assets/noise_directional_noise_1_v2_speed0.6_aniso0.gif "方向性ノイズ 1 – 例2"){zoomable="yes"}
+![方向性ノイズ 1 – 例2](directional-noise-1.resources/directional-noise-1-03.gif "方向性ノイズ 1 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -106,26 +86,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向性ノイズ 1 – 例3](../../../../../../assets/noise_directional_noise_1_v2_speed0.6_aniso1.gif "方向性ノイズ 1 – 例3"){zoomable="yes"}
+![方向性ノイズ 1 – 例3](directional-noise-1.resources/directional-noise-1-04.gif "方向性ノイズ 1 – 例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向性ノイズ 1 – 例4](../../../../../../assets/noise_directional_noise_1_v2_speed0.3_aniso0.6.gif "方向性ノイズ 1 – 例4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![方向性ノイズ 1 – 例4](directional-noise-1.resources/directional-noise-1-05.gif "方向性ノイズ 1 – 例4"){zoomable="yes"}
 
 </td>
 </tr>

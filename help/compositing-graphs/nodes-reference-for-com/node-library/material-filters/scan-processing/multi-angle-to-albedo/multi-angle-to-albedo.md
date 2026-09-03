@@ -10,10 +10,10 @@ helpx_tags: ""
 title: マルチアングルからアルベド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo-01.png){width="128px"}
 
-## マルチアングルからアルベド
-
-**イン：** *マテリアルフィルター/スキャン処理*
-
-**単純**
+<b>イン：</b> マテリアルフィルター > スキャン処理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -47,22 +43,22 @@ ht-degree: 1%
 > 
 > [ブログ投稿「スマートフォンはマテリアルスキャナーです」は、このプロセスをもう少し良く示しています。](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
-## パラメーター
-
-### 入力
-
-* **入力1-8**: *カラー入力*&#x200B;入力の数は、サンプルの量パラメーターによって決まります。
-
-### パラメーター
-
-* **サンプル量**: *2 - 8*&#x200B;処理に使用するサンプル（入力）の数を設定します。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>入力1-8</b> <i>カラー入力</i> | 入力の数は、「サンプル量」パラメーターで決まります。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>サンプル量</b> <i>2 - 8</i> | 処理に使用するサンプル（入力）の数を設定します。 |

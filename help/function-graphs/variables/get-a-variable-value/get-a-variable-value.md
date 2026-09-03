@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数値を取得する
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 これを行うには、*Get*&#x200B;ノードを使用する必要があります。
 
-![](../../../assets/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/get-a-variable-value-01.png)
 
 Getノードには様々な種類があります。読み込む値の種類に応じて適切なノードを選択します。
 
-![](../../../assets/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/get-a-variable-value-02.png)
 
 ## 取得ノードへの変数の割り当て
 
@@ -38,7 +38,7 @@ Getノードには様々な種類があります。読み込む値の種類に�
 
 変数名がノードに表示されます。
 
-![](../../../assets/assign-getfloat.gif)
+![](get-a-variable-value.resources/get-a-variable-value-03.gif)
 
 リストには、Getノードと同じ型の変数だけが表示されることに注意してください。
 
@@ -50,5 +50,5 @@ Getノードには様々な種類があります。読み込む値の種類に�
 > 
 > 次の場合に、Setノードで作成された変数を呼び出すことができます。
 > 
-> * GetノードとSetノードは、同じノードのパラメータを制御する関数グラフ内にあります
-> * *Get*&#x200B;ノードグラフによって制御されるパラメーターは、同じか、パラメータースタックの&#x200B;*Set*&#x200B;ノードグラフのパラメーターの下にあります。
+> * GetノードとSetノードは、同じノードのパラメーターを制御する関数グラフ内にあります
+> * *Get*&#x200B;ノードグラフによって制御されるパラメーターが同じであるか、パラメータースタックーの&#x200B;*Set*&#x200B;ノードグラフーのパラメーターの下にあります。

@@ -7,20 +7,20 @@ helpx_description: Designer > MDL graphs > Main MDL graph concepts
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: MDLグラフの主な概念
+title: MDL グラフの主な概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
 
 
-# MDLグラフの主な概念
+# MDL グラフの主な概念
 
-このページでは、*具体的*&#x200B;から[MDLのグラフ](../../mdl-graphs/mdl-graphs.md)までの主要な概念を説明します。このグラフの種類をSubstance 3D Designerで最大限に活用するために理解しておく必要があります。
+このページでは、*MDL グラフ*&#x200B;から[グラフ](../../mdl-graphs/mdl-graphs.md)までの主な概念を説明します。Substance 3D Designerでこの種類のを最大限に活用するには、この概念を十分に理解しておく必要があります。
 
 <table>
 <tr style="border: 0;">
@@ -33,32 +33,32 @@ MDLマテリアルでは、物理ベースのレンダリングソリューシ�
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Irayロゴ](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Irayロゴ](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
 </table>
 
-MDLグラフを作成または読み込むと、Designerによって最初に検出された[ピン留めされていない](../../interface/customizing-your-wor/customizing-your-workspace.md) 3Dビューパネルが&#x200B;*自動的に* Iray[&#128279;](../../interface/3d-view/iray/iray.md)レンダラーに切り替わります。 使用できる3Dビューがない場合は、*新しい* 3Dビューパネルが作成され、Irayレンダラーに切り替えられ、編集中のMDLマテリアルのレンダリングがホストされます。
+MDL グラフを作成または読み込むときに、Designerによって最初に見つかった[ピン留めされていない](../../interface/customizing-your-wor/customizing-your-workspace.md) 3Dビューパネルは、*自動的に* Iray[&#128279;](../../interface/3d-view/iray/iray.md)レンダラーに切り替わります。 使用できる3Dビューがない場合は、*新しい* 3Dビューパネルが作成され、Irayレンダラーに切り替えられ、編集中のMDL マテリアルのレンダリングがホストされます。
 
-3DビューパネルでIrayレンダラーが選択されている場合、そのパネルの「マテリアル」メニューで、使用可能なMDLマテリアルを切り替えることができます。これには、エクスプローラーパネルに読み込まれるマテリアルと、DesignerのMDLライブラリ内のマテリアルが含まれます。 IrayでのMDLマテリアルの操作について詳しくは、このドキュメントの[Iray](../../interface/3d-view/iray/iray.md)セクションを参照してください。
+3DビューパネルでIrayレンダラーが選択されている場合、パネルの「マテリアル」メニューで、使用可能なMDL マテリアル（エクスプローラーパネルに読み込まれたマテリアルとDesignerのMDLライブラリのマテリアルなど）を切り替えることができます。 Iray内のMDL マテリアルの操作について詳しくは、このドキュメントの[Iray](../../interface/3d-view/iray/iray.md)を参照してください。
 
 ## ルートノード
 
-MDLグラフの結果は、<b>Root</b>ノードによって定義されます。 グラフの任意のノードは、種類<b>マテリアル</b> （つまり、*マテリアル定義*）の出力データに限り、ルートとして設定できます。 MDLグラフには&#x200B;*1つの*&#x200B;ルートノードしか含めることができません。
+MDL グラフの結果は、<b>Root</b>ノードによって定義されます。 <b>マテリアル</b>の種類のデータ（*マテリアル定義*）を出力する限り、グラフの任意のノードをルートとして設定できます。 1つのMDL グラフには&#x200B;*1つの*&#x200B;ルートノードのみを含めることができます。
 
-一般に、ルートとして設定できるノードには、*入力*&#x200B;にデータを渡してカスタマイズできるマテリアル定義が既に含まれているため、*自己充足*&#x200B;できます。\
-たとえば、ガラスのようなマテリアルで作業する場合は、RootノードとしてGlassマテリアル定義を出発点として使用する必要がありますが、これは&#x200B;*必須ではありません*。 多くのマテリアルノードは、MDLノードの広範なリストを使用して複雑なマテリアルに変換できます。
+一般に、ルートとして設定できるノードには、*入力*&#x200B;にデータを渡してカスタマイズできるマテリアル定義が既に含まれているため、*自己完結型*&#x200B;にすることができます。\
+たとえば、ガラスのようなノードで作業する場合、ルートマテリアルとしてガラスマテリアル定義を使用する必要がありますが、これは&#x200B;*必須ではありません*。 多くのマテリアルノードは、MDLノードの広範なリストを使用して任意の複雑なマテリアルに変換できるテンプレート化されています。
 
 ルートノードには、現在の出力のプレビューを表示するサムネールが含まれています。
 
-![MDLグラフのルートノード](../../assets/mdl-root-hl.png "MDLグラフのルートノード")
+![MDL グラフのルートノード](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "MDL グラフのルートノード")
 
-*MDLグラフのルートノードとそのプロパティが[プロパティ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *パネル*&#x200B;に表示されました
+*MDL グラフのルートノードとそのプロパティ（[プロパティ](../../interface/properties/properties.md)* *パネル*&#x200B;に表示）
 
-## コネクタとタイプ
+## コネクターと種類
 
-MDLグラフにはDesignerの他のグラフよりもはるかに多くのデータ型があるため、ノードコネクタの独特な外観が見られる場合があります。 理解すべき重要な概念を以下に示します。
+MDL グラフにはDesignerの他のノードよりもはるかに多くのデータ型があるため、グラフコネクターのユニークな外観を目にする場合があります。 理解すべき重要な概念を以下に示します。
 
 コネクタ図形
 
@@ -81,7 +81,7 @@ MDLグラフにはDesignerの他のグラフよりもはるかに多くのデー
 >
 > *一致するデータ型*&#x200B;のコネクタのみをリンクできます。 カラーコーディングの唯一の目的は、グラフに渡されるデータのタイプや、どのコネクタをリンクできるかについて、読みやすさを向上させることです。
 
-![MDLノードコネクタの種類](../../assets/mdl-connector-types.png "MDLノードコネクタの種類"){width="512px"}
+![MDLノードコネクタの種類](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-03.png "MDLノードコネクタの種類"){width="512px"}
 
 *コネクタのアスペクトは、I/O値の種類によって異なります。I/O識別子の後の括弧内に表示されます*
 
@@ -101,7 +101,7 @@ MDLグラフにはDesignerの他のグラフよりもはるかに多くのデー
 * *リンクを*&#x200B;出力&#x200B;*コネクタからドラッグ*&#x200B;してノードメニューを表示すると、一覧には、*最初の入力*&#x200B;のデータ型が選択した&#x200B;*出力*&#x200B;のデータ型と一致するノードが含まれます
 * *リンクを*&#x200B;入力&#x200B;*コネクタからドラッグ*&#x200B;してノードメニューを表示すると、リストには、*出力*&#x200B;のデータ型が&#x200B;*選択された入力*&#x200B;のデータ型と一致するノードが含まれます
 
-![フィルター処理されたノードの作成](../../assets/mdl-filtered-node-creation.gif "フィルター処理されたノードの作成")
+![フィルター処理されたノードの作成](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-04.gif "フィルター処理されたノードの作成")
 
 *MDLグラフでフィルター処理されたノードの作成です。一覧は、コネクタの値の種類に応じて変わります*
 
@@ -111,6 +111,6 @@ MDLマテリアルは、外部ソースから、値やテクスチャなどの�
 
 データは、*型*&#x200B;に応じて公開されたノードに渡すことができます。 たとえば、浮動小数点の値を、公開された<b>float</b>ノードに渡し、テクスチャを、公開された<b>color</b>ノードに渡すことができます（この場合、サンプリングされたピクセルのRGBA値はカラー値として渡されます）。
 
-![公開されたグラフ入力](../../assets/mdl-graph-inputs-samplers.png "公開されたグラフ入力")
+![公開されたグラフ入力](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-05.png "公開されたグラフ入力")
 
 *公開されたノードは、テクスチャの未加工値入力およびサンプラーの両方であるグラフ入力を作成します*

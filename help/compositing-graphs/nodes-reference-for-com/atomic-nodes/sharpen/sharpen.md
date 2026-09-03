@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シャープ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シャープノードアイコン](../../../../assets/sharpen-4.png "シャープノードアイコン")
+![シャープノードアイコン](sharpen.resources/sharpen-01.png "シャープノードアイコン")
 
 <b>In:</b>個のアトミックノード
 
@@ -48,7 +48,7 @@ ht-degree: 4%
 
 ## パラメーター
 
-<b>適用度</b> *浮動小数点*\
+<b>適用度</b> *フロート*\
 シャープ効果の強さを設定します。
 
 <b>パンチスルーAlpha</b> *ブール値* （カラー画像が<b>入力</b>に接続されている場合に使用できます）\
@@ -56,4 +56,4 @@ ht-degree: 4%
 
 ## 例
 
-![Sharpenノード – 例1](../../../../assets/sharpen-ex.png "Sharpenノード – 例1")
+![Sharpenノード – 例1](sharpen.resources/sharpen-02.png "Sharpenノード – 例1")

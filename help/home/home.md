@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designerユーザーガイド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 61535e3f89e10931c220096577e76abb9799d8df
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # Substance 3D Designerユーザーガイド
 
-![Substance 3D Designerのメインウィンドウ](../assets/sdsummerinterface.jpg "Substance 3D Designerのメインウィンドウ")
+![Substance 3D Designerのメインウィンドウ](home.resources/home-01.jpg "Substance 3D Designerのメインウィンドウ")
 
 [Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html) はマテリアルオーサリングソフトウェアです。 ノードグラフを使用して、プロシージャパターンやノイズからテクスチャを生成したり、ビットマップを操作することができます。
 

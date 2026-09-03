@@ -10,10 +10,10 @@ helpx_tags: ""
 title: エッジの斑点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 2%
+source-wordcount: '181'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-speckle.png){width="128px"}
+![](edge-speckle.resources/edge-speckle-01.png){width="128px"}
 
-## エッジの斑点
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**中級**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,31 +37,38 @@ ht-degree: 2%
 
 このマスクは、エッジを分割するためのわずかな斑点が追加されたエッジを表します。 [エッジDirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md)も参照してください。
 
-## パラメーター
-
-### 入力
-
-* **曲率**: *グレースケール入力*\
-  エッジのハイライトに使用するベイク済みマップ。 必須！
-* **バリエーションマスク**: *グレースケール入力*\
-  ノードのエフェクトをマスクするために使用するオプションのマスクスロット。 「バリエーションマスクを上書き」で有効にします。
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **レベル**: *0.0 ～ 1.0*\
-  エッジのハイライト表示の合計量を設定します。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
-* **エッジの選択**: *0.0 ～ 1.0*&#x200B;凸状エッジの影響を設定します。
-* **バリエーション**: *0.0 ～ 1.0*&#x200B;バリエーションマスクが効果を分割する範囲を設定します。
-* **バリエーションマスクの上書き**: *False/True*&#x200B;組み込みのマスクをカスタム入力スロットで上書きします。
-
-## サンプル画像
-
-![](../../../../../../assets/edge-speckle-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>曲線</b> <i>グレースケール入力</i> | エッジのハイライトに使用するベイク済みマップ。 必須！ |
+| <b>バリエーションマスク</b> <i>グレースケール入力</i> | ノードのエフェクトをマスクするために使用するオプションのマスクスロット。 「バリエーションマスクを上書き」で有効にします。 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>レベル</b> <i>0.0 - 1.0</i> | エッジのハイライト表示の合計量を設定します。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
+| <b>エッジの選択</b> <i>0.0 - 1.0</i> | 凸状エッジの影響を設定します。 |
+| <b>バリエーション</b> <i>0.0 - 1.0</i> | バリエーションマスクが効果を分割する範囲を設定します。 |
+| <b>バリエーションマスクの上書き</b> <i>False/True</i> | カスタム入力スロットで組み込みマスクを上書きします。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-speckle.resources/edge-speckle-02.gif" />
+        </td>
+    </tr>
 </table>

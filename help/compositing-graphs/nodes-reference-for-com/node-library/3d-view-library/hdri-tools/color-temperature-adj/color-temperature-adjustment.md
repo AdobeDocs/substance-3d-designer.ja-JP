@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color Temperature Adjustment
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustment-01.png){width="250px"}
 
-## Color Temperature Adjustment
-
-**イン：** *3Dビュー/HDRI ツール*
-
-**単純**
+<b>内：</b> 3D ビュー > HDRI ツール
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 入力画像のカラーバランスを調整します。 写真のホワイトバランスの調整と同様です。 オフキーのHDR画像のカラーを暖色または寒色にするために使用できます。
 
-## パラメーター
-
-* **温度**: *-1.0 - 1.0*\
-  暖色と寒色のカラーを切り替えます。
-* **マゼンタ – グリーン**: *-1.0 - 1.0*\
-  マゼンタとグリーンの間でトーンをシフトします。
-* **カラースペース**: *HDR （リニア）、LDR (sRGB)*入力画像のカラースペースの変換方法を決定します。
-
-## サンプル画像
-
-![](../../../../../../assets/color-tempadjust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>温度</b> <i>-1.0 - 1.0</i> | 暖色と寒色のカラーを切り替えます。 |
+| <b>マゼンタ – グリーン</b> <i>-1.0 - 1.0</i> | マゼンタとグリーンの間でトーンをシフトします。 |
+| <b>カラースペース</b> <i>HDR （リニア）、LDR (sRGB)</i> | 入力画像のカラースペースを解釈する方法を指定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="color-temperature-adjustment.resources/color-temperature-adjustment-02.gif" />
+        </td>
+    </tr>
 </table>
