@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: メッシュの曲率と応力ポイントに基づいてマテリアルに亀裂パターンを追加するには、[亀裂の風化]ノードを使用します。
 helpx_creative_field: ""

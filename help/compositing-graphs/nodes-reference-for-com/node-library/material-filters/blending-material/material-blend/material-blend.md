@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
 description: マテリアルのブレンドノードを使用すると、複合マテリアル効果を作成するためのマスクを使用して、マテリアル全体をブレンドできます。
 helpx_creative_field: ""

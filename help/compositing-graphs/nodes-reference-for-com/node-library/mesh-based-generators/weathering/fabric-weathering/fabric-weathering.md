@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
 breadcrumb-title: ''
 description: ファブリック風化ノードを使用して、メッシュのジオメトリと曲率に基づいて、ファブリックマテリアルに摩耗と経年変化の効果を加えます。
 helpx_creative_field: ""

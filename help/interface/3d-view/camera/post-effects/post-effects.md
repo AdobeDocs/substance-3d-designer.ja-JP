@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: 3Dビューカメラに後処理効果を適用して、マテリアルのプレビューと表示を強化します。
 helpx_creative_field: ""

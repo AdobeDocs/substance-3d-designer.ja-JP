@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
 breadcrumb-title: ''
 description: 「カラーの置き換え」ノードを使用して、テクスチャ内の特定のカラーを、カラー補正や色調補正のための新しいカラーに置き換えます。
 helpx_creative_field: ""

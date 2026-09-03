@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
 breadcrumb-title: ''
 description: 「Flood Fillからグラデーションへ」ノードを使用すると、滑らかなカラー効果を作成するために、領域をグラデーション値で塗りつぶすことができます。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
 breadcrumb-title: ''
 description: FXMapでsamplerノードを使用してテクスチャをサンプリングし、プロシージャルマテリアルバリエーションを作成する方法について説明します。
 helpx_creative_field: ""

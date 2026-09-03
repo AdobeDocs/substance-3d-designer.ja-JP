@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: ベベルスムーズノードを使用して、リアルなサーフェスのシェイプやパターンに滑らかなベベルエッジを作成します。
 helpx_creative_field: ""

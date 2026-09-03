@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
 description: シェイプスプラッタのブレンドノードを使用して、複数のシェイプスプラッタをブレンドし、複雑なプロシージャパターンを作成します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/panorama-shape.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/panorama-shape.html"
 breadcrumb-title: ''
 description: '[パノラマシェイプ]ノードを使用して、環境テクスチャを生成するためのパノラマ座標にマップされたシェイプを作成します。'
 helpx_creative_field: ""

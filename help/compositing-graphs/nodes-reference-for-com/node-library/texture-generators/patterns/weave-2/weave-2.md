@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
 breadcrumb-title: ''
 description: 「織り2」ノードを使用すると、Substance 3D Designerでカスタマイズ可能なねじ属性を使用して高度な織布パターンを作成できます。
 helpx_creative_field: ""

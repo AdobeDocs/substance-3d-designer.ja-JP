@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
 breadcrumb-title: ''
 description: Weave Generatorノードを使用して、Substance 3D Designerでプロシージャルな織布パターンとテキスタイルテクスチャを作成します。
 helpx_creative_field: ""

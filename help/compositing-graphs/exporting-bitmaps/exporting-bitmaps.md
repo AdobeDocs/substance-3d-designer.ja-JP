@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 外部アプリケーションやワークフローで使用するために、Substance合成グラフからテクスチャとビットマップを書き出す方法について説明します。
 helpx_creative_field: ""

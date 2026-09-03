@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
 breadcrumb-title: ''
 description: 円形グラデーションノードを使用して、円形のカラーのトランジションおよびエフェクトの円形グラデーションを作成します。
 helpx_creative_field: ""

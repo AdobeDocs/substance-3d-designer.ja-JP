@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
 breadcrumb-title: ''
 description: '[レンガジェネレータ]ノードを使用して、カスタマイズ可能なサイズ、オフセット、モルタルのプロパティを使用してプロシージャルのレンガパターンを作成します。'
 helpx_creative_field: ""

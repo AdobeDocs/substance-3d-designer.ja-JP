@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
 description: Cube 3Dノードを使用すると、3D立方体投影に基づいてテクスチャを作成し、環境マップとエフェクトを作成することができます。
 helpx_creative_field: ""

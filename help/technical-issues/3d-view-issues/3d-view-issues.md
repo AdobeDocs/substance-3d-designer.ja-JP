@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: レンダリング、表示、パフォーマンスの問題など、Substance 3D Designerの3Dビューに関する問題のトラブルシューティング
 helpx_creative_field: ""

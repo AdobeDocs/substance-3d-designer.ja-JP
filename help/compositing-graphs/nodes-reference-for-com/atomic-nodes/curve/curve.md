@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Curveノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。
 helpx_creative_field: ""

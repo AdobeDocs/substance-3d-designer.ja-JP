@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
 breadcrumb-title: ''
 description: '[雲2]ノードを使用して、大気テクスチャエフェクトおよびボリュームテクスチャエフェクトを作成するための中間の雲パターンを生成します。'
 helpx_creative_field: ""

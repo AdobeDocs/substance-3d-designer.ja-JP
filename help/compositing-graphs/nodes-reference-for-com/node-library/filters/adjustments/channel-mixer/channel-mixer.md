@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
 breadcrumb-title: ''
 description: カラーミキサーノードを使用して、カラーチャンネルをミックスし、カラーエフェクトを作成したり、カラースペースを変換したりします。
 helpx_creative_field: ""

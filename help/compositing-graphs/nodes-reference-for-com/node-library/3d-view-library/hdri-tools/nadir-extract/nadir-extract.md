@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
 breadcrumb-title: ''
 description: Nadir Extractノードを使用して、環境マップの底部領域を処理するために、HDRIパノラマから底部領域を抽出します。
 helpx_creative_field: ""

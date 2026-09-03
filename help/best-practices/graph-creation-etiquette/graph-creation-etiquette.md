@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Substanceグラフを作成して、クリーンでメンテナンス性が高く効率的なワークフローを実現するためのベストプラクティスとエチケットについて説明します。
 helpx_creative_field: ""

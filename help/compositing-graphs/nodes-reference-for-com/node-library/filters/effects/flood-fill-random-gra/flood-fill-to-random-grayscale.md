@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
 breadcrumb-title: ''
 description: 「Flood Fillからランダムにグレースケール」ノードを使用して、変動パターンを作成するために、リージョンをランダムなグレースケール値で塗りつぶします。
 helpx_creative_field: ""

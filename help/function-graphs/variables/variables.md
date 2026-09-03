@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフで変数を使用して、値を効率的に保存および再利用する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでユーザー設定を自動化し、ワークフローの設定を合理化する方法について説明します。
 helpx_creative_field: ""
