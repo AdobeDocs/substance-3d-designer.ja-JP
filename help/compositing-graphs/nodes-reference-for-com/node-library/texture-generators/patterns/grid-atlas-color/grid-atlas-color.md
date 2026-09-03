@@ -1,7 +1,7 @@
 ---
 title: グリッドアトラスカラー
-description: Designer/Substance合成グラフ/ノード参照用Substance合成グラフ/Node library/Generator/Pattern/グリッドアトラスカラー
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+description: Designer/Substance合成グラフ/ノード合成の参照Substance合成グラフ/Node library/Generator/Pattern/グリッドアトラスカラー
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グリッドアトラスの色アイコン](grid-atlas-color.resources/grid-atlas-color.png "グリッドアトラスの色")
+![グリッドアトラスの色アイコン](grid-atlas-color.resources/grid-atlas-color-01.png "グリッドアトラスの色")
 
 <b>イン：</b>ジェネレーター>パターン
 
@@ -75,5 +75,5 @@ XYサイズを調整できるグリッドに、最大16色の画像をパック�
 
 ## 例
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="グラフのコンテキスト内のグリッドアトラスカラーノード" style="width: 50%"><br>
+<img src="./grid-atlas-color.resources/grid-atlas-color-02.png" alt="グラフのコンテキスト内のグリッドアトラスカラーノード" style="width: 50%"><br>
 <i>グラフのコンテキストのグリッドアトラスカラーノード</i>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Designerバージョン15.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 *リリース日：2025年12月11日*
 
-![バナーDesigner 15.1](../../assets/bannerweb.png)
+![バナーDesigner 15.1](version-15-1.resources/version-15-1-01.png)
 
 ## グラフ作成の改善
 
@@ -36,13 +36,13 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 [詳細情報](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![新しいグラフウィンドウの再設計](../../assets/newgraph.png){zoomable="yes"}
+![新しいグラフウィンドウの再設計](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
 
 ## 埋め込みサンプル
 
 再設計されたグラフ作成ウィンドウの起動に伴い、様々な[<b>サンプル資料</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)をソフトウェア内に直接追加しました。 この機能強化は、学習リソースへのアクセスを改善したいというお客様の要望に応えるものです。
 
-![サンプル用の新しいグラフ作成ウィンドウ](../../assets/GraphSample.png){zoomable="yes"}
+![サンプル用の新しいグラフ作成ウィンドウ](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
 
 このニーズを満たすために、我々は生地（革やサテンを含む）、木材、金属、プラスチック、セラミックなどの材料サンプルを含んでいます。 これらの例は、プロジェクトを簡単に開始し、Substance 3D Designerで使用可能なメインファミリーノードについて理解するのに役立ちます
 
@@ -54,15 +54,15 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 [詳細情報](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![substance designerの木のサンプル](../../assets/samplegraph.png){zoomable="yes"}
+![substance designerの木のサンプル](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
 
 ## 新しいノイズ
 
 ノイズは、ほとんどのグラフで重要な役割を果たします。そのため、このリリースでは、その機能と使いやすさを向上させるために、いくつかの重要な機能強化に焦点を当てています。
 
-このアップデートでは、ノイズパターンが強制的にタイル表示されることなく予期したとおりに動作するように、<b>非タイル表示シナリオのサポート</b>が改善されました。 以前は、ノイズノードが強制的にタイル表示されるか、タイル表示が無効になっている場合に誤った結果が生成されていました。
+このアップデートでは、ノイズパターンが強制的にタイル表示されることなく予期したとおりに動作するように、<b>非タイル表示シナリオのサポート</b>が改善されました。 以前は、ノイズノードがタイル処理を強制されるか、タイリングが無効になっている場合に誤った結果が生成されていました。
 
-現在、ほとんどのノイズには<b>新しいパラメーター</b>が含まれており、ユーザーがよりクリエイティブにコントロールできるようになっています。 これらの追加オプションにより、グラフ作成者はワークフロー内のノイズの外観と動作を微調整できます。
+現在、ほとんどのノイズに<b>新しいパラメーター</b>が追加され、クリエイティブなコントロールが強化されています。 グラフ作成者は、これらの追加オプションを使用して、ワークフロー内でのノイズの外観と動作を微調整できます。
 
 最後に、ビット深度が<b>16ビットにハードロックされなくなりました</b>。 個々のノードインスタンスでビット深度の設定を上書きできるようになりました。これにより、必要に応じて詳細およびダイナミックレンジを拡大したり、パフォーマンスを上げるためにグラフを最適化したりできます。
 
@@ -70,7 +70,7 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 例： [セル1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [雲2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向の傷](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [湿気ノイズ1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![方向障害ノイズ](../../assets/directionaldisorder.gif){zoomable="yes"}
+![方向障害ノイズ](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
 
 ## ノードメニューの階層
 
@@ -82,12 +82,12 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![カテゴリ1でのノード検索](../../assets/search1-2.png){zoomable="yes"}
+![カテゴリ1でのノード検索](version-15-1.resources/version-15-1-06.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![カテゴリ2でのノード検索](../../assets/search2.png){zoomable="yes"}
+![カテゴリ2でのノード検索](version-15-1.resources/version-15-1-07.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 ただし、この方法では常に最適な結果が得られるとは限りません。 たとえば、一部のスプラインノードでは、最初に接続したピンがスプライン座標データを表すことが多く、プレビューには適していません。
 
-この問題に対処するために、デフォルトの出力属性が導入されました。 この機能を使用すると、グラフ作成者は<b>既定で表示する出力を指定</b>できます。これにより、ノードの使用感が向上し、作成されたグラフをより明確に理解できるようになります。
+この問題に対処するために、デフォルトの出力属性が導入されました。 この機能を使用すると、グラフの作成者は<b>既定で表示する出力を指定</b>できます。これにより、ノードの使用感が向上し、作成者のグラフをより明確に理解できるようになります。
 
 以下の画像を再生して、デフォルトの出力定義の前後の違いを確認してください。
 
@@ -108,11 +108,11 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultupput2">
+      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultupput2">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="デフォルトの出力では、サムネールは常に関連性があります。">
+      <img src="version-15-1.resources/version-15-1-09.png" alt="デフォルトの出力では、サムネールは常に関連性があります。">
       <br><i>後</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 
 [詳細情報](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![ノードが定義されています](../../assets/isdefined.png){zoomable="yes"}
+![ノードが定義されています](version-15-1.resources/version-15-1-10.png){zoomable="yes"}
 
 ## リリースノート
 
@@ -199,8 +199,8 @@ Substance Designer 15.1では、グラフ作成ウィンドウが全面的に改
 * [3Dビュー]Specular levelが正しく適用されない
 * [3Dビュー] Eclairラスタライザーを使用すると、Specular edge colorが機能しない
 * [3Dビュー]ユーザが追加したマテリアルが既定のシーンに適用されない
-* [3D表示]&#x200B;[ベーカーさん]オーバーライドしたマテリアルカラーや「カラー」ベーカーを使用した場合に、マテリアルカラーが暗すぎる
-* [3Dビュー]&#x200B;[ベイカー] FBXファイルのマテリアルカラーが表示されない
+* [3D表示][ベーカーさん]オーバーライドしたマテリアルカラーや「カラー」ベーカーを使用した場合に、マテリアルカラーが暗すぎる
+* [3Dビュー][ベイカー] FBXファイルのマテリアルカラーが表示されない
 * [ベイカー] FBXファイルのマテリアルカラーが正しく検出されない
 * [ベイカー] JSONプリセットの書き出しで、「recompute\_tangents」オプションが常に「false」になる
 * [ベイカー] CLI:JSONファイルを使用して同じベイカーを連続して実行するとクラッシュする

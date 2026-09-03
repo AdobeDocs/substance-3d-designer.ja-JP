@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
-description: SVGのベクターグラフィックをSubstance 3D Designerのリソースとして読み込んで使用し、プロシージャルなマテリアルを作成できます。
+description: ベクターグラフィックをSubstance 3D Designerに読み込んでリソースとして使用し、プロシージャルのマテリアルを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Vector graphics (SVG) resource
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ベクターグラフィック（SVG）リソース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # ベクターグラフィック（SVG）リソース
 
-Substance 3D Designerは、Scalable Vectorグラフィック形式を通じて、ベクターグラフィックの限られた形式をサポートしています。 SVGファイルは、様々な方法でリソースとして取り込み、グラフのリソースとして使用できます。
+Substance 3D Designerは、スケーラブルベクターグラフィックフォーマットを通じて、限られた形式のベクターグラフィックをサポートしています。 SVGファイルは、様々な方法でリソースとして取り込み、グラフのリソースとして使用できます。
 
-SVGファイル[は、アトミックSVGノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)を使用して作成または編集できます。[UVからSVGベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)を使用して作成することもできます。
+SVGファイル[は、アトミックSVGノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)を使用して作成または編集できます。また、[UVからSVGへのベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)を使用して作成することもできます。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ SVGファイル[は、アトミックSVGノード](../../compositing-graphs/node
 
 ## SVGストレージ
 
-SVGストレージは、リンクされているか、インポートされているかによって異なります。 読み込んだSVGファイルはSBSファイルに埋め込まれます。[ビットマップなどの外部ファイルは不要](../../resources/bitmap-resource/bitmap-resource.md)で、[ベクター編集ツール](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)を使用して編集できます。
+SVGストレージは、リンクされているか、インポートされているかによって異なります。 読み込んだSVGファイルはSBSファイルに埋め込まれ、[ビットマップなどの外部ファイルは不要](../../resources/bitmap-resource/bitmap-resource.md)です。また、[ベクター編集ツール](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)を使用して編集できます。
 
 ## SVG属性
 
@@ -60,7 +60,7 @@ SVGストレージは、リンクされているか、インポートされて�
 * ストロークはサポートされていますが、結果として1ピクセル幅のストロークになるだけで、ストロークのスタイル設定は無視されます。
 * 破線スタイルは必ず破れます。
 * レンダリングするには、テキストをパス/アウトラインに変換する必要があります。
-* [複合パス](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths)はサポートされていません。
+* [複合パス](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html)はサポートされていません。
 * グラデーションなどの高度な機能はサポートされていません。
 * CSSプロパティのスタイル要素はサポートされていません。
 
@@ -70,7 +70,7 @@ SVGストレージは、リンクされているか、インポートされて�
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/jp/products/illustrator.html)では、以下のオプションに注意を払う場合、SVGの書き出しを最大限に制御できます。
+[Illustrator](https://www.adobe.com/products/illustrator.html)では、以下のオプションに注意を払う場合、SVGの書き出しを最大限に制御できます。
 
 * <b>名前を付けて保存</b>のみを使用してください。名前を付けて書き出しは&#x200B;*使用できません。*
 * <b>SVGプロファイル</b>は特に重要ではありませんが、小さなプロファイルは間違いなく正しい設定にデフォルトで（ほとんどの場合）設定されます。
@@ -87,7 +87,7 @@ SVGストレージは、リンクされているか、インポートされて�
 > アートボードは、生成されたSVGファイルの結果に影響を与える場合があります。 一部のIllustratorファイルテンプレートには、複数のアートボードが含まれています。\
 > SVGとして保存する場合は、適切にトリミングされた1つのアートボードのみを用意し、アートボードウィンドウでそのアートボードを選択するようにしてください。
 
-![Illustrator SVGの書き出しオプション](../../assets/svg-export-options-ai.jpg "Illustrator SVGの書き出しオプション"){width="512px"}
+![Illustrator SVGの書き出しオプション](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Illustrator SVGの書き出しオプション"){width="512px"}
 
 ### Inkscape
 

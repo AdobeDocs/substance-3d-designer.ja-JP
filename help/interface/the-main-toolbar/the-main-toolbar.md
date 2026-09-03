@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのメインツールバーについて説明します。このメインツールバーから、一般的なワークフローのツールやコマンドにアクセスできます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: メインツールバー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![メインツールバー](../../assets/mainmenu.png "メインツールバー")
+![メインツールバー](the-main-toolbar.resources/the-main-toolbar-01.png "メインツールバー")
 
 </td>
 </tr>
@@ -37,22 +37,22 @@ ht-degree: 2%
 
 ## クイックアクセスボタン
 
-![](../../assets/newsubstance.png) <b>新しいSubstanceグラフ…:</b> (Ctrl + N) [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示し、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)で新しいパッケージを作成します。
+![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>新しいSubstanceグラフ…:</b> (Ctrl + N) [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示し、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)で新しいパッケージを作成します。
 
-![](../../assets/open.png) <b>開く…:</b> (Ctrl+O)既存の[Substanceパッケージ(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)を開きます。
+![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>開く…:</b> (Ctrl+O)既存の[Substanceパッケージ(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)を開きます。
 
-![](../../assets/saveall.png) <b>すべて保存：</b> (Ctrl+⇧+S) [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)に一覧表示されているすべてのパッケージを保存します。
+![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>すべて保存：</b> (Ctrl+⇧+S) [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)に一覧表示されているすべてのパッケージを保存します。
 
-![](../../assets/undo.png) <b>取り消し：</b> (Ctrl+Z)最後に行った操作を取り消します。
+![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>取り消し：</b> (Ctrl+Z)最後に行った操作を取り消します。
 
-![](../../assets/redo.png) <b>やり直し：</b> (Ctrl + Y)最後に取り消した操作をやり直します。
+![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>やり直し：</b> (Ctrl + Y)最後に取り消した操作をやり直します。
 
 ## ファイル
 
 <b>新規：</b>は、グラフまたはパッケージを作成するためのサブメニューを開きます。
 
-* <b>新しいSubstanceグラフ…:</b>(Ctrl + N)新しい[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)を設定できる[新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示します。
-* <b>新しいSubstance関数グラフ：</b> [Substance関数グラフ](../../function-graphs/function-graphs.md)を使用して新しいパッケージを作成します。
+* <b>新しいグラフ...:</b>(Ctrl+N) [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウが表示され、新しい[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)を設定できます。
+* <b>新しいSubstance関数グラフ:</b> [Substance関数グラフ](../../function-graphs/function-graphs.md)を使用して新しいパッケージを作成します；
 * <b>空：</b>空のパッケージを作成します。
 
 <b>開く…:</b> (Ctrl+O)既存の[Substanceパッケージ(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)を開きます。
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 <b>ウィンドウの最大化を解除：</b>任意のパネルが&#x200B;*最大化*&#x200B;されている場合、このオプションはウィンドウの最大化を解除し、レイアウトを&#x200B;*最大化の前*&#x200B;と同じ状態に復元します
 
-<b>エクスプローラー：</b> [エクスプローラー](../the-explorer-window/the-explorer-window.md)の表示/非表示を切り替えます。
+<b>エクスプローラー:</b> [エクスプローラー](../the-explorer-window/the-explorer-window.md)を表示/非表示にします。
 
 <b>グラフ：</b> [グラフウィンドウ](../../interface/the-graph-view/the-graph-view.md)の表示/非表示を切り替えます。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 <b>依存関係マネージャー：</b> [依存関係マネージャー](../../interface/dependency-manager/dependency-manager.md)の表示/非表示を切り替えます。
 
-<b>2Dビュー：</b> [2Dビュー](../2d-view/2d-view.md)を表示/非表示にします。
+<b>2Dビュー：</b> [2D ビュー](../2d-view/2d-view.md)を表示/非表示にします。
 
 <b>ライブラリ：</b> [ライブラリウィンドウの表示/非表示を切り替えます。](../../interface/the-library/the-library.md)
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>新機能…:</b> Designerの最新リリースに追加された機能を示す画面が表示されます
 
-<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/jp/substance-3d.html)での場所を案内する画面を表示します
+<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/substance-3d.html)での場所を案内する画面を表示します
 
 <b>パートナー：</b> Designerのパートナーが提供するサードパーティ統合に関する免責事項および通知にアクセスできます。
 

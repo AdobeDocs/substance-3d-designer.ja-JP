@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
 breadcrumb-title: ''
 description: '[経年劣化リーク]ノードを使用して、サーフェスに水汚れや風化効果を生み出すためのリークパターンを作成します。'
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 経年劣化リーク
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
 
-**インチ：** *テクスチャジェネレーター* */ノイズ*
-
-**単純**
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,31 +39,31 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **バランス** *浮動小数点*&#x200B;暗い値と明るい値のバランスを調整します。
-* **コントラスト** *浮動小数点*&#x200B;画像のコントラストを調整します。
-* **反転** *ブール値*`1-x`操作を使用して画像の出力を反転します。
-* **非正方形拡張** *ブール値*&#x200B;非正方形の比率でのスカッシュとストレッチの補正を有効にします。
-* アドバンス
-  * **ドリップの長さ** *フロート*&#x200B;ドリップストリークの長さを調整します。
-  * **シェイプのコントラスト** *フロート*&#x200B;明るいシェイプと暗いシェイプの間をシフトし、滴る部分でコントラストを作ります。
-  * **滴り立ち** *浮き*&#x200B;滴り落ちるシャープとクリプネスを調整します。
-  * **シャープの適用度** *フロート*&#x200B;画像の全体的な粒状感を調整します。
+|  |  |
+|:---|:---|
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>詳細</b> |  |
+| <b>ドリップの長さ</b> <i>フロート</i> | 滴り落ちる筋の長さを調整します。 |
+| <b>図形のコントラスト</b> <i>フロート</i> | 明るいシェイプと暗いシェイプの間でシフトし、滴る部分でコントラストを付けます。 |
+| <b>滴り落ちる鮮明さ</b> <i>浮動小数</i> | 滴り落ちるシャープとクリプスネスを調整します。 |
+| <b>シャープの適用度</b> <i>浮動小数</i> | 画像全体の粒状感を調整します。 |
 
-## サンプル画像
+## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
+        </td>
+    </tr>
 </table>

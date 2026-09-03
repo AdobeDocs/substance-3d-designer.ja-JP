@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Designerバージョン12.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### Substanceマテリアルグラフの新しいコンテンツ
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/version-12-1-01.png)
 
 多くのノードがこのバージョンに追加されており、新しいパターン、新しいノイズ、新しいフィルターなどが見つかります。
 
@@ -38,36 +38,36 @@ ht-degree: 0%
 
   * 新しい<b>タイルランダム2</b>ノードが追加され、サイズと比率がランダムで隣接するタイルが生成されました。これは、傾いた、角の丸い、ベベルのある完全に不規則なグリッドをすばやく作成する場合に非常に便利です。
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
+    ![](version-12-1.resources/version-12-1-02.gif){width="640px"}
   * 新しい<b>Triangle Grid</b>パターンを使用して、三角形で構成されるグリッドを作成します。 下のマテリアルでこのマテリアルを使用すると、レザー粒子を簡単かつ完全にシミュレートできます。 このジェネレータは、3D空間の頂点のサーフェスを表し、さまざまなポリゴンスタイルの作成に使用できます。
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/version-12-1-03.png){width="640px"}
 * **新しいノイズ**
 
   * より多様性を持たせるために、<b>15個の新しい経年劣化マップ</b> （コンクリート、リーク、汚れたスプラッシュ、...）のセットです。 がライブラリに追加されました。
 
-    ![](../../assets/grungemaps.png){width="640px"}
+    ![](version-12-1.resources/version-12-1-04.png){width="640px"}
   * また、Voronoi （2Dおよび3D）、Voronoi Fractal （2Dおよび3D）、3D Ridged Fractal、および現在の3D Perlinノイズの更新（タイリングとアブソリュートオプションの追加）などの、<b>新しい2Dおよび3Dノイズ</b>も表示されます。\
     これらのノイズはすべて3D空間にマッピングされ、複数のスタイルを提供するため、バリエーションとコントロールが増え、下の海やSFパネルのマテリアルなど、マテリアルに最適なマップを作成するための選択肢が豊富に用意されています。
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/version-12-1-05.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
+    ![](version-12-1.resources/version-12-1-06.gif){width="640px"}
   * 3Dモデルのスライスのアトラスである3Dテクスチャを作成およびレンダリングするための<b>3Dテクスチャノード</b> （位置、SDF、オフセット）および<b>3Dレンダリングノード</b> （サーフェスまたはボリューム）のコレクションです。
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/version-12-1-07.png){width="640px"}
 
 * **新しいフィルター**
 
   * <b>自動切り抜き</b>ノードを使用すると、サイズを変更せずに画像の&#x200B;*中心*&#x200B;にシェイプを配置したり、スペースに合わせてサイズを変更したりできます。 例えば、散在していても一定の位置とサイズを保ったまま、シェイプを自由に微調整できます。
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
+    ![](version-12-1.resources/version-12-1-08.gif){width="640px"}
   * <b> Extend Shape</b>ノードを使用すると、図形のセクションをカスタムの方向と距離に合わせて伸縮できます。
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/version-12-1-09.gif){width="640px"}
   * また、<b>Non-Uniform Rotation</b>ノードを使用すると、指定したマップに従って入力を回転できます。
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/version-12-1-10.gif){width="640px"}
 * **さらに…**
 
   * 値を非線形に駆動するのに非常に便利なイージング関数（関数グラフ）。
@@ -89,19 +89,19 @@ ht-degree: 0%
 * <b>Stagerに送信\
   </b>SamplerとPainterでは既に可能になっていたため、ワンクリックでSubstance素材をStagerに送ることができるようになりました。 この機能により、SBSARとして公開して個々のファイルをロードする必要がなくなりました（新しいマテリアルマネージャーを備えたStagerバージョン1.2.0が必要です）
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/version-12-1-11.gif)
 
 ### その他
 
 * ファブリックで作業している場合、3Dビューに専用のメッシュを表示して、ドレープされたシェイプ上でマテリアルがどのようにレンダリングされるかを確認できるようになりました。 3Dビューパネルで<b>シーン</b>メニューを開き、<b>布</b>オプションを選択して、このモデルを表示します。
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/version-12-1-12.png){width="640px"}
 
 * Substanceモデルグラフ用の新しいシーン管理ノードも追加しました。 これらのノードを使用すると、シーンの階層を整理するために、シーン要素の名前の変更、親の変更、融合、拡張を行うことができます。 シーンの1つまたは複数の要素の基点を設定する新しいノードもあります。
 
 * Designerでプロジェクトの作業中に、プロジェクトの問題を通知する警告やエラーメッセージが表示される場合があります。 このバージョンでは、<b>エラー管理システムを改善</b>して、エクスプローラーですべてのエラーと警告を表示します。すべての情報が1か所に一覧表示されるので、プロジェクトに問題があるかどうかを簡単に確認できます。
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/version-12-1-13.png){width="640px"}
 
 ## リリースノート
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 * [コンテンツ]クオンタイズグレースケールノードの新しいバージョン
 * [コンテンツ] New Voronoi and Voronoi Fractal Noises (2D/3D)
 * [コンテンツ]しきい値：「低」および「低と等しい」比較モードを追加します
-* [コンテンツ]&#x200B;[3Dビュー]出荷されたリソースに布表示に適したメッシュを追加する
+* [コンテンツ][3Dビュー]出荷されたリソースに布表示に適したメッシュを追加する
 * [Substanceモデル]新しい[グループインスタンスの展開]ノード
 * [Substanceモデル]新しいFuseノード
 * [Substanceモデル]新しい[名前変更]ノード
@@ -176,8 +176,8 @@ ht-degree: 0%
 * [コンテンツ] Flood Fill:ブール演算パラメーターのボタンでテキストの裁ち落としが発生します
 * [コンテンツ]標準ノードの最初のサンプルライトアングルパラメータに対するマルチアングルの範囲が正しくありません
 * [Substanceモデル]ノードのプロパティにラベルではなくIDが表示されます
-* [Substanceモデル]&#x200B;[3Dビュー]プロジェクトを再度開くときに更新の問題が発生する
-* [Substanceモデル]&#x200B;[3Dview] ワイヤーフレームプレビューを使用する際のリフレッシュの問題
+* [Substanceモデル][3Dビュー]プロジェクトを再度開くときに更新の問題が発生する
+* [Substanceモデル][3Dview] ワイヤーフレームプレビューを使用する際のリフレッシュの問題
 * [パラメーター]特定のケースでグラフ入力を連続して素早く削除するとクラッシュする
 * [パラメータ]参照説明の編集中にインスタンスパラメータをリセットするとクラッシュする
 * [ビットマップ]グラフにドロップされたビットマップファイルに対してUDIM検出が実行されない

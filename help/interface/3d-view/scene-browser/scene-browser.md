@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Scene Browserを使用して、ビューポート内の3Dシーン要素、マテリアル、およびオブジェクトをナビゲートおよび管理します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シーンブラウザー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 3Dビューのシーンブラウザには、シーン内のすべての要素とその階層が一覧表示されます。
 
-オブジェクトの選択、表示/非表示の切り替え、[シーンマテリアルをオーバーライド](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)する必要があるマテリアルの選択を行うためのコントロールが用意されています。
+オブジェクトの選択、表示/非表示の切り替え、[シーンのマテリアルを上書きする](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)必要があるマテリアルの選択を行うためのコントロールを提供します。
 
-Designerでは、シーンの記述と管理に[USD](https://openusd.org/release/index.html)を使用しているため、用語とコンセプトはそのシーンツリーに含まれています。
+Designerでは、シーンの説明と管理に[USD](https://openusd.org/release/index.html)を使用しているため、用語とコンセプトはそのシーンツリーにあります。
 
-これは、[3Dビューのシーンツールバー](../../../interface/3d-view/3d-view.md)で専用のトグルボタン![](../../../assets/sceneBrowser-toggleButton.png)をクリックして表示します。
+これは、[3Dビューのシーンツールバー](../../../interface/3d-view/3d-view.md)で専用のトグルボタン![](scene-browser.resources/scene-browser-01.png)をクリックすると表示されます。
 
-![Scene Browser – ロードされた3Dシーン](../../../assets/loaded3DScene.png "Scene Browser – ロードされた3Dシーン"){zoomable="yes"}
+![Scene Browser – ロードされた3Dシーン](scene-browser.resources/scene-browser-02.png "Scene Browser – ロードされた3Dシーン"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Scene Browserには、階層ツリーに配置されたオブジェクトのリ�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シーンブラウザー – シーンツリー](../../../assets/sceneBrowser-sceneTree.png "シーンブラウザー – シーンツリー"){zoomable="yes"}
+![シーンブラウザー – シーンツリー](scene-browser.resources/scene-browser-03.png "シーンブラウザー – シーンツリー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Designerは、読み込まれたシーンにオブジェクトを追加します
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene Browser - Designerによって追加されたオブジェクトが太字で表示されます](../../../assets/sceneBrowser-addedByDesigner.png "Scene Browser - Designerによって追加されたオブジェクトが太字で表示されます"){zoomable="yes"}
+![Scene Browser - Designerによって追加されたオブジェクトが太字で表示されます](scene-browser.resources/scene-browser-04.png "Scene Browser - Designerによって追加されたオブジェクトが太字で表示されます"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Designerは、読み込まれたシーンにオブジェクトを追加します
 
 親オブジェクトの状態はその子に継承されるので、親オブジェクトを無効にすると、その子も無効になります。
 
-オブジェクトの表示/非表示は、目のボタン![](../../../assets/sceneBrowser-eyeButton.png)をクリックするか、コンテキストメニューから切り替えることができます。 このメニューには、シーンオブジェクトの表示を管理するためのアクションがいくつか用意されています。
+オブジェクトの表示/非表示は、目のボタン![](scene-browser.resources/scene-browser-05.png)をクリックするか、コンテキストメニューから切り替えることができます。 このメニューには、シーンオブジェクトの表示を管理するためのアクションがいくつか用意されています。
 
 * <b>非表示：</b>選択したオブジェクトを無効にします。
 * <b>表示：</b>選択したオブジェクトを有効にします。
@@ -128,7 +128,7 @@ Designerは、読み込まれたシーンにオブジェクトを追加します
 * <b>すべての子を展開：</b>選択したオブジェクトの下にあるすべての子のリストを再帰的に展開します。
 * <b>すべての子を折りたたむ：</b>選択したオブジェクトの下にあるすべての子のリストを再帰的に折りたたみます。
 
-![Scene Browser – オブジェクトの表示/非表示の切り替え](../../../assets/sceneBrowser-toggleVisibility.gif "Scene Browser – オブジェクトの表示/非表示の切り替え"){zoomable="yes"}
+![Scene Browser – オブジェクトの表示/非表示の切り替え](scene-browser.resources/scene-browser-06.gif "Scene Browser – オブジェクトの表示/非表示の切り替え"){zoomable="yes"}
 
 ### 環境
 
@@ -138,13 +138,13 @@ Designerは、読み込まれたシーンにオブジェクトを追加します
 
 複数の環境光が有効になっている場合、その光の効果は&#x200B;*累積的に追加*&#x200B;されます。
 
-![Scene Browser – 環境の表示/非表示の切り替え](../../../assets/sceneBrowser-toggleEnvLights.gif "Scene Browser – 環境の表示/非表示の切り替え"){zoomable="yes"}
+![Scene Browser – 環境の表示/非表示の切り替え](scene-browser.resources/scene-browser-07.gif "Scene Browser – 環境の表示/非表示の切り替え"){zoomable="yes"}
 
 ### ライト
 
 シーン内の任意のライトについても同じことが言えます。各ライトは個別に切り替えることができます。
 
-![Scene Browser – ライトの表示/非表示の切り替え](../../../assets/sceneBrowser-toggleLights.gif "Scene Browser – ライトの表示/非表示の切り替え"){zoomable="yes"}
+![Scene Browser – ライトの表示/非表示の切り替え](scene-browser.resources/scene-browser-08.gif "Scene Browser – ライトの表示/非表示の切り替え"){zoomable="yes"}
 
 ## 接続されたマテリアル
 
@@ -163,7 +163,7 @@ Designerで一覧表示されるマテリアルは、少なくとも1つのメ�
 </td>
 <td style="border: 0;" valign="top">
 
-![シーンブラウザー – 接続されたマテリアル](../../../assets/sceneBrowser-connectedMaterial.png "シーンブラウザー – 接続されたマテリアル"){zoomable="yes"}
+![シーンブラウザー – 接続されたマテリアル](scene-browser.resources/scene-browser-09.png "シーンブラウザー – 接続されたマテリアル"){zoomable="yes"}
 
 </td>
 </tr>

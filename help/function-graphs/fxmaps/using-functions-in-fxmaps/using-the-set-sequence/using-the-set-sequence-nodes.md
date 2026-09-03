@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: FXMapでSetSequenceノードを使用して、連続したパターンと手続き型のバリエーションを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SetSequenceノードの使用
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -28,12 +28,12 @@ ht-degree: 0%
 
 ## 概要
 
-<b>FX-Maps</b>で関数を使用しているときに、パラメーターの&#x200B;*[Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)*&#x200B;から値を出力する必要がある場合があります。その場合、*別のグラフに使用できます。* ただし、既定では、Substance関数グラフは&#x200B;*one*&#x200B;値（関連パラメーターを制御する値）のみを出力します。
+<b>FX-Maps</b>で関数を使用しているときに、パラメーターの&#x200B;*[Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)*&#x200B;から値を出力する必要がある場合があります。その場合、*別のパラメーターに使用できます。* ただし、既定では、Substance関数グラフは&#x200B;*one*&#x200B;値（関連パラメーターを制御する値）のみを出力します。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの設定とシーケンス](../../../../assets/image2017-3-17-15-5-5.png "ノードの設定とシーケンス")
+![ノードの設定とシーケンス](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-01.png "ノードの設定とシーケンス")
 
 </td>
 </tr>
@@ -44,7 +44,7 @@ ht-degree: 0%
 このプロセスには、次の2つの手順が含まれます。
 
 1. <b>Set</b>ノードを使用すると、新しい変数を作成して、別の場所に呼び出して値を割り当てることができます。
-1. <b>シーケンス</b>ノードは、グラフの別の分岐&#x200B;*を実行する前に（たとえば、現在のグラフの期待値を実際に出力するときに関与するロジック）、つまりステップ1のロジック全体を*&#x200B;実行するために使用されます
+1. <b>シーケンス</b>ノードを使用して、手順1のロジック全体の&#x200B;*実行してから、グラフの別の分岐*&#x200B;を実行します（たとえば、現在のグラフで期待される値を実際に出力する際に関与したロジック）
 
 <table>
 <tr style="border: 0;">
@@ -61,7 +61,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ノードの設定](../../../../assets/image2017-3-17-15-12-52.png "ノードの設定")
+![ノードの設定](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-02.png "ノードの設定")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例の設定](../../../../assets/image2018-8-30-17-45-35.png "ノードの例の設定")
+![ノードの例の設定](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-03.png "ノードの例の設定")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![シーケンスノード](../../../../assets/image2017-3-17-15-17-38.png "シーケンスノード")
+![シーケンスノード](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-04.png "シーケンスノード")
 
 </td>
 </tr>
@@ -105,36 +105,36 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-この例では、<b>シーケンス</b>ノードをグラフの出力として設定します。 したがって、関数の出力は、<b>Float</b>ノードによって出力される<b>0.5</b>値になります。
+この例では、<b>Sequence</b>ノードがグラフの出力として設定されます。 したがって、関数の出力は、<b>Float</b>ノードによって出力される<b>0.5</b>値になります。
 
 ただし、その前に`<b>myVariable</b>`変数はfloat値<b>1.0</b>で設定されます。 この変数は、ノードのコンテキスト内の&#x200B;*他の場所*&#x200B;で使用できます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![シーケンスノードの例](../../../../assets/image2018-8-30-17-49-41.png "シーケンスノードの例")
+![シーケンスノードの例](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-05.png "シーケンスノードの例")
 
 </td>
 </tr>
 </table>
 
-グラフの実行フローを制御するために、**シーケンス**&#x200B;のノードを&#x200B;*チェーン*&#x200B;できます。
+**シーケンス**&#x200B;のノードを&#x200B;*チェーン*&#x200B;して、グラフの実行フローを制御できます。
 
 たとえば、これらのアクションを&#x200B;*特定の順序で*&#x200B;実行しながら、最初に変数を&#x200B;*設定*&#x200B;し、後でその値を&#x200B;*更新*&#x200B;し、その後で最終値を&#x200B;*読み取り*&#x200B;することができます。
 
-![シーケンスノードチェーン](../../../../assets/image2018-8-30-17-52-27.png "シーケンスノードチェーン")
+![シーケンスノードチェーン](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-06.png "シーケンスノードチェーン")
 
 ## 変数の表示
 
 宣言された変数はどこからでも&#x200B;*アクセス可能*&#x200B;ではないことに注意してください。\
 親レベルで宣言された変数は子レベルでアクセスできますが、逆は&#x200B;*trueではありません*。
 
-したがって、ノードに設定された変数はグラフレベルでは&#x200B;*アクセスできません*。一方、グラフのレベルに設定された変数は、ノードのパラメーター関数で&#x200B;*アクセスできます*。
+したがって、ノード内の変数セットはグラフレベルでは&#x200B;*アクセスできません*。一方、ノードのパラメーター関数では、グラフのレベル&#x200B;*でアクセスできます*。
 
-たとえば、このルールは&#x200B;*パラメーターの公開*&#x200B;のコアであり、公開には実際に次の手順が含まれます。
+たとえば、この規則は&#x200B;*パラメーターの表示*&#x200B;のコアです。表示には実際に次の手順が含まれます。
 
-1. グラフ入力パラメーターの作成
-1. パラメータのSubstance関数グラフからアクセスする
+1. 入力パラメーターの作成
+1. パラメータのSubstance関数グラフでアクセスする
 1. 関数の出力としての値の設定
 
 小さな例を作成しましょう。<b>象限</b>のノードの<b>回転</b>の値を、<b>カラー/輝度</b>の値の影響を受けたいと考えます。輝度が明るいほど、回転が大きくなります。
@@ -143,12 +143,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Color/Luminosity</b>パラメーター関数の計算をすべて実行します。 このパラメーターは&#x200B;*最初*&#x200B;に計算されるため、このパラメーターに設定されているすべての変数を他のノードパラメーターで使用できます。
+<b>Color/Luminosity</b>パラメーター関数ですべての計算を行います。 このパラメーターは&#x200B;*最初*&#x200B;に計算されるため、このパラメーターに設定されているすべての変数を他のノードパラメーターで使用できます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![象限のプロパティ](../../../../assets/image2018-8-30-18-1-6.png "象限のプロパティ")
+![象限のプロパティ](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-07.png "象限のプロパティ")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![象限の色/輝度の関数](../../../../assets/image2018-8-30-18-4-46.png "象限の色/輝度の関数")
+![象限の色/輝度の関数](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-08.png "象限の色/輝度の関数")
 
 </td>
 </tr>
 </table>
 
-![パターンの散布量](../../../../assets/image2018-8-30-18-5-30.png "パターンの散布量")
+![パターンの散布量](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-09.png "パターンの散布量")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![パターン回転のパラメーター関数メニュー](../../../../assets/image2018-8-30-18-7-57.png "パターン回転のパラメーター関数メニュー")
+![パターン回転のパラメーター関数メニュー](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-10.png "パターン回転のパラメーター関数メニュー")
 
 </td>
 </tr>
@@ -194,12 +194,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-この関数では、**Get Float**&#x200B;ノードを使用して`myRotation`パラメーターの値を読み取り（変数にfloat値が含まれていることがわかっています）、関数の出力として設定します。
+関数では、**Get 浮動小数**&#x200B;ノードを使用して`myRotation`パラメーターの値を読み取り（変数にfloat値が含まれていることがわかっています）、それを関数の出力として設定します。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![パターンの回転の浮動小数点出力を取得](../../../../assets/image2018-8-30-18-10-58.png "パターンの回転の浮動小数点出力を取得")
+![パターンの回転の浮動小数点出力を取得](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-11.png "パターンの回転の浮動小数点出力を取得")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ ht-degree: 0%
 
 輝度も回転を制御するようになりました。
 
-![パターンを回転](../../../../assets/image2018-8-30-18-12-25.png "パターンを回転")
+![パターンを回転](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-12.png "パターンを回転")

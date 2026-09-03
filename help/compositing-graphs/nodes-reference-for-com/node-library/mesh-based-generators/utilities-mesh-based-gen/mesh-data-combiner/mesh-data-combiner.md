@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Mesh Data Combinerノードを使用すると、複数のメッシュデータ入力を組み合わせて、高度なメッシュベースのテクスチャを生成することができます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: メッシュデータコンバイナ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
 
-## メッシュデータコンバイナ
-
-**In:** *メッシュベースのジェネレーター**/Utilities*
-
-**単純**
+<b>In:</b> メッシュベースのジェネレータ>ユーティリティ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,30 +37,26 @@ ht-degree: 1%
 
 このノードは主に、[マテリアルメッシュデータブレンダー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)など、ギャラリー内の特定のノードでベイクされた入力の多くを簡単に操作できるヘルパーです。 これにより、手動ですべてを接続することを避けることができます。
 
-## パラメーター
-
-### パラメーター
-
-どのマップ入力を有効にしてパックされた結果に出力するかを切り替えます。
-
-* **アンビエントオクルージョン**: *False/True*
-* **UVマスク**: *False/True*
-* **曲率**: *False/True*
-* **Height**: *False/True*
-* **位置（グレースケール）**: *False/True*
-* **Thickness**: *False/True*
-* **標準**: *False/True*
-* **位置(RGB)**: *False/True*
-* **色ID**: *False/True*
-* **ワールド空間の方向**: *False/True*
-* **ワールド空間標準**: *False/True*
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+どのマップ入力を有効にしてパックされた結果に出力するかを切り替えます。
+
+|  |  |
+|:---|:---|
+| <b>環境オクルージョン</b> <i>False/True</i> |  |
+| <b>UV マスク</b> <i>False/True</i> |  |
+| <b>曲線</b> <i>False/True</i> |  |
+| <b>Height</b> <i>False/True</i> |  |
+| <b>位置（グレースケール）</b> <i>False/True</i> |  |
+| <b>Thickness</b> <i>False/True</i> |  |
+| <b>標準</b> <i>False/True</i> |  |
+| <b>位置(RGB)</b> <i>False/True</i> |  |
+| <b>色ID</b> <i>False/True</i> |  |
+| <b>ワールド空間方向</b> <i>False/True</i> |  |
+| <b>ワールド空間標準</b> <i>False/True</i> |  |

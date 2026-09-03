@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: ホワイトノイズノードを使用して、テクスチャのバリエーションやランダムな効果を作成するためのホワイトノイズパターンを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ホワイトノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -22,13 +22,9 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ホワイトノイズ – アイコン](../../../../../../assets/white_noise_v2.png "ホワイトノイズ – アイコン"){width="200px"}
+![ホワイトノイズ – アイコン](white-noise.resources/white-noise-01.png "ホワイトノイズ – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -43,19 +39,23 @@ ht-degree: 5%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 生成されるノイズをグレースケールビットマップとして表します。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>ノイズ分布</b>整数 | ヒストグラムのシェイプを対象に成分を配分する方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>均一：</i>均一なヒストグラムです。</li> <li data-preserve-html="true"><i>ガウス：</i>ベル曲線に似た正規分布を表すヒストグラムです。</li> <li data-preserve-html="true"><i>三角形：</i>三角形のヒストグラムです。</li> </ul> |
-| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+|:---|:---|
+| <b>ノイズ配布</b> <i>整数</i> | ヒストグラムのシェイプを対象に成分を配分する方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>均一：</i>均一なヒストグラムです。</li> <li data-preserve-html="true"><i>ガウス：</i>ベル曲線に似た正規分布を表すヒストグラムです。</li> <li data-preserve-html="true"><i>三角形：</i>三角形のヒストグラムです。</li> </ul> |
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
 
 ## 例
 
@@ -63,26 +63,12 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ホワイトノイズ – 例1](../../../../../../assets/white_noise_v2_1.png "ホワイトノイズ – 例1"){zoomable="yes"}
+![ホワイトノイズ – 例1](white-noise.resources/white-noise-02.png "ホワイトノイズ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ホワイトノイズ – 例2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "ホワイトノイズ – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![ホワイトノイズ – 例2](white-noise.resources/white-noise-03.gif "ホワイトノイズ – 例2"){zoomable="yes"}
 
 </td>
 </tr>

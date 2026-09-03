@@ -1,19 +1,19 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
 breadcrumb-title: ''
-description: '[メッシュ2]ノードを使用すると、ジオメトリテクスチャを作成するための高度なコントロールを備えた高度なメッシュパターンを生成できます。'
+description: '[メッシュ 2]ノードを使用すると、ジオメトリテクスチャを作成するための高度なコントロールを備えた高度なメッシュパターンを作成できます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 2
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: メッシュ2
+title: メッシュ 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-2.png){width="128px"}
+![](mesh-2.resources/mesh-2-01.png){width="128px"}
 
-## メッシュ2
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**単純**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-脂肪ブロック付きのシンプルなメッシュパターン。 Heightマップと詳細マップの作成に使用できます。
-
-## パラメーター
-
-* **タイル**: *1 - 16*\
-  結果をタイルする回数を設定します。
-* **45度回転**: *False/True*&#x200B;結果を回転します。
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-![](../../../../../../assets/mesh-2-ex.gif)
+脂肪ブロックとシンプルなメッシュパターン。 Heightマップと詳細マップの作成に使用できます。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>タイリング</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+| <b>45度回転</b> <i>False/True</i> | 結果を回転します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mesh-2.resources/mesh-2-02.gif" />
+        </td>
+    </tr>
 </table>

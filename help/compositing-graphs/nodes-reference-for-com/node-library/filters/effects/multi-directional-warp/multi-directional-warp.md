@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
 description: 多方向ワープノードを使用して、ワープエフェクトを複数の方向に適用し、複雑なゆがみパターンを作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 多方向ワープ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
+![](multi-directional-warp.resources/multi-directional-warp-01.png)![](multi-directional-warp.resources/multi-directional-warp-02.png)
 
-## 多方向ワープ（グレースケール）
-
-**場所：** *フィルター/効果*
-
-**中級**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,27 +37,26 @@ ht-degree: 1%
 
 これは主に[Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)とは異なり、少し制限が加えられています。ワープの方向はパラメーターによってのみ制御され、入力マップでは設定できません。 利点は、少し使いやすく、用途に応じてより正確になることです。
 
-## パラメーター
-
-### 入力
-
-* **入力**: *グレースケール/カラー入力*\
-  ワープが適用されるベースマップ。 カラーまたはグレースケールを指定できます。
-* **強度入力**: *グレースケール入力*\
-  ワープ効果の強度を制御する必須のマスクマップは、グレースケールにする必要があります。
-
-### パラメーター
-
-* **強度**: *0.0 ～ 20.0*\
-  ワープ効果の強度を設定します。ピクセルを押し出す範囲を指定します。
-* **ワープ角度**: *0.0 ～ 1.0*\
-  ワープ効果を適用する角度または方向を設定します。
-* **モード**: *平均、最大、最小、チェーン*\
-  連続パスの描画モードを設定します。 方向が2または4の場合にのみ効果があります。
-* **方向**: *1, 2, 4*&#x200B;ワープが機能する軸の数を設定します。 1は角度の方向に移動することを意味し、2は角度の軸、垂直軸の順に移動することを意味し、4は前の軸、および45度の傾斜を意味します。
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>入力</b> <i>グレースケール/カラー入力</i> | ワープが適用されるベースマップ。 カラーまたはグレースケールを指定できます。 |
+| <b>強度入力</b> <i>グレースケール入力</i> | ワープ効果の強度を制御する必須のマスクマップは、グレースケールにする必要があります。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>適用度</b> <i>0.0 - 20.0</i> | ワープ効果の強度を設定します。ピクセルを押し出す範囲を指定します。 |
+| <b>ワープ角度</b> <i>0.0 - 1.0</i> | ワープ効果を適用する角度または方向を設定します。 |
+| <b>モード</b> <i>平均、最大、最小、チェーン</i> | 連続パスの描画モードを設定します。 方向が2または4の場合にのみ効果があります。 |
+| <b>道順</b> <i>1, 2, 4</i> | ワープが機能する軸の数を設定します。 1は角度の方向に移動することを意味し、2は角度の軸、垂直軸の順に移動することを意味し、4は前の軸、および45度の傾斜を意味します。 |

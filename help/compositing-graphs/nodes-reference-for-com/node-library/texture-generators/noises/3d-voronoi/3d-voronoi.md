@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
-description: 3D Voronoiノードを使用すると、3Dワールドポジションに基づいてボロノイパターンを生成し、ボリュームセルラーテクスチャを作成できます。
+description: 3D Voronoiノードを使用すると、3Dワールドポジションに基づいてボロノイパターンを生成し、体積細胞テクスチャを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -22,113 +22,73 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3d-voronoi-01.png){width="200px"}
 
-**インチ：** *テクスチャジェネレーター* */ノイズ*
-
-**中級**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-**3D Voronoi**&#x200B;ノードは、**位置マップ**&#x200B;の入力に基づいて、3D空間でVoronoiノイズを生成します。
+<b>3D Voronoi</b>ノードは、<b>Position Map</b>の入力に基づいて、3D空間でVoronoi ノイズを生成します。
 
 このノードは、実際のベイク済みマップではなく、[Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)を入力としてテストできます（下図の例を参照）。
-
->[!WARNING]
->
-> このノイズは、*GPUエンジンのみ* （**Direct3D**&#x200B;または&#x200B;**OpenGL**）で使用することを目的としています。 **ツール/エンジンの切り替え…**&#x200B;に移動するか、**F9**&#x200B;キーを押して、目的のエンジンを選択します。
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> このノイズは、<i>GPUエンジンのみ</i> （<b>Direct3D</b>または<b>OpenGL</b>）で使用することを目的としています。 <b>ツール/エンジンの切り替え…</b>に移動するか、<b>F9</b>キーを押して、目的のエンジンを選択します。
+
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **反転** *ブール値*\
-  出力イメージを反転します。
-* **スケール** *浮動小数点*\
-  3Dボロノイノイズのスケールを制御します。\
-  *注意*: *任意の軸*&#x200B;で&#x200B;**タイル**&#x200B;が有効になっている場合、スケール調整は&#x200B;*段階的*&#x200B;です。 これは予期される動作です。
-* **サイズ** *浮動小数点3*\
-  **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸の3Dボロノイノイズのサイズを制御します。 値が均一でないと、*伸縮*&#x200B;効果が発生します。\
-  *注意*: *任意の軸*&#x200B;で&#x200B;**タイル**&#x200B;が有効になっている場合、サイズ調整は&#x200B;*段階的*&#x200B;です。 これは予期される動作です。
-* **オフセット** *浮動小数点3*\
-  **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸の3Dボロノイノイズの&#x200B;*位置*&#x200B;にオフセットを適用します。
-* **障害** *フロート3*\
-  *ランダムオフセット*&#x200B;の強度は、**X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のノイズの各点に適用されます。
-* **ゆがみの適用度** *浮動小数点*\
-  3Dボロノイノイズに適用される&#x200B;*ワープ効果*&#x200B;の強度を制御します。
-* **ゆがみスケール乗数** *浮動小数点*\
-  **ゆがみの強さ**&#x200B;で制御されるワープ効果で使用される&#x200B;*変形パターン*&#x200B;のスケールを制御します。
-* **角丸曲線** *浮動小数点*\
-  ノイズの各点の周りに&#x200B;*勾配*&#x200B;を丸めて、*凸状*&#x200B;にします。\
-  *注意* : **Style**&#x200B;パラメーターが&#x200B;*Edge*&#x200B;に設定されている場合、このパラメーターは使用できません。
-* **距離スケール** *浮動小数点*\
-  ノイズの各点の周囲の&#x200B;*グラデーションの距離*&#x200B;を調整します。
-* **距離モード** *整数*\
-  ノイズの各点の周囲の距離グラデーションを&#x200B;*計算*&#x200B;するようにメソッドを設定します：
-  * *ユークリッド*
-  * *マンハッタン*
-  * *チェビシェフ*
-  * *ミンコフスキー*
-* **ミンコフスキー数** *浮動小数点*\
-  ミンコフスキー距離の次数&#x200B;*p*。 距離グラデーションを象限に分割すると、この数値は次のように象限に影響します。
-  * pは&#x200B;*正確* 1：直線
-  * pは1より&#x200B;*低い*&#x200B;です：凹型
-  * pは1より&#x200B;*大きい*&#x200B;です：凸\
-    対象の値：\
-    *- 1.0*:マンハッタンの距離\
-    *- 2.0*:ユークリッドの距離\
-    *– 無限大*:チェビシェフの距離\
-    *注意*：このパラメーターは、**Distance Mode**&#x200B;パラメーターが&#x200B;*Minkowski*&#x200B;に設定されている場合にのみ使用できます。
-* **スタイル** *整数* 3D空間の一連の点に基づくノイズを考慮して、3Dボロノイノイズのデータ&#x200B;*をレンダリングするメソッド*&#x200B;を設定します：
-  * *F1*: 3D空間の&#x200B;*最も近い点*&#x200B;までの距離
-  * *F2*: 3D空間の&#x200B;*2番目に近い点*&#x200B;までの距離
-  * *F2-F1*- *F1\* F2 *-* F1/F2 *-*&#x200B;エッジ&#x200B;*: 3Dスペースのノイズの各セル*&#x200B;の間の*エッジ
-  * *ランダムな色*: 3Dスペースのノイズの各セルに&#x200B;*ランダムなフラットな色*&#x200B;を割り当てます
-* **エッジのThickness** *フロート* 3Dボロノイノイズのセル間で検出されるエッジのThicknessを調整します。 X、Y、およびZ軸でエッジが検出されるため、セルの&#x200B;*深度*&#x200B;によっては、一部の厚みが他よりも速く増加する場合があります。\
-  *注意*：このパラメーターは、**Style**&#x200B;パラメーターが&#x200B;*Edge*&#x200B;に設定されている場合にのみ使用できます。
-* **タイル表示を有効にする** *ブール値*\
-  3D Voronoiノイズを調整して、結果のパターン&#x200B;*がX、Y、Z軸で繰り返される*&#x200B;ようにします。
+|  |  |
+|:---|:---|
+| <b>反転</b> <i>ブール値</i> | 出力イメージを反転します。 |
+| <b>スケール</b> <i>フロート</i> | 3Dボロノイノイズのスケールを制御します。<br><br><i>注意</i>: <b>タイリング</b>が<i>任意の軸</i>で有効になっている場合、スケール調整は<i>段階的</i>です。 これは予期される動作です。 |
+| <b>サイズ</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸の3Dボロノイノイズのサイズを制御します。 値が均一でないと、<i>伸縮または収縮</i>効果が発生します。<br><br><i>注意</i>: <i>任意の軸</i>で<b>タイリング</b>が有効になっている場合、サイズの調整は<i>段階的</i>になります。 これは予期される動作です。 |
+| <b>オフセット</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸の3D Voronoiノイズの<i>position</i>にオフセットを適用します。 |
+| <b>障害</b> <i>浮動小数点3</i> | <i>ランダムオフセット</i>の強度は、<b>X</b>、<b>Y</b>および<b>Z</b>軸のノイズの各点に適用されます。 |
+| <b>ゆがみの適用度</b> <i>フロート</i> | 3Dボロノイノイズに適用される<i>ワープ効果</i>の強さを制御します。 |
+| <b>ゆがみスケール乗数</b> <i>フロート</i> | <b>ゆがみの強さ</b>で制御されるワープ効果で使用される<i>変形パターン</i>のスケールを制御します。 |
+| <b>角丸曲線</b> <i>フロート</i> | ノイズの各点の周りに<i>勾配</i>を丸めて<i>凸型</i>にします。<br><br><i>注意</i>: <b>Style</b>パラメーターが<i>Edge</i>に設定されている場合、このパラメーターは使用できません。 |
+| <b>距離スケール</b> <i>フロート</i> | ノイズの各点の周囲の<i>グラデーションの距離</i>を調整します。 |
+| <b>距離モード</b> <i>整数</i> | ノイズの各点の周囲の<i>グラデーションの計算</i>に設定します：<br><br>- <i>ユークリッド</i><br>- <i>マンハッタン</i><br>- <i>チェビシェフ</i><br>- <i>ミンコフスキー</i> |
+| <b>ミンコフスキー数</b> <i>フロート</i> | ミンコフスキー距離の次数<i>p</i>。 距離グラデーションを象限に分割すると、この数は次のように象限に影響します。<br><br>- pは<i>正確</i> 1：直線<br>- pは<i>低</i> 1より：凹<br>- pは<i>大</i> 1より：凸<br><br>対象の値：<br>- <i>1.0</i>:マンハッタン距離<br>- <i>2.0</i>:ユークリッド距離<i>無限大</i>:チェビシェフ距離<br><br><i>注意</i>：このパラメーターは、<b>距離モード</b>パラメーターが<i>ミンコフスキー</i>に設定されている場合にのみ使用できます。<br> |
+| <b>スタイル</b> <i>整数</i> | 3Dボロノイノイズのデータ</i>をレンダリングするノイズを設定します。このメソッドは、3Dスペースの一連の点に基づいています：<br><br>- <i>F1</i>: 3Dスペースの<i>最も近い点</i>までの距離<br>- <i>F2</i>: 3Dスペースの<i>2番目に近い点</i>までの距離<br>- <i>F2-F1\* f2</i><br>- <i>F1/F2</i><br>- <i>エッジ</i>: 3Dスペースのノイズの各セル</i>の間の<i>エッジ<br>- <i>ランダム色</i>: <i>ランダムなフラット色</i>を3Dスペースのノイズの各セルに割り当てます<i></i><br><i> |
+| <b>エッジThickness</b> <i>フロート</i> | 3Dボロノイノイズのセル間で検出されるエッジのThicknessを調整します。 X、Y、およびZ軸で辺が検出されました。セルの<i>深度</i>によっては、一部の太さが他よりも速く増加する場合があります。<br><br><i>注意</i>：このパラメーターは、<b>Style</b>パラメーターが<i>Edge</i>に設定されている場合にのみ使用できます。 |
+| <b>タイリングを有効にする</b> <i>ブール値</i> | 3Dボロノイノイズを調整して、結果のパターンがX、Y、Z軸に<i>繰り返す</i>ようにします。 |
 
-## サンプル画像
+## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant6.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-04.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-07.jpg" />
+        </td>
+    </tr>
 </table>

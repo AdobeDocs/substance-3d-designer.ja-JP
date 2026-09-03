@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
 breadcrumb-title: ''
 description: Skewノードを使用して、テクスチャに歪曲トランスフォームを適用し、傾斜した歪んだパターンを作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ゆがみ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,35 +22,41 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/skew-5.png){width="128px"}
+![](skew.resources/skew-01.png){width="128px"}
 
-![](../../../../../../assets/skew-grayscale.png){width="128px"}
+![](skew.resources/skew-02.png){width="128px"}
 
-## ゆがみ（グレースケール）
-
-**場所：** *フィルター/変換*
-
-**単純**
+<b>イン：</b>フィルター/変形
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 入力画像を歪ませます。
 
-## パラメーター
-
-* **軸**: *水平、垂直*&#x200B;垂直方向または水平方向のゆがみを選択します。
-* **量**: *-1.0 - 1.0*&#x200B;ゆがみの量。
-* **整列**: *中央、左上、右下*&#x200B;ゆがみ変形の原点を設定します。
-
-## サンプル画像
-
-![](../../../../../../assets/skew-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>軸</b> <i>水平方向、垂直方向</i> | 垂直方向または水平方向のゆがみを選択します。 |
+| <b>金額</b> <i>-1.0 - 1.0</i> | スキューの量。 |
+| <b>整列</b> <i>中央、左上、右下</i> | スキュー変換の原点を設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="skew.resources/skew-03.gif" />
+        </td>
+    </tr>
 </table>

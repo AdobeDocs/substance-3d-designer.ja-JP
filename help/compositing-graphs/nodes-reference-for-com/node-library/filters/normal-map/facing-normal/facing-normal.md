@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
 breadcrumb-title: ''
 description: Facing Normalノードを使用して、方向に基づくエフェクトを作成するためにサーフェスの向きに基づいて法線マップを生成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 標準に面する
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 2%
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/facing-normal.png){width="128px"}
+![](facing-normal.resources/facing-normal-01.png){width="128px"}
 
-## 標準に面する
-
-**場所：** *フィルター/標準マップ*
-
-**単純**
+<b>イン：</b>フィルター> 法線マップ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 このフィルタは、入力イメージとして法線マップを取り、法線がテクスチャ空間でユーザに向いている方向に対応する値を持つグレースケールイメージを生成します。
-
-## パラメーター
-
-*パラメーターがありません。*
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
 
 </td>
 </tr>

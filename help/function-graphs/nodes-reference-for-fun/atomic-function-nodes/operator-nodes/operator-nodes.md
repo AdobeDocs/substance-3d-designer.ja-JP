@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
 breadcrumb-title: ''
-description: Substance 3D Designer関数グラフの演算子ノードにアクセスして、算術演算と論理演算を実行します。
+description: Substance 3D Designer関数ノードの演算子グラフにアクセスして、算術演算と論理演算を実行します。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Operator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 演算子
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 演算子ノードを使用すると、入力ノードに対して古典的な数学演算を実行できます。
 
-![](../../../../assets/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/operator-nodes-01.png)
 
 >[!NOTE]
 >

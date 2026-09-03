@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Designerバージョン11.2のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 Substance 3D DesignerのAdobe版には新しい送信機能が追加され、他のSubstance 3Dアプリケーションにすばやくアセットを送信できるようになりました。 SBSARとして公開して個々のファイルを読み込む必要がなくなり、「送信先」を使用するとワンクリックで問題が解決します。
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Substance 3D DesignerのAdobe版には新しい送信機能が追加され、他
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Substance 3D DesignerのAdobe版には新しい送信機能が追加され、他
 
 RTAOは、前のHBAOノードよりも鮮明で正確なAOを実行します。
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
 コースティクスは、単純なパーリンノイズなどの高いマップに基づいて、物理的に正確なレイトレースコースティクスを生成します。 リアルタイムコースティクス用のリアルなアニメートされたフリップブックテクスチャの作成に適しています。
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 「RTシャドウ」は、レイトレースされた正確なシャドウを簡単なコントロールで表現します。
 
@@ -92,17 +92,17 @@ RTAOは、前のHBAOノードよりも鮮明で正確なAOを実行します。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,17 +110,17 @@ RTAOは、前のHBAOノードよりも鮮明で正確なAOを実行します。
 
 RT放射は、新しいノードの中で最も高度なノードです。 Heightマップと環境マップおよび/または放射マップを持つマテリアルに基づいてレイトレースされた放射を行います。
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
 つまり、スタイライズされたプロジェクトなどにあらかじめベイク処理されたライティングを使用してテクスチャを作成したり、レイトレースグローバウンスでハイトマップからベイク処理したりできます。
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
-最後にBent Normalノードがあります。 通常の通常の変換と比較すると、このノードはAOを使用して法線マップを変更し、そのAO情報を使用します。 効果を作成するためにメッシュベイカーが必要になる前に、このノードはテクスチャで処理します。
+最後にBent Normalノードがあります。 通常の通常の変換と比較すると、このノードはAOを使用して法線マップを変更し、そのAO情報を使用します。 エフェクトを作成するためにベイカーが必要になる前に、このノードがテキスト置換でエフェクトを実行します。
 
 ### Adobe Standard Material Shader
 
-アプリケーション全体でマテリアルとレンダリングを統一する取り組みにおいて、3Dビューの新しいデフォルトシェーダはAdobe Standard Material Shaderです。 一見すると、これは古いPBR Metallic Roughnessシェーダと同じです（いずれにしてもベースになっています）が、よりエキゾチックなチャンネルをサポートしているため、外部レンダラーを使用せずにプレビューできます。
+アプリケーション全体でマテリアルとレンダリングを統一する取り組みにおいて、3Dビューの新しいデフォルトシェーダはAdobe Standard Material Shaderです。 一見すると、これは古いPBRシェーダーと変わりはありませんが（いずれにしてもベースになっています）、より多くのエキゾチックなチャンネルをサポートしており、外部レンダラーを必要とせずにこれらのチャンネルをプレビューできます。
 
 ### UIの変更
 
@@ -139,7 +139,7 @@ UIに小さな変更を加えましたが、最も明らかなのは、改善さ
 **追加：**
 
 * [ブランディング] Substance DesignerがAdobe Substance 3D Designerに
-* [Substanceモデル]手続き型3Dモデルを作成するための新しいSubstanceモデルグラフ
+* [Substanceモデル]新しいSubstanceモデルグラフを使用したプロシージャル3Dモデルの作成
 * [コンテンツ]新しいHDR環境マップの追加
 * [コンテンツ]新しい曲げ法線ノード
 * [コンテンツ]新規RT環境オクルージョンノード
@@ -153,7 +153,7 @@ UIに小さな変更を加えましたが、最も明らかなのは、改善さ
 * [ASM] Substance グラフおよびMDL Graphでの新しいアドビ標準素材(ASM)のサポート
 * [ASM] ASMテンプレートの追加
 * [ASM] ASMにOpenGLシェーダを追加する
-* [ASM] ASMシェーダをデフォルトシェーダとして設定する
+* [ASM] ASM シェーダーをデフォルトシェーダーとして設定する
 * [全般]すべての一時ファイルをユーザー設定の一時ディレクトリに集約する
 * [全般]新しい「コピーを別名で保存」コマンド
 * [一般] [ファイルを更新]メニュー

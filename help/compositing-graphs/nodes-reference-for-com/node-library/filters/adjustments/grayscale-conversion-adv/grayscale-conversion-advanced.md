@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
 description: 変換方法の詳細なコントロールを使用してカラーをグレースケールに変換するには、グレースケール変換の詳細ノードを使用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: グレースケール変換（詳細設定）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -22,33 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced-01.png){width="128px"}
 
-## グレースケール変換（詳細設定）
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 いくつかのプリセットの変換モードを提供する、高度で迅速なグレースケール変換ノード。
 
-## パラメーター
-
-* **グレースケールの種類**: *彩度を下げる、輝度を下げる、輝度を下げる、平均を上げる、最大を上げる、*&#x200B;彩度を下げる、輝度の値を公式に使用する、平均を原子ノードと同じにする、最大を上げる、最小を上げる、各チャンネルの最も明るい値を使用する。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/grayscale-conversion-advanced-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>グレースケールの種類</b> <i>彩度低下、輝度、平均、最大、最小</i> | 彩度を下げると彩度が0、ルミナンスでは公式の輝度のウェイト値が使用され、平均値はアトミックノードと同じ、最大値と最小値は各チャンネルで最も明るい値を使用します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-02.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのプロパティパネルを使用して、ノードのプロパティとグラフパラメーターを表示および編集します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プロパティ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Substance 3D Designerの<b>プロパティ</b>パネルとそのレイアウト�
 </td>
 <td style="border: 0;" valign="top">
 
-![プロパティドック](../../assets/image2020-11-9-13-49-48.png "プロパティドック")
+![プロパティドック](properties.resources/properties-01.png "プロパティドック")
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Substanceエコシステムの主要な機能である[パラメーターの公�
 
 ## リソースとパッケージ
 
-プロパティパネルは、[エクスプローラー](../the-explorer-window/the-explorer-window.md)の選択範囲の変更にも応答します。 空の領域をダブルクリックする代わりに、グラフを選択する別の方法として使用できます。また、パッケージと[リソース](../../resources/resources.md)のプロパティを変更することもできます。
+[エクスプローラー](../the-explorer-window/the-explorer-window.md)の選択範囲を変更すると、プロパティパネルにも反映されます。 空の領域をダブルクリックする代わりに、グラフを選ぶ別の方法として使用できます。また、パッケージや[リソース](../../resources/resources.md)のプロパティを変更することもできます。
 
 パッケージには、**Information**、**Attributes**&#x200B;および&#x200B;**Metadata**&#x200B;セクションがあります。 [パッケージメタデータは専用のページに記述されています。](../../package-metadata/package-metadata.md)
 

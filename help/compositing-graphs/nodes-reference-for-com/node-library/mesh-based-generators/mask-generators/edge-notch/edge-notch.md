@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
 breadcrumb-title: ''
 description: '[エッジノッチ]ノードを使用して、メッシュエッジにノッチパターンを生成し、リアルなエッジのダメージやインデント効果を作成します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: エッジノッチ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-notch.png){width="128px"}
+![](edge-notch.resources/edge-notch-01.png){width="128px"}
 
-## エッジノッチ
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**単純**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,24 +37,34 @@ ht-degree: 2%
 
 このマスクは、高周波ノイズによって分割されたエッジの単純なマスクです。 その他のオプションについては、[エッジDirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md)または[エッジの損害](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md)を参照してください。
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 入力
 
-* **曲率**: *グレースケール入力*\
-  エッジのハイライト表示に使用するベイク済みマップ。 必須！
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
+|  |  |
+|:---|:---|
+| <b>曲線</b> <i>グレースケール入力</i> | エッジのハイライト表示に使用するベイク済みマップ。 必須！ |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-* **レベル**: *0.0 ～ 1.0*\
-  エッジノッチエフェクトのレベルを設定します。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
+|  |  |
+|:---|:---|
+| <b>レベル</b> <i>0.0 - 1.0</i> | エッジノッチエフェクトのレベルを設定します。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
 
-## サンプル画像
+## 例
 
-![](../../../../../../assets/edge-notch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-notch.resources/edge-notch-02.gif" />
+        </td>
+    </tr>
 </table>

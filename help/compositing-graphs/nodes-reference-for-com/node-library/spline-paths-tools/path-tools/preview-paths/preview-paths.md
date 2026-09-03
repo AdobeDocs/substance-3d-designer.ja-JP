@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: 「パスのプレビュー」ノードを使用して、デバッグおよび検証用に2D ビュー内のパスデータを表示します。
+description: 「パスをプレビュー」ノードを使用して、デバッグや検証のために2Dビューでパスデータを表示します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: パスをプレビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/preview-paths-icon.png "ノードアイコン")
+![ノードアイコン](preview-paths.resources/preview-paths-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -41,24 +41,24 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>背景</b> *色*\
-上に表示された背景画像には、パスが表示されます。 これにより、レンダリングサイズも制御されます。
+## 入力
 
-<b>パス</b> *色*\
-エンコードされたセグメントパスのリスト。 この入力を[マスクの結果にパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)または別のパス処理ノードに接続します。
+|  |  |
+|:---|:---|
+| <b>背景</b> <i>色</i> | 上に表示された背景画像には、パスが表示されます。 これにより、レンダリングサイズも制御されます。 |
+| <b>パス</b> <i>色</i> | エンコードされたセグメントパスのリスト。 この入力を[マスクの結果にパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)または別のパス処理ノードに接続します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>コーナーを表示</b> *ブール値*\
-各頂点にコーナーマークの付いた正方形を表示します（加算ブレンド）。
-
-<b>頂点を表示</b> *ブール値*\
-各頂点に円形を表示します（加算ブレンド）。 コーナーは引き続き正方形として表示されます。
-
-<b>セグメントのThickness(px)</b> *フロート*\
-レンダリングされたセグメントのThicknessをピクセル単位で調整します。
+|  |  |
+|:---|:---|
+| <b>コーナーを表示</b> <i>ブール値</i> | コーナーとしてマークされた各頂点に正方形を表示します（加算ブレンド）。 |
+| <b>頂点を表示</b> <i>ブール値</i> | 各頂点に円形シェイプを表示します（加算ブレンド）。 コーナーは引き続き正方形として表示されます。 |
+| <b>セグメントのThickness(px)</b> <i>フロート</i> | レンダリングされたセグメントのThicknessをピクセル単位で調整します。 |
 
 ## 例
 
@@ -66,12 +66,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "ノードの例1")
+![ノードの例1](preview-paths.resources/preview-paths-02.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "ノードの例2")
+![ノードの例2](preview-paths.resources/preview-paths-03.jpg "ノードの例2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: パス形式の仕様と、パスノードとスプラインノードで使用されるデータ構造について学習します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パス形式の仕様
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Pathsドキュメントはパスのリストです。各パスは、<b>32ビッ�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![パスポリゴン符号化データ](../../../../../../assets/PathsPolygon_Data.jpg "パスポリゴン符号化データ")
+![パスポリゴン符号化データ](paths-format-specifications.resources/paths-format-specifications-01.jpg "パスポリゴン符号化データ")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ top[uv\_pos]とbottom[uv\_pos]を組み合わせると、ドキュメントの�
 
 このドキュメントで定義された最後の頂点のアドレス。 これは、新しいデータを追加する場合に便利です。
 
-したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 &rbrack;0, 1[×]0,.5&lbrack;
+したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -122,7 +122,7 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 <b>Z</b>
 
-パスのインデックス&#x200B;*N.*&#x200B;は*path\_addr*と完全に一致する必要があります（以下の注を参照）。
+パスインデックス&#x200B;*N.*&#x200B;は、*path\_addr*と完全に一致する必要があります（以下の注を参照）。
 
 <b>幅</b>
 
@@ -137,7 +137,7 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 <b>ZW</b>
 
-終点（または最後）の頂点のアドレス。
+終了（または最後）の頂点のアドレス。
 
 +++
 
@@ -147,11 +147,11 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 ### 頂点情報
 
-頂点は、ヘッダー（ドキュメントヘッダーまたはパスヘッダー）の後の画像内の任意の場所に配置できます。 頂点は、さまざまな「タイプ」（開始、中間、終了）になり、2つのアドレスポインタ（「リンク」）を使用して明示的にリンクされます。
+頂点は、ヘッダー（文書ヘッダーまたはパスヘッダー）の後の画像内の任意の場所に表示されます。 頂点は、さまざまな「タイプ」（開始、中間、終了）になり、2つのアドレスポインタ（「リンク」）を使用して明示的にリンクされます。
 
-<b>開始</b>および<b>終了</b>頂点は、この点で特別です。閉じたパスまたは任意のパスの連結ネットワークを表現できるようにするには、一方のリンクを実際に使用して、同じ頂点を表す他のすべての開始または終了頂点を含む循環の前方リンクリストを形成します。 このように互いに一致する頂点を「兄弟」と呼びます。 [歓迎されるイラスト]
+<b>Start</b>および<b>End</b> 頂点は、この点で特別です。閉じた頂点または任意のリンクされたパスのネットワークを表現できるようにするには、一方のリンクを実際に使用して、同じパスを表す他のすべてのStartまたはEnd 頂点を循環リンクしたリストを作成します。 このように互いに一致する頂点を「兄弟」と呼びます。 [歓迎されるイラスト]
 
-アドレス`*vert\_addr*`の各頂点は、形式的には次のように定義されています。
+正式には、アドレス`*vert\_addr*`の各頂点は次のように定義されています：
 
 +++上
 <b>XY</b>
@@ -160,7 +160,7 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 <b>Z</b>
 
-頂点のパスインデックス。 頂点は1つのパスにのみ属することができます。 （すでに説明したように、開始と終了の頂点には兄弟が存在する場合があります）。 パスインデックスはパスヘッダの取得に使用できるので（上のパスヘッダの節を参照）、必ず同期しておいてください。
+頂点パスのインデックス。 1つの頂点は1つのパスにのみ属することができます。 （既に説明したように、開始および終了頂点には兄弟を設定できます）。 パスインデックスはパスヘッダの取得に使用できるので（上のパスヘッダの節を参照）、必ず同期しておいてください。
 
 <b>幅</b>
 
@@ -269,11 +269,11 @@ if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)は、3番目のIterateノードのIterationsパラメーターで使用方法の例を確認できます。
 
-![sample_nextの最小限の使用例](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "sample_nextの最小限の使用例")
+![sample_nextの最小限の使用例](paths-format-specifications.resources/paths-format-specifications-02.png "sample_nextの最小限の使用例")
 
 
 
-![プレビューパス(path_trace)でのsample_nextの使用例](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "プレビューパス(path_trace)でのsample_nextの使用例")
+![プレビューパス(path_trace)でのsample_nextの使用例](paths-format-specifications.resources/paths-format-specifications-03.png "プレビューパス(path_trace)でのsample_nextの使用例")
 
 
 
@@ -295,30 +295,30 @@ if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 +++
 
-+++document_last_vertex_spec
++++document_last_頂点_spec
 最後の頂点アドレスを指定する文書ヘッダの\*bottom\*部分を構築する（A.1を参照）。
 
 +++
 
 +++path_header
-パス`*nbVertices*`の頂点の数、`*isClosed*`フラグ、および`*pathIndex*`に基づいて、パスヘッダーの上部を構築します。
+パス`*nbVertices*`の頂点数、`*isClosed*`フラグ、および`*pathIndex*`に基づいて、パスヘッダーの上部をビルドします。
 
 +++
 
 +++start_vertex、mid_vertex、end_vertex
 頂点の最上部を構築し、位置、種類、その他のオプションを適宜設定します。
 
-*mid\_vertex*&#x200B;および&#x200B;*hasTrivialLinks*&#x200B;パラメーターのバージョン情報：適切な値を設定することをお勧めします。ただし、リンクが重要な値であるかどうかを判断できない場合は、安全にfalseに設定できます（生成されたパスの処理に時間がかかります）。
+*mid\_parameter*&#x200B;および&#x200B;*hasTrivialLinks* 頂点ーのバージョン情報：適切な値を設定するのが理想的ですが、リンクがトリビアルかどうかわからない場合は、安全にfalseに設定できます（生成されたパスの処理に時間がかかります）。
 
 +++
 
-パスのヘッダと頂点に対するボトムパートビルダはありません。どちらもトップ部分への2つのリンクをエンコードするので、この関数は本質的に2つのFloat2からのベクトルFloat4コンストラクタになります。 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)を使用して書く場合は、XYZをWで除算することを忘れないでください（WはアドレスのYです。Wをnullにすることはできません）。
+パスのヘッダと頂点のボトムパートのビルダはありません。どちらもトップの部分への2つのリンクをエンコードするので、この関数は本質的に2つの浮動小数2の浮動小数点ベクトル4コンストラクタになります。 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)を使用して書く場合は、XYZをWで除算することを忘れないでください（WはアドレスのYです。Wをnullにすることはできません）。
 
 [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)ノードをホストする&#x200B;<b>*paths\_polygon.sbs* </b>パッケージで、これらの関数の適切な使用例を確認できます。
 
 ### パスを処理するメソッド
 
-通常は、ピクセルプロセッサーまたはFx-Mapを使用して、次のような長所と短所のあるカスタム処理を実装します。
+ピクセルプロセッサーまたはFx-Mapを使用して、カスタム処理を実装する可能性があります。カスタム処理には、次の強さと弱点があります。
 
 +++FX-Map
 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)ベースのソリューションは通常、パス全体（またはパス）または累積パス（たとえば、デシメーションまたはテッセレーション後に頂点を再パックするなど）のグローバルな知識を必要とする高レベルの操作を実行する場合に推奨されます。 また、この方法は最も簡単です。初めてカスタム処理を行う場合は、Fx-Mapを使用することをお勧めします。ただし、*速度が遅くなる可能性があります*。
@@ -330,7 +330,7 @@ Fx-Mapを使用したパスの読み取りと書き込みの方法について�
 +++
 
 +++ピクセルプロセッサー
-[ピクセルプロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)ソリューションは、「ローカル」情報のみが必要な場合に適しています。 ここでは、空間的（要素間の距離）ではなく、位相的（頂点が互いにリンクしている）に「ローカル」を意味します。 これが頂点プロセッサの実装方法です。 通常、ピクセルプロセッサはFx-Mapよりも高速です。これは、各ピクセルの機能が並列に評価され、アクセスされるデータの量が限られているためです。 現在のピクセルしか変更できないため、実装作業の方がはるかに重要な場合があります。
+[ピクセルプロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)ソリューションは、「ローカル」情報のみが必要な場合に適しています。 ここでは空間的（頂点間の距離）ではなく、位相的（要素が互いにリンクしている）に対して「ローカル」を意味します。 これが頂点プロセッサの実装方法です。 通常、ピクセルプロセッサはFx-Mapよりも高速です。これは、各ピクセルの機能が並列に評価され、アクセスされるデータの量が限られているためです。 現在のピクセルしか変更できないため、実装作業の方がはるかに重要な場合があります。
 
 具体的なユースケースに応じて言うべきことはたくさんありますが、最初にすべきことは、自分がどこにいるか確認することです。
 

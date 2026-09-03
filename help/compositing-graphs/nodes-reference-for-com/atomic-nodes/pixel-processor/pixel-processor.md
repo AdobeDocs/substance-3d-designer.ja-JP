@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: ピクセルプロセッサノードを使用すると、高度なテクスチャ操作を行うカスタム式を使用して個々のピクセルを処理できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ピクセルプロセッサー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード：ピクセルプロセッサ](../../../../assets/comp_pixelprocessor_1.png "Atomicノード：ピクセルプロセッサ"){width="200px"}
+![Atomicノード：ピクセルプロセッサ](pixel-processor.resources/pixel-processor-01.png "Atomicノード：ピクセルプロセッサ"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,7 +69,7 @@ ht-degree: 1%
 >
 > ピクセルプロセッサノードの簡単な使用方法を示す注釈付きのプロジェクトファイルは、このドキュメントの[Substanceグラフのサンプル](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)セクションにあります。
 > 
-> [Value processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)ノードは、[Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)について理解するための開始点として適しています。
+> [バリュープロセッサー](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)ノードは、[Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)について理解するための良い出発点となります。
 > 
 > また、このタイプのグラフを使用して数学的な演算を実行することは、このノードから何かを得るために必須です。
 > 
@@ -95,7 +95,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 |
-| <b>ピクセル関数あたり</b> *フロート/フロート4* | [Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)が出力画像のピクセルごとに評価されました。   現在のピクセルの[正規化](../../../../glossary/glossary.md)位置にアクセスするには、<b>$pos</b>変数に設定された[Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)ノードを使用します。 |
+| <b>ピクセル関数あたり</b> *フロート/フロート4* | [Substance関数のグラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)が出力イメージのピクセルごとに評価されました。   現在のピクセルの[正規化](../../../../glossary/glossary.md)位置にアクセスするには、<b>$pos</b>変数に設定された[Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)ノードを使用します。 |
 
 ## 入力コネクタ
 

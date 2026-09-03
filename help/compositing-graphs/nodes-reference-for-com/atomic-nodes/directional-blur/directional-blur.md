@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: ブラー（方向）ノードを使用して、モーションブラーおよび筋エフェクトを作成する特定の方向にブラー効果を適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 指向性ブラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：方向ブラー](../../../../assets/comp_dirmotionblur_1.png "原子ノード：方向ブラー"){width="200px"}
+![原子ノード：方向ブラー](directional-blur.resources/directional-blur-01.png "原子ノード：方向ブラー"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ ht-degree: 9%
 
 <b>ブラー（方向）</b>
 
-![方向のぼかしの比較](../../../../assets/dirblur-01.png "方向ぼかしの比較"){zoomable="yes"}
+![方向のぼかしの比較](directional-blur.resources/directional-blur-02.png "方向ぼかしの比較"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>異方性反射ぼかし</b>
 
-![異方性ぼかしの比較](../../../../assets/aniso-01.png "異方性ぼかしの比較"){zoomable="yes"}
+![異方性ぼかしの比較](directional-blur.resources/directional-blur-03.png "異方性ぼかしの比較"){zoomable="yes"}
 
 </td>
 </tr>

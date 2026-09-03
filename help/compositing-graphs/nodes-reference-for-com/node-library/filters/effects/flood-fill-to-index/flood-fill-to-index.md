@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Flood Fillからインデックスへのノードを使用して、番号パターンやラベル付きパターンを作成するために、リージョンをインデックス値で塗りつぶします。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 索引へのFlood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
 
-## 索引へのFlood Fill
-
-**場所：** *フィルター/効果*
-
-**複合**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,21 +37,35 @@ ht-degree: 2%
 
 さらに、インデックスへのFlood Fillでは[値](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)が使用され、見つかった図形の量と、オプションの内部データテーブルが返されます。
 
-### 入力
+</td>
+</tr>
+</table>
 
-* **Flood Fillボックス**: *色入力*&#x200B;標準Flood Fill入力マップ。 必須。
-* **特殊形状情報**: *色入力*&#x200B;追加のFlood Fillマップは、前のFlood Fillノードで明示的に有効にする必要があり、接続する必要があります！
+<a name="inputs"></a>
 
-### パラメーター
+## 入力
 
-* **出力**: *正規化された整数*&#x200B;出力がLDR 0-1またはHDR 0-nの範囲にあるかどうかを確認します。
-* **次より小さい図形を無視**: *0.0 ～ 1.0*&#x200B;小さい図形を無視するための許容値。
-* **Flood Fillデータテーブルの表示**: *False/True*&#x200B;詳細な使用のために追加の（デバッグ）データを返します。
+|  |  |
+|:---|:---|
+| <b>Flood Fillボックス</b> <i>カラー入力</i> | 標準入力マップ。 必須。 |
+| <b>特殊形状情報</b> <i>カラー入力</i> | 追加のFlood Fillマップは、前のFlood Fillノードで明示的に有効にする必要があり、接続する必要があります。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>出力</b> <i>正規化、整数</i> | 出力がLDR 0-1の範囲であるか、HDR 0-nの範囲であるかを確認します。 |
+| <b>次より小さい図形を無視</b> <i>0.0 - 1.0</i> | 小さいシェイプを無視するための許容値。 |
+| <b>Flood Fillデータテーブルの表示</b> <i>False/True</i> | 高度に使用するために追加の（デバッグ）データを返します。 |
 
 ## 例
 
-![](../../../../../../assets/flood-fill-ex02.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
+        </td>
+    </tr>
 </table>

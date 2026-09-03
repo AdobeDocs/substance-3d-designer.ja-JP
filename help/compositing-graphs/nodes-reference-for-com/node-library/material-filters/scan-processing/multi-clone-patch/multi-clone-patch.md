@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
 breadcrumb-title: ''
 description: マルチクローンパッチノードを使用すると、スキャンしたマテリアルアーティファクトを修復するために、複数のテクスチャチャンネルをクローンしてパッチすることができます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: マルチクローンパッチ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-01.png){width="128px"}
 
-![](../../../../../../assets/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-02.png){width="128px"}
 
-## マルチクローンパッチ（グレースケール）
-
-**イン：** *マテリアルフィルター/スキャン処理*
-
-**複合**
+<b>イン：</b> マテリアルフィルター > スキャン処理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -45,30 +41,26 @@ ht-degree: 0%
 >
 > 詳細については、[コピーパッチ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)を参照してください。マテリアルバージョンについては、[マテリアルコピーパッチ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)を参照してください。
 
-## パラメーター
-
-### パラメーター
-
-* **入力数**: *1 ～ 8*&#x200B;同じパッチ操作を受け取る入力の量を設定します。
-* **標準（色のみ）**: **False/True**&#x200B;入力が標準マップであるかどうか、および描画を標準マップとして扱うかどうかを設定します。
-* **シェイプ**: **正方形、ディスク**&#x200B;スタンプのシェイプを設定します。 ベースとしてのみ使用されます。
-* **エッジ**
-  * **しきい値**: *0.0 ～ 1.0*&#x200B;ブレンドした領域が到達する範囲を設定します。 この効果は、ターゲット領域のシェイプに沿ってステップ状に大きくなります。背景が均一の場合、ほとんど効果がありません*。*
-  * **ぼかし**: *0.0 ～ 2.0*&#x200B;より緩やかな変化が必要な場合に備えて、スタンプ領域のエッジをぼかします。
-  * **Smoothness**: *0.0 ～ 2.0*&#x200B;印鑑の形状のエッジを丸めて、アウトラインの流れを滑らかにします。
-  * **グリッド解像度**: *1 - 11*&#x200B;ブレンド分析の品質解像度を設定します。 値が大きいほど、ブレンドの精度は高くなります。
-* **変換**
-  * **ソースマトリックス**: *（変換マトリックス）*ソースを変換します（スケールと回転）。 カンバス上では実行できません。これらのパラメーターのみを変更してください。
-  * **ソースオフセット**: *-0.5 - 0.5*&#x200B;ソースの場所を変換します。 カンバス上では実行できません。これらのパラメーターのみを変更してください。 *このパラメーターは、変更するメインのパラメーターである可能性があります。*
-  * **ターゲット行列**: *（変換行列）*ターゲットの位置を変換します（スケールと回転）。 カンバス上のギズモを使用しても実行できます。
-  * **ターゲットオフセット**: *-0.5 - 0.5*&#x200B;ターゲットの場所を変換します。 カンバス上のギズモを使用しても実行できます。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>入力数</b> <i>1 - 8</i> | 同じパッチ操作を受け取る入力の量を設定します。 |
+| <b>標準（色のみ）</b> <i>False/True</i> | 入力がノーマルマップであるかどうか、およびブレンドをノーマルマップとして扱うかどうかを設定します。 |
+| <b>図形</b> <i>正方形、ディスク</i> | スタンプシェイプを設定します。 ベースとしてのみ使用されます。 |
+| <b>エッジ</b> |  |
+| <b>しきい値</b> <i>0.0 - 1.0</i> | ブレンド領域の範囲を設定します。 これは、ターゲット領域のシェイプに沿ってステップで大きくなります。背景が均一の場合、ほとんど効果がありません。 |
+| <b>ぼかし</b> <i>0.0 - 2.0</i> | より緩やかな変化が必要な場合に備えて、スタンプ領域のエッジをぼかします。 |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | スタンプシェイプのエッジを丸めて、スムーズに流れるアウトラインにします。 |
+| <b>グリッドの解決</b> <i>1 - 11</i> | ブレンド解析の精度を設定します。 値が大きいほど、ブレンドの精度は高くなります。 |
+| <b>変換</b> |  |
+| <b>ソースマトリックス</b> <i>（変換行列）</i> | ソース（スケールと回転）を変形します。 カンバス上では実行できません。これらのパラメーターのみを変更してください。 |
+| <b>ソースオフセット</b> <i>-0.5 - 0.5</i> | ソースの場所を移動します。 カンバス上では実行できません。これらのパラメーターのみを変更してください。 *このパラメーターは、変更するメインのパラメーターである可能性があります。* |
+| <b>ターゲットマトリックス</b> <i>（変換行列）</i> | ターゲットの場所（スケールと回転）を変形します。 カンバス上のギズモを使用しても実行できます。 |
+| <b>ターゲットオフセット</b> <i>-0.5 - 0.5</i> | 対象の場所を移動します。 カンバス上のギズモを使用しても実行できます。 |

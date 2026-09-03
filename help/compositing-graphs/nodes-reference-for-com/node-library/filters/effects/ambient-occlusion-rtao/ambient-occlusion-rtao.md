@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: '[環境オクルージョン(RTAO)]ノードを使用して、リアルなシェーディングを実現するために、Heightマップからリアルタイムの環境オクルージョンマップを生成します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 環境オクルージョン(RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![RTAOノードアイコン](../../../../../../assets/rt-ao.png "RTAOノードアイコン")
+![RTAOノードアイコン](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "RTAOノードアイコン")
 
-<b>場所：</b> *フィルター/効果*
+<b>イン:</b>フィルター/効果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,42 +43,29 @@ Heightマップの入力に基づいて環境オクルージョンマップを�
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-<b>物理サイズを使用</b> *ブール値*\
-切り替えると、物理サイズ設定を使用してHeightスケールを指定できます。
+|  |  |
+|:---|:---|
+| <b>物理サイズを使用</b> <i>ブール値</i> | 切り替えると、物理サイズ設定を使用してHeightスケールを指定できます。 |
+| <b>物理サイズ</b> <i>浮動小数点3</i> <i>（<b>物理サイズを使用</b>が<i>真</i>に設定されている場合に利用可能）</i> | サーフェスの実際の物理サイズに基づいてHeightスケールを調整します |
+| <b>サンプル</b> <i>整数</i> | ambient occlusionの計算に使用されるレイの数です。<br>値を大きくすると、パフォーマンスが低下しますが、より滑らかで正確な結果が得られます。 |
+| <b>Heightスケール</b> <i>フロート</i> <i>（<b>物理サイズを使用</b>が<i>偽</i>に設定されている場合に利用可能）</i> | Heightマップ入力の強度の乗数。 |
+| <b>配布</b> <i>整数</i> | 分布方法を設定します。 影の領域に向かって減衰します。 |
+| <b>最大距離</b> <i>フロート</i> | 光線が遮断される最大距離を設定します。 |
+| <b>広がり角度</b> <i>フロート</i> | 光線を照射する広がり角度を設定します。 値1は半球全体です。 |
 
-<b>物理サイズ</b> *Float3* （<b>[物理サイズの使用]</b>が&#x200B;*True*&#x200B;に設定されている場合に使用可能）\
-サーフェスの実際の物理サイズに基づいてHeightスケールを調整します
+## 例
 
-<b>サンプル&#x200B;</b>*整数*\
-環境オクルージョンの計算に使用されるレイの数。\
-値を大きくすると、パフォーマンスが低下しますが、よりスムーズで正確な結果が得られます。
-
-<b>Heightスケール</b> *浮動小数点* （<b>物理サイズの使用</b>が&#x200B;*偽*&#x200B;に設定されている場合に使用可能）\
-Heightマップ入力の強度の乗数。
-
-<b>配布</b> *Integer*&#x200B;ディストリビューションメソッドを設定します。 影の領域に向かって減衰します。
-
-<b>最大距離</b> *フロート*\
-光線が遮断される最大距離を設定します。
-
-<b>広がり角度</b> *フロート*\
-光線を照射する広がり角度を設定します。 値1は半球全体です。
-
-## サンプル画像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![RTAOノード – 例1](../../../../../../assets/image2021-6-18-11-7-48.png "RTAOノード – 例1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![RTAOノード – 例2](../../../../../../assets/image2021-6-18-11-9-0-1.png "RTAOノード – 例2")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
+        </td>
+    </tr>
 </table>

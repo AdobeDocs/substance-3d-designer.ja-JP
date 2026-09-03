@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: '[点リスト]ノードを使用して、スプラインおよびパスの生成に使用する点のリストを作成および管理します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ポイントリスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/point-list-icon.png "ノードアイコン")
+![ノードアイコン](point-list.resources/point-list-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -49,72 +49,43 @@ ht-degree: 0%
 >
 > <b>ポイントリスト</b>と<b>ポイント番号</b>コネクタは、<b>スプライン座標</b>、<b>スプラインデータ</b>および<b>スプライン量</b>コネクタと&#x200B;*互換性がありません*。これらのコネクタは異なるデータに依存しています。
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>プレビュー&#x200B;</b>*グレースケール*&#x200B;ポイントをグレースケール画像としてプレビューします。
+## 入力
 
-<b>ポイントリストの入力</b> *色*\
-カラー画像のRGBAチャンネルでエンコードされた入力ポイントのリスト：\
-<b>R</b> - X位置\
-<b>G</b> - Y位置\
-<b>B</b> -Height\
-<b>A</b> – パックされたデータ：\
-*整数部：Smoothness;\
-*分数部：Thickness
+|  |  |
+|:---|:---|
+| <b>プレビュー</b> <i>グレースケール</i> | ポイントをグレースケールイメージとしてプレビューします。 |
+| <b>ポイントリストの入力</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力ポイントの一覧：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> * 整数部分： Smoothness;<br> *小数部分： Thickness。 |
+| <b>ポイント番号の入力</b> <i>整数</i> | 入力ポイントの数。 |
 
-<b>ポイント番号の入力</b> *整数*\
-入力ポイントの数。
+<a name="outputs"></a>
 
-## 出力コネクタ
+## 出力
 
-<b>プレビュー&#x200B;</b>*グレースケール*&#x200B;ポイントをグレースケール画像としてプレビューします。
+|  |  |
+|:---|:---|
+| <b>プレビュー</b> <i>グレースケール</i> | ポイントをグレースケールイメージとしてプレビューします。 |
+| <b>ポイントリスト</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされたポイントの出力リスト：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> * 整数部分： Smoothness;<br> *小数部分： Thickness。 |
+| <b>ポイント番号</b> <i>整数</i> | 出力されるポイント数。 |
 
-<b>ポイントリスト&#x200B;</b>*色*\
-カラー画像のRGBAチャンネルでエンコードされたポイントの出力リスト\
-<b>R</b> - X位置\
-<b>G</b> - Y位置\
-<b>B</b> -Height\
-<b>A</b> – パックされたデータ：\
-*整数部：Smoothness;\
-*分数部：Thickness
-
-<b>ポイント番号&#x200B;</b>*整数*\
-出力されるポイント数。
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>ポイント番号</b> *整数*&#x200B;生成されたポイントの数です。
-
-<b>グローバルSmoothness調整</b> *浮動小数点*&#x200B;すべてのポイントのSmoothness値に均一のオフセットを適用します。\
-結果のSmoothness値は[0;1]の範囲に固定されます。
-
-+++ポイントのプロパティ
-<b>p#プロパティ</b> *浮動小数点3* p#ポイントのプロパティを設定します。\
-*- Height:*&#x200B;値が低いほどHeightが低く、深いほど、ポイントの位置を調整します。\
-*- Smoothness:*&#x200B;スプラインのスムージングの開始をp#にオフセットします。この場合、値0を指定すると硬い軌道になり、1を指定すると完全に滑らかになります。\
-*- Thickness:* p#でスプラインのThicknessを調整します。 Thicknessは、特定のスプラインノードによって使用されます。
-
-+++
-
-+++点の座標
-<b>p#</b> *フロート2*&#x200B;テクスチャ空間のp#ポイントの位置を設定します。
-
-+++
-
-+++プレビュー
-<b>ラベルの表示</b> *ブール値*\
-各ポイントについて、「プレビュー」出力でポイントの横にポイント名が表示されます。
-
-<b>ラベルサイズ</b> *Float* （&#39;Show Labels&#39;が&#39;True&#39;に設定されている場合に使用可能）\
-テクスチャ空間の各ポイントのラベルのサイズです。0.1はテクスチャの幅の10分の1です。
-
-<b>ポイントの表示</b> *ブール値*\
-「プレビュー」出力にポイントが表示されます。
-
-<b>ポイントサイズ</b> *Float* （&#39;Show Points&#39;が&#39;True&#39;に設定されている場合に使用可能）\
-テクスチャ空間のポイントの半径。0.1はテクスチャの幅の10分の1です。
-
-+++
+|  |  |
+|:---|:---|
+| <b>ポイント番号</b> <i>整数</i> | 生成されたポイントの数。 |
+| <b>グローバルSmoothness調整</b> <i>フロート</i> | すべてのポイントのSmoothnessの値に均等オフセットを適用します。<br>結果のSmoothness値は[0;1]の範囲に固定されます。 |
+| <b>ポイントのプロパティ</b> |  |
+| <b>p#プロパティ</b> <i>浮動小数点3</i> | p#点のプロパティを設定します。<br>*- Height:*&#x200B;値が小さいほどHeightが低い、またはより深い場所を表す点のSmoothnessを調整します。<br>*– ロケーション：*&#x200B;スプラインの滑らかさの開始点をp#でオフセットします。値が0の場合、硬い軌道になり、完全に滑らかな1になります。<br>*- Thickness:*&#x200B;スプラインのThicknessをp#で調整します。 Thicknessは、特定のスプラインノードによって使用されます。 |
+| <b>点の座標</b> |  |
+| <b>p#</b> <i>浮動小数点2</i> | テクスチャ空間のp#ポイントの位置を設定します。 |
+| <b>プレビュー</b> |  |
+| <b>ラベルの表示</b> <i>ブール値</i> | 各ポイントについて、「プレビュー」出力でポイントの横にポイント名が表示されます。 |
+| <b>ラベルサイズ</b> <i>Float</i> （&#39;Show Labels&#39;が&#39;True&#39;に設定されている場合に使用可能） | テクスチャ空間の各ポイントのラベルのサイズです。0.1はテクスチャの幅の10分の1です。 |
+| <b>ポイントの表示</b> <i>ブール値</i> | 「プレビュー」出力にポイントが表示されます。 |
+| <b>ポイントサイズ</b> <i>Float</i> （&#39;Show Points&#39;が&#39;True&#39;に設定されている場合に使用可能） | テクスチャ空間のポイントの半径。0.1はテクスチャの幅の10分の1です。 |
 
 ## 例
 
@@ -122,12 +93,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/PointList-Variant1.jpg "ノードの例1")
+![ノードの例1](point-list.resources/point-list-02.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/PointList-Demo1.gif "ノードの例2")
+![ノードの例2](point-list.resources/point-list-03.gif "ノードの例2")
 
 </td>
 </tr>

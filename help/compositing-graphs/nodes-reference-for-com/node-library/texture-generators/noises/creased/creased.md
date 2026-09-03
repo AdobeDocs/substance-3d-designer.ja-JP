@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
 breadcrumb-title: ''
-description: 折り目ノードを使用して、折り目パターンを作成し、折り目のある生地やしわのある表面テクスチャ効果を作成します。
+description: 折り目ノードを使用して、折り目パターンを作成し、折り目のある布地やシワのあるサーフェスのテクスチャ効果を作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Creased
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 折り目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
 
@@ -22,39 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased-01.png){width="128px"}
 
-## 折り目
-
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**単純**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 このノードは、布地のようなノイズを生成します。 Heightmapと解釈できます
 
-折り目は、大きな変動を伴う半方向ノイズが必要な場合に便利です。
-
-## パラメーター
-
-* **スケール**: *1 ～ 8*\
-  エフェクトのグローバルスケールを設定します。
-* **ワープの強度**: *0.0 ～ 128.0*&#x200B;曲げ/ワープ効果の強度を設定します。
-* **障害**: *0.0 ～ 100.0*\
-  ノイズの生成に使用するレイヤーをわずかにオフセットして、変化を加えます。
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-![](../../../../../../assets/creased-ex.gif)
+折り目は、大きな変動を伴う半方向のノイズが必要な場合に便利です。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>スケール</b> <i>1 - 8</i> | エフェクトのグローバルスケールを設定します。 |
+| <b>ワープの強さ</b> <i>0.0 - 128.0</i> | ベンド/ワープエフェクトの強度を設定します。 |
+| <b>障害</b> <i>0.0 - 100.0</i> | ノイズの作成に使用するレイヤーをわずかにオフセットして、バリエーションを生み出します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="creased.resources/creased-02.gif" />
+        </td>
+    </tr>
 </table>

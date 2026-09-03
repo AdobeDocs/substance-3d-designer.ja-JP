@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: '[スプラインサンプル]Heightノードを使用して、手続き型ディスプレイスメント効果のスプラインに沿ってHeight値をサンプリングします。'
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: スプラインサンプルHeight
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-sample-height-icon.png "ノードアイコン")
+![ノードアイコン](spline-sample-height.resources/spline-sample-height-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -45,76 +41,43 @@ ht-degree: 0%
 </tr>
 </table>
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>プレビュー</b> *グレースケール*&#x200B;入力スプラインをグレースケールイメージとしてプレビューします。
+## 入力
 
-<b>スプライン座標</b> *色*&#x200B;入力スプラインの点の座標は、カラー画像のRGBAチャンネルでエンコードされています：\
-<b> R</b> - X位置\
-<b> G</b> - Y位置\
-<b> B</b> - Height\
-<b>A</b> – パックされたデータ：\
-*記号：スプラインが閉じている（負）か、開いている（正）;\
-*絶対値：Thickness + 1。
+|  |  |
+|:---|:---|
+| <b>プレビュー</b> <i>グレースケール</i> | 入力スプラインをグレースケールイメージとしてプレビューします。 |
+| <b>スプライン座標</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの点の座標：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> – 記号：スプラインが閉じている（負）か開いている（正）;<br> -絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データ。<br><b>R</b> -正接X<br><b>G</b> -正接Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 入力スプラインの数。 |
+| <b>Heightマップ</b> <i>グレースケール</i> | 入力スプラインのHeightを変えるために使用される入力グレースケールイメージ。 |
 
-<b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
-<b> R</b> – 接線X\
-<b> G</b> – 接線Y\
-<b> B</b> – 未使用\
-<b> A</b> – 未使用
+<a name="outputs"></a>
 
-<b>スプラインの量</b> *整数*&#x200B;入力スプラインの数です。
+## 出力
 
-<b>Heightマップ</b> *グレースケール*&#x200B;入力スプラインのHeightを変えるために使用される入力グレースケールイメージです。
+|  |  |
+|:---|:---|
+| <b>プレビュー</b> <i>グレースケール</i> | 出力スプラインをグレースケールイメージとしてプレビューします。 |
+| <b>スプライン座標</b> <i>色</i> | 出力スプラインの座標がカラー画像のRGBAチャンネルにエンコードされました。<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> – 記号：スプラインが閉じている（負）か開いている（正）;<br> -絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた出力スプラインの追加データ。<br><b>R</b> -正接X<br><b>G</b> -正接Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 出力スプラインの数。 |
 
-## 出力コネクタ
-
-<b>プレビュー</b> *グレースケール*&#x200B;出力スプラインをグレースケールイメージとしてプレビューします。
-
-<b>スプライン座標</b> *色*&#x200B;出力スプラインの点の座標は、色画像のRGBAチャンネルでエンコードされます。\
-<b>R</b> - X位置\
-<b>G</b> - Y位置\
-<b>B</b> -Height\
-<b>A</b> – パックされたデータ：\
-*記号：スプラインが閉じている（負）か、開いている（正）;\
-*絶対値：Thickness + 1。
-
-<b>スプラインデータ</b> *カラー*&#x200B;カラー画像のRGBAチャンネルでエンコードされた出力スプラインの追加データ。\
-<b>R</b> – 接線X\
-<b>G</b> – 接線Y\
-<b>B</b> – 未使用\
-<b>A</b> – 未使用
-
-<b>スプラインの量</b> *整数*&#x200B;出力スプラインの数です。
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>サンプリングモード</b> *整数* Heightマップの値をスプラインにマッピングする方法：\
-*– テクスチャ空間*：値は、テクスチャのUV座標を使用してテクスチャに配置されるスプラインに適用されます。 これによって、スプラインに値が「その場で」適用されます。\
-*– スプラインに沿った水平*：値は、エンコードされたスプラインの座標に直接適用されます（「スプライン座標」の入力を参照）。各行は上から下に異なるスプラインに適用されます。\
-*– 時間 スプラインに沿って（ランダム偏差） オフセットX)*：値は、エンコードされたスプラインの座標に直接（スプライン座標の入力を参照）適用され、各スプラインのスケールマップ内のランダムな水平オフセット（スプライン座標の各行）を伴います。\
-*– 時間 スプラインに沿って（ランダム偏差） オフセットY)*：値は、エンコードされたスプラインの座標に直接適用され（スプライン座標の入力を参照）、各スプラインのスケールマップ内のランダムな垂直オフセット（スプライン座標の各行）を伴います。
-
-<b>不透明度</b> *浮動小数* Heightマップ入力のスプラインのHeightに対する影響度の乗数です。<b></b>
-
-<b>描画モード</b> *整数* Heightマップのデータと入力スプラインのHeightを合成する方法：\
-*– コピー*:スプラインのHeightをHeightマップ値で上書きします。\
-*- Add*: Heightマップの値をスプラインのHeightに追加します。\
-*– 削除*: Heightマップの値をスプラインのHeightに削除します。\
-*- Multiply*:スプラインのHeightに対してHeightマップの値を乗算します。
-
-+++プレビュー
-<b>セグメント数</b> *整数*&#x200B;プレビュー出力でスプラインの視覚化を描画するために使用するセグメントの数を調整します。\
-値が大きいほど、線は滑らかになります。
-
-<b>方向ヘルパーの表示</b> *ブール値*&#x200B;プレビュー出力のスプラインの始点に点を表示し、終点に矢印を表示します。
-
-<b>Thicknessの封筒を表示</b> *ブール値*\
-スプラインのThicknessのエッジに追加の線分を表示します。
-
-<b>Thickness (px)</b> *フロート*&#x200B;プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。
-
-+++
+|  |  |
+|:---|:---|
+| <b>サンプリングモード</b> <i>整数</i> | 高さマップの値をスプラインにマッピングする方式：<br>- <i>テクスチャ空間</i>：値は、テクスチャのUV座標を使用してテクスチャに配置する場合にスプラインに適用されます。 これにより、値がスプラインに「その場で」適用されます。<br>- <i>スプラインに沿った水平</i>：値は、エンコードされたスプラインの座標に直接適用されます（「スプライン座標」の入力を参照）。ここで、各行は上から下まで異なるスプラインに適用されます。<br>- <i>Hor。 スプラインに沿って（ランダム偏差） オフセットX)</i>：値は、エンコードされたスプラインの座標に直接適用され（スプライン座標の入力を参照）、各スプラインのスケールマップ内のランダムな水平オフセット（スプライン座標の各行）で使用されます。<br>- <i>水平 スプラインに沿って（ランダム偏差） オフセットY)</i>：値は、エンコードされたスプラインの座標に直接適用され（スプライン座標の入力を参照）、各スプラインのスケールマップ内のランダムな垂直オフセット（スプライン座標の各行）を伴います。 |
+| <b>不透明度</b> <i>フロート</i> | 高さマップ入力がスプラインのHeightに与える影響の強さを表す乗数。 |
+| <b>描画モード</b> <i>整数</i> | 高さマップのデータと入力スプラインのHeightを合成する方式：<br>- <i>コピー</i>:スプラインのHeightを高さマップ値で上書きします。<br>- <i>追加</i>:スプラインのHeightに高さマップ値を加えます。<br>- <i>減算</i>:スプラインのHeightに高さマップ値を減算します。<br>- <i>乗算</i>:スプラインのHeightに対して高さマップ値を乗算します。 |
+| <b>プレビュー</b> |  |
+| <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインの視覚化に使用するセグメントの数を調整します。<br>値を大きくすると、より滑らかな線になります。 |
+| <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
+| <b>Thicknessの封筒を表示</b> <i>ブール値</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
+| <b>Thickness (px)</b> <i>フロート</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
 
 ## 例
 
@@ -125,11 +88,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight – バリアント1 – 前">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight – バリアント1 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -141,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight – バリアント1 – 前">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight – バリアント1 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>後</i>
     </td>
   </tr>
@@ -159,26 +122,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "ノードの例1")
+![ノードの例1](spline-sample-height.resources/spline-sample-height-05.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineSampleHeight-Demo.gif "ノードの例2")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![ノードの例2](spline-sample-height.resources/spline-sample-height-06.gif "ノードの例2")
 
 </td>
 </tr>

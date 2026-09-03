@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: MLVグレースケールぼかしフィルターを使用して、ダイナミックな外観にするためにグレースケールテクスチャにモーションぼかし効果を適用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: MLVグレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLVグレースケール：アイコン](../../../../../../assets/MLV_Grayscale_Icon.png "MLVグレースケール：アイコン")
+![MLVグレースケール：アイコン](mlv-grayscale.resources/mlv-grayscale-01.png "MLVグレースケール：アイコン")
 
 <b>イン:</b>フィルター/ぼかし
 
@@ -45,42 +45,44 @@ MLVは<b>&#39;最小分散の平均&#39;</b>を表します。 このフィル�
 >
 > [MLVカラー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md)も参照。
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>入力&#x200B;</b>*グレースケール*&#x200B;処理するグレースケールイメージです。
+## 入力
 
-## 出力コネクタ
+|  |  |
+|:---|:---|
+| <b>入力</b> <i>グレースケール</i> | 処理するグレースケールイメージです。 |
 
-<b>出力&#x200B;</b>*グレースケール*&#x200B;フィルター処理されたグレースケール画像。
+<a name="outputs"></a>
+
+## 出力
+
+|  |  |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | フィルターされたグレースケールイメージ。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>適用度</b> *フロート*&#x200B;画像に適用されたフィルターの強度です。\
-値が大きいほど、ディテールが滑らかになり、平坦な領域にノイズが発生します。
-
-<b>Smoothness</b> *フロート*&#x200B;構造化する領域に適用されるスムージングの強度です。これにより、領域が丸くなり、フィルタリングの強度が高い場合に発生することがあるステッピング効果が軽減されます。
-
-<b>基準</b> *整数*&#x200B;画像内の構造化エリアを定義する値を選択するために使用される基準です。\
-言い換えると、スムージングする領域にピクセルをどのように&#x200B;*グループ化*&#x200B;するかを指定します。\
-*– 分散：*&#x200B;平均の周りのばらつきが最も小さい値を選択します。これにより、ピクセルのクラスタが互いに類似するようになります\
-*– 変動係数：*&#x200B;平均を考慮しながら値を選択すると、明るい領域で逆に変動が少なくなります
-
-<b>ガウス</b> *ブール演算式*&#x200B;ガウス分布を使用して、ピクセルを構造化する領域にグループ化します。\
-「True」の場合、より滑らかな領域になり、分割・統合の効果が減少します。
-
-<b>反復回数</b> *整数*&#x200B;フィルターが実行され、各繰り返しが前の繰り返しの結果に適用される回数です。\
-反復が多いほど、より平坦でシャープな構造領域になります。
+|  |  |
+|:---|:---|
+| <b>適用度</b> *フロート* | 画像に適用されるフィルタリングの強さ。<br><br>値が大きいほど、ディテールがより滑らかになり、より平坦な領域にノイズします。 |
+| <b>Smoothness</b> *フロート* | 構造化する領域に適用されるスムージングの強さです。これにより、領域が丸くなり、フィルタリングの強さが高くなると発生するステッピング効果が軽減されます。 |
+| <b>基準</b> *整数* | 画像内の構造化エリアを定義する値を選択するために使用する基準です。<br><br>つまり、平滑化する領域にピクセルをどのように&#x200B;*グループ化*&#x200B;するかを指定します。<br><br>*– 分散：*&#x200B;平均の周りの分散が最も低い値を選択します。これにより、ピクセルのクラスターが互いに似たものになります。<br>*– 変動係数：*&#x200B;平均を考慮しながら値を選択すると、明るい領域の変動が逆に少なくなります |
+| <b>ガウス</b> *ブール値* | ガウス分布を使用して、ピクセルを構造化する領域にグループ化します。<br><br>&#39;True&#39;の場合、より滑らかな領域になり、フラット効果が減少します。 |
+| <b>反復回数</b> *整数* | 各反復が前の結果に適用される、フィルタの実行回数。<br><br>反復数が多いほど、より平坦でシャープな構造領域になります。 |
 
 ## 例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-02.png" alt="MLV_Variant1A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-03.png" alt="MLV_Variant1B">
       <br><i>後</i>
     </td>
   </tr>
@@ -89,11 +91,11 @@ MLVは<b>&#39;最小分散の平均&#39;</b>を表します。 このフィル�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-05.png" alt="MLV_Variant2B">
       <br><i>後</i>
     </td>
   </tr>
@@ -102,11 +104,11 @@ MLVは<b>&#39;最小分散の平均&#39;</b>を表します。 このフィル�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/mlv-grayscale-06.png" alt="MLV_Variant2C">
       <br><i>後</i>
     </td>
   </tr>

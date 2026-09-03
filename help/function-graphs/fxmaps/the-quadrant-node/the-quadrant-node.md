@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
-description: FXMapのQuadrantノードを使用して、テクスチャを4つのセクションに分割し、タイルパターンおよびバリエーションを作成します。
+description: FXMapのQuadrantノードを使用すると、テクスチャを4つのセクションに分割して、タイルパターンやバリエーションを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > The Quadrant Node
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: クアドラントノード
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -20,31 +20,31 @@ ht-degree: 2%
 
 # クアドラントノード
 
-多くのFX-Mapsは、クアドラントノードのチェーンで構成されています。 クアドラントノードはFX-Mapグループの中で最も強力で柔軟性の高いノードであるため、このノードの動作を理解することは価値があります。
+多くのFX-Mapsは、クアドラントノードのチェーンで構成されています。 クアドラントノードは、FX-Mapグループの中で最も強力で柔軟性の高いノードであるため、このノードの動作を理解することは価値があります。
 
-Quadrantノードについて最も重要なことは、FX-Mapグラフの深度（*オクターブ*）を増加させる唯一のノードであるということです。 各クアドラントノードは、基本となるクアッドツリーグラフに追加されますが、他のノードは追加されません。
+Quadrantノードについて最も重要なことは、FX-Map グラフの深度（*オクターブ*）を増加させる唯一のノードであるということです。 各クアドラントノードは基本のクアドルツリーグラフに追加されますが、他のノードは追加されません。
 
 Quadrantノードには、次のようなパラメータがあります。
 
 ## カラー / 輝度
 
-ノードがイメージをFX-Mapに追加する場合、これらの設定はチャンネルがチェーン内の他のイメージとブレンドされる方法を定義します。 *色/輝度*&#x200B;パラメーターは、この特定のノードによってレンダリングされたすべての画像に適用されます。
+ノードがFX-Mapにイメージを追加する場合、チャンネルをチェーン内の他のイメージとブレンドする方法を指定します。 *色/輝度*&#x200B;パラメーターは、この特定のノードによってレンダリングされたすべての画像に適用されます。
 
 ### 分岐オフセット
 
-ノードのイメージをシフトします。 オフセットは、グラフの後続のノードによってレンダリングされた他のすべてのイメージに適用されます。 分岐オフセットは、グラフの同じ分岐内にある現在の四半円点ノードとその下にあるすべてのノードに移動を適用します。
+ノードのイメージをシフトします。 オフセットは、グラフの後続のノードによってレンダリングされた他のすべてのイメージに適用されます。 分岐オフセットは、現在の四半円点ノードとその下にあるグラフの同じ分岐内のすべてのノードに移動を適用します。
 
 このパラメータは、ダイナミック機能で制御できます。
 
 ### パターン
 
-このノードによってFX-Mapに追加されるイメージ（存在する場合）を定義します。
+このノードによってFX-Mapに追加されるイメージ（ある場合）を定義します。
 
 クアドラントノードでは、パターンの長いリストがサポートされます。これについては、このトピックで後ほど説明します。
 
 >[!WARNING]
 >
-> このパラメーターは、sbsarファイルの動的関数で制御できません。
+> このパラメーターは、sbsar ファイル内の動的関数で制御できません。
 
 ### パターンオフセット
 
@@ -52,11 +52,11 @@ Quadrantノードには、次のようなパラメータがあります。
 
 ### パターンサイズ
 
-FX-Mapに追加する画像のサイズ（該当する場合）を定義します。 このパラメータは、ダイナミック機能で制御できます。
+FX-Mapに追加する画像のサイズ（該当する場合）を指定します。 このパラメータは、ダイナミック機能で制御できます。
 
 ### パターン回転
 
-FX-Mapに追加する画像の回転を定義します（該当する場合）。 このパラメータは、ダイナミック機能で制御できます。
+FX-Mapに追加する画像の回転角度を指定します（該当する場合）。 このパラメータは、ダイナミック機能で制御できます。
 
 ### パターンバリエーション
 
@@ -102,12 +102,12 @@ FX-Mapに追加する画像の回転を定義します（該当する場合）�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
 
 </td>
 </tr>

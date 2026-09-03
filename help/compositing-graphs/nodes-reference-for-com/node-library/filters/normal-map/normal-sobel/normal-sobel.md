@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
 breadcrumb-title: ''
-description: '[法線Sobel]ノードを使用すると、サーフェスの詳細のSobelエッジ検出を使用して、Heightマップから法線マップを生成できます。'
+description: サーフェスの詳細のソベルエッジ検出を使用して高さマップから法線マップを作成するには、[標準ソベル]ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Sobel
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 標準のソベル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
@@ -22,35 +22,28 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-hq.png){width="128px"}
+![](normal-sobel.resources/normal-sobel-01.png){width="128px"}
 
-## 標準のソベル
-
-**場所：** *フィルター/標準マップ*
-
-**単純**
+<b>イン：</b>フィルター> 法線マップ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-ハイトマップ入力をノーマルマップ出力に変換します。 [Normal Atomic Node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)の少し高度なバージョンで、このノードは標準のサンプリング方法ではなくSobelサンプリングを使用します。
-
-## パラメーター
-
-* **強度**: *0.0 ～ 3.0*&#x200B;変換された法線の強度。
-* **標準の形式**: *OpenGL、DirectX*\
-  異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
+ハイトマップ入力をノーマルマップ出力に変換します。 [標準ノード](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)の少し高度なアトミックノードです。このノードでは、標準のサンプリング方式ではなくSobelサンプリングを使用します。
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>適用度</b> <i>0.0 - 3.0</i> | 変換された法線の強さ。 |
+| <b>標準の形式</b> <i>OpenGL, DirectX</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |

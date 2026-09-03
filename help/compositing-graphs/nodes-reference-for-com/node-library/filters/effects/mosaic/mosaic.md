@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
-description: モザイクノードを使用して、テクスチャをピクセル化されたブロックとパターンに分割することで、モザイク状のタイル効果を作成します。
+description: モザイクノードを使用して、ピクセルをピクセル化されたブロックとパターンに分割することで、モザイク状のタイル効果をテクスチャします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: モザイク
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-01.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-02.png){width="128px"}
 
-## モザイク（グレースケール）
-
-**場所：** *フィルター/効果*
-
-**中級**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,25 +39,34 @@ ht-degree: 3%
 
 これは、Heightmapなどのグレースケールマップに多くの定義を追加する場合に便利です。シェイプにさらなる定義を加えることができます。
 
-## パラメーター
-
-### 入力
-
-* **カラー**: *カラー/グレースケール入力*
-* **モザイクマップ**: *グレースケール入力*\
-  ワープドライバーマップ。 最初の入力と同じにすることができます。
-
-### パラメーター
-
-* **サンプル**: *0 ～ 16*&#x200B;マルチサンプルの品質を決定します。
-* **適用度**: *0.0 ～ 1.0*&#x200B;効果の強さ。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>色</b> <i>カラー/グレースケール入力</i> |  |
+| <b>モザイク地図</b> <i>グレースケール入力</i> | ワープドライバーマップ。 最初の入力と同じにすることができます。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>サンプル</b> <i>0 - 16</i> | マルチサンプルの画質を指定します。 |
+| <b>適用度</b> <i>0.0 - 1.0</i> | 効果の強さ。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mosaic.resources/mosaic-03.png" />
+        </td>
+    </tr>
 </table>

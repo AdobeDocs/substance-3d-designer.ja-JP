@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
 breadcrumb-title: ''
 description: '[3Dシンプレックスノイズ]ノードを使用して、滑らかで自然に見えるボリュームテクスチャを作成するためのシンプレックスノイズパターンを3D生成します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3Dシンプレックスノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
+![](3d-simplex-noise.resources/3d-simplex-noise-01.png){width="128px"}
 
-## 3Dシンプレックスノイズ
-
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**中級**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -42,16 +38,25 @@ ht-degree: 1%
 
 このノイズは、実際のノイズではなく、[Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers)を入力としてテストできます（下図の例を参照）。
 
-## パラメーター
-
-* **スケール**: *0.0 ～ 64.0*\
-  エフェクトのグローバルスケールを設定します。
-* **サイズ**: *0.0 ～ 2.0* X軸、Y軸、およびZ軸で個別に不均等スケーリングを実行します。
-
-## サンプル画像
-
-![](../../../../../../assets/3d-simplex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>スケール</b> <i>0.0 - 64.0</i> | エフェクトのグローバルスケールを設定します。 |
+| <b>サイズ</b> <i>0.0 - 2.0</i> | X、Y、Z軸に対して個別に不均等スケーリングを実行します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-simplex-noise.resources/3d-simplex-noise-02.gif" />
+        </td>
+    </tr>
 </table>

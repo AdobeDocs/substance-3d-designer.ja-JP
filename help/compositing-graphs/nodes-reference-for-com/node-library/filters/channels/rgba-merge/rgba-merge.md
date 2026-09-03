@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
-description: RGBAマージノードを使用して、赤、緑、青、アルファの個別のチャンネルを1つのRGBAテクスチャに結合します。
+description: RGBAマージノードを使用して、赤、緑、青、アルファチャンネルを1つのRGBA テクスチャにまとめます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Merge
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: RGBAマージ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '93'
 ht-degree: 2%
 
 ---
@@ -22,42 +22,32 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge-01.png){width="128px"}
 
-## RGBAマージ
-
-**場所：** *フィルター/チャネル*
-
-**単純**
+<b>イン：</b>フィルター/チャネル
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 4つのチャンネルのそれぞれに個別のグレースケール入力をパックします。 このノードは、より多くのマージ制御を提供するので、RGBAマージと混同しないでください。
 
-チャンネルとパッキングのマップを一緒にマップする場合に非常に便利なノードです。 例えば、Smoothness、メタリック、AOを各R、G、Bチャンネルに使用できます。
-
-## パラメーター
-
-### 入力
-
-* **R**: *グレースケール入力*
-* **G**: *グレースケール入力*
-* **B**: *グレースケール入力*
-* **A**: *グレースケール入力*
-
-*パラメーターがありません。*
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
+チャンネルとパッキングのマップを一緒にマップする場合に非常に便利なノードです。 例えば、Smoothness、メタリックおよびAOを各R、G、Bチャンネルに使用できます。
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>R</b> <i>グレースケール入力</i> |  |
+| <b>G</b> <i>グレースケール入力</i> |  |
+| <b>B</b> <i>グレースケール入力</i> |  |
+| <b>A</b> <i>グレースケール入力</i> |  |

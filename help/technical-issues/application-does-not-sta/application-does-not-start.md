@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Substance 3D Designerを起動できない問題のトラブルシューティングを行い、アプリケーションを起動する方法を確認します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: アプリケーションが起動しない
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -32,21 +32,21 @@ ht-degree: 1%
 
 ## Designer 15.0以降
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>[（エラー）](application-does-not-start.resources/error.svg)問題</b>
 
 統合GPU(iGPU)とディスクリートGPU(dGPU)の両方を搭載したシステムで、バージョン15.0以降のDesignerを起動できない。
 
-<b>![（ティック）](../../assets/check.svg)推奨ステップ</b>
+<b>[（ティック）](application-does-not-start.resources/check.svg)推奨ステップ</b>
 
 iGPUのグラフィックドライバーを更新します。 最新のドライバーは、次の場所で確認できます： [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](application-does-not-start.resources/error.svg)問題**
 
 Windows 10またはWindows 11を使用しているシステムでSubstance 3D Designerを起動できない。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](application-does-not-start.resources/check.svg)推奨ステップ**
 
 ライセンス検証プロセスで&#x200B;*古い* `libeay32.dll`ライブラリが使用されているため、古いバージョンのDesignerをWindows 10またはWindows 11で開始できない場合があります。
 
@@ -67,11 +67,11 @@ Windows 10またはWindows 11を使用しているシステムでSubstance 3D De
 
 ## Windows 7/8/8.1
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](application-does-not-start.resources/error.svg)問題**
 
 Windows 7、Windows 8またはWindows 8.1を使用しているシステムでSubstance 3D Designerを起動できない。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](application-does-not-start.resources/check.svg)推奨ステップ**
 
 バージョン&#x200B;**11.3.0**&#x200B;の更新プログラムの一部として、複数のライブラリ、ツール、およびSDKがアップグレードされました。*互換性が壊れました* Windows 10より前のバージョンのWindowsです。
 
@@ -86,11 +86,11 @@ Windows 10にアップグレードできない場合は、Designer *過去*&#x20
 
 ## Linux
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>[（エラー）](application-does-not-start.resources/error.svg)問題</b>
 
 ホーム画面を閉じてメインウィンドウを表示するとクラッシュする。
 
-<b>![（ティック）](../../assets/check.svg)推奨ステップ</b>
+<b>[（ティック）](application-does-not-start.resources/check.svg)推奨ステップ</b>
 
 Designerは、システムの<b>libffi.so</b>ライブラリを読み込むため、Pythonコンポーネントを読み込めません。
 
@@ -111,28 +111,28 @@ SteamからDesignerを起動するLinuxをご利用のお客様は、以下に�
 
 これが完了すると、以降のすべてのセッションでDesignerがSteamから正常に起動する可能性があります。
 
-![Steamの起動オプション](../../assets/steam_linux_launch_option.jpg "Steamの起動オプション")
+![Steamの起動オプション](application-does-not-start.resources/application-does-not-start-01.jpg "Steamの起動オプション")
 
 
 
 +++
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](application-does-not-start.resources/error.svg)問題**
 
 SteamエディションのDesignerはで始まることができず、エラーメッセージは表示されません。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](application-does-not-start.resources/check.svg)推奨ステップ**
 
 代わりにSteamアプリケーションをログに記録すると、エラーメッセージを取得できます。
 
-推奨される[ここ](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260)で、Steamを完全に閉じて、ターミナルから次のコマンドを実行します（またはこのコマンドのショートカットを作成します）:
+[こちら](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260)をお勧めします。Steamを完全に閉じてから、ターミナルから次のコマンドを実行してください（またはこのコマンドのショートカットを作成します）:
 
 ```
 steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>![（エラー）](../../assets/error.svg) Issu</b><b>e</b>
+<b>![（エラー）](application-does-not-start.resources/error.svg) Issu</b><b>e</b>
 
 `<b>xcb</b>`プラグインを読み込めません。 コマンドラインに次のメッセージが表示されます。
 
@@ -151,7 +151,7 @@ Aborted (core dumped)
 ```
 
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](application-does-not-start.resources/check.svg)推奨ステップ**
 
 必要なパッケージの一部が見つかりません。 Designerインストールディレクトリから次のコマンドを実行します。
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](application-does-not-start.resources/error.svg)問題</b>
 
 Designerの起動時に次のエラーが発生します。
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Designerによって読み込まれたシステムライブラリは、Designer独自の<b>libcrypto.so.1.1</b>ライブラリと互換性がありません。
 
-<b>![（ティック）](../../assets/check.svg)推奨ステップ</b>
+<b>![（ティック）](application-does-not-start.resources/check.svg)推奨ステップ</b>
 
 Designerのインストールディレクトリから<b>`libcrypto.so.1.1`</b>ライブラリを削除して、代わりにシステムのライブラリが使用されるようにします。
 
@@ -193,11 +193,11 @@ Designerのインストールディレクトリから<b>`libcrypto.so.1.1`</b>�
 >
 > この回避策は、システムに独自のlibcrypto.so.1ライブラリがある場合にのみ動作します。 最近のディストリビューションでは、<b>libxcrypt-compat</b>などの互換性パッケージをインストールする必要がある場合があります。
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](application-does-not-start.resources/error.svg)問題</b>
 
 Substance 3D Designerは、Linuxの&#x200B;*Archベース*&#x200B;のディストリビューションを使用しているシステムでは起動できません。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ&#x200B;*(![（警告）](../../assets/warning.svg)不安定、AMD GPUのみ！)***
+**![（ティック）](application-does-not-start.resources/check.svg)推奨ステップ&#x200B;*(![（警告）](application-does-not-start.resources/warning.svg)不安定、AMD GPUのみ！)***
 
 **progl** （[AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO)ドライバーの一部）をインストールして、Designerを起動してみてください。 これは、アプリケーション起動コマンドで`progl`プレフィックスを使用して実行できます。
 

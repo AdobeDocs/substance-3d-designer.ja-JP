@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフの関数ノードにアクセスして、カスタム関数グラフを呼び出して実行します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 関数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 ## ノードリスト
 
 +++Pow
-![Powノードアイコン](../../../../assets/Pow_Node.jpg "Powノードアイコン")
+![Powノードアイコン](function-nodes.resources/function-nodes-01.jpg "Powノードアイコン")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2Powノードアイコン](../../../../assets/2Pow_Node.jpg "2Powノードアイコン")
+![2Powノードアイコン](function-nodes.resources/function-nodes-02.jpg "2Powノードアイコン")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++平方根
-![平方根ノードアイコン](../../../../assets/SquareRoot_Node.jpg "平方根ノードアイコン")
+![平方根ノードアイコン](function-nodes.resources/function-nodes-03.jpg "平方根ノードアイコン")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++指数
-![指数ノードアイコン](../../../../assets/Exponential_Node.jpg "指数ノードアイコン")
+![指数ノードアイコン](function-nodes.resources/function-nodes-04.jpg "指数ノードアイコン")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++対数
-![対数ノードアイコン](../../../../assets/Logarithm_Node.jpg "対数ノードアイコン")
+![対数ノードアイコン](function-nodes.resources/function-nodes-05.jpg "対数ノードアイコン")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++対数の底 2
-![対数ベース2ノードアイコン](../../../../assets/LogarithmBase2_Node.jpg "対数ベース2ノードアイコン")
+![対数ベース2ノードアイコン](function-nodes.resources/function-nodes-06.jpg "対数ベース2ノードアイコン")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 +++
 
 +++絶対値
-![絶対ノードアイコン](../../../../assets/Absolute_Node.jpg "絶対ノードアイコン")
+![絶対ノードアイコン](function-nodes.resources/function-nodes-07.jpg "絶対ノードアイコン")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 +++
 
 +++天井
-![Ceilノードアイコン](../../../../assets/Ceil_Node.jpg "Ceilノードアイコン")
+![Ceilノードアイコン](function-nodes.resources/function-nodes-08.jpg "Ceilノードアイコン")
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 +++
 
 +++下限
-![フロアノードアイコン](../../../../assets/Floor_Node.jpg "フロアノードアイコン")
+![フロアノードアイコン](function-nodes.resources/function-nodes-09.jpg "フロアノードアイコン")
 
 
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 +++
 
 +++リニア補間
-![リニア補間ノードアイコン](../../../../assets/LinearInterpolation_Node.jpg "リニア補間ノードアイコン")
+![リニア補間ノードアイコン](function-nodes.resources/function-nodes-10.jpg "リニア補間ノードアイコン")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 +++
 
 +++最小
-![最小ノードアイコン](../../../../assets/Minimum_Node.jpg "最小ノードアイコン")
+![最小ノードアイコン](function-nodes.resources/function-nodes-11.jpg "最小ノードアイコン")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++最大
-![最大ノードアイコン](../../../../assets/Maximum_Node.jpg "最大ノードアイコン")
+![最大ノードアイコン](function-nodes.resources/function-nodes-12.jpg "最大ノードアイコン")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++余弦
-![コサインノードアイコン](../../../../assets/Cosine_Node.jpg "コサインノードアイコン")
+![コサインノードアイコン](function-nodes.resources/function-nodes-13.jpg "コサインノードアイコン")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++正弦
-![サインノードアイコン](../../../../assets/Sine_Node.jpg "サインノードアイコン")
+![サインノードアイコン](function-nodes.resources/function-nodes-14.jpg "サインノードアイコン")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++正接
-![接線ノードアイコン](../../../../assets/Tangent_Node.jpg "接線ノードアイコン")
+![接線ノードアイコン](function-nodes.resources/function-nodes-15.jpg "接線ノードアイコン")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++逆正接 2
-![Arc Tangent 2ノードアイコン](../../../../assets/ArcTangent2_Node.jpg "Arc Tangent 2ノードアイコン")
+![Arc Tangent 2ノードアイコン](function-nodes.resources/function-nodes-16.jpg "Arc Tangent 2ノードアイコン")
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 5%
 +++
 
 +++デカルト
-![絶対ノードアイコン](../../../../assets/Absolute_Node.jpg "絶対ノードアイコン")
+![絶対ノードアイコン](function-nodes.resources/function-nodes-07.jpg "絶対ノードアイコン")
 
 
 
@@ -190,7 +190,7 @@ ht-degree: 5%
 +++
 
 +++ランダム
-![ランダムノードアイコン](../../../../assets/Random_Node.jpg "ランダムノードアイコン")
+![ランダムノードアイコン](function-nodes.resources/function-nodes-17.jpg "ランダムノードアイコン")
 
 
 

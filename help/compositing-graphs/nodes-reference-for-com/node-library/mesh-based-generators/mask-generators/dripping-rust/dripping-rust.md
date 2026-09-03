@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
 breadcrumb-title: ''
 description: '[滴下錆]ノードを使用して、メッシュジオメトリと重力の向きに基づいて錆の滴下パターンを作成します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 滴下錆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust-01.png){width="128px"}
 
-## 滴下錆
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**中級**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,32 +37,40 @@ ht-degree: 1%
 
 このマスクは、錆のフレークと斑点を表し、漏れが伝わります。
 
-## パラメーター
-
-### 入力
-
-* **曲率**: *グレースケール入力*\
-  錆の配置に役立つベイク処理または生成されたマップ。
-* **環境オクルージョン**: *グレースケール入力*\
-  錆の配置に役立つベイク処理または生成されたマップ。
-* **位置**: *グレースケール入力*\
-  点滴方向のベイク処理または生成されたマップ。
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **錆の分散**: *0.0 ～ 1.0*&#x200B;錆量のメインコントロール。
-* **錆のコントラスト**: *0.0 ～ 1.0*&#x200B;生成される錆の斑点のコントラストの量を設定します（点滴には影響しません）。
-* **Smoothnessの拡散**: *0.0 ～ 1.0*&#x200B;錆の斑点に適用するぼかし/にじみの量。
-* **しずくの強さ**: *0.0 ～ 1.0*&#x200B;斑点からのしずくの強さと長さを設定します。
-* **しずくのSmoothness**: *0.0 ～ 1.0*&#x200B;しずくに適用するぼかしと滑らかさの量。
-* **滴のサンプル量**: *0 ～ 32*&#x200B;滴の効果の品質レベル（ステップ）を設定します。 速度にわずかな影響を与えます。
-
-## サンプル画像
-
-![](../../../../../../assets/dripping-rust-ex3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>曲線</b> <i>グレースケール入力</i> | 錆の配置に役立つベイク処理または生成されたマップ。 |
+| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 錆の配置に役立つベイク処理または生成されたマップ。 |
+| <b>位置</b> <i>グレースケール入力</i> | 点滴方向のベイク処理または生成されたマップ。 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>錆の分散</b> <i>0.0 - 1.0</i> | 錆量のメインコントロールです。 |
+| <b>錆のコントラスト</b> <i>0.0 - 1.0</i> | 生成される錆の斑点のコントラストの量を設定します（滴り落ちには影響しません）。 |
+| <b>Smoothnessを展開しています</b> <i>0.0 - 1.0</i> | 錆の斑点に適用するぼかし/にじみの効果の量。 |
+| <b>滴の強さ</b> <i>0.0 - 1.0</i> | 斑点から滴り落ちる強さと長さを設定します。 |
+| <b>Smoothnessの滴り</b> <i>0.0 - 1.0</i> | しずくに適用するぼかしとスムージングの量。 |
+| <b>滴のサンプル量</b> <i>0 - 32</i> | ドロップエフェクトの画質レベル（ステップ）を設定します。 速度にわずかな影響を与えます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dripping-rust.resources/dripping-rust-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでvisible if式を使用し、条件に基づいてパラメーターの表示を制御する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: If式の表示
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 * グラフの[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノード；
 * グラフの[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードです。
 
-![入力パラメーターの表示を切り替えています](../../assets/visible-if-example.gif "入力パラメーターの表示を切り替えています"){width="512px"}
+![入力パラメーターの表示を切り替えています](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-control-visibility-of-inputs-outputs-and-parameters-01.gif "入力パラメーターの表示を切り替えています"){width="512px"}
 
 論理式が`true`と評価される場合、パラメーター、入力または出力は、現在のグラフを表すすべての[インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)に表示されます。 それ以外の場合は、*非表示*&#x200B;になります。
 

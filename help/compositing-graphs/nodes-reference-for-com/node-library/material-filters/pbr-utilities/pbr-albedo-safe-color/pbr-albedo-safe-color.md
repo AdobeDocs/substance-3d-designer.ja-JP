@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
 description: PBR アルベドセーフカラーノードを使用して、アルベドのカラーがPBRマテリアルに適した物理的な範囲内であることを確認します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR アルベドセーフカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
+![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color-01.png){width="128px"}
 
-## PBR アルベドセーフカラー
-
-**場所：** *マテリアルフィルター/PBRユーティリティ*
-
-**単純**
+<b>イン：</b> マテリアルフィルター > PBRユーティリティ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,17 +39,15 @@ ht-degree: 1%
 
 これは簡単な修正ツールとして便利です。特に、まだPBRを学習しているが、常に正しいはずの絶対的な測定として意図されていない場合に便利です。
 
-## パラメーター
-
-* **PBRワークフロー**: *ベースカラー – メタリック、拡散反射光 – Specular* 2つの異なるPBRワークフローを切り替えます。
-* **許容値**: *0.0 ～ 1.0*&#x200B;範囲外の値の許容値。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>PBRワークフロー</b> <i>Base color -メタリック、Diffuse - Specular</i> | 2つの異なるPBRワークフローを切り替えます。 |
+| <b>許容範囲</b> <i>0.0 - 1.0</i> | 範囲外の値に対する許容値です。 |

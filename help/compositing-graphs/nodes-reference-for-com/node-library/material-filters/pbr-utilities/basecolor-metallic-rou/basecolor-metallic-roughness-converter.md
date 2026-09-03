@@ -1,18 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
-description: 「BaseColorメタリック粗さコンバーター」ノードを使用して、様々なPBRマテリアル形式とワークフローを変換します。
+description: BaseColor メタリックラフネスコンバーターノードを使用して、異なるPBR マテリアル形式およびワークフロー間で変換を行います。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > BaseColor  Metallic  Roughness converter
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ベースカラーメタリックの粗さコンバーター
+title: BaseColor メタリックラフネスコンバータ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/basecolor-metallic-roughness-converter-01.png){width="128px"}
 
-## ベースカラー/メタリック/粗さコンバーター
-
-**場所：** *マテリアルフィルター/PBRユーティリティ*
-
-**単純**
+<b>イン：</b> マテリアルフィルター > PBRユーティリティ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-このノードは、ベースカラー、メタリック、および粗さのマップを、Specular/光沢モデルなどの異なるPBRモデル出力に変換します。 付属の出力ターゲットには、Vray、Corona、Redshift、Renderman、Arnoldなどのよく知られたレンダリングエンジンがあります。
+このノードは、ベースカラー、メタリックマップ、およびラフネスマップを、Specular/光沢度モデルなどの異なるPBRモデル出力に変換します。 含まれる出力ターゲットには、Vray、Corona、Redshift、Renderman、Arnoldなどのよく知られたレンダリングエンジンがあります。
 
-これは、PBRの1つのモデルで作成されたグラフやマテリアルがあり、ターゲットには別のモデルが必要な場合に便利です。
-
-## パラメーター
-
-* **SpecularLevel入力を使用**: *False/True*&#x200B;余分な入力スロットをSpecularLevel入力に公開します。 これは変換時にも考慮されます。
-* ***Target**: *PBR拡散/Specular/グロス、Vray (GGX)、コロナ、コロナ1.6+、Redshift 1.x、Arnold 4 (AiStandard)、Arnold 4 (AlSurface)、RenderMan (PxrSurface)**変換対象モデルを設定します。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
+この機能は、PBRの1つのモデルで作成されたグラフまたはマテリアルがあり、かつ対象として別のモデルが必要な場合に便利です。
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>SpecularLevel入力を使用する</b> <i>False/True</i> | スペキュラレベル入力に追加の入力スロットを表示します。 これは変換時にも考慮されます。 |
+| <b>ターゲット</b> <i>PBR Diffuse/Specular/グロス、Vray(GGX)、Corona、Corona 1.6+、Redshift 1.x、Arnold 4(AiStandard)、Arnold 4(AlSurface)、RenderMan(PxrSurface)</i> | 変換対象モデルを設定します。 |

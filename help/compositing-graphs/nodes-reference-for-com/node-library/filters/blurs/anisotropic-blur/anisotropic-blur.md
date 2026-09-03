@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
 breadcrumb-title: ''
-description: 異方性反射ブラーノードを使用して、ブラーの方向エフェクトを適用し、モーションブラーと筋エフェクトを作成します。
+description: 異方性反射ブラーノードを使用して方向ブラーエフェクトを適用し、モーションブラーや筋の効果を生み出します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 異方性反射ブラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-01.png){width="128px"}
 
-![](../../../../../../assets/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-02.png){width="128px"}
 
-## 異方性反射ぼかし（グレースケール）
-
-**場所：** *フィルター/ぼかし*
-
-**単純**
+<b>イン:</b>フィルター/ぼかし
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,17 +39,27 @@ ht-degree: 1%
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「異方性ブラー」を使用し、グレースケール入力には「異方性ブラーグレースケール」を使用します。
 
-## パラメーター
-
-* **強度**: *0.0 ～ 16.0*&#x200B;ぼかしの強度（半径）。 この値が大きいほど、ぼかしは先に達します。
-* **異方性**: *0.0 ～ 1.0*&#x200B;ぼかしの方向性。 0.0に設定することは、通常のぼかしを実行することと同じです。
-* **角度**: *0.0 ～ 1.0*&#x200B;ぼかし方向の角度を設定します。
-* **品質**: *0 ～ 1*&#x200B;内部の[ボックスぼかし](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)とHQぼかしを切り替えます。 品質のための速度の貿易。
-
-## サンプル画像
-
-![](../../../../../../assets/aniso-blur-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>適用度</b> <i>0.0 - 16.0</i> | ブラーの強さ（半径）。 この値が大きいほど、ぼかしは先に達します。 |
+| <b>異方性</b> <i>0.0 - 1.0</i> | ぼかしの方向性。 0.0に設定することは、通常のぼかしを実行することと同じです。 |
+| <b>角度</b> <i>0.0 - 1.0</i> | ぼかし方向の角度を設定します。 |
+| <b>クォリティ</b> <i>0 - 1</i> | 内部的に[ボックスぼかし](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)とHQブラーを切り替えます。 品質のための速度の貿易。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="anisotropic-blur.resources/anisotropic-blur-03.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
 breadcrumb-title: ''
 description: カラーミキサーノードを使用して、カラーチャンネルをミックスし、カラーエフェクトを作成したり、カラースペースを変換したりします。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: チャンネルミキサー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 1%
+source-wordcount: '120'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer-01.png){width="128px"}
 
-## チャンネルミキサー
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 RGBチャンネルをミックス、入れ替え、ブレンドできます。 このエフェクトを使用すると、チャンネルをスウィズルしたり、より正確なグレースケール変換や様々な種類のパッキングを行うことができます。
 
-## パラメーター
-
-* **赤チャンネル**: *-200.0 -* 200.0\
-  出力する赤チャンネルに入る入力RGBチャンネルの量を指定します。
-* **グリーンチャンネル**: *-200.0 - 200.0*\
-  出力のグリーンチャンネルに入力RGBチャンネルをどの程度入れるかを指定します。
-* **青チャンネル**: *-200.0 - 200.0*&#x200B;入力RGBチャンネルのうち、出力の青チャンネルに入るチャンネルの量を指定します。
-* **モノクロ**: *False/True*&#x200B;モノクロ出力。 より正確なグレースケール変換を行います。
-
-## サンプル画像
-
-![](../../../../../../assets/channelmixer.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>レッドチャンネル</b> <i>-200.0 - 200.0</i> | 出力する赤チャンネルに入る入力RGBチャンネルの量を指定します。 |
+| <b>グリーンチャンネル</b> <i>-200.0 - 200.0</i> | 出力のグリーンチャンネルに入力RGBチャンネルをどの程度入れるかを指定します。 |
+| <b>ブルーチャンネル</b> <i>-200.0 - 200.0</i> | 出力の青チャンネルに入る入力RGBチャンネルの量を指定します。 |
+| <b>モノクロ</b> <i>False/True</i> | モノクロに出力します。 より正確なグレースケール変換を行います。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="channel-mixer.resources/channel-mixer-02.gif" />
+        </td>
+    </tr>
 </table>

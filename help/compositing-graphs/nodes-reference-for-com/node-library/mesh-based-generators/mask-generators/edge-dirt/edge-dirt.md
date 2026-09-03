@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
 breadcrumb-title: ''
 description: エッジDirtノードを使用して、メッシュエッジにDirtのアキュムレーションマスクを作成し、リアルなエッジのウェザリングエフェクトを作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: エッジDirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt-01.png){width="128px"}
 
-## エッジDirt
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**単純**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,30 +37,37 @@ ht-degree: 2%
 
 このマスクは、Dirtマップのみに基づいてエッジの周囲に集まる曲率エフェクトを表します。
 
-## パラメーター
-
-### 入力
-
-* **曲率**: *グレースケール入力*\
-  エフェクトの配置に使用されるベイク済みマップ。 必須！
-* **バリエーションマスク**: *グレースケール入力*\
-  ノードのエフェクトをマスクするために使用されるマスクスロット。オーバーライドパラメータが有効な場合にのみ使用されます。
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **レベル**: *0.0 ～ 1.0*\
-  Dirt量を設定します。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
-* **バリエーション**: *0.0 ～ 1.0*&#x200B;大規模なマスクや分割をどの程度行うかをブレンドします。
-* **バリエーションマスクの上書き**: *False/True*
-
-## サンプル画像
-
-![](../../../../../../assets/edge-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>曲線</b> <i>グレースケール入力</i> | エフェクトの配置に使用されるベイク済みマップ。 必須！ |
+| <b>バリエーションマスク</b> <i>グレースケール入力</i> | ノードのエフェクトをマスクするために使用されるマスクスロット。オーバーライドパラメータが有効な場合にのみ使用されます。 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>レベル</b> <i>0.0 - 1.0</i> | Dirt量を設定します。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
+| <b>バリエーション</b> <i>0.0 - 1.0</i> | 大規模なマスク/分割を行う場合のブレンド。 |
+| <b>バリエーションマスクの上書き</b> <i>False/True</i> |  |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-dirt.resources/edge-dirt-02.gif" />
+        </td>
+    </tr>
 </table>

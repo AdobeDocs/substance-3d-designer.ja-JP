@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでパッケージメタデータを作成および管理し、整理されたアセットライブラリを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パッケージメタデータ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -28,34 +28,34 @@ Pythonプラグインを開発している場合、テストやデバッグの�
 
 1. エクスプローラーでパッケージをダブルクリックすると、このパッケージのプロパティパネルが開きます。
 
-   ![パッケージメタデータ](../assets/empty.png "パッケージメタデータ")
+   ![パッケージメタデータ](package-metadata.resources/package-metadata-01.png "パッケージメタデータ")
 1. ここには専用セクション「メタデータ」があります。 上記のキャプチャと同様に、このケースでは空の状態になっている可能性があります。
 
    「プラス」ボタンを使用すると、新しいメタデータを追加できます。
 
-   ![メタデータの追加ボタン](../assets/hoveradd.png "メタデータの追加ボタン")
+   ![メタデータの追加ボタン](package-metadata.resources/package-metadata-02.png "メタデータの追加ボタン")
 1. セクションに新しいアイテムが表示されます。
 
-   ![新しいメタデータ](../assets/newitem-1.png "新しいメタデータ")
+   ![新しいメタデータ](package-metadata.resources/package-metadata-03.png "新しいメタデータ")
 1. 「キー」フィールドと「値」フィールドがあります。 両方とも、ニーズに合わせて設定できます。 「キー」フィールドには、リスト全体で一意の値を指定する必要があります。
 
-   ![新しいメタデータ値](../assets/newitemfilled.png "新しいメタデータ値")
+   ![新しいメタデータ値](package-metadata.resources/package-metadata-04.png "新しいメタデータ値")
 1. アイテムの「タイプ」を選択することもできます。 現時点では、「文字列」または「URL」にできます。
 
-   ![メタデータの種類の変更](../assets/typecombo.png "メタデータの種類の変更")
+   ![メタデータの種類の変更](package-metadata.resources/package-metadata-05.png "メタデータの種類の変更")
 1. ここで「URL」とは、パッケージに含まれるリソースへの参照を意味します。 これを行うには、ハードドライブ上のファイルを選択し、エクスプローラーでパッケージにドラッグ&amp;ドロップします。 イメージなどの通常のリソースか、テキストファイルなどのその他のファイルを指定できます。
 
-   ![パッケージの汎用リソース](../assets/resourceinpackage.png "パッケージの汎用リソース")
+   ![パッケージの汎用リソース](package-metadata.resources/package-metadata-06.png "パッケージの汎用リソース")
 1. ファイルが新しいリソースとしてパッケージに表示されます。
 
    次に、パッケージのプロパティパネルに戻り、新しいメタデータを作成して、適切なキーを指定し、タイプとして「URL」を選択します。 次に「。..」を選択します。 ボタンをクリックして、「リソースから」を選択します。 最後に、直前に含めたファイルを選択し、以下を検証します。
 
-   ![URLメタデータ](../assets/urlmetadata.gif "URLメタデータ")
+   ![URLメタデータ](package-metadata.resources/package-metadata-07.gif "URLメタデータ")
 1. これで、リソースの「URL」が「値」フィールドに保存されていることがわかります。
 
    項目の右側にある「X」ボタンを使用して、メタデータを削除することもできます。
 
-   ![メタデータの削除](../assets/hoverdelete.png "メタデータの削除")
+   ![メタデータの削除](package-metadata.resources/package-metadata-08.png "メタデータの削除")
 
 >[!NOTE]
 >

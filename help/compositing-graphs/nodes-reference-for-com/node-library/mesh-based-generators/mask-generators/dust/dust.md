@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
 breadcrumb-title: ''
 description: Dustノードを使用して、メッシュジオメトリに基づいてDustのアキュムレーションマスクを作成し、リアルなDustと汚れのエフェクトを作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dust
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dust.png){width="128px"}
+![](dust.resources/dust-01.png){width="128px"}
 
-## Dust
-
-**イン：** *メッシュベースのジェネレーター**/マスクジェネレーター*
-
-**中級**
+<b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,33 +37,39 @@ ht-degree: 1%
 
 このマスクは、上に向いている領域だけでなく、閉塞した領域や下がっている領域にも蓄積されているDustを表します。 適切なベイク処理されたAOおよびワールド空間法線が動作する必要があります。
 
-## パラメーター
-
-### 入力
-
-* **環境オクルージョン**: *グレースケール入力*\
-  Dustの配置に使用するベイク済みマップ。 必須！
-* **ワールドスペース標準**: *カラー入力*\
-  Dustの配置に使用するベイク済みマップ。 必須！
-* **ノイズ**: *グレースケール入力*\
-  カスタムDustマップ（オプション）。[ノイズのオーバーライド]が[True]に設定されている場合にのみ表示されます。
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **レベル**: *0.0 ～ 1.0*\
-  Dustの合計量を設定します。
-* **コントラスト**: *0.0 ～ 1.0*\
-  Dustのコントラストを調整します。
-* **オクルージョン量**: *0.0 ～ 1.0* AOの影響を設定します。閉塞した領域により多くのDustが表示されます。
-* **ノイズの不透明度**: *0.0 ～ 1.0*&#x200B;ほこりの多い領域に表示されるノイズの量を設定します。
-* **ノイズを上書き**: *False/True*&#x200B;カスタムのDustマップ入力を使用するように設定します。
-
-## サンプル画像
-
-![](../../../../../../assets/dust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>環境オクルージョン</b> <i>グレースケール入力</i> | Dustの配置に使用するベイク済みマップ。 必須！ |
+| <b>ワールド空間標準</b> <i>カラー入力</i> | Dustの配置に使用するベイク済みマップ。 必須！ |
+| <b>ノイズ</b> <i>グレースケール入力</i> | カスタムDustマップ（オプション）。[ノイズのオーバーライド]が[True]に設定されている場合にのみ表示されます。 |
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>レベル</b> <i>0.0 - 1.0</i> | Dustの合計量を設定します。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | Dustのコントラストを調整します。 |
+| <b>オクルージョン金額</b> <i>0.0 - 1.0</i> | AOのインフルエンスを設定します。オクルージョン領域により多くのDustが表示されます。 |
+| <b>ノイズの不透明度</b> <i>0.0 - 1.0</i> | ほこりの多い領域に表示されるノイズ量を設定します。 |
+| <b>ノイズの上書き</b> <i>False/True</i> | カスタムDustマップ入力を使用するように設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dust.resources/dust-02.gif" />
+        </td>
+    </tr>
 </table>

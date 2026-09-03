@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-12-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-3.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Designerバージョン12.3のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 リリース日： *2022年10月6日*
 
-![](../../assets/largef.png){width="1111px"}
+![](version-12-3.resources/version-12-3-01.png){width="1111px"}
 
 ## 主な機能
 
@@ -33,20 +33,20 @@ ht-degree: 0%
 グラフの作成に慣れているユーザーは、作業を再利用するためにサブグラフ（またはグラフインスタンス）を作成し、グラフを簡素化して効率的にする必要があります。\
 これはSubstanceモデルグラフでも可能になりました。サブグラフをエクスプローラーからメイングラフにドラッグ&amp;ドロップして、インスタンスノードとして使用します。
 
-![](../../assets/subgraph.gif){width="600px"}
+![](version-12-3.resources/version-12-3-02.gif){width="600px"}
 
 また、出力シーンなどのSubstanceモデルグラフの出力ノードの概念も導入しました。 これで、グラフに1つ以上の出力を設定できるようになりました。\
 グラフが別のグラフでインスタンス化される際に、各出力は出力ピンに対応します。
 
-![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/version-12-3-03.png){width="600px"}
 
 インスタンスノードを右クリックすると、参照サブグラフにアクセスして表示または編集できます。
 
-![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/version-12-3-04.png){width="600px"}
 
 サブグラフと公開パラメーターにより、complexeアセットを作成し、以下の図に示すように無限のバリエーションを適用できます。
 
-![](../../assets/seasons.gif){width="600px"}
+![](version-12-3.resources/version-12-3-05.gif){width="600px"}
 
 ### Substanceモデルグラフのその他の機能強化
 
@@ -55,18 +55,18 @@ ht-degree: 0%
   <b>Visible If</b>を使用すると、パラメーターの可視性に条件を追加して、クリーンで機能的なUIを維持できます。 Substanceグラフで既に使用されているこのメカニズムは、Substanceモデルグラフにも拡張されました。もちろん同じ構文を使用します。<b>\
   </b>
 
-  ![](../../assets/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-06.gif){width="600px"}
 
 * <b>カーブエディション専用の新しいノード\
   </b>このバージョンでは、カーブ編集専用の新しいノードが追加されています。<b>カーブを反転</b>してカーブの両端を入れ替え、<b>カーブを分割</b>して2つの方法に従ってセグメントに頂点を追加し、<b>カーブを滑らかにする</b>で2Dカーブ上のすべての角度を滑らかにし、最後に<b>カーブをオフセット</b>して、以下に示すように2Dカーブします。<b>
 
   </b>
 
-  ![](../../assets/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-07.gif){width="600px"}
 * <b>新しいグラフウィンドウ</b>\
   <b>新しいSubstanceモデルグラフ</b>ウィンドウは、Substanceモデルグラフでも使用できるようになりました。 独自のテンプレートを追加することも、デフォルトのテンプレートを選択することもできます。その後、グラフの名前を直接入力し、グラフを追加するパッケージを選択します。
 
-  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/version-12-3-08.png){width="600px"}
 
 ### ようこそパネルと新機能パネル
 
@@ -76,9 +76,9 @@ Designerの使用を開始するのに役立つ2つの新しいパネルが導�
 
 これら2つのパネルには、ヘルプメニューからもアクセスできます。
 
-![](../../assets/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/version-12-3-09.png)
 
-![](../../assets/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/version-12-3-10.png)
 
 ### その他
 
@@ -88,7 +88,7 @@ Designerの使用を開始するのに役立つ2つの新しいパネルが導�
   以前のバージョンでは、Designerはオペレーティングシステムで設定されたスケーリング係数を正しく処理できませんでした。 下の図からわかるように、すべてのフォントとボタンを一貫したサイズで表示し、125%の拡大率を備えた4Kディスプレイですべてが完全に管理されています。\
   この新しいバージョンでは、使用可能なインターフェイスを持つためにこのオプションは必要ないため、環境設定の「高DPIを無効にする」オプションが&#x200B;*False*&#x200B;にリセットされました。
 
-  ![](../../assets/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-11.gif){width="600px"}
 
 * **SteamバージョンのApple Siliconネイティブサポート(M1 / M2)**\
   Designerの12.2バージョンは、M1やM2チップを使った新しいAppleマシンを完全にサポートした最初のバージョンでしたが、このサポートはSteamエディションには存在しませんでした。 今後、Designerのすべてのユーザーは、これらのマシンでより高速かつ効率的なエクスペリエンスを利用できるようになります。

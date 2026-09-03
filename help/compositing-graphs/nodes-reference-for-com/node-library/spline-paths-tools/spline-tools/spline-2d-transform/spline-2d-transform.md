@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
 breadcrumb-title: ''
-description: '[スプライン2D変換]ノードを使用すると、移動、回転、およびスケーリング操作でスプラインを変換できます。'
+description: '[スプライン2D変形]ノードを使用すると、直線移動、回転、および尺度変更を行うスプラインを変形できます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline 2D Transform
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: スプライン2D変換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-2d-transform-icon.png "ノードアイコン")
+![ノードアイコン](spline-2d-transform.resources/spline-2d-transform-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -39,70 +39,42 @@ ht-degree: 0%
 </tr>
 </table>
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>プレビュー</b> *グレースケール*&#x200B;入力スプラインをグレースケールイメージとしてプレビューします。
+## 入力
 
-<b>スプライン座標</b> *色*&#x200B;入力スプラインの点の座標は、カラー画像のRGBAチャンネルでエンコードされています：\
-<b> R</b> - X位置\
-<b> G</b> - Y位置\
-<b> B</b> - Height\
-<b>A</b> – パックされたデータ：\
-*記号：スプラインが閉じている（負）か、開いている（正）;\
-*絶対値：Thickness + 1。
+|  |  |
+|:---|:---|
+| <b>プレビュー</b> <i>グレースケール</i> | 入力スプラインをグレースケールイメージとしてプレビューします。 |
+| <b>スプライン座標</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの点の座標：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> – 記号：スプラインが閉じている（負）か開いている（正）;<br>-絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データ。<br><b>R</b> -正接X<br><b>G</b> -正接Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 入力スプラインの数。 |
 
-<b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
-<b> R</b> – 接線X\
-<b> G</b> – 接線Y\
-<b> B</b> – 未使用\
-<b> A</b> – 未使用
+<a name="outputs"></a>
 
-<b>スプラインの量</b> *整数*&#x200B;入力スプラインの数です。
+## 出力
 
-## 出力コネクタ
+|  |  |
+|:---|:---|
+| <b>プレビュー</b> <i>グレースケール</i> | 出力スプラインをグレースケールイメージとしてプレビューします。 |
+| <b>スプライン座標</b> <i>色</i> | 出力スプラインの座標がカラー画像のRGBAチャンネルにエンコードされました。<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> – 記号：スプラインが閉じている（負）か開いている（正）;<br>-絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた出力スプラインの追加データ。<br><b>R</b> -正接X<br><b>G</b> -正接Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 出力スプラインの数。 |
 
-<b>プレビュー</b> *グレースケール*&#x200B;出力スプラインをグレースケールイメージとしてプレビューします。
-
-<b>スプライン座標</b> *色*&#x200B;出力スプラインの点の座標は、色画像のRGBAチャンネルでエンコードされます。\
-<b>R</b> - X位置\
-<b>G</b> - Y位置\
-<b>B</b> -Height\
-<b>A</b> – パックされたデータ：\
-*記号：スプラインが閉じている（負）か、開いている（正）;\
-*絶対値：Thickness + 1。
-
-<b>スプラインデータ</b> *カラー*&#x200B;カラー画像のRGBAチャンネルでエンコードされた出力スプラインの追加データ。\
-<b>R</b> – 接線X\
-<b>G</b> – 接線Y\
-<b>B</b> – 未使用\
-<b>A</b> – 未使用
-
-<b>スプラインの量</b> *整数*&#x200B;出力スプラインの数です。
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>方向を反転</b> *ブール値*&#x200B;スプラインの方向を反転します。
-
-<b>マトリックスの変形</b> *Float4*&#x200B;スプラインに適用される変換行列です。\
-行列パラメーターを編集するには、次の3つのモードを使用できます。\
-*– 変換ギズモ*:スプライン2D変換ノードが選択されている場合、2Dビューに表示されたギズモのハンドルを微調整します。\
-*– 回転/ストレッチ*:スプラインの回転とストレッチを個別に制御します。 値は常に現在の変換に対して相対的に適用されることに注意してください。 例えば、50%の幅を2回適用すると、25%の幅になります。\
-*– 行列の値*: [行列の値の編集]ボタンをクリックして、行列の生の数値を直接入力します。
-
-<b>オフセット</b> *Float2*&#x200B;位置オフセットをX （水平）およびY （垂直）方向のスプラインに適用します。
-
-+++プレビュー
-<b>方向ヘルパーの表示</b> *ブール値*&#x200B;プレビュー出力のスプラインの始点に点を表示し、終点に矢印を表示します。
-
-<b>Thicknessの封筒を表示</b> *ブール値*\
-スプラインのThicknessのエッジに追加の線分を表示します。
-
-<b>セグメント数</b> *整数*&#x200B;プレビュー出力でスプラインの視覚化を描画するために使用するセグメントの数を調整します。\
-値が大きいほど、線は滑らかになります。
-
-<b>Thickness (px)</b> *フロート*&#x200B;プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。
-
-+++
+|  |  |
+|:---|:---|
+| <b>方向を反転</b> <i>ブール値</i> | スプラインの方向を反転します。 |
+| <b>マトリックスの変形</b> <i>浮動小数点4</i> | スプラインに適用される変換行列。<br>マトリックスパラメーターを編集する3つのモードを使用できます。<br><br>- <i>変換ギズモ</i>:スプライン2D変形ノードが選択された場合に、2D ビューに表示されるギズモのハンドルを微調整します。<br>- <i>回転/伸縮</i>:スプラインの回転と伸縮を個別に制御します。 値は常に現在の変換に対して相対的に適用されることに注意してください。 例えば、50%の幅を2回適用すると、25%の幅になります。<br>- <i>行列の値</i>: 「行列の値を編集」ボタンをクリックして、行列の生の数値を直接入力します。 |
+| <b>オフセット</b> <i>浮動小数点2</i> | 位置オフセットをX（水平）およびY（垂直）のスプラインに適用します。 |
+| <b>プレビュー</b> |  |
+| <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
+| <b>Thicknessの封筒を表示</b> <i>ブール値</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
+| <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインのビジュアライゼーションを描画するために使用するセグメントの数を調整します。 値が大きいほど、線は滑らかになります。 |
+| <b>Thickness (px)</b> <i>フロート</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
 
 ## 例
 
@@ -113,11 +85,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-03.jpg" alt="Spline2DTransform-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -129,11 +101,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-04.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -147,7 +119,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/Spline2DTransform-Demo1.gif "ノードの例1")
+![ノードの例1](spline-2d-transform.resources/spline-2d-transform-05.gif "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">

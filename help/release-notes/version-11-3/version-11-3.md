@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Designerバージョン11.3のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,20 +28,20 @@ ht-degree: 1%
 
 ### 新しいモデルグラフ機能
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
 モデリング機能を拡張するために、モデルグラフに多くの改善が追加されました。
 
 * <b>新しいパーティクルワークフロー</b>\
   新しいパーティクルモデリングワークフローでは、ジオメトリを操作する点群を作成できます。 これらのツールを使用すると、上の画像の屋根タイルなど、複雑な形状や繰り返し使用する形状を多数作成できます。\
-  新しいパーティクルワークフローの詳細については、次のドキュメントページを参照してください。
+  新しいパーティクルワークフローについて詳しくは、次のドキュメントページを参照してください。
 
-  * シーン内のアイテムのタイプ
+  * シーン内のアイテムの種類
   * パーティクル
   * パーティクル排除
   * インスタンスからのパーティクル
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>新しいモデリングノードと変形ノード</b>\
   さらに新しいノードが追加され、より複雑なシェイプを作成できるようになりました。各ノードをクリックして、詳細を確認してください。
@@ -51,44 +51,44 @@ ht-degree: 1%
   * カーブトリム
 
 * <b>全般的な改善\
-  </b>モデリンググラフのワークフローが次のように改善されました。
+  </b>モデリンググラフに関するワークフローが次のように改善されました：
   * ノードパラメータに関する新しいツールチップが追加され、学習しやすくなりました。
-  * FBXでの書き出し時に3Dモデルの階層が保持されるようになりました
+  * FBXでの書き出し時に3Dモデルの階層構造が保持されるようになりました
   * マテリアルの割り当ては、OBJおよびFBXファイル形式で書き出すことができます。
-  * オーバーレイモードでビューポートの中間ノードをプレビューします。
+  * ビューポートの中間ノードをオーバーレイモードでプレビューします。
 
 ### 相互運用性の向上
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 送信操作が拡張され、次の2つの新しい方法が追加されました。
 
 * **SBSM （Substanceモデルファイル）をStagerに送信**\
-  手続き型3DモデルをStagerに送信し、公開されたパラメーターを使用してそこから変更できるようになりました。
+  プロシージャル3DモデルをStagerに送信し、そこから表示されるパラメーターを使用して変更できるようになりました。
 
-* **SamplerからSBS/SBSARを受信**\
+* **SamplerからSBS/SBSARを受け取る**\
   Samplerで生成されたSubstanceファイルを直接Designerで受け取ることができるようになりました。
 
 ### その他
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 生活の質は様々に改善されています。
 
 * **入力に対する相対入力**\
   「入力を基準」で設定したグラフ入力は、デフォルトでは親グラフのサイズではなく、コネクトされたノードのサイズを継承するようになりました。 これにより、サイズの異なる入力を使用して異なる解像度を管理することが非常に簡単になります。
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **新しいグラフウィンドウ**\
   新しいグラフウィンドウが修正され、特定のテンプレートの詳細を確認しやすくなり、既存のパッケージに新しいグラフを直接作成できるようになりました。
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **すべてのパッケージを閉じる**\
   エクスプローラで多くのパッケージを管理する手間を軽減する小さなアクション。 **ファイル** > **すべて閉じる**&#x200B;を使用して、現在開いているすべてのパッケージを閉じます。
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **現在のビューを最大化**\
   新しいタイトルバー&#x200B;**アイコン**&#x200B;またはショートカット&#x200B;**SHIFT +スペース**&#x200B;を使用して、ウィンドウを全画面に展開します。 これはフローティングウィンドウでも使用できます。
@@ -98,16 +98,16 @@ ht-degree: 1%
 
 ### コンテンツ
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 このリリースでは、新しいディフュージョンノードが追加され、PBR レンダリングノードが改善されました。
 
 * <b>拡散ノード</b>\
   新しいDiffusion Color、Diffusion Grayscale、Diffusion UVノードを使用すると、入力マスクに基づいてソフトにじみブラーを生成できます。
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **改善されたPBR レンダリングノード**\
   このノードには次の変更があります。
@@ -130,18 +130,18 @@ ht-degree: 1%
 * [Substanceモデル]基準の表示方法を改善する
 * [Substanceモデル] Substanceモデルグラフを.fbxに書き出すときにオブジェクトの階層を保持する
 * [Substanceモデル] SubstanceモデルグラフからFBX/OBJ書き出しで複数のマテリアルをサポート
-* [Substanceモデル]&#x200B;[コンテンツ]パーティクルノード
-* [Substanceモデル]&#x200B;[コンテンツ] Generative Transformノード
-* [Substanceモデル]&#x200B;[コンテンツ]有機パターンノード
-* [Substanceモデル]&#x200B;[コンテンツ] [インスタンスノードからのパーティクル]
-* [Substanceモデル]&#x200B;[コンテンツ]パーティクルプルーニングノード
-* [Substanceモデル]&#x200B;[コンテンツ]旋盤ノード
-* [Substanceモデル]&#x200B;[コンテンツ]シェルノード
-* [Substanceモデル]&#x200B;[コンテンツ] [プロジェクション]ノード
-* [Substanceモデル]&#x200B;[コンテンツ] Curve Trim node
-* [Substanceモデル]&#x200B;[コンテンツ]カーブのSamplerノードを更新
-* [Substanceモデル]&#x200B;[コンテンツ]メッシュSamplerノードを更新
-* [Substanceモデル]&#x200B;[コンテンツ]ジッタノードを更新
+* [Substanceモデル][コンテンツ]パーティクルノード
+* [Substanceモデル][コンテンツ] Generative Transformノード
+* [Substanceモデル][コンテンツ]有機パターンノード
+* [Substanceモデル][コンテンツ] [インスタンスノードからのパーティクル]
+* [Substanceモデル][コンテンツ]パーティクルプルーニングノード
+* [Substanceモデル][コンテンツ]旋盤ノード
+* [Substanceモデル][コンテンツ]シェルノード
+* [Substanceモデル][コンテンツ] [プロジェクション]ノード
+* [Substanceモデル][コンテンツ] Curve Trim node
+* [Substanceモデル][コンテンツ]カーブのSamplerノードを更新
+* [Substanceモデル][コンテンツ]メッシュSamplerノードを更新
+* [Substanceモデル][コンテンツ]ジッタノードを更新
 * [UX]現在のビューを最大化するボタン
 * [UX]新規グラフウィンドウを更新する
 * [UX]ツールメニューに「プレーヤーのダウンロード」オプションを追加し、「プレーヤーの検索」で集計する
@@ -179,7 +179,7 @@ ht-degree: 1%
 * [UI]値を移動するにはTabキーを2回押す必要がある
 * [UI]マウスのドラッグによるズームが3Dビューと他のビューポートの間で反転する
 * [UI] 「最近使用したファイル」リストを使用して既に開いているSBSを読み込むと、「パッケージが見つかりません」というプロンプトが誤って表示される
-* [UI]&#x200B;[macOS]アプリケーション起動後のデフォルトのインターフェイスレイアウトが正しくない
+* [UI][macOS]アプリケーション起動後のデフォルトのインターフェイスレイアウトが正しくない
 * [UI]パッケージをドライブのルートに保存できない（Windowsのみ）
 * [グラフ] 「2Dビューで自動的に表示」オプションが、特定のケースで一貫しない
 * [グラフ] 「参照を開く」オプションは、SBSARインスタンスノードで使用できます

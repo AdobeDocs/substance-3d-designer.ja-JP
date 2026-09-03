@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
 breadcrumb-title: ''
 description: '[PBR レンダリングマッピング]ノードを使用して、マテリアル出力を異なるPBR レンダリングマッピング形式に変換します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR レンダリングマッピング
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '187'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-01.png)![](pbr-render-mapping.resources/pbr-render-mapping-02.png)
 
-## PBR レンダリングマッピング（カラー/グレースケール）
-
-**場所：** *マテリアルフィルター/PBRユーティリティ*
-
-**単純**
+<b>イン：</b> マテリアルフィルター > PBRユーティリティ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,24 +37,38 @@ ht-degree: 1%
 
 拡散反射光マップには色を、粗さ、金属、およびその他のグレースケールマップにはグレースケールを使用という、2種類のデータに対してカラーとグレースケールのバージョンがあります。
 
-### 入力
+</td>
+</tr>
+</table>
 
-* **テクスチャ**: *カラー/グレースケール入力*\
-  シェイプにマッピングするテクスチャ。
-* **UV**: *色入力*[データノードからの必須のUV PBR レンダリング入力。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>テクスチャ</b> <i>カラー/グレースケール入力</i> | シェイプにマッピングするテクスチャ。 |
+| <b>UV</b> <i>カラー入力</i> | [UVノードからの必須のPBR レンダリングデータ入力。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-* **背景色**: *（カラー値）*背景で使用する単色の値を設定します。
+|  |  |
+|:---|:---|
+| <b>背景色</b> <i>（カラー値）</i> | 背景に使用する単色の値を設定します。 |
 
-## サンプル画像
+## 例
 
 例は、[線形グラデーション](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md)の[ヒストグラム選択](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md)をマスクとして使用した、4つの異なるPBR レンダリングマッピングノードの合成です。
 
-![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
-
-![](../../../../../../assets/pbr-render-mapping-ex-2.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-04.png" />
+        </td>
+    </tr>
 </table>

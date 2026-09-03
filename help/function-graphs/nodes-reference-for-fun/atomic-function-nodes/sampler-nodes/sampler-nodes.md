@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer機能グラフのサンプラーノードにアクセスして、テクスチャをサンプリングし、カラー値を抽出します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: サンプラ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Samplerノード
 
-![Samplerノード](../../../../assets/image2016-1-12-14-45-43.png "Samplerノード")
+![Samplerノード](sampler-nodes.resources/sampler-nodes-01.png "Samplerノード")
 
 これらのノードは、指定された2D座標で入力イメージの値をサンプリングします。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ピクセル座標](../../../../assets/samplercoords.png "ピクセル座標")
+![ピクセル座標](sampler-nodes.resources/sampler-nodes-02.png "ピクセル座標")
 
 </td>
 </tr>

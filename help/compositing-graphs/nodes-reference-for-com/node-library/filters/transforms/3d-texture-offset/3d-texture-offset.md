@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: 3Dテクスチャのオフセットノードを使用すると、3D空間でテクスチャをオフセットして、パララックスエフェクトやサーフェスのバリエーションを作成できます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3Dテクスチャオフセット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
@@ -22,29 +22,27 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-02.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**場所：** *フィルター/変換*
-
-**単純**
+<b>イン：</b>フィルター/変換
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -54,32 +52,31 @@ ht-degree: 3%
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>入力</b> <i>グレースケール/カラー</i> | 3Dオブジェクトを表す<i>3Dテクスチャ</i>。<br>オブジェクトは通常、<i>単位キューブ</i>で記述されます。 |
+
+<a name="parameters"></a>
+
 ## パラメーター
 
-### 入力
+|  |  |
+|:---|:---|
+| <b>オフセット</b> <i>浮動小数点3</i> | <b>入力</b>に接続された<i>3Dテクスチャ</i>によって記述されたオブジェクトに適用された<i>ワールド空間</i>のオフセットの量です。 |
 
-* **入力** *グレースケール/カラー*\
-  3Dオブジェクトを表す&#x200B;*3Dテクスチャ*。\
-  オブジェクトは通常、*単位キューブ*&#x200B;で記述されます。
+## 例
 
-### パラメーター
-
-* **オフセット** *浮動小数点3*\
-  **入力**&#x200B;に接続された&#x200B;*3Dテクスチャ*&#x200B;によって記述されたオブジェクトに適用された&#x200B;*ワールド空間*&#x200B;のオフセットの量です。
-
-## サンプル画像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureoffset-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureoffset-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-offset.resources/3d-texture-offset-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-offset.resources/3d-texture-offset-04.png" />
+        </td>
+    </tr>
 </table>

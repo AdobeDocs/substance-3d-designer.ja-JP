@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SubstanceグラフとMDL資料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Substanceグラフで<b>[3Dビューで出力を表示]</b>オプションを使
 
 Substanceグラフの個々のテクスチャは、IDにかかわらず、SubstanceグラフノードでRMBを押して3Dビューにドラッグすることで、テクスチャサンプリングをサポートする任意のMDLマテリアルパラメータにコネクトすることができます。 使用可能なサンプラーの使用法のリストが表示され、選択したテクスチャのターゲット使用法を選択できます。
 
-![公開されたMDLグラフ入力](../../assets/mdl-graph-inputs-samplers.png "公開されたMDLグラフ入力")
+![公開されたMDLグラフ入力](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "公開されたMDLグラフ入力")
 
 *Substanceグラフによって出力されたテクスチャは、3DビューでMDLグラフの公開パラメーターに接続されています*
 
@@ -48,20 +48,20 @@ Substanceグラフの個々のテクスチャは、IDにかかわらず、Substa
 Substanceグラフのインスタンスを<b>エクスプローラー</b>パネルからMDLグラフにドラッグすると、MDLグラフに直接配置できます。 <b>Substance 3Dファイル</b> (SBS)と<b>Substance 3Dアセットファイル</b> (SBSAR)の両方のSubstanceグラフをMDLグラフで使用できます。
 
 +++Substance 3Dファイル(SBS)からのSubstanceグラフ
-![MDLグラフのSBSファイルのSubstanceグラフ](../../assets/mdl-sbs-instance-hl.png "MDLグラフのSBSファイルのSubstanceグラフ")
+![MDLグラフのSBSファイルのSubstanceグラフ](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "MDLグラフのSBSファイルのSubstanceグラフ")
 
 
 
-MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview.md) (SBS)の*[&#x200B; Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)インスタンス
+MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview.md) (SBS)の*[ Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)インスタンス
 
 +++
 
 +++Substance 3Dアセット(SBSAR)のSubstanceグラフ
-![MDLグラフのSBSARファイルのSubstanceグラフ](../../assets/mdl-sbsar-instance-hl.png "MDLグラフのSBSARファイルのSubstanceグラフ")
+![MDLグラフのSBSARファイルのSubstanceグラフ](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "MDLグラフのSBSARファイルのSubstanceグラフ")
 
 
 
-*[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)MDLグラフの[Substance 3Dアセット](../../getting-started/overview/overview.md) (SBSAR)のインスタンス*
+*[MDLグラフの[Substance 3Dアセット](../../getting-started/overview/overview.md) (SBSAR)の](../../compositing-graphs/substance-compositing-graphs.md)インスタンス*
 
 +++
 

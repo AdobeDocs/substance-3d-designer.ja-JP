@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: ポスタリゼーションエフェクトのグレースケールレベルの数を減らすには、クオンタイズグレースケールノードを使用します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: グレースケールの量子化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グレースケールのクオンタイズアイコン](../../../../../../assets/quantize-grayscale.png "グレースケールのクオンタイズアイコン"){width="200px"}
+![グレースケールのクオンタイズアイコン](quantize-grayscale.resources/quantize-grayscale-01.png "グレースケールのクオンタイズアイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -39,21 +39,19 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-<b>手順</b> *整数*&#x200B;入力範囲を近似する個別の値の数です。
-
-<b>オフセット</b> *浮動小数点*&#x200B;入力範囲にオフセットを適用します。このオフセットは、範囲に沿って結果を&#x200B;*移動*&#x200B;します。
-
-<b>勾配</b> *浮動小数点*&#x200B;勾配のグラデーションを、ステップの&#x200B;*フルスパン*&#x200B;までの、近似値の間の&#x200B;*トランジション*&#x200B;に適用します。
-
-<b>勾配曲線</b> *整数*<b>勾配</b>パラメーターで設定された勾配のカーブの取得方法を設定します：
-* *直線*：直線の曲線を適用し、直線の勾配を作成します
-* *スムーズ化*:スムーズ化された曲線を適用し、勾配を滑らかにします
-* *曲線入力*: <b>曲線入力</b>入力マップで記述された曲線を適用します。 [曲線](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)ノードを使用すると、この曲線を詳細に表現できます。
+|  |  |
+|:---|:---|
+| <b>手順</b> *整数* | 入力範囲を近似する個別の値の数です。 |
+| <b>オフセット</b> *フロート* | 入力範囲にオフセットを適用します。このオフセットは、範囲に沿って結果を&#x200B;*シフト*&#x200B;します。 |
+| <b>勾配</b> *フロート* | ステップの&#x200B;*フルスパン*&#x200B;までの近似値の間の&#x200B;*トランジション*&#x200B;に勾配グラデーションを適用します。 |
+| <b>勾配曲線</b> *整数* | <b>勾配</b>パラメーターで設定された勾配のカーブの取得方法を設定します：<ul data-preserve-html="true"> <li data-preserve-html="true">*直線*：直線の曲線を適用し、直線の勾配を作成します</li> <li data-preserve-html="true">*スムーズ化*:スムーズ化された曲線を適用し、勾配を滑らかにします</li> <li data-preserve-html="true">*曲線入力*: <b>曲線入力</b>入力マップで記述された曲線を適用します。 [曲線](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)ノードを使用すると、この曲線を詳細に表現できます。</li> </ul> |
 
 ## 例
 
-![例1](../../../../../../assets/quantizegrayscale.gif "例1")
+![例1](quantize-grayscale.resources/quantize-grayscale-02.gif "例1")
 
-![例2](../../../../../../assets/quantizegrayscale.png "例2")
+![例2](quantize-grayscale.resources/quantize-grayscale-03.png "例2")

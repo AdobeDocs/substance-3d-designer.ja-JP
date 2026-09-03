@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
 description: UVマッパーの色ノードを使用して、プロシージャテクスチャ生成用のカラーテクスチャをスプラインに沿ってマップします。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: UVマッパーカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/uv-mapper-color-icon.png "ノードアイコン")
+![ノードアイコン](uv-mapper-color.resources/uv-mapper-color-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -47,20 +43,30 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 >
 > [UVマッパーグレースケール](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)も参照。
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>UV</b> *カラー*&#x200B;カラー画像の赤(U)チャンネルと緑(V)チャンネルでエンコードされた画像座標。
+## 入力
 
-<b>入力</b> *カラー* UV入力で指定された座標にマップする必要があるカラー画像です。
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>色</i> | カラー画像の赤(U)チャンネルと緑(V)チャンネルでエンコードされた画像座標。 |
+| <b>入力</b> <i>色</i> | UV入力で指定された座標にマップする必要があるカラー画像。 |
 
-## 出力コネクタ
+<a name="outputs"></a>
 
-<b>出力</b> *カラー*&#x200B;入力UV座標を使用して入力イメージをカラー画像としてマッピングした結果。
+## 出力
+
+|  |  |
+|:---|:---|
+| <b>出力</b> <i>色</i> | 入力UV座標を使用して入力画像をカラー画像としてマッピングした結果。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>背景色</b> *Float4*&#x200B;出力画像の背景色です。\
-背景は、UVが定義されていない画像領域に表示されます(つまり、値は(0, 0, 0, 0)です)。
+|  |  |
+|:---|:---|
+| <b>背景色</b> <i>浮動小数点4</i> | 出力画像の背景色です。<br>背景は、UVが定義されていない画像の領域で表示されます(つまり、値は(0, 0, 0, 0)です)。 |
 
 ## 例
 
@@ -71,11 +77,11 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -87,11 +93,11 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -101,18 +107,4 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 </tr>
 </table>
 
-![グラフのノード](../../../../../../assets/UVMapperColor-Graph.jpg "グラフのノード")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![グラフのノード](uv-mapper-color.resources/uv-mapper-color-06.jpg "グラフのノード")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: 3Dテクスチャボリュームレンダーノードを使用して、3Dデータからボリュームテクスチャをレンダーし、雲やフォグのエフェクトを作成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3Dテクスチャボリュームレンダリング
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
-**イン：** *フィルター/効果*
-
-**単純**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -48,108 +46,63 @@ ht-degree: 0%
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>3D 符号付き距離場</b> <i>グレースケール</i> | 図形の<i>符号付き距離フィールド</i>の256 <i>スライス</i>を表す4096 x 4096の画像は、16 x 16グリッドに配置されました。<br>[3D テクスチャ SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)ノードを使用して、256スライスの3D テクスチャの符号付き距離フィールドを計算できます。 |
+| <b>密度</b> <i>グレースケール</i> | 図形の<i>密度</i>の256 <i>スライス</i>を表す4096 x 4096の画像は、16 x 16グリッドに配置されています。 Densityは、グレースケールの値を0 （完全に透明） ～ 1 （完全に不透明）の範囲でマップされます。<br>必要に応じて、[3Dボリュームマスク](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md)または3D ノイズノード（[3Dパーリンノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)、[3Dボロノイ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md)、[3Dリッジノイズフラクタル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md)など）を[3D テクスチャ位置](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)ノードと組み合わせて、256スライスの3D テクスチャとしてボリュームマスクを生成します。 |
+
+<a name="parameters"></a>
+
 ## パラメーター
 
-### 入力
+|  |  |
+|:---|:---|
+| <b>出力解像度</b> <i>整数2</i> | <b>X</b>と<b>Y</b>の出力画像の解像度です。<i>2</i>の累乗で表されます。 |
+| <b>カメラの位置</b> <i>浮動小数点2</i> | シェイプの周囲のカメラの位置。<br>ノードを選択した場合は、<b>2D ビュー</b>のポジションギズモを使用して、カメラを<i>軌道</i>できます。 |
+| <b>明るい位置</b> <i>浮動小数2</i> | 図形の周囲の<i>指向性ライト</i>の位置です。<br>節点を選択すると、光源の<b>2D ビュー</b>にある位置ギズモを使用して<i>軌道</i>できます。 |
+| <b>カメラの距離</b> <i>浮動小数</i> | カメラからシェイプまでの距離です。 |
+| <b>カメラの視野</b> <i>浮動小数</i> | <i>度</i>のカメラの視野です。 |
+| <b>吸収</b> <i>フロート</i> | ボリュームの<i>を通過</i>する際に吸収される光の量を調整します。 |
+| <b>ぼかし</b> <i>フロート</i> | <b>Density</b>入力で指定された値と<i>inner</i>距離フィールド値を乗算します。<br>これにより、ボリュームの外側の境界から内側に<i>フェードグラデーション</i>の幅が効果的に調整されます。 |
+| <b>明るいカラーモード</b> <i>整数</i> | 次の指向性ライトの色を取得する方法を設定します。<br>- <i>RGB（ケルビン）</i>：色はライトの温度から得られ、<i>低い</i>値では<i>暖色</i>の色<br>- <i>RGBの色</i>：温度の値を使用して色を定義します |
+| <b>光温度（ケルビン）</b> <i>フロート</i> | 指向性ライトの温度。これは<i>色</i>に影響します。 <i>低い</i>値を指定すると、<i>暖色</i>の色になります。<br>有用な値：<br>1800 K – キャンドルライト<br>2800 K – 白熱球<br>5500 K – 自然光<br>6200 K – 自然白<br>7000 K – 曇り空<br><i>注意</i>：このパラメーターは、<b>ライトカラーモード</b>パラメーターが<i>温度（ケルビン）</i>に設定されている場合にのみ使用できます。 |
+| <b>明るい色</b> <i>浮動小数3</i> | 指向性ライトの色です。<br><i>注意</i>：このパラメーターは、<b>ライトカラーモード</b>パラメーターが<i>RGBカラー</i>に設定されている場合にのみ使用できます。 |
+| <b>光の強さ</b> <i>浮動小数</i> | 指向性ライトの強度。 |
+| <b>周囲光の色</b> <i>浮動小数3</i> | 環境光の色。 |
+| <b>周辺光度</b> <i>浮動小数</i> | 環境光の強度。 |
+| <b>アルベド</b> <i>浮動小数3</i> | ボリュームのアルベドカラー。 |
+| <b>背景モード</b> <i>整数</i> | <b>背景色</b>:<br>- <i>影付き</i>に基づいて、レンダリングされたシーンの背景をシェーディングする方式：色は指向性ライトの<i>色</i>および<i>強度</i><br>- <i>一定の色</i>の影響を受けます：色は、指向性ライトの<i>に関係なく</i>均一に適用されます |
+| <b>背景色</b> <i>浮動小数4</i> | レンダリングされたシーンの背景を塗りつぶすために使用される色です。 |
+| <b>ディザリング</b> <i>浮動小数</i> | シェーディングを滑らかにするために使用する<i>ブルーのノイズディザリング</i>の適用度を調整します。 |
+| <b>グリッドを有効にする</b> <i>ブーリアン</i> | <i>真</i>の場合、<i>無限</i>のグリッドをレンダリングします。 図形を囲む<i>単位立方体</i>はこの平面上にあります。 |
+| <b>無限平面</b> <i>ブール値</i> | グリッドを<i>無限に</i>延長して地平線に向かうように設定します。<br><i>注意</i>：このパラメーターは、<b>グリッドを有効にする</b>パラメーターが<i>真</i>に設定されている場合にのみ使用できます。 |
+| <b>グリッドサイズ</b> <i>浮動小数点2</i> | グリッドのサイズを調整します。<br><i>注意</i>：このパラメーターは、<b>グリッドを有効にする</b>パラメーターが<i>True</i>に設定され、<b>無限平面</b>パラメーターが<i>False</i>に設定されている場合にのみ使用できます。 |
 
-* **3D 符号付き距離場** *グレースケール*\
-  図形の&#x200B;*符号付き距離フィールド*&#x200B;の256 *スライス*&#x200B;を表す4096 x 4096の画像は、16 x 16グリッドに配置されました。\
-  [3DテクスチャSDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)ノードを使用して、256スライスの3Dテクスチャの署名付き距離フィールドを計算できます。
-* **密度** *グレースケール*\
-  図形の&#x200B;*密度*&#x200B;の256 *スライス*&#x200B;を表す4096 x 4096の画像は、16 x 16グリッドに配置されています。 密度は、0（完全に透明）から1（完全に不透明）のグレースケール値を使用してマップされます。\
-  [3Dボリュームマスク](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md)または3Dノイズノード（[3Dパーリンノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)、[3Dボロノイ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md)、[3Dリッジノイズフラクタル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md)など）を、[3Dテクスチャ位置](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)ノードと組み合わせて、256スライスの3Dテクスチャとしてボリュームマスクを生成できます。
+## 例
 
-### パラメーター
-
-* **出力解像度** *整数2*\
-  **X**&#x200B;と&#x200B;**Y**&#x200B;の出力画像の解像度です。*2*&#x200B;の累乗で表されます。
-* **カメラ位置** *フロート2*\
-  シェイプの周囲のカメラの位置。\
-  ノードが選択されている場合は、**2Dビュー**&#x200B;の位置ギズモを使用して、カメラを&#x200B;*軌道*&#x200B;できます。
-* **明るい位置** *浮動小数点2*\
-  図形の周囲の&#x200B;*指向性ライト*&#x200B;の位置です。\
-  ノードを選択した場合は、**2Dビュー**&#x200B;の位置ギズモを使用して、光源を&#x200B;*軌道*&#x200B;できます。
-* **カメラの距離** *浮動小数点*\
-  カメラからシェイプまでの距離です。
-* **カメラの視野** *浮動小数点*\
-  カメラの視野（*度*）。
-* **吸収** *浮動小数点*\
-  ボリュームの&#x200B;*を通過*&#x200B;する際に吸収される光の量を調整します。
-* **ぼかし** *浮動小数点*\
-  **Density**&#x200B;入力で指定された値と&#x200B;*inner*&#x200B;距離フィールド値を乗算します。\
-  これにより、ボリュームの外側の境界から内側に&#x200B;*フェードするグラデーション*&#x200B;の幅が効果的に調整されます。
-* **明るいカラーモード** *整数*\
-  ディレクショナルライトのカラーの取得方法を設定します。
-  * *温度（ケルビン）*：色は光温度から得られます。*低い*&#x200B;値では&#x200B;*暖色*&#x200B;になります
-  * *RGBの色*: RGB値を使用して色を定義します
-* **光温度（ケルビン）** *浮動小数点*\
-  指向性ライトの温度。これは&#x200B;*色*&#x200B;に影響します。 *低い*&#x200B;値を指定すると、*暖色*&#x200B;の色になります。\
-  有用な値：\
-  1800 K – キャンドルライト\
-  2800 K – 白熱球\
-  5500 K – 昼光\
-  6200 K – ナチュラルホワイト\
-  7000 K – 曇天\
-  *注意*：このパラメーターは、**Light Color Mode**&#x200B;パラメーターが&#x200B;*Temperature (Kelvin)*&#x200B;に設定されている場合にのみ使用できます。
-* **明るいカラー** *浮動小数点3*\
-  指向性ライトのカラー。\
-  *注意*：このパラメーターは、**明るい色モード**&#x200B;パラメーターが&#x200B;*RGB色*&#x200B;に設定されている場合にのみ使用できます。
-* **照度** *浮動小数点*\
-  指向性ライトの強度。
-* **周囲光カラー** *浮動小数点3*\
-  環境光の色。
-* **環境強度** *浮動小数点*\
-  環境光の強度。
-* **アルベド** *浮動小数点3*\
-  ボリュームのアルベドカラー。
-* **背景モード** *整数*\
-  **背景色**&#x200B;に基づいて、レンダリングされたシーンの背景にシェーディングを付ける方法：
-  * *影*：色は、指向性ライトの&#x200B;*色*&#x200B;および&#x200B;*強度*- *一定の色*&#x200B;の影響を受けます。色は、指向性ライトの&#x200B;*に関係なく*&#x200B;均一に適用されます
-* **背景色** *浮動小数点4*\
-  レンダリングされたシーンの背景を塗りつぶすために使用される色。
-* **ディザ処理** *浮動小数点*\
-  シェーディングを滑らかにするために使用する&#x200B;*ブルーのノイズディザリング*&#x200B;の強さを調整します。
-* **グリッドを有効にする** *ブール値*\
-  *真*&#x200B;の場合、*無限*&#x200B;のグリッドをレンダリングします。 図形を囲む&#x200B;*単位立方体*&#x200B;はこの平面上にあります。
-* **無限平面** *ブール値*\
-  グリッドを&#x200B;*無限に*&#x200B;延長するように設定します。\
-  *注意*：このパラメーターは、**グリッドを有効にする**&#x200B;パラメーターが&#x200B;*True*&#x200B;に設定されている場合にのみ使用できます。
-* **グリッドのサイズ** *フロート2*&#x200B;グリッドのサイズを調整します。\
-  *注意*：このパラメーターは、**グリッドを有効にする**&#x200B;パラメーターが&#x200B;*True*&#x200B;に設定され、**Infinite Plane**&#x200B;パラメーターが&#x200B;*False*&#x200B;に設定されている場合にのみ使用できます。
-
-## サンプル画像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturevolumerender-node.png){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
+        </td>
+    </tr>
 </table>

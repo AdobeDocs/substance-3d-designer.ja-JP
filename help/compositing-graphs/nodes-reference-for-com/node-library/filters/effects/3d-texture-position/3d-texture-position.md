@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
-description: 3Dテクスチャ位置ノードを使用して、空間効果やマッピングを作成するために3Dテクスチャから位置情報を抽出します。
+description: 3D テクスチャの位置ノードを使用して、空間効果やマッピングを作成するために、3D テクスチャから位置情報を抽出します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3Dテクスチャ位置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
@@ -22,44 +22,34 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
 
-**イン：** *フィルター/効果*
-
-**単純**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-**3Dテクスチャ位置**&#x200B;ノードは、単位立方体の&#x200B;*位置スライス*&#x200B;を生成します。
+**3D テクスチャ位置**&#x200B;ノードは、単位立方体の&#x200B;*位置スライス*&#x200B;を生成します。
 
-これは、3Dノイズをベイク処理したり、*3Dテクスチャアトラス*&#x200B;として機能したりするために使用できます。
+これは、3D ノイズのベイクに使用したり、*3D テクスチャアトラス*&#x200B;として機能したりできます。
 
 </td>
 </tr>
 </table>
 
-## パラメーター
+## 例
 
-パラメーターがありません。
-
-## サンプル画像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
+        </td>
+    </tr>
 </table>

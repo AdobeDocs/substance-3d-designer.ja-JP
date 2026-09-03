@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: RT放射ノードを使用して、ジオメトリからリアルタイムの放射照度情報を計算し、リアルなライティングを計算します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: RT放射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
 
-**場所：** *フィルター/効果*
-
-**複合**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,37 +39,44 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>グレースケール入力</i> | Heightは、マテリアルスロットからの唯一の必須入力です。 これがないと、ノードが正常に機能しません。 |
+| <b>放射体</b> <i>カラー入力</i> | Emissiveは、純粋な黒は光を放たず、その他の色の値は光を放つフォーマットにする必要があります。 Alphaは無視されます。 結果を確認するには、このスロットへの接続または環境スロットが必要です。 |
+| <b>環境</b> <i>カラー入力</i> | 放射を計算するためのHDRライティング環境。 結果を確認するには、このスロットへの接続またはEmissiveスロットが必要です。 |
+
+<a name="parameters"></a>
+
 ## パラメーター
 
-### 入力
+|  |  |
+|:---|:---|
+| <b>Heightスケール</b> <i>0.0 - 1.0</i> | Heightを変換するスケール。 シーン全体の外観に影響します。 |
+| <b>クォリティ</b> <i>32光線、64光線、128光線</i> | 結果の品質を決定しますが、パフォーマンスにも影響します。 光線が少ないほど、ノイズが多くなります。 |
+| <b>バウンスの計算</b> <i>False/True</i> | バウンスの計算を切り替えます。 品質と速度に影響します。 |
+| <b>環境のローテーション</b> <i>0.0 - 1.0</i> | 環境を回転させます。 |
+| <b>環境露出(EV)</b> <i>-4.0 - 4.0</i> | 環境に使用する露光量の値は、エフェクトの合計輝度に影響します。 |
+| <b>放射強度</b> <i>0.0 - 20.0</i> | 放射入力の乗数。放射光からの放射光の強度に影響します。 |
+| <b>Emissiveカラースペース</b> <i>sRGB、リニア</i> | Enissive入力の解釈に使用されるカラースペース。 |
+| <b>未処理の放射照度AlphaのIBLシャドウ</b> <i>False/True</i> | ぼかしを切り替えて、 |
+| <b>Emissive LOD バイアス</b> <i>-1.0 - 1.0</i> | emissive放射の精度を調整します。 値が小さいほど、ノイズが多くなります。 |
 
-* **Height:** *グレースケール入力* Heightは、マテリアルスロットからの必要な入力です。 これがないと、ノードが正常に機能しません。
-* **放射性：** *カラー入力*&#x200B;放射性は、純粋な黒は光を放たず、その他のカラー値は光を放つ形式にする必要があります。 Alphaは無視されます。 結果を確認するには、このスロットへの接続または環境スロットが必要です。
-* **環境**: *カラー入力*\
-  放射を計算するためのHDRライティング環境。 結果を確認するには、このスロットへの接続またはEmissiveスロットが必要です。
+## 例
 
-### パラメーター
-
-* **Heightスケール**: *0.0 ～ 1.0*\
-  Heightを変換するスケール。 シーン全体の外観に影響します。
-* **画質**: *32光線、64光線、128光線*\
-  結果の品質を決定しますが、パフォーマンスにも影響します。 光線が少ないほど、ノイズが多くなります。
-* **バウンスの計算**: *False/True*\
-  バウンスの計算を切り替えます。 品質と速度に影響します。
-* **環境回転**: *0.0 ～ 1.0*\
-  環境を回転させます。
-* **環境露出(EV)**: *-4.0 - 4.0*\
-  環境に使用する露光量の値は、エフェクトの合計輝度に影響します。
-* **放射強度**: *0.0 ～ 20.0*\
-  放射入力の乗数。放射光からの放射光の強度に影響します。
-* **放射型カラースペース**: *sRGB、リニア*\
-  Enissive入力の解釈に使用されるカラースペース。
-* **Raw照射AlphaのIBLシャドウ**: *False/True*\
-  ぼかしを切り替えて、
-* **放射型LODバイアス**: *-1.0 - 1.0*&#x200B;放射放射照度の品質を調整します。 値が小さいほど、ノイズが多くなります。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-irr-03-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/rt-irr-01-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/rt-irr-02-1.jpg" width="300px"/></div> |
-| --- | --- | --- |
-|  |  |  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
+        </td>
+    </tr>
+</table>

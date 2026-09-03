@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
 breadcrumb-title: ''
 description: 表示および出力ワークフローでテクスチャをリニアからsRGBカラースペースに変換するには、 sRGBに変換ノードを使用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: sRGBに変換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 3%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/convert-to-srgb-grayscale.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb-01.png){width="128px"}
 
-![](../../../../../../assets/convert-to-srgb.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb-02.png){width="128px"}
 
-## sRGB（グレースケール）に変換
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 リニア入力をsRGBカラースペースに変換します。 例えば、フォトリファレンス素材を使用して作業や変換を行う場合に便利です。
-
-## パラメーター
-
-*パラメーターがありません。*
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
 
 </td>
 </tr>

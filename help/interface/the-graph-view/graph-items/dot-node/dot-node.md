@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのドットノードとポータルノードを使用して、コネクションポイントを作成し、グラフフローを整理します。
+description: Substance 3D Designerのドットノードとポータルノードを使用して、接続ポイントを作成し、グラフフローを整理します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ドットノード（ポータルも含む）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,12 +24,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ドットノードアイコン](../../../../assets/graphatomic-dot_1.png "ドットノードアイコン")
+![ドットノードアイコン](dot-node.resources/dot-node-01.png "ドットノードアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>ドット</b>ノードは、接続を再ルーティングおよびグループ化することでグラフを簡素化およびクリーンアップできるヘルパーです。 このオプションは、他のコネクションやノード上で多数の長いコネクションが実行されているグラフで特に便利です。
+<b>ドット</b>ノードは、接続の再ルーティングとグループ化によってグラフを簡素化およびクリーンアップできるヘルパーです。 この機能は、他のコネクションやノード上に長いコネクションが多数存在するグラフで特に便利です。
 
 ドットノードのペアを<b>ポータル</b>として使用して、長距離を経由する接続を非表示にしたり、接続のルーティングが困難な場所で使用したりできます。
 
@@ -44,18 +44,18 @@ ht-degree: 0%
 +++リンク上に挿入
 <b>Alt</b>キーを押しながら接続をポイントすると、ドットノードのプレビューが表示されます。次に、[LMB]をクリックすると、その場所の接続にドットノードが追加されます。
 
-![ドットノードを挿入しています](../../../../assets/dot-node-insert-optim.gif "ドットノードを挿入しています"){width="512px"}
+![ドットノードを挿入しています](dot-node.resources/dot-node-02.gif "ドットノードを挿入しています"){width="512px"}
 
 
 
 +++
 
-+++ノードコネクタ
-<b>Alt</b>キーを押しながら、ノードコネクタから新しい接続をドラッグして、その場所にドットノードを挿入します。
++++節点コネクター
+<b>Alt</b>キーを押しながら、ノードコネクターから新しいコネクションをドラッグして、その場所にドットノードを挿入します。
 
 新しい接続を引き続きドラッグし、この操作を繰り返して、その接続を任意にルーティングできます。
 
-![ドット：コネクタから作成](../../../../assets/graph-dot_create-from-connector.gif "ドット：コネクタから作成")
+![ドット：コネクターから作成](dot-node.resources/dot-node-03.gif "ドット：コネクターから作成")
 
 
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 +++ノードメニュー
 <b>スペースバー</b>を押して<b>ノードメニュー</b>を表示し、「ドット」項目を選択するか、検索フィールドに「ドット」と入力して、項目を表示して素早く検索します。
 
-![ノードメニューのドットノード](../../../../assets/dot-node-insert-menu.png "ノードメニューのドットノード")
+![ノードメニューのドットノード](dot-node.resources/dot-node-04.png "ノードメニューのドットノード")
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![リンクを結合しています](../../../../assets/dot-node-congrenate-links-optim.gif "リンクを結合しています"){width="512px"}
+![リンクを結合しています](dot-node.resources/dot-node-05.gif "リンクを結合しています"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![ポータルとしてのドットノード – アイコン](../../../../assets/DotNode_Portal-1.png "ポータルとしてのドットノード – アイコン")
+![ポータルとしてのドットノード – アイコン](dot-node.resources/dot-node-06.png "ポータルとしてのドットノード – アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-![ポータルとしてのドットノード](../../../../assets/DotNode_Portal.gif "ポータルとしてのドットノード")
+![ポータルとしてのドットノード](dot-node.resources/dot-node-07.gif "ポータルとしてのドットノード")
 
 ### ポータルの作成
 

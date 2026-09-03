@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
-description: ヒストグラムスキャンノードを使用して、テクスチャヒストグラムをスキャンし、カラー補正と調整のために分析します。
+description: 「ヒストグラムスキャン」ノードは、カラー補正や色調補正のためにテクスチャのヒストグラムをスキャンして分析する場合に使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ヒストグラムスキャン
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 5%
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
@@ -22,41 +22,47 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-1.png){width="128px"}
+![](histogram-scan.resources/histogram-scan-01.png){width="128px"}
 
-## ヒストグラムスキャン
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-入力グレースケール画像のコントラストと明るさを直感的に再マップできる、非常にシンプルでありながら便利なノードです。 ダイナミックな方法でマスクを「拡大」および「縮小」するために使用できます。
+入力グレースケールイメージのコントラストと明るさを直感的に再マップできる、非常にシンプルで便利なノードです。 ダイナミックな方法でマスクを「拡大」および「縮小」するために使用できます。
 
 [Substanceアカデミーのヒストグラム処理に関するビデオを見るには、ここをクリックしてください。](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=427s)
 
-## パラメーター
-
-* **位置**: *0.0 ～ 1.0*&#x200B;明るさコントロールと同様に、結果の中間点を移動します。 グラデーション入力で使用すると、トランジションポイントが拡大または縮小されます。\
-  重要：デフォルト値の0は、最終結果が常に黒であることを意味します。0.5から始めてみてください。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。 トランジションの硬さの設定に使用できます。
-* **位置を反転**: *False/True*&#x200B;最終結果を反転します。
-
-## サンプル画像
-
-![](../../../../../../assets/histogram-scan.gif)
-
-![](../../../../../../assets/histogram-scan2.gif)
-
-![](../../../../../../assets/histogram-scan3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>位置</b> <i>0.0 - 1.0</i> | 明るさコントロールと同様に、結果の中間点を移動します。 グラデーションの入力で使用する場合、これによりトランジションポイントが拡大または縮小されます。<br><br>重要：既定値の0は、最終的な結果が常に黒であることを意味します。0.5から始めてみてください。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 トランジションの硬さを設定するために使用できます。 |
+| <b>位置を反転</b> <i>False/True</i> | 最終結果を反転します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-04.gif" />
+        </td>
+    </tr>
 </table>

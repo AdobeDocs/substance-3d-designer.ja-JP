@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
 breadcrumb-title: ''
-description: マルチColor Equalizerノードを使用して、複数のテクスチャチャンネルにわたってカラーを均等にし、スキャンしたマテリアルを一貫して処理します。
+description: マルチColor Equalizerノードを使用して、複数のテクスチャチャンネルにわたってカラーを平均化し、スキャンされたマテリアルを一貫して処理できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: マルチColor Equalizer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 1%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-equalizer-multi.png){width="128px"}
+![](multi-color-equalizer.resources/multi-color-equalizer-01.png){width="128px"}
 
-## マルチColor Equalizer
-
-**イン：** *マテリアルフィルター/スキャン処理*
-
-**複合**
+<b>イン：</b> マテリアルフィルター > スキャン処理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,42 +39,39 @@ ht-degree: 1%
 >
 > 詳細については、元の[Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md)を参照してください。
 
-## パラメーター
-
-### 入力
-
-* **入力1-8**: *カラー入力*&#x200B;処理に対する複数の入力。
-* **マスク入力**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **入力数**: *1 ～ 8*&#x200B;並列に処理する入力数を設定します。
-* **タイリングされた入力**: *偽/真*&#x200B;オプションでエッジのタイリングを保持します。
-* **半径**: *0.0 ～ 50.0*&#x200B;等化半径を設定します。 半径を大きくすると、カラーの差が大きくなるだけです。 これには、すべての画像に対して微調整が必要です。
-* **明るい/暗いバランス**: *0.0 ～ 1.0*&#x200B;暗い色合いを残したり削除したりするためのバイアス設定。
-* **カスタムカラーバリエーション**: *偽/真*&#x200B;ユーザーが指定した色に向かって効果を変化させることができます。
-* **カラーバリエーション**\
-  カスタムカラーバリエーションが有効になっている場合にのみアクティブです。 設定では、均等化の対象とする濃淡オフセットを選択できます。
-  * **色相**: *0.0 - 360.0*
-  * **クロマ**: *0.0 - 1.0*
-  * **ルミナンス**: *0.0 ～ 1.0*
-* **マスクソース**: *なし、画像の平均、色パラメーター、入力*&#x200B;マスクを実行するかどうかを設定します。 カラーパラメーターを使用すると、以下の追加設定が可能になります。入力はユーザー定義のマスク入力に切り替わります。
-* **マスク**\
-  カラーパラメーターマスクでのみアクティブです。 画像自体に基づいてマスクを決定する追加のマスクパラメーターが含まれています。 次のパラメーターを使用すると、イコライゼーションを適用するバイナリマスクに濃淡を正確に変換できます。 これらの設定を使用すると、半径パラメーターの効果がずっと目立たなくなることに注意してください。
-  * **色**: *（色値）*
-  * **色相範囲**: *0.0 ～ 360.0*
-  * **クロマ範囲**: *0.0 ～ 1.0*
-  * **ルミナンス範囲**: *0.0 ～ 1.0*
-  * **ぼかし**: *0.0 ～ 2.0*
-  * **Smoothness**: *0.0 ～ 2.0*
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>入力1-8</b> <i>カラー入力</i> | 処理への複数の入力。 |
+| <b>マスク入力</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>入力数</b> <i>1 - 8</i> | 並列処理する入力数を設定します。 |
+| <b>タイルされた入力</b> <i>False/True</i> | 必要に応じて、エッジのタイリングを保持します。 |
+| <b>半径</b> <i>0.0 - 50.0</i> | イコライズ半径を設定します。 半径を大きくすると、カラーの差が大きくなるだけです。 これには、すべての画像に対して微調整が必要です。 |
+| <b>明るい/暗いバランス</b> <i>0.0 - 1.0</i> | 暗い色合いを残したり取り除いたりするためのバイアス設定。 |
+| <b>カスタムカラーバリエーション</b> <i>False/True</i> | 効果をユーザー指定のカラーに向かって変化させることができます。 |
+| <b>カラーバリエーション</b> | カスタムカラーバリエーションが有効になっている場合にのみアクティブです。 設定では、均等化の対象とする濃淡オフセットを選択できます。 |
+| <b>色相</b> <i>0.0 - 360.0</i> |  |
+| <b>彩度</b> <i>0.0 - 1.0</i> |  |
+| <b>ルミナンス</b> <i>0.0 - 1.0</i> |  |
+| <b>マスクソース</b> <i>なし、画像平均、色パラメーター、入力</i> | マスキングを実行するかどうかを設定します。 カラーパラメーターを使用すると、以下の追加設定が可能になります。入力はユーザー定義のマスク入力に切り替わります。 |
+| <b>マスク</b> | カラーパラメーターマスクでのみアクティブです。 画像自体に基づいてマスクを決定する追加のマスクパラメーターが含まれています。 次のパラメーターを使用すると、イコライゼーションを適用するバイナリマスクに濃淡を正確に変換できます。 これらの設定を使用すると、半径パラメーターの効果がずっと目立たなくなることに注意してください。 |
+| <b>色</b> <i>（カラー値）</i> |  |
+| <b>色相範囲</b> <i>0.0 - 360.0</i> |  |
+| <b>クロマ範囲</b> <i>0.0 - 1.0</i> |  |
+| <b>ルミナンス範囲</b> <i>0.0 - 1.0</i> |  |
+| <b>ぼかし</b> <i>0.0 - 2.0</i> |  |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> |  |

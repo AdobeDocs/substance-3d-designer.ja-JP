@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: ワークフローの構成を改善するために、Substance合成グラフでパラメーターを管理および整理する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パラメーターを管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![プロパティのグローバル&#39;パラメーターの管理&#39;メニュー](../../assets/manage-parameters-menu-global.png "プロパティのグローバル&#39;パラメーターの管理&#39;メニュー"){zoomable="yes"}
+![プロパティのグローバル&#39;パラメーターの管理&#39;メニュー](manage-parameters.resources/manage-parameters-01.png "プロパティのグローバル&#39;パラメーターの管理&#39;メニュー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![プロパティのローカルの[パラメーターの管理]メニュー](../../assets/manage-parameters-menu.png "プロパティのローカルの[パラメーターの管理]メニュー"){zoomable="yes"}
+![プロパティのローカルの[パラメーターの管理]メニュー](manage-parameters.resources/manage-parameters-02.png "プロパティのローカルの[パラメーターの管理]メニュー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー](../../assets/manage-parameters-node-menu.png "&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー"){zoomable="yes"}
+![&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー](manage-parameters.resources/manage-parameters-03.png "&#39;ノードコンテキストメニューの[パラメーターの管理]メニュー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </td>
 <td style="border: 0;" valign="top">
 
-![パラメーターのコピーと貼り付け](../../assets/copy-paste-parameters.gif "パラメーターのコピーと貼り付け"){zoomable="yes"}
+![パラメーターのコピーと貼り付け](manage-parameters.resources/manage-parameters-04.gif "パラメーターのコピーと貼り付け"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 ## アトミックノード制限
 
-特定の実装と制御のため、一部の[原子ノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)では使用できない機能があります。
+一部の[アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)では、その実装と制御が固有であるため、一部の機能を使用できません。
 
 これらのアクション…
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
-description: 物理的なSunSkyノードを使用して、リアルなマテリアルプレビュー用に物理的に正確な太陽と空の照明環境を生成します。
+description: 物理的なSunSkyノードを使用して、物理的に正確な太陽と空のライティング環境を生成し、リアルなマテリアルプレビューを実現します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Physical SunSky
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 物理SunSky
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -22,45 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
 
-## 物理的な太陽/空
-
-**イン：** *3Dビュー/HDRI ツール*
-
-**中級**
+<b>内：</b> 3D ビュー > HDRI ツール
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 ホセック – ウィキエのスカイライトモデルに基づく物理的な太陽と空の実装。 人工的なHDRIのための優れたベースを提供します。
 
-## パラメーター
-
-* **太陽の位置**:\
-  範囲= [0,1]x[0,1] （経緯度角度）
-* **濁度**: *1.0 - 10.0*\
-  濁度は1 ～ 10の範囲です
-* **アルベド**: *0.0 ～ 1.0*\
-  アルベドの範囲は0 ～ 1です。
-* **地面の色**: *（色の値）*\
-  グリッドの色。
-* **露出(EV)**: *-1.0 - 4.0*\
-  結果出力の露光量。
-* **太陽の大きさ**: *0.0 ～ 4.0*\
-  太陽のスケール。1以外の値は物理的に正しくありません。 値には微妙な効果があります。
-* **太陽の強度**: *0.0 ～ 1.0*\
-  太陽ディスクの強度。 Sunのディスクはかなり小さいので、効果はすぐに見えません。
-* **空の強度**: *0.0 ～ 1.0*&#x200B;空の強度。 また、ディスク自体ではなく、空での太陽の輝きに影響を与えます。
-
-## サンプル画像
-
-![](../../../../../../assets/sky-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>太陽の位置</b> | 範囲= [0,1]x[0,1] （経緯度角度） |
+| <b>濁度</b> <i>1.0 - 10.0</i> | 濁度は1 ～ 10の範囲です |
+| <b>アルベド</b> <i>0.0 - 1.0</i> | アルベドの範囲は0 ～ 1です。 |
+| <b>地面の色</b> <i>（カラー値）</i> | グリッドの色。 |
+| <b>露光量(EV)</b> <i>-1.0 - 4.0</i> | 結果出力の露光量。 |
+| <b>太陽の大きさ</b> <i>0.0 - 4.0</i> | 太陽のスケール。1以外の値は物理的に正しくありません。 値には微妙な効果があります。 |
+| <b>太陽の強さ</b> <i>0.0 - 1.0</i> | 太陽ディスクの強度。 Sunのディスクはかなり小さいので、効果はすぐに見えません。 |
+| <b>空の適用度</b> <i>0.0 - 1.0</i> | 空の適用度。 また、ディスク自体ではなく、空での太陽の輝きに影響を与えます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: Nadir Patchノードを使用して、HDRIパノラマの最下部のアーティファクトを修正するために最下部の領域にパッチを適用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir Patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/nadir-patch-01.png){width="200px"}
 
-## Nadir Patch
-
-**イン：** *3Dビュー/HDRI ツール*
-
-**複合**
+<b>内：</b> 3D ビュー > HDRI ツール
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,42 +37,44 @@ ht-degree: 1%
 
 [Nadir Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md)を使用すると、効果をすばやく確認して検証できます。
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 入力
 
-* **入力**: *カラー入力*
-* **マスク入力**: *グレースケール入力*\
-  パッチのマスクに使用するオプションのマスクスロット。 アルファのように機能します。
+|  |  |
+|:---|:---|
+| <b>入力</b> <i>カラー入力</i> |  |
+| <b>マスク入力</b> <i>グレースケール入力</i> | パッチのマスクに使用するオプションのマスクスロット。 アルファのように機能します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-* **有効**: *False/True*\
-  パッチ適用エフェクトを有効または無効にします。
-* **フレームの表示ヘルパー**: *False/True*\
-  デバッグ用にヘルパー行を表示または非表示にします。
-* **フレームThickness**: *0.0 ～ 1.0*\
-  ヘルパー行のThickness。
-* **パッチスケール**: *0.0 ～ 1.0*\
-  パッチのグローバルな均一スケール。 ソースとターゲットの両方に影響します。
-* **パッチサイズ**: *0.0 - 1.0*\
-  パッチのサイズが均一ではありません。
-* **パッチの回転**: *0.0 - 1.0*\
-  パッチの回転。 ソースとターゲットに影響します。
-* **パッチAlpha**: *正方形の滑らかさ、ガウス、マスク入力*\
-  パッチを背景とブレンドするときに使用するアルファを設定します。
-* **パッチの硬さ**: *0.0 ～ 1.0*\
-  アルファの硬さ/コントラストを設定します。
-* **ソースの回転オフセット**: *0.0 - 1.0*\
-  パッチのソースの回転のみ。
-* **位置の座標**
-  * **ソースの位置**:\
-    ソースの位置。 2Dビューにハンドルがあります。
-  * **パッチの位置**:\
-    ターゲットの位置。 2Dビューにハンドルがあります。
+|  |  |
+|:---|:---|
+| <b>有効にする</b> <i>False/True</i> | パッチ適用エフェクトを有効または無効にします。 |
+| <b>ヘルパーを表示</b> <i>False/True</i> | デバッグ用にヘルパー行を表示または非表示にします。 |
+| <b>Thickness</b> <i>0.0 - 1.0</i> | ヘルパー行のThickness。 |
+| <b>パッチスケール</b> <i>0.0 - 1.0</i> | パッチのグローバルな均一スケール。 ソースとターゲットの両方に影響します。 |
+| <b>パッチサイズ</b> <i>0.0 - 1.0</i> | パッチのサイズが均一ではありません。 |
+| <b>パッチの回転</b> <i>0.0 - 1.0</i> | パッチの回転。 ソースとターゲットに影響します。 |
+| <b>パッチAlpha</b> <i>正方形、ガウス、マスク入力</i> | パッチを背景とブレンドするときに使用するアルファを設定します。 |
+| <b>パッチ硬さ</b> <i>0.0 - 1.0</i> | アルファの硬さ/コントラストを設定します。 |
+| <b>ソースの回転オフセット</b> <i>0.0 - 1.0</i> | パッチのソースの回転のみ。 |
+| <b>位置の座標</b> |  |
+| <b>ソースの位置</b> | ソースの位置。 2Dビューにハンドルがあります。 |
+| <b>パッチの位置</b> | ターゲットの位置。 2Dビューにハンドルがあります。 |
 
-## サンプル画像
+## 例
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-02.gif" />
+        </td>
+    </tr>
 </table>

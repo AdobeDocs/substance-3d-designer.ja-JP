@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: '[スプライン結合リスト]ノードを使用すると、複数のスプラインを結合して1つのスプラインリストにし、結合した操作を行うことができます。'
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: スプライン結合リスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-merge-list-icon.png "ノードアイコン")
+![ノードアイコン](spline-merge-list.resources/spline-merge-list-01.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -43,61 +39,39 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>スプライン座標</b> *色*&#x200B;入力スプラインの点の座標は、カラー画像のRGBAチャンネルでエンコードされています：\
-<b> R</b> - X位置\
-<b> G</b> - Y位置\
-<b> B</b> - Height\
-<b>A</b> – パックされたデータ：\
-*記号：スプラインが閉じている（負）か、開いている（正）;\
-*絶対値：Thickness + 1。
+## 入力
 
-<b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データです。\
-<b> R</b> – 接線X\
-<b> G</b> – 接線Y\
-<b> B</b> – 未使用\
-<b> A</b> – 未使用
+|  |  |
+|:---|:---|
+| <b>スプライン座標</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの点の座標：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> – 記号：スプラインが閉じている（負）か開いている（正）;<br> -絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされた入力スプラインの追加データ。<br><b>R</b> -正接X<br><b>G</b> -正接Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 入力スプラインの数。 |
 
-<b>スプラインの量</b> *整数*&#x200B;入力スプラインの数です。
+<a name="outputs"></a>
 
-## 出力コネクタ
+## 出力
 
-<b>プレビュー</b> *グレースケール*&#x200B;マージされたスプラインをグレースケールイメージとしてプレビューします。
+|  |  |
+|:---|:---|
+| <b>プレビュー</b> <i>グレースケール</i> | 結合されたスプラインをグレースケールイメージとしてプレビューします。 |
+| <b>スプライン座標</b> <i>色</i> | マージされたスプラインの座標が、カラー画像のRGBAチャンネルにエンコードされました。<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> - Height<br><b>A</b> – パックデータ：<br> – 記号：スプラインが閉じている（負）か開いている（正）;<br> -絶対値: Thickness + 1。 |
+| <b>スプラインデータ</b> <i>色</i> | カラー画像のRGBAチャンネルでエンコードされたマージされたスプラインの追加データ。<br><b>R</b> - 正接 X<br><b>G</b> - 正接 Y<br><b>B</b> – 未使用<br><b>A</b> – 未使用 |
+| <b>スプラインの量</b> <i>整数</i> | 結合されたスプラインの数です。 |
 
-<b>スプライン座標</b> *色*&#x200B;マージされたスプラインのポイントの座標は、カラー画像のRGBAチャンネルでエンコードされます。\
-<b>R</b> - X位置\
-<b>G</b> - Y位置\
-<b>B</b> -Height\
-<b>A</b> – パックされたデータ：\
-*記号：スプラインが閉じている（負）か、開いている（正）;\
-*絶対値：Thickness + 1。
-
-<b>スプラインデータ</b> *色*&#x200B;カラー画像のRGBAチャンネルでエンコードされた合成スプラインの追加データです。\
-<b>R</b> – 接線X\
-<b>G</b> – 接線Y\
-<b>B</b> – 未使用\
-<b>A</b> – 未使用
-
-<b>スプラインの量</b> *整数*&#x200B;マージされたスプラインの数です。
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>閉じたスプラインの距離のしきい値</b> *フロート*&#x200B;テクスチャ空間内で、同じスプラインの2つの四肢が、そのスプラインを閉じる1つの点として処理される距離。\
-これにより、シェイプを散布したり、スプラインに沿ってイメージをマッピングしたりする場合に、オーバーラップが発生するのを防ぐことができます。
-
-+++プレビュー
-<b>セグメント数</b> *整数*&#x200B;プレビュー出力でスプラインの視覚化を描画するために使用するセグメントの数を調整します。\
-値が大きいほど、線は滑らかになります。
-
-<b>方向ヘルパーの表示</b> *ブール値*&#x200B;プレビュー出力のスプラインの始点に点を表示し、終点に矢印を表示します。
-
-<b>Thicknessの封筒を表示</b> *ブール値*\
-スプラインのThicknessのエッジに追加の線分を表示します。
-
-<b>Thickness (px)</b> *フロート*&#x200B;プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。
-
-+++
+|  |  |
+|:---|:---|
+| <b>閉じたスプラインの距離のしきい値</b> <i>フロート</i> | 同じスプラインの2つの四肢が、そのスプラインを閉じる1つの点として処理される、テクスチャ空間での距離。<br>これにより、シェイプを散布したり、スプラインに沿ってイメージをマッピングしたりする場合に、オーバーラップを防ぐことができます。 |
+| <b>プレビュー</b> |  |
+| <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインの視覚化に使用するセグメントの数を調整します。<br>値を大きくすると、より滑らかな線になります。 |
+| <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
+| <b>Thicknessの封筒を表示</b> <i>ブール値</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
+| <b>Thickness (px)</b> <i>フロート</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
 
 ## 例
 
@@ -108,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -124,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -138,18 +112,4 @@ ht-degree: 1%
 </tr>
 </table>
 
-![ノードデモ](../../../../../../assets/SplineMergeList-Demo.gif "ノードデモ")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![ノードデモ](spline-merge-list.resources/spline-merge-list-06.gif "ノードデモ")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでよくある警告やエラーの解決策を確認して、問題を迅速にトラブルシューティングできます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 警告とエラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### エクスプローラー
 
-[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
+[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](warnings-and-errors.resources/warnings-and-errors-01.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
 
 次の規則に従います。
 
@@ -48,7 +48,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-02.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### グラフビュー
 
-[グラフビュー](../../interface/the-graph-view/the-graph-view.md)パネル内の警告を含む項目については、その警告がビューポートの&#x200B;*左下隅*&#x200B;に色付きのテキストで表示されます。 特定のノードによって警告がトリガーされた場合、そのノードには![](../../assets/warning-badge.png)警告バッジが付きます。 バッジの上に数秒間カーソルを置いたままにすると、*ツールヒント*&#x200B;が表示され、すべての警告の詳細が一覧表示されます。
+[グラフビュー](../../interface/the-graph-view/the-graph-view.md)パネル内の警告を含む項目については、その警告がビューポートの&#x200B;*左下隅*&#x200B;に色付きのテキストで表示されます。 特定のノードによって警告がトリガーされた場合、そのノードには![](warnings-and-errors.resources/warnings-and-errors-03.png)警告バッジが付きます。 バッジの上に数秒間カーソルを置いたままにすると、*ツールヒント*&#x200B;が表示され、すべての警告の詳細が一覧表示されます。
 
 次の規則に従います。
 
@@ -71,7 +71,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-04.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### プロパティ
 
-[プロパティ](../../interface/properties/properties.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
+[プロパティ](../../interface/properties/properties.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](warnings-and-errors.resources/warnings-and-errors-01.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
 
 次の規則に従います。
 
@@ -94,7 +94,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-05.png){width="256px"}
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-06.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Designerで発生する可能性のある警告とエラーを、発生元に基
 ### Substance グラフの警告
 
 * 出力ノードが定義されていません
-* [x]パラメーターの関数に警告があります
+* `[x]`パラメーターの関数に警告があります
 * 参照したデータにいくつかの警告があります
 * 参照リソースが見つかりません
 * テキストノードで無効なフォントが使用されています
