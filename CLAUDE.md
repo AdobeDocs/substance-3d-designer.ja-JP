@@ -62,7 +62,7 @@ user-guide-title: ""
 
 * 英語は真理の源だ。他のすべての言語はそこから翻訳される。
 * 他のドキュメントページへのリンクはすべて&#x200B;**相対**&#x200B;リンクにする必要があります。外部リソースへのリンクはすべて&#x200B;**絶対**&#x200B;リンクにする必要があります。
-* コンテンツは、GitHubフレーバーのマークダウンで、Experience Leagueのカスタム拡張機能/gotchasを使用して書かれています。[こちら](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown)で文書化されています。 詳細については、`write-experience-league-markdown`スキルを使用してください（存在する場合）。
+* コンテンツは、GitHubフレーバーのマークダウンで、Experience Leagueのカスタム拡張機能/gotchasを使用して書かれています。[こちら](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/writing-essentials/markdown)で文書化されています。 詳細については、`write-experience-league-markdown`スキルを使用してください（存在する場合）。
 * 送信されたすべての変更は、CIで自動化されたリンクチェックとリンク検証を通じて処理されます（以下を参照）。ルールが適用される、またはリンクを修正する必要があると仮定する前に、`markdownlint_custom.json`と`linkcheckexclude.json`を確認してください。
 
 &#x200B;# 検証/CI

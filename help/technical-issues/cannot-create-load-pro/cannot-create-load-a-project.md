@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでのプロジェクトの作成または読み込みに関する問題をトラブルシューティングして、解決策を見つけます。
 helpx_creative_field: ""
