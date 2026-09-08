@@ -81,7 +81,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> このページで説明する概念を理解するための重要なお知らせ： *インスタンスノード*&#x200B;は、別のグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表す[ノードであり、その&#x200B;*独自の個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されます。\
+> このページで説明する概念を理解するための重要なお知らせ： *インスタンスノード*&#x200B;は、別のグラフ[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表すノードであり、その&#x200B;*独自の個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されます。\
 > 例えば、同じグラフ内の2つの[Perlinノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)ノードは、両方とも&#x200B;*同じ*&#x200B;ソースグラフ（`noise_perlin_noise.sbs`の`perlin_noise`）を、*独自のパラメーター値のセット*&#x200B;で表現したものです。
 
 >[!NOTE]

@@ -146,7 +146,7 @@ Fキーを使用して、選択したノードまたは何も選択されてい�
 
 * ノードツールバーのアイコンをクリックまたはドラッグします（以下を参照）。 [アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみをこのように配置できます。
 * ノードの空の領域を右クリックし、<b>[グラフの追加]</b>を選択します。 [アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみをこのように配置できます。
-* サムネールをライブラリビューからグラフビューにドラッグします。 このメソッドは、ノードインスタンス](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)を含む[すべての種類のノードに対して機能します。
+* サムネールをライブラリビューからグラフビューにドラッグします。 このメソッドは、ノードインスタンス[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)を含むすべての種類のノードに対して機能します。
 * <b>スペースバー</b>を押して、<b>ノードメニュー</b>にアクセスします。 以下を参照してください。
 * ノードにマップされたキーボードショートカットを使用します。 マッピングは[環境設定ウィンドウ](../../interface/preferences-window/preferences-window.md)で実行されます。
 

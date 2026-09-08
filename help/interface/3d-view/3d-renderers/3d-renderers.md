@@ -73,7 +73,7 @@ USDを基盤としているため、Adobeの[USDFileFormatプラグイン](https
 
 >[!TIP]
 >
-> プロジェクト設定](../../../interface/preferences-window/project-settings/project-settings.md)の「[「3Dビュー」」セクションで、新しい3Dビューを開始する際にデフォルトで使用するレンダラーを選択できます。
+> プロジェクト設定[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)の「「3Dビュー」」セクションで、新しい3Dビューを開始する際にデフォルトで使用するレンダラーを選択できます。
 
 <a name="rasterizer"></a>
 
@@ -290,7 +290,7 @@ Heightを表示するには、次の2つの方法を使用できます。
 
 +++
 
-Designerでは、GLSLFXファイル](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)を使用して、OpenGLレンダラー[用に独自のシェーダーを設定することもできます。
+Designerでは、GLSLFXファイル[&#128279;](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)を使用して、OpenGLレンダラー用に独自のシェーダーを設定することもできます。
 
 >[!IMPORTANT]
 > 

@@ -64,7 +64,7 @@ SDF 関数ノードは、専用のSubstance関数グラフで使用すること�
 関数として表現するノードパラメーターでは、「関数の編集」ボタンを使用します。
 
 Substance関数グラフについて知っておくべきこと：
-* Substanceグラフと同様に、ノードコネクタは&#x200B;*特殊化*&#x200B;されています。つまり、種類](../../function-nodes-overview/function-nodes-overview.md#color-coding)を表す&#x200B;*一致する色* [の他のコネクタにのみ接続できます。
+* Substanceグラフと同様に、ノードコネクタは&#x200B;*特殊化*&#x200B;されています。つまり、種類[&#128279;](../../function-nodes-overview/function-nodes-overview.md#color-coding)を表す&#x200B;*一致する色* の他のコネクタにのみ接続できます。
 * ノードにはパラメータはなく、入力のみを持つことができます。 （ただし、いくつかの例外があります）。
 * グラフには単一の出力ノードがあります。 ノードを右クリックし、`Set as output`を選択して出力ノードとして指定します。
 * また、Substanceグラフと同様に、基本構成要素である&#x200B;*atomic*&#x200B;個のノードと、他のSubstance関数グラフを表す&#x200B;*instance*&#x200B;個のノードがあります。
@@ -266,13 +266,13 @@ SDF 関数を使用して作成されたシェイプに対して、基本的な�
 
 3DビューアノードのコンテキストでSDF 関数を完了したら、関数全体をコピーして[Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)ノードに貼り付け、そのノードのシェイプジェネレータとして使用できます。
 
-**図形の種類**&#x200B;パラメーターを`SDF function`に設定し、**パターンSDF 関数**&#x200B;パラメーターに移動して、**関数の編集**ボタンをクリックして、パラメーターの関数グラフを開きます。
+**図形の種類**&#x200B;パラメーターを`SDF function`に設定し、**パターンSDF 関数**&#x200B;パラメーターに移動して、**関数の編集**&#x200B;ボタンをクリックして、パラメーターの関数グラフを開きます。
 その後、3Dビューアノードからコピーした関数をグラフに貼り付けることができます。 （関数グラフの出力ノードをもう一度設定することを忘れないでください。）
 
 **SDF境界フレームサイズ**&#x200B;パラメータを調整して、3Dビューアーノードで使用していた[境界フレーム](#the-bounding-frame)と一致させ、シェイプが正しく描画されていることを確認してください。
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-**図形の種類**&#x200B;が`SDF function`に設定された&#x200B;*図形スプラッタv2。**SDF境界フレームサイズ**がシェイプに合わせて調整されています。*
+**図形の種類**&#x200B;が`SDF function`に設定された&#x200B;*図形スプラッタv2。**SDF境界フレームサイズ**&#x200B;がシェイプに合わせて調整されています。*
 
 >[!TIP]
 > 
