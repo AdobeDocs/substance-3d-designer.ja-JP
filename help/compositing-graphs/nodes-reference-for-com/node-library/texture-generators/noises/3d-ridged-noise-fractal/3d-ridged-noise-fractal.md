@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
 description: 3D Ridged Noise Fractalノードを使用して、山のようなテクスチャを作成するための3D空間のリッジフラクタルノイズパターンを生成します。
 helpx_creative_field: ""

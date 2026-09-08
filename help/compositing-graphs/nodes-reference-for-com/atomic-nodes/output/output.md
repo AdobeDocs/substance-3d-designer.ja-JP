@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -52,7 +52,7 @@ Outputノードは、Substanceノードの<b>result</b>を指定します。複�
 | <b>識別子</b> *文字列* | 出力の一意の識別子。 このプロパティは、空白のままにすることはできません。また、特殊文字やスペースを含めることはできません。   この識別子は、ノードのラベルが&#39;Label&#39;プロパティが空白のままであるために使用されます。 また、[書き出されたテクスチャ](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)に名前を付ける場合にも使用できます。 |
 | <b>説明</b> *文字列* | 出力のツールチップとして使用されるオプションの説明は、グラフです。 |
 | <b>ラベル</b> *文字列* | これは、出力ノードのラベルとして使用され、このグラフを表す[インスタンス化](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)内の対応するコネクターとして使用されます。 ラベルには、スペースや特殊文字を含めることができます。 |
-| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
+| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/jp/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
 | <b>グループ</b> *文字列* | Designerの[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)で出力をグループ化するために使用される属性です。   同一の「Group」属性を持つ出力は、「コンパクトマテリアル」リンク作成モードで1つの接続として表示されます。 |
 
 ## 統合の属性

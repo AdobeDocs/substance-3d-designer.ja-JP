@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: 「タイルSampler」ノードを使用して、入力テクスチャからタイルをサンプリングして並べ、Substance 3D Designerでタイルパターンを作成します。
 helpx_creative_field: ""

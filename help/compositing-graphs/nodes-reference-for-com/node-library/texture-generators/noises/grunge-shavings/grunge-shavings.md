@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: 経年劣化削りノードを使用して、木目やマテリアルのテクスチャディテールを作成するための削りパターンを作成します。
 helpx_creative_field: ""

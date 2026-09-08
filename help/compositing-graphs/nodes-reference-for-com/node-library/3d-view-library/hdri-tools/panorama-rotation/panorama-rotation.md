@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: '[パノラマ回転]ノードを使用して、3Dビューで照明の方向を調整するためのHDRIパノラマ環境を回転します。'
 helpx_creative_field: ""

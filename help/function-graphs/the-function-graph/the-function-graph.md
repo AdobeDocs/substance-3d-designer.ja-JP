@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: カスタム関数や再利用可能なノードネットワークを作成するためのDesignerのSubstance関数グラフについて説明します。
 helpx_creative_field: ""

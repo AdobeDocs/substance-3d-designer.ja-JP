@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
 description: 「セーフ変形」ノードを使用すると、変形を適用する際に、テクスチャの境界を維持し、斑点を除去することができます。
 helpx_creative_field: ""

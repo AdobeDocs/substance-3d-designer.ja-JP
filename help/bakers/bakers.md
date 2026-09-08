@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Substance 3D Designer ベイカーを使用して、メッシュベースの情報を計算してテクスチャファイルに変換する方法について説明します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> ベイク処理について詳しくは、[ベイク処理ドキュメント](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)を参照してください。
+> ベイク処理について詳しくは、[ベイク処理ドキュメント](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/home)を参照してください。
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ ht-degree: 0%
 
 ### 高精細メッシュ
 
-このパネルは、ハイポリゴンメッシュリストおよび関連する設定をコントロールします。 詳細については、[共通パラメーター](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters)を参照してください。
+このパネルは、ハイポリゴンメッシュリストおよび関連する設定をコントロールします。 詳細については、[共通パラメーター](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/common-parameters)を参照してください。
 
 ![高精細メッシュ](../assets/sd-high.png "高精細メッシュ")
 
 ### デフォルト値
 
-詳細については、[共通パラメーター](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters)を参照してください。
+詳細については、[共通パラメーター](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/common-parameters)を参照してください。
 
 ![既定値](../assets/sd-default-values.png "既定値")
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 リスト内のベイカーをクリックすると、ベイカーパラメータービューが特定のパラメーターで更新されます。
 
-特定のパラメーターの詳細については、「[ベイカー設定](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)」を参照してください。
+特定のパラメーターの詳細については、「[ベイカー設定](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/bakers-settings)」を参照してください。
 
 ![ベーカーレンダリングリスト](../assets/sd-baker-list.png "ベーカーレンダリングリスト")

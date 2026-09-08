@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
 description: Fur 3ノードを使用すると、ヘアエフェクトやファイバエフェクトを作成するためのカスタマイズ可能なプロパティを持つ高度なファーテクスチャを作成できます。
 helpx_creative_field: ""

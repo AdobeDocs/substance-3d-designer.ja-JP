@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
 breadcrumb-title: ''
 description: Scratchesのダーティノードを使用して、汚れたスクラッチパターンを追加し、風化し、古くなったマテリアル効果を作成します。
 helpx_creative_field: ""

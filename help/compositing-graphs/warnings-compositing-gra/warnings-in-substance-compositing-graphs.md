@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance合成グラフの警告について理解し、一般的な問題やエラーを解決する方法を学びます。
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ E.g. 均一カラー[出力カラー]、ピクセルプロセッサー[ピクセ
 
 ### ![（エラー）](../../assets/error.svg)参照リソースが見つかりません
 
-[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)ファイル(SBS)に保存されたパスに、ノードが参照するリソースが見つかりませんでした。 リソースを参照するノードを次に示します。
+[Substance 3D](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)ファイル(SBS)に保存されたパスに、ノードが参照するリソースが見つかりませんでした。 リソースを参照するノードを次に示します。
 
 * [グラフインスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ノードはグラフを参照しています
 * [ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードは[ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)を参照しています

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/auto-levels.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/auto-levels.html"
 breadcrumb-title: ''
 description: 「自動レベル補正」ノードを使用すると、明るさとコントラストの配分が最適になるようにテクスチャレベルが自動調整されます。
 helpx_creative_field: ""

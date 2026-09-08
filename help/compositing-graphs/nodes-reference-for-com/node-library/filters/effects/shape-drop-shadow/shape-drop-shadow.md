@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
 description: シェイプドロップシャドウノードを使用してシェイプにドロップシャドウ効果を加え、テクスチャの深度と奥行きを出します。
 helpx_creative_field: ""

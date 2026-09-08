@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: Substance 3D Designerで機能グラフを作成および編集して、再利用可能なノードネットワークを構築する方法について説明します。
 helpx_creative_field: ""

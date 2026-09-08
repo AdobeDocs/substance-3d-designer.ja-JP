@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
 breadcrumb-title: ''
 description: 「複数の切り抜き」ノードを使用すると、複数のテクスチャチャンネルを同時に切り抜いて、スキャンしたマテリアルを効率的に処理できます。
 helpx_creative_field: ""

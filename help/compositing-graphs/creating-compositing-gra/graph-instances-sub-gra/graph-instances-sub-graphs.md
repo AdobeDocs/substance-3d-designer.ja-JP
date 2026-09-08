@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: グラフインスタンスとサブグラフを使用して、再利用可能なグラフコンポーネントとモジュール化されたマテリアルワークフローを作成します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
 breadcrumb-title: ''
 description: 「カラー」描画ノードを使用すると、色相や彩度を変更しても輝度が維持されるように、カラーモードを使用してテクスチャを描画できます。
 helpx_creative_field: ""

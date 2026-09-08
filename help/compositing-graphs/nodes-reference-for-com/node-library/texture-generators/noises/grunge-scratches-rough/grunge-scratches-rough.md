@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: Scratchesの粗いノードを使用して、大きな摩耗や損傷の効果を生み出すための粗いスクラッチパターンを追加します。
 helpx_creative_field: ""

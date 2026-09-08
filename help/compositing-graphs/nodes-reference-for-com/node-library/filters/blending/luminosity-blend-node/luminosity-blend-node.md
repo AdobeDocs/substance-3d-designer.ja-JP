@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
 breadcrumb-title: ''
 description: 輝度の描画ノードを使用すると、輝度の値に基づいてテクスチャを描画し、明るさをベースにした合成効果を作成できます。
 helpx_creative_field: ""

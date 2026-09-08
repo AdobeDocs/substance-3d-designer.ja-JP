@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
 breadcrumb-title: ''
 description: 3D テクスチャサーフェスレンダリングノードを使用すると、3Dデータからサーフェステクスチャをレンダリングして、プロシージャルのサーフェスエフェクトを作成できます。
 helpx_creative_field: ""

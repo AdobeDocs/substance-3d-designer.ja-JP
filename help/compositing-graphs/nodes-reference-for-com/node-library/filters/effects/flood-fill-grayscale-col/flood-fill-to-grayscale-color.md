@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
 breadcrumb-title: ''
 description: Flood Fillからグレースケールへのカラーノードを使用して、接続された領域をグレースケールで塗りつぶし、モノクロパターンを作成します。
 helpx_creative_field: ""

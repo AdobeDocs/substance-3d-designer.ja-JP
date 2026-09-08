@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
 breadcrumb-title: ''
 description: Flood Fillノードを使用して、マスクおよびテクスチャ処理効果を作成するために、同色の接続された領域を塗りつぶします。
 helpx_creative_field: ""

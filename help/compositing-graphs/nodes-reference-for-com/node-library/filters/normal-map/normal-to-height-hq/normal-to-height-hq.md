@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
 description: '[法線からHeightへ] HQノードを使用して、サーフェスの詳細を抽出するために法線マップを高品質の高さマップに変換します。'
 helpx_creative_field: ""

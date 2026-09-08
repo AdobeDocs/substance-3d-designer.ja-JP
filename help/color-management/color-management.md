@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: カラースペース、プロファイル、スポットカラーワークフローなど、Substance 3D Designerのカラーマネジメントについて説明します。
 helpx_creative_field: ""

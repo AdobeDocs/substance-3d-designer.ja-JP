@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: MLVカラーぼかしフィルターを使用して、モーションブラー効果をカラーテクスチャに適用し、ダイナミックなビジュアルルックを実現します。
 helpx_creative_field: ""

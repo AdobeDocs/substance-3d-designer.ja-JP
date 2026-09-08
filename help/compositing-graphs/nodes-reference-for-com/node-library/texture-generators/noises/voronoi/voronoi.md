@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
 breadcrumb-title: ''
 description: Voronoiノードを使用して、細胞テクスチャと有機マテリアル効果を生み出すためのVoronoiパターンを生成します。
 helpx_creative_field: ""

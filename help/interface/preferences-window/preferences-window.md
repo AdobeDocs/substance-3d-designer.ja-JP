@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの環境設定ウィンドウにアクセスして、アプリケーションの設定と動作をカスタマイズします。
 helpx_creative_field: ""
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベイカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :NVIDIA Pascal GPUでDXRを強制的に使用</li> </ul> |
+| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベイカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :NVIDIA Pascal GPUでDXRを強制的に使用</li> </ul> |
 
 ## ライブラリ
 

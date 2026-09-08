@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window/project-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの環境設定でプロジェクト設定を行い、プロジェクトのデフォルトの動作をカスタマイズします。
 helpx_creative_field: ""
@@ -97,8 +97,8 @@ Designerの作業環境で使用する複数のプロジェクトファイルを
 | <b>既定のリソース名</b> | この設定では、出力画像ファイルに使用する既定の&#x200B;**名前付けテンプレート**&#x200B;を設定できます。 [ベイクウィンドウ](../../../bakers/bakers.md)で使用可能なエイリアスは、ここで使用することもできます(例： *$(mesh)*、*$(bakername)*、*$(udim)*、*$(custom)*)<br><br>*既定： $(mesh)\_$(bakername)* |
 | <b>既定のプリセット</b> | [ベイクウィンドウ](../../../bakers/bakers.md)を開くときに、このオプションを使用してプリセット&#x200B;*JSON*&#x200B;ファイルを指定することで、**ベイカーと設定を指定**&#x200B;済みにすることができます。 このファイルは、必要に応じて設定された後、ベイクウィンドウからエクスポートできます&#x200B;<br><br>*既定：なし* |
 | <b>名前のフィルターモード</b> | 低ポリゴンと高ポリゴンのシーンオブジェクトの一致に使用する名前のシーンオブジェクト：<ul data-preserve-html="true"> <li data-preserve-html="true">ジオメトリ名：メッシュジオメトリオブジェクトの名前を使用します。</li> <li data-preserve-html="true">親名（従来）:メッシュジオメトリオブジェクトの親の名前を使用します（Designer 14.1以前と同じ）。</li> </ul>*既定：ジオメトリ名* |
-| <b>リソース名マクロ</b> | エイリアス&#x200B;*$(bakername)*&#x200B;の代わりに、[各baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)に独自の文字列を使用できます。  ***$（カスタム）***&#x200B;エイリアスが任意のベイカーの出力画像名で使用されている場合、リスト内でそのベイカーに一致する文字列に置き換えられます。 パン元に対応するリストのセルが空白のままの場合、このパン元のエイリアス&#x200B;*$(custom)*&#x200B;は&#x200B;*置き換えられません*&#x200B;例： 「メッシュから曲率マップ」のパン元に割り当てられた「c-mesh」値は、メッシュのパン元からの曲率の出力のために&#x200B;*t\_mymesh\_&#x200B;**$(custom)***を&#x200B;*t\_mymesh\_&#x200B;**c-mesh***&#x200B;に名前変更します&#x200B;*既定値：なし**<br><br>* |
-| <b>サブメッシュ名フィルター</b> | [ベイカー](../../../bakers/bakers.md)で&#x200B;**名前で一致**&#x200B;オプションを使用する場合、定義された&#x200B;**サフィックス**&#x200B;の前にある部分の名前が&#x200B;*同一*&#x200B;であれば、メッシュの低解像度バージョンと高解像度バージョンの部分は&#x200B;*一致*&#x200B;されます。 この設定を使用すると、特定のワークフローに合わせて独自のサフィックスを設定できます。 メッシュの一部を一致させると、ベイク処理でレイが不要なジオメトリを無視することがあります。例： *body.fbx*&#x200B;メッシュの&#x200B;*body-torso&#x200B;**\_low***&#x200B;オブジェクトは、*body\_high.fbx,*&#x200B;の&#x200B;*body-torso **\_high***&#x200B;オブジェクトと一致します&#x200B;*.**デフォルト： \_low （ローポリメッシュ） / \_high （ハイポリメッシュ）*同様に、**&#x200B;背面&#x200B;**は**&#x200B;背面を無視&#x200B;**&#x200B;オプション&#x200B;<br><br>*を含む[特定のベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)に対して、定義された&#x200B;**サフィックス**&#x200B;を含む名前のメッシュの部分に対して*選択的に無視*されます。既定： \_ignorebf *<br><br>*&#x200B;注意：* 「背面を無視」および「低/高ポリゴンメッシュのサフィックス」は、任意の順序&lbrace;2で*結合できます（例です）。 *body-torso\_low\_ignorebf*)*** |
+| <b>リソース名マクロ</b> | エイリアス&#x200B;*$(bakername)*&#x200B;の代わりに、[各baker](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/bakers-settings)に独自の文字列を使用できます。  ***$（カスタム）***&#x200B;エイリアスが任意のベイカーの出力画像名で使用されている場合、リスト内でそのベイカーに一致する文字列に置き換えられます。 パン元に対応するリストのセルが空白のままの場合、このパン元のエイリアス&#x200B;*$(custom)*&#x200B;は&#x200B;*置き換えられません*&#x200B;例： 「メッシュから曲率マップ」のパン元に割り当てられた「c-mesh」値は、メッシュのパン元からの曲率の出力のために&#x200B;*t\_mymesh\_&#x200B;**$(custom)***を&#x200B;*t\_mymesh\_&#x200B;**c-mesh***&#x200B;に名前変更します&#x200B;*既定値：なし**<br><br>* |
+| <b>サブメッシュ名フィルター</b> | [ベイカー](../../../bakers/bakers.md)で&#x200B;**名前で一致**&#x200B;オプションを使用する場合、定義された&#x200B;**サフィックス**&#x200B;の前にある部分の名前が&#x200B;*同一*&#x200B;であれば、メッシュの低解像度バージョンと高解像度バージョンの部分は&#x200B;*一致*&#x200B;されます。 この設定を使用すると、特定のワークフローに合わせて独自のサフィックスを設定できます。 メッシュの一部を一致させると、ベイク処理でレイが不要なジオメトリを無視することがあります。例： *body.fbx*&#x200B;メッシュの&#x200B;*body-torso&#x200B;**\_low***&#x200B;オブジェクトは、*body\_high.fbx,*&#x200B;の&#x200B;*body-torso **\_high***&#x200B;オブジェクトと一致します&#x200B;*.**デフォルト： \_low （ローポリメッシュ） / \_high （ハイポリメッシュ）*同様に、**&#x200B;背面&#x200B;**は**&#x200B;背面を無視&#x200B;**&#x200B;オプション&#x200B;<br><br>*を含む[特定のベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/bakers-settings)に対して、定義された&#x200B;**サフィックス**&#x200B;を含む名前のメッシュの部分に対して*選択的に無視*されます。既定： \_ignorebf *<br><br>*&#x200B;注意：* 「背面を無視」および「低/高ポリゴンメッシュのサフィックス」は、任意の順序&lbrace;2で*結合できます（例です）。 *body-torso\_low\_ignorebf*)*** |
 
 ### カラーマネジメント
 
@@ -136,7 +136,7 @@ SBSパッケージがライブラリに追加される場合、**ライブラリ
 
 *既定：確認済み*
 
-ライブラリに含まれている[Photoshop](https://www.adobe.com/products/photoshop.html)ドキュメント（\*.PSDファイル）に<b>複数のレイヤー</b>がある場合、ライブラリの*&#x200B;各レイヤーのコンテンツを個別の画像項目*として表示するオプションを使用できます。
+ライブラリに含まれている[Photoshop](https://www.adobe.com/jp/products/photoshop.html)ドキュメント（\*.PSDファイル）に<b>複数のレイヤー</b>がある場合、ライブラリの*&#x200B;各レイヤーのコンテンツを個別の画像項目*として表示するオプションを使用できます。
 
 *既定：確認済み*
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
 description: Fur 1ノードを使用して、ヘア、布地、繊維状のマテリアルエフェクトを作成するための基本的なファーテクスチャを作成します。
 helpx_creative_field: ""

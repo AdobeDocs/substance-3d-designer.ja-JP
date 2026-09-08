@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: ホワイトノイズノードを使用して、テクスチャのバリエーションやランダムな効果を作成するためのホワイトノイズパターンを生成します。
 helpx_creative_field: ""

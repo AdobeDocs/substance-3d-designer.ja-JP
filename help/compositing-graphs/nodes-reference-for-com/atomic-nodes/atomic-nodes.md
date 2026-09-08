@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: 入力、出力、描画およびカラー調整などの基本的な操作については、Substance 3D Designerのアトミックノードにアクセスします。
 helpx_creative_field: ""
