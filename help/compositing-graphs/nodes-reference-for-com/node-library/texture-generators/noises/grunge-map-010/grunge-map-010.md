@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-010.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-010.html"
 breadcrumb-title: ''
 description: 経年劣化マップ010ノードを使用して、サーフェスのディテールおよび磨耗のエフェクトをマテリアルに加えるためのプロシージャル経年劣化 テクスチャを作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 経年劣化マップ010
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 8%
 
 ---
 
@@ -22,41 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungemap-010.png){width="128px"}
 
-## 経年劣化マップ010
-
-**イン：** *テクスチャジェネレータ**/ノイズ*
-
-**中級**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-これにより、複雑な結合されたNoisemapが生成されます。 これは詳細なプロシージャルとして非常に便利ですが、これらは非常に多くのパフォーマンスを必要とするため、生成が遅くなることに注意してください。
-
-## パラメーター
-
-* **亀裂**: *0.0 ～ 1.0*
-* **残高**: *0.0 ～ 1.0*\
-  明るさの調整のように、結果のバランスを黒と白の間でシフトします。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラストを調整します。
-* **反転**: *False/True*\
-  結果を反転します。
-* **ブラシパターン**: *0.0 ～ 1.0*\
-  ブラシのアルファとして使用する場合に、エッジの周囲にマスクを追加します。
-* **非正方形拡張**: *False/True*\
-  カボチャと伸縮の補正を非正方形の比率で有効にします。
-
-## サンプル画像
-
-![](../../../../../../assets/grungemap-010-ex.gif)
+これにより、複雑な結合されたNoisemapが生成されます。 これは詳細な手順として非常に便利ですが、これらは非常にパフォーマンスが高いため生成が遅くなることに注意してください。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>亀裂</b> <i>0.0 - 1.0</i> |  |
+| <b>残高</b> <i>0.0 - 1.0</i> | 明るさの調整のように、結果のバランスを黒と白の間でシフトします。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
+| <b>反転</b> <i>False/True</i> | 結果を反転します。 |
+| <b>ブラシパターン</b> <i>0.0 - 1.0</i> | ブラシのアルファとして使用する場合に、エッジの周囲にマスクを追加します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungemap-010-ex.gif" />
+        </td>
+    </tr>
 </table>

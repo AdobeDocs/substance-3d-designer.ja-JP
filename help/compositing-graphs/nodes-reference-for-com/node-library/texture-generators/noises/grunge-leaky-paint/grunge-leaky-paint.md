@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: 経年劣化漏れのあるペイントノードを使用して、風化および老朽化したサーフェスエフェクトを作成するためのペイント漏れパターンを作成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 経年劣化漏えいペイント
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
 
-**イン：** *テクスチャジェネレーター* */ノイズ*
-
-**単純**
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,31 +39,31 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **バランス** *浮動小数*&#x200B;暗い値と明るい値のバランスを調整します。
-* **コントラスト** *浮動小数*&#x200B;画像のコントラストを調整します。
-* **反転** *ブール値*`1-x`操作を使用して画像の出力を反転します。
-* **非正方形拡張** *ブーリアン*&#x200B;カボチャの補正を有効にし、非正方形の比率で伸縮します。
-* アドバンス
-  * **リークの強さ** *浮動小数*&#x200B;しずくの濃度と強さを調整します。
-  * **リークスケール** *整数*&#x200B;ドリップの分離のスケールを調整します。
-  * **リーク角度ランダム** *フロート* *最大角度*&#x200B;の滴をランダムに回転できる角度を&#x200B;*ターン数*&#x200B;で調整します。
-  * **リークの鮮明さ** *フロート*&#x200B;滴り落ちる液体の鮮明さとシャープさを調整します。
+|  |  |
+|:---|:---|
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>詳細</b> |  |
+| <b>リーク強度</b> <i>フロート</i> | 滴りの密度と強さを調整します。 |
+| <b>リークスケール</b> <i>整数</i> | ドリップの分離のスケールを調整します。 |
+| <b>リーク角度ランダム</b> <i>フロート</i> | *最大角度*&#x200B;の滴をランダムに回転して、*ターン数*&#x200B;で調整します。 |
+| <b>リークの鮮明さ</b> <i>フロート</i> | 滴る部分の鮮明さとシャープさを調整します。 |
 
-## サンプル画像
+## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungeleakypaint-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungeleakypaint-variant2.jpg" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: 経年劣化ダマスノードを使用して、華やかな風化したサーフェスのディテールを作り出すダマスクのような経年劣化パターンを作成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 経年劣化ダマ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungedamas.jpg){width="200px"}
 
-**イン：** *テクスチャジェネレータ**/ノイズ*
-
-**単純**
+<b>イン：</b> テクスチャジェネレーター> ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,19 +39,29 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **バランス** *浮動小数*&#x200B;暗い値と明るい値のバランスを調整します。
-* **コントラスト** *浮動小数*&#x200B;画像のコントラストを調整します。
-* **反転** *ブーリアン*&#x200B;画像の出力を反転します。`1-x`操作を使用します。
-* **非正方形拡張** *ブーリアン*&#x200B;カボチャの補正を有効にし、非正方形の比率で伸縮します。
-* アドバンス
-  * **ゆがみ** *浮動小数*&#x200B;パターン内のゆがみの量を調整します。
-  * **分割数** *整数*&#x200B;パターン内の分割数、つまりグラデーションの繰り返し数を調整します。
-  * **波** *整数*&#x200B;パターン内の波の量を調整します。
-  * **詳細** *浮動小数*&#x200B;小さいゆがみの強さを調整します。
-  * **回転ランダム** *浮動小数*&#x200B;各波の回転のランダム度を調整します。
+|  |  |
+|:---|:---|
+| <b>残高</b> <i>浮動小数</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>浮動小数</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブーリアン</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブーリアン</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+| <b>詳細</b> |  |
+| <b>ゆがみ</b> <i>浮動小数</i> | パターンのゆがみの量を調整します。 |
+| <b>区分</b> <i>整数</i> | パターンの分割数、つまりグラデーションの繰り返し数を調整します。 |
+| <b>波</b> <i>整数</i> | パターンの波の量を調整します。 |
+| <b>詳細</b> <i>フロート</i> | 小さい方のゆがみの強さを調整します。 |
+| <b>ランダムな回転</b> <i>フロート</i> | 各波の回転のランダム度を調整します。 |
 
-## サンプル画像
+## 例
 
-![](../../../../../../assets/grungedamas-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungedamas-variant.jpg" />
+        </td>
+    </tr>
+</table>

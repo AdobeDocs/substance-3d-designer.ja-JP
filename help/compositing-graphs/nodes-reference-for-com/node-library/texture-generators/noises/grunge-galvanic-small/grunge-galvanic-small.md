@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: 経年劣化ガルバニック小ノードを使用して、金属風化効果のための小規模なガルバニック腐食パターンを生成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ガルバニック経年劣化 （小）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
-**イン：** *テクスチャジェネレータ**/ノイズ*
-
-**単純**
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,30 +39,30 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **バランス** *浮動小数*&#x200B;暗い値と明るい値のバランスを調整します。
-* **コントラスト** *浮動小数*&#x200B;画像のコントラストを調整します。
-* **反転** *ブーリアン*&#x200B;画像の出力を反転します。`1-x`操作を使用します。
-* **非正方形拡張** *ブーリアン*&#x200B;カボチャの補正を有効にし、非正方形の比率で伸縮します。
-* アドバンス
-  * **鮮明さ** *浮動小数*&#x200B;亜鉛メッキを施したシェイプの鮮明さとシャープネスを調整します。
-  * **Dirt** *浮動小数* Dirtオーバーレイの不透明度を調整します。
-  * **マイクロゆがみ** *浮動小数*&#x200B;高周波ワープ効果の強さを調整します。
+|  |  |
+|:---|:---|
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>詳細</b> |  |
+| <b>鮮明さ</b> <i>フロート</i> | 亜鉛メッキを施したシェイプの鮮明さとシャープさを調整します。 |
+| <b>Dirt</b> <i>フロート</i> | Dirtオーバーレイの不透明度を調整します。 |
+| <b>マイクロゆがみ</b> <i>フロート</i> | 高周波ワープ効果の強度を調整します。 |
 
-## サンプル画像
+## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvanicsmall-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvanicsmall-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungegalvanicsmall-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungegalvanicsmall-variant.jpg" />
+        </td>
+    </tr>
 </table>
