@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
 breadcrumb-title: ''
 description: Crystal 1ノードを使用して、結晶性およびファセットテクスチャ効果を作成するためのクリスタルパターンを生成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: クリスタル1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 8%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/crystal-1.png){width="128px"}
 
-## クリスタル1
-
-**インチ：** *テクスチャジェネレーター**/ノイズ*
-
-**単純**
+<b>内：</b> テクスチャジェネレータ> ノイズ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 angular距離のメトリックがわずかに大きいWorlye Voronoi型のノイズを生成します。 特定のangularやジオメトリの目的で使用すると便利です。
 
-## パラメーター
-
-* **スケール**: *1 - 256*\
-  エフェクトのグローバルスケールを設定します。
-* **障害**: *0.0 ～ 1.0*\
-  ノイズを位相シフトして、小さな変動を発生させます。
-* **非正方形拡張**: *False/True*\
-  スカッシュとストレッチを非正方形の比率で補正できます。
-
-## サンプル画像
-
-![](../../../../../../assets/crystal-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>スケール</b> <i>1 - 256</i> | エフェクトのグローバルスケールを設定します。 |
+| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/crystal-1-ex.gif" />
+        </td>
+    </tr>
 </table>
