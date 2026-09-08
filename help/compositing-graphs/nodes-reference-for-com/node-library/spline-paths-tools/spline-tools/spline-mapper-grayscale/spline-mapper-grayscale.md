@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: スプラインマッパーグレースケールノードを使用して、カスタマイズ可能なパラメータを使用してスプラインパスに沿ってグレースケールテクスチャをマッピングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラインマッパーグレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-mapper-grayscale.resources/spline-mapper-grayscale-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-mapper-grayscale-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -90,13 +90,13 @@ ht-degree: 0%
 | <b>開始</b> <i>フロート</i> | マッピングするスプラインの部分の始点をオフセットします。<br>この値は、スプラインの正規化された長さを表します。 |
 | <b>終了</b> <i>フロート</i> | マッピングするスプライン部分の終点をオフセットします。<br>この値は、スプラインの正規化された長さを表します。 |
 | <b>Thicknessモード</b> <i>整数</i> | マップされたイメージのThicknessを設定するメソッド：<br>- <i>手動</i>：任意の値を使用してThicknessを明示的に設定します；<br>- <i>スプラインから</i>:スプラインのThicknessを使用します。 |
-| <b>Thickness</b> <i>浮動小数</i> | （「Thicknessモード」が「手動」に設定されている場合に使用可能）スプラインに沿ったマップされたイメージのThicknessの任意の値。 |
-| <b>Thickness乗数</b> <i>浮動小数</i> | （[Thicknessモード]が[スプラインから]に設定されている場合に使用可能）マップされたイメージがスプラインに沿ってThicknessするときのグローバルマルチプライヤ。このThicknessはスプラインによって駆動されます。 |
+| <b>Thickness</b> <i>フロート</i> | （「Thicknessモード」が「手動」に設定されている場合に使用可能）スプラインに沿ったマップされたイメージのThicknessの任意の値。 |
+| <b>Thickness乗数</b> <i>フロート</i> | （[Thicknessモード]が[スプラインから]に設定されている場合に使用可能）マップされたイメージがスプラインに沿ってThicknessするときのグローバルマルチプライヤ。このThicknessはスプラインによって駆動されます。 |
 | <b>図形</b> <i>整数</i> | スプラインに沿ったイメージ座標のマッピングに使用されるプリミティブシェイプ：<br>- <i>平面</i>：座標が平面にマッピングされます。<br>- <i>半円柱</i>：座標がスプラインの方向に沿った基本円の軸を持つ半円柱にマッピングされます。<br>- <i>円柱</i>：座標がスプラインの軸に沿った基本円の方向を持つ円柱にマッピングされます。 |
 | <b>シリンダHeight乗数</b> <i>フロート</i> | （[形状]が[半円柱]または[円柱]に設定されている場合に使用可能）Height出力における円柱のHeightの割合の強度の乗数。<br>Height調整は累積的です。 |
-| <b>円柱Heightのオフセット</b> <i>浮動小数</i> | （「シェイプ」が「円柱の半分」または「円柱」に設定されている場合に使用可能）円柱または円柱のシェイププロファイルの中心を、スプラインのサーフェスからサーフェスの下の1つの直径にオフセットします。 |
+| <b>円柱Heightのオフセット</b> <i>フロート</i> | （「シェイプ」が「円柱の半分」または「円柱」に設定されている場合に使用可能）円柱または円柱のシェイププロファイルの中心を、スプラインのサーフェスからサーフェスの下の1つの直径にオフセットします。 |
 | <b>UVのツイスト強度</b> <i>フロート</i> | （「シェイプ」が「半円柱」または「円柱」に設定されている場合に使用可能）円柱の周囲のイメージのツイストです。<br>ねじれにより、スプラインの端のみで円柱が回転します。 次に、回転がスプラインに沿って補間されます。 |
-| <b>ツイストUVカーブマルチプライヤ</b> <i>浮動小数</i> | （「シェイプ」が「半円柱」または「円柱」に設定されている場合に使用可能）円柱のツイストに対するTwist Curve入力の割合の強度の乗数。<br>曲線は、スプラインに沿った回転量のプロファイルを提供します。行の最初のピクセルはスプラインの始点での回転で、最後のピクセルは終点での回転です。 グレースケール値は回転の回数を表します。 |
+| <b>ツイストUVカーブマルチプライヤ</b> <i>フロート</i> | （「シェイプ」が「半円柱」または「円柱」に設定されている場合に使用可能）円柱のツイストに対するTwist Curve入力の割合の強度の乗数。<br>曲線は、スプラインに沿った回転量のプロファイルを提供します。行の最初のピクセルはスプラインの始点での回転で、最後のピクセルは終点での回転です。 グレースケール値は回転の回数を表します。 |
 | <b>ツイストUVカーブオフセット</b> <i>フロート</i> | （&#39;Shape&#39;が&#39;Half Cylinder&#39;または&#39;Cylinder&#39;の場合に使用可能）Twist Curveによって指定された回転値に対して、回転の回数でグローバルオフセットを適用します。 |
 | <b>スプラインHeight乗数</b> <i>フロート</i> | Height出力に対するスプラインHeight入力の影響の強さを調整します。<br>Height調整は累積的です。 |
 | <b>入力Height乗数</b> <i>フロート</i> | Height出力に対する高さマップ入力の影響の強さを調整します。<br>Height調整は累積的です。 |
@@ -111,11 +111,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-03.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](spline-mapper-grayscale.resources/spline-mapper-grayscale-04.gif "ノードの例2")
+![ノードの例2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "ノードの例2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例3](spline-mapper-grayscale.resources/spline-mapper-grayscale-05.jpg "ノードの例3")
+![ノードの例3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "ノードの例3")
 
 </td>
 <td style="border: 0;" valign="top">

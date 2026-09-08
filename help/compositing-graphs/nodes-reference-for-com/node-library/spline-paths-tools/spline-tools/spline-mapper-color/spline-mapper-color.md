@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: スプラインマッパーの色ノードを使用して、カスタマイズ可能なパラメータを使用してスプラインパスに沿ってカラーテクスチャをマッピングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラインマッパーカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-mapper-color.resources/spline-mapper-color-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-mapper-color-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -112,11 +112,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-color.resources/spline-mapper-color-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="spline-mapper-color.resources/spline-mapper-color-03.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](spline-mapper-color.resources/spline-mapper-color-04.gif "ノードの例2")
+![ノードの例2](../../../../../../assets/SplineMapperColor-Demo.gif "ノードの例2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例3](spline-mapper-color.resources/spline-mapper-color-05.jpg "ノードの例3")
+![ノードの例3](../../../../../../assets/SplineMapperColor-Variant1-After1.jpg "ノードの例3")
 
 </td>
 <td style="border: 0;" valign="top">

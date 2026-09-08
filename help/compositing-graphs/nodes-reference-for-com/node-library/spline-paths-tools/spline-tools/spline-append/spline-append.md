@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: '[スプライン追加]ノードを使用して、複数のスプラインを一緒に追加し、長い連続パスを作成します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン追加
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-append.resources/spline-append-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-append-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -77,8 +77,8 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>スプライン#1方向を反転</b> <i>ブール値</i> | 最初のセットのスプラインの方向を反転します。 |
-| <b>スプライン#2方向を反転</b> <i>ブール値</i> | 2番目のセットのスプラインの方向を反転します。 |
+| <b>スプライン#1方向を反転</b> <i>ブーリアン</i> | 最初のセットのスプラインの方向を反転します。 |
+| <b>スプライン#2方向を反転</b> <i>ブーリアン</i> | 2番目のセットのスプラインの方向を反転します。 |
 | <b>プレビュー</b> |  |
 | <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインのビジュアライゼーションを描画するために使用するセグメントの数を調整します。 値が大きいほど、線は滑らかになります。 |
 | <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
@@ -91,15 +91,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](spline-append.resources/spline-append-02.jpg "ノードの例1")
+![ノードの例1](../../../../../../assets/SplineAppend-Demo.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](spline-append.resources/spline-append-03.jpg "ノードの例2")
+![ノードの例2](../../../../../../assets/SplineAppend-Graph.jpg "ノードの例2")
 
 </td>
 </tr>
 </table>
 
-![ノードデモ](spline-append.resources/spline-append-04.gif "ノードデモ")
+![ノードデモ](../../../../../../assets/SplineAppend-Demo2.gif "ノードデモ")

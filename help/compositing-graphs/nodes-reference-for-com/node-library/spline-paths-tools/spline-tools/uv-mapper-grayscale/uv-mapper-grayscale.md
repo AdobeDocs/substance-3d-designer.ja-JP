@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
 breadcrumb-title: ''
 description: UVマッパーグレースケールノードを使用して、手続き型テクスチャ生成用にスプラインに沿ってグレースケールテクスチャをマップします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UVマッパーグレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](uv-mapper-grayscale.resources/uv-mapper-grayscale-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/uv-mapper-grayscale-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -69,11 +69,11 @@ UV入力で指定された座標を使用して、入力グレースケールイ
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-02.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-03.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ UV入力で指定された座標を使用して、入力グレースケールイ
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-04.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-05.jpg" alt="UVMapper-Variant2-After">
+      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -99,4 +99,4 @@ UV入力で指定された座標を使用して、入力グレースケールイ
 </tr>
 </table>
 
-![ノードの例1](uv-mapper-grayscale.resources/uv-mapper-grayscale-06.jpg "ノードの例1")
+![ノードの例1](../../../../../../assets/UVMapper-Graph.jpg "ノードの例1")

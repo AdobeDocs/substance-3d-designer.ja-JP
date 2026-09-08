@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Pathsポリゴンノードを使用して、ジオメトリパターンを生成するための頂点データからポリゴンパスを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多角形のパス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](paths-polygon.resources/paths-polygon-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/paths-polygon-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -63,12 +63,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](paths-polygon.resources/paths-polygon-02.jpg "ノードの例1")
+![ノードの例1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](paths-polygon.resources/paths-polygon-03.jpg "ノードの例2")
+![ノードの例2](../../../../../../assets/PathsPolygon_Variant2.jpg "ノードの例2")
 
 </td>
 </tr>

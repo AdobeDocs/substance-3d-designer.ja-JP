@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: '[点リスト]ノードを使用して、スプラインおよびパスの生成に使用する点のリストを作成および管理します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ポイントリスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](point-list.resources/point-list-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/point-list-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> <b>ポイントリスト</b>と<b>ポイント番号</b>コネクタは、<b>スプライン座標</b>、<b>スプラインデータ</b>および<b>スプライン量</b>コネクタと&#x200B;*互換性がありません*。これらのコネクタは異なるデータに依存しています。
+> <b>ポイントリスト</b>と<b>ポイント番号</b>のコネクターは、<b>スプライン座標</b>、<b>スプラインデータ</b>および<b>スプライン量</b>のコネクターと&#x200B;*互換性がありません*&#x200B;これらは異なるデータに依存しています。
 
 <a name="inputs"></a>
 
@@ -93,12 +93,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](point-list.resources/point-list-02.jpg "ノードの例1")
+![ノードの例1](../../../../../../assets/PointList-Variant1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](point-list.resources/point-list-03.gif "ノードの例2")
+![ノードの例2](../../../../../../assets/PointList-Demo1.gif "ノードの例2")
 
 </td>
 </tr>

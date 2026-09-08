@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
 description: UVマッパーの色ノードを使用して、プロシージャテクスチャ生成用のカラーテクスチャをスプラインに沿ってマップします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UVマッパーカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](uv-mapper-color.resources/uv-mapper-color-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/uv-mapper-color-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -77,11 +77,11 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-Variant1-After">
+      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 </tr>
 </table>
 
-![グラフのノード](uv-mapper-color.resources/uv-mapper-color-06.jpg "グラフのノード")
+![グラフのノード](../../../../../../assets/UVMapperColor-Graph.jpg "グラフのノード")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: '[スプライングレースケール]ノードの散乱を使用して、手続き型パターンのスプラインパスに沿ってグレースケール要素を分配します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライングレースケールの散乱
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/scatter-on-spline-grayscale-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 | <b>スプラインHeight乗数</b> <i>フロート</i> | 各パターンの色が、その場所でのスプラインのHeightに対して乗算される強さ。<br>注意：出力カラーは、すべてのカラー乗数の重み付けされた結果です。 |
 | <b>シェイプのスケール乗数</b> <i>フロート</i> | 各パターンの色がそのスケールに対して乗算される強度です。<br>注意：出力される色は、すべての色の乗数の重み付けされた結果です。 |
 | <b>ランダムな輝度</b> <i>フロート</i> | 指定された値までランダム乗数を適用して、パターンの輝度を下げます。<br>注意：出力カラーは、すべてのカラー乗数の重み付けされた結果です。 |
-| <b>Height入力乗数</b> <i>浮動小数</i> | 高さマップ入力の強さを制御します。 このマップは、パターンの現在の輝度の乗数として機能します。<br>このマップの効果は、&#39;Color&#39;グループの他のパラメーターと組み合わされます。<br>注意：出力カラーは、すべてのカラー乗数の重み付けされた結果です。 |
+| <b>Height入力乗数</b> <i>フロート</i> | 高さマップ入力の強さを制御します。 このマップは、パターンの現在の輝度の乗数として機能します。<br>このマップの効果は、&#39;Color&#39;グループの他のパラメーターと組み合わされます。<br>注意：出力カラーは、すべてのカラー乗数の重み付けされた結果です。 |
 | <b>Heightマップ入力サンプリングモード</b> <i>整数</i> | 高さマップの値をスプラインにマッピングする方式：<br><br>- <i>テクスチャ空間</i>：値は、テクスチャのUV座標を使用してテクスチャに配置する場合にスプラインに適用されます。 これにより、値がスプラインに「その場で」適用されます。<br>- <i>スプラインに沿った水平</i>：値は、エンコードされたスプラインの座標に直接適用されます（「スプライン座標」の入力を参照）。ここで、各行は上から下まで異なるスプラインに適用されます。<br>- <i>Hor。 スプラインに沿って（ランダム偏差） オフセットX)</i>：値は、エンコードされたスプラインの座標に直接適用され（スプライン座標の入力を参照）、各スプラインのスケールマップ内のランダムな水平オフセット（スプライン座標の各行）で使用されます。<br>- <i>水平 スプラインに沿って（ランダム偏差） オフセットY)</i>：値は、エンコードされたスプラインの座標に直接適用され（スプライン座標の入力を参照）、各スプラインのスケールマップ内のランダムな垂直オフセット（スプライン座標の各行）を伴います。 |
 | <b>ランダムなマスク</b> <i>フロート</i> | パターンのランダムマスクの範囲を調整します。0はパターンがマスクされていないことを、1はすべてのパターンがマスクされていることを示します。 |
 | <b>マスクマップのしきい値</b> <i>フロート</i> | このスレッショルド値を下回るMask Mapの値は黒として処理され、しきい値を上回る値は白として処理されます。<br>これは、この値より下のマスクマップの領域にあるすべてのパターンがマスクされることを意味します。 |
@@ -160,11 +160,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "ノードの例2")
+![ノードの例2](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "ノードの例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードデモ2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "ノードデモ2")
+![ノードデモ2](../../../../../../assets/ScatterOnSplineGrayscale-Demo2.gif "ノードデモ2")
 
 </td>
 </tr>
