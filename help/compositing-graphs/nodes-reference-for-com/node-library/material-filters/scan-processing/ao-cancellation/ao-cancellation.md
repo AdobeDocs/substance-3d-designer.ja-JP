@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
 description: 「AOキャンセル」ノードを使用して、スキャンしたマテリアルからambient occlusionを取り除き、クリーンなテクスチャ処理を行います。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: AOのキャンセル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/ao-cancel.png){width="128px"}
 
-## AOのキャンセル
-
-**イン：** *マテリアルフィルター/スキャン処理*
-
-**単純**
+<b>イン：</b> マテリアルフィルター > スキャン処理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,17 +37,15 @@ ht-degree: 1%
 
 スキャンしたメッシュからAOマップをベイクする場合や、Heightまたは通常の情報からAOマップを生成する場合に便利です。
 
-## パラメーター
-
-* **AOの取り消し**: *0.0 - 1.0*&#x200B;照度情報を削除する強さ。
-* **青の彩度**: *0.0 ～ 1.0*（脱）照明が除去された領域の彩度の補正。 このエフェクトは、暗い領域で失われたカラーを返すために使用できます。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>AOのキャンセル</b> <i>0.0 - 1.0</i> | 照明情報を削除する強さです。 |
+| <b>青の彩度</b> <i>0.0 - 1.0</i> | (De)照明が除去される領域の彩度の補正。 このエフェクトは、暗い領域で失われたカラーを返すために使用できます。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
 breadcrumb-title: ''
 description: マテリアルの切り抜きノードを使用すると、特定の関心領域を分離するために、スキャンしたマテリアルからテクスチャ領域を切り抜くことができます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: マテリアルの切り抜き
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/crop-material.png){width="128px"}
 
-## マテリアルの切り抜き
-
-**イン：** *マテリアルフィルター/スキャン処理*
-
-**単純**
+<b>イン：</b> マテリアルフィルター > スキャン処理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,27 +37,20 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> [詳細については、元の画像を参照してください](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [切り抜き](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
-
-## パラメーター
-
-### パラメーター
-
-* **チャネル**
-  * この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用します。
-* **入力サイズ**: *0 - 8192*&#x200B;入力画像の解像度と縦横比。 非正方形の画像では非常に重要です。
-* **背景**: *（カラー値） / （グレースケール値）*切り抜きによってカバーされない領域の背景の均一値。
-* **変換**: *（変換行列）*\
-  結果を回転およびスケールします。 カンバスを直接操作して、結果を変更できます。
-* **オフセット**: *0.0 - 1.0*\
-  結果を移動または変換します。 カンバスを直接操作して、結果を変更できます。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
+> [詳細については、元の画像を参照してください](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[切り抜き](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用します。 |
+| <b>入力サイズ</b> <i>0 - 8192</i> | 入力画像の解像度と縦横比。 非正方形の画像では非常に重要です。 |
+| <b>背景</b> <i>（カラー値） / （グレースケール値）</i> | 切り抜きによってカバーされない領域の背景の均一値。 |
+| <b>変形</b> <i>（変換行列）</i> | 結果を回転およびスケールします。 カンバスを直接操作して、結果を変更できます。 |
+| <b>オフセット</b> <i>0.0 - 1.0</i> | 結果を移動または変換します。 カンバスを直接操作して、結果を変更できます。 |

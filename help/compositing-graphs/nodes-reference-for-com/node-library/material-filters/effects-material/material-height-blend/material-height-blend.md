@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: マテリアルHeightのブレンドノードを使用すると、レイヤ化されたマテリアル効果を作成するためのHeightマップに基づいて、複数のマテリアルをブレンドできます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: マテリアルHeightブレンド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/material-height-blend.png){width="128px"}
 
-## マテリアルHeightブレンド
-
-**内：** *マテリアルフィルター/効果*
-
-**中級**
+<b>内：</b> マテリアルフィルター >エフェクト
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,26 +39,19 @@ ht-degree: 1%
 
 水や雪に溶け込ませたい場合は、代わりにノード[Snowカバー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)と[水位](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)を使用できます。
 
-## パラメーター
-
-### パラメーター
-
-* **チャネル**\
-  この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。
-* **Heightオフセット**: *0.0 ～ 1.0* Heightの軸に沿って描画レベルが動くように、Heightmapsをオフセットします。 これは、ブレンドのメインコントロールです。
-* **コントラスト**: *0.0 ～ 1.0*\
-  ブレンドのコントラストを調整し、トランジションをよりシャープにします。
-* **モード**: *バランスの取れたHeight、下のHeightの優先度* 2つの異なる描画モードを切り替えます。
-* **不透明度**: *0.0 ～ 1.0*\
-  前景Heightの描画の不透明度を調整して、フェードインまたはフェードアウトさせます。
-* **アルベドの一致**: *0.0 ～ 1.0*&#x200B;アルベドの色の間で行う内部色の一致の量です。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
+| <b>Heightオフセット</b> <i>0.0 - 1.0</i> | 軸に沿ってブレンドレベルが動くように、高さマップをオフセットします。 これは、ブレンドのメインコントロールです。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | ブレンドのコントラストを調整し、トランジションをよりシャープにします。 |
+| <b>モード</b> <i>バランスの取れたHeight、下位Heightの優先度</i> |  |
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 前景Heightの描画の不透明度を調整して、フェードインまたはフェードアウトさせます。 |
+| <b>アルベドの一致</b> <i>0.0 - 1.0</i> | アルベドカラー間で行う内部カラーマッチングの量。 |

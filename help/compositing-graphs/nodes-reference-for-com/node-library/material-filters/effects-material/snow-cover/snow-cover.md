@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
 breadcrumb-title: ''
 description: Snowカバーノードを使用して、サーフェスの角度と位置に基づいてマテリアルに雪の積み重ね効果を加えます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Snowカバー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 8%
 
 ---
 
@@ -22,46 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/snow-cover.png){width="128px"}
 
-## Snowカバー
-
-**内：** *マテリアルフィルター/効果*
-
-**中級**
+<b>内：</b> マテリアルフィルター >エフェクト
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 オールインワン効果で、マテリアル全体に雪が積もります。 フォトスキャンなどの高画質のHeightmapを使用することを強く想定しています。 結果はPBRで正しいことを意図しています。
 
-## パラメーター
-
-### 入力
-
-* **マスク（オプション）**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **チャネル**\
-  この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。
-* **新しいSnow**: *0.0 ～ 1.0*&#x200B;起伏のある領域の積雪量を設定します。 結果は溶融Snowパラメータに関連付けられます。
-* **溶けたSnow**: *0.0 ～ 1.0*&#x200B;下がったコーナーで溶けた雪の量を設定します。
-* **ビルドアップ**: *0.0 ～ 1.0* Height出力に主に影響を与え、Heightの重ね合わせ効果を決定します。
-* **Smoothness**: *0.0 ～ 1.0*&#x200B;積雪によるHeightの細部の滑らかさを設定します。
-* **フレークの適用度**: *0.0 ～ 1.0*&#x200B;主にノーマルマップ、フレークのディテールの適用度に影響します。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
+| <b>新しいSnow</b> <i>0.0 - 1.0</i> | 起立した領域の雪の量を設定します。 結果は溶融Snowパラメータに関連付けられます。 |
+| <b>溶けたSnow</b> <i>0.0 - 1.0</i> | 下げたコーナーの雪解け量を設定します。 |
+| <b>ビルドアップ</b> <i>0.0 - 1.0</i> | 主にHeight出力に影響し、Heightの重ね合わせ効果を決定します。 |
+| <b>Smoothness</b> <i>0.0 - 1.0</i> | 積雪によるHeightのディテールを滑らかにします。 |
+| <b>フレークの適用度</b> <i>0.0 - 1.0</i> | 主にノーマルマップ、フレークのディテールの強度に影響します。 |
