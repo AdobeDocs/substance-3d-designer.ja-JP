@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
 breadcrumb-title: ''
 description: Nadir Extractノードを使用して、環境マップの底部領域を処理するために、HDRIパノラマから底部領域を抽出します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir Extract
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,29 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/nadir-extract.png){width="200px"}
 
-## Nadir Extract
-
-**イン：** *3D ビュー/HDRI ツール*
-
-**単純**
+<b>内：</b> 3D ビュー > HDRI ツール
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 球状マップされた入力画像の中央のグラウンドポイント（床面）を抽出します。 カメラまたは三脚をマスクして、一方の画像の床面をもう一方の画像の床面に移動するために使用できます。
 
-## パラメーター
-
-* **スケール**: *0.0 ～ 10.0*\
-  地表ポイントの「ズームレベル」を設定
-* **回転**: *0.0 ～ 1.0*\
-  中心軸を中心に回転します。
-* **出力ガンマ**: *sRGB、リニア*&#x200B;出力ガンマ。
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>スケール</b> <i>0.0 - 10.0</i> | 地表ポイントの「ズームレベル」を設定 |
+| <b>回転</b> <i>0.0 - 1.0</i> | 中心軸を中心に回転します。 |
+| <b>出力ガンマ</b> <i>sRGB、リニア</i> | 出力ガンマ。 |
