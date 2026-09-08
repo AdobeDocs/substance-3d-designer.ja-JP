@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
-description: 「ヒストグラム範囲」ノードを使用すると、カラー補正と補正のヒストグラム範囲に基づいてテクスチャ値を再マップできます。
+description: '[ヒストグラム範囲]ノードを使用して、カラー補正と調整のヒストグラム範囲に基づいてテクスチャ値を再マップします。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ヒストグラム範囲
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/histogram-range-1.png){width="128px"}
 
-## ヒストグラム範囲
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -42,15 +38,25 @@ ht-degree: 1%
 
 [ここをクリックして、ヒストグラムの範囲に関するSubstanceアカデミーのビデオを視聴します。](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## パラメーター
-
-* **範囲**: *0.0 ～ 1.0*&#x200B;範囲の減少量。 これは、最小レベルと最大レベルの両方のスライダーを内側に移動することと似ています。
-* **位置**: *0.0 ～ 1.0*&#x200B;範囲の縮小のオフセット。範囲の縮小に別の中間点を設定します。
-
-## サンプル画像
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>範囲</b> <i>0.0 - 1.0</i> | 範囲を縮小する範囲。 これは、最小レベルと最大レベルの両方のスライダーを内側に移動することと似ています。 |
+| <b>位置</b> <i>0.0 - 1.0</i> | 「オフセット」では、範囲を縮小するために別の中心点を設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

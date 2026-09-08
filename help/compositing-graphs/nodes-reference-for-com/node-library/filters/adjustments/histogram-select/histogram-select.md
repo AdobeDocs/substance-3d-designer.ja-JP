@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
 description: ヒストグラム選択ノードを使用して、対象の調整のために、テクスチャヒストグラムから特定の範囲を選択して抽出します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ヒストグラムの選択
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/histogram-select.png){width="128px"}
 
-## ヒストグラムの選択
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,17 +37,26 @@ ht-degree: 1%
 
 [ここをクリックして、ヒストグラムの選択に関するSubstanceアカデミーのビデオをご覧ください。](https://youtu.be/p9wcmJBFyGA?t=535)
 
-## パラメーター
-
-* **位置**: *0.0 ～ 1.0*&#x200B;範囲の選択を行う中央の位置を設定します。
-* **範囲**: *0.0 ～ 1.0*&#x200B;選択範囲の幅を設定します。
-* **コントラスト**: *0.0 ～ 1.0*\
-  結果のコントラスト/フォールオフを調整します。
-
-## サンプル画像
-
-![](../../../../../../assets/histoselect-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>位置</b> <i>0.0 - 1.0</i> | 範囲選択を行う中央の位置を設定します。 |
+| <b>範囲</b> <i>0.0 - 1.0</i> | 選択範囲の幅を設定します。 |
+| <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラスト/フォールオフを調整します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/histoselect-ex.gif" />
+        </td>
+    </tr>
 </table>

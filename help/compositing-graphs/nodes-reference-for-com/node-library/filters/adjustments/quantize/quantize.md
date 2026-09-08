@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
 breadcrumb-title: ''
-description: 「カラーの量子化」ノードを使用すると、ポスタリゼーションおよびスタイル化されたエフェクトを作成するためのテクスチャのカラー数を減らすことができます。
+description: 「カラーの量子化」ノードを使用すると、ポスタリゼーションおよびスタイル化されたエフェクトを作成するために、テクスチャの色数を減らすことができます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color (Simple)
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: カラーの量子化（シンプル）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -39,14 +39,13 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-<b>レッドチャンネルのクオンタイズ</b> *整数*&#x200B;レッドチャンネルに近似するステップ数を設定します。
-
-<b>グリーンチャンネルのクオンタイズ</b> *整数*&#x200B;グリーンチャンネルに近似するステップ数を設定します。
-
-<b>ブルーチャンネルのクオンタイズ</b> *整数*
-
-ブルーチャンネルを近似するステップ数を設定します。
-
-<b>クオンタイズアルファチャンネル</b> *整数*&#x200B;アルファチャンネルの概算に使用するステップ数を設定します。
+|  |  |
+|:---|:---|
+| <b>レッドチャンネルのクオンタイズ</b> *整数* | 赤チャンネルを近似するステップ数を設定します。 |
+| <b>グリーンチャンネルのクオンタイズ</b> *整数* | グリーンチャンネルを近似するステップ数を設定します。 |
+| <b>ブルーチャンネルのクオンタイズ</b> *整数* | ブルーチャンネルを近似するステップ数を設定します。 |
+| <b>Alphaチャンネルのクオンタイズ</b> *整数* | アルファチャンネルを近似するステップ数を設定します。 |

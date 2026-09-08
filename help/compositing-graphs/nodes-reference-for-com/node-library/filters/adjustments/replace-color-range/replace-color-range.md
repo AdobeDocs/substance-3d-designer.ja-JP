@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
 breadcrumb-title: ''
 description: カラー範囲の置き換えノードを使用して、指定した範囲内のカラーをカラー補正のために新しいカラーに置き換えます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: カラー範囲を置換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/replace-color-range.png){width="128px"}
 
-## カラー範囲を置換
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,20 +37,27 @@ ht-degree: 1%
 
 より詳細なバージョンについては、[カラーマッチ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)を参照してください。
 
-## パラメーター
-
-* **ソースカラー**: *（カラー値）*置き換える色。
-* **ターゲットの色**: *（色の値）*置き換える色。
-* **ソース範囲**: *0.0 -* 1.0\
-  選択したソースの範囲または許容値。 隣接するカラーの色相もシフトされるように、色相を大きくすることができます。
-* **しきい値**: *0.0 ～ 1.0*&#x200B;範囲のフォールオフ/コントラスト。 ソースカラーのみを置き換えるには低く、ソースカラーにブレンドするカラーを置き換えるには高く設定します。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-range-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>ソースカラー</b> <i>（カラー値）</i> | 置き換えるカラー。 |
+| <b>ターゲットの色</b> <i>（カラー値）</i> | 置き換えるカラー。 |
+| <b>ソース範囲</b> <i>0.0 - 1.0</i> | 選択したソースの範囲または許容値。 隣接するカラーの色相もシフトされるように、色相を大きくすることができます。 |
+| <b>しきい値</b> <i>0.0 - 1.0</i> | 範囲の減衰/コントラスト。 ソースカラーのみを置き換えるには低く、ソースカラーにブレンドするカラーを置き換えるには高く設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/replace-color-range-example.png" />
+        </td>
+    </tr>
 </table>

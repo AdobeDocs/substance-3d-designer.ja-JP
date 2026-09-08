@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
-description: '[ヒストグラムの計算]ノードを使用して、分析と処理のためにテクスチャからヒストグラムデータを計算します。'
+description: '[ヒストグラムの計算]ノードを使用して、解析および処理のためにテクスチャからヒストグラムデータを計算します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ヒストグラム計算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-グレースケールイメージのヒストグラムを計算します。
+グレースケール画像のヒストグラムを計算します。
 
 ヒストグラムは、画像内のピクセルの行としてエンコードされます。各ピクセル値は、X 軸上のピクセルの位置に一致するカラー値の&#x200B;*母集団*&#x200B;です。\
 例えば、(0.25, 0)のピクセル値が75の場合は、画像に0.25のカラー値を持つ75個のピクセルが存在することを意味します。
@@ -50,43 +50,29 @@ ht-degree: 1%
 >
 > [0,1]範囲外の値はすべてクランプされるので、HDRイメージのヒストグラムが正確でない場合があります。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-</tr>
-</table>
-
-## 入力コネクター
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>入力</b> *グレースケール*&#x200B;プライマリ | ヒストグラムの計算対象となる画像。 |
+|:---|:---|
+| <b>入力</b> <i>グレースケール</i>プライマリ | ヒストグラムの計算対象となる画像。 |
 
-## 出力コネクター
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>ヒストグラム</b> *グレースケール* | 入力画像について計算されたヒストグラムで、ピクセルの行としてエンコードされます。各ピクセル値は、X 軸上のピクセルの位置に一致するカラー値の&#x200B;*母集団*&#x200B;です。   例えば、(0.25, 0)のピクセル値が75の場合は、画像に0.25のカラー値を持つ75個のピクセルが存在することを意味します。 |
-| <b>CDF</b> *グレースケール* | 画像に対して計算された&#x200B;*累積分布関数* (CDF)の結果。各ピクセルが左側のすべてのピクセル値の合計であるピクセルの行にエンコードされます。   その合計は、画像内の総ピクセル数に対して&#x200B;*正規化*&#x200B;されます。 |
+|:---|:---|
+| <b>ヒストグラム</b> <i>グレースケール</i> | 入力画像について計算されたヒストグラムで、ピクセルの行としてエンコードされます。各ピクセル値は、X 軸上のピクセルの位置に一致するカラー値の&#x200B;*母集団*&#x200B;です。   例えば、(0.25, 0)のピクセル値が75の場合は、画像に0.25のカラー値を持つ75個のピクセルが存在することを意味します。 |
+| <b>CDF</b> <i>グレースケール</i> | 画像に対して計算された&#x200B;*累積分布関数* (CDF)の結果。各ピクセルが左側のすべてのピクセル値の合計であるピクセルの行にエンコードされます。   その合計は、画像内の総ピクセル数に対して&#x200B;*正規化*&#x200B;されます。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>ヒストグラムの解像度</b> *整数* | ヒストグラムの幅。 値を大きくすると、より細かい値の分布が可能になります。   使用可能な解像度は、ピクセル単位で256、512、1024、2048、4096です |
 
 ## 例

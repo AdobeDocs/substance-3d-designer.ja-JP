@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
-description: Powノードを使用して、テクスチャにパワー関数調整を適用し、明るさカーブとガンマ補正を制御します。
+description: 「Pow」ノードを使用すると、明るさのカーブとガンマ補正を制御するためのテクスチャに対して、パワー関数の調整を行うことができます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '84'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/pow-1.png){width="128px"}
 
 ![](../../../../../../assets/pow-grayscale.png){width="128px"}
 
-## Pow （グレースケール）
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,14 +39,24 @@ ht-degree: 4%
 
 重要：カラーとグレースケールのどちらの入力があるかに応じて、正しいバージョンを使用してください。
 
-## パラメーター
-
-* **指数**: *0.0 ～ 10.0*&#x200B;入力の指数を求める指数。
-
-## サンプル画像
-
-![](../../../../../../assets/pow.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>指数</b> <i>0.0 - 10.0</i> | 入力の指数を指定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/pow.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: ヒストグラムのイコライザーノードを使用して、ピクセルの強度を再分散し、コントラストと明るさを向上させます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ヒストグラムイコライザー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -33,50 +33,36 @@ ht-degree: 2%
 
 ## 説明
 
-グレースケールイメージのヒストグラムを平均化し、均一な分布を目指してグレースケール値を効率的に調整します。
+グレースケール画像のヒストグラムを平均化し、均一な分布を目指してグレースケール値を効率的に調整します。
 
 </td>
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-</tr>
-</table>
-
-## 入力コネクター
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>入力</b> *グレースケール*&#x200B;プライマリ | ヒストグラムを平均化する画像。 |
+|:---|:---|
+| <b>入力</b> <i>グレースケール</i>プライマリ | ヒストグラムを平均化する画像。 |
 
-## 出力コネクター
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | ヒストグラムのイコライゼーションが適用された結果画像。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | ヒストグラムのイコライゼーションが適用された結果画像。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>ヒストグラムの解像度</b> *整数* | ヒストグラムの幅。 値を大きくすると、より細かい値の分布が可能になります。   使用可能な解像度は、ピクセル単位で256、512、1024、2048、4096です |
-| <b>ヒストグラムのスムージング</b> *浮動小数* | ヒストグラムは、画像内のグレースケール値を再配分して、各値の間の&#x200B;*差*&#x200B;を均等にすることでスムージングできます。   このパラメーターは、スムージングの強度を調整します。 |
+| <b>ヒストグラムのスムージング</b> *フロート* | ヒストグラムは、画像内のグレースケール値を再配分して、各値の間の&#x200B;*差*&#x200B;を均等にすることでスムージングできます。   このパラメーターは、スムージングの強度を調整します。 |
 
 ## 例
 

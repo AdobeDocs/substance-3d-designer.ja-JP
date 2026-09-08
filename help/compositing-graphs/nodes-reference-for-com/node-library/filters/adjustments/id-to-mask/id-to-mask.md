@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
-description: 「IDを使用してグレースケールをマスク」ノードを使用して、マテリアルの値をID マップ選択範囲のグレースケールマスクに変換します。
+description: 「IDを使用してグレースケールをマスク」ノードを使用して、IDマップ値をマテリアル選択用のグレースケールマスクに変換します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ID To Mask Grayscale
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: グレースケールをマスクするID
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -33,53 +33,39 @@ ht-degree: 1%
 
 ## 説明
 
-選択したピクセル値を持つピクセルが白になるID マップからマスクを作成します。
+選択したピクセル値を持つピクセルが白になるIDマップからマスクを作成します。
 
-ID マップとは、全体の一部（シェイプなど）であるピクセルがすべて同じ一意のID値を保持している画像です。 この場合、値は整数です。
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
+IDマップは、全体（例えば、シェイプ）の一部であるピクセルがすべて同じ一意の識別値を保持する画像です。 この場合、値は整数です。
 
 </td>
 </tr>
 </table>
 
-## 入力コネクター
+<a name="inputs"></a>
+
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *グレースケール*&#x200B;プライマリ | マスクを抽出する入力ID マップ。 |
+|:---|:---|
+| <b>ID</b> <i>グレースケール</i>プライマリ | マスクの抽出元となる入力IDマップ。 |
 
-## 出力コネクター
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 入力ID マップから抽出されたバイナリマスク。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 入力IDマップから抽出されたバイナリマスク。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>選択モード</b> *整数* | マスクで白にする必要があるID マップのピクセル値を選択する方式です。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>ソロ：</b>単一ピクセル値を選択</li> <li data-preserve-html="true"><b>範囲：</b>ピクセル値の範囲を選択します</li> </ul> |
-| <b>ID 整数</b> *整数* *[選択モード]が[ソロ]に設定されている場合に利用可能* | 出力マスクで白にするID マップのピクセル値。 |
-| <b>ID範囲</b> *整数2* *&#39;選択範囲モード&#39;が&#39;範囲&#39;に設定されている場合に使用可能* | ID マップ内のピクセル値の範囲です。最初から最後までで、出力マスクでは白になります。 |
+|:---|:---|
+| <b>選択モード</b> *整数* | IDマップのピクセル値を選択する方法です。マスクでは白にする必要があります。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>ソロ：</b>単一ピクセル値を選択</li> <li data-preserve-html="true"><b>範囲：</b>ピクセル値の範囲を選択します</li> </ul> |
+| <b>ID整数</b> *整数* *[選択モード]が[ソロ]に設定されている場合に使用できます* | 出力マスクで白にする必要があるIDマップ内のピクセル値。 |
+| <b>ID範囲</b> *Integer2* *&#39;選択モード&#39;が&#39;範囲&#39;に設定されている場合に使用できます* | IDマップのピクセル値の範囲（開始から終了まで）です。出力マスクでは白になります。 |
 
 ## 例
 

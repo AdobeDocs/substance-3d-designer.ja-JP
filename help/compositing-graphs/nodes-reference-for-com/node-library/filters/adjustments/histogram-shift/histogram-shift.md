@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
 breadcrumb-title: ''
 description: 「ヒストグラムシフト」ノードは、明るさとコントラストの範囲を調整するためにテクスチャのヒストグラム分布をシフトする場合に使用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ヒストグラムシフト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/histogram-shift-1.png){width="128px"}
 
-## ヒストグラムシフト
-
-**イン：** *フィルター/調整*
-
-**単純**
+<b>イン:</b>フィルター/調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,17 +37,27 @@ ht-degree: 2%
 
 [ここをクリックして、Substanceアカデミーのヒストグラムシフトに関するビデオをご覧ください。](https://youtu.be/p9wcmJBFyGA?t=492)
 
-## パラメーター
-
-* **位置**: *0.0 - 1.0*\
-  入力をシフトする量。 1.0は完全な回転で、0.0と等しくなります。
-
-## サンプル画像
-
-![](../../../../../../assets/histogram-shift.gif)
-
-![](../../../../../../assets/histogram-shift2.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>位置</b> <i>0.0 - 1.0</i> | 入力をシフトする量。 1.0は完全な回転で、0.0と等しくなります。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/histogram-shift.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/histogram-shift2.gif" />
+        </td>
+    </tr>
 </table>

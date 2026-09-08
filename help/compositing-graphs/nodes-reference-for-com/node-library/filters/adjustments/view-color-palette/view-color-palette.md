@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: '[カラーパレットを表示]ノードを使用して、解析用にテクスチャから抽出されたカラーパレットデータを表示します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: カラーパレットを表示
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '232'
+ht-degree: 1%
 
 ---
 
@@ -44,38 +44,22 @@ ht-degree: 0%
 
 このノードは、次のノードによって生成されたパレットを視覚化するために使用できます： [色の量子化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)、[色パレットを作成](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)、[色パレットを変更](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 入力コネクタ
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>パレット</b> *色*&#x200B;プライマリ | ピクセルの行としてエンコードされたRGBカラーの順序付けされたリスト。 パレットには、最大256色を保持できます。   これは、ノードがパックおよびレンダリングするパレットです。 |
-| <b>パレットの色の適用量</b> *整数* | パレットに格納される色の量。   この数が「パレット」画像入力の実際のカラー数と一致しない場合は、ビジュアライゼーションが不完全であるか、絶対に必要な数よりも多くの空きスロットがある可能性があります。 |
+|:---|:---|
+| <b>パレット</b> <i>色</i>プライマリ | ピクセルの行としてエンコードされたRGBカラーの順序付けされたリスト。 パレットには、最大256色を保持できます。   これは、ノードがパックおよびレンダリングするパレットです。 |
+| <b>パレットの色の適用量</b> <i>整数</i> | パレットに格納される色の量。   この数が「パレット」画像入力の実際のカラー数と一致しない場合は、ビジュアライゼーションが不完全であるか、絶対に必要な数よりも多くの空きスロットがある可能性があります。 |
 
-## 出力コネクタ
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *色* | パックされたパレットの表示。 |
+|:---|:---|
+| <b>出力</b> <i>色</i> | パックされたパレットの表示。 |
 
 ## 例
 
