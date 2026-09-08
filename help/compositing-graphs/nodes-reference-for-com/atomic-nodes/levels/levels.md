@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: 「レベル」ノードを使用して、カラー補正と補正の明るさ、コントラスト、階調範囲のテクスチャを調整します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: レベル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![アトミックノード:レベル](../../../../assets/comp_levels_1.png "アトミックノード:レベル"){width="200px"}
+![アトミックノード:レベル](levels.resources/comp_levels_1.png "アトミックノード:レベル"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ ht-degree: 4%
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 「特定のパラメーター」ヘッダーバーには、ヒストグラムの便利な機能にアクセスするためのボタンがあります。
 
-![ノードのクイックアクションのレベルを設定する](../../../../assets/levels-2.png "ノードのクイックアクションのレベルを設定する")
+![ノードのクイックアクションのレベルを設定する](levels.resources/levels-2.png "ノードのクイックアクションのレベルを設定する")
 
 <b>1 – 反転：</b> &#39;Level out low&#39;パラメーターと&#39;レベルアウト高&#39;パラメーターの値を入れ替えます。
 
@@ -113,7 +113,7 @@ ht-degree: 4%
 
 ヒストグラムエディターは、正確な値があまり必要なく、パラメーターの表示が重要ではない視覚的ですばやく調整できるように設計されています。 レベル補正を使用するには、通常、最も速く簡単な方法です。
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 入力タイプ（カラーまたはグレースケール）に応じて、ヒストグラムの上にあるドロップダウンを使用して、変更するチャンネルを選択できます。
 

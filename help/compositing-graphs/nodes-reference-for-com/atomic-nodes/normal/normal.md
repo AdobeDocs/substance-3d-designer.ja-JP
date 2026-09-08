@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
-description: 法線ノードを使用して、法線マップテクスチャを処理および操作し、サーフェスのディテールとライティングを制御します。
+description: サーフェスの詳細と照明をコントロールするためのテクスチャを処理および操作するには、[法線]ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法線
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -24,20 +24,20 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：標準](../../../../assets/comp_normal_1.png "原子ノード：標準"){width="200px"}
+![アトミックノード：標準](normal.resources/comp_normal_1.png "アトミックノード：標準"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 高さマップとして解釈されたグレースケール画像から法線マップを計算します。
 
-このノードは、入力グレースケールマップを接線空間ノーマルマップ出力に変換します。 これには、強度とエンコードを設定するためのユーザーオプションがいくつか用意されています。
+入力グレースケールマップを正接空間法線マップ出力に変換する。 これには、強度とエンコードを設定するためのユーザーオプションがいくつか用意されています。
 
 </td>
 </tr>
 </table>
 
-これは、リアルタイム対応のマテリアル用にHeightマップの入力を法線マップに変換するために頻繁に使用される非常に便利なノードです。 [通常のソベル](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)および通常のワールドユニットへのHeightに見つかる代替案があります。
+これは、リアルタイム対応マテリアル用に高さマップ入力を法線マップに変換するために頻繁に使用される非常に便利なノードです。 [通常のソベル](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)および通常のワールドユニットへのHeightに見つかる代替案があります。
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## 出力コネクタ
+## 出力コネクター
 
 </td>
 <td style="border: 0;" valign="top">
@@ -78,17 +78,17 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>適用度</b> *フロート* | Heightマップの強さを変更します。   法線に変換するために入力Heightマップを変換する度合いを設定します。 入力マップによっては、100を超える値の効果はほとんどありません。 |
-| <b>標準の形式</b> *ブール値* | Heightマップ(OpenGL)のY座標を反転します。   グリーン(Y)チャンネルのエンコード方法を設定します。 基本的には、「緑色/Y方向に反転」スイッチです。 |
-| <b>Alphaチャンネルコンテンツ</b> *ブール値* | 法線マップのアルファチャンネルを入力テクスチャで塗りつぶします。   Fill Alphaの入力/フォースAlphaを1に設定する：このオプションを選択すると、入力を追加Alphaとして使用する代わりに、Alphaチャンネルを実線に設定することができます。 |
+| <b>適用度</b> *浮動小数* | 高さマップの強さを変更します。   法線に変換するために入力高さマップをどの程度変換するかを設定します。 入力マップによっては、100を超える値を指定した場合の効果はほとんどありません。 |
+| <b>標準の形式</b> *ブーリアン* | 高さマップのY座標を反転します(OpenGL)。   グリーン(Y)チャンネルのエンコード方法を設定します。 基本的には、「緑色/Y方向に反転」スイッチです。 |
+| <b>アルファチャンネルコンテンツ</b> *ブーリアン* | 法線マップのアルファチャンネルを入力テクスチャで塗りつぶします。   入力/力Alphaで塗りつぶしAlphaを1に設定：これにより、入力を追加Alphaとして使用する代わりに、アルファチャンネルを実線に設定できます。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |
-| <b>入力</b> *グレースケール*&#x200B;プライマリ | 入力画像がHeightマップとして解釈されます。 |
+| <b>入力</b> *グレースケール*&#x200B;プライマリ | 入力画像は高さマップとして解釈されます。 |
 
-## 出力コネクター
+## 出力コネクタ
 
 |  |  |
 | --- | --- |
