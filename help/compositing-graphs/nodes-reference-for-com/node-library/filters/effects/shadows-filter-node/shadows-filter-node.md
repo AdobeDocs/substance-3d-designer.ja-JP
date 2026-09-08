@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
 breadcrumb-title: ''
 description: シャドウフィルターノードを使用して、入力テクスチャからシャドウ効果を生成し、マテリアルに深度とリアリズムを加えます。
 helpx_creative_field: ""
@@ -7,29 +7,33 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: シャドウ（フィルタノード）
+title: シャドウ(フィルターノード)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 2%
 
 ---
 
 
-# シャドウ（フィルタノード）
+# シャドウ(フィルターノード)
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
+![](../../../../../../assets/shadows-1.png){width="128px"}
 
-<b>イン:</b>フィルター/効果
+## シャドウ
+
+**場所：** *フィルター/効果*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -37,27 +41,19 @@ ht-degree: 8%
 
 シャドウの直後で、より包括的なノードで作業したくない場合に便利です。たとえば、独自のマテリアルを構築したり、ライトをベイクしたりする場合に便利です。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>シャドウの距離</b> <i>0.0 - 1.0</i> | シャドウが落ちる距離を制御します。 |
-| <b>光源の角度</b> <i>0.0 - 1.0</i> | ライトの入射角を制御します。 |
-| <b>エッジの柔らかさ</b> <i>0.0 - 1.0</i> | シャドウのエッジの硬さまたは柔らかさを指定します。 |
-| <b>サンプル</b> <i>1 - 16</i> | 「エッジの柔らかさ」設定の品質を設定します。 |
+* **影の距離**: *0.0 ～ 1.0*&#x200B;影が落ちる距離を制御します。
+* **光の角度**: *0.0 ～ 1.0*&#x200B;光の入射角度を制御します。
+* **エッジの柔らかさ**: *0.0 ～ 1.0*&#x200B;シャドウのエッジの強さを指定します。
+* **サンプル**: *1 ～ 16*&#x200B;エッジの柔らかさの設定の品質を設定します。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
 breadcrumb-title: ''
 description: 「写真をタイル状にする」ノードを使用すると、素材を作成するために写真をシームレスなタイリングテクスチャに変換できます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Make It Tile Photo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 9%
+source-wordcount: '158'
+ht-degree: 1%
 
 ---
 
@@ -22,44 +22,40 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](make-it-tile-photo.resources/make-it-tile-photo-01.png)
+![](../../../../../../assets/make-it-tile-photo.png)
 
-![](make-it-tile-photo.resources/make-it-tile-photo-02.png)
+![](../../../../../../assets/make-it-tile-photo-grayscale.png)
 
-<b>イン：</b>フィルター> タイリング
+## Make It Tile Photo (Grayscale)
+
+**場所：** *フィルター/タイリング*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 このノードは、エッジが連続していないためにタイリングできない可能性のあるイメージに対して、エッジ修正機能を提供します。 これは、入力画像のエッジ以外には影響しません。 尺度を調整したり、タイルを異なる方法で並べたりする場合は、[タイルパッチを作成](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md)を参照してください。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>マスクのワープH</b> <i>-100.0 - 100.0</i> | 未定義のトランジションを避けるために、水平軸にワープを導入します。 |
-| <b>マスクワープV</b> <i>-100.0 - 100.0</i> | 未定義のトランジションを避けるために、垂直方向の軸にワープを導入します。 |
-| <b>マスクサイズH</b> <i>0.0 - 1.0</i> | トランジションのエッジが水平方向に到達する距離を設定します。 |
-| <b>マスクサイズV</b> <i>0.0 - 1.0</i> | トランジションの端が垂直方向に達する距離を設定します。 |
-| <b>マスク精度H</b> <i>0.0 - 1.0</i> | 水平方向の変化の滑らかさを設定します。 |
-| <b>マスク精度V</b> <i>0.0 - 1.0</i> | 垂直方向の変化の滑らかさを設定します。 |
+* **マスクワープH**: *-100.0 - 100.0*&#x200B;未定義の変化を避けるために、水平軸にワープを導入します。
+* **マスクワープV**: *-100.0 - 100.0*&#x200B;未定義のトランジションを避けるために、縦軸にワープを導入します。
+* **マスクサイズH**: *0.0 ～ 1.0*&#x200B;トランジションの端が水平方向に到達する距離を設定します。
+* **マスクサイズV**: *0.0 ～ 1.0*&#x200B;トランジションの端が垂直方向に達する範囲を設定します。
+* **マスク精度H**: *0.0 ～ 1.0*&#x200B;水平方向の変化の滑らかさを設定します。
+* **マスク精度V**: *0.0 ～ 1.0*&#x200B;垂直方向の切り替えの滑らかさを設定します。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="make-it-tile-photo.resources/make-it-tile-photo-03.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mit-photo-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

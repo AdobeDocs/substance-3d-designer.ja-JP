@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
 description: '[Scratchesジェネレータ]ノードを使用して、マテリアルに磨耗や損傷を加えるための手続き型のスクラッチパターンを作成します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Scratchesジェネレータ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 8%
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](scratches-generator.resources/scratches-generator-01.png)
+![](../../../../../../assets/scratches-generator.png)
 
-<b>イン：</b>テクスチャジェネレーター>パターン
+## Scratchesジェネレータ（通常）
+
+**イン：** *テクスチャジェネレーター**/パターン*
+
+**複合**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -37,46 +41,37 @@ ht-degree: 8%
 
 特別なバージョンのScratchesジェネレーター、Scratchesジェネレーター法線があり、これらの傷の深度に基づいてノーマルマップを生成します。 ほとんどのオプションはまったく同じですが、いくつかの追加のパラメーターがあり、これらは通常設定ではっきりとマークされています（以下を参照）。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
+* **スプライン番号**: *1 - 512*&#x200B;配置するスクラッチ（スプライン）の量。
+* **スプラインあたりの最大セグメント数**: *2 ～ 256*&#x200B;スクラッチの長さに対するセグメント/サブディビジョンの量。 より滑らかなカーブとゆがみが得られます。 この効果は、ゆがみの値が大きいほど目立ちます。
+* **スプラインの回転**: *0.0 ～ 1.0*&#x200B;すべてのスプラインを一方向に向けるために均一に回転させます。
+* **スプラインの回転ランダム**: *0.0 ～ 1.0*&#x200B;角度の変化。すべてのスプラインをランダムに回転します。
+* **スプラインのスケール**: *0.0 ～ 1.0*&#x200B;すべてのスプラインを均一にスケールします。
+* **スプラインスケールランダム**: *0.0 ～ 1.0*&#x200B;各スプラインを個別にランダムにスケールします。
+* **スプラインのゆがみ**: *0.0 ～ 1.0*&#x200B;すべてのスプラインで均一なゆがみレベルです。
+* **スプラインゆがみランダム**: *0.0 ～ 1.0*&#x200B;各スプラインのゆがみレベルを個別にランダム化します。
+* **スプラインゆがみの頻度**: *0.0 ～ 1.0*&#x200B;ゆがみの頻度を設定し、ゆがみの詳細のスケールを制御します。
+* **スプラインの幅**: *0.0 ～ 2.0*&#x200B;すべてのスプラインの幅を均一に設定します。
+* **スプライン幅ランダム**: *0.0 ～ 1.0*&#x200B;各スプラインのスプライン幅を個別にランダム化します。
+* **スプラインの位置のランダム**: *0.0 ～ 1.0*&#x200B;各スプラインの位置を個別にランダム化します。 この値を小さくすると、より多くのスプラインがキャンバスの中心に集まります。 キズの斑点の作成に使用できます。
+* **pxのスプライン幅を設定**: *偽/真*&#x200B;スプライン幅の設定に使用される単位を決定します。
+* **輝度ランダム（グレースケール版のみ）**: *0.0 ～ 1.0*&#x200B;各スプラインの輝度を個別にランダム化します。
+* **法線の強さ（法線バージョンのみ）**: *0.0 ～ 1.0*&#x200B;各スプラインの法線エフェクトの強さをグローバルに設定します。
+* **&#x200B;法線の強さランダム**（標準版のみ）****: *0.0 ～ 1.0*各スプラインの法線強さを個別にランダム化します。
+* **&#x200B;標準形式**（標準版のみ）****: *DirectX、OpenGL*\
+  異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。
+* **フェードモード**: *なし、開始、終了、開始+終了*&#x200B;スプラインフェードの有無とその方向を設定します。
+* **フェードの長さ**: *0.0 ～ 1.0*&#x200B;上で有効になっている場合に、フェード効果の長さを設定します。
+* **非正方形拡張**: *False/True*\
+  カボチャと伸縮の補正を非正方形の比率で有効にします。
+
+## サンプル画像
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/scratches-ex1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/scratches-ex2.png" width="256px"/></div> |
+| --- | --- |
 |  |  |
-|:---|:---|
-| <b>スプライン番号</b> <i>1 - 512</i> | 配置するスクラッチ（スプライン）の量。 |
-| <b>スプラインあたりの最大セグメント数</b> <i>2 - 256</i> | スクラッチの長さに対するセグメント/サブディビジョンの量。 より滑らかなカーブとゆがみが得られます。 この効果は、ゆがみの値が大きいほど目立ちます。 |
-| <b>スプラインの回転</b> <i>0.0 - 1.0</i> | すべてのスプラインを一定の方向に回転します。 |
-| <b>スプライン回転ランダム</b> <i>0.0 - 1.0</i> | 角度の変化。すべてのスプラインをランダムに回転します。 |
-| <b>スプラインのスケール</b> <i>0.0 - 1.0</i> | すべてのスプラインを均一にスケールします。 |
-| <b>スプラインスケールランダム</b> <i>0.0 - 1.0</i> | 各スプラインを個別にランダムにスケールします。 |
-| <b>スプラインゆがみ</b> <i>0.0 - 1.0</i> | すべてのスプラインにわたって均一なゆがみレベル。 |
-| <b>スプラインゆがみランダム</b> <i>0.0 - 1.0</i> | 各スプラインのゆがみレベルを個別にランダム化します。 |
-| <b>スプラインゆがみの頻度</b> <i>0.0 - 1.0</i> | ゆがみの頻度を設定し、ゆがみの詳細のスケールを制御します。 |
-| <b>スプラインの幅</b> <i>0.0 - 2.0</i> | すべてのスプラインの幅を均一に設定します。 |
-| <b>スプライン幅ランダム</b> <i>0.0 - 1.0</i> | 各スプラインのスプライン幅を個別にランダム化します。 |
-| <b>スプライン位置ランダム</b> <i>0.0 - 1.0</i> | 各スプラインの位置を個別にランダム化します。 この値を小さくすると、より多くのスプラインがキャンバスの中心に集まります。 キズの斑点の作成に使用できます。 |
-| <b>pxのスプライン幅を設定</b> <i>False/True</i> | スプラインの幅設定に使用する単位を指定します。 |
-| <b>輝度ランダム（グレースケール版のみ）</b> <i>0.0 - 1.0</i> | 各スプラインの輝度を個別にランダム化します。 |
-| <b>標準の強度（標準バージョンのみ）</b> <i>0.0 - 1.0</i> | すべてのスプラインに対してグローバルに法線エフェクトの強さを設定します。 |
-| <b>法線の強度ランダム（通常バージョンのみ）</b> <i>0.0 - 1.0</i> | 各スプラインの法線強さを個別にランダム化します。 |
-| <b>標準の形式（標準バージョンのみ）</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |
-| <b>フェードモード</b> <i>なし、開始、終了、開始+終了</i> | スプラインのフェードを指定します。 |
-| <b>フェード長</b> <i>0.0 - 1.0</i> | フェード効果の長さを設定します（上記で有効になっている場合）。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 
-## 例
-
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-02.png" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-03.png" />
-        </td>
-    </tr>
+</td>
+</tr>
 </table>

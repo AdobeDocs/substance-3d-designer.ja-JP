@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの環境設定ウィンドウにアクセスして、アプリケーションの設定と動作をカスタマイズします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 環境設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Preferencesウィンドウ
 
-![環境設定ウィンドウ](preferences-window.resources/preferences-window-01.png "環境設定ウィンドウ")
+![環境設定ウィンドウ](../../assets/image2021-6-22-20-56-1.png "環境設定ウィンドウ")
 
 このページには、<b>環境設定</b>ウィンドウとそのすべての設定が表示されます。
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ### 自動バックアップ
 
-自動保存機能がデフォルトで含まれています。この機能では、開いている[SBSパッケージ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)の現在のステータスのコピーを設定された時間に作成します。 自動保存は、SBSパッケージの場所にある<b>.autosave</b>フォルダーに配置されます。
+自動保存機能がデフォルトで含まれています。この機能では、開いている[SBSパッケージ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)の現在の状態のコピーを設定された期間で作成します。 自動保存は、SBSパッケージの場所にある<b>.autosave</b>フォルダーに配置されます。
 
 |  |  |
 | --- | --- |
@@ -147,24 +147,24 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>グラフを開くときに、すべてのノードのサムネイルを自動的に計算する</b>  *既定：確認済み* | オンにすると、グラフの読み込み時にすべてのノードサムネールが自動的にレンダリングされます。 |
+| <b>グラフを開くときに、すべてのノードのサムネイルを自動的に計算する</b>  *既定：確認済み* | オンにすると、グラフを読み込むときに、すべてのノードサムネールを自動的にレンダリングします。 |
 | <b>グラフを開くときに2Dビューで出力を表示する</b>  *既定：確認済み* | オンにすると、グラフを開いたときに、最初のグラフ出力が[2Dビュー](../../interface/2d-view/2d-view.md)に自動的に表示されます。 これには、[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに至るストリームの一部であるすべてのノードをレンダリングする効果もあります。 |
 | <b>新しく作成された合成ノードを自動的に表示します</b>  *既定：確認済み* | オンにすると、[2Dビュー](../../interface/2d-view/2d-view.md)が自動的に更新され、新しく作成されたノードの出力が表示されます。 |
-| <b>カラー/グレースケール変換ノードを自動的に挿入する</b>  *既定：未確認* | オンにすると、*特定のノードを配置*&#x200B;して適切な変換を実行することで、カラー/グレースケール接続の種類の不一致を自動的に解決します。   *グレースケール*&#x200B;出力（グレーコネクター）が&#x200B;*Color*&#x200B;入力（イエローコネクター）に接続されている場合、[グラデーションマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードが2つのコネクターの間に自動的に配置されます。   *カラー*&#x200B;出力（イエローのコネクター）が&#x200B;*グレースケール*&#x200B;入力（グレーのコネクター）に接続されている場合、[グレースケール変換](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) コネクターが2つのノードの間に自動的に配置されます。 |
-| <b>コンテキストでグラフの編集を有効にする</b>  *既定：未確認* | 既定では、[ノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)で参照されているグラフを右クリックして[<b>参照を開く</b>]をクリックすると、そのインスタンス化が読み込まれ、*編集されています。*   オンにすると、インスタンス&#x200B;*によって参照されているグラフを、現在のグラフによってインスタンス*&#x200B;に渡された情報を使用して編集できます。 これを行うには、インスタンスノードを右クリックして<b>「コンテキスト内の参照を開く」</b>を選択するか、Ctrl+Eキーストロークを使用します。   つまり、インスタンス化されたグラフは、そのインスタンス化されたグラフのコンテキストで編集できます。 これは、編集がグラフに与える影響を確認する場合に非常に便利です。 以下の例を参照してください。  **注意：**&#x200B;コンテキスト内編集を使用している場合、[グラフプロパティ](../../compositing-graphs/graph-parameters/graph-parameters.md)の<b>プレビュー</b>および<b>プリセット</b>のタブは&#x200B;*無効*&#x200B;です。 |
+| <b>カラー/グレースケール変換ノードを自動的に挿入する</b>  *既定：未確認* | オンにすると、*特定のノードを配置*&#x200B;して適切な変換を実行することで、カラー/グレースケール接続の種類の不一致を自動的に解決します。   *グレースケール*&#x200B;出力（灰色のコネクタ）が&#x200B;*Color*&#x200B;入力（黄色のコネクタ）に接続されている場合、[Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードが2つのコネクタの間に自動的に配置されます。   *Color*&#x200B;出力（黄色のコネクタ）が&#x200B;*グレースケール*&#x200B;入力（灰色のコネクタ）に接続されている場合、[グレースケール変換](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)ノードが2つのコネクタの間に自動的に配置されます。 |
+| <b>コンテキストでグラフの編集を有効にする</b>  *既定：未確認* | 既定では、[インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)が参照するグラフをノード上で右クリックして[<b>参照を開く</b>]を選択すると、そのグラフが読み込まれ、*編集されます*。   オンにすると、インスタンス&#x200B;*によって参照されているグラフを、現在のグラフによってインスタンス*&#x200B;に渡された情報を使用して編集できます。 これを行うには、インスタンスノードを右クリックして<b>「コンテキスト内の参照を開く」</b>を選択するか、Ctrl+Eキーストロークを使用します。   つまり、インスタンス化されたグラフは、そのインスタンス化されたグラフのコンテキストで編集できます。 これは、作業中のグラフで編集の効果を確認する場合に非常に便利です。 以下の例を参照してください。  **注意：**&#x200B;コンテキスト内編集を使用している場合、[グラフプロパティ](../../compositing-graphs/graph-parameters/graph-parameters.md)の<b>プレビュー</b>および<b>プリセット</b>のタブは&#x200B;*無効*&#x200B;です。 |
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![コンテキスト内の編集が無効になりました](preferences-window.resources/preferences-window-02.gif "コンテキスト内の編集が無効になりました")
+![コンテキスト内の編集が無効になりました](../../assets/substance3ddesigner_incontext_no.gif "コンテキスト内の編集が無効になりました")
 
 *参照を開く*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![コンテキスト内の編集が有効になりました](preferences-window.resources/preferences-window-03.gif "コンテキスト内の編集が有効になりました")
+![コンテキスト内の編集が有効になりました](../../assets/substance3ddesigner_incontext_yes.gif "コンテキスト内の編集が有効になりました")
 
 *コンテキスト内の参照を開く*
 
@@ -178,20 +178,20 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>既定で非表示になっている環境</b>  *既定：確認済み* | [環境](../../interface/3d-view/3d-view.md)の既定の表示設定を決定します。 非表示にすると、3Dビューの背景が&#x200B;*単色*&#x200B;に置き換えられます。 |
-| <b>ビューポートの拡大/縮小</b>  *既定：自動* | 表示倍率が使用されている場合に、3Dビューのレンダリング解像度の倍率を制御します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>自動</i>:レンダリング解像度は<i>拡大縮小</i>の表示解像度に基づいています</li> <li data-preserve-html="true"><i>なし</i>:レンダリング解像度は<i>ネイティブ</i>の表示解像度に基づいています</li> </ul> |
+| <b>既定で非表示になっている環境</b>  *既定：確認済み* | [環境](../../interface/3d-view/3d-view.md)の既定の表示設定を決定します。 非表示にすると、3D ビューの背景が&#x200B;*単色*&#x200B;に置き換えられます。 |
+| <b>ビューポートの拡大/縮小</b>  *既定：自動* | ディスプレイの拡大・縮小が使用される際の3D ビューのレンダリング解像度の拡大・縮小を制御します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>自動</i>:レンダリング解像度は<i>拡大縮小</i>の表示解像度に基づいています</li> <li data-preserve-html="true"><i>なし</i>:レンダリング解像度は<i>ネイティブ</i>の表示解像度に基づいています</li> </ul> |
 
 ### OpenGL
 
 |  |  |
 | --- | --- |
-| <b>サンプル数</b>  *既定： 64* | 3Dビューシェーダのサンプルテーブルのサイズに影響します。 値を大きくすると、画質は向上しますが、パフォーマンスは低下します。  **注意：**&#x200B;シェーダーのサンプルテーブルも、システムのGPUおよびOSの影響を受けます。 |
+| <b>サンプル数</b>  *既定： 64* | 3D ビューシェーダのサンプルテーブルのサイズに影響します。 値を大きくすると、画質は向上しますが、パフォーマンスは低下します。  **注意：**&#x200B;シェーダーのサンプルテーブルも、システムのGPUおよびOSの影響を受けます。 |
 
 ## ベイカー
 
 |  |  |
 | --- | --- |
-| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベーカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :NVIDIA Pascal GPUでDXRを強制的に使用</li> </ul> |
+| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベイカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :NVIDIA Pascal GPUでDXRを強制的に使用</li> </ul> |
 
 ## ライブラリ
 

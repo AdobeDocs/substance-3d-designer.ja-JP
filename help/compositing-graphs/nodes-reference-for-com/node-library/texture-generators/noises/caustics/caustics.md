@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
 breadcrumb-title: ''
 description: コースティクスノードを使用して、水中および屈折ライティングエフェクトを作成するためのコースティクスライトパターンを生成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: コースティクス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '231'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +22,16 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](caustics.resources/caustics-01.png){width="128px"}
+![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
 
-<b>内：</b> テクスチャジェネレータ> ノイズ
+**インチ：** *テクスチャジェネレーター**/ノイズ*
+
+**複合**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -39,30 +41,33 @@ ht-degree: 5%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>出力カラースペース</b> <i>Raw, sRGB</i> | 出力カラースペースを設定します。 |
-| <b>フォトングリッドサイズ</b> <i>自動、512、1024、2048、4096</i> | グリッドサイズを調整して画質を設定しますが、デフォルトでは一致する入力に設定されます。 計算の高速化に使用できます。 |
-| <b>サーフェスHeightスケール</b> <i>0.0 - 1.0</i> | Heightの変換方法を指定する乗数。 |
-| <b>サーフェスHeightの位置</b> <i>0.0 - 1.0</i> | 投影する屈折サーフェスの距離を設定します。 |
-| <b>サーフェスIOR</b> <i>1.0 - 2.0</i> | 屈折率を設定します。カラーバージョンでは、これによりカラーの分散が大きくなります。 |
-| <b>フォトンのサイズ</b> <i>1.0 - 50.0</i> | フォトンサイズは効果の鮮明さに影響します。 |
-| <b>分散</b> <i>0.0 ～ 0.01 （カラーバージョンのみ）</i> | カラー分散のみに影響します。 IORが低い場合は表示されません。 |
-| <b>ジッター</b> <i>0.0 - 1.0</i> | キャストフォトンのパーティクルに不規則なジッターを加えます。 |
-| <b>明るい位置</b> | ライトの位置を移動します。 また、2D ビューのギズモを介して行われます。 |
-| <b>背景色</b> <i>（カラー値） （カラーバージョンのみ）</i> | 背景色を変更します。 グレースケール版では黒に制限されます。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチの非正方形の比率での補正を有効にします。 |
+* **出力カラースペース**: *Raw, sRGB*\
+  出力カラースペースを設定します。
+* **フォトングリッドサイズ**: *自動、512、1024、2048、4096*\
+  グリッドサイズを調整して画質を設定しますが、デフォルトでは一致する入力に設定されます。 計算の高速化に使用できます。
+* **サーフェスHeightスケール**: *0.0 ～ 1.0*\
+  Heightの変換方法を指定する乗数。
+* **サーフェスHeightの位置**: *0.0 - 1.0*\
+  投影する屈折サーフェスの距離を設定します。
+* **サーフェスIOR**: *1.0 ～ 2.0*\
+  屈折率を設定します。カラーバージョンでは、これによりカラーの分散が大きくなります。
+* **フォトンのサイズ**: *1.0 - 50.0*\
+  フォトンサイズは効果の鮮明さに影響します。
+* **分散**: *0.0 ～ 0.01 （カラーバージョンのみ）*\
+  カラー分散のみに影響します。 IORが低い場合は表示されません。
+* **ジッター**: *0.0 ～ 1.0*\
+  キャストフォトンのパーティクルに不規則なジッターを加えます。
+* **明るい位置**:\
+  ライトの位置を移動します。 また、2D ビューのギズモを介して行われます。
+* **背景色**: *（カラー値） （カラーバージョンのみ）*\
+  背景色を変更します。 グレースケール版では黒に制限されます。
+* **非正方形拡張**: *False/True*\
+  カボチャの補正を有効にし、非正方形の比率で伸縮します。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="caustics.resources/caustics-02.png" />
-        </td>
-    </tr>
-</table>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-caustics-grayscale-1.png" width="300px"/></div> |
+| --- |
+|  |

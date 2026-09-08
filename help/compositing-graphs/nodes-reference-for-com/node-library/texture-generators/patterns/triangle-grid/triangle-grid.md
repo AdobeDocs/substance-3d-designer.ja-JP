@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Triangle Gridノードを使用して、Substance 3D Designerで幾何学的テクスチャを作成するための三角形のグリッドパターンを作成します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
+![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
 
-![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
+![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
 
 <b>イン：</b>テクスチャジェネレーター>パターン
 
@@ -44,30 +44,44 @@ ht-degree: 0%
 </tr>
 </table>
 
-<a name="inputs"></a>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-## 入力
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+### 出力コネクタ
+
+</td>
+<td style="border: 0;" valign="top">
+
+### パラメーター
+
+</td>
+</tr>
+</table>
+
+## 入力コネクタ
 
 |  |  |
-|:---|:---|
-| <b>Height</b> <i>グレースケール</i>プライマリ | 頂点の&#x200B;*Height* （Z位置）をマップするために使用されるグレースケールイメージの入力です。    この入力の影響は、「Height入力乗数」パラメータによって制御されます。 |
-| <b>ベクターマップ</b> <i>色</i> | X軸とY軸の頂点の&#x200B;*ディスプレイスメント*&#x200B;をマップするために使用するカラー画像入力です。    X/Yオフセットは、それぞれイメージのR/Gチャンネルにマップされます。    この入力の影響は、「ベクトルマップディスプレイスメント」パラメーターで制御されます。 |
-| <b>カラー入力</b> <i>色</i> | 頂点、セグメント、または三角形の&#x200B;*色*&#x200B;をマップするために使用される色イメージの入力です。    この入力は、「カラーソース」パラメーターが「カラー入力」に設定されている場合に使用されます。 |
+| --- | --- |
+| <b>Height</b> *グレースケール*&#x200B;プライマリ | 頂点の&#x200B;*Height* （Z位置）をマップするために使用されるグレースケールイメージの入力です。    この入力の影響は、「Height入力乗数」パラメータによって制御されます。 |
+| <b>ベクターマップ</b> *色* | X軸とY軸の頂点の&#x200B;*ディスプレイスメント*&#x200B;をマップするために使用するカラー画像入力です。    X/Yオフセットは、それぞれイメージのR/Gチャンネルにマップされます。    この入力の影響は、「ベクトルマップディスプレイスメント」パラメーターで制御されます。 |
+| <b>カラー入力</b> *色* | 頂点、セグメント、または三角形の&#x200B;*色*&#x200B;をマップするために使用される色イメージの入力です。    この入力は、「カラーソース」パラメーターが「カラー入力」に設定されている場合に使用されます。 |
 
-<a name="outputs"></a>
-
-## 出力
+## 出力コネクタ
 
 |  |  |
-|:---|:---|
-| <b>出力</b> <i>色</i> | 出力画像。 |
-
-<a name="parameters"></a>
+| --- | --- |
+| <b>出力</b> *色* | 出力画像。 |
 
 ## パラメーター
 
 |  |  |
-|:---|:---|
+| --- | --- |
 | <b>カラー出力</b> *整数* | 三角パッチサーフェスを表す方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>頂点単位：</b>各頂点にカラーが割り当てられ、三角形のサーフェス全体に補間されます</li> <li data-preserve-html="true"><b>三角形ごと：</b>三角形ごとに単色が割り当てられます</li> <li data-preserve-html="true"><b>細線</b><b>:</b>は、頂点間のセグメントにアウトラインを適用します</li> <li data-preserve-html="true"><b>エッジまでの距離</b><b>:</b>各三角形の最も近いセグメントまでの距離をレンダリングします</li> <li data-preserve-html="true"><b>中心</b><b>:</b>は、各三角形の重心までの正規化された距離をレンダリングします</li> </ul> |
 | <b>三角形化</b> *整数* | サーフェスの三角形化の方法を設定します。つまり、四角形の&#x200B;*対の対向する頂点*&#x200B;を接続する方法を設定します。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>自動：</b>では、2つの頂点が自動的に選択され、結果として三角形が<i>カメラから最も離れた方向を向いています</i><br/> <b>45°:</b>反対側の頂点を接続し、X軸に対して<i>45度</i>回転した線を作成する</li> <li data-preserve-html="true"><b>-45°:</b>反対側の頂点を接続し、X軸に対して線<i>回転–45度</i>を作成</li> <li data-preserve-html="true"><b>水平クインキュックス：</b>頂点の三角形分割の向きを<i>1行おき</i>で交互に指定</li> <li data-preserve-html="true"><b>クインキュックス垂直方向：</b>頂点の三角形分割の向きを<i>1列おき</i>交互に変更<br/> </li> </ul> |
 | <b>X金額</b> *整数* | X軸上に生成される頂点の量。 |
@@ -91,23 +105,23 @@ ht-degree: 0%
 | <b>ランダムカラーシード</b> *整数* *&#39;ランダムカラーシードモード&#39;パラメーターが&#39;手動シード&#39;に設定され、&#39;カラーソース&#39;パラメーターが&#39;ランダム&#39;に設定されている場合に使用できます。* | 擬似ランダムのカラー分布で使用される離散シード値。 |
 | <b>非正方形拡張</b> *ブール値* | スカッシュとストレッチを非正方形の比率で補正できます。 |
 
-## 例
+## サンプル画像
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例1](triangle-grid.resources/triangle-grid-03.jpg "Triangle Grid：例1"){zoomable="yes"}
+![Triangle Grid：例1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid：例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例2](triangle-grid.resources/triangle-grid-04.png "Triangle Grid：例2"){zoomable="yes"}
+![Triangle Grid：例2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid：例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例3](triangle-grid.resources/triangle-grid-05.jpg "Triangle Grid：例3"){zoomable="yes"}
+![Triangle Grid：例3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid：例3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -117,17 +131,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例4](triangle-grid.resources/triangle-grid-06.jpg "Triangle Grid：例4"){zoomable="yes"}
+![Triangle Grid：例4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid：例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例5](triangle-grid.resources/triangle-grid-07.jpg "Triangle Grid：例5"){zoomable="yes"}
+![Triangle Grid：例5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid：例5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例6](triangle-grid.resources/triangle-grid-08.jpg "Triangle Grid：例6"){zoomable="yes"}
+![Triangle Grid：例6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid：例6"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +151,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid:レザー](triangle-grid.resources/triangle-grid-09.png "Triangle Grid:レザー"){zoomable="yes"}
+![Triangle Grid:レザー](../../../../../../assets/trianglegrid-demo.png "Triangle Grid:レザー"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid:グラフ](triangle-grid.resources/triangle-grid-10.png "Triangle Grid:グラフ"){zoomable="yes"}
+![Triangle Grid:グラフ](../../../../../../assets/trianglegrid-node.png "Triangle Grid:グラフ"){zoomable="yes"}
 
 </td>
 </tr>

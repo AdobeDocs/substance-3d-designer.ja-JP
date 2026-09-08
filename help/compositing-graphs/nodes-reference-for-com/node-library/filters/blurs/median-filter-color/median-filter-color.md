@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
 description: 中間値フィルターカラーノードを使用して、ノイズを軽減し、カラーテクスチャのエッジを保持します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 中間フィルターカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 1%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![フィルターの色の中央値：アイコン](median-filter-color.resources/median-filter-color-01.png "フィルターの色の中央値：アイコン")
+![フィルターの色の中央値：アイコン](../../../../../../assets/MedianFilter_Icon_Color.png "フィルターの色の中央値：アイコン")
 
 <b>イン:</b>フィルター/ぼかし
 
@@ -45,42 +45,38 @@ ht-degree: 1%
 >
 > [中間値フィルターのグレースケール](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-grayscale/median-filter-grayscale.md)も参照してください。
 
-<a name="inputs"></a>
+## 入力コネクタ
 
-## 入力
+<b>入力&#x200B;</b>*色*&#x200B;フィルターを適用するカラー画像。
 
-|  |  |
-|:---|:---|
-| <b>入力</b> <i>色</i> | フィルターを適用するカラー画像。 |
+## 出力コネクタ
 
-<a name="outputs"></a>
-
-## 出力
-
-|  |  |
-|:---|:---|
-| <b>出力</b> <i>色</i> | 入力カラー画像にフィルターを適用して計算されたカラー画像。 |
-
-<a name="parameters"></a>
+<b>出力</b> *色*&#x200B;入力カラー画像にフィルターを適用して計算されたカラー画像。
 
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>カーネルサイズ</b> *整数* | カーネルとは、フィルタの計算で使用される値の集合です。 この場合、隣接ピクセルの値になります。<br><br>各ピクセルに対して、フィルタは正方形のカーネル内のピクセルの周囲のすべての近隣の値を取得し、すべての近隣の中央値を計算します。<br><br>このパラメーターは、その正方形のカーネルのサイズをピクセル単位で制御します。 大きなカーネルを使用すると、より強力で広範囲に及ぶ平滑効果が得られますが、詳細な情報が多少犠牲になります。<br><br>*- 3x3:*&#x200B;カーネルの幅3ピクセル、高さ3ピクセル、隣接ピクセルの合計8ピクセル。<br>*- 5x5:*&#x200B;カーネルの幅5ピクセル、高さ5ピクセル、隣接ピクセルの合計24ピクセル。 |
-| <b>フィルターの種類</b> *整数* | カーネルでサンプリングされた近隣に適用される計算です。<br><br>*- Median:*&#x200B;すべての近隣の中央値を直接使用してください。<br>*- MLMAD:* &#39;Median Of Least Median Absolute Deviation&#39;を表します。 偏差は、値と中央値との差を考慮に入れて算出されます。 MLMAD法では、偏差の大きい方のピクセルによって歪む可能性がある中央値を直接使用する代わりに、すべての偏差の中央値を使用します。 このメソッドは、カーネルサイズに従って領域を平坦化する、より強いスムージング効果を生成します。 |
-| <b>アルファに影響</b> *ブール値* | 画像のアルファチャンネルにフィルターを適用するかどうかを指定します。 *True*&#x200B;の場合、アルファチャンネルは変更されません。 |
+<b>カーネルサイズ</b> *整数*&#x200B;カーネルは、フィルターの計算に使用される特定の値のグループです。 この場合、隣接ピクセルの値になります。\
+各ピクセルについて、そのピクセルの周囲にあるすべてのネイバー値を正方形のカーネル内に取り、すべてのネイバー値の中央値を計算します。\
+このパラメーターは、その正方形のカーネルのサイズをピクセル単位で制御します。 カーネルが大きいほど、より強く、より広範囲に及ぶスムージング効果が得られ、ディテールが若干犠牲になります。\
+*- 3x3:*&#x200B;カーネルの幅が3ピクセル、高さが3ピクセルで、隣接するピクセル数の合計が8ピクセルです。\
+*- 5x5:*&#x200B;カーネル幅5ピクセル、高さ5ピクセル、隣接する24ピクセルの合計。
+
+<b>フィルターの種類</b> *整数*&#x200B;カーネルでサンプリングされた近隣ノードに適用される計算です。\
+*– メジアン：*&#x200B;すべての近隣の値のメジアンを直接使用します。\
+*- MLMAD:*&#x200B;は&#39;最小中央値絶対偏差の中央値&#39;を表します。 偏差は、値と中央値との差を考慮に入れて算出されます。 MLMAD法では、偏差の大きい方のピクセルによって歪む可能性がある中央値を直接使用する代わりに、すべての偏差の中央値を使用します。 このメソッドは、カーネルサイズに従って領域を平坦化する、より強いスムージング効果を生成します。
+
+<b>アルファに影響</b> *ブーリアン*&#x200B;画像のアルファチャンネルにフィルターを適用するかどうかを制御します。 *True*&#x200B;の場合、アルファチャンネルは変更されません。
 
 ## 例
 
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-02.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-03.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>後</i>
     </td>
   </tr>
@@ -89,11 +85,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-04.png" alt="MedianFilter_Variant3A">
+      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-05.png" alt="MedianFilter_Variant3B">
+      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>後</i>
     </td>
   </tr>

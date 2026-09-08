@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
-description: Substance 3D Designer グラフにコメントを付けて、ワークフローを文書化し、ノードの接続について説明します。
+description: Substance 3D Designerグラフにコメントを付けて、ワークフローを文書化し、ノードのコネクションについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items > Comment
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 注釈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![コメントアイコン](comment.resources/comment-01.png "コメントアイコン")
+![コメントアイコン](../../../../assets/graphatomic-comment_1.png "コメントアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## コメントの作成
 
-デフォルトのコメントの種類は、グラフの節点とは別に配置されます。
+デフォルトのコメントの種類は、グラフ内のノードとは別に配置されます。
 
 以下の方法で作成できます。
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 +++
 
 +++コンテキストメニュー
-グラフビューで、任意のオブジェクトまたは空のスペースで<b>人民元</b>を押し、「<b>コメントを追加</b>」オプションを選択します。
+グラフビューで、任意のオブジェクトまたは空の領域で<b>人民元</b>を押し、[<b>コメントの追加</b>]オプションを選択します。
 
 +++
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 +++
 
 +++ライブラリ
-ライブラリで、<b>グラフ項目</b>を選択し、「コメント」項目をグラフビューにドラッグ&amp;ドロップします。
+ライブラリで、<b>グラフ項目</b>カテゴリを選択し、「コメント」項目をグラフビューにドラッグアンドドロップします。
 
 +++
 
@@ -84,14 +84,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-親の付いたコメントとは、ノードが移動したときにコメントが続き、グラフが削除されたときにコメントも一緒に削除されるように、ノードの特定のノード&#x200B;*に*&#x200B;添付されたコメントです。
+親の付いたコメントとは、グラフ内の特定のノードに付けられた&#x200B;*コメントです。ノードが移動するとコメントが続いて表示され、ノードが削除されるとコメントも一緒に削除されます。*
 
 *single*&#x200B;ノードが現在選択されているとき、または単一ノードのコンテキストメニューを通じて作成されたコメントは、そのノードの親になります。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![コメント：親になったコメント](comment.resources/comment-02.gif "コメント：親になったコメント")
+![コメント：親になったコメント](../../../../assets/graph-comment_parented.gif "コメント：親になったコメント")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 1%
 
 ## HTMLの書式設定
 
-HTMLタグを使用してテキストを書式設定できます。 この書式設定は、コメントの<b>Description</b>プロパティの![](comment.resources/comment-03.png) <b>HTMLマークアップ</b>ボタンを使用して切り替えられます。
+HTMLタグを使用してテキストを書式設定できます。 この書式設定は、コメントの<b>Description</b>プロパティの![](../../../../assets/graph-frames_html-markup-button.png) <b>HTMLマークアップ</b>ボタンを使用して切り替えられます。
 
 >[!TIP]
 >
 > この機能について詳しくは、[フレーム](../../../../interface/the-graph-view/graph-items/frame/frame.md)のドキュメントの<b>説明</b>セクションを参照してください。
 
-![注釈：HTML注釈](comment.resources/comment-04.gif "注釈：HTML注釈")
+![注釈：HTML注釈](../../../../assets/graph-comment_html-markup.gif "注釈：HTML注釈")

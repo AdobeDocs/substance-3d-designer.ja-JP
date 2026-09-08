@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: 「変数を取得」ノードを使用して、Substance 3D Designer関数グラフで変数値を取得する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数値を取得する
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 これを行うには、*Get*&#x200B;ノードを使用する必要があります。
 
-![](get-a-variable-value.resources/get-a-variable-value-01.png)
+![](../../../assets/image2015-12-21-7-29-51.png)
 
 Getノードには様々な種類があります。読み込む値の種類に応じて適切なノードを選択します。
 
-![](get-a-variable-value.resources/get-a-variable-value-02.png)
+![](../../../assets/image2015-12-21-7-31-4.png)
 
 ## 取得ノードへの変数の割り当て
 
@@ -38,7 +38,7 @@ Getノードには様々な種類があります。読み込む値の種類に�
 
 変数名がノードに表示されます。
 
-![](get-a-variable-value.resources/get-a-variable-value-03.gif)
+![](../../../assets/assign-getfloat.gif)
 
 リストには、Getノードと同じ型の変数だけが表示されることに注意してください。
 

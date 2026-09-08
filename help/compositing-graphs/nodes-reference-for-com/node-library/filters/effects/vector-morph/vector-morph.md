@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
 breadcrumb-title: ''
 description: ベクトルモーフノードは、ベクトルフィールドを使用して2つの入力間のテクスチャをスムーズなトランジションにモーフィングする場合に使用します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ベクターモーフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](vector-morph.resources/vector-morph-01.png)![](vector-morph.resources/vector-morph-02.png)
+![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
 
-<b>イン:</b>フィルター/効果
+## ベクターモーフ（グレースケール）
+
+**場所：** *フィルター/効果*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -39,23 +43,19 @@ ht-degree: 2%
 
 ベクターモーフは[ベクターワープ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)と非常によく似ています。主な違いは、このモーフノードがキャンバスの境界の外に押し出されたときに結果を「ループ」または「タイリング」しないことです。 代わりに、クランプしてエッジを繰り返します。
 
+## パラメーター
+
+### 入力
+
+* **入力**: *カラー/グレースケール入力*&#x200B;ワープのターゲットにするソース入力です。
+* **ベクターフィールド**: *カラー入力*&#x200B;ワープの駆動に使用されたベクターマップです。
+
+### パラメーター
+
+* **量**: *0.0 ～ 1.0*&#x200B;ワープ効果の強さを設定します。この値は、ベクトルマップの乗数として機能します。
+
+## サンプル画像
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>入力</b> <i>カラー/グレースケール入力</i> | ワープのターゲットにするソース入力。 |
-| <b>ベクターフィールド</b> <i>カラー入力</i> | ワープの駆動に使用するベクターマップ。 |
-
-<a name="parameters"></a>
-
-## パラメーター
-
-|  |  |
-|:---|:---|
-| <b>金額</b> <i>0.0 - 1.0</i> | ワープ効果の強度を設定します。これは、ベクトルマップの乗数として機能します。 |

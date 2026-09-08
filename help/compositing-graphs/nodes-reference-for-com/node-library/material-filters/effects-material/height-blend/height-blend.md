@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
 breadcrumb-title: ''
 description: ブレンドノードを使用すると、高さマップに基づいてテクスチャをブレンドし、リアルなマテリアル効果を作成できます。
 helpx_creative_field: ""
@@ -7,29 +7,33 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Heightブレンド
+title: ブレンド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 5%
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
 
 
-# Heightブレンド
+# ブレンド
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](height-blend.resources/height-blend-01.png){width="128px"}
+![](../../../../../../assets/height-blend.png){width="128px"}
 
-<b>内：</b> マテリアルフィルター >エフェクト
+## ブレンド
+
+**内：** *マテリアルフィルター/効果*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -37,27 +41,30 @@ Height情報に基づいて2つのハイトマップを組み合わせます。 
 
 これは、[マテリアルのHeightブレンド](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)に必要なマテリアル全体ではなく、組み合わせる高品質のハイトマップが2つある場合に便利です。
 
+## パラメーター
+
+### 入力
+
+* **Heightトップ**: *グレースケール入力*
+* **Heightの下**: *グレースケール入力*
+* **マスク（オプション）**: *グレースケール入力*\
+  ノードのエフェクトのマスクに使用するマスクスロット。
+
+### パラメーター
+
+* **Heightオフセット**: *0.0 ～ 1.0* Heightの軸に沿って描画レベルが動くように、Heightmapsをオフセットします。 これは、ブレンドのメインコントロールです。
+* **コントラスト**: *0.0 ～ 1.0*\
+  ブレンドのコントラストを調整し、トランジションをよりシャープにします。
+* **モード**: *バランスの取れたHeight、下のHeightの優先度* 2つの異なる描画モードを切り替えます。
+* **不透明度**: *0.0 ～ 1.0*\
+  前景Heightの描画の不透明度を調整して、フェードインまたはフェードアウトさせます。
+
+## サンプル画像
+
+|  |
+| --- |
+| このページに添付された画像はありません。 |
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>Heightのトップ</b> <i>グレースケール入力</i> |  |
-| <b>下のHeight</b> <i>グレースケール入力</i> |  |
-| <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
-
-<a name="parameters"></a>
-
-## パラメーター
-
-|  |  |
-|:---|:---|
-| <b>Heightオフセット</b> <i>0.0 - 1.0</i> | 軸に沿ってブレンドレベルが動くように、高さマップをオフセットします。 これは、ブレンドのメインコントロールです。 |
-| <b>コントラスト</b> <i>0.0 - 1.0</i> | ブレンドのコントラストを調整し、トランジションをよりシャープにします。 |
-| <b>モード</b> <i>バランスの取れたHeight、下位Heightの優先度</i> |  |
-| <b>不透明度</b> <i>0.0 - 1.0</i> | 前景Heightの描画の不透明度を調整して、フェードインまたはフェードアウトさせます。 |

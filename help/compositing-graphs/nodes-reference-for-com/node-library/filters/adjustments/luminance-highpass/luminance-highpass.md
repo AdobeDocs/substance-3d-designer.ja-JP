@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
 description: 輝度ハイパスノードを使用して、テクスチャから高周波輝度のディテールを取り出し、サーフェスのディテールを強調します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 輝度ハイパス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 9%
+source-wordcount: '105'
+ht-degree: 6%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](luminance-highpass.resources/luminance-highpass-01.png){width="128px"}
+![](../../../../../../assets/luminance-highpass.png){width="128px"}
 
-<b>イン:</b>フィルター/調整
+## 輝度ハイパス
+
+**イン：** *フィルター/調整*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -37,24 +41,16 @@ ht-degree: 9%
 
 [低周波数の照明をキャンセル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)よりも、色の保持に関して少し優れています。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>半径</b> <i>0.0 - 64.0</i> | ハイパス効果の半径です。 半径を小さくすると、小さな照明がキャンセルされ、入力画像に合わせて調整されます。 |
+* **半径**: *0.0 ～ 64.0*&#x200B;ハイパス効果の半径。 半径を小さくすると、小さな照明がキャンセルされ、入力画像に合わせて調整されます。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="luminance-highpass.resources/luminance-highpass-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/luminance-highpass-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Substance合成グラフの出力サイズを設定し、テクスチャの解像度と画質をコントロールします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 出力サイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> ![](output-size.resources/output-size-01.jpg)ロックボタンを使用して、Heightの値を幅の値と&#x200B;*一致*&#x200B;させます。
+> ![](../../assets/props-output-size-lock.jpg)ロックボタンを使用して、Heightの値を幅の値と&#x200B;*一致*&#x200B;させます。
 
 <table>
 <tr style="border: 0;">
@@ -98,16 +98,16 @@ Output Sizeプロパティで&#x200B;*Relative to...* [inheritanceメソッド](
 
 ノードまたはグラフの項目をクリックしてプロパティを表示し、[プロパティ](../../interface/properties/properties.md)パネルの<b>基本パラメーター</b>セクションで<b>出力サイズ</b>プロパティを見つけます。 「継承方法」ドロップダウンメニューをクリックして、目的の継承方法を選択します。
 
-![出力サイズの継承メソッド](output-size.resources/output-size-02.gif "出力サイズの継承メソッド"){width="512px"}
+![出力サイズの継承メソッド](../../assets/change-mode.gif "出力サイズの継承メソッド"){width="512px"}
 
 ## 問題の例
 
 新しい[Adobe Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)をお使いの場合は、よくある問題が発生することがあります。 以下に例と解決策を示します。
 
 +++問題1
-**![（エラー）](output-size.resources/error.svg)問題**
+**![（エラー）](../../assets/error.svg)問題**
 
-![問題1](output-size.resources/output-size-03.png "問題1")の例
+![問題1](../../assets/problem2-bad.png "問題1")の例
 
 
 
@@ -115,9 +115,9 @@ Output Sizeプロパティで&#x200B;*Relative to...* [inheritanceメソッド](
 
 グラフのプロパティで、Output Sizeプロパティの継承メソッドが&#x200B;*Absolute*&#x200B;に設定されました。これにより、任意の値に優先して継承が停止されます。
 
-**![(tick)](output-size.resources/check.svg)ソリューション**
+**![(tick)](../../assets/check.svg)ソリューション**
 
-![問題1の解決例](output-size.resources/output-size-04.png "問題1の解決例")
+![問題1の解決例](../../assets/problem2-good.png "問題1の解決例")
 
 
 
@@ -126,9 +126,9 @@ Output Sizeプロパティで&#x200B;*Relative to...* [inheritanceメソッド](
 +++
 
 +++問題2
-**![（エラー）](output-size.resources/error.svg)問題**
+**![（エラー）](../../assets/error.svg)問題**
 
-![問題の例2](output-size.resources/output-size-05.png "問題の例2")
+![問題の例2](../../assets/problem1-bad.png "問題の例2")
 
 
 
@@ -136,9 +136,9 @@ Output Sizeプロパティで&#x200B;*Relative to...* [inheritanceメソッド](
 
 この問題は、[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードから発生しています。 デフォルトでは&#x200B;*絶対*&#x200B;継承メソッドに設定され、[ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)に基づく解像度として512\*512が選択されます。 このノードに接続されているノードは&#x200B;*入力に対する相対*&#x200B;に設定されているため、ビットマップノードから出力サイズを継承します。
 
-**![(tick)](output-size.resources/check.svg)ソリューション**
+**![(tick)](../../assets/check.svg)ソリューション**
 
-![問題2の解決策の例](output-size.resources/output-size-06.png "問題2の解決策の例")
+![問題2の解決策の例](../../assets/problem1-good.png "問題2の解決策の例")
 
 
 
@@ -147,9 +147,9 @@ Output Sizeプロパティで&#x200B;*Relative to...* [inheritanceメソッド](
 +++
 
 +++問題3
-**![（エラー）](output-size.resources/error.svg)問題**
+**![（エラー）](../../assets/error.svg)問題**
 
-![問題3](output-size.resources/output-size-07.png "問題3")の例
+![問題3](../../assets/problem3-bad.png "問題3")の例
 
 
 
@@ -157,9 +157,9 @@ Output Sizeプロパティで&#x200B;*Relative to...* [inheritanceメソッド](
 
 この問題は、[変換2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)ノードの相対修飾子3によって発生し、出力が8倍大きくなっています。
 
-**![(tick)](output-size.resources/check.svg)ソリューション**
+**![(tick)](../../assets/check.svg)ソリューション**
 
-![問題3の解決例](output-size.resources/output-size-08.png "問題3の解決例")
+![問題3の解決例](../../assets/problem3-good.png "問題3の解決例")
 
 
 

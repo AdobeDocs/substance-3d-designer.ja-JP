@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-vector-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-vector-rotation.html"
 breadcrumb-title: ''
 description: サーフェスの照明と詳細な方向を調整するために法線マップベクトルを回転するには、 Normal Vector Rotationノードを使用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 法線のベクトル回転
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 5%
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -22,37 +22,39 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](normal-vector-rotation.resources/normal-vector-rotation-01.png){width="128px"}
+![](../../../../../../assets/normal-vector-rotation.png){width="128px"}
 
-<b>イン：</b>フィルター> 法線マップ
+## 法線のベクトル回転
+
+**場所：** *フィルター/法線マップ*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 正接空間で入力Normalmapのすべてのベクトルを回転させる法線ユーティリティノード。 ピクセルを変形するのではなく、ピクセルが表す値を変更します。 オプションのマップを使用して、グレースケールのファセットにランダムな回転を追加できます。
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
 ## 入力
 
-|  |  |
-|:---|:---|
-| <b>標準</b> <i>カラー入力</i> | 回転を実行するベースマップ。 必須。 |
-| <b>回転マップ （オプション）</b> <i>グレースケール入力</i> | 回転強さを変調するグレースケールマップ。 |
-
-<a name="parameters"></a>
+* **標準**: *カラー入力*\
+  回転を実行するベースマップ。 必須。
+* **回転マップ（オプション）**: *グレースケール入力*\
+  回転強さを変調するグレースケールマップ。
 
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>回転角度</b> <i>0.0 - 1.0</i> | 法線マップを回転する角度を設定します |
-| <b>標準の形式</b> <i>DirectX、OpenGL</i> | 法線マップ形式を切り替える（グリーンチャンネルを反転する） |
+* **回転角度**: *0.0 ～ 1.0*\
+  法線マップを回転する角度を設定します
+* **標準の形式**: *DirectX、OpenGL*\
+  法線マップ形式を切り替える（グリーンチャンネルを反転する）
+
+## 例
+
+</td>
+</tr>
+</table>

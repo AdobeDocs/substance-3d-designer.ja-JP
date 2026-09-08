@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 外部アプリケーションやワークフローで使用するために、Substance合成グラフからテクスチャとビットマップを書き出す方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ビットマップの書き出し
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 このページでは、Substance 3D Designerで様々なビットマップファイル形式に書き出す方法と、複数のUVタイルを一括して書き出す方法について説明します。[PSDファイルに書き出し](../exporting-psd-files/exporting-psd-files.md)する場合は、専用のページが別途用意されています。
 
-![簡易化された文書の書き出し](exporting-bitmaps.resources/exporting-bitmaps-01.png "簡易化された文書の書き出し")
+![簡易化された文書の書き出し](../../assets/exportflow.png "簡易化された文書の書き出し")
 
 ## 概念のエクスポート
 
@@ -43,14 +43,14 @@ ht-degree: 2%
 
 [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)ウィンドウで、書き出すグラフを右クリックし、**[出力をビットマップとして書き出し]**&#x200B;を選択します
 
-![](exporting-bitmaps.resources/exporting-bitmaps-02.gif)
+![](../../assets/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[グラフビュー](../../interface/the-graph-view/the-graph-view.md)で、[ツール]ボタン![](exporting-bitmaps.resources/exporting-bitmaps-03.png)をクリックし、**[出力のエクスポート…]**&#x200B;を選択します
+[グラフビュー](../../interface/the-graph-view/the-graph-view.md)で、[ツール]ボタン![](../../assets/image2019-9-17-14-44-17.png)をクリックし、**[出力のエクスポート…]**&#x200B;を選択します
 
-![](exporting-bitmaps.resources/exporting-bitmaps-04.gif)
+![](../../assets/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 2%
 1. <b>自動書き出し：</b>切り替えボタンを使用すると、変更が行われるとすぐに、グラフ出力を自動的に再書き出しできます。 現在のグラフのみ。 設定によっては重い場合や遅い場合があります。
 1. <b>エクスポートボタン：</b>現在の設定でエクスポートするか、ダイアログを閉じます。
 
-![出力ダイアログのエクスポート](exporting-bitmaps.resources/exporting-bitmaps-05.png "出力ダイアログのエクスポート")
+![出力ダイアログのエクスポート](../../assets/fromgraph-1.png "出力ダイアログのエクスポート")
 
 ## 書き出しダイアログ（バッチ/UVタイル）
 
@@ -90,4 +90,4 @@ DesignerでUVタイルメッシュを操作する場合は、書き出しダイ�
 1. <b>UV タイル:</b>出力と同様に、特定のUV タイルの書き出しのオンとオフを切り替えることができます。
 1. <b>[出力サイズ](../../compositing-graphs/output-size/output-size.md): </b>書き出し解像度を無効にして、最大サイズで書き出しながら、より小さく、より効率的に作業できるようにします。
 
-![バッチ書き出し出力ダイアログ](exporting-bitmaps.resources/exporting-bitmaps-06.png "バッチ書き出し出力ダイアログ")
+![バッチ書き出し出力ダイアログ](../../assets/batch.png "バッチ書き出し出力ダイアログ")

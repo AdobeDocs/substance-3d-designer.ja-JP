@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: グラフビューのナビゲーションピンを使用すると、Substance 3D Designerグラフの様々な場所の間をすばやくジャンプできます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ピン
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ナビゲーションピンアイコン](navigation-pin.resources/navigation-pin-01.png "ナビゲーションピンアイコン")
+![ナビゲーションピンアイコン](../../../../assets/graphatomic-pin_1.png "ナビゲーションピンアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ ht-degree: 1%
 
 ビューポートの現在のズームレベルでピンがフレームされます。
 
-![ピン：ピンにジャンプ](navigation-pin.resources/navigation-pin-02.gif "ピン：ピンにジャンプ")
+![ピン：ピンにジャンプ](../../../../assets/graph-pin_jumping.gif "ピン：ピンにジャンプ")

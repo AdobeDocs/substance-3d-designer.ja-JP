@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: 3D テクスチャの位置ノードを使用して、空間効果やマッピングを作成するために、3D テクスチャから位置情報を抽出します。
 helpx_creative_field: ""
@@ -7,29 +7,31 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3Dテクスチャ位置
+title: 3D テクスチャの位置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '63'
 ht-degree: 3%
 
 ---
 
 
-# 3Dテクスチャ位置
+# 3D テクスチャの位置
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
+![](../../../../../../assets/3dtextureposition.png){width="256px"}
 
-<b>イン:</b>フィルター/効果
+**イン：** *フィルター/効果*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,15 +43,23 @@ ht-degree: 3%
 </tr>
 </table>
 
-## 例
+## パラメーター
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
-        </td>
-    </tr>
+パラメーターがありません。
+
+## サンプル画像
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
+
+</td>
+</tr>
 </table>

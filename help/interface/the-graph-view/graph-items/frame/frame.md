@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Substance 3D Designer グラフビューのフレームを使用してノードを整理し、グループ化することで、見やすくすることができます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: フレーム
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![フレームアイコン](frame.resources/frame-01.png "フレームアイコン")
+![フレームアイコン](../../../../assets/graphatomic-frame_1.png "フレームアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 <b>Title</b>プロパティのタイトルセットは、フレームの左上隅にグレーで表示されます。
 
-![フレーム （既定の状態）](frame.resources/frame-02.png "フレーム （既定の状態）")
+![フレーム （既定の状態）](../../../../assets/graph-frames-default.png "フレーム （既定の状態）")
 
 
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 フレームは、ヘッダーバーまたはそのタイトルをドラッグして移動できます。
 
-![フレーム （ホバーステート）](frame.resources/frame-03.png "フレーム （ホバーステート）")
+![フレーム （ホバーステート）](../../../../assets/graph-frames-hover.png "フレーム （ホバーステート）")
 
 
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 +++選択済み
 選択すると、フレームのタイトルとアウトラインが白でハイライトされます。 輪郭が太くなります。
 
-![フレーム （選択されたステート）](frame.resources/frame-04.png "フレーム （選択されたステート）")
+![フレーム （選択されたステート）](../../../../assets/graph-frames-selected.png "フレーム （選択されたステート）")
 
 
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 そのため、キーボードショートカットを使用してフレームを作成すると、グラフのコンテンツのフレーム化がさらに高速になります。
 
-![フレーム：作成メソッド](frame.resources/frame-05.gif "フレーム：作成メソッド"){width="480px"}
+![フレーム：作成メソッド](../../../../assets/graph-frames_creation.gif "フレーム：作成メソッド"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![フレーム：対話ゾーン](frame.resources/frame-06.png "フレーム：対話ゾーン")
+![フレーム：対話ゾーン](../../../../assets/graph-frames_interaction-zones.png "フレーム：対話ゾーン")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![フレーム：グリッドのスナップ](frame.resources/frame-07.gif "フレーム：グリッドのスナップ")
+![フレーム：グリッドのスナップ](../../../../assets/graph-frames_grid-snapping.gif "フレーム：グリッドのスナップ")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 タイトルのサイズを最小限の画面サイズでロックして、グラフをズームアウトしてもタイトルが読みやすいようにすることができます。 これを行うには、[グラフビュー](../../../../interface/the-graph-view/the-graph-view.md)ツールバーの<b>情報</b>ドロップダウンで「フレームタイトル」オプションをオンにします。
 
-![フレーム：タイトル](frame.resources/frame-08.gif "フレーム：タイトル"){width="640px"}
+![フレーム：タイトル](../../../../assets/graph_frames_title.gif "フレーム：タイトル"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ ht-degree: 1%
 +++説明
 <b>説明</b>は、フレームの内容に注釈を付けるために使用できるオプションの追加テキストです。
 
-HTMLタグを使用してテキストをフォーマットできます。 ![](frame.resources/frame-09.png) <b>HTMLマークアップ</b>ボタンをクリックすると、この書式が切り替わります。
+HTMLタグを使用してテキストをフォーマットできます。 ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTMLマークアップ</b>ボタンをクリックすると、この書式が切り替わります。
 
 詳しくは、以下の説明セクションを参照してください。
 
-![フレーム：説明](frame.resources/frame-10.gif "フレーム：説明"){width="640px"}
+![フレーム：説明](../../../../assets/graph-frames_description.gif "フレーム：説明"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 カラーのアルファチャンネルはフレームの&#x200B;*不透明度*&#x200B;を制御します。値0は、フレームが完全に透明であることを意味します。
 
-![フレーム：カラー](frame.resources/frame-11.gif "フレーム：カラー"){width="640px"}
+![フレーム：カラー](../../../../assets/graph-frames_colour.gif "フレーム：カラー"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 </td>
 <td style="border: 0;" valign="top">
 
-![フレーム（既定の説明）](frame.resources/frame-12.png "フレーム（既定の説明）"){zoomable="yes"}
+![フレーム（既定の説明）](../../../../assets/graph-frames-descr.png "フレーム（既定の説明）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 ### HTMLの書式設定
 
-テキストは、枠の<b>Description</b>プロパティのHTMLタグを使用して書式設定できます。 同じプロパティの![](frame.resources/frame-09.png) <b>HTMLマークアップ</b>ボタンを使用して、書式設定を有効にする必要があります。
+テキストは、枠の<b>Description</b>プロパティのHTMLタグを使用して書式設定できます。 同じプロパティの![](../../../../assets/graph-frames_html-markup-button.png) <b>HTMLマークアップ</b>ボタンを使用して、書式設定を有効にする必要があります。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Frame （HTML形式の説明）](frame.resources/frame-13.png "Frame （HTML形式の説明）"){zoomable="yes"}
+![Frame （HTML形式の説明）](../../../../assets/graph-frames-descr-html.png "Frame （HTML形式の説明）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 したがって、ノードの中心点の位置は、*意図的に移動*&#x200B;するまで変更しないでください。
 
-![フレームの包含：背の高いノード](frame.resources/frame-14.png "フレームの包含：背の高いノード")
+![フレームの包含：背の高いノード](../../../../assets/frame_inclusion_node_tall.png "フレームの包含：背の高いノード")
 
 
 
@@ -297,11 +297,11 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 ノードの下に表示されるバッジ、コネクタ、情報はすべて無視されます。
 
-![フレームの組み込み：ドッキングされているノード](frame.resources/frame-15.png "フレームの組み込み：ドッキングされているノード")
+![フレームの組み込み：ドッキングされているノード](../../../../assets/frame_inclusion_node_docked.png "フレームの組み込み：ドッキングされているノード")
 
 
 
-![フレームの包含：ノード](frame.resources/frame-16.png "フレームの包含：ノード")
+![フレームの包含：ノード](../../../../assets/frame_inclusion_node.png "フレームの包含：ノード")
 
 
 
@@ -312,7 +312,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 コネクタ、ポータルアイコン、および名前はすべて無視されます。
 
-![フレームの包含：ドットノード](frame.resources/frame-17.png "フレームの包含：ドットノード")
+![フレームの包含：ドットノード](../../../../assets/frame_inclusion_dot.png "フレームの包含：ドットノード")
 
 
 
@@ -329,11 +329,11 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 
 
-![フレームの埋め込み：親になったコメント](frame.resources/frame-18.png "フレームの埋め込み：親になったコメント")
+![フレームの埋め込み：親になったコメント](../../../../assets/frame_inclusion_comment_parented.png "フレームの埋め込み：親になったコメント")
 
 
 
-![フレームインクルージョン：コメント](frame.resources/frame-19.png "フレームインクルージョン：コメント")
+![フレームインクルージョン：コメント](../../../../assets/frame_inclusion_comment.png "フレームインクルージョン：コメント")
 
 
 
@@ -342,7 +342,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 +++ピン
 ピンアイコンの<b>ヒント</b>が使用されます。
 
-![フレームの埋め込み：ナビゲーションピン](frame.resources/frame-20.png "フレームの埋め込み：ナビゲーションピン")
+![フレームの埋め込み：ナビゲーションピン](../../../../assets/frame_inclusion_pin.png "フレームの埋め込み：ナビゲーションピン")
 
 
 
@@ -355,7 +355,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 タイトルは無視されます。
 
-![フレームの包含：ネストされたフレーム](frame.resources/frame-21.png "フレームの包含：ネストされたフレーム")
+![フレームの包含：ネストされたフレーム](../../../../assets/frame_inclusion_frame.png "フレームの包含：ネストされたフレーム")
 
 
 
@@ -363,7 +363,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 ## サイズをコンテンツに合わせる
 
-![フレーム：コンテンツに合わせてサイズを調整](frame.resources/frame-22.png "フレーム：コンテンツに合わせてサイズを調整")
+![フレーム：コンテンツに合わせてサイズを調整](../../../../assets/graph-frames_fit-size-to-content.png "フレーム：コンテンツに合わせてサイズを調整")
 
 グラフで調整を行っているときに、フレームの内容を適切に調整できない場合があります。 この場合、1つのミディアムグリッドセルのパディングで、フレームの位置とサイズをコンテンツのスパンに合わせて自動的に調整することができます。
 
@@ -386,14 +386,14 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 </td>
 <td style="border: 0;" valign="top">
 
-![フレーム：コンテンツに合わせてサイズを調整（説明あり）](frame.resources/frame-23.png "フレーム：コンテンツに合わせてサイズを調整（説明あり）")
+![フレーム：コンテンツに合わせてサイズを調整（説明あり）](../../../../assets/graph-frames_fit-description.png "フレーム：コンテンツに合わせてサイズを調整（説明あり）")
 
 </td>
 </tr>
 </table>
 
 +++例
-![フレーム：コンテンツに合わせてサイズを調整(GIF)](frame.resources/frame-24.gif "フレーム：コンテンツに合わせてサイズを調整(GIF)"){width="640px"}
+![フレーム：コンテンツに合わせてサイズを調整(GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "フレーム：コンテンツに合わせてサイズを調整(GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 
 ## 自動拡張
 
-![フレーム：自動拡張](frame.resources/frame-25.png "フレーム：自動拡張")
+![フレーム：自動拡張](../../../../assets/graph-frames_auto-expand.png "フレーム：自動拡張")
 
 グラフが大きくなると、フレームの内容の並べ替えが必要になる場合があります。 ノードを移動して追加するスペースを確保したり、コンテンツを読みやすくするためにより多くの間隔を空ける必要がある場合があります。
 
@@ -416,7 +416,7 @@ HTMLタグを使用してテキストをフォーマットできます。 ![](fr
 > フレームの自動調整をトリガーまたはキャンセルするには、移動中の任意の時点で<b>Shift</b>キーを押すか離す必要がありますが、調整を効果的に適用するには、移動の完了時に&#x200B;*Shift*&#x200B;を押す必要があります。
 
 +++例
-![フレーム：自動拡張(GIF)](frame.resources/frame-26.gif "フレーム：自動拡張(GIF)"){width="640px"}
+![フレーム：自動拡張(GIF)](../../../../assets/graph-frames_auto-expand.gif "フレーム：自動拡張(GIF)"){width="640px"}
 
 
 

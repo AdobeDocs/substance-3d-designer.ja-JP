@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: 再利用可能な値やパラメーターを使用するために、Substance 3D Designer関数グラフでカスタム変数を作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数の作成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Setノードの使用は少し特殊です。
 >
 > 作成する変数が複数ある場合は、*Set*&#x200B;と&#x200B;*Sequence*&#x200B;のノード作成操作を繰り返し、最後のシーケンスノードを出力ノードとして設定します。
 > 
-> ![](create-a-variable.resources/create-a-variable-01.png)
+> ![](../../../assets/image2015-12-18-18-43-8.png)

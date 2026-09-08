@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/multi-material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/multi-material-blend.html"
 breadcrumb-title: ''
 description: 複数マテリアルのブレンドノードを使用すると、複数のマテリアルをブレンドして、複雑なマテリアルの組み合わせを作成できます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: マルチマテリアルブレンド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 7%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](multi-material-blend.resources/multi-material-blend-01.png){width="128px"}
+![](../../../../../../assets/multi-material-blend.png){width="128px"}
 
-<b>イン:</b> マテリアルフィルター/描画
+## マルチマテリアルブレンド
+
+**イン：** *マテリアルフィルター/描画*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -39,28 +43,30 @@ ht-degree: 7%
 
 これを使用する場合、マテリアル1、スロット1は常に既定のマテリアルであり、他のマテリアルが表示されない場所に表示されることに注意してください。 そのため、カラーを設定できません。 このセーフを再生する場合は、たとえばラフブラックに設定された[ベースマテリアル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md)を差し込みます。
 
+## パラメーター
+
+### 入力
+
+* **1～16個の完全なマテリアルスロット**&#x200B;スロットの数は、**マテリアル**&#x200B;ドロップダウンで決定されます。
+* **カラーID**: *カラー入力*\
+  ベイクカラーIDマップ：
+
+### パラメーター
+
+* **マテリアル**: *2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16*&#x200B;描画するマテリアルの最大量を設定します。
+* **チャネル**\
+  この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。
+* **マテリアル 2-16**&#x200B;有効にしたマテリアルごとに1つのグループが表示されます。
+  * **カラー**: *（カラー値）*このマテリアルスロットに一致するID マップから選択するカラー。
+  * **ぼやけ**: *0.01 ～ 1.0*&#x200B;色が近くまで裁ち落とされます。
+  * **パディング**: *0.0 ～ 1.0*&#x200B;トランジションの硬さ:マスクコントラスト。
+
+## サンプル画像
+
+|  |
+| --- |
+| このページに添付された画像はありません。 |
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>1～16個のフルマテリアルスロット</b> | スロットの数は、<b>マテリアル</b>のドロップダウンによって決まります。 |
-| <b>色ID</b> <i>カラー入力</i> | ベイクカラーIDマップ： |
-
-<a name="parameters"></a>
-
-## パラメーター
-
-|  |  |
-|:---|:---|
-| <b>マテリアル</b> <i>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</i> | ブレンドする異なるマテリアルの最大量を設定します。 |
-| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
-| <b>マテリアル 2-16</b> | 有効なマテリアルごとに1つのグループが表示されます。 |
-| <b>色</b> <i>（カラー値）</i> | このマテリアルスロットに一致するID マップから選択する色です。 |
-| <b>ぼやけ</b> <i>0.01 - 1.0</i> | 周囲のカラーににじみ出します。 |
-| <b>パディング</b> <i>0.0 - 1.0</i> | トランジションの硬さ：マスクコントラスト。 |

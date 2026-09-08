@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのエクスプローラーウィンドウを使用して、プロジェクトのファイルやリソースを参照、整理、管理します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: エクスプローラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![エクスプローラードック](the-explorer-window.resources/the-explorer-window-01.jpg "エクスプローラードック")
+![エクスプローラードック](../../assets/explorer-3.jpg "エクスプローラードック")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ ht-degree: 2%
 
 このツールバーを使用すると、ワークフロー全体に関連する機能をすばやく実行できます。 すべてのボタンは&#x200B;*コンテキストに応じた*&#x200B;です。つまり、エクスプローラーでの現在の選択に基づいて、ボタンをアクティブにし、動作を変更します。
 
-![](the-explorer-window.resources/the-explorer-window-02.png) <b>選択したパッケージを保存</b>します。
+![](../../assets/save.png) <b>選択したパッケージを保存</b>します。
 
-![](the-explorer-window.resources/the-explorer-window-03.jpg) <b>Publishまたは[送信](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>選択した要素：
+![](../../assets/sendto-icon.jpg) <b>Publishまたは[送信](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>選択した要素：
 
 * [選択したパッケージをSubstance 3Dアセット(SBSAR)にPublish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* 選択したパッケージを[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)さん、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)さん、または[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)に送信します。
+* 選択したパッケージを[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)さん、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)さん、または[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)に送信します。
 
-![](the-explorer-window.resources/the-explorer-window-04.png) <b>Publishまたは以前と同じ形式で送信： </b>選択したアイテムをPublishするか、以前と同じ設定で送信します。 このオプションは、*現在*&#x200B;セッションで既に&#x200B;*少なくとも1回*&#x200B;公開されているパッケージでのみ使用できます。
+![](../../assets/republish.png) <b>Publishまたは以前と同じ形式で送信： </b>選択したアイテムをPublishするか、以前と同じ設定で送信します。 このオプションは、*現在*&#x200B;セッションで既に&#x200B;*少なくとも1回*&#x200B;公開されているパッケージでのみ使用できます。
 
-![](the-explorer-window.resources/the-explorer-window-05.jpg) <b>選択したグラフの未使用ノードを削除します</b>。 ツールは次の規則に従います。
+![](../../assets/graph-cleaner.jpg) <b>選択したグラフの未使用ノードを削除します</b>。 ツールは次の規則に従います。
 
 * このツールは、選択した項目が&#x200B;*同じ種類*:グラフ、フォルダー、またはパッケージのみ)の場合にのみ使用できます。
 * 選択範囲にフォルダーまたはパッケージが含まれている場合、ツールはその中のすべてのグラフを&#x200B;*再帰的に*&#x200B;消去します。
@@ -77,14 +77,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Publish/送信ドロップダウンメニュー](the-explorer-window.resources/the-explorer-window-06.jpg "Publish/送信ドロップダウンメニュー")
+![Publish/送信ドロップダウンメニュー](../../assets/explorer-sendto-displayed.jpg "Publish/送信ドロップダウンメニュー")
 
 *Publish/送信*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![使用されていないノードの削除ドロップダウンメニュー](the-explorer-window.resources/the-explorer-window-07.jpg "使用されていないノードの削除ドロップダウンメニュー")
+![使用されていないノードの削除ドロップダウンメニュー](../../assets/explorer-graph-cleaner.jpg "使用されていないノードの削除ドロップダウンメニュー")
 
 *未使用のノードを削除する*
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 <b>依存関係のあるエクスポート</b>は、保存および発行とは異なります。 SBSファイルを取得し、参照されているすべてのリソースと依存関係を収集して、自己完結型のパッケージを作成します。 このダイアログでは、収集するライブラリと、ファイルを圧縮アーカイブ(7-zip)にするかどうかを選択できます。 これは、依存関係の欠落を気にすることなく、SBSファイルを他のユーザーと共有する場合に適しています。
 
-<b>送信先…</b>は、パッケージを直接[送信先](send-to-interoperability/send-to-interoperability.md)として[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)または[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)に送信するためのサブメニューを開きます。
+<b>送信先…</b>は、パッケージを直接[送信先](send-to-interoperability/send-to-interoperability.md)として[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)または[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)に送信するためのサブメニューを開きます。
 
 <b>コピー</b>選択したパッケージをコピーします。
 
@@ -200,9 +200,9 @@ ht-degree: 2%
 
 エクスプローラドックの下部にあるツールバーには、パッケージまたはパッケージリソースに関する次の情報が表示されます。
 
-<b>![](the-explorer-window.resources/the-explorer-window-08.jpg)依存関係：</b>パッケージを選択すると、そのパッケージの依存関係が専用パネルに一覧表示されます。
+<b>![](../../assets/explorer-dependencies.jpg)依存関係：</b>パッケージを選択すると、そのパッケージの依存関係が専用パネルに一覧表示されます。
 
-<b>![](the-explorer-window.resources/the-explorer-window-09.jpg)情報：</b>現在選択されているパッケージまたはリソースに関連するメタデータを提供します：
+<b>![](../../assets/explorer-information.jpg)情報：</b>現在選択されているパッケージまたはリソースに関連するメタデータを提供します：
 
 * パッケージ：パッケージの完全なファイルパス
 * [ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md):リソースの完全なファイルパス、その[ICCプロファイル](../../color-management/color-management.md)、画像サイズおよび[インポートメソッド](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) （例： *リンク*&#x200B;または&#x200B;*インポート*）
@@ -211,14 +211,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![依存関係パネル](the-explorer-window.resources/the-explorer-window-10.jpg "依存関係パネル")
+![依存関係パネル](../../assets/explorer-dependencies-displayed.jpg "依存関係パネル")
 
 *依存関係*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![情報パネル](the-explorer-window.resources/the-explorer-window-11.jpg "情報パネル")
+![情報パネル](../../assets/explorer-information-displayed.jpg "情報パネル")
 
 *情報*
 

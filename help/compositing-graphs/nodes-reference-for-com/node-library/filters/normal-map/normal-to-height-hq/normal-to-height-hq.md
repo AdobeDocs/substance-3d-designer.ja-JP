@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
-description: '[法線からHeightへ] HQノードを使用して、サーフェスの詳細を抽出するために法線マップを高品質のHeightマップに変換します。'
+description: '[法線からHeightへ] HQノードを使用して、サーフェスの詳細を抽出するために法線マップを高品質の高さマップに変換します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: HeightHQに標準
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 3%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
@@ -22,43 +22,40 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](normal-to-height-hq.resources/normal-to-height-hq-01.png){width="128px"}
+![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
 
-<b>イン：</b>フィルター> 法線マップ
+## HeightHQに標準
+
+**場所：** *フィルター/法線マップ*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
-接線空間の法線マップを再び高さマップに変換しようとする逆変換ノード。 これは、より高度なノードです。[Heightに対して標準](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)では、選択肢が少なく、異なる計算を使用します。
+正接空間のノーマルマップを再びハイトマップに変換しようとする逆変換ノード。 これは、より高度なノードです。[Heightに対して標準](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)では、選択肢が少なく、異なる計算を使用します。
 
 ノーマルマップソースしかなくても、ハイトマップと組み合わせて操作を実行したい場合に便利です。 Heightを通常に変換すると情報が失われるため、100%正しい結果を得ることはできないことに注意してください。 正しく生成されたHeightmapを置き換えることはできません。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>標準の形式</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |
-| <b>リリーフ残高</b> <i>0.0 - 1.0</i> | 低周波バイアスと高周波バイアスの間のブレンド。 |
-| <b>Heightの適用度</b> <i>0.0 - 1.0</i> | 高さマップの強度または乗数は、グローバル不透明度に少し似ています。 |
-| <b>Heightの正規化</b> <i>False/True</i> | [自動レベル補正](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)のように、ハイトマップの範囲を自動的に拡大・縮小して完全なコントラストを使用します。 |
-| <b>クォリティ</b> <i>標準、高</i> | 速度と画質を切り替えます。 |
+* **標準の形式**: *DirectX、OpenGL*\
+  異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。
+* **リリーフバランス**: *0.0 ～ 1.0*&#x200B;低周波バイアスと高周波バイアスのブレンド。
+* **Heightの強さ**: *0.0 ～ 1.0* Heightmapの強さまたは乗数。グローバルな不透明度に少し似ています。
+* **Heightの正規化**: *偽/真* Heightmapの範囲を自動的に拡大・縮小して、完全なコントラストを使用します（[自動レベル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)など）。
+* **品質**: *通常、高*&#x200B;速度と品質を切り替えます。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="normal-to-height-hq.resources/normal-to-height-hq-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2height-hq-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

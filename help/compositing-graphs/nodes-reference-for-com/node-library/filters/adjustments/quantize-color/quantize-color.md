@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: 「カラーの量子化」ノードを使用して、スタイル化されたポスタリゼーション効果のカラーレベル数を減らします。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: カラーを量子化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![色の量子化アイコン](quantize-color.resources/quantize-color-01.png "色の量子化アイコン"){width="200px"}
+![色の量子化アイコン](../../../../../../assets/QuantizeColor.png "色の量子化アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -38,50 +38,64 @@ ht-degree: 0%
 処理されたイメージに加えて、ノードは以下も抽出します。
 
 * 残りの色の<b>パレット</b>で、他の画像を色付けするために使用されます
-* クオンタイズされた領域の<b>IDマップ</b>です。これは、処理された画像を別のパレットを使用して再配色するために使用される場合があります
-* 残りの色の<b>amount</b>を未処理整数値として返します
+* クオンタイズ領域の<b>ID マップ</b>です。これは、処理されたイメージを別のパレットを使用して再配色するために使用される場合があります
+* 未加工の整数値としての残りの色の<b>量</b>
 
 </td>
 </tr>
 </table>
 
-「アルファを無視」パラメーターが「偽」に設定されている場合、元の画像のアルファチャンネルを使用して、量子化プロセスのためにカラーを抽出する必要がある画像の領域が選択され、透明領域のカラーは無視されます。
+「アルファを無視」が「偽」に設定されている場合、元のイメージのアルファチャンネルを使用してイメージの領域が選択され、その領域からカラーが抽出されて量子化されます。一方、透明な領域のカラーは無視されます。
 
 これにより、抽出されるカラーをある程度制御できます。
 
 このノードは、次のノードと組み合わせて使用できます： [カラーパレットの作成](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)、[カラーパレットの適用](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)、[カラーパレットの変更](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)、[カラーパレットの表示](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)。
 
-<a name="inputs"></a>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-## 入力
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+### 出力コネクター
+
+</td>
+<td style="border: 0;" valign="top">
+
+### パラメーター
+
+</td>
+</tr>
+</table>
+
+## 入力コネクター
 
 |  |  |
-|:---|:---|
-| <b>入力</b> <i>色</i>プライマリ | 量子化する必要があるカラー画像。 |
+| --- | --- |
+| <b>入力</b> *色*&#x200B;プライマリ | 量子化する必要があるカラー画像。 |
 
-<a name="outputs"></a>
-
-## 出力
+## 出力コネクター
 
 |  |  |
-|:---|:---|
-| <b>出力</b> <i>色</i> | 量子化されたカラー画像。 |
-| <b>ID</b> <i>グレースケール</i> | 量子化された各カラーに一意の整数識別子が割り当てられたマップ。   これは次の場合に使用できます。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>IDが[IDの一部のクオンタイズ領域からマスク</b>をマスクに](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードから抽出します</li> <li data-preserve-html="true">[カラーパレットを適用](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)または[カラーパレットを変更](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)ノードを使用して、量子化された画像を<b>再配色</b>します</li> </ul> |
-| <b>パレット</b> <i>色</i> | 画像から抽出されたパレットで、量子化後の残りの色を保持します。   画像は、ピクセルの行としてエンコードされたRGBカラーの順序付きリストで、最大256色を保持できます。   パレットは、[[カラーパレットの表示]](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)ノードで表示できます。 |
-| <b>パレットの色の適用量</b> <i>整数</i> | パレットに格納される色の量。 |
-
-<a name="parameters"></a>
+| --- | --- |
+| <b>出力</b> *色* | 量子化されたカラー画像。 |
+| <b>ID</b> *グレースケール* | 各クオンタイズされたカラーに一意の識別子が割り当てられたマップ。   これは次の場合に使用できます。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>IDが[IDの一部のクオンタイズ領域からマスク</b>をマスクに](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードから抽出します</li> <li data-preserve-html="true">[カラーパレットを適用](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)または[カラーパレットを変更](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)ノードを使用して、量子化された画像を<b>再配色</b>します</li> </ul> |
+| <b>パレット</b> *色* | 画像から抽出されたパレットで、量子化後の残りの色を保持します。   画像は、ピクセルの行としてエンコードされたRGBカラーの順序付きリストで、最大256色を保持できます。   パレットは、[[カラーパレットの表示]](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)ノードで表示できます。 |
+| <b>パレットの色の適用量</b> *整数* | パレットに格納される色の量。 |
 
 ## パラメーター
 
 |  |  |
-|:---|:---|
+| --- | --- |
 | <b>最大 カラー適用量</b> *整数* | 量子化したイメージで使用するカラーの最大量。   この量は、イメージから抽出されたパレットで使用される量と同じです。  「最大」とは、量子化手法が使用されているために、この量を満たすことができないことを意味します。 実際に抽出されるカラーの量については、「パレットのカラーの量」出力を確認してください。 |
 | <b>等高線のスムージング</b> *フロート* | 入力画像に適用される滑らかさの効果の半径を制御します。この効果は、量子化されたイメージをより立体的でまとまりのある形状に単純化するために使用されます。   メモ：このスムージングには集中的な計算が必要なので、この値を大きくするとノードの計算時間が大幅に増加します。 |
 | <b>ディザリング</b> *フロート* | 元の画像のグラデーションとカラーブレンドを再現するためにディザリングパターンを適用します。量子化後に残ったカラーだけを使用します。   予想されるディザリング効果を生成するには、「等高線のスムージング」の値を0に設定してください。 |
-| <b>ディザリングパターン</b> *整数* | 元の画像のグラデーションとカラーブレンドを再作成するために使用されるディザリングパターンです。<ul data-preserve-html="true"> <li data-preserve-html="true">ブルーノイズ</li> <li data-preserve-html="true">ベイヤー</li> </ul> |
-| <b>アルファを無視</b> *ブール値* | 初期設定では、元の画像のアルファチャンネルを使用して、量子化プロセスでカラーを抽出する画像の領域が選択されます。透明領域のカラーは無視されます。 これにより、抽出されるカラーをある程度制御できます。   実際、画像の表示されている部分のカラーだけを量子化プロセスに使用することもできます。   この切り替えを使用すると、このマスクを無効にし、透明度に関係なく&#x200B;*フル*&#x200B;の画像を使用できます。 |
-| <b>距離のカラースペース</b> *整数* | 色は、*立方体*&#x200B;に配置され、幅、Height、および深度は、色の各構成要素が0から1に増加するグラデーションです(例： 赤、緑、青(RGB)。   量子化プロセスでは、画像内の&#x200B;*定義する色*&#x200B;を選択し、立方体で最も近い色を見つけて、定義する色に置き換えます。   このパラメーターを使用すると、立方体のカラーの分布に使用するカラースペースを選択できます。これにより、定義するカラーの検出と隣接するカラーの並べ替えの条件を変更することで、量子化の結果が変更されます。   ユースケースに適したカラースペースを選択できます。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Lab (Color):</b>標準化された知覚的カラースペースです。「感じる」近くの色が実際には立方体で近くなるように色を分配します。 これは、ディスプレイで表示される画像に適しています</li> <li data-preserve-html="true"><b>RGB（データ）:</b>色は赤、緑、青に分割され、人間の知覚を無視してそれらの軸に沿ってまっすぐに分布しています。 これは、法線マップなどの未加工データを保持するイメージに適しています</li> </ul> |
+| <b>ディザリングパターン</b> *整数* | 元の画像のグラデーションとカラーブレンドを再作成するために使用されるディザリングパターン：<ul data-preserve-html="true"> <li data-preserve-html="true">ブルーノイズ</li> <li data-preserve-html="true">ベイヤー</li> </ul> |
+| <b>アルファを無視</b> *ブーリアン* | 初期設定では、元の画像のアルファチャンネルを使用して、量子化プロセスでカラーを抽出する必要がある画像領域が選択され、透明領域のカラーは無視されます。 これにより、抽出されるカラーをある程度制御できます。   実際、画像の表示されている部分のカラーだけを量子化プロセスに使用することもできます。   この切り替えを使用すると、このマスクを無効にし、透明度に関係なく&#x200B;*フル*&#x200B;の画像を使用できます。 |
+| <b>距離のカラースペース</b> *整数* | 色は、*立方体*&#x200B;に配置され、幅、Height、および深度は、色の各構成要素が0から1に増加するグラデーションです(例： 赤、緑、青(RGB)。   量子化プロセスでは、画像内の&#x200B;*定義する色*&#x200B;を選択し、立方体で最も近い色を見つけて、定義する色に置き換えます。   このパラメーターを使用すると、立方体のカラーの分布に使用するカラースペースを選択できます。これにより、定義するカラーの検出と隣接するカラーの並べ替えの条件を変更することで、量子化の結果が変更されます。   ユースケースに適したカラースペースを選択できます。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>ラボ （カラー）:</b>標準的な知覚的カラースペースです。立方体の中で「感じる」近い色が実際に近くなるように色を分配します。 これは、ディスプレイで表示される画像に適しています</li> <li data-preserve-html="true"><b>RGB（データ） :</b>色は赤、緑、青に分割され、人間の知覚を無視してそれらの軸に沿ってまっすぐに分布しています。 これは、法線マップなどの未加工データを含む画像に適しています</li> </ul> |
 | <b>ID並べ替えモード</b> *整数* | 色は、*立方体*&#x200B;に配置され、幅、Height、深度は、色の各要素が0から1に増加するグラデーションです(例： 赤、緑、青(RGB)。   このパラメータは、抽出されたパレットの色のリストと、抽出されたIDマップの領域のインデックスの順序を決定するために使用する方法を選択します。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Zカーブ:</b>色は、カラーキューブ内の次に見つかった色によって、Zカーブを使用して白から黒に並べ替えられます</li> <li data-preserve-html="true"><b>色相：</b>色は最も近い色相で並べ替えられます</li> <li data-preserve-html="true"><b>表現性：</b>色は、量子化された画像で使用されている色の多いものから最も低いものへと並べ替えられます</li> </ul> |
 | <b>フィルターをダウンスケール</b> *整数* | カラー量子化プロセスは、カラーを重要度別に分類するために、縮小（すなわち縮小）されたサイズの画像のヒストグラムを計算することを含む。 このパラメーターは、ヒストグラムを計算する前に、縮小された画像をフィルタリングする方法を制御します。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>バイリニア:</b>画像にバイリニアフィルタリングを適用します。補間された色を含むヒストグラムが生成されますが、これは元の画像には含まれない場合があり、元の色の一部が薄くなります。 これにより、多くのカラーを使用する画像で役立ちます。</li> <li data-preserve-html="true"><b>Nearest:</b>は、フィルタリングのない最も近いピクセルのカラーをサンプリングし、元の画像のカラーだけを使用したヒストグラムを作成します。 このオプションは、色数の少ない画像に適しています。</li> </ul> |
 
@@ -90,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-02.jpg" alt="quantize_color_example_6_before">
+      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-03.jpg" alt="quantize_color_example_6_after">
+      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -103,11 +117,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-04.jpg" alt="quantize_color_example_2_before">
+      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-05.jpg" alt="quantize_color_example_2_after">
+      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -116,11 +130,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-06.jpg" alt="quantize_color_example_3_before">
+      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-07.jpg" alt="quantize_color_example_3_after">
+      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -129,11 +143,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-08.jpg" alt="quantize_color_example_4_before">
+      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-09.jpg" alt="quantize_color_example_4_after">
+      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -142,11 +156,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-10.jpg" alt="quantize_color_example_5_before">
+      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-11.jpg" alt="quantize_color_example_5_after">
+      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>後</i>
     </td>
   </tr>

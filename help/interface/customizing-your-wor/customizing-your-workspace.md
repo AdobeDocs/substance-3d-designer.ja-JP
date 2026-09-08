@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでワークスペースをカスタマイズし、ワークフローやレイアウトの環境設定を最適化する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ワークスペースのカスタマイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### ビューを表示/非表示にする
 
-特定のインターフェイス項目の表示と非表示を切り替えるには、*Windows*&#x200B;メニューでインターフェイス項目の名前をクリックします。 表示されている項目には![](customizing-your-workspace.resources/customizing-your-workspace-01.png)チェックマークが付いています。
+特定のインターフェイス項目の表示と非表示を切り替えるには、*Windows*&#x200B;メニューでインターフェイス項目の名前をクリックします。 表示されている項目には![](../../assets/image2015-12-17-10-43-24.png)チェックマークが付いています。
 
 ### ドックへのビューの移入
 
@@ -46,7 +46,7 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Windowsメニュー](customizing-your-workspace.resources/customizing-your-workspace-02.png "Windowsメニュー")
+![Windowsメニュー](../../assets/windows-menu-1.png "Windowsメニュー")
 
 </td>
 </tr>
@@ -56,13 +56,13 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 
 ドックのサイズは、ドックの端を移動して変更できます。 他のドックは、サイズに合わせて動的に変更されます。
 
-![ドックのサイズ変更](customizing-your-workspace.resources/customizing-your-workspace-03.gif "ドックのサイズ変更")
+![ドックのサイズ変更](../../assets/interface-customisation-resize.gif "ドックのサイズ変更")
 
 ## ドックの移動
 
 任意のドックを、*タイトルバー*&#x200B;を使用してメインウィンドウの周りに移動できます。 ドックの移動先の場所に応じて、ドックのサイズが変更されます。
 
-![ドックの移動](customizing-your-workspace.resources/customizing-your-workspace-04.gif "ドックの移動")
+![ドックの移動](../../assets/interface-customisation-move.gif "ドックの移動")
 
 ## ドックのタブ移動
 
@@ -70,7 +70,7 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 
 ドックのタブ設定を行うには、ドックのタイトルバー&#x200B;*を既存のドックの上*&#x200B;に移動します。たとえば、ドックはサイズ変更も移動もされませんが、移動先のドックの周りには&#x200B;*フレーム*&#x200B;が表示されます。
 
-![ドックをタブ移動](customizing-your-workspace.resources/customizing-your-workspace-05.gif "ドックをタブ移動")
+![ドックをタブ移動](../../assets/interface-customisation-tab.gif "ドックをタブ移動")
 
 ## ドッキング解除
 
@@ -78,10 +78,10 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 
 これは、次の2つの方法で実行できます。
 
-* *タイトルバー*&#x200B;を使用してドックを移動し、*メインウィンドウの外*&#x200B;に配置するか、または&#x200B;*ドックではない*&#x200B;メインウィンドウの領域に配置します。 このドックを再ドッキングするには、メインウィンドウ&#x200B;*の別のドック*&#x200B;に移動するか、<b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) [再ドッキング]</b>ボタンをクリックします。
-* <b>![](customizing-your-workspace.resources/customizing-your-workspace-07.png) [ドッキング解除]</b>ボタンをクリックします。 このメソッドでドッキングを解除したドックは、<b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) [再ドッキング]</b>ボタンをクリックして&#x200B;*のみ*&#x200B;再ドッキングできます。
+* *タイトルバー*&#x200B;を使用してドックを移動し、*メインウィンドウの外*&#x200B;に配置するか、または&#x200B;*ドックではない*&#x200B;メインウィンドウの領域に配置します。 このドックを再ドッキングするには、メインウィンドウ&#x200B;*の別のドック*&#x200B;に移動するか、<b>![](../../assets/dock-icons-redock.png) [再ドッキング]</b>ボタンをクリックします。
+* <b>![](../../assets/dock-icons-undock.png) [ドッキング解除]</b>ボタンをクリックします。 このメソッドでドッキングを解除したドックは、<b>![](../../assets/dock-icons-redock.png) [再ドッキング]</b>ボタンをクリックして&#x200B;*のみ*&#x200B;再ドッキングできます。
 
-![ドッキング解除](customizing-your-workspace.resources/customizing-your-workspace-08.gif "ドッキング解除")
+![ドッキング解除](../../assets/interface-customisation-undock.gif "ドッキング解除")
 
 ## ドックの最大化
 
@@ -93,12 +93,12 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 ドックは、次の2つの方法で最大化できます。
 
 * *カーソルをドック*&#x200B;の上に置いて、<b>Shift +スペース</b>のキーストロークを押します
-* <b>![](customizing-your-workspace.resources/customizing-your-workspace-09.png) [最大化]</b>ボタンをクリックしています
+* <b>![](../../assets/dock-icons-maximise.png) [最大化]</b>ボタンをクリックしています
 
 最大化されたドックは、*最大化される前*&#x200B;に保持されていたサイズと場所に最小化できます。 これは、次の3つの方法で実行できます。
 
 * *カーソルをドック*&#x200B;の上に置いて、<b>Shift +スペース</b>のキーストロークを押します
-* <b>![](customizing-your-workspace.resources/customizing-your-workspace-10.png) [最小化]</b>ボタンをクリックしています
+* <b>![](../../assets/dock-icons-minimise.png) [最小化]</b>ボタンをクリックしています
 * <b>ウィンドウ</b>メニューを開き、<b>ウィンドウの最大化を解除</b>オプションを選択しています
 
 >[!NOTE]
@@ -114,7 +114,7 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 > * Dockタイトルバーのボタンは&#x200B;*無効*&#x200B;です
 > * メインウィンドウ&#x200B;*で最大化されているドックは、タイトルバーを使用して移動できません*
 
-![ドックの最大化](customizing-your-workspace.resources/customizing-your-workspace-11.gif "ドックの最大化")
+![ドックの最大化](../../assets/interface-customisation-maximise.gif "ドックの最大化")
 
 ## ドックの固定
 
@@ -122,7 +122,7 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 
 ドックが固定されると、そのドックに表示されるコンテンツは代わりに&#x200B;*新しいドックを作成*&#x200B;してホストします。 この新しいドックは固定されないため、新しいコンテンツを更新してホストできます。
 
-ドックを固定するには、![](customizing-your-workspace.resources/customizing-your-workspace-12.png) <b>固定</b>ボタンをクリックします。 その後、![](customizing-your-workspace.resources/customizing-your-workspace-13.png) <b>ピン留めを解除</b>ボタンを使用して&#x200B;*ピン留めを解除*&#x200B;し、新しいコンテンツをホストするために&#x200B;*使用可能*&#x200B;に戻すことができます。
+ドックを固定するには、![](../../assets/dock-icons-pin.png) <b>固定</b>ボタンをクリックします。 その後、![](../../assets/dock-icons-pinned.png) <b>ピン留めを解除</b>ボタンを使用して&#x200B;*ピン留めを解除*&#x200B;し、新しいコンテンツをホストするために&#x200B;*使用可能*&#x200B;に戻すことができます。
 
 **&#x200B;同じ種類&#x200B;*の複数のドックを含め、一度に複数の*&#x200B;ドックを固定できます。
 
@@ -132,11 +132,11 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 * 2つ以上のビットマップを同時に表示
 * 複数のグラフの同時操作
 
-![ドックの固定](customizing-your-workspace.resources/customizing-your-workspace-14.gif "ドックの固定")
+![ドックの固定](../../assets/interface-customisation-pin.gif "ドックの固定")
 
 ## ドックのクローズ
 
-どのドックも、![](customizing-your-workspace.resources/customizing-your-workspace-15.png) <b>閉じる</b>ボタンをクリックして閉じることができます。
+どのドックも、![](../../assets/dock-icons-close.png) <b>閉じる</b>ボタンをクリックして閉じることができます。
 
 ## インターフェイスレイアウトのリセット
 
@@ -144,4 +144,4 @@ Designerでは、ドックは内容とは別の&#x200B;*コンテナです*。 �
 
 これらの表示状態もリセットされます。つまり、閉じたドックは&#x200B;*再度開く* （例： 3Dビュー）ことができ、表示したドックは&#x200B;*閉じる* （例：コンソール、依存関係マネージャー、プラグインで作成したドック）ことができます。
 
-![レイアウトのリセット](customizing-your-workspace.resources/customizing-your-workspace-16.gif "レイアウトのリセット")
+![レイアウトのリセット](../../assets/interface-customisation-reset.gif "レイアウトのリセット")

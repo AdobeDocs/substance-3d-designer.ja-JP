@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: 不均等ブラーノードを使用して、異方性効果のX方向とY方向に異なる強度のブラーを適用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ブラー（不均等）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 9%
+source-wordcount: '178'
+ht-degree: 2%
 
 ---
 
@@ -22,52 +22,47 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](non-uniform-blur.resources/non-uniform-blur-01.png){width="128px"}
+![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
 
-![](non-uniform-blur.resources/non-uniform-blur-02.png){width="128px"}
+![](../../../../../../assets/non-uniform-blur.png){width="128px"}
 
-<b>イン:</b>フィルター/ぼかし
+## ブラー（均一でない部分）（グレースケール）
+
+**場所：** *フィルター/ぼかし*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 高品質のぼかしを実行します。強度は入力マスクによって決まります。 オプションを使用すると、異方性および非対称性を追加できます。
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>ぼかしマップ</b> <i>グレースケール入力</i> | 効果の強さを促進するマップをマスク |
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>適用度</b> <i>0.0 - 50.0</i> | ぼかしを適用する最大強さ。 ぼかしマップでマスクされているため、この設定はそのマップの黒い領域には影響しません。 |
-| <b>異方性</b> <i>0.0 - 1.0</i> | オプションで、ブラーエフェクトに方向性を追加します。 [角度]パラメータによって駆動されます。 |
-| <b>非対称</b> <i>0.0 - 1.0</i> | オプションで、サンプリングにバイアスを追加します。 [角度]パラメータによって駆動されます。 |
-| <b>角度</b> <i>0.0 - 1.0</i> | [角度]：指向性とサンプリングバイアスを設定します。 |
-| <b>サンプル</b> <i>1 - 16</i> | サンプルの量によって品質が決まります。 ブレードの量を掛けた値。 |
-| <b>ブレード</b> <i>1 - 9</i> | サンプリングセクタの量により、品質が決まります。 サンプルの量で乗算します。 |
+### 入力
 
-## 例
+* **ぼかしマップ**: *グレースケール入力*&#x200B;マスクマップを使用して効果を強さします。
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="non-uniform-blur.resources/non-uniform-blur-03.gif" /><br><i>以下の例は、ブラーマップスロットのグラデーションランプ（90度）によって駆動されています。</i>
-        </td>
-    </tr>
+### パラメーター
+
+* **適用度**: *0.0 ～ 50.0*&#x200B;ぼかしを適用する最大強さ。 ぼかしマップでマスクされているため、この設定はそのマップの黒い領域には影響しません。
+* **異方性**: *0.0 ～ 1.0*&#x200B;オプションでブラーエフェクトに方向性を追加します。 [角度]パラメータによって駆動されます。
+* **非対称性**: *0.0 ～ 1.0*&#x200B;サンプリングにバイアスを追加することもできます。 [角度]パラメータによって駆動されます。
+* **角度**: *0.0 ～ 1.0*&#x200B;指向性とサンプリングバイアスを設定する角度。
+* **サンプル**: *1 ～ 16*&#x200B;サンプルの量によって品質が決まります。 ブレードの量を掛けた値。
+* **ブレード**: *1 -* 9\
+  サンプリングセクタの量により、品質が決まります。 サンプルの量で乗算します。
+
+## サンプル画像
+
+*以下の例は、ブラーマップスロットのグラデーションランプ（90度）によって駆動されています。*
+
+![](../../../../../../assets/nonuniform-example.gif)
+
+</td>
+</tr>
 </table>

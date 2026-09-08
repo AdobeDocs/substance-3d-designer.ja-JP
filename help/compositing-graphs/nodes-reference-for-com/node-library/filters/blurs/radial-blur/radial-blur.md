@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
 description: 放射状ブラーノードを使用して、中心点から放射状のブラーエフェクトを適用し、モーションとズーム効果を作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ぼかし（放射状）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 10%
+source-wordcount: '71'
+ht-degree: 2%
 
 ---
 
@@ -22,39 +22,34 @@ ht-degree: 10%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](radial-blur.resources/radial-blur-01.png)![](radial-blur.resources/radial-blur-02.png)
+![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
 
-<b>イン:</b>フィルター/ぼかし
+## ぼかし（放射状） （グレースケール）
+
+**場所：** *フィルター/ぼかし*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 入力に回転するモーション型のぼかしを生成します。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>サンプル</b> <i>1 - 128</i> | ブラーエフェクトの画質を設定します。 |
-| <b>角度</b> <i>0.0 - 0.5</i> | 効果の「スピン」の量を設定します。 |
-| <b>中央位置</b> | 効果の中心点を設定します。 |
+* **サンプル**: *1 - 128*&#x200B;ブラーエフェクトの画質を設定します。
+* **角度**: *0.0 ～ 0.5*&#x200B;効果の「スピン」の量を設定します。
+* **中央位置**:\
+  効果の中心点を設定します。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="radial-blur.resources/radial-blur-03.png" />
-        </td>
-    </tr>
+![](../../../../../../assets/radial-blur-ex01.png)
+
+</td>
+</tr>
 </table>

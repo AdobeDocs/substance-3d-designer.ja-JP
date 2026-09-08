@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
 description: '[経年劣化コンクリート]ノードを使用して、風化した石積みテクスチャを作成するためのコンクリートのような経年劣化パターンを作成します。'
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 経年劣化コンクリート
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-concrete.resources/grunge-concrete-01.jpg){width="200px"}
+![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
 
-<b>In:</b>テクスチャジェネレーター>ノイズ
+**インチ：** *テクスチャジェネレーター**/ノイズ*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -39,30 +41,20 @@ ht-degree: 1%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
-| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
-| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
-| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
-| <b>詳細</b> |  |
-| <b>ベースのノイズ</b> <i>フロート</i> | ベーステクスチャのノイズを調整します。 |
-| <b>Dirtの斑点の不透明度</b> <i>フロート</i> | Dirt部分の不透明度を調整します。 |
-| <b>Dirtを反転</b> <i>ブール値</i> | Dirtの斑点の影響を反転します。 |
-| <b>Scratchesの不透明度</b> <i>フロート</i> | スクラッチの不透明度を調整します。 |
-| <b>シャープ</b> <i>フロート</i> | 画像に適用されるシャープ効果の強さを調整します。 |
-| <b>変動の強さ（大）</b> <i>フロート</i> | ベーステクスチャに適用される大きなスケール（低周波数）のバリエーションを調整します。 |
+* **バランス** *浮動小数*&#x200B;暗い値と明るい値のバランスを調整します。
+* **コントラスト** *浮動小数*&#x200B;画像のコントラストを調整します。
+* **反転** *ブール値*`1-x`操作を使用して画像の出力を反転します。
+* **非正方形拡張** *ブーリアン*&#x200B;カボチャの補正を有効にし、非正方形の比率で伸縮します。
+* アドバンス
+  * **ベースのノイズ** *浮動小数*&#x200B;ベースのテクスチャのノイズを調整します。
+  * **Dirtの斑点の不透明度** *浮動小数* Dirtの斑点の不透明度を調整します。
+  * **Dirtを反転** *ブーリアン* Dirtの斑点の影響を反転します。
+  * **Scratchesの不透明度** *浮動小数*&#x200B;傷の不透明度を調整します。
+  * **シャープ** *浮動小数*&#x200B;画像に適用されるシャープ効果の強さを調整します。
+  * **大きな変動の強さ** *浮動小数*&#x200B;基本テクスチャに適用される大きなスケール（低周波）の変動を調整します。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-concrete.resources/grunge-concrete-02.jpg" />
-        </td>
-    </tr>
-</table>
+![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
 breadcrumb-title: ''
 description: マテリアル分析のためにテクスチャから高周波数のライティングのディテールを除去するには、ライティングのキャンセル高周波数ノードを使用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ライティングで高周波数をキャンセル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 7%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-01.png){width="128px"}
+![](../../../../../../assets/lighting-cancel-high-frequencies.png){width="128px"}
 
-<b>イン:</b>フィルター/調整
+## ライティングで高周波数をキャンセル
+
+**イン：** *フィルター/調整*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -37,25 +41,18 @@ ht-degree: 7%
 
 [低周波数の照明をキャンセル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)および、より高度な、推奨される[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)も参照してください。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>適用度</b> <i>0.0 - 1.0</i> | ライトのキャンセル効果の強度。 |
-| <b>半径</b> <i>0.0 - 10.0</i> | キャンセルする光の詳細の半径またはサイズ。 |
+* **強度**: *0.0 -* 1.0\
+  ライトのキャンセル効果の強度。
+* **半径**: *0.0 ～ 10.0*&#x200B;キャンセルする光源の詳細の半径またはサイズ。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-highfrequencies-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

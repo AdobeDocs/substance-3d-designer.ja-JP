@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
 description: コピーフィルターノードを使用して、テクスチャ領域を複製およびオフセットし、シームレスなパターン作成およびタイリング効果を作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: クローン（フィルタノード）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 4%
+source-wordcount: '181'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](clone-filter-node.resources/clone-filter-node-01.png)
+![](../../../../../../assets/clone-4.png)
 
-<b>イン：</b>フィルター/変形
+## クローン
+
+**場所：** *フィルター/変形*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,34 +45,28 @@ ht-degree: 4%
 * マスクはデフォルトで黒に設定されているので、すべての結果を確認するには、少なくとも均一な白のグレースケール値を挿入する必要があります。
 * オフセットは、画像の外側を簡単にクリップするので、小さい値を使用します。
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>ソース</b> <i>カラー入力</i> | コピーする画像。 重要：画像にアルファチャンネルが含まれていることが理想的です。 |
-| <b>マスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 デフォルトは黒です。 |
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>オフセット</b> <i>-</i> | 結果を移動または変換します。 正の値は左と上、負の値は右と下です。 小さい値1.0以上を使用すると、画像の外側に移動します。 |
-| <b>マスクをぼかす</b> <i>0.0 - 10.0</i> | ぼかしフィルターをマスクに適用して、エッジをソフトにします。 |
+### 入力
 
-## 例
+* **ソース**: *カラー入力*\
+  コピーする画像。 重要：画像にアルファチャンネルが含まれていることが理想的です。
+* **マスク**: *グレースケール入力*\
+  ノードのエフェクトのマスクに使用するマスクスロット。 デフォルトは黒です。
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
-        </td>
-    </tr>
+### パラメーター
+
+* **オフセット**: *-*\
+  結果を移動または変換します。 正の値は左と上、負の値は右と下です。 小さい値1.0以上を使用すると、画像の外側に移動します。
+* **ぼかしマスク**: *0.0 ～ 10.0\
+  ぼかしフィルターをマスクに適用して、エッジをソフトにします。*
+
+## サンプル画像
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/clone-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

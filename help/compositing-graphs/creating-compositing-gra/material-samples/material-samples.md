@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: Designerでは、様々なマテリアルの種類から学び、試すことができるサンプルグラフが厳選されています。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: マテリアルサンプル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # マテリアルサンプル
 
-![マテリアルのサンプル – テンプレートカード](material-samples.resources/material-samples-01.png "マテリアルのサンプル – テンプレートカード")
+![マテリアルのサンプル – テンプレートカード](../../../assets/materialSamples-cards.png "マテリアルのサンプル – テンプレートカード")
 
 Designerでは、様々なマテリアルの種類から学び、試すことができるサンプルグラフが厳選されています。
 
@@ -36,14 +36,14 @@ Designerでは、様々なマテリアルの種類から学び、試すことが
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![新しいグラフダイアログ – マテリアルのサンプル](material-samples.resources/material-samples-02.png "新しいSubstanceグラフダイアログ – マテリアルのサンプル"){zoomable="yes"}
+![新しいグラフダイアログ – マテリアルのサンプル](../../../assets/newGraphDialog-samples-1.png "新しいSubstanceグラフダイアログ – マテリアルのサンプル"){zoomable="yes"}
 
 <b>カテゴリ</b>コンボボックスを開き、<b>マテリアルサンプル</b>を選択して、使用可能なテンプレートを一覧表示します。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![マテリアルのサンプル – バナーボタン](material-samples.resources/material-samples-03.png "マテリアルのサンプル – バナーボタン"){zoomable="yes"}
+![マテリアルのサンプル – バナーボタン](../../../assets/materialSamples-bannerButton.png "マテリアルのサンプル – バナーボタン"){zoomable="yes"}
 
 便利な場所にある「<b>サンプルに移動</b>」ボタンを使用すると、ダイアログのサンプルのリストに直接移動できます
 <b>ホーム画面</b>。
@@ -62,7 +62,7 @@ Designerでは、様々なマテリアルの種類から学び、試すことが
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![マテリアルのサンプル – テンプレートカードのヒント](material-samples.resources/material-samples-04.png "マテリアルのサンプル – テンプレートカードのヒント"){zoomable="yes"}
+![マテリアルのサンプル – テンプレートカードのヒント](../../../assets/newGraphDialog-sampleTooltip.png "マテリアルのサンプル – テンプレートカードのヒント"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,4 +84,4 @@ Designerでは、様々なマテリアルの種類から学び、試すことが
 > 3D ビュー内のマテリアルは自動的に<code>OpenPBRサーフェスに切り替わります</code> ～するためのシェーダー
 > サンプルを正確に表示します。
 
-![マテリアルのサンプル – グラフ](material-samples.resources/material-samples-05.png "マテリアルのサンプル – グラフ"){zoomable="yes"}
+![マテリアルのサンプル – グラフ](../../../assets/materialSamples-graph.png "マテリアルのサンプル – グラフ"){zoomable="yes"}

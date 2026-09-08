@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
 breadcrumb-title: ''
 description: 「Microscope View」ノードを使用して、詳細なサーフェス構造を作成するための微細なテクスチャパターンを作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 顕微鏡像
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 8%
+source-wordcount: '105'
+ht-degree: 1%
 
 ---
 
@@ -22,40 +22,38 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](microscope-view.resources/microscope-view-01.png){width="128px"}
+![](../../../../../../assets/microscope-view.png){width="128px"}
 
-<b>内：</b> テクスチャジェネレータ> ノイズ
+## 顕微鏡像
+
+**インチ：** *テクスチャジェネレーター**/ノイズ*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 すると、顕微鏡で細菌や生物のように見えるノイズのゆがみが生じます。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>スケール</b> <i>0 - 10</i> | エフェクトのグローバルスケールを設定します。 |
-| <b>ワープの強さ</b> <i>0.0 - 1.0</i> | ワープ効果の強さを設定します。 ダブルクリックして–1と入力すると、負の値を指定することもできます。 |
-| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+* **スケール**: *0 ～ 10*\
+  エフェクトのグローバルスケールを設定します。
+* **ワープの強さ**: *0.0 ～ 1.0*\
+  ワープ効果の強さを設定します。 ダブルクリックして–1と入力すると、負の値を指定することもできます。
+* **障害**: *0.0 ～ 1.0*\
+  ノイズを位相シフトして、小さな変動を発生させます
+* **非正方形拡張**: *False/True*\
+  スカッシュとストレッチを非正方形の比率で補正できます。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/microscope-view-ex.gif)
+
+</td>
+</tr>
 </table>

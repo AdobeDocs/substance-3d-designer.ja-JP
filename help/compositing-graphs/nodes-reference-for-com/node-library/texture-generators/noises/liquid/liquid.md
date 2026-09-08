@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: 液体ノードを使用して、水、油、その他の流体サーフェスエフェクトを作成するための液体および流体パターンを生成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 液体
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 9%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
@@ -22,40 +22,38 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](liquid.resources/liquid-01.png){width="128px"}
+![](../../../../../../assets/liquid.png){width="128px"}
 
-<b>内：</b> テクスチャジェネレータ> ノイズ
+## 液体
+
+**インチ：** *テクスチャジェネレーター**/ノイズ*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 これは、[ガウスノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)の単純なバリエーションで、[それ自体で](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)ワープして、液体のような効果を生み出します。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>スケール</b> <i>1 - 128</i> | エフェクトのグローバルスケールを設定します。 |
-| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます |
-| <b>ワープの強さ</b> <i>0.0 - 1.0</i> | ワープ効果の強さを設定します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+* **スケール**: *1 - 128*\
+  エフェクトのグローバルスケールを設定します。
+* **障害**: *0.0 ～ 1.0*\
+  ノイズを位相シフトして、小さな変動を発生させます
+* **ワープの強さ**: *0.0 ～ 1.0*\
+  ワープ効果の強さを設定します。
+* **非正方形拡張**: *False/True*\
+  スカッシュとストレッチを非正方形の比率で補正できます。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="liquid.resources/liquid-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/liquid-ex.gif)
+
+</td>
+</tr>
 </table>

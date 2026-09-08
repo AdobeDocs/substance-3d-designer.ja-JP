@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
 breadcrumb-title: ''
 description: 対称スライスノードを使用すると、対称軸に沿ってテクスチャをスライスし、ミラーされたパターンやエフェクトを作成することができます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 対称スライス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 6%
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](symmetry-slice.resources/symmetry-slice-01.png){width="128px"}
+![](../../../../../../assets/mirror-2.png){width="128px"}
 
-<b>イン：</b>フィルター/変形
+## 対称スライス
+
+**場所：** *フィルター/変形*
+
+**複合**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -37,28 +41,21 @@ ht-degree: 6%
 
 [ミラー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)および[対称](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)と比較すると、このノードにはさらに多くのオプションがあります。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>対称モード</b> <i>0 - 6</i> | 対称ジオメトリ/対称軸を選択します。 オプションには、「水平方向」、「垂直方向」、「左右斜め」、「左右斜め」、「左右斜め」、「垂直反転」、「コーナー」、「対角角コーナー」があります。 |
-| <b>転送モード</b> <i>0 - 6</i> | 描画モード。 次のオプションがあります。 |
-| <b>ブレンド</b> <i>0.0 - 1.0</i> | 元の画像を結果に再びブレンドします。 |
-| <b>左右反転</b> <i>False/True</i> | 原点を反転します。これは、操作の原点の側が反転することを意味します。 たとえば、左から右への対称は右から左になります。 |
-| <b>左右反転2</b> <i>False/True</i> | 対称モードが5または6の場合にのみ使用します。 コーナーの原点を反転します。 |
+* **対称モード**: *0 ～ 6*&#x200B;対称ジオメトリまたは対称線を選択してください。 オプションには、「水平方向」、「垂直方向」、「左右斜め」、「左右斜め」、「左右斜め」、「垂直反転」、「コーナー」、「対角角コーナー」があります。
+* **転送モード**: *0 ～ 6\
+  描画モード。 オプション： *
+* **ブレンド**: *0.0 ～ 1.0*&#x200B;元の画像をブレンドして結果に戻します。
+* **辺の反転**: *False/True*&#x200B;原点を反転します。つまり、操作の原点が反転します。 たとえば、左から右への対称は右から左になります。
+* **Flip Side2**: *False/True*&#x200B;対称モードが5または6の場合にのみ使用されます。 コーナーの原点を反転します。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="symmetry-slice.resources/symmetry-slice-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symslice.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

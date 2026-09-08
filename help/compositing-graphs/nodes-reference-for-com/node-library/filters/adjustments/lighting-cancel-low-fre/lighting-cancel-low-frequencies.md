@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
 breadcrumb-title: ''
-description: マテリアルを抽出するために低周波の照明の変動をテクスチャから取り除くには、[低周波をキャンセル]ノードを使用します。
+description: マテリアルを抽出するためにテクスチャから低周波のライティングのバリエーションを削除するには、[低周波をキャンセル]ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 照明で低周波数をキャンセル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '64'
+ht-degree: 3%
 
 ---
 
@@ -22,39 +22,35 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-01.png){width="128px"}
+![](../../../../../../assets/lighting-cancel-high-low.png){width="128px"}
 
-<b>イン:</b>フィルター/調整
+## 照明で低周波数をキャンセル
+
+**イン：** *フィルター/調整*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 ハイパスと似ていますが、最終的な彩度を下げることはありません。
 
-[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)を参照して、より高度なバージョンを確認してください。
-
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
+さらに高度なバージョンについては、[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)も参照してください。
 
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>キャンセルの半径</b> <i>0.0 - 64.0</i> | ハイパス効果の半径です。 |
+* **キャンセルの半径**: *0.0 ～ 64.0*&#x200B;ハイパス効果の半径。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-lowfrequencies-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

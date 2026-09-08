@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのライブラリを使用すると、ノードプリセット、マテリアル、カスタムコンテンツにアクセスして管理できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ライブラリ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 このページでは、Substance 3D Designerの&#x200B;**ライブラリ**&#x200B;パネル、そのレイアウト、およびコンテンツの検索とフィルタリングに使用できるツールを紹介します。
 
-![ライブラリ](the-library.resources/the-library-01.png "ライブラリ")
+![ライブラリ](../../assets/library-main.png "ライブラリ")
 
 ## 概要
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![ライブラリからノードを削除しています](the-library.resources/the-library-02.gif "ライブラリからノードを削除しています")
+![ライブラリからノードを削除しています](../../assets/library-create-node.gif "ライブラリからノードを削除しています")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ ht-degree: 0%
 ### 名前によるアセットの検索
 
 <b>コンテンツ</b>セクションの左上にある<b>検索</b>バーを使用すると、*任意のアセットを名前*&#x200B;で検索できます。 この方法でコンテンツを検索する場合、<b>カテゴリ</b>セクションの現在の選択範囲は無視され、<b>ライブラリ</b>の&#x200B;*コンテンツ全体*&#x200B;が検索されます。\
-「<b>検索</b>」バーの横にある「![](the-library.resources/the-library-03.png) <b>フィルターの条件…</b>」アイコンを使用して、検索結果を&#x200B;*グラフの種類*&#x200B;でフィルターできます。
+「<b>検索</b>」バーの横にある「![](../../assets/library-icon-search-filter.png) <b>フィルターの条件…</b>」アイコンを使用して、検索結果を&#x200B;*グラフの種類*&#x200B;でフィルターできます。
 
 >[!NOTE]
 >
 > 検索バーでは、探しているアセットの名前だけでなく、アセットに含めることができる&#x200B;*タグ*&#x200B;またはアセットが属する&#x200B;*カテゴリ*&#x200B;も考慮されます。\
 > 例えば、「*Normal*」と入力すると、通常のマップの生成または変更に使用できるすべてのアセットが一覧表示されます。 これは、新しいノードを発見するための良い方法であり、したがって、新しい可能性があります！
 
-![ライブラリでのアセット検索](the-library.resources/the-library-04.png "ライブラリでのアセット検索")
+![ライブラリでのアセット検索](../../assets/library-search-2.png "ライブラリでのアセット検索")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ ht-degree: 0%
 
 ### ライブラリアセットの表示
 
-![](the-library.resources/the-library-05.png) <b>表示モード</b>ドロップダウンボタンを使用して、コンテンツ項目の表示サイズを選択できます。
+![](../../assets/library-icon-view-mode.png) <b>表示モード</b>ドロップダウンボタンを使用して、コンテンツ項目の表示サイズを選択できます。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ライブラリアセット表示モード](the-library.resources/the-library-06.png "ライブラリアセット表示モード")
+![ライブラリアセット表示モード](../../assets/library-display-modes.png "ライブラリアセット表示モード")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](the-library.resources/the-library-07.png) **ラベルの切り替え**&#x200B;ボタンを使用すると、ノードのラベルを表示または非表示にできます。
+![](../../assets/library-icon-toggle-label.png) **ラベルの切り替え**&#x200B;ボタンを使用すると、ノードのラベルを表示または非表示にできます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ラベルの切り替え](the-library.resources/the-library-08.png "ラベルの切り替え")
+![ラベルの切り替え](../../assets/library-toggle-label.png "ラベルの切り替え")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![アセット情報のツールヒント](the-library.resources/the-library-09.png "アセット情報のツールヒント")
+![アセット情報のツールヒント](../../assets/library-item-tooltip.png "アセット情報のツールヒント")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ ht-degree: 0%
 
 ### お気に入り
 
-![](the-library.resources/the-library-10.png) <b>[お気に入りに追加]</b>ボタンを使用すると、<b>コンテンツ</b>セクションの任意のアイテムを<b>お気に入り</b>リストに追加できます。 このボタンを使用すると、このリストにコンテンツが既に追加されている場合は、*削除*&#x200B;することもできます。\
+![](../../assets/library-icon-favoritepng.png) <b>[お気に入りに追加]</b>ボタンを使用すると、<b>コンテンツ</b>セクションの任意のアイテムを<b>お気に入り</b>リストに追加できます。 このボタンを使用すると、このリストにコンテンツが既に追加されている場合は、*削除*&#x200B;することもできます。\
 この一覧にコンテンツが追加されると、そのコンテンツは<b>Library</b>の<b>お気に入り</b>カテゴリで利用可能になり、グラフ内のノードを検索する際に<b>Node</b>メニューリストの&#x200B;*top*&#x200B;に表示されます（検索語が一致する場合）。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ライブラリのお気に入り](the-library.resources/the-library-11.png "ライブラリのお気に入り")
+![ライブラリのお気に入り](../../assets/library-favourites.png "ライブラリのお気に入り")
 
 </td>
 </tr>

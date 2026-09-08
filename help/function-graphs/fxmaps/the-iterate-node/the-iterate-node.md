@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
 description: FXMapのIterateノードを使用して、マテリアルに繰り返しパターンやプロシージャルのバリエーションを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iterateノード
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Iterateノードを使用する際の重要な点は、各繰り返しイメー�
 
 パススルー画像は、反復パラメーターの設定に関係なく、常に影響を受けずに通過します。
 
-![](the-iterate-node.resources/the-iterate-node-01.jpg)
+![](../../../assets/iterate.jpg)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: ノードファインダーを使用すると、グラフ内のノードをすばやく検索して見つけることができ、効率的に移動できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ノードファインダー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # ノードファインダー
 
-![ノードファインダーツールバー](node-finder.resources/node-finder-01.png "ノードファインダーツールバー"){zoomable="yes"}
+![ノードファインダーツールバー](../../../assets/node-finder-toolbar.png "ノードファインダーツールバー"){zoomable="yes"}
 
 ノードファインダーツールを使用すると、テキストクエリを使用して<b>ノードおよび変数の検索</b>を実行できます。 クエリに一致しないすべてのノードがグレー表示され、結果が表示されなくなります。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 グラフビューで、<b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS)を押してNode Finderツールバーを表示し、クエリフィールドに自動フォーカスを設定します。 これにより、すばやく検索を実行できます。
 
-グラフビューツールバーで、<b>[ノードファインダー]ボタン![](node-finder.resources/node-finder-02.png)</b>をクリックして[ノードファインダー]ツールバーを表示します。 表示されたツールバーは、このボタンをクリックすることによってのみ閉じられます。
+グラフビューツールバーで、<b>[ノードファインダー]ボタン![](../../../assets/graph-node-finder.png)</b>をクリックして[ノードファインダー]ツールバーを表示します。 表示されたツールバーは、このボタンをクリックすることによってのみ閉じられます。
 
 <b>トラバースグラフを検索します</b>。 つまり、次の操作でグラフを開くと、検索がアクティブなままになります。
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 * FX-Map:FX-Mapグラフを編集(Ctrl+E/Cmd+E)
 * ノードパラメータ：関数の編集
 
-![ノードファインダー：検索中のグラフの探索](node-finder.resources/node-finder-03.gif "ノードファインダー：検索中のグラフの探索"){zoomable="yes"}
+![ノードファインダー：検索中のグラフの探索](../../../assets/node-finder-traversal.gif "ノードファインダー：検索中のグラフの探索"){zoomable="yes"}
 
 ### 検索クエリ
 
-![ノードファインダークエリフィールド](node-finder.resources/node-finder-04.png "ノードファインダークエリフィールド"){zoomable="yes"}
+![ノードファインダークエリフィールド](../../../assets/node-finder-query-field.png "ノードファインダークエリフィールド"){zoomable="yes"}
 
 このフィールドに検索語を入力すると、矢印ボタンにより、現在のコンテキストで使用可能な変数の一部を含むクエリ候補のリストが開きます。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### ノードタイプ
 
-![ノードの種類](node-finder.resources/node-finder-05.png "ノードの種類"){zoomable="yes"}
+![ノードの種類](../../../assets/node-finder-node-types.png "ノードの種類"){zoomable="yes"}
 
 このコンボボックスを使用すると、検索結果をフィルター処理して、特定の種類のノードのみを保持できます。
 
@@ -70,13 +70,13 @@ ht-degree: 0%
 +++ノード型リスト
 このリストは、現在のグラフタイプのコンテキストに応じて変化します。
 
-![ノードの種類（合成）](node-finder.resources/node-finder-06.png "ノードの種類（合成）"){zoomable="yes"}
+![ノードの種類（合成）](../../../assets/node-finder-types-compositing.png "ノードの種類（合成）"){zoomable="yes"}
 
 
 
 *グラフを合成するためのノードの種類*
 
-![ノードの種類（関数）](node-finder.resources/node-finder-07.png "ノードの種類（関数）"){zoomable="yes"}
+![ノードの種類（関数）](../../../assets/node-finder-types-function.png "ノードの種類（関数）"){zoomable="yes"}
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 +++
 
 +++アトミックノードの検索
-![ノードファインダー： &#39;レベル&#39;の種類で検索（合成）](node-finder.resources/node-finder-08.png "ノードファインダー： &#39;レベル&#39;の種類で検索（合成）"){zoomable="yes"}
+![ノードファインダー： &#39;レベル&#39;の種類で検索（合成）](../../../assets/node-finder-compositing-levels.png "ノードファインダー： &#39;レベル&#39;の種類で検索（合成）"){zoomable="yes"}
 
 
 
@@ -94,13 +94,13 @@ ht-degree: 0%
 +++
 
 +++インスタンスノードの検索
-![ノードファインダー： &#39;インスタンス&#39;の種類（合成）で検索](node-finder.resources/node-finder-09.png "ノードファインダー： &#39;インスタンス&#39;の種類（合成）で検索"){zoomable="yes"}
+![ノードファインダー： &#39;インスタンス&#39;の種類（合成）で検索](../../../assets/node-finder-compositing-instances.png "ノードファインダー： &#39;インスタンス&#39;の種類（合成）で検索"){zoomable="yes"}
 
 
 
 *Substanceグラフで&#39;Instance&#39;ノード型を検索しています*
 
-![ノードファインダー： &#39;Instance&#39;型（関数）で検索](node-finder.resources/node-finder-10.png "ノードファインダー： &#39;Instance&#39;型（関数）で検索"){zoomable="yes"}
+![ノードファインダー： &#39;Instance&#39;型（関数）で検索](../../../assets/node-finder-functions-instances.png "ノードファインダー： &#39;Instance&#39;型（関数）で検索"){zoomable="yes"}
 
 
 
@@ -114,14 +114,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>検索オプションボタン![](node-finder.resources/node-finder-11.png)</b>をクリックすると、検索に使用する設定の一覧が開きます。この一覧の表示と非表示を切り替えることができます。
+<b>検索オプションボタン![](../../../assets/node-finder-search-options.png)</b>をクリックすると、検索に使用する設定の一覧が開きます。この一覧の表示と非表示を切り替えることができます。
 
 これらのオプションについて詳しくは、以下の「検索オプション」セクションを参照してください。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードファインダー検索オプション](node-finder.resources/node-finder-12.png "ノードファインダー検索オプション"){zoomable="yes"}
+![ノードファインダー検索オプション](../../../assets/node-finder-search-options-open.png "ノードファインダー検索オプション"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードファインダー：グラフIDで検索](node-finder.resources/node-finder-13.png "ノードファインダー：グラフIDで検索"){zoomable="yes"}
+![ノードファインダー：グラフIDで検索](../../../assets/node-finder-functions-identifier.png "ノードファインダー：グラフIDで検索"){zoomable="yes"}
 
 *画像をクリックして拡大*
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 +++エクスプローラーのID
 グラフは、ExplorerのID別に一覧表示されます。
 
-![エクスプローラー：パッケージの内容](node-finder.resources/node-finder-14.png "エクスプローラー：パッケージの内容"){zoomable="yes"}
+![エクスプローラー：パッケージの内容](../../../assets/explorer-package-simple.png "エクスプローラー：パッケージの内容"){zoomable="yes"}
 
 
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 +++インスタンスノードのツールチップの識別子
 インスタンスノードのツールチップには、参照されるグラフの識別子が含まれます。
 
-![インスタンスノードのツールヒントのグラフ識別子](node-finder.resources/node-finder-15.png "インスタンスノードのツールヒントのグラフ識別子"){zoomable="yes"}
+![インスタンスノードのツールヒントのグラフ識別子](../../../assets/node-finder-compositing-identifier.png "インスタンスノードのツールヒントのグラフ識別子"){zoomable="yes"}
 
 
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードファインダー：ノード変数](node-finder.resources/node-finder-16.png "ノードファインダー：ノード変数"){zoomable="yes"}
+![ノードファインダー：ノード変数](../../../assets/node-finder-compositing-variable.png "ノードファインダー：ノード変数"){zoomable="yes"}
 
 *画像をクリックして拡大*
 
@@ -200,13 +200,13 @@ ht-degree: 0%
 
 これには、現在のグラフの種類で使用できる[組み込み変数](../../../function-graphs/variables/system-variables/system-variables.md)と、グラフの公開パラメーターの識別子が含まれます。
 
-![ノード検索クエリの提案](node-finder.resources/node-finder-17.png "ノード検索クエリの提案"){zoomable="yes"}
+![ノード検索クエリの提案](../../../assets/node-finder-available-query-suggestions.png "ノード検索クエリの提案"){zoomable="yes"}
 
 
 
-表示されるパラメーターの識別子は、[Substanceグラフのプロパティ](../../../compositing-graphs/graph-parameters/graph-parameters.md)で直接コピーまたは編集することもできます。
+公開されたパラメーターのIDは、[Substanceグラフプロパティ](../../../compositing-graphs/graph-parameters/graph-parameters.md)で直接コピーまたは編集することもできます。
 
-![ノードファインダー： 表示されるパラメーター](node-finder.resources/node-finder-18.png "ノードファインダー： 表示されるパラメーター"){zoomable="yes"}
+![ノードファインダー：公開されたパラメーター](../../../assets/node-finder-compositing-exposed-parameter.png "ノードファインダー：公開されたパラメーター"){zoomable="yes"}
 
 
 
@@ -217,9 +217,9 @@ ht-degree: 0%
 +++コンソールの警告/エラーからの変数の検索
 ノードによって使用される<b>変数</b>によってグラフにエラーまたは警告が発生した場合、<b>ウィンドウ/コンソール</b>に移動して、変数を含む完全なエラー/警告メッセージを表示します。 次に、この変数をコピーしてNode Finderのクエリフィールドに貼り付けると、問題の原因となっているノードをすばやく見つけることができます。
 
-また、任意のテキストエディターを使用して、SBSファイルのXMLデータから変数を直接コピーすることもできます。
+任意のテキストエディターを使用して、SBSファイルのXMLデータから変数を直接コピーすることもできます。
 
-![ノードファインダー：コンソールの警告/エラーから変数を検索](node-finder.resources/node-finder-19.png "ノードファインダー：コンソールの警告/エラーから変数を検索"){zoomable="yes"}
+![ノードファインダー：コンソールの警告/エラーから変数を検索](../../../assets/node-finder-console-identifier.png "ノードファインダー：コンソールの警告/エラーから変数を検索"){zoomable="yes"}
 
 
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 +++ノードの取得/設定
 グラフ内の変数（公開されたパラメーターを含む）を検索すると、[Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)または[Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)ノードが、ノードのパラメーター関数のいずれかでその変数を使用しているすべてのノードが強調表示されます。
 
-![ノードファインダー：変数を検索すると、それを使用しているGetノードに一致します](node-finder.resources/node-finder-20.gif "ノードファインダー：変数を検索すると、それを使用しているGetノードに一致します"){zoomable="yes"}
+![ノードファインダー：変数を検索すると、それを使用しているGetノードに一致します](../../../assets/node-finder-exposed-parameter-01.gif "ノードファインダー：変数を検索すると、それを使用しているGetノードに一致します"){zoomable="yes"}
 
 
 
@@ -245,7 +245,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノード検索： UIDで検索](node-finder.resources/node-finder-21.png "ノード検索： UIDで検索"){zoomable="yes"}
+![ノード検索： UIDで検索](../../../assets/node-finder-compositing-uid-search.png "ノード検索： UIDで検索"){zoomable="yes"}
 
 *画像をクリックして拡大*
 
@@ -260,7 +260,7 @@ ht-degree: 0%
 
 uid=1234567890
 
-![ノードの検索：ノードUIDアクションのコピー](node-finder.resources/node-finder-22.png "ノードの検索：ノードUIDアクションのコピー"){zoomable="yes"}
+![ノードの検索：ノードUIDアクションのコピー](../../../assets/node-finder-compositing-uid-copy.png "ノードの検索：ノードUIDアクションのコピー"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ uid=1234567890
 
 また、任意のテキストエディターを使用して、SBSファイルのXMLデータからノードUIDを直接コピーすることもできます。
 
-![ノード検索：コンソールからノードUIDを検索しています](node-finder.resources/node-finder-23.png "ノード検索：コンソールからノードUIDを検索しています"){zoomable="yes"}
+![ノード検索：コンソールからノードUIDを検索しています](../../../assets/node-finder-console-uid.png "ノード検索：コンソールからノードUIDを検索しています"){zoomable="yes"}
 
 
 
@@ -289,14 +289,14 @@ uid=1234567890
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>検索オプションボタン![](node-finder.resources/node-finder-11.png)</b>をクリックすると、ノードを検索するための<b>再帰的</b>および<b>ファジー</b>モードを切り替えることができます。
+<b>検索オプションボタン![](../../../assets/node-finder-search-options.png)</b>をクリックすると、ノードを検索するための<b>再帰的</b>および<b>ファジー</b>モードを切り替えることができます。
 
 両方を同時に有効にすることができます。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードファインダー検索オプション](node-finder.resources/node-finder-12.png "ノードファインダー検索オプション"){zoomable="yes"}
+![ノードファインダー検索オプション](../../../assets/node-finder-search-options-open.png "ノードファインダー検索オプション"){zoomable="yes"}
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ uid=1234567890
 
 このオプションは、コンソールの警告またはエラーメッセージから取得したUIDでノードを検索する必要がある場合に、グラフのトラブルシューティングを行う際に重要になります。
 
-![ノードファインダー：再帰検索](node-finder.resources/node-finder-24.png "ノードファインダー：再帰検索"){zoomable="yes"}
+![ノードファインダー：再帰検索](../../../assets/node-finder-recursion-01.png "ノードファインダー：再帰検索"){zoomable="yes"}
 
 *右側のクエリは、以下のインスタンスノードを強調表示しています。これは、左側の参照グラフがそのクエリと一致するためです*
 
 +++例1
-![ノードファインダー：再帰検索の例1](node-finder.resources/node-finder-25.gif "ノードファインダー：再帰検索の例1"){zoomable="yes"}
+![ノードファインダー：再帰検索の例1](../../../assets/node-finder-recursion-01.gif "ノードファインダー：再帰検索の例1"){zoomable="yes"}
 
 
 
@@ -322,7 +322,7 @@ uid=1234567890
 +++
 
 +++例2
-![ノードファインダー：再帰検索の例2](node-finder.resources/node-finder-26.gif "ノードファインダー：再帰検索の例2"){zoomable="yes"}
+![ノードファインダー：再帰検索の例2](../../../assets/node-finder-recursion-02.gif "ノードファインダー：再帰検索の例2"){zoomable="yes"}
 
 
 
@@ -336,4 +336,4 @@ uid=1234567890
 
 このオプションを使用すると、結果として望ましくない結果が生じる可能性があることに注意してください。
 
-![ノードファインダー：ファジーモード](node-finder.resources/node-finder-27.png "ノードファインダー：ファジーモード"){zoomable="yes"}
+![ノードファインダー：ファジーモード](../../../assets/node-finder-functions-fuzzy.png "ノードファインダー：ファジーモード"){zoomable="yes"}

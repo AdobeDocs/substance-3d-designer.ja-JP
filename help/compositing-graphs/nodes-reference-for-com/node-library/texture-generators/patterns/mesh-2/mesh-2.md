@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
 breadcrumb-title: ''
 description: '[メッシュ 2]ノードを使用すると、ジオメトリテクスチャを作成するための高度なコントロールを備えた高度なメッシュパターンを作成できます。'
 helpx_creative_field: ""
@@ -7,13 +7,13 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: メッシュ 2
+title: メッシュ2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
@@ -22,39 +22,35 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](mesh-2.resources/mesh-2-01.png){width="128px"}
+![](../../../../../../assets/mesh-2.png){width="128px"}
 
-<b>イン：</b>テクスチャジェネレーター>パターン
+## メッシュ2
+
+**イン：** *テクスチャジェネレーター**/パターン*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 脂肪ブロックとシンプルなメッシュパターン。 Heightマップと詳細マップの作成に使用できます。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>タイリング</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
-| <b>45度回転</b> <i>False/True</i> | 結果を回転します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+* **タイリング**: *1 - 16*\
+  結果をタイルする回数を設定します。
+* **45度回転**: *False/True*&#x200B;結果を回転します。
+* **非正方形拡張**: *False/True*\
+  スカッシュとストレッチを非正方形の比率で補正できます。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="mesh-2.resources/mesh-2-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/mesh-2-ex.gif)
+
+</td>
+</tr>
 </table>

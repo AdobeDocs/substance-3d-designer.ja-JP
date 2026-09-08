@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフのキャストノードを使用して、float、int、vector間でデータ型を変換します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: キャスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 キャストノードは、ノードを型から別の型に変換するために使用されます。
 
-![](cast-nodes.resources/cast-nodes-01.png)
+![](../../../../assets/image2015-12-23-10-5-19.png)
 
 ## キャストノードの使用方法
 

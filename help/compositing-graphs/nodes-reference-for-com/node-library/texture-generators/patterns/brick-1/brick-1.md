@@ -1,61 +1,57 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
 breadcrumb-title: ''
-description: レンガ1ノードを使用して、石積みとタイル状のテクスチャ効果を作成するための基本的なレンガのパターンを生成します。
+description: '[レンガ 1]ノードを使用して、石積みとタイル状のテクスチャ効果を作成するための基本的なレンガパターンを作成します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick 1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: レンガ1
+title: レンガ 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 10%
+source-wordcount: '87'
+ht-degree: 2%
 
 ---
 
 
-# レンガ1
+# レンガ 1
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](brick-1.resources/brick-1-01.png){width="128px"}
+![](../../../../../../assets/brick-1.png){width="128px"}
 
-<b>イン：</b>テクスチャジェネレーター>パターン
+## レンガ 1
+
+**イン：** *テクスチャジェネレーター**/パターン*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
-シンプルなレンガのパターン。詳細については、[レンガジェネレータ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md)または[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)を参照してください。
-
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
+単純なレンガパターンです。詳細なオプションについては、[レンガジェネレーター](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md)または[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)を参照してください。
 
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>タイル表示</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
-| <b>エッジSmoothness</b> <i>0.0 - 1.0</i> | 粗いエッジと滑らかなエッジのブレンド。 |
-| <b>間隔の幅</b> <i>0.0 - 1.0</i> | 間隔（ギャップサイズ）を設定します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+* **タイリング**: *1 - 16*\
+  結果をタイルする回数を設定します。
+* **エッジの滑らかさ**: *0.0 ～ 1.0*&#x200B;粗いエッジと滑らかなエッジのブレンド。
+* **間隔の幅**: *0.0 ～ 1.0*&#x200B;間隔（間隔サイズ）を設定します。
+* **非正方形拡張**: *False/True*\
+  カボチャと伸縮の補正を非正方形の比率で有効にします。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="brick-1.resources/brick-1-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/brick-1-ex.gif)
+
+</td>
+</tr>
 </table>

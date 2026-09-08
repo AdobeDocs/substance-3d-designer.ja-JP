@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: '[パノラマ回転]ノードを使用して、3Dビューで照明の方向を調整するためのHDRIパノラマ環境を回転します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: パノラマの回転
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 14%
+source-wordcount: '74'
+ht-degree: 2%
 
 ---
 
@@ -22,30 +22,32 @@ ht-degree: 14%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
+![](../../../../../../assets/panorama-rotation.png){width="200px"}
 
-<b>内：</b> 3D ビュー > HDRI ツール
+## パノラマの回転
+
+**イン：** *3D ビュー/HDRI ツール*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 入力された球面にマップされたパノラマ画像を中心点を中心に回転させ、投影/マッピングを正確に保ちます。 HDRI画像のティルトや調整に便利です。
 
+## パラメーター
+
+* **回転**: *0.0 ～ 1.0*
+* **方向角度**: *0.0 ～ 1.0*
+* **極の周りの事前回転**: *-1.0 - 1.0*
+* **極の周りのポスト回転**: *0.0 ～ 1.0*
+
+## サンプル画像
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## パラメーター
-
-|  |  |
-|:---|:---|
-| <b>回転</b> <i>0.0 - 1.0</i> |  |
-| <b>方向角度</b> <i>0.0 - 1.0</i> |  |
-| <b>極の周りの事前回転</b> <i>-1.0 - 1.0</i> |  |
-| <b>柱の周りのポスト回転</b> <i>0.0 - 1.0</i> |  |

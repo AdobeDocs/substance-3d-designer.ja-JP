@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
 description: Fur 3ノードを使用すると、ヘアエフェクトやファイバエフェクトを作成するためのカスタマイズ可能なプロパティを持つ高度なファーテクスチャを作成できます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ファー3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 11%
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
@@ -22,40 +22,37 @@ ht-degree: 11%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](fur-3.resources/fur-3-01.png){width="128px"}
+![](../../../../../../assets/fur-3.png){width="128px"}
 
-<b>In:</b>テクスチャジェネレーター>ノイズ
+## ファー3
+
+**イン：** *テクスチャジェネレータ**/ノイズ*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
-これにより、拡散/絵筆タイプのノイズが発生します。
-
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
+これにより、絵筆タイプのノイズが発生します。
 
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>スケール</b> <i>1 - 8</i> | エフェクトのグローバルスケールを設定します。 |
-| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
-| <b>ウェーブの量</b> <i>0.0 - 8.0</i> |  |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+* **スケール**: *1 ～ 8*\
+  エフェクトのグローバルスケールを設定します。
+* **障害**: *0.0 ～ 1.0*\
+  ノイズを位相シフトして、小さな変動を発生させます。
+* **ウェーブの量**: *0.0 ～ 8.0*
+* **非正方形拡張**: *False/True*\
+  カボチャと伸縮の補正を非正方形の比率で有効にします。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fur-3.resources/fur-3-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/fur-3-ex.gif)
+
+</td>
+</tr>
 </table>

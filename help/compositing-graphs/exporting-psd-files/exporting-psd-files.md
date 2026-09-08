@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: Substance合成グラフをPSDファイルとして書き出し、Adobe Photoshopやその他の画像編集ワークフローで使用する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PSD ファイルの書き出し
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Substance 3D Designerでは、テクスチャをAdobe Photoshopドキュメン�
 
 ## PSD書き出しダイアログ
 
-PSD書き出しダイアログは、1つの方法でのみ開くことができます。 PSDに書き出すグラフの[グラフビュー](../../interface/the-graph-view/the-graph-view.md)で、![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>ツール</b>ボタンをクリックし、<b>PSDエクスポーター</b>を選択します。 <b>グラフビュー</b>内にインターフェイスが表示されます。
+PSD書き出しダイアログは、1つの方法でのみ開くことができます。 PSDに書き出すグラフの[グラフビュー](../../interface/the-graph-view/the-graph-view.md)で、![](../../assets/image2019-9-17-14-44-17.png) <b>ツール</b>ボタンをクリックし、<b>PSDエクスポーター</b>を選択します。 <b>グラフビュー</b>内にインターフェイスが表示されます。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![PSDエクスポータのユーザーインターフェイス](exporting-psd-files.resources/exporting-psd-files-02.png "PSDエクスポータのユーザーインターフェイス")
+![PSDエクスポータのユーザーインターフェイス](../../assets/psd-dialog.png "PSDエクスポータのユーザーインターフェイス")
 
 </td>
 <td style="border: 0;" valign="top">

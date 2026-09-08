@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Substanceグラフを作成して、クリーンでメンテナンス性が高く効率的なワークフローを実現するためのベストプラクティスとエチケットについて説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラフ作成のエチケット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 最も明確で読みやすいグラフにするには、グラフのコアグループの周りにフレームを配置します。 フレームがないと、大きなグラフはほとんど読めなくなり、小さなグラフでもフレームが描画されると非常に理解しやすくなります。 フレームの大きな利点は、極端にズームアウトしても、常に<b>の名前が同じスケール</b>でレンダリングされることです。
 
-![Substanceグラフのフレーム](graph-creation-etiquette.resources/graph-creation-etiquette-01.gif "Substanceグラフのフレーム")
+![Substanceグラフのフレーム](../../assets/frames.gif "Substanceグラフのフレーム")
 
 フレームを使用すると、グラフで何が起こっているのかをより簡単に理解できます。 何か月か後に作成者が作業に戻ってくるのを支援したり、同僚などの別のユーザーが、慣れていないグラフの使い方を見つけるのを支援したりできます。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 入力と出力はグラフの両端に配置する必要があります。右側のすべての出力、左側のすべての入力、それぞれ垂直方向の位置です。 これにより、検索と識別が容易になります。
 
-![入力と出力の配置](graph-creation-etiquette.resources/graph-creation-etiquette-02.gif "入力と出力の配置")
+![入力と出力の配置](../../assets/inout.gif "入力と出力の配置")
 
 上の例は極端な例です。フレームは必ずしも必要ではなく、可能ではありませんが、インと出力の垂直方向のアラインメントが、ランダムなシャッフル配置をはるかに明確にすることが必要です。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 大規模で非常に長いグラフでは、非常に大きなスパンにわたってリンクが作成される場合があります。 これにより、多くの制御を行わずにグラフを渡るリンク線が混乱します。 ショートカット「Alt + Shiftを押しながらドラッグ」を使用すると、リンクを分割し、中央に予備のハンドルを追加することで、これらのリンクを再編成し、別のパスに再ルーティングできます。 意味のあるシナリオで使用することをお勧めします。
 
-![リンクの再ルーティング](graph-creation-etiquette.resources/graph-creation-etiquette-03.gif "リンクの再ルーティング")
+![リンクの再ルーティング](../../assets/linkjreroute.gif "リンクの再ルーティング")
 
 ### ラベル、識別子、および使用方法
 
@@ -73,15 +73,15 @@ ht-degree: 0%
 
 デフォルトの推奨ラベルでは不十分です。表示されるパラメーターやインおよび出力にカスタムラベルを追加するには時間と労力がかかります。
 
-![識別子とラベル](graph-creation-etiquette.resources/graph-creation-etiquette-04.png "識別子とラベル")
+![識別子とラベル](../../assets/output-label.png "識別子とラベル")
 
 識別子とラベルの差異が大きすぎないようにしましょう。識別子が別の場所（複数の関数）で使用されている場合、どのUIプロパティがどの変数に関連しているかを見つけるのは非常に困難です。
 
-![識別子の明瞭度](graph-creation-etiquette.resources/graph-creation-etiquette-05.png "識別子の明瞭度")
+![識別子の明瞭度](../../assets/labelvsidentifier.png "識別子の明瞭度")
 
 ラベルを、フレーム（フレームラベル）やコメントで使用する用語と一致させるようにしてください。 これにより、グラフのどの部分がどの表示されるパラメーターにリンクされているかを簡単に調べることができます
 
-![フレームとパラメーターラベルが一致しています](graph-creation-etiquette.resources/graph-creation-etiquette-06.png "フレームとパラメーターラベルが一致しています")
+![フレームとパラメーターラベルが一致しています](../../assets/match-labels.png "フレームとパラメーターラベルが一致しています")
 
 ### パラメーター設定
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 * データは可能な限りグレースケールで保存し、絶対に必要な場合にのみ変換するのが理想的です。 これにより、複雑さが軽減され、パフォーマンスが低下します。
 * 入力および出力は、正しいタイプを念頭に置いて作成または設定する必要があります。例えば、バイナリマスクとして使用するためにグレースケールに変換される場合は、「マスク」入力をカラーに設定しても意味がありません。
 
-![カラーとグレースケールの変換](graph-creation-etiquette.resources/graph-creation-etiquette-07.png "カラーとグレースケールの変換")
+![カラーとグレースケールの変換](../../assets/colorgray01.png "カラーとグレースケールの変換")
 
 ### 解像度の制御
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのメインツールバーについて説明します。このメインツールバーから、一般的なワークフローのツールやコマンドにアクセスできます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: メインツールバー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![メインツールバー](the-main-toolbar.resources/the-main-toolbar-01.png "メインツールバー")
+![メインツールバー](../../assets/mainmenu.png "メインツールバー")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ ht-degree: 2%
 
 ## クイックアクセスボタン
 
-![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>新しいSubstanceグラフ…:</b> (Ctrl + N) [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示し、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)で新しいパッケージを作成します。
+![](../../assets/newsubstance.png) <b>新しいSubstanceグラフ…:</b> (Ctrl + N) [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示し、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)で新しいパッケージを作成します。
 
-![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>開く…:</b> (Ctrl+O)既存の[Substanceパッケージ(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)を開きます。
+![](../../assets/open.png) <b>開く…:</b> (Ctrl+O)既存の[Substanceパッケージ(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)を開きます。
 
-![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>すべて保存：</b> (Ctrl+⇧+S) [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)に一覧表示されているすべてのパッケージを保存します。
+![](../../assets/saveall.png) <b>すべて保存：</b> (Ctrl+⇧+S) [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)に一覧表示されているすべてのパッケージを保存します。
 
-![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>取り消し：</b> (Ctrl+Z)最後に行った操作を取り消します。
+![](../../assets/undo.png) <b>取り消し：</b> (Ctrl+Z)最後に行った操作を取り消します。
 
-![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>やり直し：</b> (Ctrl + Y)最後に取り消した操作をやり直します。
+![](../../assets/redo.png) <b>やり直し：</b> (Ctrl + Y)最後に取り消した操作をやり直します。
 
 ## ファイル
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>新機能…:</b> Designerの最新リリースに追加された機能を示す画面が表示されます
 
-<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/jp/substance-3d.html)での場所を案内する画面を表示します
+<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/substance-3d.html)での場所を案内する画面を表示します
 
 <b>パートナー：</b> Designerのパートナーが提供するサードパーティ統合に関する免責事項および通知にアクセスできます。
 
