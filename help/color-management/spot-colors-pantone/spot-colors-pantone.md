@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでPantoneのスポットカラーを使用して、印刷やデザインのワークフローで正確なカラーマッチングを行う方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スポットカラー(Pantone)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -48,26 +48,26 @@ ht-degree: 0%
 
 カラーマネジメントを設定した場合でも、カラーピッカーはデフォルトでRGBまたはHSVカラーピッカーに設定されます。 それらを手動で特色に切り替える必要があります。 この設定はパラメーターごとに保存され、パラメーターを公開するときにも引き継がれます。
 
-1. RGBの色見本の横にある![](../../assets/image2021-1-25-9-40-40.png) <b>カラーピッカーの種類</b>ボタンをクリックします。
+1. RGBの色見本の横にある![](spot-colors-pantone.resources/image2021-1-25-9-40-40.png) <b>カラーピッカーの種類</b>ボタンをクリックします。
 1. <b>RGBカラー</b>の代わりに、ドロップダウンリストから<b>カラーブック</b>を選択します。
-1. ![](../../assets/image2021-1-25-9-40-25.png) <b>カラーピッカーの種類</b>のアイコンが変わり、インターフェイスが<b>スポットカラー</b>モードに変わります。
+1. ![](spot-colors-pantone.resources/image2021-1-25-9-40-25.png) <b>カラーピッカーの種類</b>のアイコンが変わり、インターフェイスが<b>スポットカラー</b>モードに変わります。
 
-![スポットカラーモードに切り替えています](../../assets/spot-switch.gif "スポットカラーモードに切り替えています"){width="512px"}
+![スポットカラーモードに切り替えています](spot-colors-pantone.resources/spot-switch.gif "スポットカラーモードに切り替えています"){width="512px"}
 
 ### 特色の選択と検索
 
 カラーブック内の特色を検索して選択するには、いくつかの方法があります。
 
-* ブックのページの左右にある![](../../assets/image2021-1-25-10-40-28.png) ![](../../assets/image2021-1-25-10-40-53.png) <b>左右の矢印</b>を使用して、ページを切り替えることができます。 ページディスプレイをクリックしてドラッグし、ページ間をスクロールすることもできます。
+* ブックのページの左右にある![](spot-colors-pantone.resources/image2021-1-25-10-40-28.png) ![](spot-colors-pantone.resources/image2021-1-25-10-40-53.png) <b>左右の矢印</b>を使用して、ページを切り替えることができます。 ページディスプレイをクリックしてドラッグし、ページ間をスクロールすることもできます。
 * 現在のページから任意のカラーをクリックして選択できます。 多くの場合、使用可能なカラーが増え、少し下にスクロールする必要があります。
 * 検索バーを使用すると、名前または番号でカラーを検索できます。 この検索は、ブック内のカラー名とだけ一致します。複雑なロジックは実行されません。「gray」と検索した場合、名前に「gray」という単語が含まれるだけで、名前に数字のみが含まれるグレー色は表示されません。
-* ![](../../assets/image2021-1-25-10-39-18.png) <b>スポイト</b>アイコンと![](../../assets/image2021-1-25-10-40-28.png) <b>左矢印</b>の間にあるカラープレビューボックスをクリックして、カラーブック用のインターフェイスをより大きく、簡単に使用できるようにします。
+* ![](spot-colors-pantone.resources/image2021-1-25-10-39-18.png) <b>スポイト</b>アイコンと![](spot-colors-pantone.resources/image2021-1-25-10-40-28.png) <b>左矢印</b>の間にあるカラープレビューボックスをクリックして、カラーブック用のインターフェイスをより大きく、簡単に使用できるようにします。
 
-![スポットカラーの参照](../../assets/spot-choose.gif "スポットカラーの参照"){width="512px"}
+![スポットカラーの参照](spot-colors-pantone.resources/spot-choose.gif "スポットカラーの参照"){width="512px"}
 
 ### 特色の選択と変換
 
-スポットカラーは、![](../../assets/image2021-1-25-10-39-18.png) <b>スポイト</b>ツールを使用して選択できます。 スポットカラーモードでは、サンプリングしたRGBカラーは、現在選択されているブックから最も近いスポットカラーに変換されます。
+スポットカラーは、![](spot-colors-pantone.resources/image2021-1-25-10-39-18.png) <b>スポイト</b>ツールを使用して選択できます。 スポットカラーモードでは、サンプリングしたRGBカラーは、現在選択されているブックから最も近いスポットカラーに変換されます。
 
 Designerの<b>スポイト</b>ツールは、画面上の任意の場所で制限なく使用できます。そのため、Designerをスポットカラー変換ツールとして使用できます。
 
@@ -77,4 +77,4 @@ Designerの<b>スポイト</b>ツールは、画面上の任意の場所で制�
 >
 > ブック間での特色の変換は非可逆的な操作です。 往復変換を行っても、多くの場合、最初に使用したカラーとは同じカラーになりません。
 
-![スポットカラーの選択と変換](../../assets/spot-pick.gif "スポットカラーの選択と変換"){width="512px"}
+![スポットカラーの選択と変換](spot-colors-pantone.resources/spot-pick.gif "スポットカラーの選択と変換"){width="512px"}
