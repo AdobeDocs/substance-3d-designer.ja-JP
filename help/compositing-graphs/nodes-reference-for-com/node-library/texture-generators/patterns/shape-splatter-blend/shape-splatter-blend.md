@@ -1,64 +1,66 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
-description: '[シェイプスプラッタ]ブレンドノードを使用して、複雑なプロシージャルパターンを作成するための複数のシェイプスプラッタをブレンドします。'
+description: シェイプスプラッタのブレンドノードを使用して、複数のシェイプスプラッタをブレンドし、複雑なプロシージャパターンを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: シェイプスプラッタブレンド
+title: スプラッタブレンドのシェイプ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
 
-# シェイプスプラッタブレンド
+# スプラッタブレンドのシェイプ
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
 
-## シェイプスプラッタブレンド（カラー）
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**複合**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 [シェイプスプラッタ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)データを入力として受け取り、カラーまたはグレースケールのマップを生成します。
 
-## パラメーター
-
-* **背景色**: *色入力*
-* **パターン1-8**: *カラー入力*
-* **カラー入力**: *カラー入力*
-* **スプラッタデータ1**: *色入力*
-* **スプラッタデータ2**: *色入力*
-
-### パラメーター
-
-* **パターン番号**: *1 - 8*
-* **ランダムパターンの割り当て（色のみ）**: *0.0 ～ 1.0*
-* 法線マップ **（色のみ）**&#x200B;**: *False/True*
-* **HSL/輝度調整**: *-1.0 - 1.0*
-* **HSL/輝度ランダム**: *-1.0 - 1.0*
-* **&#x200B;標準角度ランダム**（カラーのみ）**&#x200B;**: *0.0 ～ 1.0*
-* **カラー入力の不透明度**: *0.0 ～ 1.0*
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>背景色</b> <i>カラー入力</i> |  |
+| <b>パターン1-8</b> <i>カラー入力</i> |  |
+| <b>カラー入力</b> <i>カラー入力</i> |  |
+| <b>スプラッタデータ1</b> <i>カラー入力</i> |  |
+| <b>スプラッタデータ2</b> <i>カラー入力</i> |  |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>パターン番号</b> <i>1 - 8</i> |  |
+| <b>ランダムパターンの割り当て（色のみ）</b> <i>0.0 - 1.0</i> |  |
+| <b>法線マップ（カラーのみ）</b> <i>False/True</i> |  |
+| <b>HSL/輝度調整</b> <i>-1.0 - 1.0</i> |  |
+| <b>HSL/輝度ランダム</b> <i>-1.0 - 1.0</i> |  |
+| <b>標準角度ランダム（色のみ）</b> <i>0.0 - 1.0</i> |  |
+| <b>カラー入力の不透明度</b> <i>0.0 - 1.0</i> |  |

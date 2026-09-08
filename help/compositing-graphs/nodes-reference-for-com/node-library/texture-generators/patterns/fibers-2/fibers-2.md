@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
 breadcrumb-title: ''
-description: Fivers 2ノードを使用すると、ファブリックとマテリアルのエフェクトのカスタマイズ可能なプロパティを持つ高度なファイバテクスチャを作成できます。
+description: '[繊維2]ノードを使用すると、布地やマテリアル効果のカスタマイズ可能なプロパティを持つ高度な繊維テクスチャを作成できます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 2
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 繊維2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
@@ -22,34 +22,38 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/fibers-2.png){width="128px"}
 
-## 繊維2
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**単純**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 シンプルな布のようなパターンです。 メッシュ、布、またはその他の有機的なHeightおよび詳細マップに使用できます。 小さいバージョンについては、[ファイバー1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md)も参照してください。
 
-## パラメーター
-
-* **タイリング**: *1 - 16*\
-  結果をタイルする回数を設定します。
-* **非正方形拡張**: *False/True*\
-  カボチャと伸縮の補正を非正方形の比率で有効にします。
-
-## サンプル画像
-
-![](../../../../../../assets/fibers-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>タイル表示</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/fibers-2-ex.gif" />
+        </td>
+    </tr>
 </table>

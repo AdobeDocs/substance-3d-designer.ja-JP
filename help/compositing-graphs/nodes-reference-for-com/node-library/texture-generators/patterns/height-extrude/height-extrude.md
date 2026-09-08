@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
 breadcrumb-title: ''
 description: 高さ押し出しノードを使用して、テクスチャで3Dのような深度効果を生み出すための高さマップに基づいてシェイプを押し出します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 高さ押し出し
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '257'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/height-extrude.png){width="200px"}
 
-## 高さ押し出し
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**中級**
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,25 +37,20 @@ ht-degree: 0%
 
 [シェイプの押し出し](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md)との主な違いは、入力マップがバイナリ「アルファ」タイプのマップである必要がなく、フルレンジのグレースケールマップである必要があることです。 つまり、押し出しのHeight（有機的で複雑なシェイプ）をより細かく制御できますが、ベベルプロファイル（ハードサーフェス、単純なシェイプ）のようなものは制御できません。
 
-## パラメーター
-
-* **カメラ角度**:\
-  カメラのオイラー角を半回転で表したもの。 水平方向の回転と拡大・縮小は、入力に直接適用されることに注意してください。
-* **カメラスケール**: *0.001 - 3.0*\
-  出力に適用されるグローバルスケール。
-* **Heightスケール**: *0.0 ～ 2.0*\
-  入力Height値にグローバル係数を適用します。
-* **垂直オフセット**: *-1.0 - 1.0*\
-  最終出力を上下に移動します。
-* **地面**: *オフ/オン*\
-  Groundがオフの場合、入力がグラウンドのようなプレーンではなく0の場所に黒い背景が表示されます。
-* **標準の形式**: *DirectX/OpenGL*\
-  **標準形式**&#x200B;パラメーターは、法線マップのY座標を反転します。
-* **法線の強度**: *0.0 ～ 256.0*\
-  **Normal**&#x200B;ノードの&#x200B;**Intensity**&#x200B;パラメーターと同じです。 回転中にシャールのない法線を取得するには、256に設定します。
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>カメラ角度</b> | カメラのオイラー角を半回転で表したもの。 水平方向の回転と拡大・縮小は、入力に直接適用されることに注意してください。 |
+| <b>カメラスケール</b> <i>0.001 - 3.0</i> | 出力に適用されるグローバルスケール。 |
+| <b>Heightスケール</b> <i>0.0 - 2.0</i> | 入力Height値にグローバル係数を適用します。 |
+| <b>垂直方向のオフセット</b> <i>-1.0 - 1.0</i> | 最終出力を上下に移動します。 |
+| <b>地面</b> <i>オフ/オン</i> | Groundがオフの場合、入力がグラウンドのようなプレーンではなく0の場所に黒い背景が表示されます。 |
+| <b>標準の形式</b> <i>DirectX/OpenGL</i> | <b>標準形式</b>パラメーターは、法線マップのY座標を反転します。 |
+| <b>法線の強度</b> <i>0.0 - 256.0</i> | <b>Normal</b>ノードの<b>Intensity</b>パラメーターと同じです。 回転中にシャールのない法線を取得するには、256に設定します。 |

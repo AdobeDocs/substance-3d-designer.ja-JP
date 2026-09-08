@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
 description: Cube 3Dノードを使用すると、3D立方体投影に基づいてテクスチャを作成し、環境マップとエフェクトを作成することができます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 立方体3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 1%
+source-wordcount: '128'
+ht-degree: 5%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/cube3-ex.png)
 
-## 立方体3D
-
-**イン：** *テクスチャジェネレーター**/パターン*
-
-**単純**
+<b>イン：</b> テクスチャジェネレーター>パターン
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 スクリーン深度としても機能するシェーディングでグレースケールの3D立方体をレンダリングします。 作成された立方体は、高精度のビット深度で使用すると、非常にシャープで鮮明なエッジになります。 非常に興味深く、便利です。
 
-## パラメーター
-
-* **方向オフセット**:\
-  立方体の3DのようなXおよびY回転を可能にします。 2Dプレビューで小さな点を操作することでも実行できます（以下の例を参照）
-* **サイズ**: *0.0 ～ 1.0*&#x200B;キューブの不均等な再スケールを許可します。
-* **スケール**: *0.0 ～ 1.0*\
-  立方体全体を均一にスケール変更します。
-* **非正方形拡張**: *False/True*\
-  カボチャと伸縮の補正を非正方形の比率で有効にします。
-
-## サンプル画像
-
-![](../../../../../../assets/cube3d-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>方向オフセット</b> | 立方体の3DのようなXおよびY回転を可能にします。 2Dプレビューで小さな点を操作することでも実行できます（以下の例を参照） |
+| <b>サイズ</b> <i>0.0 - 1.0</i> | 立方体の不均等な再スケールを可能にします。 |
+| <b>スケール</b> <i>0.0 - 1.0</i> | 立方体全体を均一にスケール変更します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/cube3d-ex.gif" />
+        </td>
+    </tr>
 </table>
