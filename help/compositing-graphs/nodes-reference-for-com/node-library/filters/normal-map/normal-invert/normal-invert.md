@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法線を反転
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-invert.resources/normal-invert-01.png){width="128px"}
+![](../../../../../../assets/normal-invert.png){width="128px"}
 
 <b>イン：</b>フィルター> 法線マップ
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-Normalmapの任意のチャンネルおよびすべてのチャンネルを反転し、これを手動で行うための迅速かつ簡単なショートカットを提供します。
+ノーマルマップの任意のチャンネルおよびすべてのチャンネルを反転できるため、これを手動で行うための迅速かつ簡単なショートカットとなります。
 
 入力または出力としてノーマルマップを使用するほとんどのノードには、DirectXまたはOpenGLスタイルのノーマルマップに対して、グリーンチャンネルを反転するオプションがあることに注意してください。 つまり、このような場合には、このノードはほとんど必要ありません。
 

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: モザイク
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 7%
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](mosaic.resources/mosaic-01.png){width="128px"}
+![](../../../../../../assets/mosaic-1.png){width="128px"}
 
-![](mosaic.resources/mosaic-02.png){width="128px"}
+![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
 
-<b>イン:</b>フィルター/効果
+## モザイク（グレースケール）
+
+**場所：** *フィルター/効果*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -39,34 +43,25 @@ ht-degree: 7%
 
 これは、Heightmapなどのグレースケールマップに多くの定義を追加する場合に便利です。シェイプにさらなる定義を加えることができます。
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>色</b> <i>カラー/グレースケール入力</i> |  |
-| <b>モザイク地図</b> <i>グレースケール入力</i> | ワープドライバーマップ。 最初の入力と同じにすることができます。 |
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>サンプル</b> <i>0 - 16</i> | マルチサンプルの画質を指定します。 |
-| <b>適用度</b> <i>0.0 - 1.0</i> | 効果の強さ。 |
+### 入力
 
-## 例
+* **カラー**: *カラー/グレースケール入力*
+* **モザイクマップ**: *グレースケール入力*\
+  ワープドライバーマップ。 最初の入力と同じにすることができます。
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="mosaic.resources/mosaic-03.png" />
-        </td>
-    </tr>
+### パラメーター
+
+* **サンプル**: *0 ～ 16*&#x200B;マルチサンプルの品質を決定します。
+* **適用度**: *0.0 ～ 1.0*&#x200B;効果の強さ。
+
+## サンプル画像
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

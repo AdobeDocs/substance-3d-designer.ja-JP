@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance関数グラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 一見すると、Substance機能グラフはSubstanceグラフに非常に似ており、ワークフローもほとんど同じです。
 
-![Substance関数のグラフ](the-function-graph.resources/the-function-graph-01.png "Substance関数のグラフ")
+![Substance関数のグラフ](../../assets/image2015-12-18-11-29-28.png "Substance関数のグラフ")
 
 ## ナビゲーションは類似しています
 
@@ -53,7 +53,7 @@ Substance関数グラフで使用可能なノードは、Substanceグラフで�
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance関数グラフノード一覧](the-function-graph.resources/the-function-graph-02.png "Substance関数グラフノード一覧")
+![Substance関数グラフノード一覧](../../assets/image2015-12-18-13-46-55.png "Substance関数グラフノード一覧")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Substance関数グラフで使用可能なノードは、Substanceグラフで�
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance関数グラフの出力ノード](the-function-graph.resources/the-function-graph-03.png "Substance関数グラフの出力ノード")
+![Substance関数グラフの出力ノード](../../assets/image2015-12-18-13-49-43.png "Substance関数グラフの出力ノード")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Substance関数グラフで使用可能なノードは、Substanceグラフで�
 
 出力を定義するには、必要な出力を生成するノードを右クリックし、*出力として設定ノード：*&#x200B;をクリックします
 
-![出力ノードを定義しています](the-function-graph.resources/the-function-graph-04.gif "出力ノードを定義しています")
+![出力ノードを定義しています](../../assets/setoutputnode.gif "出力ノードを定義しています")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Substanceグラフの場合は、別のグラフで作成した関数を読み�
 </td>
 <td style="border: 0;" valign="top">
 
-![参照Substance関数グラフを開く](the-function-graph.resources/the-function-graph-05.png "参照Substance関数グラフを開く")
+![参照Substance関数グラフを開く](../../assets/image2017-6-27-10-44-55.png "参照Substance関数グラフを開く")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Substanceグラフの場合は、別のグラフで作成した関数を読み�
 
 複数の関数を含むsbsがある場合は、それをSubstanceの関数グラフに直接ドラッグ&amp;ドロップし、表示されるリストからインポートする関数を選択できます。
 
-![パッケージからSubstance関数グラフを削除](the-function-graph.resources/the-function-graph-06.gif "パッケージからSubstance関数グラフを削除")
+![パッケージからSubstance関数グラフを削除](../../assets/sbsdrag.gif "パッケージからSubstance関数グラフを削除")

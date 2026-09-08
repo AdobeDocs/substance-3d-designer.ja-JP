@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
 breadcrumb-title: ''
-description: '[滴下錆]ノードを使用して、メッシュジオメトリと重力の向きに基づいて錆の滴下パターンを作成します。'
+description: '[滴下]錆ノードを使用して、メッシュジオメトリと重力方向に基づいて錆の滴下パターンを作成します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 滴下錆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](dripping-rust.resources/dripping-rust-01.png){width="128px"}
+![](../../../../../../assets/dripping-rust.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
 このマスクは、錆のフレークと斑点を表し、漏れが伝わります。
 
@@ -47,9 +47,9 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲線</b> <i>グレースケール入力</i> | 錆の配置に役立つベイク処理または生成されたマップ。 |
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 錆の配置に役立つベイク処理または生成されたマップ。 |
-| <b>位置</b> <i>グレースケール入力</i> | 点滴方向のベイク処理または生成されたマップ。 |
+| <b>曲率</b> <i>グレースケール入力</i> | 錆の配置に役立つマップをベイクまたは生成しました。 |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 錆の配置に役立つマップをベイクまたは生成しました。 |
+| <b>位置</b> <i>グレースケール入力</i> | 点滴方向のマップをベイクまたは生成しました。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
 <a name="parameters"></a>
@@ -70,7 +70,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="dripping-rust.resources/dripping-rust-02.gif" />
+            <img src="../../../../../../assets/dripping-rust-ex3.gif" />
         </td>
     </tr>
 </table>

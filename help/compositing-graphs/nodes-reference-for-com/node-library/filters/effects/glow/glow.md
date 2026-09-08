@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 光彩
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](glow.resources/glow-01.png){width="128px"}
+![](../../../../../../assets/glow-greyscale.png){width="128px"}
 
-![](glow.resources/glow-02.png){width="128px"}
+![](../../../../../../assets/glow-3.png){width="128px"}
 
-<b>イン:</b>フィルター/効果
+## 光彩
+
+**場所：** *フィルター/効果*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,27 +45,19 @@ ht-degree: 5%
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「グロー」を、グレースケール入力には「グローのグレースケール」を使用します。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>光彩の量</b> <i>0.0 - 1.0</i> | グロー効果の不透明度を指定します。 |
-| <b>金額のクリア</b> <i>0.0 - 1.0</i> | 光彩効果をカットするタイミングを指定します。 半透明領域に便利です。 |
-| <b>光彩サイズ</b> <i>0.0 - 20.0</i> | グロー効果の範囲を指定します。 |
-| <b>光彩の色</b> <i>（カラー値） （カラーバージョンのみ）</i> | 光彩効果のカラーを設定します。 |
+* **グローの量**: *0.0 ～ 1.0*&#x200B;グロー効果のグローバル不透明度。
+* **量をクリア**: *0.0 ～ 1.0*&#x200B;光彩効果をカットするタイミングの閾値です。 半透明領域に便利です。
+* **光彩のサイズ**: *0.0 ～ 20.0*&#x200B;光彩効果が届く範囲を制御します。
+* **光彩カラー**: *（カラー値） （カラーバージョンのみ）*光彩効果のカラーを設定します。
 
-## 例
+## サンプル画像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="glow.resources/glow-03.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/glow-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

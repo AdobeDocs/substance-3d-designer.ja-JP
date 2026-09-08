@@ -10,10 +10,10 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
@@ -22,29 +22,27 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](fxaa.resources/fxaa-01.png)![](fxaa.resources/fxaa-02.png)
+![](../../../../../../assets/fxaa-color.png)![](../../../../../../assets/fxaa-grayscale.png)
 
-<b>イン:</b>フィルター/効果
+## FXA（カラー/グレースケール）
+
+**場所：** *フィルター/効果*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 FXAAアルゴリズムに基づくアンチエイリアスフィルターを適用します。 これを使用して、シェイプのエッジをギザギザにピクセル化して修正できます。 エッジがピクセル化された[ディスクシェイプ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md)のような場合は、アンチエイリアスエッジに対して単純な1ノードソリューションが提供されるので、特に便利です。
 
+## サンプル画像
+
+![](../../../../../../assets/fxaa-ex.png)
+
 </td>
 </tr>
-</table>
-
-## 例
-
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fxaa.resources/fxaa-03.png" />
-        </td>
-    </tr>
 </table>

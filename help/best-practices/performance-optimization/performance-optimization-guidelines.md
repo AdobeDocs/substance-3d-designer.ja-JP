@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パフォーマンス最適化ガイドライン
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -65,12 +65,12 @@ ht-degree: 0%
 +++
 
 +++16ビットが不要な場合は8ビットを使用します
-Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの色または8ビットのグレースケールをサポートしていません*。 GPU エンジンは、8/16ビットとグレースケール/カラーの4つの組み合わせをすべてサポートしています。 *現在、UnityおよびUnreal エンジンのプラグインではCPU エンジンのみが使用されています*。
+Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの色または8ビットのグレースケールをサポートしていません*。 GPUエンジンは、8/16ビットとグレースケール/カラーの4つの組み合わせをすべてサポートしています。 *現在、UnityおよびUnreal EngineプラグインではCPUエンジンのみが使用されています*。
 
 +++
 
 +++可能な限りノード出力サイズを最小化する
-場合によっては、ノードのサイズを小さくしても最終結果には影響しませんが、パフォーマンスに影響することがあります。 例えば、ドキュメントと同じ出力サイズに設定された均一カラーノードを使用しても意味がありません。均一カラーは絶対[16px x 16px]に設定し、後続のノードは親に相対的に設定する必要があります。 通常、この方法は、パーリン雑音などの低周波画像に適しています。
+場合によっては、ノードのサイズを小さくしても最終結果には影響しませんが、パフォーマンスに影響することがあります。 例えば、同じ出力サイズに設定された均一カラーノードをドキュメントで使用しても意味がありません。均一カラーを絶対[16px x 16px]に設定し、その後のノードを「親を基準」に設定する必要があります。 通常、この方法は、パーリン雑音などの低周波画像に適しています。
 
 +++
 
@@ -79,7 +79,7 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 
 +++
 
-+++ブレンドノードを使用する場合は、不要なときにアルファブレンディングを無効にします
++++ブレンドノードを使用する場合は、不要な場合はAlphaブレンドを無効にします
 
 
 +++
@@ -89,13 +89,13 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 
 +++
 
-+++一部のノイズジェネレータは、描画されるパターンの量に影響されます
++++一部のノイズジェネレーターは、描画されるパターンの量の影響を受けます
 たとえば、[Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)ノードは、追加したパターンの処理が遅くなります。
 
 +++
 
-+++一部のノイズは尺度係数の影響を受けます
-この要素は、実際にはより多くのパターンを描画します。 影響を受けるノードには、ノイズ、セルパターンなどが含まれます。白いノイズパターンが必要な場合は、スケール値が非常に大きいノイズを使用せずに、[白のノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)または[白のノイズを高速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)のノードを使用します。
++++一部のノイズはスケール係数の影響を受けます
+この要素は、実際にはより多くのパターンを描画します。 影響を受けるノードには、ノイズ、セルパターンなどが含まれます。ホワイトノイズパターンが必要な場合は、スケール値が非常に大きいノイズを使用せずに、[ホワイトノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)または[ホワイトノイズ高速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)のノードを使用します。
 
 +++
 
@@ -105,7 +105,7 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 +++
 
 +++場合によっては、大量の画像サンプリング機能に注意してください
-[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)を除き、関数はCPUエンジンで実行されます。 [バリュープロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)または[FXmaps](../../function-graphs/fxmaps/fxmaps.md)で大量のイメージサンプリング（$pos座標の変更）を行う場合、VRAMとCPU RAMの間で多くのスワップがあるため、パフォーマンスの遅延が発生します。
+[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)を除き、関数はCPUエンジンで実行されます。 [Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)または[FXmaps](../../function-graphs/fxmaps/fxmaps.md)で大量のイメージサンプリング（$pos座標の変更）を行う場合、VRAMとCPU RAMの切り替えが頻繁に発生し、パフォーマンスの遅延が発生する可能性があります。
 
 +++
 
@@ -143,9 +143,9 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 >
 > [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードを[親を基準にする]に設定して、Substance 3Dアセット(SBSAR)にグラフを[公開](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)すると、元のサイズではなく&#x200B;**256x256**&#x200B;の解像度でビットマップが保存されます。 代わりに、ビットマップノードの[継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を&#39;絶対&#39;として[出力サイズ](../../compositing-graphs/output-size/output-size.md)に保持し、ビットマップノードの直後に&#39;親に対して相対&#39;に設定された[変換2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)ノードを使用することをお勧めします。
 
-![埋め込みビットマップの最適化1](performance-optimization-guidelines.resources/performance-optimization-guidelines-01.jpg "埋め込みビットマップの最適化1")
+![埋め込みビットマップの最適化1](../../assets/input-1.jpg "埋め込みビットマップの最適化1")
 
-![埋め込みビットマップの最適化2](performance-optimization-guidelines.resources/performance-optimization-guidelines-02.jpg "埋め込みビットマップの最適化2")
+![埋め込みビットマップの最適化2](../../assets/relativetoparent.jpg "埋め込みビットマップの最適化2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 </td>
 <td style="border: 0;" valign="top">
 
-![埋め込みビットマップの最適化3](performance-optimization-guidelines.resources/performance-optimization-guidelines-03.jpg "埋め込みビットマップの最適化3")
+![埋め込みビットマップの最適化3](../../assets/format.jpg "埋め込みビットマップの最適化3")
 
 </td>
 </tr>

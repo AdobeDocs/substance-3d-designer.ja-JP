@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
-description: エッジぼかしノードを使用してエッジマスクをぼかし、緩やかな変化を生み出し、エッジベースの風化効果を滑らかにします。
+description: エッジぼかしノードを使用してエッジマスクをぼかし、緩やかな遷移と滑らかなエッジベースの耐候性エフェクトを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: エッジぼかし
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-blur.resources/edge-blur-01.png){width="128px"}
+![](../../../../../../assets/edge-blur.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
+ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
 
-このマスクは、ベイク処理された曲率マップに基づいてエッジをハイライトします。 これは、より簡単なマスクジェネレーターの1つです。
+このマスクは、ベイク処理された曲率マップに基づいてエッジをハイライトします。 これは、非常に単純なマスクジェネレータの1つです。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲率</b> <i>グレースケール入力</i> | 効果の基になるベイク済みマップです。 |
+| <b>曲線</b> <i>グレースケール入力</i> | 効果の基になるベイク済みマップです。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
 <a name="parameters"></a>
@@ -65,7 +65,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-blur.resources/edge-blur-02.gif" />
+            <img src="../../../../../../assets/edge-blur-ex.gif" />
         </td>
     </tr>
 </table>

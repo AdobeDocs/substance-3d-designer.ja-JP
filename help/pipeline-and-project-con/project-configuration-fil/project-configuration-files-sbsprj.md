@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プロジェクト構成ファイル – SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJファイルアイコン](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "SBSPRJファイルアイコン")
+![SBSPRJファイルアイコン](../../assets/sbsprj.png "SBSPRJファイルアイコン")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Windowsの場合、[メモ帳++](https://notepad-plus-plus.org)は無料で利�
 
 エディターでSBSPRJファイルを開くと、UIのタブに対応するセクションを含む、非常に単純な構造化レイアウトが表示されます。 全ての設定がここで文書化されるわけではありません。
 
-![XML編集](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "XML編集")
+![XML編集](../../assets/project-xml.png "XML編集")
 
 ## 相対パスとエイリアス
 

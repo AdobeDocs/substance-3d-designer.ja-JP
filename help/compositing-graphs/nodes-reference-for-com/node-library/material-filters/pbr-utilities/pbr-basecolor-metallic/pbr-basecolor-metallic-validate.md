@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic-validate.html"
 breadcrumb-title: ''
-description: PBR BaseColorメタリック検証ノードを使用して、PBRマテリアルのベースカラーおよびメタリック値を検証して修正します。
+description: PBR BaseColor Metallic検証ノードを使用して、PBRマテリアルのベースカラーとメタリック値を検証し、修正します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR BaseColor  Metallic Validate
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: PBR BaseColorメタリック検証
+title: PBRベースカラーメタリックの検証
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# PBR BaseColor/メタリック検証
+# PBRベースカラー/メタリックの検証
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-basecolor-metallic-validate.resources/pbr-basecolor-metallic-validate-01.png){width="128px"}
+![](../../../../../../assets/pbr-basecolor-metallic-validate.png){width="128px"}
 
 <b>イン：</b> マテリアルフィルター > PBRユーティリティ
 

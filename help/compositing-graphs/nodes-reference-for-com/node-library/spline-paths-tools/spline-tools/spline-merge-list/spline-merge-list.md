@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン結合リスト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-merge-list.resources/spline-merge-list-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-merge-list-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -66,12 +66,12 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>閉じたスプラインの距離のしきい値</b> <i>フロート</i> | 同じスプラインの2つの四肢が、そのスプラインを閉じる1つの点として処理される、テクスチャ空間での距離。<br>これにより、シェイプを散布したり、スプラインに沿ってイメージをマッピングしたりする場合に、オーバーラップを防ぐことができます。 |
+| <b>閉じたスプラインの距離のしきい値</b> <i>浮動小数</i> | 同じスプラインの2つの四肢が、そのスプラインを閉じる1つの点として処理される、テクスチャ空間での距離。<br>これにより、シェイプを散布したり、スプラインに沿ってイメージをマッピングしたりする場合に、オーバーラップを防ぐことができます。 |
 | <b>プレビュー</b> |  |
 | <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインの視覚化に使用するセグメントの数を調整します。<br>値を大きくすると、より滑らかな線になります。 |
-| <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
-| <b>Thicknessの封筒を表示</b> <i>ブール値</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
-| <b>Thickness (px)</b> <i>フロート</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
+| <b>方向のヘルパーを表示</b> <i>ブーリアン</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
+| <b>Thicknessの封筒を表示</b> <i>ブーリアン</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
+| <b>Thickness (px)</b> <i>浮動小数</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
 
 ## 例
 
@@ -82,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -112,4 +112,4 @@ ht-degree: 1%
 </tr>
 </table>
 
-![ノードデモ](spline-merge-list.resources/spline-merge-list-06.gif "ノードデモ")
+![ノードデモ](../../../../../../assets/SplineMergeList-Demo.gif "ノードデモ")

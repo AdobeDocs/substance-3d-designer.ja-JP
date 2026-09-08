@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3Dビュー – ディスプレイスメントポップアップ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
                 <li>テッセレーション</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/displacement-01.gif" alt="3Dビューのディスプレイスメントポップアップ" />
+            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3Dビューのディスプレイスメントポップアップ" />
         </td>
     </tr>
 </table>
@@ -90,7 +90,7 @@ Height値またはテクスチャ。
 
 ### ラスタライザ/GPU パストレーサー
 
-次を使用します <img src="../3d-view.resources/3d-view-18.png" width="22" /> **レンダラー設定**
+次を使用します <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **レンダラー設定**
  ボタンをクリックし、プロパティドックで&#x200B;**レンダリング設定/診断モード**&#x200B;に移動して、**ワイヤーフレームを選択します
  （ワールドスペース）**&#x200B;オプション。
 

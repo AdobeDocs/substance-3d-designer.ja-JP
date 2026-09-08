@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ベイカーレガシーインターフェイス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -24,25 +24,25 @@ ht-degree: 3%
 
 ## 概要
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
+![](../../assets/image2017-3-13-9-33-40.png)
 
 ベイカーパネルは4つの部分に分かれています。
 
 ### 1:シーン
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
+![](../../assets/image2017-3-13-9-35-53.png)
 
 メッシュのどの部分がベイク処理プロセスに関係しているかを定義できます。
 
 バージョン6の新機能では、マテリアル別に選択することもできます。
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
+![](../../assets/image2017-3-13-9-45-26.png)
 
 ### 2:ベイカー
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
+![](../../assets/image2017-3-13-9-46-26.png)
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png)ボタンを押すと、目的のベイカーを処理リストに追加できます
+![](../../assets/image2017-3-13-9-47-47.png)ボタンを押すと、目的のベイカーを処理リストに追加できます
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ ht-degree: 3%
 
 ベイカーレイアウトの「+」をクリックすると、スタックにベイカーを追加できます（スタックには必要な数のベイカーを追加できます）。
 
-.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
+.![](../../assets/image2017-3-13-9-52-8.png)
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)キーを押すと、一覧からベイクプロセスを削除できます
+![](../../assets/image2017-3-13-9-54-33.png)キーを押すと、一覧からベイクプロセスを削除できます
 
-ベイク処理プロセスを選択して![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)を使用すると、ベイク処理プロセスの一覧を並べ替えることができます
+ベイク処理プロセスを選択して![](../../assets/image2017-3-13-9-55-33.png)を使用すると、ベイク処理プロセスの一覧を並べ替えることができます
 
 ### 3:ベイカーパラメーター
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
+![](../../assets/image2017-3-13-13-24-0.png)
 
 このセクションには、現在選択されているベイカーに固有のオプションが表示されます。
 
 ### 4：共通パラメーター
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
+![](../../assets/image2017-3-13-13-28-12.png)
 
 ベイカー間で共有されているパラメーターが表示されます。
 
@@ -82,4 +82,4 @@ ht-degree: 3%
 
 バージョン6の新機能：「キャンセル」ボタンを使用して、ベイクプロセスをキャンセルできるようになりました。
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)
+![](../../assets/image2017-3-13-13-50-4.png)

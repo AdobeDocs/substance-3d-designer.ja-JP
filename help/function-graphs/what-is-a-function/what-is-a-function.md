@@ -10,7 +10,7 @@ helpx_tags: ""
 title: '関数とは '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance 3D Designerの関数を使用すると、プログラミング言語�
 
 しかし、Designerの関数は、コード行を使用するのではなく、同じノードのアプローチを維持します。 一見すると、関数グラフは通常のグラフに非常に似ています。
 
-![](what-is-a-function.resources/what-is-a-function-01.png)
+![](../../assets/image2015-12-17-18-19-37.png)
 
 関数が検出される主なケースには、次の2つがあります。
 
@@ -35,16 +35,16 @@ Substance 3D Designerの関数を使用すると、プログラミング言語�
 
 Substance 3D Designerでは、任意のパラメーターを関数で制御できます。
 
-![](what-is-a-function.resources/what-is-a-function-02.png)
+![](../../assets/image2015-12-17-21-3-46.png)
 
 したがって、グラフの各部間の規則や依存性を想像して、独自の結果を得ることができます。
 
 例えば、ブレンドノードの不透明度をワープノードの強度の半分に設定することができます。
 
-![](what-is-a-function.resources/what-is-a-function-03.gif)
+![](../../assets/warpblend.gif)
 
 実際、気付かないうちに関数を作成してしまった可能性があります。
 
 パラメーターを表示した場合は、関数と変数が自動的に作成されています。関数には、新しく作成された変数の値をキャッチするget floatノードが含まれています。
 
-![](what-is-a-function.resources/what-is-a-function-04.gif)
+![](../../assets/expose.gif)

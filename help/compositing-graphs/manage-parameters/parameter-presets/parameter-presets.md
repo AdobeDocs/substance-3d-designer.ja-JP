@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パラメータープリセット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 プリセットの保存と読み込みには2つの方法があります。いずれも、以下に詳述するように、異なるユースケースがあります。
 
-![プリセットの読み込み/保存ドロップダウンメニュー](parameter-presets.resources/parameter-presets-01.gif "プリセットの読み込み/保存ドロップダウンメニュー"){width="512px"}
+![プリセットの読み込み/保存ドロップダウンメニュー](../../../assets/preset-menu.gif "プリセットの読み込み/保存ドロップダウンメニュー"){width="512px"}
 
 ## 外部プリセット
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > 部分的な一致も有効です。読み込まれたノードに存在しないSBSPRSに保存されたパラメータは、単に無視されます。 つまり、ほとんど同じようなノード（[タイルSamplerの色やグレースケールバージョンなど](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)）間でプロパティを転送できます。 すべての共有パラメーターが読み込まれます。 照合は識別子とタイプに基づいて行われます。
 
-![埋め込みプリセットの編集](parameter-presets.resources/parameter-presets-02.gif "埋め込みプリセットの編集"){width="512px"}
+![埋め込みプリセットの編集](../../../assets/preset-embed.gif "埋め込みプリセットの編集"){width="512px"}
 
 ## 埋め込みプリセット
 

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ベクターワープ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 2%
+source-wordcount: '237'
+ht-degree: 1%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](vector-warp.resources/vector-warp-01.png){width="128px"}
+![](../../../../../../assets/vector-warp.png){width="128px"}
 
-![](vector-warp.resources/vector-warp-02.png){width="128px"}
+![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
 
-<b>イン:</b>フィルター/効果
+## ベクターワープ（グレースケール）
+
+**場所：** *フィルター/効果*
+
+**複合**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,34 +45,26 @@ ht-degree: 2%
 
 このノードは、標準的なワープノードではカットされない非常に特殊なゆがみを、さまざまな方向で行う場合に便利です。
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>入力</b> <i>カラー入力</i> | ゆがみをマップします。 |
-| <b>ベクターマップ</b> <i>カラー入力</i> | ゆがみドライバのマップ。 カラーチャンネルには、赤と青が使用されます。 |
-
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>適用度</b> <i>0.0 - 1.0</i> | ベクトルマップの強度の乗数。 |
-| <b>ベクター形式</b> <i>DirectX、OpenGL</i> | グリーンチャンネルのアップチャンネルとダウンチャンネルを切り替えます。 |
+### 入力
 
-## 例
+* **入力**: *カラー入力*\
+  ゆがみをマップします。
+* **ベクターマップ**: *カラー入力*\
+  ゆがみドライバのマップ。 カラーチャンネルには、赤と青が使用されます。
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="vector-warp.resources/vector-warp-03.png" />
-        </td>
-    </tr>
+### パラメーター
+
+* **強度**: *0.0 ～ 1.0*&#x200B;ベクトルマップの強度乗数。
+* **ベクターフォーマット**: *DirectX、OpenGL*&#x200B;緑チャンネルを上下に切り替えます。
+
+## サンプル画像
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

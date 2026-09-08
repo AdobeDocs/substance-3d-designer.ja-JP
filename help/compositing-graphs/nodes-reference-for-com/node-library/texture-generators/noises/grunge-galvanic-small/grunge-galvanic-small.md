@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ガルバニック経年劣化 （小）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-small.resources/grunge-galvanic-small-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -52,17 +52,17 @@ ht-degree: 2%
 | <b>詳細</b> |  |
 | <b>鮮明さ</b> <i>フロート</i> | 亜鉛メッキを施したシェイプの鮮明さとシャープさを調整します。 |
 | <b>Dirt</b> <i>フロート</i> | Dirtオーバーレイの不透明度を調整します。 |
-| <b>マイクロゆがみ</b> <i>浮動小数</i> | 高周波ワープ効果の強度を調整します。 |
+| <b>マイクロゆがみ</b> <i>フロート</i> | 高周波ワープ効果の強度を調整します。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-02.jpg" />
+            <img src="../../../../../../assets/grungegalvanicsmall-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-03.jpg" />
+            <img src="../../../../../../assets/grungegalvanicsmall-variant.jpg" />
         </td>
     </tr>
 </table>

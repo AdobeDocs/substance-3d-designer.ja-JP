@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パーリン雑音
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![パーリンノイズ – アイコン](perlin-noise.resources/perlin-noise-01.png "パーリンノイズ – アイコン"){width="200px"}
+![パーリンノイズ – アイコン](../../../../../../assets/perlin_noise.png "パーリンノイズ – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Perlinのノイズ – 例1](perlin-noise.resources/perlin-noise-02.png "Perlinのノイズ – 例1"){zoomable="yes"}
+![パーリンのノイズ – 例1](../../../../../../assets/perlin_noise_1.png "パーリンのノイズ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![パーリンのノイズ – 例2](perlin-noise.resources/perlin-noise-03.gif "パーリンのノイズ – 例2"){zoomable="yes"}
+![パーリンのノイズ – 例2](../../../../../../assets/noise_perlin_noise_v2_speed0.6_aniso0.gif "パーリンのノイズ – 例2"){zoomable="yes"}
 
 </td>
 </tr>

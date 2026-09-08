@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
-description: 3D空間で山のようなノイズを作成するためのリッジフラクタルノイズパターンを作成するには、「3Dリッジフラクタル」ノードを使用します。
+description: 3D Ridged Noise Fractalノードを使用して、山のようなテクスチャを作成するための3D空間のリッジフラクタルノイズパターンを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3Dリッジノイズフラクタル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
+![](../../../../../../assets/3dridgednoisefractal.png){width="200px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 説明
 
-<b>3Dブリッジノイズフラクタル</b>ノードは、<b>位置マップ</b>の入力に基づいて、3D空間で<i>フラクタル</i>ブリッジノイズを生成します。
+<b>3Dリッジノイズフラクタル</b>ノードは、<b>位置マップ</b>入力に基づいて、3D空間で<i>フラクタル</i>リッジノイズを生成します。
 
 このノードは、実際のベイク済みマップではなく、[Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)を入力としてテストできます（下図の例を参照）。
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 |:---|:---|
 | <b>反転</b> <i>ブール値</i> | 出力イメージを反転します。 |
 | <b>スケール</b> <i>フロート</i> | フラクタル3Dリッジノイズのスケールを制御します。 |
-| <b>サイズ</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3D浮彫りノイズのサイズを制御します。 値が均一でないと、<i>伸縮または収縮</i>効果が発生します。 |
-| <b>オフセット</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3D浮彫りノイズの<i>位置</i>にオフセットを適用します。 |
-| <b>ゆがみの適用度</b> <i>フロート</i> | フラクタル3Dリッジノイズに適用される<i>ワープ効果</i>の強さを制御します。 |
+| <b>サイズ</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3D浮彫りノイズのサイズを制御します。 値が均一でないと、<i>伸縮</i>効果が発生します。 |
+| <b>オフセット</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3Dリッジノイズの<i>位置</i>にオフセットを適用します。 |
+| <b>ゆがみの適用度</b> <i>フロート</i> | フラクタル3Dリッジノイズに適用される<i>ワープ効果</i>の強度を制御します。 |
 | <b>ゆがみスケール乗数</b> <i>フロート</i> | <b>ゆがみの強さ</b>で制御されるワープ効果で使用される<i>変形パターン</i>のスケールを制御します。 |
 | <b>最小レベル</b> <i>整数</i> | フラクタルパターンで使用される繰り返しの最小<i>レベル</i>です。 最小値/最大値の範囲が広いほど、より多くの周波数範囲で変化が生じる<i>豊富なパターン</i>になります。 |
 | <b>最大レベル</b> <i>整数</i> | フラクタルパターンで使用される繰り返しの最大<i>レベル</i>です。 最小値/最大値の範囲が広いほど、より多くの周波数範囲で変化が生じる<i>豊富なパターン</i>になります。 |
@@ -63,18 +63,18 @@ ht-degree: 0%
 | <b>空隙性</b> <i>フロート</i> | 適用されたフラクタルパターン<i>がスペースを塗りつぶす方法</i>を制御します。 <i>高い</i>値を指定すると、パターンのギャップが<i>少なくなり</i>、ノイズが<i>密度が高く</i>なります。 |
 | <b>グローバル不透明度</b> <i>フロート</i> | フラクタル3Dリッジノイズ値の<i>範囲</i>を制御します。<b>ベースライン</b>値<i>前後</i> |
 | <b>ベースライン</b> <i>フロート</i> | <i>オフセット</i>を、3Dリッジノイズ値の分布の基準<i>輝度</i>値に適用します。 |
-| <b>コントラスト</b> <i>フロート</i> | 3Dブリッジノイズのコントラストを補正します。 |
-| <b>タイリングを有効にする</b> <i>ブール値</i> | 3D仕上げのノイズを調整して、結果のパターン<i>がX、Y、Z軸に</i>繰り返されるようにします。 |
+| <b>コントラスト</b> <i>フロート</i> | 3D覆い焼きノイズのコントラストを調整します。 |
+| <b>タイリングを有効にする</b> <i>ブール値</i> | 3Dリッジノイズを調整して、結果のパターンがX、Y、Z軸で<i>繰り返される</i>ようにします。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
+            <img src="../../../../../../assets/3dridgednoisefractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
+            <img src="../../../../../../assets/3dridgednoisefractal-variant2.jpg" />
         </td>
     </tr>
 </table>

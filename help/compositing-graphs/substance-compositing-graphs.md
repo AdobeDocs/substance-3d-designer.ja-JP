@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance グラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 一般的な使用例を以下に示します。
 
 +++シンプルなシェイプ
-![Substanceグラフのシンプルなシェイプ](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "Substanceグラフのシンプルなシェイプ"){width="512px"}
+![Substanceグラフのシンプルなシェイプ](../assets/simpleshape.png "Substanceグラフのシンプルなシェイプ"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 +++
 
 +++調整フィルター
-![Substanceグラフの調整フィルター](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "Substanceグラフの調整フィルター"){width="512px"}
+![Substanceグラフの調整フィルター](../assets/simplefilter.png "Substanceグラフの調整フィルター"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 +++
 
 +++完全なマテリアル
-![Substanceグラフの完全なマテリアル](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "Substanceグラフの完全なマテリアル"){width="512px"}
+![Substanceグラフの完全なマテリアル](../assets/simplematerial.png "Substanceグラフの完全なマテリアル"){width="512px"}
 
 
 

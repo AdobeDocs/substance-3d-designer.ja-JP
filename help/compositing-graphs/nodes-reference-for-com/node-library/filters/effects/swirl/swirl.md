@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 渦巻き
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 6%
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
@@ -22,30 +22,33 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](swirl.resources/swirl-01.png)![](swirl.resources/swirl-02.png)
+![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
 
-<b>イン:</b>フィルター/効果
+## 渦巻き（グレースケール）
+
+**場所：** *フィルター/効果*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
 これにより、入力画像が旋回して変形されます。 キャンバスの一部に旋回を移動するための追加コントロールがあります。
 
+## パラメーター
+
+* **行列**\
+  スウォールエフェクトを手動で移動できます。 2Dプレビューのハンドルを操作して変更することもできます。
+  * **行列**: *（変換行列）*
+  * **オフセット**: *0.0 - 1.0*
+* **量**: *-16.0 ～ 16.0*&#x200B;旋回効果の強さ。
+
+## サンプル画像
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## パラメーター
-
-|  |  |
-|:---|:---|
-| <b>行列</b> | スウォールエフェクトを手動で移動できます。 2Dプレビューのハンドルを操作して変更することもできます。 |
-| <b>行列</b> <i>（変換行列）</i> |  |
-| <b>オフセット</b> <i>0.0 - 1.0</i> |  |
-| <b>金額</b> <i>-16.0 - 16.0</i> | 渦巻き効果の強さ。 |

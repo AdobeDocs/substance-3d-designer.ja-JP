@@ -10,10 +10,10 @@ helpx_tags: ""
 title: GrayscaleColorへのFlood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 4%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
+![](../../../../../../assets/floodfill-to-color.png){width="128px"}
 
-<b>イン:</b>フィルター/効果
+## Flood Fillからランダムなグレースケール/カラー
+
+**場所：** *フィルター/効果*
+
+**&#x200B;**&#x200B;単純&#x200B;**&#x200B;**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -39,24 +43,18 @@ Flood Fillデータを使用して、グレースケールまたはカラー値�
 
 これは、すべてのセルに独自の値や色を与えながら、制御を維持し、事前に決定された入力をベースとする強力なシステムです。
 
+## パラメーター
+
+### 入力
+
+* **Flood Fill**: *カラー入力*
+* **グレースケール/色入力**: *グレースケール/色入力*
+
+### パラメーター
+
+* **輝度/色の調整**: *-1.0 - 1.0*&#x200B;節点のバイアスまたは基本値を設定します。 グレースケールまたはカラー入力を使用する場合は、開始点としてその初期値を変更するために使用されます。
+* **輝度/色のランダム**: *-1.0 - 1.0*&#x200B;変化の量を設定します。
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 入力
-
-|  |  |
-|:---|:---|
-| <b>Flood Fill</b> <i>カラー入力</i> |  |
-| <b>グレースケール/カラー入力</b> <i>グレースケール/カラー入力</i> |  |
-
-<a name="parameters"></a>
-
-## パラメーター
-
-|  |  |
-|:---|:---|
-| <b>輝度/色の調整</b> <i>-1.0 - 1.0</i> | ノードのバイアスまたはベース値を設定します。 グレースケールまたはカラー入力を使用する場合は、開始点としてその初期値を変更するために使用されます。 |
-| <b>輝度/カラーランダム</b> <i>-1.0 - 1.0</i> | 変化の量を設定します。 |

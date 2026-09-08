@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
 breadcrumb-title: ''
-description: Voronoiノードを使用して、細胞テクスチャと有機マテリアル効果を生み出すためのVoronoiパターンを生成します。
+description: Voronoiノードを使用して、細胞のテクスチャや有機的なマテリアルエフェクトを作成するためのVoronoiパターンを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Voronoi
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ボロノイ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi.resources/voronoi-01.png){width="200px"}
+![](../../../../../../assets/voronoi.png){width="200px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> このノイズは、*GPU エンジンのみ* （例： **Direct**&#x200B;または&#x200B;**OpenGL**）で使用することを目的としています。 **ツール/エンジンの切り替え…**&#x200B;に移動するか、**F9**&#x200B;キーを押して、目的のエンジンを選択します。
+> このノイズは、*GPUエンジンのみ* （**Direct**&#x200B;または&#x200B;**OpenGL**）で使用することを目的としています。 **ツール/エンジンの切り替え…**&#x200B;に移動するか、**F9**&#x200B;キーを押して、目的のエンジンを選択します。
 
 </td>
 </tr>
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>反転</b> <i>ブーリアン</i> | 出力イメージを反転します。 |
-| <b>スケール</b> <i>浮動小数</i> | ボロノイノイズのスケールを制御します。<br><br>*注意*: *任意の軸*&#x200B;で&#x200B;**タイリング**&#x200B;が有効になっている場合、スケール調整は&#x200B;*ステップ*&#x200B;です。 これは予期される動作です。 |
-| <b>サイズ</b> <i>浮動小数3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のボロノイノイズのサイズを制御します。 値が均一でないと、*伸縮または収縮*&#x200B;効果が発生します。<br><br>*注意*: *任意の軸*&#x200B;で&#x200B;**タイリング**&#x200B;が有効になっている場合、サイズの調整は&#x200B;*段階的*&#x200B;になります。 これは予期される動作です。 |
-| <b>オフセット</b> <i>浮動小数3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のボロノイノイズの&#x200B;*位置*&#x200B;にオフセットを適用します。 |
-| <b>障害</b> <i>浮動小数3</i> | *ランダムオフセット*&#x200B;の強度は、**X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のノイズの各点に適用されます。 |
+| <b>反転</b> <i>ブール値</i> | 出力イメージを反転します。 |
+| <b>スケール</b> <i>フロート</i> | ボロノイノイズのスケールを制御します。<br><br>*注意*: *任意の軸*&#x200B;で&#x200B;**タイリング**&#x200B;が有効になっている場合、スケール調整は&#x200B;*ステップ*&#x200B;です。 これは予期される動作です。 |
+| <b>サイズ</b> <i>浮動小数点3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のボロノイノイズのサイズを制御します。 値が均一でないと、*伸縮または収縮*&#x200B;効果が発生します。<br><br>*注意*: *任意の軸*&#x200B;で&#x200B;**タイリング**&#x200B;が有効になっている場合、サイズの調整は&#x200B;*段階的*&#x200B;になります。 これは予期される動作です。 |
+| <b>オフセット</b> <i>浮動小数点3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のボロノイノイズの&#x200B;*位置*&#x200B;にオフセットを適用します。 |
+| <b>障害</b> <i>浮動小数点3</i> | *ランダムオフセット*&#x200B;の強度は、**X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のノイズの各点に適用されます。 |
 | <b>ゆがみの適用度</b> <i>フロート</i> | ボロノイノイズに適用される&#x200B;*ワープ効果*&#x200B;の強さを制御します。 |
 | <b>ゆがみスケール乗数</b> <i>フロート</i> | **ゆがみの強さ**&#x200B;で制御されるワープ効果で使用される&#x200B;*変形パターン*&#x200B;のスケールを制御します。 |
 | <b>角丸曲線</b> <i>フロート</i> | ノイズの各点の周りに&#x200B;*勾配*&#x200B;を丸めて&#x200B;*凸型*&#x200B;にします。<br><br>*注意*: **Style**&#x200B;パラメーターが&#x200B;*Edge*&#x200B;に設定されている場合、このパラメーターは使用できません。 |
@@ -73,22 +73,22 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-02.jpg" />
+            <img src="../../../../../../assets/voronoi-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-03.jpg" />
+            <img src="../../../../../../assets/voronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-04.jpg" />
+            <img src="../../../../../../assets/voronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-05.jpg" />
+            <img src="../../../../../../assets/voronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-06.jpg" />
+            <img src="../../../../../../assets/voronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-07.jpg" />
+            <img src="../../../../../../assets/voronoi-variant6.jpg" />
         </td>
     </tr>
 </table>

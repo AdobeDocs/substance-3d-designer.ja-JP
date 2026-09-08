@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 球体光
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sphere-light.resources/sphere-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-sphere-light.png){width="200px"}
 
 <b>内：</b> 3D ビュー > HDRI ツール
 
@@ -60,7 +60,7 @@ ht-degree: 4%
 | <b>位置の座標</b> |  |
 | <b>上向きベクター</b> <i>Z上、Y上</i> | ワールド位置モードでのみ、座標系の方向を決定します。 |
 | <b>球のワールド位置</b> <i>-2.0 - 2.0</i> | ワールド位置モードでのみ、ワールド空間での球の位置を設定します。 |
-| <b>位置</b> | 原点モードの場合のみ。 中心を基準にして位置を設定します。 2D ビューで操作できます。 |
+| <b>位置</b> | 原点モードの場合のみ。 中心を基準にして位置を設定します。 2Dビューで操作できます。 |
 | <b>原点</b> <i>0.0 - 20.0</i> | 原点モードの場合のみ。 距離を原点に設定し、球の表示サイズに影響します。 |
 | <b>図形のカラーモード</b> <i>RGB、色温度（ケルビン）、画像入力</i> | シェイプカラーの設定に使用する方法を選択します。 イメージ入力により、2番目の入力スロットが使用可能になります。 |
 | <b>色</b> <i>（カラー値）</i> | シェイプカラーモードを「RGB」に設定した場合のみ シェイプのカラーを選択します。 |
@@ -82,10 +82,10 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/sphere-light-02.gif" />
+            <img src="../../../../../../assets/sphere-light-ex.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/sphere-light-03.png" />
+            <img src="../../../../../../assets/spherelight-ex1.png" />
         </td>
     </tr>
 </table>

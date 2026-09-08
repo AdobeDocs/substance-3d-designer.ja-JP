@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 指向性ワープ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：方向ワープ](directional-warp.resources/directional-warp-01.png "原子ノード：方向ワープ"){width="200px"}
+![原子ノード：方向ワープ](../../../../assets/comp_directionalwarp_1.png "原子ノード：方向ワープ"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向ワープ – 例1](directional-warp.resources/directional-warp-02.gif "方向ワープ – 例1"){zoomable="yes"}
+![方向ワープ – 例1](../../../../assets/dir-warp.gif "方向ワープ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向ワープ – 例2](directional-warp.resources/directional-warp-03.gif "方向ワープ – 例2"){zoomable="yes"}
+![方向ワープ – 例2](../../../../assets/dir-warp02.gif "方向ワープ – 例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向ワープ – 例3](directional-warp.resources/directional-warp-04.gif "方向ワープ – 例3"){zoomable="yes"}
+![方向ワープ – 例3](../../../../assets/dir-warp03.gif "方向ワープ – 例3"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ホワイトノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ホワイトノイズ – アイコン](white-noise.resources/white-noise-01.png "ホワイトノイズ – アイコン"){width="200px"}
+![ホワイトノイズ – アイコン](../../../../../../assets/white_noise_v2.png "ホワイトノイズ – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -63,12 +63,12 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ホワイトノイズ – 例1](white-noise.resources/white-noise-02.png "ホワイトノイズ – 例1"){zoomable="yes"}
+![ホワイトノイズ – 例1](../../../../../../assets/white_noise_v2_1.png "ホワイトノイズ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ホワイトノイズ – 例2](white-noise.resources/white-noise-03.gif "ホワイトノイズ – 例2"){zoomable="yes"}
+![ホワイトノイズ – 例2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "ホワイトノイズ – 例2"){zoomable="yes"}
 
 </td>
 </tr>

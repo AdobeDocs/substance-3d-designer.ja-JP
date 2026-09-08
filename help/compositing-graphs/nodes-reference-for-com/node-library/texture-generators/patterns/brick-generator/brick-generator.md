@@ -10,7 +10,7 @@ helpx_tags: ""
 title: レンガジェネレータ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](brick-generator.resources/brick-generator-01.png){width="128px"}
+![](../../../../../../assets/brick-generator.png){width="128px"}
 
 <b>イン：</b>テクスチャジェネレーター>パターン
 
@@ -55,17 +55,17 @@ ht-degree: 8%
 | <b>Height</b> <i>-1.0 - 1.0</i> | Heightプロファイルを変更します。 輝度のバリエーションやあらゆる種類のランダム化が可能です。 |
 | <b>勾配</b> <i>-1.0 - 1.0</i> | レンガごとに勾配を発生させます。特定のレンガを斜めに寝かせているような効果を与えます。 |
 | <b>オフセット</b> <i>0.0 - 1.0</i> | 行単位でレンガをオフセットし、行ごとの間隔に影響します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="brick-generator.resources/brick-generator-02.gif" />
+            <img src="../../../../../../assets/brick-generator-ex-01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="brick-generator.resources/brick-generator-03.gif" />
+            <img src="../../../../../../assets/brick-generator-ex-02.gif" />
         </td>
     </tr>
 </table>

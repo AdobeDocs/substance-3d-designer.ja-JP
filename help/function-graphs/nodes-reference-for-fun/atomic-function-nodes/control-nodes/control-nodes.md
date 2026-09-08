@@ -10,9 +10,9 @@ helpx_tags: ""
 title: コントロール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Elseノード](../../../../assets/IfElse_Node.jpg "If...Elseノード")
+![If...Elseノード](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Elseノード")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シーケンスノード](../../../../assets/Sequence_Node.jpg "シーケンスノード")
+![シーケンスノード](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "シーケンスノード")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ループノード中](../../../../assets/WhileLoop-Node.jpg "ループノード中")
+![Whleループノード](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Whle Loopノード")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -124,11 +124,11 @@ ht-degree: 1%
 
 +++パラメーター
 <b>最大 反復</b> *整数*\
-ノードによって実行される反復の最大数です。\
+ノードが実行する最大反復回数。\
 この最大数に達するか、終了条件がtrueになったときに、次のいずれかの条件が最初に満たされると、ノードの反復が停止します。\
 この最大値は、値を&#x200B;*-1*&#x200B;に設定することで無効にできます。 この時点では、終了条件のみが反復を停止できます。
 
-&#39;Maxを設定しています。 反復の–1を指定すると、トラッキングとアップデートのカウンタが1つ少なくなるため、小さなループでパフォーマンスが向上します。
+&#39;Maxを設定しています。 iterationsを–1に設定すると、追跡と更新を行うカウンタが1つ少なくなるため、小さなループでのパフォーマンスが向上します。
 
 ただし、<b>無限ループ</b>を生成してDesignerが応答しなくなる可能性があるため、ノードの構成には注意してください。
 

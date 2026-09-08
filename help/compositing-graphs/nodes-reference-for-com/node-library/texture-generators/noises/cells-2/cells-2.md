@@ -10,7 +10,7 @@ helpx_tags: ""
 title: セル 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![セル 2 – アイコン](cells-2.resources/cells-2-01.png "セル 2 – アイコン"){width="200px"}
+![セル 2 – アイコン](../../../../../../assets/cells_2.png "セル 2 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -70,12 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![セル 2 – 例1](cells-2.resources/cells-2-02.png "セル 2 – 例1"){zoomable="yes"}
+![セル 2 – 例1](../../../../../../assets/cells_2_1.png "セル 2 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![セル 2 – 例2](cells-2.resources/cells-2-03.gif "セル 2 – 例2"){zoomable="yes"}
+![セル 2 – 例2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "セル 2 – 例2"){zoomable="yes"}
 
 </td>
 </tr>

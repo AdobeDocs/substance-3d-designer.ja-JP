@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](atlas-splitter.resources/atlas-splitter-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/atlas-splitter.png "ノードアイコン")
 
 <b>イン：</b> マテリアルフィルター/スキャン処理
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 | <b>追加入力を有効にする</b> <i>ブール値</i> | USer 1およびUser 2の入力と設定を、対象となっていない追加のマップで使用できるようにします。 |
 | <b>カスタム背景色</b> <i>ブール値</i> | レイヤーのコンテンツの拡張ではなく、カスタムの背景色を選択できます。 |
 | <b>Base colorの背景の色</b> <i>浮動小数点3</i> | base colorの背景色をカスタマイズします。 |
-| <b>標準の背景の色</b> <i>浮動小数3</i> | 法線マップの背景色をカスタマイズします。 |
-| <b>メタリック背景の色</b> <i>浮動小数</i> | メタリック用のカスタム背景カラー。 |
+| <b>標準の背景の色</b> <i>浮動小数点3</i> | 法線マップの背景色をカスタマイズします。 |
+| <b>メタリック背景の色</b> <i>フロート</i> | メタリック用のカスタム背景カラー。 |
 | <b>ラフネスの背景の色</b> <i>フロート</i> | ラフネスのカスタム背景カラー |
-| <b>Heightの背景の色</b> <i>浮動小数</i> | Heightのカスタム背景カラー |
+| <b>Heightの背景の色</b> <i>フロート</i> | Heightのカスタム背景カラー |
 | <b>ユーザー1 Bgカラー</b> <i>フロート</i> | カスタムユーザー1マップのカスタムBGカラー |
-| <b>ユーザー2 Bgカラー</b> <i>浮動小数</i> | カスタムユーザー1マップのカスタムBGカラー |
+| <b>ユーザー2 Bgカラー</b> <i>フロート</i> | カスタムユーザー1マップのカスタムBGカラー |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 異方性ノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![異方性ノイズ – アイコン](anisotropic-noise.resources/anisotropic-noise-01.png "異方性ノイズ – アイコン"){width="200px"}
+![異方性ノイズ – アイコン](../../../../../../assets/anisotropic_noise_v2.png "異方性ノイズ – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -41,11 +41,15 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 出力
 
 |  |  |
 |:---|:---|
 | <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
@@ -67,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![異方性ノイズ – 例1](anisotropic-noise.resources/anisotropic-noise-02.png "異方性ノイズ – 例1"){zoomable="yes"}
+![異方性ノイズ – 例1](../../../../../../assets/anisotropic_noise_v2_1.png "異方性ノイズ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![異方性ノイズ – 例2](anisotropic-noise.resources/anisotropic-noise-03.gif "異方性ノイズ – 例2"){zoomable="yes"}
+![異方性ノイズ – 例2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "異方性ノイズ – 例2"){zoomable="yes"}
 
 </td>
 </tr>

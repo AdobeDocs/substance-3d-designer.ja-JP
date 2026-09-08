@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
 breadcrumb-title: ''
-description: '[メッシュ 1]ノードを使用して、ジオメトリやグリッドベースのテクスチャを作成するための基本的なメッシュパターンを作成します。'
+description: Mesh 1ノードを使用すると、幾何学的およびグリッドベースのテクスチャを作成するための基本的なメッシュパターンを生成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: メッシュ 1
+title: メッシュ1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -24,16 +24,16 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-1.resources/mesh-1-01.png){width="128px"}
+![](../../../../../../assets/mesh-1.png){width="128px"}
 
-<b>イン：</b> テクスチャジェネレーター>パターン
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-細いブロックでシンプルなメッシュパターン。 Heightマップと詳細マップの作成に適しています。
+細いブロックで構成されたシンプルなメッシュパターン。 Heightマップと詳細マップの作成に適しています。
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 6%
 
 |  |  |
 |:---|:---|
-| <b>タイリング</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+| <b>タイル表示</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
 | <b>45度回転</b> <i>False/True</i> | 結果を45度回転します。 |
 | <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 
@@ -54,7 +54,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mesh-1.resources/mesh-1-02.gif" />
+            <img src="../../../../../../assets/mesh-1-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラフパラメーター
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![基本パラメーター](graph-parameters.resources/graph-parameters-01.png "基本パラメーター"){width="512px" zoomable="yes"}
+![基本パラメーター](../../assets/doc-graph-props-base-params.png "基本パラメーター"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ ht-degree: 1%
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>出力サイズ</b> | このパラメーターを使用すると、グラフ内の画像の&#x200B;*基本解像度*&#x200B;を選択できます。  次を使用します <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> サイズを調整するときに、高さの値と幅の値が一致して画像の正方形を維持するためのロックボタン。<br><br>*デフォルト: (0,0) – 親を基準にする* [詳細](../../compositing-graphs/output-size/output-size.md) |
+| <b>出力サイズ</b> | このパラメーターを使用すると、グラフ内の画像の&#x200B;*基本解像度*&#x200B;を選択できます。  次を使用します <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> サイズを調整するときに、高さの値と幅の値が一致して画像の正方形を維持するためのロックボタン。<br><br>*デフォルト: (0,0) – 親を基準にする* [詳細](../../compositing-graphs/output-size/output-size.md) |
 | <b>出力形式</b> | グラフの&#x200B;*基本ビット深度*&#x200B;を次のオプションから選択できます：<ul data-preserve-html="true"><li data-preserve-html="true">8ビット</li><li data-preserve-html="true">16ビット</li><li data-preserve-html="true">HDR低精度16F（16ビット浮動小数点）</li><li data-preserve-html="true">HDR高精度32F（32ビット浮動小数点）</li></ul>*既定： 8 Bit/チャンネル – 親に対する相対* |
 | <b>ピクセルサイズ</b> | ピクセルサイズを定義します。 **幅**&#x200B;と&#x200B;**Height**&#x200B;の両方の値を&#x200B;**1**&#x200B;に設定しておくことをお勧めします。*既定： (1,1) – 親に相対的* |
 | <b>タイルモード</b> | グラフの基本&#x200B;*タイルモード*&#x200B;を次のオプションから定義します：<ul data-preserve-html="true"> <li data-preserve-html="true">タイリングなし</li> <li data-preserve-html="true">水平方向タイリング</li> <li data-preserve-html="true">垂直方向タイリング</li> <li data-preserve-html="true">水平および垂直(H+V)タイリング</li> </ul>*既定： HとVの分割 – 親を基準とする* |
-| <b>ランダムシード</b> | グラフのベース&#x200B;*ランダムシード*&#x200B;を定義します。  次を使用します <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> 新しいランダム値をランダムシードに割り当てるボタン。<br><br>*既定： 0 – 親に対する相対* |
+| <b>ランダムシード</b> | グラフのベース&#x200B;*ランダムシード*&#x200B;を定義します。  次を使用します <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> 新しいランダム値をランダムシードに割り当てるボタン。<br><br>*既定： 0 – 親に対する相対* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グラフの属性](graph-parameters.resources/graph-parameters-04.png "グラフの属性"){zoomable="yes"}
+![グラフの属性](../../assets/doc-graph-props-attributes.png "グラフの属性"){zoomable="yes"}
 
 </td>
 </tr>
@@ -109,25 +109,25 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[表示されるパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を含む、グラフに固有のすべてのパラメーターは[管理](../../compositing-graphs/manage-parameters/manage-parameters.md)されており、ここで編集およびプレビューできます。
+[公開されたパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を含む、グラフに固有のすべてのパラメーターは[管理](../../compositing-graphs/manage-parameters/manage-parameters.md)されており、ここで編集およびプレビューできます。
 
 [パラメータープリセット](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)は、一部またはすべてのパラメーターに対して作成することもできます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![入力パラメーター](graph-parameters.resources/graph-parameters-05.png "入力パラメーター"){zoomable="yes"}
+![入力パラメーター](../../assets/doc-graph-props-input-parameters.png "入力パラメーター"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++基本パラメータをオーバーライドする
-別のグラフのグラフを[インスタンス化](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)として使用する場合、その新しいインスタンス化の基本パラメーターの既定値を制御できます。
+別のグラフのグラフを[インスタンスノード](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)として使用する場合、その新しいインスタンスノードの基本パラメーターの既定値を制御できます。
 
 「入力パラメーター」セクションの上部にあるハンバーガーメニューを開き、「ベースパラメーターのオーバーライド」サブメニューに移動して、任意のデフォルト値を設定するベースパラメーターを選択します。
 
-選択したパラメーターのエディターが、入力パラメーターーのリストの上に表示されます。 その後、必要に応じてそれらの値と[継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を調整できます。
+選択したパラメーターのエディターが、グラフ入力パラメーターのリストの上に表示されます。 その後、必要に応じてそれらの値と[継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を調整できます。
 
 +++
 
@@ -143,14 +143,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-このパートでは、すべてのグラフの[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノードが一覧表示されます。
+この部分には、グラフのすべての[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノードが一覧表示されます。
 
 各項目の一番左にあるハンドルをドラッグ&amp;ドロップして、項目を並べ替えることができます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![入力](graph-parameters.resources/graph-parameters-06.png "入力"){zoomable="yes"}
+![入力](../../assets/doc-graph-props-inputs.png "入力"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![出力](graph-parameters.resources/graph-parameters-07.png "出力"){zoomable="yes"}
+![出力](../../assets/doc-graph-props-outputs.png "出力"){zoomable="yes"}
 
 </td>
 </tr>

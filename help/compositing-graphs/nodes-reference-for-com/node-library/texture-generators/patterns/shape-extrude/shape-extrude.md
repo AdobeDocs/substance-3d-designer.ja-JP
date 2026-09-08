@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
-description: シェイプの押し出しノードを使用してシェイプを押し出し、Substance 3D Designerテクスチャに3Dのような深度効果を生み出します。
+description: シェイプの押し出しノードを使用してシェイプを押し出し、テクスチャで3Dのような深度効果を生み出します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シェイプの押し出し
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,16 +24,16 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-extrude.resources/shape-extrude-01.png){width="128px"}
+![](../../../../../../assets/shape-extrude.png){width="128px"}
 
-<b>イン：</b>テクスチャジェネレーター>パターン
+<b>イン：</b> テクスチャジェネレーター>パターン
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-2Dのバイナリ「シェイプ」入力を3D回転のハイトマップにレンダリングできる高度なノード。 3Dパッケージでシェイプをその軸に沿って押し出し、ボリュームを作成する場合の押し出しと同様に機能します。 プロファイルグラデーションマスクと組み合わせて、回転/レイズタイプのボディも作成できます。 ハイトマップの複雑な人為的シェイプを作成する場合に非常に便利です。
+2Dのバイナリ「シェイプ」入力を3D回転のハイトマップにレンダリングできる高度なノード。 3Dパッケージでシェイプをその軸に沿って押し出し、ボリュームを作成する場合と同様に機能します。 プロファイルグラデーションマスクと組み合わせて、回転/レイズタイプのボディも作成できます。 ハイトマップの複雑な人為的シェイプを作成する場合に非常に便利です。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 5%
 |:---|:---|
 | <b>押し出しシェイプの入力</b> <i>グレースケール入力</i> | 「シェイプを押し出し」を「カスタム」に設定した場合は、ここで独自（できれば）のバイナリシェイプマスクをプラグインします。 |
 | <b>プロファイルグラデーション</b> <i>グレースケール入力</i> | [プロファイルの種類]が[垂直グラデーション]に設定されている場合は、回転ボディの軸に沿ったシェイプの尺度を定義するために使用できます。 |
-| <b>プロファイルマスク</b> <i>グレースケール入力</i> | 押し出しシェイプをその軸に沿って非表示または表示するために使用されるマスクスロット。 軸に沿ってシェイプの連続性を解除するために使用できます。 バイナリとしてのみ解釈されます：グレースケールのput値は0または1に丸められます。 |
+| <b>プロファイルマスク</b> <i>グレースケール入力</i> | 軸に沿って押し出しシェイプを非表示にしたり表示したりするために使用するマスクスロット。 軸に沿ってシェイプの連続性を解除するために使用できます。 バイナリとしてのみ解釈されます：グレースケールのput値は0または1に丸められます。 |
 
 <a name="parameters"></a>
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-extrude.resources/shape-extrude-02.png" />
+            <img src="../../../../../../assets/shape-extrude-1.png" />
         </td>
     </tr>
 </table>

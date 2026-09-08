@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnWスポット1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![BnW個のスポット1 – アイコン](bnw-spots-1.resources/bnw-spots-1-01.png "BnW個のスポット1 – アイコン"){width="200px"}
+![BnW個のスポット1 – アイコン](../../../../../../assets/bnw_spots_1.png "BnW個のスポット1 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -70,12 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnWスポット1 – 例1](bnw-spots-1.resources/bnw-spots-1-02.png "BnWスポット1 – 例1"){zoomable="yes"}
+![BnWスポット1 – 例1](../../../../../../assets/bnw_spots_1_1.png "BnWスポット1 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnWスポット1 – 例2](bnw-spots-1.resources/bnw-spots-1-03.gif "BnWスポット1 – 例2"){zoomable="yes"}
+![BnWスポット1 – 例2](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso0.gif "BnWスポット1 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnWスポット1 – 例3](bnw-spots-1.resources/bnw-spots-1-04.gif "BnWスポット1 – 例3"){zoomable="yes"}
+![BnWスポット1 – 例3](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso1.gif "BnWスポット1 – 例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnWスポット1 – 例4](bnw-spots-1.resources/bnw-spots-1-05.gif "BnWスポット1 – 例4"){zoomable="yes"}
+![BnWスポット1 – 例4](../../../../../../assets/noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif "BnWスポット1 – 例4"){zoomable="yes"}
 
 </td>
 </tr>

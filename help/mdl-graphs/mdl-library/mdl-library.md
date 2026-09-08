@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDLライブラリ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # MDLライブラリ
 
-[MDLグラフ](../../mdl-graphs/mdl-graphs.md)に関するコンテンツのライブラリとSubstance 3D Designerに含まれる資料を表示します。 また、[ライブラリ](../../interface/the-library/the-library.md)でのカスタムコンテンツのインストールと管理についても説明します。
+[MDL グラフ](../../mdl-graphs/mdl-graphs.md)に関連するコンテンツと、Substance 3D Designerに含まれるマテリアルのライブラリです。 また、[ライブラリ](../../interface/the-library/the-library.md)でのカスタムコンテンツのインストールと管理についても説明します。
 
 ## ライブラリ内のMDLコンテンツ
 
-MDLグラフで使用できるノードは、[ライブラリ](../../interface/the-library/the-library.md)の<b>mdl</b>セクションにあります。 ノードは、定義されているMDLモジュールに従ってフィルタに配置されます。\
+MDL グラフで使用できるノードは、[Library](../../interface/the-library/the-library.md)の<b>mdl</b>セクションで利用できます。 ノードは、定義されているMDL モジュールに従ってフィルタに配置されます。\
 モジュールがサブフォルダーに格納されている場合、この階層はライブラリで&#x200B;*カテゴリ*&#x200B;として&#x200B;*ミラー*&#x200B;されます。
 
 このセクションには、次のソースからのコンテンツが含まれます。
@@ -35,15 +35,15 @@ MDLグラフで使用できるノードは、[ライブラリ](../../interface/t
 
 ### 組み込みコンテンツ
 
-Designerには、MDLグラフを作成するための基本的な構成要素と、すぐに使用できる完全なマテリアル定義を含むMDLモジュールが含まれています。
+Designerには、オーサリングMDL グラフの基本的な構成要素と、すぐに使用できる完全なマテリアルMDL モジュールが含まれています。
 
 このコンテンツは、次のインストールディレクトリの下のこの場所に保存されます： `./resources/view3d/iray/`
 
 ### カスタムコンテンツ
 
-組み込みのコンテンツに加えて、*独自の* MDLモジュールをライブラリに追加できます。
+組み込みのコンテンツに加えて、*独自の* MDL モジュールをライブラリに追加できます。
 
-実際、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)の<b>MDL</b>セクションに一覧表示されているディレクトリに存在するMDLモジュールは、プロジェクトファイル間でこのセクション&#x200B;*累積的に*&#x200B;追加されます。
+実際、[プロジェクトMDL モジュール](../../interface/preferences-window/project-settings/project-settings.md)の<b>MDL</b>セクションに記載されているディレクトリに見つかった設定は、プロジェクトファイル全体で&#x200B;*累積的に*&#x200B;このセクションに追加されます。
 
 ### NVIDIA vMaterial
 
@@ -52,7 +52,7 @@ NVIDIAの[vMaterials](https://developer.nvidia.com/vmaterials)ライブラリが
 </td>
 <td style="border: 0;" valign="top">
 
-![ライブラリのMDLリソース](mdl-library.resources/mdl-library-01.png "ライブラリのMDLリソース")
+![ライブラリのMDLリソース](../../assets/mdl-library.png "ライブラリのMDLリソース")
 
 ライブラリの&#x200B;*「mdl」セクション、vMaterialsライブラリ、およびカスタムコンテンツはフレーム化されています*
 
@@ -60,17 +60,17 @@ NVIDIAの[vMaterials](https://developer.nvidia.com/vmaterials)ライブラリが
 </tr>
 </table>
 
-## 3DビューのMDLコンテンツ
+## 3D ビュー内のMDLコンテンツ
 
-Irayレンダラーを使用する場合、ライブラリで利用可能なすべてのMDLモジュールを[3Dビュー](../../interface/3d-view/3d-view.md)で使用できます。
+Irayレンダラーを使用する場合、ライブラリで使用可能なすべてのMDL モジュールを[3D ビュー](../../interface/3d-view/3d-view.md)で使用できます。
 
-<b>マテリアル</b>メニューを開き、*シーンマテリアルのサブメニュー*&#x200B;を開いて、利用可能なMDLモジュールを参照します。 リストには次のものが含まれます。
+<b>マテリアル</b>メニューを開き、*シーンマテリアルのサブメニュー*&#x200B;を開いて、利用可能なMDL モジュールを参照します。 リストには次のものが含まれます。
 
 * 組み込みコンテンツ
 * カスタムコンテンツ
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * [MDLグラフ](../../mdl-graphs/mdl-graphs.md)を読み込みました
 
-![3DビューのMDLマテリアル](mdl-library.resources/mdl-library-02.png "3DビューのMDLマテリアル")
+![3DビューのMDLマテリアル](../../assets/mdl-apply-in-3dview-material-list.png "3DビューのMDLマテリアル")
 
 *3DビューのMDLマテリアル*

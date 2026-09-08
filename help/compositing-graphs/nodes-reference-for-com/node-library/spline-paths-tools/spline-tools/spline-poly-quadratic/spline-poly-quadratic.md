@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン（多二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-poly-quadratic.resources/spline-poly-quadratic-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-poly-quadratic-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -86,13 +86,13 @@ ht-degree: 0%
 | <b>接続開始の位置</b> <i>フロート</i> | （[入力スプラインの接続モード]が[手動]に設定され、[開始点を入力スプラインに接続]が[はい]に設定されている場合に使用可能）生成されたスプラインの開始点への接続が配置される、選択された入力スプライン上の位置です。<br>この値は、選択した入力スプラインの正規化された長さです。 |
 | <b>入力スプラインへの終点の接続</b> <i>ブール値</i> | Trueの場合、生成されたスプラインの終端は、入力スプラインの最初のスプラインの最初の点に接続されます。 |
 | <b>接続スプラインインデックスの終了</b> <i>整数</i> | （[入力スプラインの接続モード]が[手動]に、[入力スプラインに端点を接続]が[真]に設定されている場合に使用可能）生成されたスプラインの端点に接続する入力スプラインのインデックス。 |
-| <b>接続位置の終了</b> <i>フロート</i> | （[入力スプラインの接続モード]が[手動]に、[端点を入力スプラインに接続]が[はい]に設定されている場合に使用可能）生成されたスプラインの端点への接続が配置される、選択した入力スプライン上の位置。<br>この値は、選択した入力スプラインの正規化された長さです。 |
-| <b>均一な分布</b> <i>ブール値</i> | Trueの場合、スプラインの点は始点から終点まで等間隔になります。 |
-| <b>入力スプラインを追加</b> <i>ブール値</i> | 生成されたスプラインを、<b>スプライン</b>入力に接続されたスプラインの一覧の最後に追加します。 |
-| <b>非正方形の修正</b> <i>ブール値</i> | 点の位置とThicknessを調整して、非正方形の解像度でスプラインの形状を保持します。<br>均一な分布にも影響します。 |
-| <b>グローバルSmoothness調整</b> <i>フロート</i> | すべてのポイントのSmoothnessの値に均等オフセットを適用します。<br>結果のSmoothness値は[0;1]の範囲に固定されます。 |
+| <b>接続位置の終了</b> <i>浮動小数</i> | （[入力スプラインの接続モード]が[手動]に、[端点を入力スプラインに接続]が[はい]に設定されている場合に使用可能）生成されたスプラインの端点への接続が配置される、選択した入力スプライン上の位置。<br>この値は、選択した入力スプラインの正規化された長さです。 |
+| <b>均一な分布</b> <i>ブーリアン</i> | Trueの場合、スプラインの点は始点から終点まで等間隔になります。 |
+| <b>入力スプラインを追加</b> <i>ブーリアン</i> | 生成されたスプラインを、<b>スプライン</b>入力に接続されたスプラインの一覧の最後に追加します。 |
+| <b>非正方形の修正</b> <i>ブーリアン</i> | 点の位置とThicknessを調整して、非正方形の解像度でスプラインの形状を保持します。<br>均一な分布にも影響します。 |
+| <b>グローバルSmoothness調整</b> <i>浮動小数</i> | すべてのポイントのSmoothnessの値に均等オフセットを適用します。<br>結果のSmoothness値は[0;1]の範囲に固定されます。 |
 | <b>ポイントのプロパティ</b> |  |
-| <b>p#プロパティ</b> <i>浮動小数点3</i> | p#の点のプロパティを設定します。<br>- <i>Height:</i>値が小さいほどHeightが低く、深い方を表す点の位置を調整します。<br>- <i>Smoothness:</i>スプラインの滑らかさの開始点をp#でオフセットします。値が0の場合、硬い軌道になり、完全に滑らかな1になります。<br>- <i>Thickness:</i> p#のスプラインのThicknessを調整します。 Thicknessは、特定のスプラインノードによって使用されます。 |
+| <b>p#プロパティ</b> <i>浮動小数3</i> | p#の点のプロパティを設定します。<br>- <i>Height:</i>値が小さいほどHeightが低く、深い方を表す点の位置を調整します。<br>- <i>Smoothness:</i>スプラインの滑らかさの開始点をp#でオフセットします。値が0の場合、硬い軌道になり、完全に滑らかな1になります。<br>- <i>Thickness:</i> p#のスプラインのThicknessを調整します。 Thicknessは、特定のスプラインノードによって使用されます。 |
 | <b>点の座標</b> |  |
 | <b>p#</b> <i>浮動小数点2</i> | テクスチャ空間のp#ポイントの位置を設定します。 |
 | <b>プレビュー</b> |  |
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-02.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-03.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](spline-poly-quadratic.resources/spline-poly-quadratic-04.gif "ノードの例2")
+![ノードの例2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "ノードの例2")
 
 </td>
 </tr>

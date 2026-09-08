@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 経年劣化リーク
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleaks.jpg){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -52,18 +52,18 @@ ht-degree: 2%
 | <b>詳細</b> |  |
 | <b>ドリップの長さ</b> <i>フロート</i> | 滴り落ちる筋の長さを調整します。 |
 | <b>図形のコントラスト</b> <i>フロート</i> | 明るいシェイプと暗いシェイプの間でシフトし、滴る部分でコントラストを付けます。 |
-| <b>滴り落ちる鮮明さ</b> <i>浮動小数</i> | 滴り落ちるシャープとクリプスネスを調整します。 |
-| <b>シャープの適用度</b> <i>浮動小数</i> | 画像全体の粒状感を調整します。 |
+| <b>滴り落ちる鮮明さ</b> <i>フロート</i> | 滴り落ちるシャープとクリプスネスを調整します。 |
+| <b>シャープの適用度</b> <i>フロート</i> | 画像全体の粒状感を調整します。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
+            <img src="../../../../../../assets/grungeleaks-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
+            <img src="../../../../../../assets/grungeleaks-variant.jpg" />
         </td>
     </tr>
 </table>

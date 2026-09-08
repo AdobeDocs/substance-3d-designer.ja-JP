@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シャープ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シャープノードアイコン](sharpen.resources/sharpen-01.png "シャープノードアイコン")
+![シャープノードアイコン](../../../../assets/sharpen-4.png "シャープノードアイコン")
 
 <b>In:</b>個のアトミックノード
 
@@ -56,4 +56,4 @@ ht-degree: 4%
 
 ## 例
 
-![Sharpenノード – 例1](sharpen.resources/sharpen-02.png "Sharpenノード – 例1")
+![Sharpenノード – 例1](../../../../assets/sharpen-ex.png "Sharpenノード – 例1")

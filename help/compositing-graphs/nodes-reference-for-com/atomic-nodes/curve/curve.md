@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カーブ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード： Curve](curve.resources/curve-01.png "原子ノード： Curve"){width="200px"}
+![原子ノード： Curve](../../../../assets/comp_curve_1.png "原子ノード： Curve"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 ポイントを作成するには、カーブビューの任意の場所をダブルクリックします。
 
-![](curve.resources/curve-02.gif)
+![](../../../../assets/createmovepoint.gif)
 
 ### ポイントの影響を制御する
 
@@ -112,31 +112,31 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curve.resources/curve-03.png)
+![](../../../../assets/image2017-2-17-14-5-36.png)
 
 </td>
 </tr>
 </table>
 
-![](curve.resources/curve-04.png)ポイントモードを既定値にリセットします。
+![](../../../../assets/image2017-2-17-14-13-27.png)ポイントモードを既定値にリセットします。
 
-![](curve.resources/curve-05.png) 2つのベジェハンドラーをロックまたはロック解除して、ユーザーがまとめて移動したり、個別に移動したりできるようにします。
+![](../../../../assets/image2017-2-17-14-12-6.png) 2つのベジェハンドラーをロックまたはロック解除して、ユーザーがまとめて移動したり、個別に移動したりできるようにします。
 
-![](curve.resources/curve-06.png)ポイントの両側はベジェハンドラーによって制御されます。
+![](../../../../assets/image2017-2-17-14-14-0.png)ポイントの両側はベジェハンドラーによって制御されます。
 
-![](curve.resources/curve-07.png)ポイントの右側はベジェハンドラーによって制御され、左側は平らな状態のままです。
+![](../../../../assets/image2017-2-17-14-16-22.png)ポイントの右側はベジェハンドラーによって制御され、左側は平らな状態のままです。
 
-![](curve.resources/curve-08.png)ポイントの左側はベジェハンドラーによって制御され、右側は平らな状態を維持します。
+![](../../../../assets/image2017-2-17-14-18-25.png)ポイントの左側はベジェハンドラーによって制御され、右側は平らな状態を維持します。
 
-![](curve.resources/curve-09.png)点の側面は平らなままです
+![](../../../../assets/image2017-2-17-14-19-32.png)点の側面は平らなままです
 
-![](curve.resources/curve-10.gif)
+![](../../../../assets/curvepointsmodes.gif)
 
 ### 入力ヒストグラムを表示
 
-![](curve.resources/curve-11.png)をクリックするだけで、入力のヒストグラムを表示/非表示にできます
+![](../../../../assets/image2017-2-17-14-50-13.png)をクリックするだけで、入力のヒストグラムを表示/非表示にできます
 
-![](curve.resources/curve-12.png)
+![](../../../../assets/image2017-2-17-14-48-35.png)
 
 ### 各チャンネルを個別に制御する（カラー入力）
 
@@ -151,15 +151,15 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curve.resources/curve-13.png)
+![](../../../../assets/image2017-2-17-14-52-43.png)
 
 </td>
 </tr>
 </table>
 
-RGBカーブモードでは、![](curve.resources/curve-14.png)を押すか押さないかで、個々のチャンネルカーブの表示と非表示を切り替えることができます。
+RGBカーブモードでは、![](../../../../assets/image2017-2-17-14-55-0.png)を押すか押さないかで、個々のチャンネルカーブの表示と非表示を切り替えることができます。
 
-![](curve.resources/curve-15.png)
+![](../../../../assets/image2017-2-17-14-55-38.png)
 
 ### 位置合わせ、鏡像化、反転
 
@@ -178,7 +178,7 @@ RGBカーブモードでは、![](curve.resources/curve-14.png)を押すか押�
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](curve.resources/curve-16.png)
+![](../../../../assets/image2017-6-27-16-11-9.png)
 
 </td>
 </tr>
@@ -186,9 +186,9 @@ RGBカーブモードでは、![](curve.resources/curve-14.png)を押すか押�
 
 <b>水平方向/垂直方向に分布：</b>選択した軸にポイントを分布します
 
-<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択したポイントを反転します。
+<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択した点を反転します。
 
-<b>水平方向/垂直方向にミラー：</b>選択した軸に従ってカーブ全体をミラーします
+<b>水平方向/垂直方向にミラー：</b>選択した軸に従って曲線全体をミラーします
 
 ### キーボードショートカット
 
@@ -203,7 +203,7 @@ RGBカーブモードでは、![](curve.resources/curve-14.png)を押すか押�
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/curve-17.gif)
+![](../../../../assets/ctrl.gif)
 
 </td>
 </tr>
@@ -215,12 +215,12 @@ RGBカーブモードでは、![](curve.resources/curve-14.png)を押すか押�
 
 <b>Shiftキーを押しながらドラッグ</b>
 
-X軸またはY軸に沿って移動を制限します。
+移動をX方向またはY軸に制限します。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/curve-18.gif)
+![](../../../../assets/shift.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ X軸またはY軸に沿って移動を制限します。
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/curve-19.gif)
+![](../../../../assets/altclick.gif)
 
 </td>
 </tr>
@@ -247,19 +247,19 @@ X軸またはY軸に沿って移動を制限します。
 
 ハンドラを微調整する際に、1つのハンドラがカーブビュー上を通過している場合があります。
 
-その場合は、![](curve.resources/curve-20.png)ボタンを使用してサイズをコンテンツに合わせることができます。
+その場合は、![](../../../../assets/image2017-2-20-19-11-53.png)ボタンを使用してサイズをコンテンツに合わせることができます。
 
-「![](curve.resources/curve-21.png)」ボタンにより、ズームレベルが1にリセットされます
+「![](../../../../assets/image2017-2-20-19-12-45.png)」ボタンにより、ズームレベルが1にリセットされます
 
-![](curve.resources/curve-22.gif)
+![](../../../../assets/viewzoom.gif)
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |
 | <b>入力</b> *グレースケール/カラー*&#x200B;プライマリ | 処理する画像。 |
 
-## 出力コネクタ
+## 出力コネクター
 
 |  |  |
 | --- | --- |

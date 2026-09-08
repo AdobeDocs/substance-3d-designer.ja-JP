@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン円
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-circle.resources/spline-circle-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-circle-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -96,12 +96,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](spline-circle.resources/spline-circle-02.jpg "ノードの例1")
+![ノードの例1](../../../../../../assets/SplineCircle-Variant1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](spline-circle.resources/spline-circle-03.gif "ノードの例2")
+![ノードの例2](../../../../../../assets/SplineCircle-Demo.gif "ノードの例2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![例3](spline-circle.resources/spline-circle-04.jpg "例3")
+![例3](../../../../../../assets/SplineCircle-Variant2.jpg "例3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![例4](spline-circle.resources/spline-circle-05.jpg "例4")
+![例4](../../../../../../assets/SplineCircle-Variant3.jpg "例4")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ライトを形成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-light.resources/shape-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-shape.png){width="200px"}
 
 <b>内：</b> 3D ビュー > HDRI ツール
 
@@ -63,7 +63,7 @@ ht-degree: 5%
 | <b>図形の色温度</b> <i>800.0 - 20000.0</i> | Shape Color ModeがTemperatureに設定されている場合のみ シェイプのカラーのケルビン値を設定します。 |
 | <b>シェイプ画像の入力ガンマ</b> <i>sRGB、リニア</i> | シェイプのカラーモードを画像入力に設定した場合のみ。 シェイプ画像の入力を解釈する方法を指定します。 |
 | <b>図形の露出(EV)</b> <i>0.0 - 10.0</i> | 生成されたシェイプの露光量値を設定します。背景画像の露光量値と理想的に一致させます。 |
-| <b>図形の硬さ</b> <i>0.0 - 1.0</i> | 形状エッジの硬さを設定します。 |
+| <b>図形の硬さ</b> <i>0.0 - 1.0</i> | シェイプのエッジの硬さを設定 |
 | <b>ホットスポット露出(EV)</b> <i>0.0 - 10.0</i> | 中央のホットスポットの露光量を設定します。 RGBモードでは確認できません。 |
 | <b>ホットスポットのサイズ</b> <i>0.0 - 1.0</i> | 中央のホットスポットのサイズ。 |
 | <b>ホットスポットフォールオフ</b> <i>0.0 - 1.0</i> | 中央ホットスポットの減衰。 |
@@ -77,7 +77,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-light.resources/shape-light-02.gif" />
+            <img src="../../../../../../assets/shape-light-ex.gif" />
         </td>
     </tr>
 </table>

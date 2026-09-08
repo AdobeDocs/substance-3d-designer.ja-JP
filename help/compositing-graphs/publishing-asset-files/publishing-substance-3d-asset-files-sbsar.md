@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance 3D アセットファイル（SBSAR）の公開
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1234'
 ht-degree: 2%
 
 ---
@@ -22,25 +22,25 @@ ht-degree: 2%
 
 このページでは、Substance 3D Designerでパッケージを<b>Substance 3Dアセット</b>ファイル（拡張子<b>SBSAR</b>）として公開する方法について説明します。このファイルは、Substanceエコシステム内およびそれをサポートする他のアプリケーションで使用されます。
 
-通常は、ビットマップではなくSubstance 3Dアセットを使用することをお勧めします。その方が、非常に柔軟で軽量であるためです。 Substance 3D [Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)、[Sampler](https://experienceleague.adobe.com/ja/docs/substance-3d-sampler/using/home)または[Player](https://helpx.adobe.com/substance-3d-player/home.html)で使用している場合は、[&#39;送信先…&#39;機能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)を使用すると高速になります。
+通常は、ビットマップではなくSubstance 3Dアセットを使用することをお勧めします。その方が、非常に柔軟で軽量であるためです。 Substance 3D [Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/jp/substance-3d-sampler.html)または[Player](https://helpx.adobe.com/substance-3d-player/home.html)で使用している場合は、[&#39;送信先…&#39;機能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)を使用すると高速になります。
 
-![単純化されたSBSARファイルの公開](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "単純化されたSBSARファイルの公開")
+![単純化されたSBSARファイルの公開](../../assets/exportflow.png "単純化されたSBSARファイルの公開")
 
 ## パブリッシュの概念
 
 Substanceグラフを公開する場合は、次の点に注意してください。
 
-* パッケージ</b>を公開するとき、個々の[グラフ](../../compositing-graphs/substance-compositing-graphs.md)ではなく、すべてのコンテンツを含めることができます。<b> これにより、Substance 3Dアセットを使用して、このパッケージ内のすべてのSubstanceグラフからコンテンツを生成できるようになります。
+* 個々の[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)ではなく、すべての内容を含むパッケージ</b>を公開<b>します。 これにより、Substance 3Dアセットを使用して、このパッケージ内のすべてのSubstanceグラフからコンテンツを作成できるようになります。
 * 公開されたパッケージは<b>完全にスタンドアロン</b>です。必要なすべてのリソースがファイルに埋め込まれています。 つまり、SBSファイルよりも簡単に共有できます。
-* Substance 3Dアセットからの出力は<b>完全に動的</b>にすることができます。 [解決策が設定されていません。表示されるパラメーターは変更できます。](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) ただし、グラフを編集することはできなくなりました。
+* Substance 3Dアセットからの出力は<b>完全に動的</b>にすることができます。 [解像度が設定されていません。公開されたパラメーターは変更できます。](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) ただし、グラフの編集はできなくなりました。
 * Substance 3Dのアセットは、Designer以外で、すべてのAdobeのSubstance 3D製品、Adobe Dimension、および[Substance連携](https://experienceleague.adobe.com/ja/docs/substance-3d/ecosystem/home)を備えたその他のアプリケーションで使用できます。
 * 公開は[書き出し](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)とは異なります。違いをよく理解してください。
 
 ## 公開の準備をしています
 
-パブリッシュには、ビットマップの書き出しよりも多くの準備が必要です。 これは、パブリッシュされたSubstance 3D テクスチャが、アセットの現在のステータスの静的なスナップショットだけでなく、動的なツールであるためです。 特に、次の点に留意する必要があります。
+パブリッシュには、ビットマップの書き出しよりも多くの準備が必要です。 これは、パブリッシュされたSubstance 3Dアセットが、テクスチャの現在の状態の静的なスナップショットだけでなく、動的なツールであるためです。 特に、次の点に留意する必要があります。
 
-* グラフの解像度（[出力サイズ](../../compositing-graphs/output-size/output-size.md)）が&#x200B;*親に相対的* [継承方式](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されていることを確認してください。これは、動的であり、その場で変更できることを意味します。
+* グラフの解像度（[出力サイズ](../../compositing-graphs/output-size/output-size.md)）が&#x200B;*親に相対的* [継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されていることを確認してください。これは、動的であり、その場で変更できることを意味します。
 * [グラフ出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)が、名前、ラベル、および使用法タグを使用して正しく設定されていることを確認してください。
 * 必要に応じて、[パラメーターが適切に整理され、名前が指定されていることを確認してください](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。
 * グラフにマテリアルが記述されている場合は、その[マテリアルモデル](../graph-parameters/graph-parameters.md)属性をそのマテリアルのモデルに設定します。
@@ -55,14 +55,14 @@ Substanceグラフを公開する場合は、次の点に注意してくださ�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-エクスプローラーで、パッケージを右クリックして、![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **Publish .sbsarファイル…**、別のホットキーCtrl + Pを選択します。
+エクスプローラーで、パッケージを右クリックして、![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsarファイル…**、別のホットキーCtrl + Pを選択します。
 
-ダイアログを1回使って公開した後、![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) **Publish .sbsarファイルを以前のファイル**&#x200B;と同様に使用して、ダイアログを表示せずに公開プロセスを繰り返し、同じ設定を使用してすぐに公開できます。
+ダイアログを1回使って公開した後、![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsarファイルを以前のファイル**&#x200B;と同様に使用して、ダイアログを表示せずに公開プロセスを繰り返し、同じ設定を使用してすぐに公開できます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
+![](../../assets/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Substanceグラフを公開する場合は、次の点に注意してくださ�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-エクスプローラーで、上部のツールバーにある[Publish]ボタン![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png)をクリックします。
+エクスプローラーで、上部のツールバーにある[Publish]ボタン![](../../assets/image2020-9-23-9-39-58.png)をクリックします。
 
-ダイアログを使って発行した後は、[前の設定でPublish]ボタン![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png)を使用して、ダイアログが表示されることなく発行プロセスを繰り返し、同じ設定で発行することができます。
+ダイアログを使って発行した後は、[前の設定でPublish]ボタン![](../../assets/image2020-9-23-11-15-35.png)を使用して、ダイアログが表示されることなく発行プロセスを繰り返し、同じ設定で発行することができます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
+![](../../assets/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Substance 3Dファイル(SBS)を保存していない場合は、「アセット
 </td>
 <td style="border: 0;" valign="top">
 
-![アセット公開オプション](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "アセット公開オプション")
+![アセット公開オプション](../../assets/publish-dialog.png "アセット公開オプション")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Substance 3D グラフファイル内でアセットが表示または使用可�
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
+![](../../assets/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>

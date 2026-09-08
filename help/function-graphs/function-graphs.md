@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance関数グラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ### 単純関数
 
-![](function-graphs.resources/function-graphs-02.png)
+![](../assets/lerpfunction_1.png)
 
 公開されたパラメーターのコンテキスト内の単純な関数です。 「Intensity」という入力float値を取得し、0 ～ 1（わかりやすい範囲）の範囲を決定し、0.1 ～ 0.8の設定範囲に再マップします。 つまり、ユーザが強度を0に設定すると、内部的には0.1が使用され、Uiが1に設定されると0.8が使用され、その間の値はリニアに補間されます。 この種類の関数は、[パラメーターを公開](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)する際に一般的に使用されますが、カスタム関数を使用します。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 高度な機能
 
-![](function-graphs.resources/function-graphs-03.png){width="545px"}
+![](../assets/pixel-function_1.png){width="545px"}
 
 この高度な関数は、2番目のグレースケールマスク入力の強度に基づいてカラーマップ入力の色相を調整するための[ピクセルプロセッサ](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)の内部動作を示しています。
 

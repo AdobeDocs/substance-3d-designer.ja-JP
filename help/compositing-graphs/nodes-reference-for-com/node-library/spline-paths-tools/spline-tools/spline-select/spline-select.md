@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
-description: '[スプライン選択]ノードを使用して、グラフ内のスプラインパスに基づいて特定の領域を選択し、マスクします。'
+description: '[スプライン選択]ノードを使用して、グラフ内のスプラインパスに基づいて特定のリージョンを選択してマスクします。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Select
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン選択
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-select.resources/spline-select-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-select-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 | <b>終了</b> <i>フロート</i> | 選択するスプライン部分の終点をオフセットします。 これにより、スプラインが効果的にトリムされます。<br>この値は、スプラインの正規化された長さを表します。 |
 | <b>プレビュー</b> |  |
 | <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインの視覚化に使用するセグメントの数を調整します。<br>値を大きくすると、より滑らかな線になります。 |
-| <b>方向のヘルパーを表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
+| <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
 | <b>Thicknessの封筒を表示</b> <i>ブール値</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
-| <b>Thickness (px)</b> <i>浮動小数</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
+| <b>Thickness (px)</b> <i>フロート</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
 
 ## 例
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-02.jpg" alt="SplineSelect – バリアント1 – 前">
+      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect – バリアント1 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-03.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>後</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-04.jpg" alt="SplineSelect – バリアント2 – 前">
+      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect – バリアント2 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-05.jpg" alt="SplineSelect-Variant2-After">
+      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](spline-select.resources/spline-select-06.gif "ノードの例1")
+![ノードの例1](../../../../../../assets/SplineSelect-Demo.gif "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">

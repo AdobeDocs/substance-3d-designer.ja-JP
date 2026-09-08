@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ファー1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-1.resources/fur-1-01.png){width="128px"}
+![](../../../../../../assets/fur-1.png){width="128px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -47,14 +47,14 @@ ht-degree: 9%
 |:---|:---|
 | <b>スケール</b> <i>1 - 8</i> | エフェクトのグローバルスケールを設定します。 |
 | <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
-| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-1.resources/fur-1-02.gif" />
+            <img src="../../../../../../assets/fur-1-ex.gif" />
         </td>
     </tr>
 </table>

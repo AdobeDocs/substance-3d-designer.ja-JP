@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 入力
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![原子ノード：入力色](input.resources/input-01.png "原子ノード：入力色"){width="200px"}
+![原子ノード：入力色](../../../../assets/comp_inputcolor_1.png "原子ノード：入力色"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![アトミックノード：入力グレースケール](input.resources/input-02.png "アトミックノード：入力グレースケール"){width="200px"}
+![アトミックノード：入力グレースケール](../../../../assets/comp_inputgrayscale_1.png "アトミックノード：入力グレースケール"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![アトミックノード：入力値](input.resources/input-03.png "アトミックノード：入力値"){width="200px"}
+![アトミックノード：入力値](../../../../assets/comp_inputnumeric_1.png "アトミックノード：入力値"){width="200px"}
 
 </td>
 </tr>
@@ -109,10 +109,10 @@ ht-degree: 0%
 | <b>識別子</b> *文字列* | 唯一の必須で一意の属性です。 スペースは使用できません。   これは、ラベルが設定されていない場合に入力にラベルを付けたり、異なる出力を区別するために使用されます。 単に「input\_1」に残さないでください！ |
 | <b>説明</b> *文字列* | DesignerのライブラリとPainterのシェルフで使用されるオプションの説明。 |
 | <b>ラベル</b> *文字列* | DesignerおよびPainter UIのラベル付けに使用されるUIラベル。 スペースを含めることができます。   アンダースコアの代わりにスペースバーのみを使用して、識別子と同様の名前で設定することをお勧めします。 |
-| <b>ユーザーデータ</b> *文字列* | 追加のオプションのユーザーデータ。特定のフィルター操作に使用できます。基本的には、ワイルドカードのカスタムデータフィールドです。 |
-| <b>グループ</b> *文字列* | Designerの[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)の入力をグループ化するために使用されるグループ属性です。   同一の（大文字と小文字を区別する）グループ属性を持つ入力は、コンパクトマテリアルモードでは単一の接続として表示されます。 |
+| <b>ユーザーデータ</b> *文字列* | 追加の、特定のデータ操作に使用できるオプションのユーザーフィルタリング（基本的にはワイルドカード、カスタムデータフィールド）。 |
+| <b>グループ</b> *文字列* | Designerの[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)の入力をグループ化するために使用されるグループ属性です。   同一の（大文字と小文字を区別する）グループ属性を持つ入力は、コンパクトマテリアルモードでは1つの接続として表示されます。 |
 
-## 遺伝
+## 継承
 
 <table>
 <tr style="border: 0;">
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Substanceグラフの主な入力](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Substanceグラフの主な入力](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

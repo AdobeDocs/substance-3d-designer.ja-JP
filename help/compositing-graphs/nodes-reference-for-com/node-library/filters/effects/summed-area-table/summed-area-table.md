@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 合計面積テーブル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '46'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](summed-area-table.resources/summed-area-table-01.png){width="200px"}
+![](../../../../../../assets/summedareatable.png){width="200px"}
 
-<b>イン:</b>フィルター/効果
+## 合計面積テーブル
+
+**場所：** *フィルター/効果*
+
+**単純**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-## 説明
+### 説明
 
 画像の&#x200B;*左上*&#x200B;ピクセルから始まるピクセル値の&#x200B;*合計*&#x200B;を返します。
 

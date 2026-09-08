@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
-description: 拡散グレースケールノードを使用してグレースケール拡散エフェクトを適用し、滑らかなカラーの変化とブレンドを作成します。
+description: 拡散グレースケールノードを使用してグレースケール拡散効果を適用し、滑らかな色の変化とブレンドを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Grayscale
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 拡散グレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 3%
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](diffusion-grayscale.resources/diffusion-grayscale-01.png){width="200px"}
+![](../../../../../../assets/diffusion-grayscale-icon.png){width="200px"}
 
-<b>イン:</b>フィルター/効果
+**場所：** *フィルター/効果*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,49 +43,61 @@ ht-degree: 3%
 </tr>
 </table>
 
-<a name="inputs"></a>
+## パラメーター
+
+* **反復**: *0.0 ～ 64.0*&#x200B;実行する拡散反復の数です（値を大きくすると良くなりますが、時間がかかります）。 有効な値は[8, 48]の範囲です。\
+  数学的な正確さを求めていない場合は、低い値でも良い結果が得られます。\
+  **距離**: **0.0 ～ 1.0**&#x200B;拡散の最大距離を調整します。
+* **ディザリングを有効にする**: *True/False*&#x200B;各パスのサンプリング方法を制御します。 ディザリングは少ないパスで収束できますが、ノイズが発生します。\
+  パスがない場合、各パスの処理速度は速くなりますが、アーティファクトをバンディングせずに滑らかな結果を得るには、より多くのパスが必要になります。
 
 ## 入力
 
-|  |  |
-|:---|:---|
-| <b>ソース</b> <i>グレースケール</i> | 拡散するイメージ。 |
-| <b>マスク</b> <i>グレースケール</i> | 拡散マスク：白のピクセルが<i>ソース</i>でサンプリングされ、黒のピクセルで拡散されます。 画像は白黒である必要があります。 マスクにグラデーションが含まれている場合、カットオフ値は0.5です。 |
-| <b>適用度</b> <i>グレースケール</i> | 拡散プロセスの適用強度を局所的に定義します。 目立つ効果を得るには、このマップを<i>コントラスト</i>にする必要があります。 |
+* **ソース** *グレースケール*\
+  拡散するイメージ。
+* **マスク** *グレースケール*\
+  拡散マスク：白のピクセルが&#x200B;*ソース*&#x200B;でサンプリングされ、黒のピクセルで拡散されます。 画像は白黒である必要があります。 マスクにグラデーションが含まれている場合、カットオフ値は0.5です。
+* **適用度** *グレースケール*\
+  拡散プロセスの適用強度をローカルに定義します。 目立つ効果を得るには、このマップを&#x200B;*コントラスト*&#x200B;にする必要があります。
 
-<a name="parameters"></a>
+## サンプル画像
 
-## パラメーター
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-|  |  |
-|:---|:---|
-| <b>反復回数</b> <i>0.0 - 64.0</i> | 実行する反復の数（大きい方が望ましいが遅い）。 有効な値は[8, 48]の範囲です。<br>数学的に正しい値を求めない場合は、小さい値でも問題ありません。 |
-| <b>距離</b> <i>0.0 - 1.0</i> | 拡散の最大距離を調整します。 |
-| <b>ディザリングを有効にする</b> <i>真/偽</i> | 各パスのサンプリング方法を制御します。 ディザリングにより、より少ないパスで収束できますが、ノイズが発生します。<br>パスがない場合、各パスの処理速度は速くなりますが、アーティファクトをバンディングせずに滑らかな結果を得るには、より多くのパスが必要です。 |
+![](../../../../../../assets/diffusion-grayscale-01-before.jpg){width="256px"}
 
-## 例
+</td>
+<td style="border: 0;" valign="top">
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-04.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-05.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-06.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-07.jpg" />
-        </td>
-    </tr>
+![](../../../../../../assets/diffusion-grayscale-01a-after.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-grayscale-01b-after.jpg){width="256px"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-grayscale-02-before.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-grayscale-02-after.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-grayscale-02-render.jpg){width="512px"}
+
+</td>
+</tr>
 </table>

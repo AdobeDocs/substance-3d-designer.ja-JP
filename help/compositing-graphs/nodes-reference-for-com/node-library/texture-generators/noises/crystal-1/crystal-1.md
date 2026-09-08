@@ -10,7 +10,7 @@ helpx_tags: ""
 title: クリスタル1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crystal-1.resources/crystal-1-01.png){width="128px"}
+![](../../../../../../assets/crystal-1.png){width="128px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -47,14 +47,14 @@ angular距離のメトリックがわずかに大きいWorlye Voronoi型のノ�
 |:---|:---|
 | <b>スケール</b> <i>1 - 256</i> | エフェクトのグローバルスケールを設定します。 |
 | <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="crystal-1.resources/crystal-1-02.gif" />
+            <img src="../../../../../../assets/crystal-1-ex.gif" />
         </td>
     </tr>
 </table>

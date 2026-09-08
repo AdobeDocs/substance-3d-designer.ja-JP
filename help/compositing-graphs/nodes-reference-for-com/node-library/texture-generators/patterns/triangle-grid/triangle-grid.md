@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
+![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
 
-![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
+![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
 
 <b>イン：</b>テクスチャジェネレーター>パターン
 
@@ -97,37 +97,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例1](triangle-grid.resources/triangle-grid-03.jpg "Triangle Grid：例1"){zoomable="yes"}
+![Triangle Grid：例1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid：例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例2](triangle-grid.resources/triangle-grid-04.png "Triangle Grid：例2"){zoomable="yes"}
+![Triangle Grid：例2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid：例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例3](triangle-grid.resources/triangle-grid-05.jpg "Triangle Grid：例3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid：例4](triangle-grid.resources/triangle-grid-06.jpg "Triangle Grid：例4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid：例5](triangle-grid.resources/triangle-grid-07.jpg "Triangle Grid：例5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid：例6](triangle-grid.resources/triangle-grid-08.jpg "Triangle Grid：例6"){zoomable="yes"}
+![Triangle Grid：例3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid：例3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid:レザー](triangle-grid.resources/triangle-grid-09.png "Triangle Grid:レザー"){zoomable="yes"}
+![Triangle Grid：例4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid：例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid:グラフ](triangle-grid.resources/triangle-grid-10.png "Triangle Grid:グラフ"){zoomable="yes"}
+![Triangle Grid：例5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid：例5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid：例6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid：例6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid:レザー](../../../../../../assets/trianglegrid-demo.png "Triangle Grid:レザー"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid:グラフ](../../../../../../assets/trianglegrid-node.png "Triangle Grid:グラフ"){zoomable="yes"}
 
 </td>
 </tr>

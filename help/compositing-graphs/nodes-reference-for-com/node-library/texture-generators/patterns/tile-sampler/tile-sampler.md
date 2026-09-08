@@ -10,7 +10,7 @@ helpx_tags: ""
 title: タイルSampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
+![](../../../../../../assets/tile-sampler.png){width="128px"}
 
-<b>イン：</b>テクスチャジェネレーター>パターン
+<b>イン：</b> テクスチャジェネレーター>パターン
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -122,7 +122,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>パラメーターが入力マップ（パターン分布、スケール、回転）によって決定される方法の例を示します。</i>
+            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>パラメーターが入力マップ（パターン分布、スケール、回転）によって決定される方法の例を示します。</i>
         </td>
     </tr>
 </table>

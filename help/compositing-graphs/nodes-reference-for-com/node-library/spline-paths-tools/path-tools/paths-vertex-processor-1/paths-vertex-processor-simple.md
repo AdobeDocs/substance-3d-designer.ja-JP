@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: パス頂点プロセッサシンプル
+title: Paths 頂点プロセッサSimple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# パス頂点プロセッサシンプル
+# Paths 頂点プロセッサSimple
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/paths-vertex-processor-simple-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-入力<b>パス</b>の頂点位置に変換を適用します。
+入力<b>Paths</b>の頂点位置に変換を適用します。
 
 1. <b>頂点単位関数</b>パラメーター関数を編集します；
 1. <b>Get 浮動小数2</b>ノードを&#x200B;*頂点.pos*&#x200B;変数として使用します。
@@ -79,7 +79,7 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>画像入力数</b> <i>整数</i> | <b>頂点単位関数</b>パラメーター関数でサンプリングする必要があるイメージを接続するための表示可能な<b>入力#</b>入力コネクタの数。<br>必要なサンプルをすべて設定したら、このパラメーターの値を0に戻すことにより、使用されていないピンを非表示にすることができます。<br>入力を増やす場合は、代わりに[Paths 頂点ープロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)を使用してください。 |
-| <b>頂点単位関数</b> <i>浮動小数2</i> | 各頂点に適用される関数。 新しい頂点位置を返す必要があります。<br>ガイダンスについては、このページの<b>説明</b>セクションを参照してください。 |
+| <b>頂点単位関数</b> <i>浮動小数点2</i> | 各頂点に適用される関数。 新しい頂点位置を返す必要があります。<br>ガイダンスについては、このページの<b>説明</b>セクションを参照してください。 |
 
 ## 例
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "ノードの例2")
+![ノードの例2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "ノードの例2")
 
 </td>
 <td style="border: 0;" valign="top">

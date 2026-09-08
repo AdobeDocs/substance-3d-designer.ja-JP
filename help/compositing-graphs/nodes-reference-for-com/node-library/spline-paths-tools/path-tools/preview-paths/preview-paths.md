@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パスをプレビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](preview-paths.resources/preview-paths-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/preview-paths-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -66,12 +66,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](preview-paths.resources/preview-paths-02.jpg "ノードの例1")
+![ノードの例1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](preview-paths.resources/preview-paths-03.jpg "ノードの例2")
+![ノードの例2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "ノードの例2")
 
 </td>
 </tr>

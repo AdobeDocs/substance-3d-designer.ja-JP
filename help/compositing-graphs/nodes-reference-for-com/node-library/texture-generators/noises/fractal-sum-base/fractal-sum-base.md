@@ -10,7 +10,7 @@ helpx_tags: ""
 title: フラクタル和ベース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![フラクタル和ベース – アイコン](fractal-sum-base.resources/fractal-sum-base-01.png "フラクタル和ベース – アイコン"){width="200px"}
+![フラクタル和ベース – アイコン](../../../../../../assets/fractal_sum_base.png "フラクタル和ベース – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![フラクタル和ベース – 例1](fractal-sum-base.resources/fractal-sum-base-02.png "フラクタル和ベース – 例1"){zoomable="yes"}
+![フラクタル和ベース – 例1](../../../../../../assets/fractal_sum_base_1.png "フラクタル和ベース – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![フラクタル和ベース – 例2](fractal-sum-base.resources/fractal-sum-base-03.gif "フラクタル和ベース – 例2"){zoomable="yes"}
+![フラクタル和ベース – 例2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "フラクタル和ベース – 例2"){zoomable="yes"}
 
 </td>
 </tr>

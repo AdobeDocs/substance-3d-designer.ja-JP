@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDLグラフの警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -28,73 +28,73 @@ ht-degree: 0%
 >
 > このセクションの図は、Substance 3D Designerのバージョン<b>13.0.0</b>で&#x200B;*廃止*&#x200B;された<b>Substanceモデルグラフ</b>に記録されています。 ただし、MDL グラフにも適用されます。
 
-## ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)出力ノードが定義されていません
+## ![（エラー）](../../assets/error.svg)出力ノードが定義されていません
 
 グラフに出力ノードが定義されていません。
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 この関数に必要な型に一致する値を出力するグラフのノードがある場合は、そのノードを選択し、RMBをクリックしてコンテキストメニューの<b>ルートとして設定</b>オプションを選択するか、ノードでLMBをダブルクリックします。\
 Substanceモデルグラフの出力ノードが&#x200B;*オレンジ*&#x200B;に色付けされています。
 
-![&#39;出力ノードが定義されていません&#39;ソリューション](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-01.gif "&#39;出力ノードが定義されていません&#39;ソリューション")
+![&#39;出力ノードが定義されていません&#39;ソリューション](../../assets/warnings-model-output.gif "&#39;出力ノードが定義されていません&#39;ソリューション")
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)少なくとも1つの入力値が拒否されました
+### ![（エラー）](../../assets/error.svg)少なくとも1つの入力値が拒否されました
 
 パラメーターに指定された値は、ノードの有効な計算になりません。
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 ターゲットパラメーターに適するように値を調整します。
 
-![&#39;少なくとも1つの入力値が拒否されました&#39;ソリューション](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-02.gif "&#39;少なくとも1つの入力値が拒否されました&#39;ソリューション")
+![&#39;少なくとも1つの入力値が拒否されました&#39;ソリューション](../../assets/warnings-model-rejected-value.gif "&#39;少なくとも1つの入力値が拒否されました&#39;ソリューション")
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)入力値がありません
+### ![（エラー）](../../assets/error.svg)入力値がありません
 
 ノードが計算を行うために必要な入力値が指定されていません。
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 入力コネクターにデータが入力されていない場合、一部のノードパラメータは既定値にフォールバックできません。 これは、シーン入力によく使用されます。
 
 ノード入力を、一致するタイプの別のノードの出力コネクターにコネクトします。
 
-![&#39;入力値がありません&#39;ソリューション](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;入力値がありません&#39;ソリューション")
+![&#39;入力値がありません&#39;ソリューション](../../assets/warnings-model-no-input-value.gif "&#39;入力値がありません&#39;ソリューション")
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)ノードは計算されませんでした
+### ![（エラー）](../../assets/error.svg)ノードは計算されませんでした
 
 ノードに提供された情報が不完全か無効であるため、ノードは計算を実行できませんでした。
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 グラフのアップストリームに移動し、ノードが有効な出力を提供できない問題によってトリガーされる警告を確認します。
 
-![&#39;ノードは計算されませんでした&#39;ソリューション](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;ノードは計算されませんでした&#39;ソリューション")
+![&#39;ノードは計算されませんでした&#39;ソリューション](../../assets/warnings-model-no-input-value.gif "&#39;ノードは計算されませんでした&#39;ソリューション")
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)参照されたデータに警告があります
+### ![（エラー）](../../assets/error.svg)参照されたデータに警告があります
 
 ノードが参照するリソースに1つ以上の警告があります。 リソースを参照するノードを次に示します。
 
 * グラフインスタンスノードはグラフを参照します
 * シーンリソースノードは、ビットマップ3D シーンリソースを参照する
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 エクスプローラーパネルで、参照されているリソースを見つけ、リソースによって発生したすべての警告をトラブルシューティングします。
 
 * グラフについては、このページの他の項目を参照してください
 * その他のタイプのリソースについては、「依存関係からの警告」ページを参照してください
 
-![&#39;参照されたデータに警告の解決策があります](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-04.gif "&#39;参照されたデータに警告の解決策があります")
+![&#39;参照されたデータに警告の解決策があります](../../assets/warnings-model-referenced-data.gif "&#39;参照されたデータに警告の解決策があります")
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)参照リソースが見つかりません
+### ![（エラー）](../../assets/error.svg)参照リソースが見つかりません
 
 ノードが参照するリソースが、Substance 3Dファイル(SBS)に保存されたパスに見つかりませんでした。 リソースを参照するノードを次に示します。
 
 * グラフインスタンスノードはグラフを参照します
 * シーンリソースノードは、ビットマップ3D シーンリソースを参照する
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 グラフインスタンスノードの場合
 
@@ -106,13 +106,13 @@ Substanceモデルグラフの出力ノードが&#x200B;*オレンジ*&#x200B;�
 [エクスプローラー](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)パネルで参照されているリソースを検索し、<b>ファイルパス</b>属性に保存されている場所にリソースが存在することを確認してください。\
 表示されない場合は、エクスプローラーのリソース項目の&#x200B;*RMB*&#x200B;をクリックし、コンテキストメニューの<b>再配置...</b>オプションをクリックして、そのリソースの新しい有効な対象ファイルを設定します。
 
-![&#39;参照リソースが見つかりません&#39;ソリューション](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif "&#39;参照リソースが見つかりません&#39;ソリューション")
+![&#39;参照リソースが見つかりません&#39;ソリューション](../../assets/warnings-model-referenced-resource.gif "&#39;参照リソースが見つかりません&#39;ソリューション")
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)ソフト範囲に値が含まれていません
+### ![（エラー）](../../assets/error.svg)ソフト範囲に値が含まれていません
 
 公開されているパラメータのデフォルト値は、そのパラメータに対して定義されているソフト範囲には含まれません。
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 前者が後者に含まれるように、デフォルト値またはソフト範囲を調整します。
 
@@ -120,13 +120,13 @@ Substanceモデルグラフの出力ノードが&#x200B;*オレンジ*&#x200B;�
 >
 > この警告は、既定値を含むようにソフト範囲を&#x200B;*自動的に調整*&#x200B;するため、ユーザーインターフェイスを通じてトリガーすることはできません。 Substance 3Dファイル(SBS) *直接*&#x200B;のデータを変更した場合にのみ、この警告がトリガーされます。
 
-![&#39;弱い範囲に値のソリューションが含まれていません](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;弱い範囲に値のソリューションが含まれていません")
+![&#39;弱い範囲に値のソリューションが含まれていません](../../assets/warnings-model-ranges.gif "&#39;弱い範囲に値のソリューションが含まれていません")
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)ソフト範囲がハード範囲を超えています
+### ![（エラー）](../../assets/error.svg)ソフト範囲がハード範囲を超えています
 
 パラメータのソフト範囲と露出は、そのパラメータに定義されているハード範囲に完全には含まれません。
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 ソフトリレンジまたはハードレンジを調整して、前者を後者に完全に含めます。
 
@@ -134,13 +134,13 @@ Substanceモデルグラフの出力ノードが&#x200B;*オレンジ*&#x200B;�
 >
 > この警告は、ハード範囲に完全に含まれるようにソフト範囲を&#x200B;*自動的に調整*&#x200B;するため、ユーザーインターフェイスからトリガーできません。 Substance 3Dファイル(SBS) *直接*&#x200B;のデータを変更した場合にのみ、この警告がトリガーされます。
 
-![&#39;弱い範囲が強い範囲のソリューション](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;弱い範囲が強い範囲のソリューション")を超えています
+![&#39;弱い範囲が強い範囲のソリューション](../../assets/warnings-model-ranges.gif "&#39;弱い範囲が強い範囲のソリューション")を超えています
 
-### ![（エラー）](warnings-in-mdl-graphs.resources/error.svg)値はハード範囲外です
+### ![（エラー）](../../assets/error.svg)値はハード範囲外です
 
 公開されたパラメータのデフォルト値は、そのパラメータに対して定義されたハード範囲には含まれません。
 
-<b>![(tick)](warnings-in-mdl-graphs.resources/check.svg)ソリューション</b>
+<b>![(tick)](../../assets/check.svg)ソリューション</b>
 
 前者が後者に含まれるように、デフォルト値またはハード範囲を調整します。
 
@@ -148,4 +148,4 @@ Substanceモデルグラフの出力ノードが&#x200B;*オレンジ*&#x200B;�
 >
 > この警告は、ハード範囲に含まれる既定値を&#x200B;*自動的に調整*&#x200B;するため、ユーザーインターフェイスを通じてトリガーすることはできません。 Substance 3Dファイル(SBS) *直接*&#x200B;のデータを変更した場合にのみ、この警告がトリガーされます。
 
-![&#39;値が厳密な範囲を超えています&#39;ソリューション](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;値が厳密な範囲を超えています&#39;ソリューション")
+![&#39;値が厳密な範囲を超えています&#39;ソリューション](../../assets/warnings-model-ranges.gif "&#39;値が厳密な範囲を超えています&#39;ソリューション")

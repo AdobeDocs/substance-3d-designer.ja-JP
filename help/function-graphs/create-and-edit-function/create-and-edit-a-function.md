@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 関数の作成と編集
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## 関数の作成
 
-関数を作成するには、関数アイコン![](create-and-edit-a-function.resources/create-and-edit-a-function-01.png)をクリックし、[**空の関数**]を選択します。
+関数を作成するには、関数アイコン![](../../assets/image2017-3-7-17-10-8.png)をクリックし、[**空の関数**]を選択します。
 
-![](create-and-edit-a-function.resources/create-and-edit-a-function-02.png)
+![](../../assets/image2017-3-7-17-8-37.png)
 
 ## 関数の編集
 
 作成した関数は、関数アイコンをもう一度クリックするか、ドロップダウンリストで「編集」を選択して変更できます。
 
-![](create-and-edit-a-function.resources/create-and-edit-a-function-03.png)
+![](../../assets/image2017-3-7-17-11-42.png)
 
 次に、グラフの機能モードに入ります。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ノードを作成するには、グラフを右クリックして「Add element」を選択するか、スペースバーを押します。
 
-![](create-and-edit-a-function.resources/create-and-edit-a-function-04.png){width="600px"}
+![](../../assets/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
 
 ## 出力の設定
 

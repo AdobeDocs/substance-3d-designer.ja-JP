@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法線を曲げる
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![曲がった法線ノードアイコン](bent-normal.resources/bent-normal-01.png "曲がった法線ノードアイコン")
+![曲がった法線ノードアイコン](../../../../../../assets/rt-bent-normal.png "曲がった法線ノードアイコン")
 
 <b>イン：</b>フィルター> 法線マップ
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 | <b>Heightスケール</b> <i>フロート</i> | （[物理サイズを使用]が[いいえ]に設定されている場合に使用可能）高さマップ入力の強度の乗数。 |
 | <b>配布</b> <i>整数</i> | 分布方法を設定します。 影の領域に向かって減衰します。 |
 | <b>最大距離</b> <i>フロート</i> | 光線が遮断される最大距離を設定します。 |
-| <b>広がり角度</b> <i>フロート</i> | 光線を照射する広がり角度を設定します。 値1は半球全体です。 |
+| <b>広がり角度</b> <i>浮動小数</i> | 光線を照射する広がり角度を設定します。 値1は半球全体です。 |
 | <b>標準の形式</b> <i>整数</i> | 出力のグリーンチャンネルを反転します。 |
 
 ## 例
@@ -62,7 +62,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-02.jpg" />
+            <img src="../../../../../../assets/bent-normal-ex-1.jpg" />
         </td>
     </tr>
 </table>

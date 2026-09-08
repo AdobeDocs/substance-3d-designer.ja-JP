@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ベイカー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -35,13 +35,13 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-3D シーンリソースのコンテキストメニューの![&#39;モード情報のベイク&#39;オプション](bakers.resources/bakers-01.png "&#39;3D シーンリソースのコンテキストメニューのモード情報のベイク&#39;オプション")
+3D シーンリソースのコンテキストメニューの![&#39;モード情報のベイク&#39;オプション](../assets/sd-mesh-right-click.png "&#39;3D シーンリソースのコンテキストメニューのモード情報のベイク&#39;オプション")
 
 </td>
 </tr>
 </table>
 
-![ベイク処理ウィンドウ](bakers.resources/bakers-02.png "ベイク処理ウィンドウ")
+![ベイク処理ウィンドウ](../assets/sd-window-overview.png "ベイク処理ウィンドウ")
 
 ## 概要
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-03.png)
+![](../assets/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-04.png)
+![](../assets/sd-output.png)
 
 </td>
 </tr>
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 このパネルは、ハイポリゴンメッシュリストおよび関連する設定をコントロールします。 詳細については、[共通パラメーター](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/common-parameters)を参照してください。
 
-![高精細メッシュ](bakers.resources/bakers-05.png "高精細メッシュ")
+![高精細メッシュ](../assets/sd-high.png "高精細メッシュ")
 
 ### デフォルト値
 
 詳細については、[共通パラメーター](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/common-parameters)を参照してください。
 
-![既定値](bakers.resources/bakers-06.png "既定値")
+![既定値](../assets/sd-default-values.png "既定値")
 
 ### ベイカーのレンダーリストと設定
 
@@ -118,4 +118,4 @@ ht-degree: 0%
 
 特定のパラメーターの詳細については、「[ベイカー設定](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/bakers-settings/bakers-settings)」を参照してください。
 
-![ベーカーレンダリングリスト](bakers.resources/bakers-07.png "ベーカーレンダリングリスト")
+![ベーカーレンダリングリスト](../assets/sd-baker-list.png "ベーカーレンダリングリスト")

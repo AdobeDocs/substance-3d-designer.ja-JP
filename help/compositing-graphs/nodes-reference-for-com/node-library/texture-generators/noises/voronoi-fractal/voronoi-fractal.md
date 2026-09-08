@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ボロノイフラクタル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
+![](../../../../../../assets/voronoifractal.png){width="200px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> このノイズは、*GPUエンジンのみ* （**Direct**&#x200B;または&#x200B;**OpenGL**）で使用することを目的としています。 **ツール/エンジンの切り替え…**&#x200B;に移動するか、**F9**&#x200B;キーを押して、目的のエンジンを選択します。
+> このノイズは、*GPU エンジンのみ* （例： **Direct**&#x200B;または&#x200B;**OpenGL**）で使用することを目的としています。 **ツール/エンジンの切り替え…**&#x200B;に移動するか、**F9**&#x200B;キーを押して、目的のエンジンを選択します。
 
 </td>
 </tr>
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>反転</b> <i>ブール値</i> | 出力イメージを反転します。 |
-| <b>スケール</b> <i>フロート</i> | フラクタルボロノイノイズのスケールを制御します。<br><br>*注意*: **タイリング**&#x200B;が&#x200B;*任意の軸*&#x200B;で有効になっている場合、スケール調整は&#x200B;*ステップ*&#x200B;です。 これは予期される動作です。 |
-| <b>サイズ</b> <i>浮動小数点3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のフラクタルボロノイノイズのサイズを制御します。 値が均一でないと、*伸縮または収縮*&#x200B;効果が発生します。<br><br>*注意*: *任意の軸*&#x200B;で&#x200B;**タイリング**&#x200B;が有効になっている場合、サイズの調整は&#x200B;*段階的*&#x200B;になります。 これは予期される動作です。 |
-| <b>オフセット</b> <i>浮動小数点3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のフラクタルボロノイノイズの&#x200B;*position*&#x200B;にオフセットを適用します。 |
-| <b>障害</b> <i>浮動小数点3</i> | *ランダムオフセット*&#x200B;の強度は、**X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のノイズの各点に適用されます。 |
+| <b>反転</b> <i>ブーリアン</i> | 出力イメージを反転します。 |
+| <b>スケール</b> <i>浮動小数</i> | フラクタルボロノイノイズのスケールを制御します。<br><br>*注意*: **タイリング**&#x200B;が&#x200B;*任意の軸*&#x200B;で有効になっている場合、スケール調整は&#x200B;*ステップ*&#x200B;です。 これは予期される動作です。 |
+| <b>サイズ</b> <i>浮動小数3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のフラクタルボロノイノイズのサイズを制御します。 値が均一でないと、*伸縮または収縮*&#x200B;効果が発生します。<br><br>*注意*: *任意の軸*&#x200B;で&#x200B;**タイリング**&#x200B;が有効になっている場合、サイズの調整は&#x200B;*段階的*&#x200B;になります。 これは予期される動作です。 |
+| <b>オフセット</b> <i>浮動小数3</i> | **X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のフラクタルボロノイノイズの&#x200B;*position*&#x200B;にオフセットを適用します。 |
+| <b>障害</b> <i>浮動小数3</i> | *ランダムオフセット*&#x200B;の強度は、**X**、**Y**&#x200B;および&#x200B;**Z**&#x200B;軸のノイズの各点に適用されます。 |
 | <b>ゆがみの適用度</b> <i>フロート</i> | フラクタルボロノイノイズに適用される&#x200B;*ワープエフェクト*&#x200B;の強度を制御します。 |
 | <b>ゆがみスケール乗数</b> <i>フロート</i> | **ゆがみの強さ**&#x200B;で制御されるワープ効果で使用される&#x200B;*変形パターン*&#x200B;のスケールを制御します。 |
 | <b>最小レベル</b> <i>整数</i> | フラクタルパターンで使用される繰り返しの最小&#x200B;*レベル*&#x200B;です。 最小値/最大値の範囲が広いほど、より多くの周波数範囲で変化が生じる&#x200B;*豊富なパターン*&#x200B;になります。 |
@@ -79,28 +79,28 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
+            <img src="../../../../../../assets/fractal-voronoi-sea.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
+            <img src="../../../../../../assets/fractal-voronoi-scifi-panel.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant6.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant4.jpg" />
         </td>
     </tr>
 </table>

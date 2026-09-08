@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ヒストグラムレンダリング
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![異方性桑原グレースケールアイコン](histogram-render.resources/histogram-render-01.png "異方性桑原グレースケールアイコン"){width="200px"}
+![異方性桑原グレースケールアイコン](../../../../../../assets/histogram_render.png "異方性桑原グレースケールアイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -65,10 +65,10 @@ ht-degree: 2%
 | <b>自動スケール</b> *ブール値* | 「True」の場合、ヒストグラムを再マップして、画像のフルHeightを使用します。   &#39;False&#39;の場合、入力画像の値の出現数に応じて、各列でHeightのピクセルが使用されます。 |
 | <b>スケール</b> *フロート* | ヒストグラムを縦方向に拡大縮小します。値1はヒストグラムのHeightの最大値です。 |
 | <b>サンプリング</b> *整数* | ヒストグラム画像のフィルタリング方式。ヒストグラムの解像度とレンダリングの解像度が一致しない場合の結果に影響します。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>バイリニア:</b>は、バイリニアフィルタリングをヒストグラムに適用し、補間されたポイントを生成します</li> <li data-preserve-html="true"><b>Nearest:</b>は、フィルタリングを含まない最も近いピクセルをサンプリングします。その結果、平坦なステップになります</li> </ul> |
-| <b>Y軸を反転</b> *ブーリアン* | 「True」の場合、ヒストグラムを垂直方向にミラーリングします。 |
+| <b>Y軸軸を反転</b> *ブーリアン* | 「True」の場合、ヒストグラムを垂直方向にミラーリングします。 |
 
 ## 例
 
-![ヒストグラムのレンダリング：例1](histogram-render.resources/histogram-render-02.png "ヒストグラムのレンダリング：例1"){zoomable="yes"}
+![ヒストグラムのレンダリング：例1](../../../../../../assets/histogram_render_example_1.png "ヒストグラムのレンダリング：例1"){zoomable="yes"}
 
-![ヒストグラムのレンダリング：例2](histogram-render.resources/histogram-render-03.png "ヒストグラムのレンダリング：例2"){zoomable="yes"}
+![ヒストグラムのレンダリング：例2](../../../../../../assets/histogram_render_example_2.png "ヒストグラムのレンダリング：例2"){zoomable="yes"}

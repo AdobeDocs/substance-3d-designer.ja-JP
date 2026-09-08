@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カラーマネジメント
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -152,18 +152,18 @@ Designerで<b>従来</b>モードを使用している場合、カラーマネ�
 > 
 > 特に、**ファイル名**&#x200B;を使用して、適切なカラースペース&#x200B;*自動*&#x200B;を設定できます。 ファイル名のカラースペース名は、OpenColorIO構成ファイルの名前&#x200B;*と*&#x200B;一致している必要があります（例： *myImage\_utility - linear -srgb.png*&#x200B;は、*Utility - Linear - sRGB*&#x200B;カラースペースに設定されます）。
 
-![ビットマップのカラースペース設定](color-management.resources/color-management-01.png "ビットマップのカラースペース設定")
+![ビットマップのカラースペース設定](../assets/2019-3-0-bitmap-clr-space.png "ビットマップのカラースペース設定")
 
 ## 出力のエクスポート
 
 <b>出力の書き出し</b>ダイアログを使用する場合、*各*&#x200B;出力に対して、<b>カラースペース</b> (OCIO)を割り当てるか、<b>ICCプロファイル</b> (Adobe ACE)を添付することができます。\
 Designerは、画像ファイルを保存する前に、画像を&#x200B;*指定されたカラースペースに*&#x200B;変換します。
 
-![出力ダイアログのエクスポート](color-management.resources/color-management-02.png "出力ダイアログのエクスポート"){width="512px"}
+![出力ダイアログのエクスポート](../assets/2019-3-0-clr-mgt-export-outputs.png "出力ダイアログのエクスポート"){width="512px"}
 
 [2Dビュー](../interface/2d-view/2d-view.md)から&#x200B;*保存*&#x200B;された画像には、カラースペース(OCIO)を割り当てたり、ICCプロファイル(Adobe ACE)を添付したりすることもできます。
 
-![2Dビューの書き出しオプション](color-management.resources/color-management-03.png "2Dビューの書き出しオプション")
+![2Dビューの書き出しオプション](../assets/2019-3-0-clr-mgt-save-image.png "2Dビューの書き出しオプション")
 
 ## 2Dおよび3Dビュー
 
@@ -171,7 +171,7 @@ Designerは、画像ファイルを保存する前に、画像を&#x200B;*指定
 
 表示ツールバーのドロップダウンメニューを使用して、いつでも&#x200B;*カラーマネジメントのオン/オフを切り替えたり、表示の*&#x200B;表示変換&#x200B;*を変更したりできます。*
 
-![2Dビューのカラースペース設定](color-management.resources/color-management-04.png "2Dビューのカラースペース設定"){width="512px"}
+![2Dビューのカラースペース設定](../assets/2019-3-0-clr-mgt-display-toolbar.png "2Dビューのカラースペース設定"){width="512px"}
 
 ### ライブラリHDRI環境
 
@@ -180,7 +180,7 @@ Designerに付属のHDRI環境は、<b>リニアsRGB</b>カラースペースで
 
 その場合、ライブラリHDRI環境のカラースペースは、3Dビューパネル<b>環境</b>メニューで使用可能な環境プロパティで&#x200B;*手動*&#x200B;で設定する必要があります。
 
-![3D表示環境のカラースペース設定](color-management.resources/color-management-05.png "3D表示環境のカラースペース設定"){width="512px"}
+![3D表示環境のカラースペース設定](../assets/2019-3-0-clr-mgt-hdri-env.png "3D表示環境のカラースペース設定"){width="512px"}
 
 ## カラー変換ノード
 
@@ -211,7 +211,7 @@ Designerに付属のHDRI環境は、<b>リニアsRGB</b>カラースペースで
 
 これらは、*カラーマネジメント*&#x200B;なしで作成されたグラフや、[Substance 3Dアセット](https://substance3d.adobe.com/assets)ライブラリから作成されたマテリアルを操作する場合に便利です。
 
-![ライブラリの色変換ノード](color-management.resources/color-management-06.png "ライブラリの色変換ノード"){width="512px"}
+![ライブラリの色変換ノード](../assets/2019-3-0-clr-mgt-nodes.png "ライブラリの色変換ノード"){width="512px"}
 
 ## 既知の制限
 

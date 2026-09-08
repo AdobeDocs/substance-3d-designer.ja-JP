@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 季節フィルター
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](season-filter.resources/season-filter-01.png){width="128px"}
+![](../../../../../../assets/default-icon.png){width="128px"}
 
 <b>内：</b> マテリアルフィルター >エフェクト
 
@@ -87,4 +87,4 @@ ht-degree: 11%
 | <b>光沢度の適用度</b> <i>0.0 - 1.0</i> | 光沢のブレンド強度。 |
 | <b>ラフネスの適用度</b> <i>0.0 - 1.0</i> | 粗さのブレンド強度。 |
 | <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | アンビエントオクルージョンのブレンド強度。 |
-| <b>Heightの適用度</b> <i>0.0 - 1.0</i> | Heightの描画強さ。 |
+| <b>Heightの適用度</b> <i>0.0 - 1.0</i> | Heightのブレンド強度。 |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: マテリアル調整ブレンド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
+![](../../../../../../assets/material-adjustment-blend.png){width="128px"}
 
 <b>イン:</b> マテリアルフィルター/描画
 
@@ -57,12 +57,12 @@ ht-degree: 2%
 |  |  |
 |:---|:---|
 | <b>チャネル</b> | このグループ内のマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスではなくSpecular/光沢度マップを使用する場合などです。<br><br>これにより、チャンネルの関連するグループの表示も有効または無効になります。 |
-| <b>拡散</b> | マスクによって定義された領域のDiffuseチャンネルに対して調整処理を行います。 |
-| <b>基本色</b> | マスクによって定義された領域のBase colorチャンネルに対して調整が行われます。 |
+| <b>Diffuse</b> | マスクによって定義された領域のDiffuseチャンネルに対して調整処理を行います。 |
+| <b>Base color</b> | マスクによって定義された領域のBase colorチャンネルに対して調整が行われます。 |
 | <b>標準</b> |  |
 | <b>適用度</b> <i>0.0 - 1.0</i> | 標準強度を下げる |
 | <b>Specular</b> | マスクによって定義された領域のSpecularチャンネルに対して調整処理を行います。 |
-| <b>放射体</b> | マスクによって定義された領域のエミッシブチャンネルに対して調整操作を実行します。 |
+| <b>Emissive</b> | マスクによって定義された領域のエミッシブチャンネルに対して調整操作を実行します。 |
 | <b>光沢</b> | マスクによって定義された領域の光沢チャンネルに調整操作を実行します。 |
 | <b>粗さ</b> | マスクによって定義される領域の粗さチャンネルに対して調整操作を実行します。 |
 | <b>メタリック</b> | マスクによって定義された領域のメタリックチャンネルに対して調整操作を実行します。 |

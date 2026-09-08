@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 送信先...  互換性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 送信先...  互換性
 
-![DesignerからSubstance 3Dアプリケーションに送信](send-to-interoperability.resources/send-to-interoperability-01.png "DesignerからSubstance 3Dアプリケーションに送信"){width="512px"}
+![DesignerからSubstance 3Dアプリケーションに送信](../../../assets/explorer-interop.png "DesignerからSubstance 3Dアプリケーションに送信"){width="512px"}
 
 Adobe Substance 3D Designerは、[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)および[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)と相互運用できます。 これにより、*送信*&#x200B;と&#x200B;*再送信*&#x200B;を行ってすばやく作業し、Substance 3Dエコシステム全体で容易に繰り返すことができます。
 
@@ -49,7 +49,7 @@ Substanceグラフには多くの機能があります。 グラフの正確な�
 </td>
 <td style="border: 0;" valign="top">
 
-![Substanceグラフの種類の属性](send-to-interoperability.resources/send-to-interoperability-02.jpg "Substanceグラフの種類の属性")
+![Substanceグラフの種類の属性](../../../assets/type-attribute.jpg "Substanceグラフの種類の属性")
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ Substanceグラフには多くの機能があります。 グラフの正確な�
 コンテンツの送信は、次の方法で実行できます。
 
 * パッケージを右クリックして、コンテキストメニューの<b>送信先…</b>サブメニューを開き、ターゲットアプリケーションの<b>送信先…</b>オプションを選択します。
-* エクスプローラーパネルの上部にある「![](send-to-interoperability.resources/send-to-interoperability-03.jpg) <b>Publish/送信</b>」ボタンをクリックし、ターゲットアプリケーションの「<b>送信先…</b>」オプションを選択します。
+* エクスプローラーパネルの上部にある「![](../../../assets/sendto-icon.jpg) <b>Publish/送信</b>」ボタンをクリックし、ターゲットアプリケーションの「<b>送信先…</b>」オプションを選択します。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![エクスプローラーの[Publish]/[送信]メニュー](send-to-interoperability.resources/send-to-interoperability-04.jpg "エクスプローラーの[Publish]/[送信]メニュー")
+![エクスプローラーの[Publish]/[送信]メニュー](../../../assets/explorer-sendto-displayed.jpg "エクスプローラーの[Publish]/[送信]メニュー")
 
 </td>
 </tr>

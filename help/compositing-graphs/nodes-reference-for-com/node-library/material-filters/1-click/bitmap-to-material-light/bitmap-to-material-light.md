@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ビットマップからマテリアルライト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
+![](../../../../../../assets/b2m-light.png)
 
 <b>イン：</b> マテリアルフィルター > ワンクリック
 
@@ -65,7 +65,7 @@ ht-degree: 11%
 | <b>標準のシャープ</b> <i>0.0 - 1.0</i> | 変換後の法線マップをシャープにして、ディテールを際立たせます。 |
 | <b>通常のソフト</b> <i>0.0 - 1.0</i> | 変換後に法線マップをソフトにし、ディテールを隠します。 |
 | <b>Specular</b> |  |
-| <b>Specular Diffuseの影響</b> <i>0.0 - 1.0</i> | Specularに対する拡散反射光の影響を設定します。 光沢度とラフネスの出力にも影響します。 |
+| <b>Specular Diffuseの影響</b> <i>0.0 - 1.0</i> | Specularに対する拡散反射光の影響を設定します。 光沢と粗さの出力にも影響します。 |
 | <b>Specularの彩度</b> <i>0.0 - 1.0</i> | Specular出力の彩度を変更します。 |
 | <b>Specularシャープ</b> <i>0.0 - 1.0</i> | Specular出力をシャープにします。 |
 | </b>の<b>Specular level <i>0.0 - 1.0</i> | Specular変換の入力レベルを設定します。 |

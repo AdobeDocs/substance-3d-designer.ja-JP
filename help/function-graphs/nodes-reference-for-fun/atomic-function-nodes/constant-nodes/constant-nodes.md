@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数型アイコン](constant-nodes.resources/constant-nodes-01.png "整数型アイコン")
+![整数型アイコン](../../../../assets/fn-constant-integer.png "整数型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2型アイコン](constant-nodes.resources/constant-nodes-02.png "Integer2型アイコン")
+![Integer2型アイコン](../../../../assets/fn-constant-integer2.png "Integer2型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2は一般的ではありませんが、[Tile Generator](../../../../comp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3型アイコン](constant-nodes.resources/constant-nodes-03.png "Integer3型アイコン")
+![Integer3型アイコン](../../../../assets/fn-constant-integer3.png "Integer3型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,40 +97,40 @@ Integer3ノードは、(X, Y, Z)成分を持つ静的3成分整数ベクトル�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4型アイコン](constant-nodes.resources/constant-nodes-04.png "Integer4型アイコン")
+![Integer4型アイコン](../../../../assets/fn-constant-integer4.png "Integer4型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Integer4</b>
 
-Integer4ノードは、(X, Y, Z, W)成分を持つ静的4成分整数ベクトルを生成する。
+整数4ノードは、(X,Y,Z,W)成分を有する静的4成分整数ベクトルを生成する。
 
-整数4は一般的ではなく、ほとんど検出されません。<b>\
+整数 4は一般的ではなく、あまり発生する可能性は低いです。<b>\
 </b>
 
 </td>
 </tr>
 </table>
 
-## フロート
+## 浮動小数
 
-定数浮動小数点は、全数ではなく小数を生成します。つまり、常に小数記号の後に値が設定され、1より小さいステップ単位で増減できます（デフォルトは0.01）。
+定数浮動小数は、全数ではなく小数を生成します。つまり、常に小数点以下の記号の後に値が表示され、1より小さいステップ単位で増減できます（デフォルトは0.01）。
 
-[フロートは整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)に変換できますが、最も近い整数に切り上げまたは切り捨てられます。つまり、データと精度が失われます。
+[浮動小数は整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)に変換できますが、最も近い整数に切り上げまたは切り捨てられるため、データと精度が失われます。
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![フロートの種類のアイコン](constant-nodes.resources/constant-nodes-05.png "フロートの種類のアイコン")
+![浮動小数の種類アイコン](../../../../assets/fn-constant-float.png "浮動小数の種類アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>フロート</b>
+<b>浮動小数</b>
 
-Floatは1つの要素を持ち、簡潔さのために名前から(1)が省略されます。 フロートは非常に一般的で、スライダーや角度の形式で正確に制御する必要があるすべての値に使用されます。 ほとんどすべてのノードのパラメータに含まれています。 また、グレースケール値のデータ型としても推奨されます。<b></b>
+浮動小数は1つの構成要素を持ち、簡潔さのために名前から(1)が省略されています。 浮動小数は非常に一般的で、スライダーや角度の形式で正確に制御する必要があるあらゆる値に使用されます。 ほとんどすべてのノードのパラメータに含まれています。 また、グレースケール値のデータ型としても推奨されます。<b></b>
 
 </td>
 </tr>
@@ -140,14 +140,14 @@ Floatは1つの要素を持ち、簡潔さのために名前から(1)が省略�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2型アイコン](constant-nodes.resources/constant-nodes-06.png "Float2型アイコン")
+![浮動小数2の種類アイコン](../../../../assets/fn-constant-float2.png "浮動小数2の種類アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮動小数点2</b>
+<b>浮動小数2</b>
 
-Float2ノードは、静的な2成分Floatベクトルを生成します。 コンポーネントにはX、Yという名前が付けられます。Float2は非常に一般的で、[サンプリング座標](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)および[変換オフセット](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)に使用されます
+浮動小数2ノードは、静的2成分浮動小数ベクトルを生成する。 コンポーネントにはX、Yという名前が付けられます。浮動小数2は非常に一般的で、[サンプリング座標](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)および[変換オフセット](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)に使用されます
 
 </td>
 </tr>
@@ -157,14 +157,14 @@ Float2ノードは、静的な2成分Floatベクトルを生成します。 コ�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3型アイコン](constant-nodes.resources/constant-nodes-07.png "Float3型アイコン")
+![浮動小数3の種類アイコン](../../../../assets/fn-constant-float3.png "浮動小数3の種類アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮動小数点3</b>
+<b>浮動小数3</b>
 
-Float3ノードは、スタティックな3成分Floatベクトルを生成します。 コンポーネントにはX、Y、Zという名前が付けられます。Float3は一般的ではなく、[3Dスケール座標](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)を表すために使用され、Alphaデータを使用せずにカラーを簡単に保存するために使用されます。<b>\
+浮動小数3ノードは、静的3成分浮動小数ベクトルを生成する。 コンポーネントにはX、Y、Zという名前が付けられます。「浮動小数3」は一般的ではなく、[3Dスケール座標](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)を表すために使用され、Alphaデータを使用せずにカラーを簡単に保存する方法としても使用されます。<b>\
 </b>
 
 </td>
@@ -175,14 +175,14 @@ Float3ノードは、スタティックな3成分Floatベクトルを生成し�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4型アイコン](constant-nodes.resources/constant-nodes-08.png "Float4型アイコン")
+![浮動小数4の種類アイコン](../../../../assets/fn-constant-float4.png "浮動小数4の種類アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮動小数点4</b>
+<b>浮動小数4</b>
 
-Float4は、静的な4要素のFloatベクトルを生成します。要素にはX,Y,Z,Wという名前が付けられています。Float4は[カラー情報を格納および設定するのに適しており、非常に一般的な方法です。XYZWデータはRGBA値を表します。](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
+浮動小数4は静的な4要素浮動小数Vector.Componentsを生成します。X,Y,Z,Wという名前が付けられています。浮動小数4は非常に一般的で、XYZWがRGBA値を表す[カラー情報を格納および設定するための望ましい方法です。](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
 </b>
 
 </td>
@@ -191,13 +191,13 @@ Float4は、静的な4要素のFloatベクトルを生成します。要素に�
 
 ## その他
 
-Substance関数グラフには、2つのデータ型（ブール型と文字列）が追加されています。 Designerバージョン6では、文字列は[Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)ノードと共に導入されました。
+Substance関数グラフの内部には、ブール型と文字列という2つのデータ型が存在します。 Designerバージョン6では、文字列は[Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)ノードと共に導入されました。
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![ブール型アイコン](constant-nodes.resources/constant-nodes-09.png "ブール型アイコン")
+![ブーリアン型アイコン](../../../../assets/fn-constant-boolean.png "ブーリアン型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Substance関数グラフには、2つのデータ型（ブール型と文字列�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![文字列型アイコン](constant-nodes.resources/constant-nodes-10.png "文字列型アイコン")
+![文字列型アイコン](../../../../assets/fn-constant-string.png "文字列型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

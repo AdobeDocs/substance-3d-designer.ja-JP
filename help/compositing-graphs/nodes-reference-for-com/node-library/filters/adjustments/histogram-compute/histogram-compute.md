@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ヒストグラム計算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ヒストグラムの計算：アイコン](histogram-compute.resources/histogram-compute-01.png "ヒストグラムの計算：アイコン"){width="200px"}
+![ヒストグラムの計算：アイコン](../../../../../../assets/histogram_compute.png "ヒストグラムの計算：アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -77,16 +77,16 @@ ht-degree: 1%
 
 ## 例
 
-![ヒストグラムの計算：例1](histogram-compute.resources/histogram-compute-02.jpg "ヒストグラムの計算：例1"){zoomable="yes"}
+![ヒストグラムの計算：例1](../../../../../../assets/histogram_compute_example_1.jpg "ヒストグラムの計算：例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-compute.resources/histogram-compute-03.jpg" alt="histogram_compute_example_2_before">
+      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="histogram-compute.resources/histogram-compute-04.jpg" alt="histogram_compute_example_2_after">
+      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>後</i>
     </td>
   </tr>

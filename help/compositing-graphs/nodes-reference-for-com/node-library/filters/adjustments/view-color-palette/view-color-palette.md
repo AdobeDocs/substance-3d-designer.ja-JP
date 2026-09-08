@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カラーパレットを表示
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![色の量子化アイコン](view-color-palette.resources/view-color-palette-01.png "色の量子化アイコン"){width="200px"}
+![色の量子化アイコン](../../../../../../assets/ViewColorPalette.png "色の量子化アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -67,12 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![カラーパレットの表示：例1](view-color-palette.resources/view-color-palette-02.png "カラーパレットの表示：例1"){zoomable="yes"}
+![カラーパレットの表示：例1](../../../../../../assets/view_color_palette_example_1.png "カラーパレットの表示：例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![カラーパレットの表示：例2](view-color-palette.resources/view-color-palette-03.png "カラーパレットの表示：例2"){zoomable="yes"}
+![カラーパレットの表示：例2](../../../../../../assets/view_color_palette_example_2.png "カラーパレットの表示：例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![カラーパレットの表示：例3](view-color-palette.resources/view-color-palette-04.png "カラーパレットの表示：例3"){zoomable="yes"}
+![カラーパレットの表示：例3](../../../../../../assets/view_color_palette_example_3.png "カラーパレットの表示：例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![カラーパレットの表示：例4](view-color-palette.resources/view-color-palette-05.png "カラーパレットの表示：例4"){zoomable="yes"}
+![カラーパレットの表示：例4](../../../../../../assets/view_color_palette_example_4.png "カラーパレットの表示：例4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラデーション軸反射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-axial-reflected.resources/gradient-axial-reflected-01.png){width="128px"}
+![](../../../../../../assets/gradient-axial-reflected.png){width="128px"}
 
-<b>イン：</b> テクスチャジェネレーター>パターン
+<b>イン：</b>テクスチャジェネレーター>パターン
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,4 +47,4 @@ ht-degree: 1%
 |:---|:---|
 | <b>ポイント1</b> | グラデーションの開始点（黒） |
 | <b>ポイント2</b> | グラデーションを終了する2番目のポイント（白） |
-| <b>非正方形拡張</b> <i>False/True</i> | カボチャの補正を有効にし、非正方形の比率で伸縮します。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチの非正方形の比率での補正を有効にします。 |

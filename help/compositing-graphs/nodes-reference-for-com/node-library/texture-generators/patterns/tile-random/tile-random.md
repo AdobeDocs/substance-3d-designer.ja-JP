@@ -10,7 +10,7 @@ helpx_tags: ""
 title: タイルをランダムに
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random-01.png){width="128px"}
+![](../../../../../../assets/tile-random.png){width="128px"}
 
 <b>イン：</b>ジェネレーター>パターン
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 |:---|:---|
 | <b>X金額</b> <i>1 - 64</i> | パターンのX繰り返しの量。 |
 | <b>Y金額</b> <i>1 - 64</i> | パターンのY繰り返しの量。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 | <b>パターン</b> |  |
 | <b>パターン</b> <i>パターン入力，正方形，円盤， 放物面,ベル，ガウス， とげ, ピラミッド, レンガ,グラデーション，波，ハーフベル,うね付きベル,三日月,カプセル,円錐</i> | 使用するパターン形状を選択します。 |
 | <b>画像入力フィルタリング (エンジン > v4)</b> <i>バイリニア+ミップマップ，バイリニア，最も近い</i> |  |
@@ -106,7 +106,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-02.png" />
+            <img src="../../../../../../assets/tile-random-1.png" />
         </td>
     </tr>
 </table>

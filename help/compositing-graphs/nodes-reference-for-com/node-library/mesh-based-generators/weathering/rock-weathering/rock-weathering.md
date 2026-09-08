@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 岩石風化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
+![](../../../../../../assets/rock-weathering.png){width="128px"}
 
 <b>イン：</b> メッシュベースのジェネレーター> 風化
 
@@ -73,9 +73,9 @@ ht-degree: 16%
 | <b>使用済みの岩の明るさ</b> <i>0.0 - 1.0</i> |  |
 | <b>ブレンド</b> |  |
 | <b>Diffuseの適用度</b> <i>0.0 - 1.0</i> | 拡散反射光のブレンド強度。 |
-| <b>Base colorの適用度</b> <i>0.0 - 1.0</i> | base colorの描画強さ。 |
-| <b>法線の強度</b> <i>0.0 - 64.0</i> | 法線の描画強さ。 |
-| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularの描画強さ。 |
+| <b>Base colorの適用度</b> <i>0.0 - 1.0</i> | ベースカラーのブレンド強度。 |
+| <b>法線の強度</b> <i>0.0 - 64.0</i> | 法線のブレンド強度。 |
+| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularのブレンド強度。 |
 | <b>光沢度の適用度</b> <i>0.0 - 1.0</i> | 光沢のブレンド強度。 |
 | <b>ラフネスの適用度</b> <i>0.0 - 1.0</i> | 粗さのブレンド強度。 |
 | <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | アンビエントオクルージョンのブレンド強度。 |
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rock-weathering.resources/rock-weathering-02.gif" />
+            <img src="../../../../../../assets/rock-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 論理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 論理ノードは、グラフに複数の条件を追加するために使用されます。
 
-![](logical-nodes.resources/logical-nodes-01.png)
+![](../../../../assets/image2015-12-23-11-23-21.png)
 
 ## *および*&#x200B;ノード
 
-![](logical-nodes.resources/logical-nodes-02.png)
+![](../../../../assets/image2015-12-23-11-30-9.png)
 
 Andノードは、次の2つのブーリアンノードを入力として受け取ります。
 
@@ -35,7 +35,7 @@ Andノードは、次の2つのブーリアンノードを入力として受け�
 
 ## *または*&#x200B;ノード
 
-![](logical-nodes.resources/logical-nodes-03.png)
+![](../../../../assets/image2015-12-23-11-30-44.png)
 
 Orノードは、次の2つのブーリアンノードを入力として受け取ります。
 
@@ -44,7 +44,7 @@ Orノードは、次の2つのブーリアンノードを入力として受け�
 
 ## *Not*&#x200B;ノード
 
-![](logical-nodes.resources/logical-nodes-04.png)
+![](../../../../assets/image2015-12-23-11-31-46.png)
 
 Notノードは、入力としてブーリアンを受け取ります。入力値を調べ、その逆を返します。
 

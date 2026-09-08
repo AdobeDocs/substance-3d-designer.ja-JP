@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ショートカット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
@@ -32,11 +32,11 @@ ht-degree: 18%
 
 **ウィンドウ**
 
-![Windowsのキーボードショートカット](shortcuts.resources/shortcuts-01.png "Windowsのキーボードショートカット"){zoomable="yes"}
+![Windowsのキーボードショートカット](../../assets/keyboard_shortcuts_win.png "Windowsのキーボードショートカット"){zoomable="yes"}
 
 **macOS**
 
-![macOSのショートカットキー](shortcuts.resources/shortcuts-02.png "macOSのショートカットキー"){zoomable="yes"}
+![macOSのショートカットキー](../../assets/keyboard_shortcuts_mac.png "macOSのショートカットキー"){zoomable="yes"}
 
 ## ショートカットリスト
 
@@ -44,7 +44,7 @@ ht-degree: 18%
 
 | アクション | Windows | macOS |
 | --- | --- | --- |
-| [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
+| [新しいSubstanceグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | パッケージを読み込み | Ctrl + O | ⌘ + O |
 | 選択したパッケージを閉じる | Ctrl + F4 | ⌘ + W |
 | パッケージを保存 | Ctrl + S | ⌘ + S |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン（3次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](spline-cubic.resources/spline-cubic-01.png "ノードアイコン")
+![ノードアイコン](../../../../../../assets/spline-cubic-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -101,12 +101,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](spline-cubic.resources/spline-cubic-02.jpg "ノードの例1")
+![ノードの例1](../../../../../../assets/SplineCubic-Variant1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](spline-cubic.resources/spline-cubic-03.jpg "ノードの例2")
+![ノードの例2](../../../../../../assets/SplineCubic-Variant2.jpg "ノードの例2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例3](spline-cubic.resources/spline-cubic-04.gif "ノードの例3")
+![ノードの例3](../../../../../../assets/SplineCubic-Demo.gif "ノードの例3")
 
 </td>
 <td style="border: 0;" valign="top">

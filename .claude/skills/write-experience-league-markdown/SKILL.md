@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 6%
+source-wordcount: '628'
+ht-degree: 5%
 
 ---
 
@@ -62,13 +62,11 @@ Experience Leagueがカスタムパイプラインを介してGitHubフレーバ
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * オプションのサイジング/最適化クエリパラメーターをサポート：
-  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
 * **代替テキストにはアンダースコア**&#x200B;を含めることはできません。正しくレンダリングされません。
 代わりにハイフンまたはスペースを使用してください。
-* ページ固有の画像は兄弟`<page-name>.resources/`フォルダーに存在します
-`.md`の横で、相対的に参照されています(例：
-  `<page-name>.resources/image.png`). `help/assets/`はレガシ共有です
-  フォルダー – 新しい画像をそこに追加しません（CLAUDE.mdを参照）。
+* ページ固有の画像は`<page-name>.resources/`に表示されます。共有/アプリアイコン
+`help/assets/`に住んでいます（CLAUDE.mdを参照）。
 
 ## 表
 

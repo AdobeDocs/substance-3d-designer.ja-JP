@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR レンダリング
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render-01.png){width="250px"}
+![](../../../../../../assets/pbr-render.png){width="250px"}
 
 <b>イン：</b> マテリアルフィルター > PBRユーティリティ
 
@@ -114,10 +114,10 @@ Image Based Lighting(IBL)を使用して、球体、プレーン、またはシ�
 | <b>アパーチャリング</b> <i>0.0 - 1.0</i> | ボケのシェイプに内側グラデーションを追加します。 |
 | <b>分数のアパーチャ</b> <i>0.0 - 2.0</i> | ボケに色収差を加えます。 |
 | <b>渦巻き型のボケ</b> <i>0.0 - 1.0</i> | ぼかし（ボケ）部分にぼかし（渦巻き）効果を追加します。 |
-| <b>フォーカスモード</b> <i>自動、ポイント</i> | フォーカスが事前に決定されているか、ユーザーが設定しているかを設定します。 ポイントフォーカス:2D ビュー内のポイントを動かして焦点距離を指定できます。 |
-| <b>フォーカスポイント</b> | フォーカスがポイントに設定されている場合は、そのポイントを移動できます。 には2D ビューギズモがあります。 |
+| <b>フォーカスモード</b> <i>自動、ポイント</i> | フォーカスが事前に決定されているか、ユーザーが設定しているかを設定します。 ポイントフォーカス:2Dビューでポイントを移動してフォーカス距離を決定できます。 |
+| <b>フォーカスポイント</b> | フォーカスがポイントに設定されている場合は、そのポイントを移動できます。 には2Dビューギズモがあります。 |
 | <b>フォーカスのオフセット</b> <i>-0.5 - 0.5</i> | フォーカスが自動に設定されている場合、フォーカスを前後に移動できます。 |
-| <b>カスタムアパーチャマップを使用する</b> <i>False/True</i> | 上記のアパーチャ設定をオーバーライドし、アパーチャマップ入力を使用してボケの形状を決定します。 入力が必要です。 |
+| <b>カスタムアパーチャマップを使用する</b> <i>False/True</i> | 上記の絞り設定をオーバーライドし、絞りマップ入力を使用してボケの形状を決定します。 入力が必要です。 |
 | <b>ポストエフェクト</b> |  |
 | <b>ポストエフェクトを有効にする</b> <i>False/True</i> | 最終レンダリングの<i>すべて</i>のポストエフェクトを切り替えます。 |
 | <b>ブルームの強さ</b> <i>0.0 - 2.0</i> | ブルーム効果の強さを設定します。 |
@@ -128,14 +128,14 @@ Image Based Lighting(IBL)を使用して、球体、プレーン、またはシ�
 | <b>レンズDirtの強さ</b> <i>0.0 - 1.0</i> | Dirtマップの効果を設定します。 |
 | <b>レンダリング設定</b> |  |
 | <b>Diffuse品質</b> <i>16個のサンプル、32個のサンプル、64個のサンプル、128個のサンプル</i> | 拡散反射光マップの品質レベルを切り替えます。 |
-| <b>Diffuse Emissiveマルチプライア</b> <i>0.0 - 1.0</i> | emissiveパーツが放射に影響する量をコントロールします。 |
+| <b>Diffuse Emissiveマルチプライア</b> <i>0.0 - 1.0</i> | 放射パーツが放射に寄与する度合いをコントロールします。 |
 | <b>Diffuseシャドウの適用度</b> <i>0.0 - 1.0</i> | 拡散シャドウの強度を制御します。 |
 | <b>Specular ディザリング</b> <i>0.0 - 1.0</i> | Specularのディザリング量を設定します。 |
 | <b>Specularシャドウマルチプライヤ</b> <i>0.0 - 1.0</i> | Specular反射のシャドウの強さを制御します。 |
-| <b>不透明度モード</b> <i>ディザAlphaテスト、シンプルAlphaブレンド</i> | 透明度の適用方法を制御します。 <i>シンプルブレンド</i>モードは、均一な背景で最も目立ちます。 |
-| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | ambient occlusionのシャドウの強さを設定します。 |
+| <b>不透明度モード</b> <i>ディザAlphaテスト、シンプルAlphaブレンド</i> | 透明度の適用方法を制御します。 <i>シンプルAlphaブレンド</i>モードは、均一な背景で最も目立ちます。 |
+| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | 環境オクルージョンのシャドウの強さを設定します。 |
 | <b>材料調整</b> |  |
-| <b>法線の再計算</b> <i>False/True</i> | 法線は、ディスプレイスメントの強さに応じて高さマップから再計算されます。 |
+| <b>法線の再計算</b> <i>False/True</i> | 法線は、ディスプレイスメントの強さに従ってHeightマップから再計算されます。 |
 | <b>標準の形式</b> <i>DirectX、OpenGL</i> | 法線マップ形式を切り替える（グリーンチャンネルを反転する） |
 | <b>誘電体F0入力</b> <i>定数値、Specular level入力</i> | どのドライブのF0値を設定します。 Specular level入力：入力マップによって駆動されます。 |
 | <b>誘電体F0</b> <i>0.0 - 0.08</i> | 誘電体F0入力に定数値を選択した場合、このスライダを使用してグローバル値を設定できます。 |
@@ -160,30 +160,30 @@ Image Based Lighting(IBL)を使用して、球体、プレーン、またはシ�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-02.jpg" />
+            <img src="../../../../../../assets/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-03.jpg" />
+            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-04.jpg" />
+            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-05.jpg" />
+            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-06.jpg" />
+            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-07.jpg" />
+            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-08.jpg" />
+            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-09.jpg" />
+            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>
