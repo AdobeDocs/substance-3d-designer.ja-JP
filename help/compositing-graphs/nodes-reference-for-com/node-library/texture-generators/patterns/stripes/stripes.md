@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
 breadcrumb-title: ''
 description: Stripeノードを使用して、テクスチャを作成するためのカスタマイズ可能な幅、間隔、方向を持つストライプパターンを作成します。
 helpx_creative_field: ""
