@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-dodge.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-dodge.html"
 breadcrumb-title: ''
 description: 覆い焼きカラーのブレンドノードを使用して、ハイライトと光彩のエフェクトを作成するためのコントラストを下げ、テクスチャを明るくします。
 helpx_creative_field: ""
