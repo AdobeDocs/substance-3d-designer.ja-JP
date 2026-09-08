@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
 description: 勾配ブラーノードを使用して、モーションブラーを作成するためのHeightマップ勾配に基づく方向ブラー効果を適用します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ぼかし(勾配)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/slope-blur.png){width="128px"}
 
 ![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
 
-## ぼかし(勾配)
-
-**場所：** *フィルター/ぼかし*
-
-**中級**
+<b>イン:</b>フィルター/ぼかし
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -45,26 +41,37 @@ ht-degree: 1%
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「勾配ぼかし」を使用し、グレースケール入力には「勾配ぼかしグレースケール」を使用します。
 
-## パラメーター
-
-### 入力
-
-* **勾配**: *グレースケール入力*&#x200B;異方性のドライブ角度に対する勾配マップ。 理想的には、傾斜したグラデーションを含める必要があります。粗い、シャープなトランジションは適切に機能しません。
-
-### パラメーター
-
-* **サンプル**: *0 ～ 32*&#x200B;サンプルの量は、速度を犠牲にして品質に影響します。
-* **強度**: *0.0 ～ 16.0*\
-  ぼかしの量または強さ。
-* **モード**: *ぼかし、最小、最大*|\
-  結果としてぼかしのパスとなる描画モード。 「ぼかし」は標準の[異方性反射ぼかし](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)と似ていますが、最小は既存の領域を「食い尽くす」、最大は白い領域を「にじませる」ことができます。
-
-## サンプル画像
-
-![](../../../../../../assets/slopeblur01.gif)
-
-![](../../../../../../assets/slopeblur02.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>勾配</b> <i>グレースケール入力</i> | 勾配マップは異方性のドライブ角度にマップされます。 理想的には、傾斜したグラデーションを含める必要があります。粗い、シャープなトランジションは適切に機能しません。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>サンプル</b> <i>0 - 32</i> | サンプルの量は、速度を犠牲にして品質に影響します。 |
+| <b>適用度</b> <i>0.0 - 16.0</i> | ぼかしの量または強さ。 |
+| <b>モード</b> <i>ぼかし、最小、最大</i> | 結果としてぼかしのパスとなる描画モード。 「ぼかし」は標準の[異方性反射ぼかし](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)と似ていますが、最小は既存の領域を「食い尽くす」、最大は白い領域を「にじませる」ことができます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/slopeblur01.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/slopeblur02.gif" />
+        </td>
+    </tr>
 </table>

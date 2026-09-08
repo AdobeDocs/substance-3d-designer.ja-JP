@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
 breadcrumb-title: ''
 description: 差描画ノードを使用すると、差描画モードを使用して反転およびコントラスト効果を作成し、テクスチャを描画できます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 差
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
@@ -22,41 +22,38 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/difference.png){width="128px"}
 
-## 差
-
-**イン：** *フィルター/描画*
-
-**単純**
+<b>イン:</b>フィルター/描画
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 前景と背景の入力の間に差描画モードを生成します。 前景から背景を減算し、絶対値を返します（負の値は返しません）。
 
-## パラメーター
-
-### 入力
-
-* **背景**: *カラー入力*
-* **前景**: *カラー入力*
-* **マスク**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **不透明度**: *0.0 ～ 1.0*\
-  前景と背景の間のブレンド不透明度。
-* **アルファブレンディング**: *False/True*\
-  前景および背景のアルファチャンネルのブレンドを切り替えます。 Falseに設定した場合、フォアグラウンドのアルファチャンネルは無視されます。
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>背景</b> <i>カラー入力</i> |  |
+| <b>前景</b> <i>カラー入力</i> |  |
+| <b>マスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 前景と背景の間のブレンド不透明度。 |
+| <b>アルファブレンディング</b> <i>False/True</i> | 描画領域と背景アルファチャンネルのブレンドを切り替えます。 Falseに設定した場合、前景のアルファチャンネルは無視されます。 |

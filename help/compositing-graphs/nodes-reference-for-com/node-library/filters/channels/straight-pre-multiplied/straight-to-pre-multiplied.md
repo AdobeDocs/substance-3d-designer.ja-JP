@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
 breadcrumb-title: ''
 description: ストレートからプリマルチプライドノードを使用すると、合成でアルファチャンネルをストレートからプリマルチプライドに変換できます。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ストレートからプリマルチプライヤー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/straight-pre-multiply.png){width="128px"}
 
-## ストレートからプリマルチプライヤー
-
-**場所：** *フィルター/チャネル*
-
-**単純**
+<b>イン：</b>フィルター/チャネル
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 ストレートアルファを乗算済みのカラーに変換し、カラーをアルファブレンドしたピクセルに乗算します。
-
-## パラメーター
-
-*パラメーターがありません。*
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
 
 </td>
 </tr>

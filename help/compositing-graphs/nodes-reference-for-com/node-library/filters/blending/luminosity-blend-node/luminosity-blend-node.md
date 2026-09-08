@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
 breadcrumb-title: ''
 description: 輝度の描画ノードを使用すると、輝度の値に基づいてテクスチャを描画し、明るさをベースにした合成効果を作成できます。
 helpx_creative_field: ""
@@ -7,54 +7,51 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 輝度（ブレンド節点）
+title: 輝度（ブレンドノード）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
 
-# 輝度（ブレンド節点）
+# 輝度（ブレンドノード）
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-## 輝度
-
-**イン：** *フィルター/描画*
-
-**単純**
+<b>イン:</b>フィルター/描画
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 前景の輝度を取り入れながら、背景の色相とクロミナンスを維持する輝度の描画モードを実行します。
 
-## パラメーター
-
-### 入力
-
-* **前景**: *カラー入力*
-* **背景**: *カラー入力*
-* **マスク**: *グレースケール入力*\
-  ノードのエフェクトのマスクに使用するマスクスロット。
-
-### パラメーター
-
-* **不透明度**: *0.0 ～ 1.0*\
-  前景と背景の間のブレンド不透明度。
-* **アルファブレンディング**: *False/True*\
-  描画領域と背景アルファチャンネルのブレンドを切り替えます。 Falseに設定した場合、前景のアルファチャンネルは無視されます。
-
-## サンプル画像
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>前景</b> <i>カラー入力</i> |  |
+| <b>背景</b> <i>カラー入力</i> |  |
+| <b>マスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 前景と背景の間のブレンド不透明度。 |
+| <b>アルファブレンディング</b> <i>False/True</i> | 前景および背景のアルファチャンネルのブレンドを切り替えます。 Falseに設定した場合、フォアグラウンドのアルファチャンネルは無視されます。 |

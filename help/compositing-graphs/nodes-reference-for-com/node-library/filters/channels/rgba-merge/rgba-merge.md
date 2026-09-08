@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
 description: RGBAマージノードを使用して、赤、緑、青、アルファチャンネルを1つのRGBA テクスチャにまとめます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: RGBAマージ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '93'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/rgba-merge.png){width="128px"}
 
-## RGBAマージ
-
-**場所：** *フィルター/チャネル*
-
-**単純**
+<b>イン：</b>フィルター/チャネル
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,23 +37,17 @@ ht-degree: 2%
 
 チャンネルとパッキングのマップを一緒にマップする場合に非常に便利なノードです。 例えば、Smoothness、メタリックおよびAOを各R、G、Bチャンネルに使用できます。
 
-## パラメーター
-
-### 入力
-
-* **R**: *グレースケール入力*
-* **G**: *グレースケール入力*
-* **B**: *グレースケール入力*
-* **A**: *グレースケール入力*
-
-*パラメーターがありません。*
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>R</b> <i>グレースケール入力</i> |  |
+| <b>G</b> <i>グレースケール入力</i> |  |
+| <b>B</b> <i>グレースケール入力</i> |  |
+| <b>A</b> <i>グレースケール入力</i> |  |
