@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: FX-Mapノードを使用して、プロシージャパターンおよびプロシージャエフェクトを作成するために、テクスチャに関数グラフを適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード： FX-Map](../../../../assets/fxmap.png "Atomicノード： FX-Map"){width="200px"}
+![Atomicノード： FX-Map](fx-map.resources/fxmap.png "Atomicノード： FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 
 ## パラメーター
 
-他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって決定されることに注意してください。
+他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって[決定されることに注意してください。
 
 |  |  |
 | --- | --- |
@@ -80,21 +80,21 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 | <b>領域のレンダリング</b> *浮動小数点4* | FX-Mapの各側面の開始ピクセル範囲を設定し、結果としてストレッチ効果を作成できます。 |
 | <b>タイル領域</b> *浮動小数点4* | FX-Mapのタイリング距離をオフセットします。 |
 | <b>外側をカリング</b> *ブール値* | 通常の範囲から外れる[カリング](../../../../glossary/glossary.md)パターンで最適化を実行します。 |
-| <b>粗さ</b> *フロート* | 深度と不透明度の乗数として機能します。 FXマップのブレンドプロセスにバイアスを適用します。 |
-| <b>グローバル不透明度</b> *フロート* | FX-mapの出力のグローバル不透明度を設定します。 |
+| <b>粗さ</b> *浮動小数* | 深度と不透明度の乗数として機能します。 FXマップのブレンドプロセスにバイアスを適用します。 |
+| <b>グローバル不透明度</b> *浮動小数* | FX-mapの出力のグローバル不透明度を設定します。 |
 
 ## FX-Mapガイド
 
 *近日公開。*
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |
 | <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | 出力画像の背景色です。 |
-| <b>入力画像#</b> *グレースケール/カラー* |  |
+| <b>入力画像 #</b> *グレースケール/カラー* |  |
 
-## 出力コネクタ
+## 出力コネクター
 
 |  |  |
 | --- | --- |
@@ -102,4 +102,4 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 
 ## 例
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/image2015-9-10-17-28-32.png)
