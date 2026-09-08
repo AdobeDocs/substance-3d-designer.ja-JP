@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Flood Fillマッパーノードを使用して、テクスチャ処理にflood fillアルゴリズムを使用して、コネクトされたリージョン間で値をマッピングします。
 helpx_creative_field: ""

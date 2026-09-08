@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: '[反応拡散高速]ノードを使用すると、プロシージャルのテクスチャに対して高速の反応拡散アルゴリズムを使用して有機的なパターンを生成できます。'
 helpx_creative_field: ""

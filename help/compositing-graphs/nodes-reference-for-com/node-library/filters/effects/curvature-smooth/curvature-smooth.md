@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Curvature Smoothノードを使用して、サーフェスの詳細を抽出するためにHeightマップからスムーズな曲率マップを生成します。
 helpx_creative_field: ""

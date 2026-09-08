@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
 breadcrumb-title: ''
 description: エッジ検出ノードを使用して、アウトラインやエッジベースのマスクエフェクトを作成するためのテクスチャでエッジを検出します。
 helpx_creative_field: ""

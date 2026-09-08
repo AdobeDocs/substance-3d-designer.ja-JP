@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: シェイプグローノードを使用して、光彩の効果をシェイプやテクスチャに加え、明るく大気のような視覚効果を生み出します。
 helpx_creative_field: ""
