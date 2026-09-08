@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: レザー風化ノードを使用して、メッシュの曲率に基づいてレザーマテリアルに磨耗パターンとエージングエフェクトを加えます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: レザー風化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leather-weathering.resources/leather-weathering-01.png){width="128px"}
+![](../../../../../../assets/leather-weathering.png){width="128px"}
 
 <b>イン：</b> メッシュベースのジェネレーター> 風化
 
@@ -75,10 +75,10 @@ ht-degree: 9%
 | <b>使用されているレザーの彩度低下</b> <i>0.0 - 1.0</i> | AgeとUsedの効果から、摩耗した革の外観の彩度を設定します。 |
 | <b>使用されている革の明るさ</b> <i>0.0 - 1.0</i> | AgeとUsedエフェクトから使用されている革の外観の明るさを設定します。 |
 | <b>ブレンド</b> |  |
-| <b>Diffuseの適用度</b> <i>0.0 - 1.0</i> | Diffuseの描画強さ。 |
+| <b>Diffuseの適用度</b> <i>0.0 - 1.0</i> | 拡散反射光のブレンド強度。 |
 | <b>Base colorの適用度</b> <i>0.0 - 1.0</i> | ベースカラーのブレンド強度。 |
 | <b>法線の強度</b> <i>0.0 - 1.0</i> | 法線のブレンド強度。 |
-| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularの描画強さ。 |
+| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularのブレンド強度。 |
 | <b>光沢度の適用度</b> <i>0.0 - 1.0</i> | 光沢のブレンド強度。 |
 | <b>ラフネスの適用度</b> <i>0.0 - 1.0</i> | 粗さのブレンド強度。 |
 | <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | アンビエントオクルージョンのブレンド強度。 |
@@ -89,10 +89,10 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-weathering-02.gif" />
+            <img src="../../../../../../assets/leather-ex.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-weathering-03.png" />
+            <img src="../../../../../../assets/leather-ex2.png" />
         </td>
     </tr>
 </table>

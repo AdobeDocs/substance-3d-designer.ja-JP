@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Mesh Data Combinerノードを使用すると、複数のメッシュデータ入力を組み合わせて、高度なメッシュベースのテクスチャを生成することができます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: メッシュデータコンバイナ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
+![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレータ>ユーティリティ
 
