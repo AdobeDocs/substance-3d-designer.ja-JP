@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
 breadcrumb-title: ''
 description: '[フラクタル和 1]ノードを使用して、複数のオクターブを合計して詳細なテクスチャを作成し、フラクタルノイズパターンを作成します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: フラクタル和 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -19,10 +19,6 @@ ht-degree: 2%
 
 
 # フラクタル和 1
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
@@ -45,19 +41,23 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 生成されるノイズをグレースケールビットマップとして表します。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
-| <b>非正方形の展開</b>ブール値 | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
+|:---|:---|
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>非正方形の拡張</b> <i>ブール値</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
 
 ## 例
 
@@ -71,20 +71,6 @@ ht-degree: 2%
 <td style="border: 0;" valign="top">
 
 ![フラクタル和 1 – 例2](../../../../../../assets/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "フラクタル和 1 – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
 
 </td>
 </tr>

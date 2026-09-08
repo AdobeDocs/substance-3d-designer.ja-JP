@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: ホワイトノイズノードを使用して、テクスチャのバリエーションやランダムな効果を作成するためのホワイトノイズパターンを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ホワイトノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -19,10 +19,6 @@ ht-degree: 5%
 
 
 # ホワイトノイズ
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
@@ -43,19 +39,23 @@ ht-degree: 5%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 生成されるノイズをグレースケールビットマップとして表します。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
-| <b>ノイズ分布</b>整数 | ヒストグラムのシェイプを対象に成分を配分する方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>均一：</i>均一なヒストグラムです。</li> <li data-preserve-html="true"><i>ガウス：</i>ベル曲線に似た正規分布を表すヒストグラムです。</li> <li data-preserve-html="true"><i>三角形：</i>三角形のヒストグラムです。</li> </ul> |
-| <b>障害</b>浮動小数点 | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b>浮動小数点 | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+|:---|:---|
+| <b>ノイズ配布</b> <i>整数</i> | ヒストグラムのシェイプを対象に成分を配分する方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>均一：</i>均一なヒストグラムです。</li> <li data-preserve-html="true"><i>ガウス：</i>ベル曲線に似た正規分布を表すヒストグラムです。</li> <li data-preserve-html="true"><i>三角形：</i>三角形のヒストグラムです。</li> </ul> |
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
 
 ## 例
 
@@ -69,20 +69,6 @@ ht-degree: 5%
 <td style="border: 0;" valign="top">
 
 ![ホワイトノイズ – 例2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "ホワイトノイズ – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
 
 </td>
 </tr>
