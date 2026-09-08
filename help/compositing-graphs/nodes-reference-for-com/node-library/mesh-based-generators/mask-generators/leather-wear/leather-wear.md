@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
 breadcrumb-title: ''
-description: Leather Wearノードを使用して、メッシュの曲率と接点に基づいてレザーサーフェスに摩耗マスクを生成します。
+description: Leather Wearノードを使用して、曲率と接点に基づいてレザーサーフェスに摩耗マスクを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leather Wear
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: レザーウェア
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leather-wear.resources/leather-wear-01.png){width="128px"}
+![](../../../../../../assets/leather-wear.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
-このマスクは、レザーのパターンで磨耗を表現し、曲率に基づいてエッジの磨耗を増やします。 機能が[ファイバーグラスEdge Wear](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md)と似ており、パラメーターはほとんど同じです。
+このマスクは、曲率に基づいてエッジの磨耗を増やし、革のパターンで磨耗を表現します。 機能が[ファイバーグラスEdge Wear](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md)と似ており、パラメーターはほとんど同じです。
 
 </td>
 </tr>
@@ -47,8 +47,8 @@ ht-degree: 5%
 
 |  |  |
 |:---|:---|
-| <b>曲線</b> <i>グレースケール入力</i> | エッジの配置に使用するベイク済みマップ。 必須！ |
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 特定の領域を閉塞するベイク済みマップを使用する。 推奨されますが、必須ではありません。 |
+| <b>曲率</b> <i>グレースケール入力</i> | エッジの配置に使用するベイク済みマップ。 必須！ |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 特定の領域を閉塞するベイク済みマップを使用する。 推奨されますが、必須ではありません。 |
 | <b>経年劣化入力</b> <i>グレースケール入力</i> | 「カスタム経年劣化を使用」パラメーターで切り替えることができる、オプションの経年劣化マップ入力スロット。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
@@ -70,7 +70,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leather-wear.resources/leather-wear-02.gif" />
+            <img src="../../../../../../assets/leather-wear-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: Greaseノードを使用して、メッシュジオメトリと接触領域に基づいてグリース蓄積マスクを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グリース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grease.resources/grease-01.png){width="128px"}
+![](../../../../../../assets/grease.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
+ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
 
-このマスクは、特にキャラクタ面やその他の特定領域を対象としています。 Thicknessの低い領域にスキングリースタイプのマスクを生成します。
+このマスクは、特にキャラクターの顔やその他の特定の領域を対象としています。 Thicknessの低い領域にスキングリースタイプのマスクを生成します。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 |  |  |
 |:---|:---|
-| <b>Thickness</b> <i>グレースケール入力</i> | エフェクト全体の基になる厚みマップをベイクしました。 必須！ |
+| <b>Thickness</b> <i>グレースケール入力</i> | エフェクト全体のベースとなるベイク処理されたThicknessマップ。 必須！ |
 | <b>ノイズ</b> <i>グレースケール入力</i> | グリースデータを上書きするためのノイズ経年劣化マップ（オプション）。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
@@ -67,7 +67,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grease.resources/grease-02.gif" />
+            <img src="../../../../../../assets/grease-ex.gif" />
         </td>
     </tr>
 </table>
