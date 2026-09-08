@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
 breadcrumb-title: ''
 description: '[光沢のあるエンボス]ノードを使用して、テクスチャに深度と輝きを加えるための光沢マップを使用したエンボス効果を作成します。'
 helpx_creative_field: ""
@@ -7,33 +7,29 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 光沢入りエンボス
+title: 光沢のあるエンボス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
 
-# 光沢入りエンボス
+# 光沢のあるエンボス
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/emboss-with-gloss.png){width="128px"}
 
-## 光沢入りエンボス
-
-**場所：** *フィルター/効果*
-
-**中級**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,28 +37,27 @@ ht-degree: 2%
 
 他のオプションを含むバージョンについては、[Uber エンボス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)を参照してください。 [エンボス](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)のより単純でアトミックなバージョンもあります。
 
-## パラメーター
-
-### 入力
-
-* **カラー**: *カラー入力*
-* **Height**: *グレースケール入力*
-
-### パラメーター
-
-* **ハイライトの色**: *（色の値）*Specularのハイライトの色。
-* **シャドウカラー**: *（カラー値）*影の領域または明るくない領域で使用されるカラー。
-* **光沢**: *0.0 ～ 0.5*&#x200B;光沢度のハイライトサイズ。
-* **適用度**: *0.0 ～ 10.0*&#x200B;ハイライトの適用度。
-* **光源の角度**: *0.0 ～ 1.0*\
-  （偽物の）光の入射角度。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>色</b> <i>カラー入力</i> |  |
+| <b>Height</b> <i>グレースケール入力</i> |  |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>ハイライトの色</b> <i>（カラー値）</i> | Specularハイライトの色。 |
+| <b>シャドウの色</b> <i>（カラー値）</i> | 影の領域や明るくない領域で使用するカラー。 |
+| <b>光沢</b> <i>0.0 - 0.5</i> | 光沢度ハイライトのサイズ。 |
+| <b>適用度</b> <i>0.0 - 10.0</i> | ハイライトの強さ。 |
+| <b>光源の角度</b> <i>0.0 - 1.0</i> | （偽物の）光の入射角度。 |

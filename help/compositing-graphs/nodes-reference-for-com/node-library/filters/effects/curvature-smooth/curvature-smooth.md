@@ -1,30 +1,30 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
-description: 曲率スムースノードを使用して、サーフェスの詳細を抽出するために高さマップからスムース曲率マップを生成します。
+description: Curvature Smoothノードを使用して、サーフェスの詳細を抽出するためにHeightマップからスムーズな曲率マップを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 曲率スムーズ
+title: 曲線スムーズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
 
 
-# 曲率スムーズ
+# 曲線スムーズ
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![曲率のスムーズノードアイコン](../../../../../../assets/CurvatureSmooth.png "曲率のスムーズノードアイコン"){width="200px"}
+![曲線スムーズノードアイコン](../../../../../../assets/CurvatureSmooth.png "曲線スムーズノードアイコン"){width="200px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-法線マップで表されるサーフェスの曲率を計算します。
+法線マップによって記述されるサーフェスの曲率を計算します。
 
 曲率マップは、サーフェスの凹領域と凸領域を表します。\
 平坦な領域は50%グレーになります。 凸状の領域はより明るく、凹状の領域はより暗くなります。
@@ -46,46 +46,32 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> よりシャープなバージョンについては[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)を、他のオプションが必要な場合は[曲率ソベル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)を参照してください。
+> よりシャープなバージョンには[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)を、その他のオプションが必要な場合には[曲率ソベル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)を参照してください。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-</tr>
-</table>
-
-## 入力コネクター
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>標準</b> *色* <b>プライマリ</b> | 曲率を計算するサーフェスを記述する法線マップ。 |
+|:---|:---|
+| <b>標準</b> <i>色</i> <b>プライマリ</b> | 曲率を計算するサーフェスを記述する法線マップ。 |
 
-## 出力コネクター
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>曲率</b> *グレースケール* | 曲率マップは入力法線マップから計算されました。   平坦な領域は50%グレーになります。 凸状の領域はより明るく、凹状の領域はより暗くなります。 |
-| <b>凸面</b> *グレースケール* | 入力法線マップから計算された凸状マップ。   領域が凸状であるほど、マップ内の領域は明るくなります。  平坦な領域または凹状の領域は黒になります。 |
-| <b>凹部</b> *グレースケール* | 入力法線マップから計算された凹部マップ。   領域が凹面であるほど、マップ内の領域は明るくなります。  平坦または凸状の領域は黒になります。 |
+|:---|:---|
+| <b>曲線</b> <i>グレースケール</i> | 入力法線マップから計算された曲率マップ。   平坦な領域は50%グレーになります。 凸状の領域はより明るく、凹状の領域はより暗くなります。 |
+| <b>凸面</b> <i>グレースケール</i> | 入力法線マップから計算された凸状マップ。   領域が凸状であるほど、マップ内の領域は明るくなります。  平坦な領域または凹状の領域は黒になります。 |
+| <b>凹部</b> <i>グレースケール</i> | 入力法線マップから計算された凹部マップ。   領域が凹面であるほど、マップ内の領域は明るくなります。  平坦または凸状の領域は黒になります。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>標準の形式</b> *整数* | 入力法線マップの形式。 グリーンチャンネルを効果的に反転します。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> Y軸は上を指しています</li> <li data-preserve-html="true"><b style="">OpenGL:</b> Y軸が下向き</li> </ul> |
 
 ## 例

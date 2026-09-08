@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: UVノードを使用してUV空間に拡散効果を適用し、滑らかな色の変化とブレンドを作成します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
 
-**場所：** *フィルター/効果*
-
-**中級**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -49,45 +47,40 @@ ht-degree: 1%
 </tr>
 </table>
 
-## パラメーター
-
-* **反復**: *0.0 ～ 64.0*&#x200B;実行する拡散反復の数です（値を大きくすると良くなりますが、時間がかかります）。 有効な値は[8, 48]の範囲です。\
-  数学的な正確さを求めていない場合は、低い値でも良い結果が得られます。
+<a name="inputs"></a>
 
 ## 入力
 
-* **ソース** *色*\
-  拡散するUV。 このフィルターでは、タイリングが特別な方法で処理されることに注意してください（*説明*&#x200B;を参照）。
-* **マスク** *グレースケール*&#x200B;拡散マスク：白のピクセルが&#x200B;*ソース*&#x200B;でサンプリングされ、黒のピクセルで拡散されます。 画像は白黒である必要があります。 マスクにグラデーションが含まれている場合、カットオフ値は0.5です。
+|  |  |
+|:---|:---|
+| <b>ソース</b> <i>色</i> | 拡散するUV。 このフィルターでは、タイリングが特別な方法で処理されることに注意してください（<i>説明</i>を参照）。 |
+| <b>マスク</b> <i>グレースケール</i> | 拡散マスク：白のピクセルが<i>ソース</i>でサンプリングされ、黒のピクセルで拡散されます。 画像は白黒である必要があります。 マスクにグラデーションが含まれている場合、カットオフ値は0.5です。 |
 
-## サンプル画像
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## パラメーター
 
-![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>反復</b> <i>0.0 - 64.0</i> | 実行する反復の数（大きい方が望ましいが遅い）。 有効な値は[8, 48]の範囲です。<br>数学的に正しい値を求めない場合は、小さい値でも問題ありません。 |
 
-</td>
-<td style="border: 0;" valign="top">
+## 例
 
-![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01a-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01a-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01b-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01b-after.jpg" />
+        </td>
+    </tr>
 </table>

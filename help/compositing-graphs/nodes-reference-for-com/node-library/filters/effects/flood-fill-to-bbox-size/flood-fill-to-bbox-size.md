@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
 description: '[Flood Fillからボックスサイズへ]ノードを使用して、プロシージャスケーリング効果のバウンディングボックスサイズ値で領域を塗りつぶします。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fillのサイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
 
-## Flood Fillのサイズ
-
-**場所：** *フィルター/効果*
-
-**単純**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,16 +37,24 @@ ht-degree: 1%
 
 値はカンバスサイズ全体に対する相対値で表示されます（完全な白いタイルの場合、カンバス全体が引き伸ばされます）。したがって、コントラストは低くなることがよくあります。
 
-## パラメーター
-
-* **出力**: *最大(X, Y), X, Y*&#x200B;値の基準となるメトリック（幅、長さ、またはその両方）を設定します。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodbbox-ex1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>出力</b> <i>最大(X, Y), X, Y</i> | 値の基準となるメトリック（幅、長さまたはその両方）を設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/floodbbox-ex1.png" />
+        </td>
+    </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
-description: 3D テクスチャのSDFノードを使用して、滑らかな形状や効果を作成するために、3Dデータから符号付き距離フィールドテクスチャを生成します。
+description: 3DテクスチャSDFノードを使用して、滑らかな形状と効果を作成するために、3Dデータから署名付き距離フィールドテクスチャを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture SDF
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3DテクスチャSDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -22,59 +22,52 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/3dtexturesdf.png){width="200px"}
 
-**イン：** *フィルター/効果*
-
-**単純**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-**3D テクスチャ SDF**&#x200B;ノードは、図形の&#x200B;*体積*&#x200B;のスライスを表す&#x200B;**入力**&#x200B;の&#x200B;*3D テクスチャ*&#x200B;マスクから、図形の&#x200B;*符号付き距離フィールド*&#x200B;を生成します。
+**3DテクスチャSDF**&#x200B;ノードは、図形の&#x200B;*体積*&#x200B;のスライスを表す&#x200B;**入力**&#x200B;の&#x200B;*3Dテクスチャ*&#x200B;マスクから、図形の&#x200B;*署名付き距離フィールド*&#x200B;を生成します。
 
 </td>
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>マスク入力</b> <i>グレースケール</i> | 図形の<i>体積</i>のスライスを表す<i>3Dテクスチャ</i>マスクです。 |
+
+<a name="parameters"></a>
+
 ## パラメーター
 
-### 入力
+|  |  |
+|:---|:---|
+| <b>しきい値</b> <i>フロート</i> | シェイプのボリュームが<i>フェードグラデーション</i>で記述されている場合、シェイプの<i>サーフェス</i>が<i>検出</i>されるグラデーション値を設定します。 |
+| <b>出力</b> <i>整数</i> | 出力する必要がある距離フィールドの種類：<br>- <i>距離フィールド</i>：図形の<i>外側</i>の距離を示す距離フィールドを出力します。<br>- <i>符号付き距離場</i>：図形の<i>外側</i> （正）と<i>内側</i> （負）の距離を示す距離フィールドを出力します。 |
 
-* **マスク入力** *グレースケール*\
-  図形の&#x200B;*ボリューム*&#x200B;のスライスを表す&#x200B;*3D テクスチャ*&#x200B;マスクです。
+## 例
 
-### パラメーター
-
-* **しきい値** *浮動小数*\
-  シェイプのボリュームが&#x200B;*フェードグラデーション*&#x200B;で記述されている場合、シェイプの&#x200B;*サーフェス*&#x200B;が&#x200B;*検出*&#x200B;されるグラデーション値を設定します。
-* **出力** *整数*\
-  出力する距離フィールドのタイプ：
-  * *距離フィールド*：図形の&#x200B;*外側*&#x200B;の距離を示す距離フィールドを出力します。
-  * *符号付き距離場*：図形の&#x200B;*外側* （正）と&#x200B;*内側* （負）の距離を示すディスタンスフィールドを出力します。
-
-## サンプル画像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dtexturesdf-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dtexturesdf-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dtexturesdf-node.png" />
+        </td>
+    </tr>
 </table>

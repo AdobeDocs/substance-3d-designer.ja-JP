@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
 description: シェイプドロップシャドウノードを使用してシェイプにドロップシャドウ効果を加え、テクスチャの深度と奥行きを出します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: シェイプドロップシャドウ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/shape-dropshadow-grayscale.png){width="128px"}
 
 ![](../../../../../../assets/shape-dropshadow.png){width="128px"}
 
-## シェイプドロップシャドウ（グレースケール）
-
-**場所：** *フィルター/効果*
-
-**中級**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,25 +39,32 @@ ht-degree: 0%
 
 [シャドウ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md)効果とは異なり、完全な透明度が適用された画像を返し、他のソフトウェアで期待されるものと同様の完全な効果が得られます。
 
-## パラメーター
-
-* **角度**: *0.0 ～ 1.0*&#x200B;光（フェイク）の入射角度。
-* **距離**: *-0.5 - 0.5*&#x200B;影のドロップダウンと図形との間の距離を調整します。
-* **サイズ**: *0.0 ～ 1.0*&#x200B;影のぼかしやぼやけを制御します。
-* **スプレッド**: *0.0 ～ 1.0*&#x200B;ぼかし効果のカットオフ/トレショルドを設定すると、シャドウがさらに広がります。
-* **不透明度**: *0.0 ～ 1.0*\
-  シャドウ効果のブレンド不透明度。
-* **（シャドウ）カラー**: *（カラー値）*シャドウに適用される色の濃淡。
-* **マスクカラー**: *（カラー値） *（グレースケールバージョンのみ）**透明度マップされた出力に使用される単色。
-* **入力は事前に乗算されています**: *False/True *（カラーバージョンのみ）**入力を事前に乗算されたものと見なすかどうかを指定します。
-* **Pre-Multiply Output**: *False/True*&#x200B;出力を事前に乗算するかどうかを指定します。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/dropshadowex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>角度</b> <i>0.0 - 1.0</i> | （フェイク）ライトの入射角度。 |
+| <b>距離</b> <i>-0.5 - 0.5</i> | シャドウのドロップの位置をシェイプの下の方に移動します。 |
+| <b>サイズ</b> <i>0.0 - 1.0</i> | シャドウのぼかし/ぼかしを制御します。 |
+| <b>スプレッド</b> <i>0.0 - 1.0</i> | ぼかし効果のカットオフ/しきい値を設定すると、シャドウがさらに広がります。 |
+| <b>不透明度</b> <i>0.0 - 1.0</i> | シャドウ効果のブレンド不透明度。 |
+| <b> （シャドウ）カラー</b> <i>（カラー値）</i> | シャドウに適用される色かぶり。 |
+| <b>マスクの色</b> <i>（カラー値） （グレースケールバージョンのみ）</i> | 透明マップ出力に使用される単色。 |
+| <b>入力は事前に乗算されています</b> <i>False/True （カラーバージョンのみ）</i> | 入力を事前に乗算されたものと見なすかどうかを指定します。 |
+| <b>乗算前出力</b> <i>False/True</i> | 出力を事前に乗算するかどうかを指定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/dropshadowex.png" />
+        </td>
+    </tr>
 </table>
