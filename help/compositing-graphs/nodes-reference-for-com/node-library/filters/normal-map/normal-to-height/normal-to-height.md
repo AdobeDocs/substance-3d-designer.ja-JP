@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
 breadcrumb-title: ''
 description: '[法線からHeight]ノードを使用して、サーフェスの深度情報を抽出するために法線マップをHeightマップに変換します。'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Heightに垂直
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/normal-to-height.png){width="128px"}
 
-## Heightに垂直
-
-**場所：** *フィルター/法線マップ*
-
-**中級**
+<b>イン：</b>フィルター> 法線マップ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,19 +37,26 @@ ht-degree: 1%
 
 ノーマルマップソースしかなくても、ハイトマップと組み合わせて操作を実行したい場合に便利です。 Heightを通常に変換すると情報が失われるため、100%正しい結果を得ることはできないことに注意してください。 必要に応じて設定を調整すると、この非HQバージョンでは単純なディテールを適切に変換できます。
 
-## パラメーター
-
-* **リリーフバランス**: *0.0 ～ 1.0*&#x200B;周波数の違いが最終結果に与える影響の度合いを調整します。 これは入力マップに大きく依存し、かなりの微調整が必要です。
-* **標準の形式**: *DirectX、OpenGL*\
-  異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。
-* **グローバルの不透明度**: *0.0 ～ 1.0*&#x200B;効果のグローバルの不透明度を調整します。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2heightex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>リリーフ残高</b> <i>0.0 - 1.0</i> | 異なる周波数が最終結果に影響する範囲を調整します。 これは入力マップに大きく依存し、かなりの微調整が必要です。 |
+| <b>標準の形式</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |
+| <b>グローバル不透明度</b> <i>0.0 - 1.0</i> | エフェクトの不透明度をグローバルに調整します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/normal2heightex.png" />
+        </td>
+    </tr>
 </table>

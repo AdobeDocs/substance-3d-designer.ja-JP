@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: 「自動切り抜き」ノードを使用して、テクスチャを自動的に切り抜き、空の境界線を削除して、テクスチャの寸法を最適化します。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 自動切り抜き
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
@@ -39,12 +39,10 @@ ht-degree: 0%
 </tr>
 </table>
 
-**イン：**&#x200B;フィルター*/変形*
-
-**単純**
+<b>イン：</b>フィルター/変形
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -56,53 +54,37 @@ ht-degree: 0%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## パラメーター
 
-* **モード** *整数*&#x200B;適用する切り抜き方法を設定します：
-  * *正方形の切り抜き*：画像を完全に含めることができる最も小さい&#x200B;*正方形*&#x200B;画像の中心にシェイプが配置されるように、画像が切り抜かれます
-  * *自動で切り抜く*：画像を完全に含めることができる最も小さい&#x200B;*正方形または非正方形*&#x200B;画像の中心に画像が切り抜かれます
-  * *全体表示（縦横比を維持）*：画像は、*縦横比* （幅と長さの比率）を維持しながら、画像の&#x200B;*フルスパン*&#x200B;にサイズ変更されます
-  * *塗りつぶし(伸縮)*：画像は、画像の&#x200B;*フルスパン*&#x200B;にサイズ変更されます
-* **アルファ**&#x200B;を使用&#x200B;*ブーリアン&#x200B;***入力**&#x200B;のアルファチャンネルを使用して、切り抜き用の画像コンテンツの&#x200B;*境界*&#x200B;を指定します。 *False*&#x200B;に設定すると、代わりに黒のピクセルが使用されます。\
-  *注意*：このパラメーターは、ノードの&#x200B;**Color**&#x200B;バージョンでのみ使用できます。
-* **フィルターリングモード** *整数*&#x200B;ピクセル間の&#x200B;*補間*&#x200B;でサンプリングされた結果を処理する方法を定義します：
-  * *最も近い*: *同じ*&#x200B;値を正確にサンプリングします（高速）
-  * *バイリニア*：結果にバイリニアのフィルターを適用して、*より滑らかな*&#x200B;外観にします
-  * *自動*：選択した&#x200B;**モード**&#x200B;に応じて、上の2つのモードのうち最も適切なモードを切り抜きに使用します
+|  |  |
+|:---|:---|
+| <b>モード</b> <i>整数</i> | 適用する切り抜き方法を設定します。<br><br>- <i>正方形の切り抜き</i>：画像を切り抜いて、シェイプが完全に含まれる最小<i>正方形</i>画像の中心になるようにします。<br>- <i>自動の切り抜き</i>：画像を完全に含まれる最小<i>正方形または非正方形</i>画像の中心になるようにします。<br>- <i>全体像</i> <i>縦横比</i> （幅と長さの比率）<br>- <i>塗りつぶし(伸縮)</i>：画像は、画像の<i>フルスパン</i>にサイズ変更されます</i><i> |
+| <b>アルファを使用</b> <i>ブール値</i> | <b>入力</b>のアルファチャンネルを使用して、切り抜く画像のコンテンツの<i>境界</i>を指定します。 <i>False</i>に設定すると、代わりに黒のピクセルが使用されます。<br><br><i>注意：</i>このパラメーターは、ノードの<b>Color</b>バージョンでのみ使用できます。 |
+| <b>フィルターモード</b> <i>整数</i> | ピクセル間の<i>補間</i>が<br><br>- <i>最も近い</i>：正確に<i>同じ</i>値（高速）<br>- <i>バイリニア</i>: <i>より滑らかな</i>外観<br>- <i>自動</i>：切り抜き用に選択した<b>モード</b>に応じて、上の2つのモードのうち最も適切なモードを使用します |
 
-## サンプル画像
+## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-demo-01-resized.gif){width="768px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant.jpg){width="128px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant4.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant3.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-node.png){width="420px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/autocrop-demo-01-resized.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/autocrop-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/autocrop-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/autocrop-variant4.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/autocrop-variant3.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/autocrop-node.png" />
+        </td>
+    </tr>
 </table>

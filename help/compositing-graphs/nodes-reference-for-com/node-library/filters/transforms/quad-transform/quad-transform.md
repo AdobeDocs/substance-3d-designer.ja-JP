@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
 description: クアッドメニューの[変形]ノードを使用して、遠近法の補正とワープを行うテクスチャに四辺形変換を適用します。
 helpx_creative_field: ""
@@ -7,55 +7,61 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 四角形の変形
+title: クアッド変形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 2%
 
 ---
 
 
-# 四角形の変形
+# クアッド変形
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
 
 ![](../../../../../../assets/quad-transform.png){width="128px"}
 
-## クアッド変形（グレースケール）
-
-**場所：** *フィルター/変形*
-
-**中級**
+<b>イン：</b>フィルター/変形
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
 特別な変形ノードで、四角形のシェイプをコーナーポイントとのインタラクションを通してトランスフォームできます。 非常に具体的な変形を実践的に行えます。
 
-## パラメーター
-
-* **p00**：左上のポイントです。
-* **p01**：左下の点
-* **p10**：右上の点。
-* **p11**：右下の点。
-* **カリング**: *前面のみ、背面のみ、前面から背面、背面から前面*&#x200B;ポイントが交差している場合にシェイプのカリング/非表示を設定します。
-* **タイリングを有効にする**: *False/True*
-* **背景色**: *（グレースケール値）*タイリングがオフの場合は単色の背景色。
-* **サンプリング**: *バイリニア、最も近い*&#x200B;サンプリング品質を設定します。
-
-## サンプル画像
-
-![](../../../../../../assets/quad-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>p00</b> | 左上のポイント： |
+| <b>p01</b> | 左下の点 |
+| <b>p10</b> | 右上のポイント。 |
+| <b>p11</b> | 右下の点： |
+| <b>カリング</b> <i>前面のみ、背面のみ、前面から背面、背面から前面</i> | ポイントが互いに交差している場合のシェイプのカリング/非表示を設定します。 |
+| <b>タイリングを有効にする</b> <i>False/True</i> |  |
+| <b>背景色</b> <i>（グレースケール値）</i> | タイリングがオフの場合は、背景色は塗りつぶされます。 |
+| <b>サンプリング</b> <i>バイリニア、最も近い</i> | サンプリング品質を設定します。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/quad-example.gif" />
+        </td>
+    </tr>
 </table>

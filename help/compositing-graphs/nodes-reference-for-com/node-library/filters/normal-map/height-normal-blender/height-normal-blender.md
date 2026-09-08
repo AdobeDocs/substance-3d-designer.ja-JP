@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
 description: Height法線ブレンダーノードを使用して、サーフェスのディテール情報を組み合わせるHeightと法線マップをブレンドします。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Heightノーマルブレンダー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/height-normal-blender.png){width="128px"}
 
-## Heightノーマルブレンダー
-
-**場所：** *フィルター/法線マップ*
-
-**単純**
+<b>イン：</b>フィルター> 法線マップ
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,27 +37,24 @@ ht-degree: 2%
 
 これは、個別のノードを使用して手動でディテールをブレンドするよりも迅速にディテールをブレンドする方法ですが、特定のニーズに対するコントロールと調整が欠けている場合があります。
 
-## パラメーター
-
-### 入力
-
-* **Height**: *グレースケール入力*\
-  ブレンドするグレースケールの高さ。
-* **標準**: *カラー入力*\
-  ブレンドするベース法線マップ。
-
-### パラメーター
-
-* **法線の強さ**: *0.0 ～ 16.0* Height入力の法線の強さ。
-* **標準の形式**: *DirectX、OpenGL*\
-  異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。
-
-## サンプル画像
-
-|  |
-| --- |
-| このページに添付された画像はありません。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>グレースケール入力</i> | ブレンドするグレースケールの高さ。 |
+| <b>標準</b> <i>カラー入力</i> | ブレンドするベース法線マップ。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>法線の強度</b> <i>0.0 - 16.0</i> | Height入力の標準変換の強さ。 |
+| <b>標準の形式</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |
