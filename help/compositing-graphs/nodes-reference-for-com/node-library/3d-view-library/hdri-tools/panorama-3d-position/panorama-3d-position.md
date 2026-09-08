@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
 breadcrumb-title: ''
 description: 「パノラマ3D位置」ノードを使用して、カスタムの照明環境を作成するために、3D空間にHDRIパノラマを配置します。
 helpx_creative_field: ""
