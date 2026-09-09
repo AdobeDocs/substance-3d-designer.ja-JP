@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
-description: ノイズを軽減し、カラーテクスチャでエッジを保持するには、「中間値フィルター」カラーノードを使用します。
+description: 中間値フィルターカラーノードを使用して、ノイズを軽減し、カラーテクスチャのエッジを保持します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 中間フィルターカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![フィルターの色の中央値：アイコン](../../../../../../assets/MedianFilter_Icon_Color.png "フィルターの色の中央値：アイコン")
+![フィルターの色の中央値：アイコン](median-filter-color.resources/MedianFilter_Icon_Color.png "フィルターの色の中央値：アイコン")
 
 <b>イン:</b>フィルター/ぼかし
 
@@ -76,11 +76,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-color.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-color.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>後</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="median-filter-color.resources/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="median-filter-color.resources/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>後</i>
     </td>
   </tr>
