@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラフパラメーター
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![基本パラメーター](../../assets/doc-graph-props-base-params.png "基本パラメーター"){width="512px" zoomable="yes"}
+![基本パラメーター](graph-parameters.resources/doc-graph-props-base-params.png "基本パラメーター"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ ht-degree: 1%
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>出力サイズ</b> | このパラメーターを使用すると、グラフ内の画像の&#x200B;*基本解像度*&#x200B;を選択できます。  次を使用します <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> サイズを調整するときに、高さの値と幅の値が一致して画像の正方形を維持するためのロックボタン。<br><br>*デフォルト: (0,0) – 親を基準にする* [詳細](../../compositing-graphs/output-size/output-size.md) |
-| <b>出力形式</b> | グラフの&#x200B;*基本ビット深度*&#x200B;を次のオプションから選択できます：<ul data-preserve-html="true"><li data-preserve-html="true">8ビット</li><li data-preserve-html="true">16ビット</li><li data-preserve-html="true">HDR低精度16F（16ビット浮動小数点）</li><li data-preserve-html="true">HDR高精度32F（32ビット浮動小数点）</li></ul>*既定： 8 Bit/チャンネル – 親に対する相対* |
-| <b>ピクセルサイズ</b> | ピクセルサイズを定義します。 **幅**&#x200B;と&#x200B;**Height**&#x200B;の両方の値を&#x200B;**1**&#x200B;に設定しておくことをお勧めします。*既定： (1,1) – 親に相対的* |
-| <b>タイルモード</b> | グラフの基本&#x200B;*タイルモード*&#x200B;を次のオプションから定義します：<ul data-preserve-html="true"> <li data-preserve-html="true">タイリングなし</li> <li data-preserve-html="true">水平方向タイリング</li> <li data-preserve-html="true">垂直方向タイリング</li> <li data-preserve-html="true">水平および垂直(H+V)タイリング</li> </ul>*既定： HとVの分割 – 親を基準とする* |
-| <b>ランダムシード</b> | グラフのベース&#x200B;*ランダムシード*&#x200B;を定義します。  次を使用します <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> 新しいランダム値をランダムシードに割り当てるボタン。<br><br>*既定： 0 – 親に対する相対* |
+| <b>出力サイズ</b> | このパラメーターを使用すると、グラフ内の画像の&#x200B;*基本解像度*&#x200B;を選択できます。  次を使用します <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/props-output-size-lock.jpg"/></div> サイズを調整するときに、高さの値と幅の値が一致して画像の正方形を維持するためのロックボタン。<br><br>*デフォルト: (0,0) – 親を基準にする* [詳細](../../compositing-graphs/output-size/output-size.md) |
+| <b>出力形式</b> | グラフの&#x200B;*基本ビット深度*&#x200B;を次のオプションから選択できます：<ul data-preserve-html="true"><li data-preserve-html="true">8ビット</li><li data-preserve-html="true">16ビット</li><li data-preserve-html="true">HDR低精度16F（16ビット浮動小数点）</li><li data-preserve-html="true">HDR高精度32F（32ビット浮動小数点）</li></ul>*既定： 8ビット/チャンネル – 親に相対的* |
+| <b>ピクセルサイズ</b> | ピクセルサイズを定義します。 **幅**&#x200B;と&#x200B;**Height**&#x200B;の両方の値を&#x200B;**1**&#x200B;に設定しておくことをお勧めします。*既定： (1,1) -親に相対的* |
+| <b>タイリングモード</b> | 次のオプションから、グラフの基本&#x200B;*タイリングモード*&#x200B;を定義します：<ul data-preserve-html="true"> <li data-preserve-html="true">タイリングなし</li> <li data-preserve-html="true">水平方向タイリング</li> <li data-preserve-html="true">垂直方向タイリング</li> <li data-preserve-html="true">水平および垂直方向の水平および垂直タイリング</li> </ul>*既定：縦と横のタイリング-親に相対的* |
+| <b>ランダムシード</b> | グラフのベース&#x200B;*ランダムシード*&#x200B;を定義します。  次を使用します <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/prop-randomise.jpg"/></div> 新しいランダム値をランダムシードに割り当てるボタン。<br><br>*既定： 0 -親に相対的* |
 
 <table>
 <tr style="border: 0;">
@@ -67,12 +67,12 @@ ht-degree: 1%
 
 ## 属性
 
-<b>属性</b>セクションには、グラフの&#x200B;*メタデータ*&#x200B;が含まれています。このメタデータは、作成者のデザインに従ってグラフを&#x200B;*識別*、*分類*&#x200B;および&#x200B;*適用*&#x200B;するための情報を提供します。
+<b>属性</b>セクションには、グラフの&#x200B;*メタデータ*&#x200B;が含まれています。このメタデータは、作成者の設計に従ってグラフを&#x200B;*識別*、*分類*&#x200B;および&#x200B;*適用*&#x200B;するための情報を提供します。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グラフの属性](../../assets/doc-graph-props-attributes.png "グラフの属性"){zoomable="yes"}
+![グラフ属性](graph-parameters.resources/doc-graph-props-attributes.png "グラフ属性"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,8 +82,8 @@ ht-degree: 1%
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **識別子** | これはグラフの名前であり、*一意*&#x200B;である必要があります。同じパッケージ内に同じ<b>識別子</b>を持つ複数のグラフを含めることはできません。 [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルでグラフの&#x200B;*名前*&#x200B;として使用されています。<br><br>*注意：*&#x200B;識別子&#x200B;*を空の文字列*&#x200B;にすることはできません。 空の文字列は自動的に`_`または`Substance_graph`に置き換えられます。 この値には次の文字を&#x200B;*のみ*&#x200B;使用できます： *`A-Z, 1-9, @$%[{]}_-`.* 承認されていない文字は自動的に`_`で置き換えられます。<br><br>*既定： New\_Graph、またはグラフ作成時にユーザーが設定します* |
-| **ラベル** | *ユーザー向け*&#x200B;のシナリオ（例： [ライブラリ](../../interface/the-library/the-library.md)エントリまたは[インスタンスノード](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ラベル）で読みやすさを向上させるために、<b>ID</b>の代わりに<b>Label</b>を使用して&#x200B;*名前*&#x200B;のグラフを表示します。  ラベルは&#x200B;*一意ではない*&#x200B;ことができ、特殊文字を含めることができます。<br><br>*ヒント：*&#x200B;グラフの名前を変更する場合（例： [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)）、そのラベルも変更できます！<br><br>*既定：空* |
+| **識別子** | これはグラフの名前であり、*一意*&#x200B;である必要があります。同じパッケージ内に同じ<b>識別子</b>を持つグラフを複数持つことはできません。 [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルでグラフの&#x200B;*名前*&#x200B;として使用されています。<br><br>*注意：* 識別子 *を空の文字列*&#x200B;にすることはできません。 空の文字列は自動的に`_`または`Substance_graph`に置き換えられます。 この値には次の文字を&#x200B;*のみ*&#x200B;使用できます： *`A-Z, 1-9, @$%[{]}_-`.* 許可されていない文字は自動的に`_`に置き換えられます。<br><br>*既定： New\_user、またはグラフ作成時にグラフによって設定されます* |
+| **ラベル** | <b>ラベル</b>は、<b>識別子</b>の代わりに使用され、*ユーザー向け*&#x200B;のシナリオ（例： [ライブラリ](../../interface/the-library/the-library.md)エントリまたは[インスタンス化](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ラベル）で&#x200B;*名前*&#x200B;のグラフを表示して読みやすくします。  ラベルは&#x200B;*一意ではない*&#x200B;ことができ、特殊文字を含めることができます。<br><br>*ヒント：*&#x200B;グラフの名前を変更する場合（例： [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)）、そのラベルも変更できます！<br><br>*既定：空* |
 | **型** | <b>型</b>は、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)の目的を定義するために使用されます。 主に、[&#39;送信&#39;相互運用性機能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)を対象としています。 |
 | **マテリアルモデル** | グラフのマテリアルモデルを設定すると、モデルに一致するシェーダ&#x200B;*が利用可能な場合、3Dビューで適切なシェーダが使用されるようになります。<br>例：* 3Dビューで`OpenPBR v1.1`マテリアルモードでグラフを表示すると、ターゲットマテリアルの`OpenPBR Surface`シェーダが選択されます。<br><br>一致するシェーダが見つからない場合、またはグラフのモデルが`Undefined`に設定されている場合、3Dビューのターゲットマテリアルに使用されるシェーダは&#x200B;*変更されていません*&#x200B;です。 |
 | **物理サイズ** | この値は、*物理ワールド*&#x200B;のテクスチャの次元をX （長さ）、Y （幅）、Z (Height)で指定します。 したがって、グラフで生成されるマテリアルと本質的に関連しています。 例えば、物理サイズを使用して、<b>2Dビュー</b>と<b>3Dビュー</b>でテクスチャを正しい比率で表示できます。<br><br>*ヒント：* Substanceグラフの物理サイズは、$physicalsize [組み込み変数](../../function-graphs/variables/system-variables/system-variables.md)を使用して、グラフ内の任意のSubstanceに適用されたノード関数グラフでFloat3値として取得できます。<br><br>*注意：* **Z**&#x200B;の値2&rbrace;は、現在、*には0 **3Dビュー**。*&#x200B;したがって、マテリアルの&#x200B;**Heightスケール**&#x200B;の値は、**heightscale**&#x200B;の使用量に設定された&#x200B;**Output**&#x200B;ノードを使用するか、直接&#x200B;**マテリアルのプロパティ**&#x200B;で設定する必要があります。<br><br>*既定： (0,0,0)* |
@@ -116,7 +116,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![入力パラメーター](../../assets/doc-graph-props-input-parameters.png "入力パラメーター"){zoomable="yes"}
+![入力パラメーター](graph-parameters.resources/doc-graph-props-input-parameters.png "入力パラメーター"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![入力](../../assets/doc-graph-props-inputs.png "入力"){zoomable="yes"}
+![入力](graph-parameters.resources/doc-graph-props-inputs.png "入力"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![出力](../../assets/doc-graph-props-outputs.png "出力"){zoomable="yes"}
+![出力](graph-parameters.resources/doc-graph-props-outputs.png "出力"){zoomable="yes"}
 
 </td>
 </tr>

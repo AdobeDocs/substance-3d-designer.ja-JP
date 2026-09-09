@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラフインスタンスとサブグラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # グラフインスタンスとサブグラフ
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 グラフインスタンスは、<b>別のグラフを参照</b>するノードです。 ホストグラフのインスタンスノードによって参照されるグラフは、ホストグラフの<b>サブグラフ</b>と呼ばれることがあります。
 
@@ -62,14 +62,14 @@ Designerで複数のノードのチェーンを複製する場合は、再利用
 
 ### グラフインスタンスのソースグラフを検査できますか？
 
-![(tick)](../../../assets/check.svg)はい。**Substance 3Dファイル(SBS)**&#x200B;から読み込まれたグラフのインスタンスの場合は、*のみ*&#x200B;です。 これらのインスタンスノードには&#x200B;*濃い赤*&#x200B;ラベルがあります。\
+![(tick)](graph-instances-sub-graphs.resources/check.svg)はい。**Substance 3Dファイル(SBS)**&#x200B;から読み込まれたグラフのインスタンスの場合は、*のみ*&#x200B;です。 これらのインスタンスノードには&#x200B;*濃い赤*&#x200B;ラベルがあります。\
 ノードを右クリックしてコンテキストメニューを開き、[**参照を開く**]オプションを選択します。
 
 >[!NOTE]
 >
 > ソースグラフを検査するときに、[環境設定](../../../interface/preferences-window/preferences-window.md)の&#x200B;**グラフ**&#x200B;セクションで&#x200B;**コンテキスト内編集**&#x200B;オプションが&#x200B;*オン*&#x200B;の場合は、インスタンスのグラフの入力データを使用できます。
 
-![(minus)](../../../assets/forbidden.svg) **Substance 3Dアセット(SBSAR)**&#x200B;インスタンスから読み込まれたグラフは既にコンパイルされているため、*検査できません*。 公開されたグラフのリストとそのパラメーターを確認するには、**エクスプローラー**&#x200B;パネルにアセットを読み込むだけです。 これらのインスタンスノードには&#x200B;*緑*&#x200B;ラベルがあります。\
+![(minus)](graph-instances-sub-graphs.resources/forbidden.svg) **Substance 3Dアセット(SBSAR)**&#x200B;インスタンスから読み込まれたグラフは既にコンパイルされているため、*検査できません*。 公開されたグラフのリストとそのパラメーターを確認するには、**エクスプローラー**&#x200B;パネルにアセットを読み込むだけです。 これらのインスタンスノードには&#x200B;*緑*&#x200B;ラベルがあります。\
 ノードを右クリックしてコンテキストメニューを開き、[**パッケージの読み込み**]オプションを選択します。
 
 >[!NOTE]

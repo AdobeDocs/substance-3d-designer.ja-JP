@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ベベルスムーズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -45,47 +45,33 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> [方向の距離](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)ノードも同様の機能を提供しますが、拡張は特定の方向で行われます。
+> [方向の距離](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)ノードも同様の機能を提供しますが、拡張は特定の方向に行われます。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### パラメーター
-
-</td>
-</tr>
-</table>
-
-## 入力コネクター
+## 入力
 
 |  |  |
-| --- | --- |
-| <b>マスク入力</b> *グレースケール*&#x200B;プライマリ | マスクの抽出元の画像。   「マスクのしきい値」の値を超えるすべての値は、そのマスクでは白になります。 |
-| <b>ソース入力</b> *グレースケール* | &#39;Output Mode&#39;パラメーターが&#39;拡張&#39;に設定されている場合にのみ使用されるオプションの入力です。   その場合、この画像はマスクの白い領域にオーバーレイされ、境界線のグレースケール値は拡張されます。 |
-| <b>距離マップ</b> *グレースケール* | [距離マップマルチプライヤ]パラメータの値が0より大きい場合に使用されるオプションの入力。   マスクの境界線に沿ってベベルと拡張の間隔を調整する場合に使用します。暗い値を指定すると間隔が短くなります。 |
+|:---|:---|
+| <b>マスク入力</b> <i>グレースケール</i>プライマリ | マスクの抽出元の画像。   「マスクのしきい値」の値を超えるすべての値は、そのマスクでは白になります。 |
+| <b>ソース入力</b> <i>グレースケール</i> | &#39;Output Mode&#39;パラメーターが&#39;Divalsion&#39;に設定されている場合にのみ使用されるオプション入力です。   その場合、この画像はマスクの白い領域にオーバーレイされ、境界線のグレースケール値は拡張されます。 |
+| <b>距離マップ</b> <i>グレースケール</i> | [距離マップマルチプライヤ]パラメータの値が0より大きい場合に使用されるオプションの入力。   マスクの境界線に沿ってベベル/膨張の距離を調整します。暗い値にすると距離が短くなります。 |
 
-## 出力コネクター
+<a name="outputs"></a>
+
+## 出力
 
 |  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* | 選択した「出力モード」に従った結果画像。 |
-| <b>UV</b> *色* | マスクの境界に沿ってUVを広げるUVマップ。   これは、[UVマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)ノードに接続して、拡張されたUVを使用して他の画像をマッピングできます。 |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 選択した「出力モード」に従った結果画像。 |
+| <b>UV</b> <i>色</i> | マスクの境界に沿ってUVを広げるUVマップ。   これは、[UVマッパー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)ノードに接続して、拡張されたUVを使用して他の画像をマッピングできます。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>出力モード</b> *整数* | マスクの境界線を広げる方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>ベベル：</b>最大&#39;距離&#39;で0に達する位置で1から0までグラデーションを描画します</li> <li data-preserve-html="true"><b>膨張：</b>均一な色を&#39;最大距離&#39;まで描画します。 このカラーは白です。または、マスクの境界線にあるカラー「ソース入力」画像（接続されている場合）です</li> <li data-preserve-html="true"><b>距離：</b>最も近いマスク境界からの未加工の距離（正規化されたイメージスペース）。1はイメージの最短辺の長さです</li> </ul> |
 | <b>方向</b> *整数* *&#39;出力モード&#39;が&#39;ベベル&#39;または&#39;拡張&#39;に設定されている場合に使用できます* | 拡張する必要があるマスク境界の側：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>内側：</b>マスクの内側に向かって描画します</li> <li data-preserve-html="true"><b>外側：</b>マスクの外側に向かって描画します</li> <li data-preserve-html="true"><b>イン/アウト:</b>マスクの内側と外側の両方に向かって描画します</li> </ul> |
 | <b>最大距離</b> *フロート* | 正規化されたイメージスペースでの拡張の距離です。1は入力イメージの短い側の長さです。 |

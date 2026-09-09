@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/floodfill.png){width="128px"}
 
-## Flood Fill
-
-**場所：** *フィルター/効果*
-
-**単純**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -47,20 +43,31 @@ Flood Fillは、基本的なバイナリタイルテクスチャにバリエー�
 > 
 > タイルが完全な黒のピクセルで区切られていない場合、問題が発生します。通常は、グレースケールの傾斜値が使用されている場合です。 結果に赤い値が含まれていないことや、奇妙な人工的な線を使用している可能性があることから、この問題を特定できます。 このような場合は、入力マップのコントラストを調整するか、入力マップを切り替えます。 「安全性/速度」のトレードオフ設定を変更して、改善された点がないか確認してください。
 
-## パラメーター
-
-* **安全性/速度のトレードオフ**: *単純または小さな図形、複雑または大きな図形、エラーなし*入力図形に最適な計算モードを設定します。 正しいモードが選択されている場合、より正確な結果が得られます。
-* **詳細オプション**: *詳細パラメーターを表示し、出力/詳細パラメーターおよび出力を非表示にする*
-* **安全性/速度のトレードオフを上書き**: *-1 - 100*&#x200B;詳細オプションがオンの場合にのみ表示されます。 内部フィーチャをオーバーライドできます。 非常に高度で、独自のエフェクトやデバッグを作成するのに役立ちます。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
-良い例も悪い例もFlood Fillの結果です。
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>安全性/速度のトレードオフ</b> <i>単純または小さい図形、複雑または大きい図形、エラーなしモード。</i> | 入力シェイプに最適になるように計算モードを設定します。 正しいモードが選択されている場合、より正確な結果が得られます。 |
+| <b>高度なオプション</b> <i>詳細パラメーターの表示と出力/詳細パラメーターおよび出力の非表示</i> |  |
+| <b>安全性/速度のトレードオフを上書き</b> <i>-1 - 100</i> | 詳細オプションがオンの場合にのみ表示されます。 内部フィーチャをオーバーライドできます。 非常に高度で、独自のエフェクトやデバッグを作成するのに役立ちます。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/flood-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/flood-ex1.png" />
+        </td>
+    </tr>
+</table>
+
+良い例も悪い例もFlood Fillの結果です。

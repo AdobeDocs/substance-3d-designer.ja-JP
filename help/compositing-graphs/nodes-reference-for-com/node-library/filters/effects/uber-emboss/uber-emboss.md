@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Uber Emboss
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/uber-emboss.png){width="128px"}
 
-## Uber Emboss
-
-**場所：** *フィルター/効果*
-
-**中級**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -41,35 +37,41 @@ ht-degree: 2%
 
 多くの制御が必要な場合に、特定のテクスチャリングスタイル用にベイクイン照明を作成するときに便利です。
 
-## パラメーター
-
-### 入力
-
-* **カラー**: *カラー入力*\
-  変更するベースイメージ。
-* **Height**: *グレースケール入力*\
-  エフェクトのドライバーとして使用されるHeightmap。
-
-### パラメーター
-
-* **周囲光カラー**: *（カラー値）*影のある領域で使用されるカラー。
-* **拡散反射光カラー**: *（カラー値）*明るい領域で使用されるカラー。
-* **Specularの色**: *（色の値）*Specularの反射に使用される色
-* **光の強さ**: *0.0 ～ 1.0*\
-  （偽装された）ライトの強度。
-* **光源の角度**: *0.0 ～ 1.0*\
-  （偽）光の入射角
-* **Specularの強さ**: *0.0 ～ 1.0* Specular反射の強さ。
-* **Specular 光沢度**: *0.0 ～ 1.0* Specularハイライトのサイズ。
-* **ラフネス**: *0.0 ～ 1.0*&#x200B;拡散反射光の照明の計算に使用されたラフネス。
-* **シャドウの不透明度**: *0.0 ～ 1.0*&#x200B;シャドウが適用された領域のブレンド不透明度。
-
-## サンプル画像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/uberemboss-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 入力
+
+|  |  |
+|:---|:---|
+| <b>色</b> <i>カラー入力</i> | 変更するベースイメージ。 |
+| <b>Height</b> <i>グレースケール入力</i> | エフェクトのドライバーとして使用されるHeightmap。 |
+
+<a name="parameters"></a>
+
+## パラメーター
+
+|  |  |
+|:---|:---|
+| <b>周囲光の色</b> <i>（カラー値）</i> | 影の領域で使用するカラー。 |
+| <b>Diffuseの色</b> <i>（カラー値）</i> | 明るい領域で使用するカラー。 |
+| <b>Specularの色</b> <i>（カラー値）</i> | Specularの反射に使用される色 |
+| <b>光の強さ</b> <i>0.0 - 1.0</i> | （偽装された）ライトの強度。 |
+| <b>光源の角度</b> <i>0.0 - 1.0</i> | （偽）光の入射角 |
+| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specular反射の強さ。 |
+| <b>光沢度</b> <i>0.0 - 1.0</i> | Specularハイライトのサイズ。 |
+| <b>ラフネス</b> <i>0.0 - 1.0</i> | 拡散反射光ライトの計算に使用されるラフネス。 |
+| <b>シャドウの不透明度</b> <i>0.0 - 1.0</i> | シャドウが適用された領域のブレンド不透明度。 |
+
+## 例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/uberemboss-ex.png" />
+        </td>
+    </tr>
 </table>

@@ -7,31 +7,29 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D テクスチャの位置
+title: 3Dテクスチャ位置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
 
 
-# 3D テクスチャの位置
+# 3Dテクスチャ位置
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/3dtextureposition.png){width="256px"}
 
-**イン：** *フィルター/効果*
-
-**単純**
+<b>イン:</b>フィルター/効果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
@@ -43,23 +41,15 @@ ht-degree: 3%
 </tr>
 </table>
 
-## パラメーター
+## 例
 
-パラメーターがありません。
-
-## サンプル画像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dtextureposition-node.png" />
+        </td>
+    </tr>
 </table>

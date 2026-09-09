@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ピクセルプロセッサー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード：ピクセルプロセッサ](../../../../assets/comp_pixelprocessor_1.png "Atomicノード：ピクセルプロセッサ"){width="200px"}
+![Atomicノード：ピクセルプロセッサ](pixel-processor.resources/comp_pixelprocessor_1.png "Atomicノード：ピクセルプロセッサ"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ ht-degree: 1%
 | --- | --- |
 | <b>入力画像#</b> *グレースケール/カラー* | [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)または[Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)ノードを使用して、指定されたインデックスの入力の値にアクセスします。 |
 
-## 出力コネクタ
+## 出力コネクター
 
 |  |  |
 | --- | --- |

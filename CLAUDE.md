@@ -1,7 +1,7 @@
 ---
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9f19a0232c1f355ba2450995b4a6d23b7ed846d1
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * `help/` – すべてのドキュメントコンテンツ。目次をミラーリングするように構成されています。
 * `help/guide/TOC.md` – 目次。 すべてのエントリは、ページのマークダウンファイルへの相対リンクです（`/help/...`をルートとする）。 `TOC.md`にはページツリーメタデータ（`user-guide-title`、`breadcrumb-title`、`nudge`、`{#section-id}`などのセクションアンカー）も含まれています。
-* `help/assets/` – 共有された、ページ固有ではない画像（ページ間で再利用されるアプリアイコンなど）。
+* `help/assets/` – レガシ共有イメージフォルダー。 ページ固有のメディアが、1ページあたりの`<md-file-name>.resources/`兄弟フォルダーに保存されるようになりました（以下のフォルダー/目次の表記規則を参照）。ページで参照されていない残りの画像はわずかしか残っていません。 使用しているページの`.resources`フォルダーに新しい画像を配置します。ここでは配置しません。
 * `help/glossary/glossary.md` – 単一の大きな用語集ページで、`#term`フラグメントによるクロスリンクに使用されるアンカースパン(`<span id="term"></span>`)でアルファベット順に整理されています。
 * `metadata.md` – リポジトリレベルの前付（クラウド/ソリューション/製品ID、`git-repo`など） これは`TOC.md`ごとに継承されます。 リポジトリ全体のメタデータの変更にのみ編集します。ページ固有のメタデータは、ページ自体の前付に属します。
 * `redirects.csv`、`linkcheckexclude.json`、`markdownlint_custom.json`、`pipeline.opts` – 公開パイプライン構成（リダイレクト、リンク確認例外、lintルールのオーバーライド、パイプラインオプション）。
@@ -31,6 +31,10 @@ ht-degree: 0%
 * ページに専用のメディア（画像、GIF、ビデオ）がある場合、そのページは`<md-file-name>.resources`という名前の兄弟サブフォルダーに格納されます。
 
 ページを追加または移動する場合、`TOC.md`とフォルダーレイアウトを同時に更新します。同期を維持する必要があります。
+
+## ノードのリファレンスページ
+
+ノードライブラリツリー（例： `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`）は、独自の一貫したレイアウトを持つ個別のページ型です。つまり、icon/description HTMLテーブルの後に、アンカーされた`## Inputs` / `## Outputs` / `## Parameters`テーブル(`#inputs`/`#outputs`/`#parameters`)と`## Examples`ギャラリーが続きます。 以下の通常のコンテンツページブロックではなく、`.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`をモデルにした&#x200B;**最小**&#x200B;前付（`title` + `description`のみ）を使用しています。 埋め込みメディア（アイコン、サンプル画像/GIF）は、ページの横にある兄弟`<node-name>.resources/`フォルダーに配置され、比較的参照されます。 完全なオーサリングテンプレートには`generate-node-documentation`スキルを使用してください（存在する場合）。
 
 ## ページの前付
 

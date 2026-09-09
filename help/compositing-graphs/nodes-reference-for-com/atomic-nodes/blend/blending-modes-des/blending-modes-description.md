@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 描画モード
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -26,19 +26,19 @@ ht-degree: 2%
 
 *コピー*&#x200B;描画モードでは、前景が背景の上に配置されるだけです。
 
-![描画モード：コピー](../../../../../assets/image2015-8-20-9-38-0.png "描画モード：コピー"){zoomable="yes"}
+![描画モード：コピー](blending-modes-description.resources/image2015-8-20-9-38-0.png "描画モード：コピー"){zoomable="yes"}
 
 カラー画像の場合、アルファチャンネルは不透明度のデフォルトで考慮されます。
 
 これは、「Alphaブレンド」パラメーターを使用して変更できます。
 
-![描画モード：コピー(2)](../../../../../assets/image2015-8-20-14-15-29.png "描画モード：コピー(2)"){zoomable="yes"}
+![描画モード：コピー(2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "描画モード：コピー(2)"){zoomable="yes"}
 
 ## 追加(覆い焼き（リニア）)
 
 *追加*&#x200B;描画モードでは、前景入力値が背景の対応する各ピクセルに追加されます。
 
-![描画モード：追加(覆い焼き（リニア）](../../../../../assets/image2015-8-20-9-38-19.png "描画モード：追加(覆い焼き（リニア）)"){zoomable="yes"}
+![描画モード：追加(覆い焼き（リニア）](blending-modes-description.resources/image2015-8-20-9-38-19.png "描画モード：追加(覆い焼き（リニア）)"){zoomable="yes"}
 
 ## 減算
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 減算の結果が0より小さい場合、値は0に制限され、純粋なブラックになります。
 
-![描画モード：減算](../../../../../assets/image2015-8-20-9-38-35.png "描画モード：減算"){zoomable="yes"}
+![描画モード：減算](blending-modes-description.resources/image2015-8-20-9-38-35.png "描画モード：減算"){zoomable="yes"}
 
 ## 乗算
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 各ピクセルの値は0 ～ 1の間で構成されるので、結果は常に元のピクセルと同じか、それよりも低く（暗く）なります。
 
-![描画モード：乗算](../../../../../assets/image2015-8-20-9-38-53.png "描画モード：乗算"){zoomable="yes"}
+![描画モード：乗算](blending-modes-description.resources/image2015-8-20-9-38-53.png "描画モード：乗算"){zoomable="yes"}
 
 ## 加減算
 
@@ -63,19 +63,19 @@ ht-degree: 2%
 * 0.5より大きい値を持つ前景ピクセルは、それぞれの背景ピクセルに追加されます。
 * 0.5より小さい値を持つ前景ピクセルは、それぞれの背景ピクセルから減算されます。
 
-![描画モード：サブを追加](../../../../../assets/image2015-8-20-9-39-11.png "描画モード：サブを追加"){zoomable="yes"}
+![描画モード：サブを追加](blending-modes-description.resources/image2015-8-20-9-39-11.png "描画モード：サブを追加"){zoomable="yes"}
 
 ## 最大 (明)
 
 *最大*&#x200B;描画モードでは、背景と前景の間のより高い値が選択されます。
 
-![描画モード：最大（明）](../../../../../assets/image2015-8-20-9-40-12.png "描画モード：最大（明）"){zoomable="yes"}
+![描画モード：最大（明）](blending-modes-description.resources/image2015-8-20-9-40-12.png "描画モード：最大（明）"){zoomable="yes"}
 
 ## 最小 (暗)
 
 *分*&#x200B;描画モードでは、背景と前景の間の低い方の値が選択されます。
 
-![描画モード：最小（暗）](../../../../../assets/image2015-8-20-9-40-31.png "描画モード：最小（暗）"){zoomable="yes"}
+![描画モード：最小（暗）](blending-modes-description.resources/image2015-8-20-9-40-31.png "描画モード：最小（暗）"){zoomable="yes"}
 
 ## スイッチ
 
@@ -88,13 +88,13 @@ ht-degree: 2%
 
 [スイッチ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)および[グレースケールの切り替え](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)ノードは、これらの特定の構成のブレンドノードを使用するように設定されています。
 
-![描画モード：スイッチ](../../../../../assets/image2015-8-20-9-38-0.png "描画モード：スイッチ"){zoomable="yes"}
+![描画モード：スイッチ](blending-modes-description.resources/image2015-8-20-9-38-0.png "描画モード：スイッチ"){zoomable="yes"}
 
 ## 除算
 
 *除算*&#x200B;描画モードは、背景入力ピクセルの値を前景の対応する各ピクセルで除算します。
 
-![描画モード：除算](../../../../../assets/image2015-8-20-9-41-32.png "描画モード：除算"){zoomable="yes"}
+![描画モード：除算](blending-modes-description.resources/image2015-8-20-9-41-32.png "描画モード：除算"){zoomable="yes"}
 
 ## オーバーレイ
 
@@ -104,7 +104,7 @@ ht-degree: 2%
   * 下のレイヤーのピクセルの値が0.5未満の場合は、*乗算*&#x200B;型の描画が適用されます
   * 下のレイヤーのピクセルの値が0.5より大きい場合は、*スクリーン*&#x200B;の種類の描画が適用されます
 
-![描画モード：オーバーレイ](../../../../../assets/image2015-8-20-9-41-50.png "描画モード：オーバーレイ"){zoomable="yes"}
+![描画モード：オーバーレイ](blending-modes-description.resources/image2015-8-20-9-41-50.png "描画モード：オーバーレイ"){zoomable="yes"}
 
 ## スクリーン
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 
 結果は乗算とは逆の効果になり、元の画像と常に同じか、それよりも高く（明るく）なります。
 
-![描画モード：スクリーン](../../../../../assets/image2015-8-20-9-42-11.png "描画モード：スクリーン"){zoomable="yes"}
+![描画モード：スクリーン](blending-modes-description.resources/image2015-8-20-9-42-11.png "描画モード：スクリーン"){zoomable="yes"}
 
 ## ソフトライト
 
@@ -120,4 +120,4 @@ ht-degree: 2%
 
 明るさが50%を超えるブレンドカラーは背景ピクセルを明るくし、明るさが50%未満のカラーは背景ピクセルを暗くします。
 
-![描画モード：ソフトライト](../../../../../assets/image2015-8-20-9-42-32.png "描画モード：ソフトライト"){zoomable="yes"}
+![描画モード：ソフトライト](blending-modes-description.resources/image2015-8-20-9-42-32.png "描画モード：ソフトライト"){zoomable="yes"}

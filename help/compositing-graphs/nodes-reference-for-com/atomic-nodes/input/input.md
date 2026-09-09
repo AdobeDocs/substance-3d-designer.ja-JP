@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 入力
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![原子ノード：入力色](../../../../assets/comp_inputcolor_1.png "原子ノード：入力色"){width="200px"}
+![原子ノード：入力色](input.resources/comp_inputcolor_1.png "原子ノード：入力色"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![アトミックノード：入力グレースケール](../../../../assets/comp_inputgrayscale_1.png "アトミックノード：入力グレースケール"){width="200px"}
+![アトミックノード：入力グレースケール](input.resources/comp_inputgrayscale_1.png "アトミックノード：入力グレースケール"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![アトミックノード：入力値](../../../../assets/comp_inputnumeric_1.png "アトミックノード：入力値"){width="200px"}
+![アトミックノード：入力値](input.resources/comp_inputnumeric_1.png "アトミックノード：入力値"){width="200px"}
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Substanceグラフの主な入力](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Substanceグラフの主な入力](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

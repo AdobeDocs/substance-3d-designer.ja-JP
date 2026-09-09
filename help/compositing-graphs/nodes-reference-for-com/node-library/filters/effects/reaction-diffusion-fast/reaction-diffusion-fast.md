@@ -1,30 +1,30 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: プロシージャテクスチャ用の高速反応拡散アルゴリズムを使用して有機的なパターンを生成するには、反応拡散の高速ノードを使用します。
+description: '[反応拡散高速]ノードを使用すると、プロシージャルのテクスチャに対して高速の反応拡散アルゴリズムを使用して有機的なパターンを生成できます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 反応拡散速
+title: 拡散反応（速い）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
 
-# 反応拡散速
+# 拡散反応（速い）
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![リアクションディフュージョンノードアイコン](../../../../../../assets/reaction-diffusion.png "リアクションディフュージョンノードアイコン")
+![リアクション拡散ノードアイコン](../../../../../../assets/reaction-diffusion.png "リアクション拡散ノードアイコン")
 
 <b>イン:</b>フィルター/効果
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## 説明
 
-このノードは、入力グレースケール画像に対して反応拡散効果を実行します。
+このノードは、入力グレースケールイメージに対してリアクション拡散効果を行います。
 
-反応拡散とは、物質が広がって（拡散して）他の物質と相互作用する（反応する）過程のことです。 これは、例えば、動物の皮膚に特定のパターンが形成されたときに自然に何が起こるかをシミュレートする数学モデルです。
+反応 – 拡散とは、物質が広がって（拡散して）他の物質と相互作用する（反応する）過程のことです。 これは、例えば、動物の皮膚に特定のパターンが形成されたときに自然に何が起こるかをシミュレートする数学モデルです。
 
 このノードはパフォーマンス用に最適化されており、速度に関していくつかの精度のトレードオフを行います。
 
@@ -43,20 +43,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 入力コネクタ
+<a name="inputs"></a>
 
-<b>入力</b> *グレースケール*&#x200B;反応拡散効果を適用するグレースケール画像です。
+## 入力
 
-## 出力コネクタ
+|  |  |
+|:---|:---|
+| <b>入力</b> <i>グレースケール</i> | リアクション拡散効果を適用するグレースケールイメージです。 |
 
-<b>出力&#x200B;</b>*グレースケール*&#x200B;入力画像に適用された反応拡散効果を表すグレースケール画像です。
+<a name="outputs"></a>
+
+## 出力
+
+|  |  |
+|:---|:---|
+| <b>出力</b> <i>グレースケール</i> | 入力画像に適用される拡散効果を表すグレースケールイメージです。 |
+
+<a name="parameters"></a>
 
 ## パラメーター
 
-<b>半径</b> *フロート*&#x200B;効果の広がりの範囲。
-
-<b>コントラスト</b> *フロート*\
-入力のコントラストを調整します。一種の閾値として機能します。
+|  |  |
+|:---|:---|
+| <b>半径</b> *浮動小数* | 効果が広がる範囲。 |
+| <b>コントラスト</b> *浮動小数* | 入力のコントラストを調整します。一種の閾値として機能します。 |
 
 ## 例
 

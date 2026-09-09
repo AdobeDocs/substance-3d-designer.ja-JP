@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パラメータープリセット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,27 +24,27 @@ ht-degree: 0%
 
 プリセットの保存と読み込みには2つの方法があります。いずれも、以下に詳述するように、異なるユースケースがあります。
 
-![プリセットの読み込み/保存ドロップダウンメニュー](../../../assets/preset-menu.gif "プリセットの読み込み/保存ドロップダウンメニュー"){width="512px"}
+![プリセットの読み込み/保存ドロップダウンメニュー](parameter-presets.resources/preset-menu.gif "プリセットの読み込み/保存ドロップダウンメニュー"){width="512px"}
 
 ## 外部プリセット
 
-外部プリセットには、ディスク上の外部ファイルである\*.SBSPRSファイルが含まれます。 これらは異なるグラフやノード間で転送できますが、アプリケーション内でのみ転送できます。 その主な目的はまさにこうです。つまり、多くの値を転送するには大きすぎて1つずつコピーできないということです。
+外部プリセットには、ディスク上の外部ファイルである\*.SBSPRSファイルが含まれます。 これらは、異なるグラフやノード間で転送できますが、アプリケーション内でのみ転送できます。 その主な目的はまさにこうです。つまり、多くの値を転送するには大きすぎて1つずつコピーできないということです。
 
-外部プリセットは、[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のすべての特定のパラメーター、[原子ノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のほとんどの特定のパラメーター（[例外は公開できないパラメーター](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）、およびSubstanceグラフの[パラメーター](../../graph-parameters/graph-parameters.md)パラメーターの公開された入力パラメーターで使用できます。
+外部プリセットは、[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のすべてのパラメーター、[アトミックノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のほとんどのパラメーター（[例外は表示できないパラメーター](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）、およびSubstanceーグラフの[パラメーター](../../graph-parameters/graph-parameters.md)の表示入力パラメーターーで使用できます。
 
-これらは、このメニューから簡単に保存して読み込むことができます。 保存したSBSPRSファイルは、他のノードまたはグラフにロードできます。
+これらは、このメニューから簡単に保存して読み込むことができます。 保存されたSBSPRSファイルは、他のノードまたはグラフに読み込むことができます。
 
 >[!NOTE]
 >
-> 部分的な一致も有効です。読み込まれたノードに存在しないSBSPRSに保存されたパラメータは、単に無視されます。 つまり、ほとんど同じようなノード（[タイルSamplerの色やグレースケールバージョンなど](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)）間でプロパティを転送できます。 すべての共有パラメーターが読み込まれます。 照合は識別子とタイプに基づいて行われます。
+> 部分的な一致も有効です。読み込まれたノードに存在しないSBSPRSに保存されたパラメータは、単に無視されます。 つまり、ほとんど同じようなノード（[タイルSamplerの色やグレースケールバージョンなど](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)）間でプロパティを転送できます。 すべての共有パラメーターが読み込まれます。 一致は識別子と文字に対して行われます。
 
-![埋め込みプリセットの編集](../../../assets/preset-embed.gif "埋め込みプリセットの編集"){width="512px"}
+![埋め込みプリセットの編集](parameter-presets.resources/preset-embed.gif "埋め込みプリセットの編集"){width="512px"}
 
 ## 埋め込みプリセット
 
-埋め込みプリセットは、外部プリセットとは動作が異なります。 主な利点は、SBSまたはSBSARファイルに格納されることです。そのため、Substance Painter、Maya、3DS Maxに簡単に転送してロードすることができます（現在、Substance 3D Sampler、UE4、Unityでは使用できません）。 ユーザーはSBSPRSファイルを混乱させる必要はありません。
+埋め込みプリセットは、外部プリセットとは動作が異なります。 主な利点は、SBSまたはSbsar ファイル内に格納され、Substance Painter、Maya、3DS Maxに簡単に転送してロードできることです（現在、Substance 3D Sampler、UE4、Unityでは使用できません）。 ユーザーはSBSPRSファイルを混乱させる必要はありません。
 
-ノードとグラフの間で転送することはできません（転送には外部プリセットを使用する必要があります）。 また、グラフのプロパティの入力パラメーターで、プレビューモード内の場合にのみ作成できます。
+ノードとグラフの間で転送することはできません（転送には外部プリセットを使用する必要があります）。 また、グラフのプロパティの入力パラメーター上で、プレビューモード内の場合にのみ作成できます。
 
 ワークフローは次のとおりです。
 
