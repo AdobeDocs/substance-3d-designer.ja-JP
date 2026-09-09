@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Flood Fillマッパーノードを使用して、テクスチャ処理にflood fillアルゴリズムを使用して、コネクトされたリージョン間で値をマッピングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fillマッパー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
+![](flood-fill-mapper.resources/floodfill-mapper-gray.png)![](flood-fill-mapper.resources/floodfill-mapper-color.png)
 
 <b>イン:</b>フィルター/効果
 
@@ -60,7 +60,7 @@ Colorバージョンには、法線マップを操作するための追加のコ
 
 |  |  |
 |:---|:---|
-| <b>タイリングモード</b> <i>タイリングなし、H+V</i> | タイリングを使用するかどうかを設定します。 サイズまたはスケールが1より小さく設定されている場合にのみ表示されます。 |
+| <b>タイルモード</b> <i>タイリングなし、H+V</i> | タイリングを使用するかどうかを設定します。 サイズまたはスケールが1より小さく設定されている場合にのみ表示されます。 |
 | <b>パターン</b> |  |
 | <b>パターンの入力番号</b> <i>1 - 8</i> | 使用するカスタムパターン入力の量を設定します。 |
 | <b>パターン配布モード</b> <i>ランダム、図形のサイズ、分布マップの入力</i> | セルに表示するパターンを決定する方法を設定します。 |
@@ -88,8 +88,8 @@ Colorバージョンには、法線マップを操作するための追加のコ
 | <b>輝度オフセットマップマルチプライア</b> <i>0.0 - 1.0</i> | オプションの輝度オフセットマップの影響を設定します。 |
 | <b>背景色</b> <i>（グレースケール値）</i> | テクスチャをブレンドする背景色を設定します。 |
 | <b>色（カラーバージョンのみ）</b> |  |
-| <b>法線マップ</b> <i>False/True</i> | パターン入力を法線マップとして解釈するように設定します。 標準正接空間の回転を補正して修正します。 |
-| <b>標準の形式</b> <i>DirectX、OpenGL</i> | 法線マップ形式を切り替えます（グリーンチャンネルを反転します）。 Is 法線マップがTrueの場合にのみアクティブになります。 |
+| <b>法線マップ</b> <i>False/True</i> | パターン入力を法線マップとして解釈するように設定します。 Normal Tangent空間の回転を補正して修正します。 |
+| <b>標準の形式</b> <i>DirectX、OpenGL</i> | 法線マップ形式を切り替えます（グリーンチャンネルを反転します）。 Is Normal MapがTrueの場合にのみアクティブです。 |
 | <b>HSL調整</b> <i>-1.0 - 1.0</i> | HSLをグローバルに調整 |
 | <b>HSLランダム</b> <i>-1.0 - 1.0</i> | セルごとにHSLのランダム化を設定します。 |
 | <b>Alpha調整</b> <i>-1.0 - 1.0</i> | 全体的なAlphaを調整して、Alphaのコントラストを下げます。 |
@@ -101,10 +101,10 @@ Colorバージョンには、法線マップを操作するための追加のコ
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodfill-mapper-ex01.png" />
+            <img src="flood-fill-mapper.resources/floodfill-mapper-ex01.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodfill-mapper-ex02.jpg" />
+            <img src="flood-fill-mapper.resources/floodfill-mapper-ex02.jpg" />
         </td>
     </tr>
 </table>
