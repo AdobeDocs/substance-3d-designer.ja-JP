@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
 description: グラデーション2点ノードを使用して、空と地面の色のトランジション用のHDRI環境で2点グラデーションを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラデーション2ポイント
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points.png){width="250px"}
 
 <b>内：</b> 3D ビュー > HDRI ツール
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-ex2.gif" />
+            <img src="gradient-2-points.resources/gradient-ex2.gif" />
         </td>
     </tr>
 </table>

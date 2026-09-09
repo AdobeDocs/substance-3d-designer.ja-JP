@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
 description: 「HDRマージ」ノードを使用すると、複数のHDR画像を単一のパノラマにマージして、複合環境マップを作成できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HDR 結合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-merge.png){width="200px"}
+![](hdr-merge.resources/hdr-merge.png){width="200px"}
 
 <b>内：</b> 3D ビュー > HDRI ツール
 
