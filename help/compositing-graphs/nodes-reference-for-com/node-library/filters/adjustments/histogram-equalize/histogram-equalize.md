@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: ヒストグラムのイコライザーノードを使用して、ピクセルの強度を再分散し、コントラストと明るさを向上させます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ヒストグラムイコライザー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ヒストグラムのイコライズ：アイコン](../../../../../../assets/histogram_equalize.png "ヒストグラムのイコライズ：アイコン"){width="200px"}
+![ヒストグラムのイコライズ：アイコン](histogram-equalize.resources/histogram_equalize.png "ヒストグラムのイコライズ：アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -69,44 +69,44 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![ヒストグラムのイコライズ：例1](../../../../../../assets/histogram_equalize_example_3.png "ヒストグラムのイコライズ：例1"){zoomable="yes"}
+![ヒストグラムのイコライズ：例1](histogram-equalize.resources/histogram_equalize_example_3.png "ヒストグラムのイコライズ：例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![ヒストグラムのイコライズ：例2](../../../../../../assets/histogram_equalize_example_5.png "ヒストグラムのイコライズ：例2"){zoomable="yes"}
+![ヒストグラムのイコライズ：例2](histogram-equalize.resources/histogram_equalize_example_5.png "ヒストグラムのイコライズ：例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![ヒストグラムのイコライズ：例3](../../../../../../assets/histogram_equalize_example_6.png "ヒストグラムのイコライズ：例3"){zoomable="yes"}
+![ヒストグラムのイコライズ：例3](histogram-equalize.resources/histogram_equalize_example_6.png "ヒストグラムのイコライズ：例3"){zoomable="yes"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
 description: '[ヒストグラムの計算]ノードを使用して、解析および処理のためにテクスチャからヒストグラムデータを計算します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ヒストグラム計算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ヒストグラムの計算：アイコン](../../../../../../assets/histogram_compute.png "ヒストグラムの計算：アイコン"){width="200px"}
+![ヒストグラムの計算：アイコン](histogram-compute.resources/histogram_compute.png "ヒストグラムの計算：アイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -77,16 +77,16 @@ ht-degree: 1%
 
 ## 例
 
-![ヒストグラムの計算：例1](../../../../../../assets/histogram_compute_example_1.jpg "ヒストグラムの計算：例1"){zoomable="yes"}
+![ヒストグラムの計算：例1](histogram-compute.resources/histogram_compute_example_1.jpg "ヒストグラムの計算：例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>後</i>
     </td>
   </tr>
