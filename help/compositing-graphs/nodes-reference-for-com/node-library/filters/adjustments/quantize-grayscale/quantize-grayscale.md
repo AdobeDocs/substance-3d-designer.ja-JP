@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グレースケールの量子化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グレースケールのクオンタイズアイコン](../../../../../../assets/quantize-grayscale.png "グレースケールのクオンタイズアイコン"){width="200px"}
+![グレースケールのクオンタイズアイコン](quantize-grayscale.resources/quantize-grayscale.png "グレースケールのクオンタイズアイコン"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -52,6 +52,6 @@ ht-degree: 1%
 
 ## 例
 
-![例1](../../../../../../assets/quantizegrayscale.gif "例1")
+![例1](quantize-grayscale.resources/quantizegrayscale.gif "例1")
 
-![例2](../../../../../../assets/quantizegrayscale.png "例2")
+![例2](quantize-grayscale.resources/quantizegrayscale.png "例2")

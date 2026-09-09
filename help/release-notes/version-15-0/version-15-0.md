@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
-description: 新しい3Dレンダラーと米ドルのネイティブサポートについては、Substance 3D Designerバージョン15.0のリリースノートを確認してください。
+description: 新しい3DレンダラーとUSDのネイティブサポートについては、Substance 3D Designerバージョン15.0のリリースノートを参照してください。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 15.0
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -20,73 +20,73 @@ ht-degree: 0%
 
 # バージョン15.0
 
-このアップデートでは、ラスタライザーモードとパストレーサーモードを備えた新しい3Dレンダラーに加え、データを失うことなくシーンを編集および書き出しできる[USD](https://openusd.org/release/index.html)のネイティブサポートが提供されます。
+このアップデートでは、ラスタライザーモードとパストレーサーモードを備えた新しい3dレンダラーに加え、[USD](https://openusd.org/release/index.html)のネイティブサポートが提供されるため、データを失うことなくシーンの編集や書き出しを行うことができます。
 
 *リリース日：2025年7月15日*
 
-![バナー](version-15-0.resources/version-15-0-01.png "バージョン15.0バナー")
+![バナー](../../assets/banner-47.png "バージョン15.0バナー")
 
 ## 新しい 3D レンダラー
 
 ### 新しいラスタライザとパストレーサ
 
-この新しいリリースでは、ラスタライザーモード（マテリアルの作業中にリアルタイムのプレビューを表示）とパストレーサーモード（完全で正確なレンダリングを実現するレイトレースモード）を備えた高度な[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)にアクセスできます。 この新しいレンダラーは、ラスタライザーモードでのシャドウなどの機能を使用して機能を強化し、品質とパフォーマンスを向上させます。また、[MaterialX](https://materialx.org/)などの将来のテクノロジーをサポートするように設計されています。 Designerの既存のOpenGLレンダラーおよびIrayレンダラーを補完し、Substance 3D ViewerおよびSubstance 3D Samplerで利用できるレンダラーと連携して、エコシステム全体で統一されたエクスペリエンスを実現します。
+この新しいリリースでは、ラスタライザーモード（マテリアルの作業中にリアルタイムのプレビューを表示）とパストレーサーモード（完全で正確なレンダリングを行うレイトレースモード）を備えた高度な[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)にアクセスできます。 この新しいレンダラーは、ラスタライザーモードでのシャドウなどの機能を使用して機能を強化し、品質とパフォーマンスを向上させます。また、[MaterialX](https://materialx.org/)などの将来のテクノロジーをサポートするように設計されています。 Designerの既存のOpenGLおよびIrayレンダラーを補完し、Substance 3D ViewerおよびSubstance 3D Samplerで利用できるレンダラーと連携して、エコシステム全体で統一されたエクスペリエンスを実現します。
 
-![ラスタライザの影と半透明](version-15-0.resources/version-15-0-02.png)
+![ラスタライザでの影とtranslucency](../../assets/feature_1b.png)
 
 [3dビューツールバー](../../interface/3d-view/3d-view.md)が更新され、このレンダラーで使用できる新機能の一部にすばやくアクセスできるようになりました。
 
-* <b>選択ツール:</b> ：シーン内のサブメッシュを選択します。 サブメッシュを選択したら、そのサブメッシュにフォーカスするか(F)、サブメッシュのマテリアルプロパティにアクセスします（右クリック）。
+* <b>選択ツール:</b>を使用して、シーン内のサブメッシュを選択します。 サブメッシュを選択したら、そのサブメッシュにフォーカスするか(F)、サブメッシュのマテリアルプロパティにアクセスします（右クリック）。
 * <b>パストレーサを有効にする：</b>を選択すると、パストレーサモードとラスタライザモードをすばやく切り替えることができます。
 * <b>シャドウを有効にする：</b>シーンのシャドウを有効にします。マテリアルが光に従ってどのように動作するかを確認するのに便利です。
-* <b>グリッドを有効にする：</b>シーンのグリッドを有効にするか無効にします。
+* <b>グリッドを有効にする：</b> シーンのグリッドを有効にするか無効にします。
 
-また、環境光を回転させるホットキーが他のSubstanceアプリケーションと一致するように変更されたため、*<b>Ctrl + Shift + Rightをクリック</b>*&#x200B;する代わりに&#x200B;*<b>Shift + Rightをクリック</b>*&#x200B;するようになりました。
+さらに、環境光を回転させるホットキーが他のSubstanceアプリと一致するように変更されたため、*<b>Ctrl + Shift + Rightをクリック</b>*&#x200B;する代わりに&#x200B;*<b>Shift + Rightをクリック</b>*&#x200B;するようになりました。
 
 ### ポストエフェクト
 
-[投稿の効果が戻りました](../../interface/3d-view/camera/post-effects/post-effects.md)! 現在はカメラメニューから入手でき、社内で開発されています。
+[ポストエフェクトが戻りました](../../interface/3d-view/camera/post-effects/post-effects.md)! 現在はカメラメニューから入手でき、社内で開発されています。
 
-* <b>ブルーム:</b>照明や反射などの明るい部分の周囲のグレアをシミュレートし、放射状表面をより適切に視覚化します。
+* <b>ブルーム:</b>光や反射などの明るい部分の周囲のグレアをシミュレートして、emissiveの表面をより正確に視覚化します。
 * <b>トーンマッピング： </b>広ダイナミックレンジ(HDR)効果を得るためのプロファイルを持つ色範囲。
 * <b>フィールドの深度:</b>は、カメラレンズのフォーカスプロパティをシミュレートします（ラスタライザのみ）。
 
-![Designer 15.0](version-15-0.resources/version-15-0-03.gif)の投稿FX
+![Designer 15.0](../../assets/postfx.gif)の投稿FX
 
 ## コンテキスト内のアセットエディション
 
-マテリアルを操作するときは、[特定の3Dシーンのコンテキストでプレビュー](../../working-with-3d-scenes/working-with-3d-scenes.md)することをお勧めします。 そのため、テクスチャ、カメラ、ライトを含む完全なシーンを読み込んでレンダリングできるようになりました。 チェリーの上に表示されます。このシーンがMaterialXシェーダを参照している場合は、ラスタライザを使用して正しくレンダリングされます。
+マテリアルで作業する場合は、[特定の3D シーンのコンテキストでプレビュー](../../working-with-3d-scenes/working-with-3d-scenes.md)します。 そのため、すべてのテクスチャ、カメラ、ライトを含むフルシーンを読み込んでレンダリングできるようになりました。 チェリーの上に表示されます。このシーンがMaterialXシェーダを参照している場合は、ラスタライザを使用して正しくレンダリングされます。
 
-![Designerに読み込まれ、レンダリングされたUSDシーン](version-15-0.resources/version-15-0-04.png)
+![USD シーンが読み込まれ、Designerにレンダリングされました](../../assets/feature_2.png)
 
-読み込みが完了すると、メッシュを選択して（[Shift]を押しながらクリックするか、シーンブラウザのおかげで）、[そのマテリアルをオーバーライド](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)することで、シーンを操作できます。 その後、次の操作を実行できます。
+読み込みが完了すると、メッシュを選択して（Shiftキーを押しながらクリックするか、シーンブラウザーのおかげで）、[そのマテリアルを上書き](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)することで、シーンを操作できます。 その後、次の操作を実行できます。
 
-* グラフを作成またはロードし、シーンマテリアルに適用します。
-* [テクスチャを抽出](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)して新しいグラフを作成し、既存のマテリアルを調整します。
+* グラフを作成または読み込み、シーンマテリアルに適用します。
+* 既存のマテリアルを調整するには、[そのテクスチャを抽出](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)して新しいグラフにします。
 
-最後に、3dシーンを編集したら、[新規ファイルとして書き出す](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)か、元のファイルの新規レイヤーとして書き出します。これにより、データの損失を防ぐことができます（USD形式の場合のみ）。
+最後に、3d シーンを編集したら、[書き出し](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)して、新しいファイルまたは元のファイルの新しいレイヤーとして保存し、データの損失を防ぎます（USDフォーマットの場合のみ）。
 
-最後に大切なことですが、USD(+ usda、usdc、usdz)、STL、PLY、GLTFなど、読み込みと書き出しの両方でサポートされる3d形式が増え、FBXとOBJの形式も既に利用可能です。
+最後に大切なことですが、USD(+ usda、usdc、usdz)、STL、PLY、GLTFに加え、FBXとOBJなど、読み込みと書き出しの両方でサポートされる3d形式が増えています。
 
 ## 詳細ツールチップ
 
-各ノードの目的をより明確に示すために、詳細ツールチップが導入されました。 これらのツールヒントは、現在[atomicノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみで使用可能です。ノードの効果を示すビジュアルを含み、パラメーター、ヒント、コツなどの一覧の詳細な情報が記載されたドキュメントへの直接リンクを提供します。
+各ノードの目的をより明確に示すために、詳細ツールチップが導入されました。 これらのツールヒントは、現在、[ノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のみで使用可能です。アトミックノードの効果を示すビジュアルを含み、パラメーター、ヒント、コツなどの一覧の詳細についてはドキュメントへの直接リンクを提供します。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ブレンドノード](version-15-0.resources/version-15-0-05.gif)
+![ブレンドノード](../../assets/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ぼかしノード](version-15-0.resources/version-15-0-06.gif)
+![ぼかしノード](../../assets/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![距離ノード](version-15-0.resources/version-15-0-07.gif)
+![距離ノード](../../assets/distance.gif)
 
 </td>
 </tr>
@@ -94,15 +94,15 @@ ht-degree: 0%
 
 ## 非正方形のサポートの改善
 
-非正方形テクスチャを操作する必要がある場合は、この新しいオプションが適しています。 3Dビューの[マテリアルプロパティ](../../interface/3d-view/material-properties/material-properties.md)で、タイリングを制御するUVオプションで、両方の軸に異なる値を設定できるようになりました。
+非正方形テクスチャを使用する必要がある場合は、この新しいオプションが適しています。 3Dビューの[マテリアルプロパティ](../../interface/3d-view/material-properties/material-properties.md)で、タイリングを制御するUVオプションで、両方の軸に異なる値を設定できるようになりました。
 
-![異なるU Vスケール](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
+![異なるU Vスケール](../../assets/nonsquare.png){zoomable="yes"}
 
 ## ベイカー
 
-ベイクインターフェイスの更新はわずかですが（詳細については、以下の詳細リストを参照）、ベイカーライブラリはGPUベースのベイカーを使用するように完全に再構築され、パフォーマンスが大幅に向上しています。 このアップデートは、上記の新しくサポートされたファイル形式に加え、ベイク処理ワークフローに従事するユーザーに大きな進歩をもたらします。
+ベイクインターフェイスでのマイナーな更新はわずかですが（詳しくは以下の詳細リストを参照）、ベイカーライブラリはGPUベースのベイカーを使用するために完全に再構築され、パフォーマンスが大幅に向上しています。 このアップデートは、上記の新しくサポートされたファイル形式に加え、ベイクワークフローに従事するユーザーの大幅な向上を示します。
 
-注意： sbsbaker.exeを使用してプロセスを自動化していた場合、ツールはsubstance3d\_baker.exeに名前が変更されました（詳しくは、 substance3d-baker —helpを使用してください）。
+注意： sbsbaker.exeを使用してプロセスを自動化していた場合、ツールの名前がsubstance3d\_tool.exeに変更されました（詳しくは、 substance3d-ベイカー —helpを使用してください）。
 
 ## VFXプラットフォーム要件の更新
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## ビデオ
 
-[![Substance 3D Designerのアップデート：新しいレンダラー、FXの投稿、コンテキストの編集 | Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D Designerのアップデート：新しいレンダラー、FXの投稿、コンテキストの編集 | Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## リリースノート
 
@@ -166,21 +166,21 @@ ht-degree: 0%
 * [ベーカー]トーンマッピングパラメータを管理する
 * [ベイカー]接線空間プラグイン選択を削除
 * [ベイカー]プリセットを保存するときに、ベイカーの保存ステータスが「有効」または「無効」になる
-* [ベイカー] Select WidgetでデフォルトでSelect マテリアルを選択します
+* [ベイカー]セレクトウィジェットでデフォルトでマテリアルを選択
 * [ベーカー]基本設定を基準にして法線の出力テクスチャの既定の方向を設定します
 * [ベイカー] UVタイルをデフォルトですべて設定する
-* [ベイカー] WordSpaceDirection add option FromTexture/FromValue
-* [ベイカー]ワールドを正接に：既定の入力を[テクスチャから]に設定します。
+* [ベイカー] WordSpaceDirection追加オプションFromTexture/FromValue
+* [ベイカー]ワールドを接線に：既定値の入力を「テクスチャから」に設定します。
 * [SBSBaker]バックエンドの順序を制御するオプションを作成します
 * [SBSBaker] StringList引数の使用を改善
-* [SBSBaker] 「match\_source\_instance」の名前を「match\_メッシュ\_name」に変更します
+* [SBSBaker] 「match\_source\_instance」の名前を「match\_mesh\_name」に変更します
 * [SBSBaker] 「Submesh」を「GeomSubset」に名前変更
 * [SBSBaker] substance3d\_bakerに名前変更
-* [コンテンツ]象限シェイプを表示してジェネレータノードに「半球」シェイプを追加する
+* [コンテンツ]象限シェイプを表示するジェネレータノードに「半球」シェイプを追加する
 * [Interop] GLTFファイル形式のサポート
 * [Interop] PLYファイル形式のサポート
 * [Interop] STLファイル形式のサポート
-* [Library] アトミックノードのツールチップを統一する
+* [ライブラリ]原子ノードのツールチップを統一する
 * [Mac] MacIntelプラットフォームのサポートを終了する
 * [Nodes] atomicノードのrichtooltipsを追加する
 * [パラメータ] [属性]セクションを既定で閉じる
@@ -217,18 +217,18 @@ ht-degree: 0%
 * [セキュリティ] NEFファイルを解析する際の、バインドされていない書き込みの脆弱性II
 * [セキュリティ] DNGファイルの解析時のOut-of-Bound Read Vulnerability III
 * [環境設定]読み取り専用プロジェクトのプロジェクト設定でのUXの問題
-* [リソース] FBXファイルを開いたときに複数のUVセットが表示されない
+* [リソース] FBXファイルを開くと、複数のUV セットが表示されない
 * [UI]ステータスバーのラベルが重なっている
 * [UI] 「リンク作成モード」ドロップダウンメニューのツールヒントが表示されない
 
 ### 既知の問題
 
-* [ベーカー]特定のNVidiaドライバーでベイク処理を行うとクラッシュする
-* [3Dビュー] OpenGL：読み込んだ一部のシーンがレンダリングされない場合がある
-* [3Dビュー]ラスタライザ：平坦なシーンでディスプレイスメントを使用するとシャドウがアーチファクトになる
-* [3D View] Pathtracer：テッセレーション/ディスプレイスメントを有効にしてテクスチャを更新すると、パフォーマンスが遅くなる
-* [3Dビュー]上書きすると、一部のカラーマテリアルプロパティが正しくカラーマネジメントされない
-* [3Dビュー]アニメートされたプリミティブを含むシーンが正しくサポートされていない
-* [3Dビュー]複数のUDimsを持つメッシュはまだサポートされていません
-* [3Dビュー]複数のUVを持つメッシュはサポートされておらず、無効なマテリアルレンダリングが生じる可能性があります
-* [3Dビュー]パストレーサーはAMDグラフィックカードではサポートされていません
+* [ベイカー]特定のNVidiaドライバを使用したベイク中のクラッシュ
+* [3D ビュー] OpenGL：読み込まれた一部のシーンがレンダリングされない場合がある
+* [3D ビュー]ラスタライザ：平坦なシーンでディスプレイスメントを使用するとシャドウがアーチファクトになる
+* [3D ビュー]パストレーサ：テッセレーション/ディスプレイスメントを有効にしてテクスチャを更新すると、パフォーマンスが低下する
+* [3D ビュー]上書きすると、一部のカラーマテリアルプロパティが正しくカラーマネジメントされない
+* [3D ビュー]アニメートされたプリミティブを含むシーンが正しくサポートされていない
+* [3D ビュー]複数のUDimsを持つメッシュはまだサポートされていません
+* [3D ビュー]複数のUVを含むメッシュはyesではサポートされず、無効なマテリアルレンダリングが行われる可能性があります
+* [3D ビュー]パストレーサはAMDグラフィックカードではサポートされていません

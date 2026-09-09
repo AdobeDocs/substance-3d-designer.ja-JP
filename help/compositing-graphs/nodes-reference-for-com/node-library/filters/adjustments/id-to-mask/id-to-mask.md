@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グレースケールをマスクするID
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![グレースケールアイコンをマスクするID](../../../../../../assets/IDToMask.png "グレースケールアイコンをマスクするID"){width="200px"}
+![グレースケールアイコンをマスクするID](id-to-mask.resources/IDToMask.png "グレースケールアイコンをマスクするID"){width="200px"}
 
 <b>イン:</b>フィルター/調整
 
@@ -72,11 +72,11 @@ IDマップは、全体（例えば、シェイプ）の一部であるピクセ
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ IDマップは、全体（例えば、シェイプ）の一部であるピクセ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![マスクするID：例2](../../../../../../assets/id_to_mask_example_2.gif "マスクするID：例2"){zoomable="yes"}
+![マスクするID：例2](id-to-mask.resources/id_to_mask_example_2.gif "マスクするID：例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![マスクするID：例3](../../../../../../assets/id_to_mask_example_3.png "マスクするID：例3"){zoomable="yes"}
+![マスクするID：例3](id-to-mask.resources/id_to_mask_example_3.png "マスクするID：例3"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲線スムーズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![曲線スムーズノードアイコン](../../../../../../assets/CurvatureSmooth.png "曲線スムーズノードアイコン"){width="200px"}
+![曲線スムーズノードアイコン](curvature-smooth.resources/CurvatureSmooth.png "曲線スムーズノードアイコン"){width="200px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -79,11 +79,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![曲率スムーズ：例2](../../../../../../assets/curvature_smooth_example_2.jpg "曲率スムーズ：例2"){zoomable="yes"}
+![曲率スムーズ：例2](curvature-smooth.resources/curvature_smooth_example_2.jpg "曲率スムーズ：例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![曲率スムーズ：例3](../../../../../../assets/curvature_smooth_example_3.jpg "曲率スムーズ：例3"){zoomable="yes"}
+![曲率スムーズ：例3](curvature-smooth.resources/curvature_smooth_example_3.jpg "曲率スムーズ：例3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![曲率スムーズ：例4](../../../../../../assets/curvature_smooth_example_5.jpg "曲率スムーズ：例4"){zoomable="yes"}
+![曲率スムーズ：例4](curvature-smooth.resources/curvature_smooth_example_5.jpg "曲率スムーズ：例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![曲率スムーズ：例5](../../../../../../assets/curvature_smooth_example_6.jpg "曲率スムーズ：例5"){zoomable="yes"}
+![曲率スムーズ：例5](curvature-smooth.resources/curvature_smooth_example_6.jpg "曲率スムーズ：例5"){zoomable="yes"}
 
 </td>
 </tr>

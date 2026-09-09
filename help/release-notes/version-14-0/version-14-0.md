@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *リリース日：2024年7月30日*
 
-![](version-14-0.resources/version-14-0-01.png)
+![](../../assets/2024-BannerRN.png)
 
 ## 新規コンテンツ
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 * <b>色の操作に専用のノード： </b>1ノード<b>（</b>[色のクオンタイズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>から<b> </b>画像の色数を減らし、その中からパレット（独自のカラーパレットを作成するためのツールノードのファミリー）を抽出します（[表示](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [作成](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [変更](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b>） </b>カラーパレット)と、ID マップ （[カラーパレットを適用](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）を使用して別の画像に適用するカラーパレット。 また、[グレースケールをマスクするID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)ノードを見つけ、クオンタイズカラーで計算されたID マップをグレースケールマスクに変換します。 このノードの完全なセットを使用すると、カラーを使用したスタイル設定効果を作成するために必要なものがすべて揃います。
 
-![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
+![](../../assets/GIF2_2.gif){zoomable="yes"}
 
-![色の量子化2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
+![色の量子化2](../../assets/GIF3_2.gif){zoomable="yes"}
 
 * <b>桑原フィルター</b> ：さらにスタイルを適用する場合は、[桑原カラー異方性](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[グレースケール](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)フィルターを使用して絵画調の効果を生み出すことができます。 ディテールでは、画像のディテールに合わせた異方性指向性ブラーを適用します。 その結果、画像は内側のシェイプの方向に流れているように見えます。
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_smooth_example_1_before">
+      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_smooth_example_1_after">
+      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
+      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
+      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smooth_example_6_before">
+      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smooth_example_6_after">
+      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 * <b>2Dビュー： </b>[2Dビュー](../../interface/2d-view/2d-view.md)でタイル表示が有効になっている場合、元のタイルにないピクセルについても値を取得できるようになりました。タイル間で[サンプリング](../../glossary/glossary.md)および値のトランジションを確認する場合に非常に役立ちます。
 
-![2dビュー](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
+![2dビュー](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>グラデーションマップ</b>:マウスの中クリックを使用して、すべての[グラデーションキー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)を左または右に移動します（すべてのキー間のすべてのギャップを保持します）。
 * <b>パラメーター</b>:パラメーターを使用してカスタム関数を挿入するために、関数の編集ウィジェットを使用できるようになりました。 これは、[Substance関数グラフ](../../function-graphs/the-function-graph/the-function-graph.md)を使用してパラメーターを操作するカスタムツールを作成するための強力なソリューションです。
@@ -146,12 +146,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![関数の編集](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
+![関数の編集](../../assets/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![関数2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}の編集
+![関数2](../../assets/functionedit2.png){zoomable="yes"}の編集
 
 </td>
 </tr>

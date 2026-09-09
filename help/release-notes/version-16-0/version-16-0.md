@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン16.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *リリース日：2026年4月14日*
 
-<img src="./version-16-0.resources/version-16-0-01.jpg" alt="Substance 3D Designerバージョン16.0バナー" style="margin-top: 32px; margin-bottom: 32px">
+<img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Substance 3D Designerバージョン16.0バナー" style="margin-top: 32px; margin-bottom: 32px">
 
 <a name="shape-splatter-v2-nodes"></a>
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-02.gif" alt="シェイプスプラッタv2:ポアソン分布" /><br><i>ポアソン分布</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="シェイプスプラッタv2:ポアソン分布" /><br><i>ポアソン分布</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-03.gif" alt="シェイプスプラッタv2：均一な分布" /><br><i>均一な分布</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="シェイプスプラッタv2：均一な分布" /><br><i>均一な分布</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-04.gif" alt="密度マップ" /><br><i>シェイプスプラッタv2: 密度マップ</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="密度マップ" /><br><i>シェイプスプラッタv2: 密度マップ</i>
         </td>
     </tr>
 </table>
@@ -60,13 +60,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-05.gif" alt="Shape splatter v2:ランダム3D回転" /><br><i>ランダムな3D回転</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="Shape splatter v2:ランダム3D回転" /><br><i>ランダムな3D回転</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-07.gif" alt="シェイプスプラッタv2:シェイプの押し出し" /><br><i>図形の浮き出し</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="シェイプスプラッタv2:シェイプの押し出し" /><br><i>図形の浮き出し</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-08.jpg" alt="Shape splatter v2: 3D SDFシェイプ" /><br><i>3D SDFシェイプ</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="Shape splatter v2: 3D SDFシェイプ" /><br><i>3D SDFシェイプ</i>
         </td>
     </tr>
 </table>
@@ -83,13 +83,13 @@ Shape splatter v1ファミリのノードと同様に、Shape splatter v2には�
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" alt="Shape splatter v2カラーマッパー：三平面マッピング" /><br><i>三平面マッピング</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="Shape splatter v2カラーマッパー：三平面マッピング" /><br><i>三平面マッピング</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" alt="シェイプスプラッタv2カラーマッパー：法線マッピング" /><br><i>通常のマッピング</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="シェイプスプラッタv2カラーマッパー：法線マッピング" /><br><i>通常のマッピング</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" alt="シェイプスプラッタv2カラーマッパ： SDFシェイプからマテリアルIDごとにマッピング" /><br><i>SDFシェイプからマテリアルIDごとにマッピング</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="シェイプスプラッタv2カラーマッパ： SDFシェイプからマテリアルIDごとにマッピング" /><br><i>SDFシェイプからマテリアルIDごとにマッピング</i>
         </td>
     </tr>
 </table>
@@ -102,7 +102,7 @@ Shape splatter v1ファミリのノードと同様に、Shape splatter v2には�
             <p>カスタムパターンは、シェイプスプラッタv2ノードに個別に提供することも、グリッドアトラスにパックして、より緩やかで効率的なワークフローを実現することもできます。</p><p>新しい<a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">グリッドアトラス</a>ノードにより、パッキングパターンが簡素化されました。</p>
         </td>
         <td style="text-align: right; width: 33%; margin-left: 32px; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-02.png" alt="グリッドアトラスカラーノード" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="グリッドアトラスカラーノード" />
         </td>
     </tr>
 </table>
@@ -114,10 +114,10 @@ Shape splatter v1ファミリのノードと同様に、Shape splatter v2には�
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p><b>錆びたボルト</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材料サンプル</a>は、ノードの形状スプラッタv2ファミリーとその特徴をジャンプするために使用できます。</p><p>グラフの構造、ノード設定、およびテクニックをガイドするために、グラフが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2ツールセットをより実践的に理解することができます。 好きなだけサンプルグラフを作って頂けるので、自由に試してみてください。</p>
+            <p><b>錆びたボルト</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材料サンプル</a>は、ノードの形状スプラッタv2ファミリーとその特徴をジャンプするために使用できます。</p><p>グラフの構造、ノード設定、およびテクニックをガイドするために、グラフが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2ツールセットをより実践的に理解することができます。 サンプルグラフは好きなだけ作れるので、自由に試してみてください。</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
         </td>
     </tr>
 </table>
@@ -127,10 +127,10 @@ Shape splatter v1ファミリのノードと同様に、Shape splatter v2には�
 <table>
     <tr style="vertical-align: top; width: 75%; border: 0">
         <td style="border: 0">
-            <p>Designer 16.0では、オーサリングSDF 関数用の膨大なノードのカタログを使用して、関数グラフで3Dシェイプを生成する強力な機能が追加されています。</p><p>符号付き距離フィールドは、数学的に定義されたサーフェスまでの距離として空間を表現したものです。 これらのサーフェスは、さまざまな演算子を使用して変換および結合されるため、複雑さが増すシェイプを定義するために使用できます。</p>
+            <p>Designer 16.0では、オーサリングSDF 関数用の膨大なノードのカタログを使用して、関数グラフで3Dシェイプを生成する強力な機能が追加されています。</p><p>符号付き距離フィールドは、数学的に定義されたサーフェスまでの距離として空間を表現したものです。 これらのサーフェスは、さまざまな演算子を使用して変形および組み合わされるため、複雑さが増すシェイプを定義するために使用できます。</p>
         </td>
         <td style="text-align: right; width: 25%; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-02.gif" alt="SDF 関数を使用したシェイプの作成" />
+            <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="SDF 関数を使用したシェイプの作成" />
         </td>
     </tr>
 </table>
@@ -148,37 +148,37 @@ SDF 関数には、次の4つのカテゴリに分類される[新しいノー�
 > 
 > [ノードの操作](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)ページに移動して、これらのSDF 関数の操作を開始してください。
 
-<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="SDF 関数節" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 関数節" />
 
 明確で読みやすいアイコンが付いた軽量のノードにより、3D SDF 関数の構築が思ったより簡単になります。特に、ツールセットに次に追加された機能により…
 
 ### 3Dビューアノード
 
-3D SDF 関数を作成する際には、作成されたシェイプを3D空間で視覚化する必要があります。 [3Dビューアーノード](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)は、3D SDFまたは交差点機能を、調整可能なカメラコントロール、カスタム環境光、および基本的なマテリアルのレンダリングをサポートする3D シーンとしてレンダリングします。 （カラー、粗さ、メタライズ）
+3D SDF 関数を作成する際には、作成されたシェイプを3D空間で視覚化する必要があります。 [3Dビューアーノード](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)は、3D SDFまたは交差点機能を、調整可能なカメラコントロール、カスタム環境光、および基本的なマテリアルのレンダリングをサポートする3D シーンとしてレンダリングします。 （色調、ラフネス及び金属性）
 
 このノードには、生成されたシェイプを詳細にチェックする機能や、デバッグの問題に関する機能(個別のレンダリングパス(AOV)、SDFアイソライン、およびビジュアルヘルパー)も含まれています。 (E.g. 裁ち落としカラー、グリッド、および回転アーク)
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%; border: 0">
         <td style="text-align: center; width: 50%; border: 0; padding: 15px">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-02.jpg" alt="例1" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="例1" />
         </td>
         <td style="width: 50%; border: 0; padding: 0">
             <table>
                 <tr style="vertical-align: top; border: 0">
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-03.jpg" alt="例1" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="例1" />
                     </td>
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-04.jpg" alt="例2" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="例2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top; border: 0; background: transparent">
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-05.jpg" alt="例3" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="例3" />
                     </td>
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-06.jpg" alt="例4" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="例4" />
                     </td>
                 </tr>
             </table>
@@ -193,17 +193,17 @@ SDF 関数には、次の4つのカテゴリに分類される[新しいノー�
 
 このマテリアルモデルは、アプリケーション全体でサポートされるようになりました。新しいレンダラー（ラスタライザー、GPU パストレーサー）とOpenGLレンダラーの両方に[専用のシェーダ](../../interface/3d-view/material-properties/material-properties.md#openpbr)があります。
 
-<img style="display: block; margin: auto" src="./version-16-0.resources/version-16-0-03.gif" alt="Substance 3D DesignerでのOpenPBRのサポートと他のDCCとの比較" />
+<img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Substance 3D DesignerでのOpenPBRのサポートと他のDCCとの比較" />
 
 新しいグラフテンプレートを使用して、広く採用されているこの業界標準の作業を開始しましょう。または、OpenPBRに基づいて組み込まれているマテリアルサンプルを確認しましょう。
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-04.png" alt="OpenPBRテンプレート" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBRテンプレート" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-05.png" alt="OpenPBR素材のサンプル" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="OpenPBR素材のサンプル" />
         </td>
     </tr>
 </table>
@@ -218,7 +218,7 @@ OpenPBRシェーダは、薄膜や薄壁などの既存のシェーダよりも�
             また、3Dビューで表示されるグラフがそのグラフのマテリアルモデルに適切なシェーダを使用するように、Substanceグラフに新しい<a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'マテリアルモデル'アトリビュート</a>を使用することで、特定のシェーダに関連するワークフローを同期させる方が簡単です。
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-06.png" alt="OpenPBR素材のサンプル" />
+            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR素材のサンプル" />
         </td>
     </tr>
 </table>
@@ -237,7 +237,7 @@ OpenPBRシェーダは、薄膜や薄壁などの既存のシェーダよりも�
 
 これらのコントロールは、新しいレンダラー（ラスタライザー、GPU パストレーサー）とOpenGLレンダラーの両方で使用できます。
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/displacement-01.gif" alt="3Dビューのディスプレイスメントポップアップ" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3Dビューのディスプレイスメントポップアップ" />
 
 シーンに複数のマテリアルが含まれている場合は、<code>Shiftキーを押しながら、事前に調整するシーンのオブジェクトを選択します</code> をクリックするか（ラスタライザとGPU パストレーサーのみ）、Scene Browserで選択します。
 
@@ -257,7 +257,7 @@ OpenPBRシェーダは、薄膜や薄壁などの既存のシェーダよりも�
             <p>Substanceグラフの定数値に簡単にアクセスできるように、各型の単純な値を生成するための<a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">新しいノード</a>が追加されました。</p><p>ライブラリの<b>値/定数</b>セクションで、これらすべての値を確認できます。</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constant-02.png" alt="定数&apos;Float&apos;ノード" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="定数&apos;Float&apos;ノード" />
         </td>
     </tr>
 </table>

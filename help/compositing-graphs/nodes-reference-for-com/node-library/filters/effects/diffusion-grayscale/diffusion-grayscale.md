@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
-description: 拡散グレースケールノードを使用してグレースケール拡散効果を適用し、滑らかな色の変化とブレンドを作成します。
+description: 拡散グレースケールノードを使用してグレースケール拡散エフェクトを適用し、滑らかなカラーの変化とブレンドを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Grayscale
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 拡散グレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 説明
 
-指定された&#x200B;**マスク**&#x200B;画像入力に従って&#x200B;**ソース**&#x200B;画像入力の値に拡散プロセスを適用し、値のグラデーションを滑らかにします。
+指定された&#x200B;**マスク**&#x200B;画像入力に従って&#x200B;**ソース**&#x200B;画像入力の値に誤差拡散処理を適用し、値の間のグラデーションを滑らかにします。
 
 マスクに一致するピクセルの値だけが拡散され、他のピクセルは拡散されません。
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 |:---|:---|
 | <b>ソース</b> <i>グレースケール</i> | 拡散するイメージ。 |
 | <b>マスク</b> <i>グレースケール</i> | 拡散マスク：白のピクセルが<i>ソース</i>でサンプリングされ、黒のピクセルで拡散されます。 画像は白黒である必要があります。 マスクにグラデーションが含まれている場合、カットオフ値は0.5です。 |
-| <b>適用度</b> <i>グレースケール</i> | 拡散プロセスの適用強度をローカルに定義します。 目立つ効果を得るには、このマップを<i>コントラスト</i>にする必要があります。 |
+| <b>適用度</b> <i>グレースケール</i> | 拡散プロセスの適用強度を局所的に定義します。 目立つ効果を得るには、このマップを<i>コントラスト</i>にする必要があります。 |
 
 <a name="parameters"></a>
 
@@ -57,33 +57,33 @@ ht-degree: 3%
 
 |  |  |
 |:---|:---|
-| <b>反復</b> <i>0.0 - 64.0</i> | 実行する反復の数（大きい方が望ましいが遅い）。 有効な値は[8, 48]の範囲です。<br>数学的に正しい値を求めない場合は、小さい値でも問題ありません。 |
+| <b>反復回数</b> <i>0.0 - 64.0</i> | 実行する反復の数（大きい方が望ましいが遅い）。 有効な値は[8, 48]の範囲です。<br>数学的に正しい値を求めない場合は、小さい値でも問題ありません。 |
 | <b>距離</b> <i>0.0 - 1.0</i> | 拡散の最大距離を調整します。 |
-| <b>ディザリングを有効にする</b> <i>真/偽</i> | 各パスのサンプリング方法を制御します。 ディザリングは少ないパスで収束できますが、ノイズが発生します。<br>パスがない場合、各パスの処理速度は速くなりますが、アーティファクトをバンディングせずに滑らかな結果を得るには、より多くのパスが必要です。 |
+| <b>ディザリングを有効にする</b> <i>真/偽</i> | 各パスのサンプリング方法を制御します。 ディザリングにより、より少ないパスで収束できますが、ノイズが発生します。<br>パスがない場合、各パスの処理速度は速くなりますが、アーティファクトをバンディングせずに滑らかな結果を得るには、より多くのパスが必要です。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-01-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-01a-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-01b-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-02-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-02-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-grayscale-02-render.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: マテリアルの値とテクスチャの抽出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![テクスチャ入力からグラフを作成 – 「3Dビュー」ビューポートでの操作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "テクスチャ入力からグラフを作成 – 「3Dビュー」ビューポートでの操作"){zoomable="yes"}
+![テクスチャ入力からグラフを作成 – 「3Dビュー」ビューポートでの操作](../../assets/createGraphFromTexturesActionViewport.png "テクスチャ入力からグラフを作成 – 「3Dビュー」ビューポートでの操作"){zoomable="yes"}
 
 *3Dビュービューポートのアクション*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![テクスチャ入力からグラフを作成 – 「マテリアル」メニューのアクション](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "テクスチャ入力からグラフを作成 – 「マテリアル」メニューのアクション"){zoomable="yes"}
+![テクスチャ入力からグラフを作成 – 「マテリアル」メニューのアクション](../../assets/createGraphFromTexturesActionMaterials.png "テクスチャ入力からグラフを作成 – 「マテリアル」メニューのアクション"){zoomable="yes"}
 
 *マテリアルメニューのアクション*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックでの操作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックでの操作"){zoomable="yes"}
+![テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックでの操作](../../assets/createGraphFromTexturesActionProps.png "テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックでの操作"){zoomable="yes"}
 
 *プロパティドックのアクション*
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![マテリアルテクスチャからグラフを作成した結果](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "マテリアルテクスチャからグラフを作成した結果"){zoomable="yes"}
+![マテリアルテクスチャからグラフを作成した結果](../../assets/createGraphFromTexturesResult.png "マテリアルテクスチャからグラフを作成した結果"){zoomable="yes"}
 
 *マテリアルテクスチャからグラフを作成した結果*
 
 +++デモンストレーション
-![テクスチャ入力からグラフを作成 – デモ](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "テクスチャ入力からグラフを作成 – デモ"){zoomable="yes"}
+![テクスチャ入力からグラフを作成 – デモ](../../assets/createGraphFromTextures.gif "テクスチャ入力からグラフを作成 – デモ"){zoomable="yes"}
 
 
 
@@ -116,14 +116,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![グラフにテクスチャを抽出 – プロパティドックの動作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "グラフにテクスチャを抽出 – プロパティドックの動作"){zoomable="yes"}
+![グラフにテクスチャを抽出 – プロパティドックの動作](../../assets/extractTextureAction.png "グラフにテクスチャを抽出 – プロパティドックの動作"){zoomable="yes"}
 
 プロパティドックのマテリアルプロパティのアクション
 
 </td>
 <td style="border: 0;" valign="top">
 
-![グラフにテクスチャを抽出 – 「出力先グラフの選択」ダイアログ](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "グラフにテクスチャを抽出 – 「出力先グラフの選択」ダイアログ"){zoomable="yes"}
+![グラフにテクスチャを抽出 – 「出力先グラフの選択」ダイアログ](../../assets/extractTextureSelectGraph.png "グラフにテクスチャを抽出 – 「出力先グラフの選択」ダイアログ"){zoomable="yes"}
 
 「宛先グラフを選択」ダイアログ
 
@@ -136,12 +136,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![テクスチャ抽出結果](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "テクスチャ抽出結果"){zoomable="yes"}
+![テクスチャ抽出結果](../../assets/extractTextureResult.png "テクスチャ抽出結果"){zoomable="yes"}
 
 テクスチャ抽出結果
 
 +++デモンストレーション
-![グラフにテクスチャを抽出 – デモ](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "グラフにテクスチャを抽出 – デモ"){zoomable="yes"}
+![グラフにテクスチャを抽出 – デモ](../../assets/extractTextureToGraph.gif "グラフにテクスチャを抽出 – デモ"){zoomable="yes"}
 
 
 
@@ -170,21 +170,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![値をグラフに抽出 – プロパティドックのアクション](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "値をグラフに抽出 – プロパティドックのアクション"){zoomable="yes"}
+![値をグラフに抽出 – プロパティドックのアクション](../../assets/extractValueAction.png "値をグラフに抽出 – プロパティドックのアクション"){zoomable="yes"}
 
 プロパティドックのマテリアルプロパティのアクション
 
 </td>
 <td style="border: 0;" valign="top">
 
-![グラフに値を抽出 – 「グラフ先の選択」ダイアログ](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "グラフに値を抽出 – 「グラフ先の選択」ダイアログ"){zoomable="yes"}
+![グラフに値を抽出 – 「グラフ先の選択」ダイアログ](../../assets/extractValueSelectGraph.png "グラフに値を抽出 – 「グラフ先の選択」ダイアログ"){zoomable="yes"}
 
 「宛先グラフを選択」ダイアログ
 
 </td>
 <td style="border: 0;" valign="top">
 
-![値をグラフに抽出 – 値プロセッサノードの関数の定数ノード](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "値をグラフに抽出 – 値プロセッサノードの関数の定数ノード"){zoomable="yes"}
+![値をグラフに抽出 – 値プロセッサノードの関数の定数ノード](../../assets/extractValueResult2.png "値をグラフに抽出 – 値プロセッサノードの関数の定数ノード"){zoomable="yes"}
 
 値プロセッサノードの関数の定数ノード
 
@@ -192,12 +192,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![値の抽出結果](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "値の抽出結果"){zoomable="yes"}
+![値の抽出結果](../../assets/extractValueResult.png "値の抽出結果"){zoomable="yes"}
 
 値の抽出結果
 
 +++デモンストレーション
-![値をグラフに抽出 – デモ](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "値をグラフに抽出 – デモ"){zoomable="yes"}
+![値をグラフに抽出 – デモ](../../assets/extractValueToGraph.gif "値をグラフに抽出 – デモ"){zoomable="yes"}
 
 
 

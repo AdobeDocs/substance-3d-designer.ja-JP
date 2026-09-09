@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3Dシーンの操作
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 3Dシーンの操作
 
-![3Dシーンの操作](working-with-3d-scenes.resources/working-with-3d-scenes-01.png "3Dシーンの操作"){zoomable="yes"}
+![3Dシーンの操作](../assets/workingWith3DScenes.png "3Dシーンの操作"){zoomable="yes"}
 
 Designerでは、[3Dシーン](../glossary/glossary.md)を読み込んで、コンテキストに応じてマテリアルを操作できます。 各形式でサポートされている機能のリストなど、3Dシーンでサポートされているファイル形式のリストはこちらにあります。 <b>&lt;リンクが必要です></b>
 
@@ -64,35 +64,35 @@ USD形式に書き出す場合。このワークフローはすべて<b>非破�
 * <b>ライト:</b>シーン内のすべてのライトは、[Scene browser](../interface/3d-view/scene-browser/scene-browser.md)で無効にできます。
 * <b>カメラ:</b>シーン内で検出されたすべてのカメラは、Designerによって追加されたカメラにプリセットとして追加されます。
 
-![3Dシーンの内容](working-with-3d-scenes.resources/working-with-3d-scenes-02.png "3Dシーンの内容"){zoomable="yes"}
+![3Dシーンの内容](../assets/loaded3DScene.png "3Dシーンの内容"){zoomable="yes"}
 
-Designerは、3D シーンにUSDの説明を使用します。 そのレイアウトはScene Browserでナビゲートできます。各[USD prim](https://openusd.org/release/glossary.html#usdglossary-prim)タイプには独自のアイコン（ジオメトリ、マテリアル、シェーダ、カメラ、トランスフォームなど）があります。
+Designerでは、3Dシーンの説明に米ドルを使用しています。 そのレイアウトはScene Browserでナビゲートできます。各[USD prim](https://openusd.org/release/glossary.html#usdglossary-prim)タイプには独自のアイコン（ジオメトリ、マテリアル、シェーダ、カメラ、トランスフォームなど）があります。
 
-[Scene Browser](../interface/3d-view/scene-browser/scene-browser.md)を使用して、シーンのコンテンツを選択、有効化、および無効化できます。 したがって、カスタム3D シーンを操作する場合は、常に表示しておくことをお勧めします。
+[Scene Browser](../interface/3d-view/scene-browser/scene-browser.md)を使用して、シーンのコンテンツを選択、有効化、および無効化できます。 したがって、カスタム3Dシーンを操作する場合は、常に表示しておくことをお勧めします。
 
 ## シーンのロード
 
-3D ビューに3D シーンを読み込むには、いくつかの方法があります。
+3Dビューに3Dシーンをロードするには、いくつかの経路があります。
 
 1. [3Dシーンリソース](../resources/3d-scene-resource/3d-scene-resource.md)をダブルクリックするか、[パッケージ](../glossary/glossary.md)から3Dビューにドラッグします
-1. [ライブラリ](../interface/the-library/the-library.md)の3D シーン項目を3D ビューにドラッグします（[独自のコンテンツをライブラリに追加](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)した場合）
-1. 3D シーンファイルをシステムのファイルブラウザから3D ビューにドラッグします
-1. 3D シーン・ステート・ファイル(SBSSCN)とその参照メッシュをロードします。
+1. [ライブラリ](../interface/the-library/the-library.md)の3Dシーンアイテムを3Dビューにドラッグします（[独自のコンテンツをライブラリに追加](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)した場合）
+1. 3Dシーンファイルをシステムのファイルブラウザから3Dビューにドラッグします
+1. 3Dシーン状態ファイル(SBSSCN)とその参照メッシュをロードする
 
-シーンのステータスは3D シーン・リソースおよびシーン・ステート・ファイルに書き込まれ、パッケージに保存されるため、シーンを再びロードできるのは、メソッド1と4だけです。前回の作業とまったく同じです。 方法2および3は、他の方法と同様にシーンをロードします。
+シーンの状態は3Dシーンリソースおよびシーン状態ファイルに書き込まれ、パッケージに保存されるため、方法1および4を使用した場合のみ、前回の作業とまったく同じシーンを再ロードできます。 方法2および3は、他の方法と同様にシーンをロードします。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![3D シーンの読み込み – 3D シーンリソースから](working-with-3d-scenes.resources/working-with-3d-scenes-03.gif "3D シーンの読み込み – 3D シーンリソースから"){zoomable="yes"}
+![3Dシーンの読み込み – 3Dシーンリソースから](../assets/load3DScene-3DSceneResource.gif "3Dシーンの読み込み – 3Dシーンリソースから"){zoomable="yes"}
 
 3Dシーンリソースの読み込み
 
 </td>
 <td style="border: 0;" valign="top">
 
-![3D シーンの読み込み – ライブラリから](working-with-3d-scenes.resources/working-with-3d-scenes-04.gif "3D シーンの読み込み – ライブラリから"){zoomable="yes"}
+![3Dシーンの読み込み – ライブラリから](../assets/load3DScene-Library.gif "3Dシーンの読み込み – ライブラリから"){zoomable="yes"}
 
 ライブラリからの3Dシーンの読み込み
 
@@ -104,14 +104,14 @@ Designerは、3D シーンにUSDの説明を使用します。 そのレイア�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![3Dシーンの読み込み – 3Dシーンファイルから](working-with-3d-scenes.resources/working-with-3d-scenes-05.gif "3Dシーンの読み込み – 3Dシーンファイルから"){zoomable="yes"}
+![3Dシーンの読み込み – 3Dシーンファイルから](../assets/load3DScene-3DSceneFile.gif "3Dシーンの読み込み – 3Dシーンファイルから"){zoomable="yes"}
 
 3Dシーンファイルをロードする
 
 </td>
 <td style="border: 0;" valign="top">
 
-![3Dシーンの読み込み – シーン状態ファイルから](working-with-3d-scenes.resources/working-with-3d-scenes-06.gif "3Dシーンの読み込み – シーン状態ファイルから"){zoomable="yes"}
+![3Dシーンの読み込み – シーン状態ファイルから](../assets/load3DScene-sceneStateFile.gif "3Dシーンの読み込み – シーン状態ファイルから"){zoomable="yes"}
 
 シーン状態ファイルをロードする
 
@@ -121,13 +121,13 @@ Designerは、3D シーンにUSDの説明を使用します。 そのレイア�
 
 >[!NOTE]
 >
-> 3D ビュー内のシーンのナビゲーションと視覚化については、[3D ビュードキュメント](../interface/3d-view/3d-view.md)を参照してください。
+> 3Dビューでのシーンのナビゲートと視覚化については、[3Dビューのドキュメント](../interface/3d-view/3d-view.md)を参照してください。
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Designerでは、シーンに存在する環境に加えて、常に独自の環境（USDのDomeLight）とカメラが作成されます。
+Designerでは、シーンに含まれている環境以外にも、独自の環境（DomeLight、米ドル単位）とカメラを作成します。
 
 Designerで作成されたアイテムは、Scene Browserに<b>太字のラベル</b>でリストされます。
 
@@ -138,7 +138,7 @@ Designerで作成されたアイテムは、Scene Browserに<b>太字のラベ�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シーンブラウザー – Designerによって作成された要素](working-with-3d-scenes.resources/working-with-3d-scenes-07.png "シーンブラウザー – Designerによって作成された要素"){zoomable="yes"}
+![Scene Browser - Designerによって作成された要素](../assets/sceneBrowser-createdByDesigner.png "Scene Browser - Designerによって作成された要素"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Designerで作成されたアイテムは、Scene Browserに<b>太字のラベ�
 
 3Dビューでマテリアル、カメラ、ライトなどを設定した後、その状態をシーン状態ファイル(.sbscn)に保存できます。このファイルは、後でロードして状態を復元できます。 例えば、異なるタイプのマテリアルや特定の照明環境をプレビューするためにいくつかのシーンを設定することができます。
 
-![シーン状態ファイルの読み込み](working-with-3d-scenes.resources/working-with-3d-scenes-08.gif "シーン状態ファイルの読み込み"){zoomable="yes"}
+![シーン状態ファイルの読み込み](../assets/loadSceneStateFile.gif "シーン状態ファイルの読み込み"){zoomable="yes"}
 
 保存されたシーンの状態は、3Dビューのデフォルトの状態としても使用できるため、新しい3Dビューを作成する際には、常にその状態が使用されます。 この機能は、既定値でマテリアルをSphere 2-Tilesメッシュ上でタイリング値2と特定の環境マップを使用してプレビューする場合に便利です。
 

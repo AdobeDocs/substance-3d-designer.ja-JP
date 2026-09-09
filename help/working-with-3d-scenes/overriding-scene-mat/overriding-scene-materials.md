@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シーンマテリアルをオーバーライドする
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 マテリアルはゼロから作成することも、[Substanceグラフに抽出](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)されたシーンのマテリアルの調整バージョンを作成することもできます。
 
-![シーンマテリアルをオーバーライドし、微調整してシーン状態にリセットします](overriding-scene-materials.resources/overriding-scene-materials-01.gif "シーンマテリアルをオーバーライドし、微調整してシーン状態にリセットします"){zoomable="yes"}
+![シーンマテリアルをオーバーライドし、微調整してシーン状態にリセットします](../../assets/tweakOverriddenMaterial.gif "シーンマテリアルをオーバーライドし、微調整してシーン状態にリセットします"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![&#39;3Dビュー&#39;ビューポートのマテリアルを上書き – アクション](overriding-scene-materials.resources/overriding-scene-materials-02.png "&#39;3Dビュー&#39;ビューポートのマテリアルを上書き – アクション"){zoomable="yes"}
+![&#39;3Dビュー&#39;ビューポートのマテリアルを上書き – アクション](../../assets/overrideMaterialActionViewport.png "&#39;3Dビュー&#39;ビューポートのマテリアルを上書き – アクション"){zoomable="yes"}
 
 *3Dビュービューポートのアクション*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![[マテリアルのオーバーライド] - [マテリアル]メニューのアクション](overriding-scene-materials.resources/overriding-scene-materials-03.png "[マテリアルのオーバーライド] - [マテリアル]メニューのアクション"){zoomable="yes"}
+![[マテリアルのオーバーライド] - [マテリアル]メニューのアクション](../../assets/overrideMaterialActionMaterials.png "[マテリアルのオーバーライド] - [マテリアル]メニューのアクション"){zoomable="yes"}
 
 *マテリアルメニューのアクション*
 
@@ -97,45 +97,45 @@ Designerのコンテキストでは、シーンの内部の記述に米ドルを
 >
 > <b>AdobeStandardMaterial</b>のシェーディングモデルはSubstance 3Dエコシステム全体でサポートされていますが、業界標準ではないため、Blenderなどのサードパーティ製アプリケーションでは&#x200B;*サポートされない場合があります*。
 > 
-> Substance 3Dアプリケーションの外部で最高の相互運用性を実現するために、現在は、サポートするマテリアルプロパティおよび効果がはるかに少ない場合でも、<b>UsdPreviewSurface</b> シェーディングモデルの使用をお勧めします。
+> Substance 3Dアプリケーションの外部で最高の相互運用性を実現するために、シェーディングのプロパティや効果のサポート対象が大幅に少ない場合でも、<b>UsdPreviewSurface</b>マテリアルモデルの使用をお勧めします。
 
 ## シーンの状態にリセット
 
-オーバーライドされた状態を維持したままマテリアルの初期状態に戻す必要がある場合、マテリアルのコピーはすべて初期値にリセットできます。
+上書きされた状態を維持したままマテリアルの初期状態に戻す必要がある場合は、マテリアルコピーを初期値にリセットできます。
 
-マテリアルプロパティ値が修正された場合、またはグラフからテクスチャが適用された場合、プロパティは初期値またはテクスチャに戻ります。
+マテリアルプロパティ値が変更された場合、またはグラフからのテクスチャが適用された場合、プロパティは初期値またはテクスチャに戻ります。
 
 マテリアルは、完全に、またはプロパティごとにリセットできます。
 
-マテリアルのサブメニューまたはメッシュのコンテキストメニューの「マテリアルをシーンの状態にリセット」アクションを使用して、マテリアルを完全にリセットします。
+マテリアルのサブメニューまたはメッシュのコンテキストメニューの「マテリアルをシーンステートにリセット」アクションを使用すると、マテリアルを完全にリセットできます。
 
 アクションは、次の3つの場所で見つけることができます。
 
 * マテリアルメニューを開き、目的のマテリアルのサブメニューに移動します
-* シーンオブジェクトでShift+LMBを押して選択し、RMBをクリックしてコンテキストメニューを開きます
-* そのマテリアルのプロパティの上部にあるハンバーガーメニュー
+* シーンオブジェクトでShift + LMBを押して選択し、 RMBをクリックしてコンテキストメニューを開きます
+* マテリアルプロパティの上部にあるハンバーガーメニュー
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![マテリアルをシーンの状態にリセット – &#39;3D VIew&#39;ビューポートでの動作](overriding-scene-materials.resources/overriding-scene-materials-04.png "マテリアルをシーンの状態にリセット – &#39;3D VIew&#39;ビューポートでの動作"){zoomable="yes"}
+![マテリアルをシーンの状態にリセット – &#39;3D ビュー&#39; ビューポートの操作](../../assets/resetMaterialToSceneStateActionViewport.png "マテリアルをシーンの状態にリセット – &#39;3D ビュー&#39; ビューポートの操作"){zoomable="yes"}
 
-*3Dビュービューポートのアクション*
-
-</td>
-<td style="border: 0;" valign="top">
-
-![マテリアルをシーンの状態にリセット – 「マテリアル」メニューのアクション](overriding-scene-materials.resources/overriding-scene-materials-05.png "マテリアルをシーンの状態にリセット – 「マテリアル」メニューのアクション"){zoomable="yes"}
-
-*マテリアルメニューのアクション*
+*3D ビュー ビューポートの操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![マテリアルをシーンの状態にリセット – 「プロパティ」ドックのアクション](overriding-scene-materials.resources/overriding-scene-materials-06.png "マテリアルをシーンの状態にリセット – 「プロパティ」ドックのアクション"){zoomable="yes"}
+![マテリアルをシーンの状態にリセットする – [マテリアル]メニューの動作](../../assets/resetMaterialToSceneStateActionMaterials.png "マテリアルをシーンの状態にリセットする – [マテリアル]メニューの動作"){zoomable="yes"}
 
-*マテリアルのプロパティのアクション*
+*マテリアルメニューの操作*
+
+</td>
+<td style="border: 0;" valign="top">
+
+![マテリアルをシーンの状態にリセット – &#39;プロパティ&#39;ドックでの操作](../../assets/resetMaterialToSceneStateActionProps.png "マテリアルをシーンの状態にリセット – &#39;プロパティ&#39;ドックでの操作"){zoomable="yes"}
+
+*マテリアルのプロパティの操作*
 
 </td>
 </tr>
@@ -145,14 +145,14 @@ Designerのコンテキストでは、シーンの内部の記述に米ドルを
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-このアクションは、マテリアルの一部の側面のみをリセットする場合に備えて、マテリアルプロパティの&#x200B;*プロパティごと*&#x200B;にも使用できます。
+マテリアルの一部の部分のみをリセットする場合に備えて、マテリアルのプロパティで&#x200B;*プロパティ単位*&#x200B;のアクションも使用できます。
 
-マテリアルプロパティのハンバーガーメニューを開き、「デフォルトのシーン状態にリセット」アクションを見つけます。
+マテリアルプロパティのハンバーガーメニューを開き、「デフォルトのシーンステートにリセット」アクションを見つけます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![シーンの状態にリセット – マテリアルプロパティのアクション](overriding-scene-materials.resources/overriding-scene-materials-07.png "シーンの状態にリセット – マテリアルプロパティのアクション"){zoomable="yes"}
+![シーンの状態にリセット – マテリアルのプロパティの動作](../../assets/resetPropertyToSceneStateAction.png "シーンの状態にリセット – マテリアルのプロパティの動作"){zoomable="yes"}
 
 </td>
 </tr>
@@ -160,16 +160,16 @@ Designerのコンテキストでは、シーンの内部の記述に米ドルを
 
 ## 接続されたマテリアル
 
-繰り返しますが、Designerはシーンのマテリアルを直接変更するのではなく、シーン内にコピーを作成し、メッシュをそのコピーにバインドします（元のコピーはバインドされません）。
+繰り返しますが、Designerはシーンのマテリアルを直接変更するのではなく、シーンにコピーを作成し、メッシュを元のコピーではなく、そのコピーにバインドします。
 
-また、Designerの「マテリアル」メニューには、デフォルトでシーンのマテリアルリストと一致する&#x200B;*独自の*&#x200B;個別のマテリアルリストがあります。 このリストには、いつでも新しいマテリアルを追加できます。
+一方、Designerの「マテリアル」メニューには、*独自*&#x200B;のマテリアルのリストがあり、デフォルトではシーンのマテリアルのリストと一致します。 このリストには、いつでも新しいマテリアルを追加できます。
 
-これは、Designerのみで作成および管理される&#x200B;*別*&#x200B;データセットです。 これらのマテリアルは、シーンの元のマテリアルをオーバーライドするコピーに&#x200B;*接続*&#x200B;されます。
+これは、Designerのみで作成および管理される&#x200B;*別*&#x200B;データセットです。 これらのマテリアルは、シーンの元のマテリアルを上書きする&#x200B;*コピー*&#x200B;に接続されます。
 
-![マテリアルのオーバーライド – データ回路図](overriding-scene-materials.resources/overriding-scene-materials-08.png "マテリアルのオーバーライド – データ回路図"){zoomable="yes"}
+![マテリアルのオーバーライド – データ回路図](../../assets/overridingMaterialsSchematic.png "マテリアルのオーバーライド – データ回路図"){zoomable="yes"}
 
 シーンブラウザーでDesignerによって作成されたコピーに、「マテリアル」メニューに表示されているいずれかのマテリアルを接続できます。シーンーでコピーに対して「RMB」をクリックし、「接続マテリアル」サブメニューを開きます。
 
 サブメニューには、シーン内のすべてのマテリアルと、「マテリアル」メニューから手動で作成したマテリアルが一覧表示されます。
 
-![マテリアルを接続する](overriding-scene-materials.resources/overriding-scene-materials-09.gif "マテリアルを接続する"){zoomable="yes"}
+![マテリアルを接続する](../../assets/connectMaterials.gif "マテリアルを接続する"){zoomable="yes"}

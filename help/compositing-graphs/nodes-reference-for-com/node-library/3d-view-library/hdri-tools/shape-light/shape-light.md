@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ライトを形成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape.png){width="200px"}
+![](shape-light.resources/panorama-shape.png){width="200px"}
 
 <b>内：</b> 3D ビュー > HDRI ツール
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 |:---|:---|
 | <b>シェイプ行列</b> |  |
 | <b>行列</b> <i>（変換行列）</i> | 結果の変換コントロール。 カンバスを直接操作して、結果を変更できます。 |
-| <b>オフセット</b> <i>-2.0 - 2.0</i> | 結果を移動または変換します。 カンバスを直接操作して、結果を変更できます。 |
+| <b>オフセット</b> <i>-2.0 - 2.0</i> | 結果を移動または移動します。 カンバスを直接操作して、結果を変更できます。 |
 | <b>図形</b> <i>長方形、ディスク</i> | 配置するシェイプを選択します。 |
 | <b>図形のカラーモード</b> <i>RGB、色温度（ケルビン）、画像入力</i> | シェイプカラーの設定に使用する方法を選択します。 イメージ入力により、2番目の入力スロットが使用可能になります。 |
 | <b>色</b> <i>（カラー値）</i> | シェイプカラーモードを「RGB」に設定した場合のみ シェイプのカラーを選択します。 |
@@ -77,7 +77,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-light-ex.gif" />
+            <img src="shape-light.resources/shape-light-ex.gif" />
         </td>
     </tr>
 </table>
