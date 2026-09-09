@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
 breadcrumb-title: ''
 description: '[Flood Fillを配置]ノードを使用して、プロシージャパターンを作成するための位置に基づく値で領域を塗りつぶします。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 配置のFlood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-position.png){width="128px"}
+![](flood-fill-to-position.resources/floodfill-to-position.png){width="128px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodfill-to-position-1.png" />
+            <img src="flood-fill-to-position.resources/floodfill-to-position-1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodposition-ex2.png" />
+            <img src="flood-fill-to-position.resources/floodposition-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodposition-ex1.png" />
+            <img src="flood-fill-to-position.resources/floodposition-ex1.png" />
         </td>
     </tr>
 </table>
