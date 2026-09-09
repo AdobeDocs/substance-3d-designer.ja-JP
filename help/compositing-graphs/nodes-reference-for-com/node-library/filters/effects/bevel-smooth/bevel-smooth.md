@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: ベベルスムーズノードを使用して、リアルなサーフェスのシェイプやパターンに滑らかなベベルエッジを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ベベルスムーズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![異方性桑原グレースケールアイコン](../../../../../../assets/bevel_smooth.png "異方性桑原グレースケールアイコン"){width="200px"}
+![異方性桑原グレースケールアイコン](bevel-smooth.resources/bevel_smooth.png "異方性桑原グレースケールアイコン"){width="200px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -87,12 +87,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ベベルスムーズ：例1](../../../../../../assets/bevel_smooth_example_1.gif "ベベルスムーズ：例1"){width="1024px" zoomable="yes"}
+![ベベルスムーズ：例1](bevel-smooth.resources/bevel_smooth_example_1.gif "ベベルスムーズ：例1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ベベルスムーズ：例8](../../../../../../assets/bevel_smooth_example_8.jpg "ベベルスムーズ：例8"){width="1024px" zoomable="yes"}
+![ベベルスムーズ：例8](bevel-smooth.resources/bevel_smooth_example_8.jpg "ベベルスムーズ：例8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>後</i>
     </td>
   </tr>
