@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでのテクスチャのベイク処理に関する技術的な問題のトラブルシューティング手順を説明します。
 helpx_creative_field: ""

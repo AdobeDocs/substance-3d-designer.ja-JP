@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでマテリアルプロジェクト用にリソースを読み込み、リンクし、新しいリソースを作成する方法について説明します。
 helpx_creative_field: ""

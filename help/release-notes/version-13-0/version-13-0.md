@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 新しいノード、バージョン9.0、およびポータルノードについては、 Substance 3D Designer Substance engine 13.0のリリースノートを確認してください。
 helpx_creative_field: ""
