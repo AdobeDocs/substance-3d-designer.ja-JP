@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
-description: シェイプドロップシャドウノードを使用してシェイプにドロップシャドウ効果を加え、テクスチャの深度と奥行きを出します。
+description: シェイプドロップシャドウノードを使用してシェイプにドロップシャドウ効果を加え、テクスチャの深度と奥行きを表現します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シェイプドロップシャドウ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-dropshadow-grayscale.png){width="128px"}
+![](shape-drop-shadow.resources/shape-dropshadow-grayscale.png){width="128px"}
 
-![](../../../../../../assets/shape-dropshadow.png){width="128px"}
+![](shape-drop-shadow.resources/shape-dropshadow.png){width="128px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## 説明
 
-入力されたブラックと白のマスク（グレースケール版の場合）または透明度のある画像（カラー版の場合）に対して、他の2D画像処理ソフトウェアでよく知られている「ドロップシャドウ」効果を適用します。
+入力された白黒マスク（グレースケール版の場合）または透明画像（カラー版の場合）上で、他の2D画像処理ソフトウェアでよく知られている「ドロップシャドウ」効果を実行します。
 
 [シャドウ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md)効果とは異なり、完全な透明度が適用された画像を返し、他のソフトウェアで期待されるものと同様の完全な効果が得られます。
 
@@ -64,7 +64,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dropshadowex.png" />
+            <img src="shape-drop-shadow.resources/dropshadowex.png" />
         </td>
     </tr>
 </table>
