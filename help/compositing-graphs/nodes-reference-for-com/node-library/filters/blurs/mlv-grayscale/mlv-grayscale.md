@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: MLVグレースケールぼかしフィルターを使用して、グレースケールテクスチャにモーションブラー効果を適用し、ダイナミックな外観にします。
 helpx_creative_field: ""
