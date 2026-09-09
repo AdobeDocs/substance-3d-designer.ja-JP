@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのベクター編集ツールを使用すると、プロシージャルのテクスチャ向けにSVGグラフィックを作成および編集できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ベクター編集ツール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](vector-editing-tools.resources/vector-editing-tools-01.png){width="512px"}
+![](../../../assets/2dview-vectorediting-main.png){width="512px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 > [新規または読み込み](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)の&#x200B;*8ビット* [ベクターグラフィックリソース](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)には、*のみ*&#x200B;をペイントできます。
 
-![新しいSVGリソースダイアログ](vector-editing-tools.resources/vector-editing-tools-02.png "新しいSVGリソースダイアログ"){width="512px"}
+![新しいSVGリソースダイアログ](../../../assets/2dview-new-vector-image.png "新しいSVGリソースダイアログ"){width="512px"}
 
 ## ベクター編集ツールの有効化
 
@@ -87,7 +87,7 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 **Adobe Illustrator**&#x200B;のユーザーは、添付された画像を参照して、推奨されるSVG *書き出し設定*&#x200B;を利用できます。
 
 +++Adobe Illustrator書き出しオプション
-![SVGのIllustrator書き出しオプション](vector-editing-tools.resources/vector-editing-tools-03.png "SVGのIllustrator書き出しオプション")
+![SVGのIllustrator書き出しオプション](../../../assets/demo-svg.png "SVGのIllustrator書き出しオプション")
 
 
 
@@ -103,13 +103,13 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 
 ベクター編集ツールが有効になっている場合、2つのツールバーが表示されます。
 
-* **ツールの選択** **ツールバー**: *ツールを選択*&#x200B;し、*塗りつぶし/アウトラインの色*&#x200B;を指定できます。既定では、2D ビューパネルの&#x200B;*左*&#x200B;側に配置されます
+* **ツール選択** **ツールバー**: *ツール*&#x200B;と&#x200B;*塗りつぶし/アウトラインの色*&#x200B;を選択できます。既定では2Dビューパネルの&#x200B;*左*&#x200B;側に配置されます
 * **ツールオプションツールバー**: *現在選択されているツール*&#x200B;の&#x200B;*オプション*&#x200B;を設定できます。デフォルトでは、2Dビューパネルの&#x200B;*上*&#x200B;に配置されます
 
 キーボードショートカットを使用するとツールにすばやくアクセスでき、ツール/関数名の後の括弧で囲まれた以下のマークが付きます。
 
 +++カラー選択
-![](vector-editing-tools.resources/vector-editing-tools-04.png)![](vector-editing-tools.resources/vector-editing-tools-05.png) **カラー選択** *サムネール*&#x200B;では、ベクターシェイプの&#x200B;*塗りつぶし*&#x200B;と&#x200B;*アウトライン*&#x200B;の色を定義できます。 次の方法で、各色の&#x200B;**カラーエディター**&#x200B;を開くことができます。
+![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **カラー選択** *サムネール*&#x200B;では、ベクターシェイプの&#x200B;*塗りつぶし*&#x200B;と&#x200B;*アウトライン*&#x200B;の色を定義できます。 次の方法で、各色の&#x200B;**カラーエディター**&#x200B;を開くことができます。
 
 * **塗りつぶしの色：** *塗りつぶし*&#x200B;のカラーサムネール（上）をクリックするか、カンバス上のLMBをダブルクリックします
 
@@ -117,16 +117,16 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 
 設定した色は、*現在選択されている図形*&#x200B;に適用されます。
 
-現在の&#x200B;*アウトライン*&#x200B;の色が&#x200B;*黒*&#x200B;である場合(輝度 0またはRGB (0, 0, 0))、アウトラインの色の縮小表示を&#x200B;*クリック*&#x200B;するまで、選択した図形に&#x200B;*適用されません*&#x200B;が。
+現在の&#x200B;*アウトライン*&#x200B;の色が&#x200B;*黒*&#x200B;である場合(つまり、輝度0またはRGB(0, 0, 0))、アウトラインの色サムネール&#x200B;*を*&#x200B;クリックするまで、選択した図形に&#x200B;*適用されません*&#x200B;が。
 
 +++
 
 +++変形
-![変形ツール](vector-editing-tools.resources/vector-editing-tools-06.png "変形ツール"){width="512px"}
+![変形ツール](../../../assets/2dview-vectorediting-transformation.png "変形ツール"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/vector-editing-tools-07.png) <b>変換</b>ツール(<b>V</b>)では、図形を選択して変換ギズモに含めることができます。 このギズモを使用すると、次の操作を実行できます。
+![](../../../assets/2dview-vectorediting-icon-transformation.png) <b>変換</b>ツール(<b>V</b>)では、図形を選択して変換ギズモに含めることができます。 このギズモを使用すると、次の操作を実行できます。
 
 <b>移動</b>:ギズモの&#x200B;*内側*&#x200B;をクリックして長押しします
 
@@ -137,19 +137,19 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 +++
 
 +++ノード
-![ノードツール](vector-editing-tools.resources/vector-editing-tools-08.png "ノードツール"){width="512px"}
+![ノードツール](../../../assets/2dview-vectorediting-node.png "ノードツール"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/vector-editing-tools-09.png) <b>ノード</b>ツール(<b>A</b>)を使用すると、選択した図形の個々の頂点（ノード）を選択し、その位置とハンドルを編集したり、頂点を追加および削除したりできます。 シェイプを選択すると、次のアクションを実行できます。
+![](../../../assets/2dview-vectorediting-icon-node.png) <b>ノード</b>ツール(<b>A</b>)を使用すると、選択した図形の個々の頂点（ノード）を選択し、その位置とハンドルを編集したり、頂点を追加および削除したりできます。 シェイプを選択すると、次のアクションを実行できます。
 
 <b>頂点の追加：</b>シェイプのアウトラインにCtrl + LMB
 
 <b>頂点を削除</b>：頂点のCtrl + LMB
 
-<b>頂点の移動</b>: 頂点のLMBを保持します
+<b>頂点を移動</b>：頂点のLMBを押したままにします
 
-<b>頂点ハンドルを移動する</b>:ハンドルのLMBを押したままにします
+<b>頂点ハンドルの移動</b>:ハンドルのLMBを押したままにします
 
 <b>頂点ハンドルを個別に移動する</b>: Alt + LMBを押したままにします。 ハンドルは、*リセット*&#x200B;されるまで、このポイントを超えると&#x200B;*リンク解除*&#x200B;されます
 
@@ -160,11 +160,11 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 +++
 
 +++シェイプ
-![シェイプツール](vector-editing-tools.resources/vector-editing-tools-01.png "シェイプツール"){width="512px"}
+![シェイプツール](../../../assets/2dview-vectorediting-main.png "シェイプツール"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/vector-editing-tools-10.png) <b>シェイプ</b>ツール(<b>M</b>)は、現在の&#x200B;*塗りつぶし*&#x200B;の色を使用したプリミティブなシェイプのセットを提供しています。この色は、次のものから構築および編集できます。
+![](../../../assets/2dview-vectorediting-icons-shape.png) <b>シェイプ</b>ツール(<b>M</b>)は、現在の&#x200B;*塗りつぶし*&#x200B;の色を使用したプリミティブなシェイプのセットを提供しています。この色は、次のものから構築および編集できます。
 
 * <b>長方形；</b>
 
@@ -179,11 +179,11 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 +++
 
 +++ペン
-![ペンツール](vector-editing-tools.resources/vector-editing-tools-11.png "ペンツール"){width="512px"}
+![ペンツール](../../../assets/2dview-vectorediting-pen.png "ペンツール"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/vector-editing-tools-12.png) <b>ペン</b>ツール(<b>P</b>)を使用すると、現在の&#x200B;*塗りつぶし*&#x200B;の色を使用して新しいユーザー設定の図形を描画できます。 次の2つのモードを使用できます。
+![](../../../assets/2dview-vectorediting-icon-pen.png) <b>ペン</b>ツール(<b>P</b>)を使用すると、現在の&#x200B;*塗りつぶし*&#x200B;の色を使用して新しいユーザー設定の図形を描画できます。 次の2つのモードを使用できます。
 
 <b>パス</b>モードでは、図形は一度に&#x200B;*1つの頂点*&#x200B;を描画します。 次のコントロールを使用できます。
 
@@ -203,22 +203,22 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 
 <b>フリーハンド</b>モードでは、LMBを押しながらペンをカンバス上にドラッグして、直接シェイプを描画できます。
 
-パスができるだけ近くなるように、頂点は線に沿って&#x200B;*自動的に配置*&#x200B;されます。 ストロークが終了すると、シェイプは&#x200B;*自動的に閉じる*&#x200B;になり、最初の頂点がストロークの最後に接続されます。
+頂点は、線に沿って&#x200B;*自動的に配置*&#x200B;され、結果のパスが線にできるだけ近づくようにします。 ストロークが終了すると、シェイプは&#x200B;*自動的に閉じる*&#x200B;になり、最初の頂点がストロークの最後に接続されます。
 
 +++
 
 +++押し出し
-![押し出しツール](vector-editing-tools.resources/vector-editing-tools-13.png "押し出しツール"){width="512px"}
+![押し出しツール](../../../assets/2dview-vectorediting-extrude.png "押し出しツール"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/vector-editing-tools-14.png) **押し出し**&#x200B;ツール(E) *は、*&#x200B;直径を設定&#x200B;*した形状を*&#x200B;合わせ、*描画モード*&#x200B;で選択したパスに沿って描画し、オプションツールバーで設定した&#x200B;*結合モード*&#x200B;に従ってキャンバスに結果を適用します。
+![](../../../assets/2dview-vectorediting-icon-extrude.png) **押し出し**&#x200B;ツール(E) *は、*&#x200B;直径を設定&#x200B;*した形状を*&#x200B;合わせ、*描画モード*&#x200B;で選択したパスに沿って描画し、オプションツールバーで設定した&#x200B;*結合モード*&#x200B;に従ってキャンバスに結果を適用します。
 
 次の&#x200B;*描画モード*&#x200B;を利用できます：
 
-![](vector-editing-tools.resources/vector-editing-tools-15.png) **フリーフォーム**: LMBを押しながら、カンバス全体でペンをドラッグ&#x200B;*して、シェイプ*&#x200B;を直接描画します。 ストロークが終了すると、シェイプが一緒に追加されます。
+![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **フリーフォーム**: LMBを押したまま、キャンバス上でペンをドラッグ&#x200B;*して、シェイプ*&#x200B;を直接描画します。 ストロークが終了すると、シェイプが一緒に追加されます。
 
-![](vector-editing-tools.resources/vector-editing-tools-16.png) **多角形**: LMBをクリックして角度を加えることで、図形&#x200B;*一度に1面*&#x200B;を描きます。 Enterキーを押すと、シェイプが一緒に追加されます。
+![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **多角形**: LMBをクリックして角度を追加することにより、シェイプ&#x200B;*一度に1つの面*&#x200B;を描画します。 Enterキーを押すと、シェイプが一緒に追加されます。
 
 描画されたシェイプは、次のパラメーターを使用して制御できます。
 
@@ -228,19 +228,19 @@ Designerとその編集ツールの互換性と信頼性を最大限に高める
 
 描画が完了すると、次のいずれかの&#x200B;*結合モード*&#x200B;を使用して図形が追加され、現在選択されている図形と結合されます。
 
-![](vector-editing-tools.resources/vector-editing-tools-17.png) **結合なし**：図形は、選択した図形の&#x200B;*上*&#x200B;に&#x200B;*別のオブジェクト*&#x200B;として描画されます。
+![](../../../assets/2dview-vectorediting-icon-extrude-nomerge.png) **結合なし**：図形は、選択した図形の&#x200B;*上*&#x200B;に&#x200B;*別のオブジェクト*&#x200B;として描画されます。
 
-![](vector-editing-tools.resources/vector-editing-tools-18.png) **結合**：図形は&#x200B;*選択した図形に追加*&#x200B;されています。
+![](../../../assets/2dview-vectorediting-icon-extrude-union.png) **結合**：図形は&#x200B;*選択した図形に追加*&#x200B;されています。
 
-![](vector-editing-tools.resources/vector-editing-tools-19.png) **減算**：図形は、選択した図形の&#x200B;*切り抜き*&#x200B;です。
+![](../../../assets/2dview-vectorediting-icon-extrude-subtract.png) **減算**：図形は、選択した図形の&#x200B;*切り抜き*&#x200B;です。
 
-![](vector-editing-tools.resources/vector-editing-tools-20.png) **交差点**：新しい図形および選択した図形の&#x200B;*重なり合う*&#x200B;部分のみが残ります。
+![](../../../assets/2dview-vectorediting-icon-extrude-intersection.png) **交差点**：新しい図形および選択した図形の&#x200B;*重なり合う*&#x200B;部分のみが残ります。
 
 +++
 
 ## シェイプの操作
 
-![図形の操作](vector-editing-tools.resources/vector-editing-tools-21.png "図形の操作"){width="512px"}
+![図形の操作](../../../assets/2dview-vectorediting-shape-operations.png "図形の操作"){width="512px"}
 
 上記のツールに加えて、RMBをクリックすると表示されるコンテキストメニューを使用して、*選択した図形*&#x200B;に対して多くの操作を実行できます。 これらの操作には、ほとんどの場合、キーボードショートカット（以下の括弧内に示す）が次のカテゴリにまとめられています。
 

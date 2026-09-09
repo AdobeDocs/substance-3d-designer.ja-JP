@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: Designerで行ったすべての編集内容を含む3Dシーンを書き出すには、「 3Dシーンを表示」メニューの「シーンを書き出し」アクションを使用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シーンの書き出し
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ USD形式への書き出しの場合、シーンのコンテンツは[Scene brow
 >
 > Designerによってシーンに追加されたすべてのアイテムは、書き出されたシーンに含まれます。デフォルトカメラ、デフォルトエンバイロメント、すべてのマテリアルは、その他のライトをコピーします。
 
-![シーン書き出しアクション](exporting-scenes.resources/exporting-scenes-01.png "シーン書き出しアクション"){zoomable="yes"}
+![シーン書き出しアクション](../../assets/exportActions.png "シーン書き出しアクション"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ USD形式への書き出しの場合、シーンのコンテンツは[Scene brow
 </td>
 <td style="border: 0;" valign="top">
 
-![書き出されたシーンファイル – 統合](exporting-scenes.resources/exporting-scenes-02.png "書き出されたシーンファイル – 統合"){zoomable="yes"}
+![書き出されたシーンファイル – 統合](../../assets/exportFlattened.png "書き出されたシーンファイル – 統合"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ USD形式への書き出しの場合、シーンのコンテンツは[Scene brow
 </td>
 <td style="border: 0;" valign="top">
 
-![書き出されたシーンファイル – 階層化](exporting-scenes.resources/exporting-scenes-03.png "書き出されたシーンファイル – 階層化"){zoomable="yes"}
+![書き出されたシーンファイル – 階層化](../../assets/exportLayered.png "書き出されたシーンファイル – 階層化"){zoomable="yes"}
 
 </td>
 </tr>

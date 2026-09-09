@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonスクリプティング用のプラグインパッケージを作成および構築する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プラグインパッケージ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## プラグインパッケージのインストール
 
-![プラグインマネージャー](plugins-packages.resources/plugins-packages-01.png "プラグインマネージャー")
+![プラグインマネージャー](../../assets/screenshot-from-2019-07-18-11-48-56.png "プラグインマネージャー")
 
 プラグインパッケージをインストールするには、<b>ツール</b>メニューの<b>プラグインマネージャー</b>を使用します。
 

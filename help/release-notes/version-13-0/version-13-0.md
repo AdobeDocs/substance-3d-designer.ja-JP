@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 新しいノード、バージョン9.0、およびポータルノードについては、 Substance 3D Designer Substance engine 13.0のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 *リリース日：2023年6月6日*
 
-![パスを使用したマテリアル](version-13-0.resources/version-13-0-01.png "パスを使用したマテリアル")
+![パスを使用したマテリアル](../../assets/Paths2.png "パスを使用したマテリアル")
 
 *[Celine Dameron](https://www.artstation.com/cline)によるアートワーク*
 
@@ -39,7 +39,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 これらすべてのノードは、多くの可能性を提供し、彼らは確かに多くの創造的なアプリケーションを持つことになります。 このツールセットを使いやすくするために、理解すべき重要な概念のツアーについては、[パスとスプラインツールの操作](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)に関するセクションを参照してください。
 
-![スプラインを使用したマテリアル](version-13-0.resources/version-13-0-02.png "スプラインを使用したマテリアル")
+![スプラインを使用したマテリアル](../../assets/Splines.png "スプラインを使用したマテリアル")
 
 [Louise Melin](https://www.artstation.com/troglodette)*による*&#x200B;アートワーク
 
@@ -61,22 +61,22 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三次スプライン](version-13-0.resources/version-13-0-03.gif "三次スプライン")
+![三次スプライン](../../assets/SplineCubic-Demo.gif "三次スプライン")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインポリ二次](version-13-0.resources/version-13-0-04.gif "スプラインポリ二次")
+![スプラインポリ二次](../../assets/SplinePolyQuadratic-Demo.gif "スプラインポリ二次")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプライン円](version-13-0.resources/version-13-0-05.gif "スプライン円")
+![スプライン円](../../assets/SplineCircle-Demo.gif "スプライン円")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインブリッジリスト](version-13-0.resources/version-13-0-06.gif "スプラインブリッジリスト")
+![スプラインブリッジリスト](../../assets/SplineBridge-List_Demo.gif "スプラインブリッジリスト")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![スプライン2D変形](version-13-0.resources/version-13-0-07.gif "スプライン2D変形")
+![スプライン2D変形](../../assets/Spline2DTransform-Demo1.gif "スプライン2D変形")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインワープ](version-13-0.resources/version-13-0-08.gif "スプラインワープ")
+![スプラインワープ](../../assets/SplineWarp-Demo.gif "スプラインワープ")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインサンプルThickness](version-13-0.resources/version-13-0-09.gif "スプラインサンプルThickness")
+![スプラインサンプルThickness](../../assets/SplineSampleThickness-Demo.gif "スプラインサンプルThickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![スプライングレースケールの散乱](version-13-0.resources/version-13-0-10.gif "スプライングレースケールの散乱")
+![スプライングレースケールの散乱](../../assets/ScatterOnSplineGrayscale-Demo.gif "スプライングレースケールの散乱")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプライン塗りつぶし](version-13-0.resources/version-13-0-11.gif "スプライン塗りつぶし")
+![スプライン塗りつぶし](../../assets/SplineFill-Demo.gif "スプライン塗りつぶし")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインマッパーの色](version-13-0.resources/version-13-0-12.gif "スプラインマッパーの色")
+![スプラインマッパーの色](../../assets/SplineMapperColor-Demo.gif "スプラインマッパーの色")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインフローマッパー](version-13-0.resources/version-13-0-13.gif "スプラインフローマッパー")
+![スプラインフローマッパー](../../assets/SplineFlowMapper-Demo.gif "スプラインフローマッパー")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![パスのマスク](version-13-0.resources/version-13-0-14.gif "パスのマスク")
+![パスのマスク](../../assets/MaskToPaths-Demo2.gif "パスのマスク")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![パス2](version-13-0.resources/version-13-0-15.gif "パス2")にマスク
+![パス2](../../assets/MaskToPaths-Demo1.gif "パス2")にマスク
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 この新機能については、この専用の[チュートリアル](https://www.adobe.com/go/designer-tutorial-portals)で詳細に説明しています。
 
-![ポータルノード](version-13-0.resources/version-13-0-16.gif "ポータルノード")
+![ポータルノード](../../assets/PortalNodeFinal.gif "ポータルノード")
 
 ## ホーム画面
 
@@ -216,9 +216,9 @@ Designerを起動すると、他のAdobe製品と同様に、新しい[ホーム
 * 新機能の紹介や簡単なヒントを見つけるチュートリアルなど、学習リソースへのリンクを見つけることができます。
 * 「新機能」画面、「バージョン情報」画面、Substance 3D webサイト、サポートコミュニティフォーラムなどの直接リンク
 
-![ホーム画面 – ホーム](version-13-0.resources/version-13-0-17.png "ホーム画面 – ホーム")
+![ホーム画面 – ホーム](../../assets/HomeScreen.png "ホーム画面 – ホーム")
 
-![ホーム画面 – 詳細情報](version-13-0.resources/version-13-0-18.png "ホーム画面 – 詳細情報")
+![ホーム画面 – 詳細情報](../../assets/LearnPage.png "ホーム画面 – 詳細情報")
 
 ## 新しい言語
 
@@ -273,42 +273,42 @@ Designerで言語を変更する場合は、[環境設定](../../interface/prefe
 * [コンテンツ] [パス] [頂点プロセッサ]ノード
 * [コンテンツ] [パス] [頂点プロセッサ] [シンプル]ノード
 * [コンテンツ]パスノードのクアッドトランスフォーム
-* [コンテンツ]レイトレース環境オクルージョンv2
+* [コンテンツ]レイトレースAmbient occlusion v2
 * [コンテンツ]レイトレースベンド法線v2
 * [コンテンツ]レイトレースシャドウv2
 * [エンジン]バージョン9にアップデートします。
 * [エンジン]関数グラフのループノード
 * [エンジン]グラデーションに平面モードを追加
-* [Engine]関数グラフのAtomic pow()ノード
-* [エンジン] Samplerノードに境界の折り返しオプション（クランプからエッジ/繰り返し）を追加
-* [エンジン]ワープおよび方向ワープノードの最も近いサンプリング
-* [エンジン]カラー入力用のシャープフィルターに「パンチスルーアルファ」モードを追加
+* [エンジン]関数グラフのAtomic pow()ノード
+* [エンジン] Samplerノードで境界の折り返しオプション（クランプからエッジ/繰り返し）を追加
+* [エンジン]ワープおよび指向性ワープノードでの最も近いサンプリング
+* [エンジン]カラー入力用のシャープフィルターに「パンチスルーアルファ」モードを追加します
 * [エンジン] FxMap：半球モーフレット
-* [Engine]関数グラフのアトミックなGet/Set操作
-* [エンジン]機能：log/log2/exp、2powの精密機能を活用 – クッカーとエンジンの機能を統合
-* [エンジン]指向性ワープフィルターに「強度オフセット」パラメーターを追加します
-* [API]グラフを合成するためのプリセット管理をサポート
-* [Functions]関数のアトミックノードの入力名を変更する
+* [エンジン]関数グラフでのアトミックなGet/Setオペレーション
+* [エンジン]機能：log/log2/exp、2powの正確な機能を使用 – 調理器とエンジンの機能を統合
+* [エンジン]指向性ワープフィルタに「強度オフセット」パラメータを追加します
+* [API]合成グラフのプリセット管理をサポート
+* [関数]関数アトミックノードの入力名を変更する
 * [ローカライゼーション]ポルトガル語（ブラジル）、イタリア語（イタリア）、スペイン語（スペイン）を追加します。
 * [ローカリゼーション]言語リストの「言語（国）」を尊重する
-* [プリセット]コンテキスト内編集の使用時に、グラフプロパティの「プレビュー」パネルと「プリセット」パネルを無効にする
-* [Substanceモデルグラフ] Substanceモデルグラフのサポート終了
+* [プリセット]コンテキスト編集機能を使用している場合に、グラフのプロパティで「プレビュー」パネルと「プリセット」パネルを無効にする
+* [Substanceモデルのグラフ] Substanceモデルグラフのサポート終了
 
 ### 修正
 
-* [3Dビュー]シーンの統計情報で長い文字列が表示されません（macOSのみ）
+* [3D ビュー] シーン統計情報で長い文字列が表示されません（macOSのみ）
 * [API] &#39;structure::Structure&#39;モジュールは、引き続きAPIリファレンスに含まれています
-* [API] MDLグラフのドットノードに定義やプロパティがない
-* [API]関数ノードのパラメーターを設定すると正しく動作しない
+* [API] MDL グラフのドットノードに定義もプロパティもありません
+* [API] 関数ノードのパラメーターを設定すると正しく動作しない
 * [コンテンツ] 3D Voronoiと3D Voronoi Fractalノードが調理の警告を出す
-* [Engine] &#39;Intensity Map Offset&#39;パラメーターはSSE2エンジンのグレースケールデータには影響しません
-* [エクスプローラ]グラフi/oを削除できます
+* [エンジン] &#39;Intensity Map Offset&#39;パラメーターは、SSE2エンジンのグレースケールデータには影響しません
+* [エクスプローラー] グラフi/oを削除できる
 * [グラフ]ビットマップがインスタンスで使用されている場合は無視されます
 * [グラフ]ノードからノードを作成すると、ドットノードの位置が正しくない
-* [グラフ] 「Enter」キーを使用すると、「パラメーターを表示」ダイアログにフォーカスが移動する
-* [グラフ]コンテキスト編集でビットマップを使用したヒストグラムスキャンで、正しい結果が得られない
+* [グラフ] &#39;Enter&#39;キーを使用した&#39;パラメーターの表示&#39;ダイアログでフォーカスが正しくない
+* [グラフ]コンテキスト編集でビットマップを使用したヒストグラムスキャンで、間違った結果が生じる
 * [ローカライゼーション]さまざまなクリッピングの問題を修正
-* [パラメーター]入力パラメーターを削除するとクラッシュする
-* [Publish]フォルダー内のグラフを、公開したパッケージのルートに移動する
-* [リソース]ディスク上の読み込まれたリソースを更新するとクラッシュする
+* [Parameters] 入力パラメーターを削除するときにクラッシュが発生する
+* [Publish]フォルダー内のグラフが、公開されたパッケージのルートに移動される
+* [Resources]ディスク上の読み込まれたリソースの更新中にクラッシュが発生しました
 * [VisibleIf]条件付き表示/非表示の評価で回帰を修正

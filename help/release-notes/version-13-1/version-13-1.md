@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: ノードグラフの機能強化とAxF書き出しのサポートについては、Substance 3D Designerバージョン13.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *リリース日： 2023年12月12日*
 
-![Substance 3D Designer 13.1バナー](version-13-1.resources/version-13-1-01.png "Substance 3D Designer 13.1バナー")
+![Substance 3D Designer 13.1バナー](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1バナー")
 
 ## フレームの改善
 
@@ -34,19 +34,19 @@ ht-degree: 1%
 
 グラフが大きくなると、フレームの内容の並べ替えが必要になる場合があります。 ノードを移動して追加するスペースを確保したり、コンテンツを読みやすくするためにより多くの間隔を空ける必要がある場合があります。 これらの調整を容易にするために、取り込んだオブジェクトを移動する際に、フレームを自動的に拡張できるようになりました。オブジェクトを移動する際に<b>Shift</b>を押したままにすると、オブジェクトが境界内に収まるようにフレーム境界線が自動的に調整されます。
 
-![自動拡張](version-13-1.resources/version-13-1-02.gif)
+![自動拡張](../../assets/autoexpand.gif)
 
 ### サイズをコンテンツに合わせる
 
 グラフで調整を行っているときに、フレームの内容を適切に調整できない場合があります。 この新しいコマンドを使用すると、フレームの位置とサイズを自動的に調整して、コンテンツの範囲に合わせて、1つのミディアムグリッドセルの余白を調整できます。 枠に説明が付いている場合は、可能であれば、説明の横の空白を使用するように調整されます。
 
-![fitsize](version-13-1.resources/version-13-1-03.gif)
+![fitsize](../../assets/fitsize.gif)
 
 ### 詳細な説明
 
 HTMLコードにより、フレームの説明内のテキストを書式設定できるようになりました。 これはコメントにも適用されます。
 
-![richtext](version-13-1.resources/version-13-1-04.png)
+![richtext](../../assets/description-3.png)
 
 ### <b>...その他の機能</b>
 
@@ -64,7 +64,7 @@ HTMLコードにより、フレームの説明内のテキストを書式設定�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxFファイルアイコン](version-13-1.resources/version-13-1-05.png "AxFファイルアイコン")
+![AxFファイルアイコン](../../assets/axf-file-icon.png "AxFファイルアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ AxFは[X-Rite](https://www.xrite.com/axf)の形式です。 デジタル設計�
 </tr>
 </table>
 
-![AxFのエクスポート](version-13-1.resources/version-13-1-06.gif)
+![AxFのエクスポート](../../assets/exportaxf.gif)
 
 ## API
 
