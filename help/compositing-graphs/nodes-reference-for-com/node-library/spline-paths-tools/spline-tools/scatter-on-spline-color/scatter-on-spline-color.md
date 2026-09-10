@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: '[スプラインの色に対する散乱]ノードを使用して、手続き型パターンのスプラインパスに沿って色要素を分配します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラインカラーの散乱
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/scatter-on-spline-color-icon.png "ノードアイコン")
+![ノードアイコン](scatter-on-spline-color.resources/scatter-on-spline-color-icon.png "ノードアイコン")
 
 イン：スプラインおよびパスツール> スプラインツール
 
@@ -104,12 +104,12 @@ ht-degree: 0%
 | <b>オフセット距離</b> <i>浮動小数</i> （&#39;Distribution Mode&#39;が&#39;Circular&#39;に設定されている場合に利用可能） | 複製が分配される仮想円の半径。 |
 | <b>回転</b> <i>フロート</i> | 仮想円を回転させて、それに沿って複製を分配します。 |
 | <b>オフセット開始/終了減衰</b> <i>浮動小数点2</i> | 複製にオフセットを適用するときの、スプラインの中点からその始点と終点までの距離の係数。<br>これは、スプラインの端に近い複製のオフセットが減少することを意味します。 |
-| <b>Thicknessによるオフセット減衰</b> <i>浮動小数</i> | 重複にオフセットを適用するときのスプラインのThicknessの係数。<br>つまり、Thicknessが低いスプラインの部分の複製に対してオフセットが減少します。 |
+| <b>Thicknessによるオフセット減衰</b> <i>フロート</i> | 重複にオフセットを適用するときのスプラインのThicknessの係数。<br>つまり、Thicknessが低いスプラインの部分の複製に対してオフセットが減少します。 |
 | <b>サイズ</b> |  |
 | <b>サイズモード</b> <i>整数</i> | 分散パターンのサイズを設定するメソッド：<br>*– 標準*:サイズはグローバルな&#39;Scale&#39;パラメーターを使用して均一に制御されます。<br>*– スプラインのThicknessを使用*:サイズはスプラインのThicknessによって決定されます。 |
-| <b>Thicknessの影響</b> <i>整数</i> （&#39;サイズモード&#39;が&#39;スプラインのThicknessを使用&#39;に設定されている場合に使用可能） | パターンの尺度のどの軸をスプラインのThicknessによって決定するかを指定します。<br>* XとY:ThicknessはXとYの両方の軸のサイズに対して乗算されます。<br>* X:ThicknessはXの軸のみのサイズに対して乗算されます。<br>* Y:ThicknessはYの軸のみのサイズに対して乗算されます。<br>乗算しない場合、パターンの元の尺度は画像の全範囲です。<br>つまり、&#39;X&#39;モードでは、Y軸のサイズは画像のフルスパンであり、Sizeパラメーターを使用して微調整する必要があります。 「Y」モードを使用する場合のX軸のサイズにも同じことが適用されます。 |
-| <b>サイズ</b> <i>浮動小数2</i> | 他の調整が他のパラメーターによって行われる前のXおよびYのパターンの元のサイズ。 |
-| <b>サイズがランダム</b> <i>浮動小数2</i> | 指定された値までのランダム乗数を適用して、XおよびYのパターンサイズを小さくします。 |
+| <b>Thicknessの影響</b> <i>整数</i> （&#39;サイズモード&#39;が&#39;スプラインのThicknessを使用&#39;に設定されている場合に使用可能） | パターンの尺度のどの軸をスプラインのThicknessによって決定するかを指定します。<br>* XとY:ThicknessはXとYの両方の軸のサイズに対して乗算されます。<br>* X:ThicknessはXの軸のみのサイズに対して乗算されます。<br>* Y:ThicknessはYの軸のみのサイズに対して乗算されます。<br>乗算しない場合、パターンの元の尺度は画像の全範囲です。<br>つまり、&#39;X&#39;モードでは、Y軸のサイズは画像のフルスパンであり、Sizeパラメーターを使用して微調整する必要があります。 「Y」モードを使用する場合にX軸のサイズに適用されるものと同じです。 |
+| <b>サイズ</b> <i>浮動小数点2</i> | 他の調整が他のパラメーターによって行われる前のXおよびYのパターンの元のサイズ。 |
+| <b>サイズがランダム</b> <i>浮動小数点2</i> | 指定された値までのランダム乗数を適用して、XおよびYのパターンサイズを小さくします。 |
 | <b>Thicknessスケール</b> <i>浮動小数</i> （&#39;サイズモード&#39;が&#39;スプラインのThicknessを使用&#39;に設定されている場合に使用可能） | スプラインのThicknessによって駆動される場合のパターンのスケールの追加マルチプライヤ。 |
 | <b>スケール</b> <i>浮動小数</i> （&#39;Size Mode&#39;が&#39;Normal&#39;に設定されている場合に利用可能） | すべてのパターンのサイズのグローバルコントロールです。1は画像のフルスパンです。<br>拡大/縮小はパターンの基点に対して相対的に適用されます。 ピボットの位置は、&#39;Shape Pivot&#39;パラメーターを使用してオフセットできます。 |
 | <b>ランダムに拡大・縮小</b> <i>フロート</i> | 指定した値までのランダム乗数を適用して、パターンのサイズを小さくします。 |
@@ -167,11 +167,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "ノードの例1")
+![ノードの例1](scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Demo.gif "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "ノードの例2")
+![ノードの例2](scatter-on-spline-color.resources/ScatterOnSplineColor-Demo.gif "ノードの例2")
 
 </td>
 </tr>

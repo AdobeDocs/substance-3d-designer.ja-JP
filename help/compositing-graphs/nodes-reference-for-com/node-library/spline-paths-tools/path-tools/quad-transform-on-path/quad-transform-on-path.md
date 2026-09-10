@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
-description: '[パス上でクアッド変形]ノードを使用して、パスカーブに沿った要素に二次変換を適用します。'
+description: '[パス上の四角形変換]ノードを使用して、パスカーブに沿った要素に四角形変換を適用します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: パス上のクアッド変形
+title: パス上のクアッドメニュートランスフォーム
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# パス上のクアッド変形
+# パス上のクアッドメニュートランスフォーム
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/quad-transform-on-paths-icon.png "ノードアイコン")
+![ノードアイコン](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>パス</b> <i>色</i> | 変形パス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
+| <b>パス</b> <i>色</i> | 変換されたパス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
 
 <a name="parameters"></a>
 
@@ -61,10 +61,10 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>p00</b> <i>浮動小数2</i> | 左上ハンドルの位置を指定します。 |
-| <b>p01</b> <i>浮動小数2</i> | 右上ハンドルの位置を指定します。 |
-| <b>p02</b> <i>浮動小数2</i> | 左下のハンドルの位置。 |
-| <b>p03</b> <i>浮動小数2</i> | 右下のハンドルの位置。 |
+| <b>p00</b> <i>浮動小数点2</i> | 左上ハンドルの位置を指定します。 |
+| <b>p01</b> <i>浮動小数点2</i> | 右上ハンドルの位置を指定します。 |
+| <b>p02</b> <i>浮動小数点2</i> | 左下のハンドルの位置。 |
+| <b>p03</b> <i>浮動小数点2</i> | 右下のハンドルの位置。 |
 
 ## 例
 
@@ -75,11 +75,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "ノードの例1")
+![ノードの例1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "ノードの例2")
+![ノードの例2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "ノードの例2")
 
 </td>
 </tr>
