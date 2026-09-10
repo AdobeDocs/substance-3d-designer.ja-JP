@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: パスワープノードを使用して、曲線の自然なパターンを作成するためにテクスチャカーブに沿ってパスをワープします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パスワープ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/paths-warp-icon.png "ノードアイコン")
+![ノードアイコン](paths-warp.resources/paths-warp-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -74,11 +74,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/PathsWarp-Demo1.gif "ノードの例1")
+![ノードの例1](paths-warp.resources/PathsWarp-Demo1.gif "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">

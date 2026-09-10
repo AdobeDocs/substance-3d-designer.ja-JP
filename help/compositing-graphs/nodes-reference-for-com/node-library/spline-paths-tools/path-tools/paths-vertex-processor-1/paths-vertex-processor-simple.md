@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: パスの頂点プロセッサーシンプルノードを使用すると、パスの頂点を簡単な変形オプションで処理できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Paths 頂点プロセッサSimple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/paths-vertex-processor-simple-icon.png "ノードアイコン")
+![ノードアイコン](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "ノードの例2")
+![ノードの例2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "ノードの例2")
 
 </td>
 <td style="border: 0;" valign="top">
