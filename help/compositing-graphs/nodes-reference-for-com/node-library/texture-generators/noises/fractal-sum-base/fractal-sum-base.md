@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
 description: フラクタル和ベースノードを使用して、複雑な有機的テクスチャを作成するためのベースフラクタルノイズパターンを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: フラクタル和ベース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![フラクタル和ベース – アイコン](../../../../../../assets/fractal_sum_base.png "フラクタル和ベース – アイコン"){width="200px"}
+![フラクタル和ベース – アイコン](fractal-sum-base.resources/fractal_sum_base.png "フラクタル和ベース – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![フラクタル和ベース – 例1](../../../../../../assets/fractal_sum_base_1.png "フラクタル和ベース – 例1"){zoomable="yes"}
+![フラクタル和ベース – 例1](fractal-sum-base.resources/fractal_sum_base_1.png "フラクタル和ベース – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![フラクタル和ベース – 例2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "フラクタル和ベース – 例2"){zoomable="yes"}
+![フラクタル和ベース – 例2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "フラクタル和ベース – 例2"){zoomable="yes"}
 
 </td>
 </tr>

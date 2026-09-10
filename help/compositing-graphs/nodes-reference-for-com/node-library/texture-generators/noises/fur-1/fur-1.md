@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
 description: Fur 1ノードを使用して、ヘア、布地、繊維状のマテリアルエフェクトを作成するための基本的なファーテクスチャを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ファー1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-1.png){width="128px"}
+![](fur-1.resources/fur-1.png){width="128px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -47,14 +47,14 @@ ht-degree: 9%
 |:---|:---|
 | <b>スケール</b> <i>1 - 8</i> | エフェクトのグローバルスケールを設定します。 |
 | <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fur-1-ex.gif" />
+            <img src="fur-1.resources/fur-1-ex.gif" />
         </td>
     </tr>
 </table>
