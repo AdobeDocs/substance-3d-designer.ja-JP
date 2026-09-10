@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
 breadcrumb-title: ''
 description: '[スプラインサンプル]Thicknessノードを使用して、手続き型の効果を得るためにスプラインに沿ってThickness値をサンプリングします。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラインサンプルThickness
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-sample-thickness-icon.png "ノードアイコン")
+![ノードアイコン](spline-sample-thickness.resources/spline-sample-thickness-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "ノードの例1")
+![ノードの例1](spline-sample-thickness.resources/SplineSampleThickness-Variant1-After1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineSampleThickness-Demo.gif "ノードの例2")
+![ノードの例2](spline-sample-thickness.resources/SplineSampleThickness-Demo.gif "ノードの例2")
 
 </td>
 </tr>
