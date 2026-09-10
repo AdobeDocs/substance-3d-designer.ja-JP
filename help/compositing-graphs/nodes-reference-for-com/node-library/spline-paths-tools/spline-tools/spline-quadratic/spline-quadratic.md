@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: スプライン二次ノードを使用して、3つの制御点を持つ滑らかな二次スプラインを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン（二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![スプライン（二次）:アイコン](../../../../../../assets/spline-quadratic-icon.png "スプライン（二次）:アイコン")
+![スプライン（二次）:アイコン](spline-quadratic.resources/spline-quadratic-icon.png "スプライン（二次）:アイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 2つの点<b>p1</b>と<b>p3</b>の間の任意の位置に1つのスプラインを生成します。
 
-スプラインの軌道は、<b>p1</b>の「アウト」接線と、<b>p3</b>の「イン」接線によって制御されます。*両方*&#x200B;は、単一の点<b>p3</b>によって制御されます。
+スプラインの軌道は、<b>p1</b>の&#39;out&#39;正接と、<b>p3</b>の&#39;in&#39;正接、*両方*&#x200B;が1つの点<b>p3</b>によって制御されます。
 
 スプラインによって形成される円弧のスパンは&#x200B;*調整可能*&#x200B;です。そのため、端からの軌道の一部がまっすぐに残ります。
 
@@ -92,10 +92,10 @@ ht-degree: 0%
 | <b>p3</b> <i>浮動小数点2</i> | テクスチャ空間の<b>p3</b>ポイントの位置を設定します。 |
 | <b>プレビュー</b> |  |
 | <b>接線を表示</b> <i>ブール値</i> | <b>プレビュー</b>出力の<b>p1</b>ポイントの&#39;out&#39; 正接と<b>p3</b>ポイントの&#39;in&#39; 正接を表示します。 スプラインの方向を反転します。 |
-| <b>方向ヘルパーの表示</b> <i>ブーリアン</i> | <b>プレビュー</b>出力のスプラインの始点に点を表示し、終点に矢印を表示します。 |
-| <b>Thicknessの封筒を表示</b> <i>ブーリアン</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
+| <b>方向ヘルパーの表示</b> <i>ブール値</i> | <b>プレビュー</b>出力のスプラインの始点に点を表示し、終点に矢印を表示します。 |
+| <b>Thicknessの封筒を表示</b> <i>ブール値</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
 | <b>セグメント数</b> <i>整数</i> | <b>プレビュー</b>出力でスプラインの可視化に使用されるセグメントの数を調整します。<br>値を大きくすると、より滑らかな線になります。 |
-| <b>Thickness (px)</b> <i>浮動小数</i> | <b>プレビュー</b>出力のスプラインビジュアライゼーションのThicknessをピクセル単位で調整します。 |
+| <b>Thickness (px)</b> <i>フロート</i> | <b>プレビュー</b>出力のスプラインビジュアライゼーションのThicknessをピクセル単位で調整します。 |
 
 ## 例
 
@@ -103,12 +103,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![スプライン（二次）：例1](../../../../../../assets/spline-quadratic-example-1.png "スプライン（二次）：例1"){zoomable="yes"}
+![スプライン（二次）：例1](spline-quadratic.resources/spline-quadratic-example-1.png "スプライン（二次）：例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプライン（二次）：例2](../../../../../../assets/spline-quadratic-example-2.png "スプライン（二次）：例2"){zoomable="yes"}
+![スプライン（二次）：例2](spline-quadratic.resources/spline-quadratic-example-2.png "スプライン（二次）：例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![スプライン（二次）:デモ](../../../../../../assets/spline-quadratic-demo.gif "スプライン（二次）:デモ"){zoomable="yes"}
+![スプライン（二次）:デモ](spline-quadratic.resources/spline-quadratic-demo.gif "スプライン（二次）:デモ"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

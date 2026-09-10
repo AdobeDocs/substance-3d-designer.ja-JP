@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: '[スプラインサンプル]Heightノードを使用して、手続き型ディスプレイスメント効果のスプラインに沿ってHeight値をサンプリングします。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラインサンプルHeight
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-sample-height-icon.png "ノードアイコン")
+![ノードアイコン](spline-sample-height.resources/spline-sample-height-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight – バリアント1 – 前">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight – バリアント1 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight – バリアント1 – 前">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight – バリアント1 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>後</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "ノードの例1")
+![ノードの例1](spline-sample-height.resources/SplineSampleHeight-Variant1-After4.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineSampleHeight-Demo.gif "ノードの例2")
+![ノードの例2](spline-sample-height.resources/SplineSampleHeight-Demo.gif "ノードの例2")
 
 </td>
 </tr>
