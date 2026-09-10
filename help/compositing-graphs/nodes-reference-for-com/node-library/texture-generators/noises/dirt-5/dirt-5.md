@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
 breadcrumb-title: ''
 description: Dirt 5ノードを使用して、風化および経年変化したサーフェスのディテールを作成するための高度なDirtパターンを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT 5
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 5 – アイコン](../../../../../../assets/dirt_5.png "Dirt 5 – アイコン"){width="200px"}
+![Dirt 5 – アイコン](dirt-5.resources/dirt_5.png "Dirt 5 – アイコン"){width="200px"}
 
-<b>イン：</b> テクスチャジェネレーター> ノイズ
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして指定します。 |
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
 
 <a name="parameters"></a>
 
@@ -55,13 +55,13 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>スケール</b> <i>整数</i> | ノイズタイルの作成に使用するグリッドの区画。    値を大きくすると、より多くのタイルが描画され、ノイズが濃くなります。 |
-| <b>障害</b> <i>浮動小数</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b> <i>浮動小数</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
-| <b>異方性の乱れ</b> <i>浮動小数</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの方向の範囲を制御します。値を大きくすると、より狭く、より明確な方向になります。    方向は、<b>Disorder異方性角度</b>パラメーターで制御されます。 |
-| <b>anisotropy angleの乱れ</b> <i>フロート</i> | <b>Disorder 異方性</b>パラメーターが0ではない場合に、<b>Disorder</b>パラメーターによって適用されるディスプレイスメントの向きを制御します。 |
-| <b>タイルのオフセット</b> <i>浮動小数点2</i> | ノイズのレンダリングに使用される無限平面の部分の位置を制御します。 |
-| <b>非正方形の拡張</b> <i>ブール値</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
+| <b>スケール</b> <i>整数</i> | ノイズタイルの生成に使用するグリッドの区画。    値を大きくすると、描かれるタイルの数が増え、ノイズが高くなります。 |
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>異方性の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの方向の範囲を制御します。値を大きくすると、より狭く、より明確な方向になります。    方向は、<b>Disorder anisotropy angle</b>パラメーターによって制御されます。 |
+| <b>anisotropy angleの乱れ</b> <i>浮動小数</i> | <b>Disorder 異方性</b>パラメーターが0ではない場合に、<b>Disorder</b>パラメーターによって適用されるディスプレイスメントの向きを制御します。 |
+| <b>タイルのオフセット</b> <i>浮動小数2</i> | ノイズのレンダリングに使用される無限平面の部分の位置を制御します。 |
+| <b>非正方形の拡張</b> <i>ブーリアン</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成量を画像の境界まで拡張します。 |
 
 ## 例
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 5 – 例1](../../../../../../assets/dirt_5_1.png "Dirt 5 – 例1"){zoomable="yes"}
+![Dirt 5 – 例1](dirt-5.resources/dirt_5_1.png "Dirt 5 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 5 – 例2](../../../../../../assets/noise_dirt_5_v2_speed0.6_aniso0.gif "Dirt 5 – 例2"){zoomable="yes"}
+![Dirt 5 – 例2](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso0.gif "Dirt 5 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 5 – 例3](../../../../../../assets/noise_dirt_5_v2_speed0.6_aniso1.gif "Dirt 5 – 例3"){zoomable="yes"}
+![Dirt 5 – 例3](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso1.gif "Dirt 5 – 例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 5 – 例4](../../../../../../assets/noise_dirt_5_v2_speed0.3_aniso0.6.gif "Dirt 5 – 例4"){zoomable="yes"}
+![Dirt 5 – 例4](dirt-5.resources/noise_dirt_5_v2_speed0.3_aniso0.6.gif "Dirt 5 – 例4"){zoomable="yes"}
 
 </td>
 </tr>
