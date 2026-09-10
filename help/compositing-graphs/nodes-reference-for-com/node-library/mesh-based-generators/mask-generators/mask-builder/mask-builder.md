@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: マスクビルダーノードを使用して、複数のマスク入力を組み合わせ、マテリアル効果の複雑なマスクパターンを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: マスクビルダー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -101,8 +101,8 @@ ht-degree: 10%
 | <b>範囲</b> <i>0.0 - 1.0</i> | グラデーションの位置を設定します。 |
 | <b>コントラスト</b> <i>0.0 - 1.0</i> | グラデーションのコントラストを調整します。 |
 | <b>反転</b> <i>False/True</i> | グラデーションを反転します。 下と上を効果的にスワップします。 |
-| <b>ワールド空間標準</b> <i>0.0 - 1.0</i> | 上/下グラデーションに似ていますが、ポジションマップと6方向が用意されており、フェイクライティングに似ています。 正の値にすると明るくなり、負の値にすると暗くなります。 |
-| <b>ワールド空間標準</b> |  |
+| <b>ワールド空間法線</b> <i>0.0 - 1.0</i> | 上/下グラデーションに似ていますが、ポジションマップと6方向が用意されており、フェイクライティングに似ています。 正の値にすると明るくなり、負の値にすると暗くなります。 |
+| <b>ワールド空間法線</b> |  |
 | <b>最高の適用度</b> <i>-1.0 - 1.0</i> |  |
 | <b>下の適用度</b> <i>-1.0 - 1.0</i> |  |
 | <b>フロントの照度</b> <i>-1.0 - 1.0</i> |  |
