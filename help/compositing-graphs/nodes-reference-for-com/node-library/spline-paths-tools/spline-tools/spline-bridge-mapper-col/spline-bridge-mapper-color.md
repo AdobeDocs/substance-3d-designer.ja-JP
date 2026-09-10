@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
-description: '[スプラインブリッジマッパーの色]ノードを使用して、カラーマッピングを使用して2つのスプライン間のテクスチャをブリッジします。'
+description: スプラインブリッジマッパーの色ノードを使用して、カラーマッピングを使用して2つのスプライン間でテクスチャをブリッジします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラインブリッジマッパーの色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-bridge-mapper-color-icon.png "ノードアイコン")
+![ノードアイコン](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -92,11 +92,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "ノードの例2")
+![ノードの例2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "ノードの例2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "ノードの例1")
+![ノードの例1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "ノードの例2")
+![ノードの例2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "ノードの例2")
 
 </td>
 </tr>
