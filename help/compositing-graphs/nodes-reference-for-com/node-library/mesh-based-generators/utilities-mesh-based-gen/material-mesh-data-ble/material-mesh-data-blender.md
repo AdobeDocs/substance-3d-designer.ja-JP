@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: メッシュデータブレンダーノードは、マテリアルメッシュデータをブレンドして、異なるマテリアルゾーン間の滑らかなトランジションを作成する場合に使用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: マテリアルメッシュデータブレンダー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレータ>ユーティリティ
 
@@ -72,26 +72,26 @@ ht-degree: 8%
 | <b>Diffuse漫画のアウトライン</b> <i>0.0 - 1.0</i> | カートゥーンライティングの計算の外観を制御します。 |
 | <b>Base color AO</b> <i>0.0 - 1.0</i> | ベースカラーにブレンドするアンビエントオクルージョンの量。 |
 | <b>Base colorのシャープなエッジ</b> <i>0.0 - 1.0</i> | ベースカラーにブレンドする曲率マップの量。 |
-| <b>頂点の色からのBase color</b> <i>0.0 - 1.0</i> | ベースカラーにブレンドする頂点カラー烘焙の量。 |
-| <b>通常のマテリアルの強さ</b> <i>0.0 - 1.0</i> | ベイクされた(正接)法線マップの描画強さ。 |
-| <b>鏡面反射光</b> <i>0.0 - 1.0</i> | Specular内のAOの描画強さ。 |
-| <b>Specularの明るくシャープなエッジ</b> <i>0.0 - 1.0</i> | Specularに含まれる曲率の描画強さ。 |
-| <b>Specular漫画のアウトライン</b> <i>0.0 - 1.0</i> | 曲率に基づいた、アニメSpecularのエッジからアウトラインへの効果の描画強さ。 |
-| <b>光沢度の濃いシャープなエッジ</b> <i>0.0 - 1.0</i> | 光沢度内の曲率の描画強さ。 |
-| <b>ラフネスの明るくシャープなエッジ</b> <i>0.0 - 1.0</i> | ラフネス内の曲率の描画強さ。 |
-| <b>ラフネスアニメのアウトライン</b> <i>0.0 - 1.0</i> | 曲率に基づいた、アニメラフネスのエッジからアウトラインへの効果の描画強さ。 |
-| <b>メタリックの明るくシャープなエッジ</b> <i>0.0 - 1.0</i> | メタリックでの曲率の描画強さ。 |
-| <b>メタリックアニメのアウトライン</b> <i>0.0 - 1.0</i> | 曲率に基づいた、カートゥーンメタリックのエッジとアウトラインの効果の描画強さ。 |
-| <b>AOマテリアルの適用度</b> <i>0.0 - 1.0</i> | マテリアルとベイク済みマップAOのブレンド強さ、AO、どの程度で両方のAOマップを組み合わせるために生成された。 |
-| <b>マテリアルの適用度</b> <i>0.0 - 1.0</i> | Heightとマテリアル生成Heightのブレンド強さ、両方のハイトマップを組み合わせるどの程度。 |
-| <b>マテリアルのブレンドの種類</b> <i>強化、補間</i> | 両方のハイトマップを組み合わせるためのブレンドモード。 |
+| <b>頂点の色からのBase color</b> <i>0.0 - 1.0</i> | ベースカラーにブレンドする頂点カラーベイク処理の量。 |
+| <b>通常のマテリアルの強さ</b> <i>0.0 - 1.0</i> | ベイク処理された（接線）法線マップのブレンド強度。 |
+| <b>鏡面反射光</b> <i>0.0 - 1.0</i> | Specularに対するAOのブレンド強度。 |
+| <b>Specularの明るくシャープなエッジ</b> <i>0.0 - 1.0</i> | Specularの曲率のブレンド強度。 |
+| <b>Specular漫画のアウトライン</b> <i>0.0 - 1.0</i> | 曲率に基づく、アニメSpecularのエッジからアウトラインへの効果のブレンド強度。 |
+| <b>光沢度の濃いシャープなエッジ</b> <i>0.0 - 1.0</i> | 光沢における曲率のブレンド強度。 |
+| <b>ラフネスの明るくシャープなエッジ</b> <i>0.0 - 1.0</i> | 粗さの曲率のブレンド強度。 |
+| <b>ラフネスアニメのアウトライン</b> <i>0.0 - 1.0</i> | 曲率に基づいたカートゥーンの粗さエッジとアウトラインの効果のブレンド強度。 |
+| <b>メタリックの明るくシャープなエッジ</b> <i>0.0 - 1.0</i> | メタリックの曲率のブレンド強度。 |
+| <b>メタリックアニメのアウトライン</b> <i>0.0 - 1.0</i> | 曲率に基づいた、アニメのメタリックエッジのアウトラインエフェクトのブレンド強度。 |
+| <b>AOマテリアルの適用度</b> <i>0.0 - 1.0</i> | ベイク済みマップAOとマテリアルのブレンド強度 – 生成されたAO、で両方のAOマップを結合する程度。 |
+| <b>マテリアルの適用度</b> <i>0.0 - 1.0</i> | Heightの強度とマテリアルで生成されたHeightをブレンドし、両方のハイトマップをどの程度組み合わせるかを指定します。 |
+| <b>マテリアルのブレンドの種類</b> <i>強化、補間</i> | 両方のハイトマップを組み合わせるための描画モード。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
         </td>
     </tr>
 </table>

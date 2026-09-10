@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
-description: '[コケ]風化ノードを使用して、メッシュの曲率と位置に基づいてコケの生長パターンをマテリアルに追加します。'
+description: '[コケの風化]ノードを使用して、メッシュの曲率と位置に基づいてマテリアルにコケの成長パターンを追加します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Moss Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: コケ風化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering.png){width="128px"}
 
 <b>イン：</b> メッシュベースのジェネレーター> 風化
 
@@ -33,11 +33,11 @@ ht-degree: 7%
 
 ## 説明
 
-これはフルマテリアルのエフェクトで、複数のチャンネルで同時に機能します。 このエフェクトは、伝播を1つのコントロールで制御して、オーバーグロウンモスエフェクトを生成します。
+これは完全なマテリアル効果で、複数のチャンネルで同時に機能します。 このエフェクトは、伝播を1つのコントロールで制御して、オーバーグロウンモスエフェクトを生成します。
 
-このエフェクトは、ワールド空間のポジションマップをベイクし、ハイトマップを追加した場合に最適に機能します。 これは正確な要件ではありませんが、効果をより信頼できる配置に貸します。
+このエフェクトは、ベイク処理されたワールド空間の位置マップと追加のハイトマップで最適に機能します。 これは正確な要件ではありませんが、効果をより信頼できる配置に貸します。
 
-フルマテリアルを使用する場合は、[リンク作成モード](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)を正しく理解してください。
+完全なマテリアルを扱う場合は、[リンク作成モード](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)を正しく理解してください。
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>位置</b> <i>カラー入力</i> | ワールド空間の位置をベイク。 |
+| <b>位置</b> <i>カラー入力</i> | ベイクワールドスペースの位置。 |
 | <b>Height</b> <i>グレースケール入力</i> | 追加のHeightmap入力。 |
 | <b>マスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 「マスク」パラメーターで切り替えることができます。 |
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。例えば、メタリック/ラフネスの代わりにSpecular/光沢度マップを使用する場合などです。 |
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
 | <b>詳細</b> |  |
 | <b>標準の形式</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |
 | <b>マスク</b> <i>False/True</i> | マスクマップの使用のオン/オフを切り替えます。 |
@@ -80,7 +80,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-ex.gif" />
         </td>
     </tr>
 </table>
