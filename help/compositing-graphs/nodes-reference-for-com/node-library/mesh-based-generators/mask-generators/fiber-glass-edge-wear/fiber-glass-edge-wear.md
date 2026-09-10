@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: '[ファイバーグラス]Edge Wearノードを使用して、メッシュの曲率に基づいてファイバーグラスのエッジに摩耗マスクを作成します。'
 helpx_creative_field: ""
