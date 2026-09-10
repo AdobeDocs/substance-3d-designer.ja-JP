@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライングレースケールの散乱
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/scatter-on-spline-grayscale-icon.png "ノードアイコン")
+![ノードアイコン](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -160,11 +160,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "ノードの例2")
+![ノードの例2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "ノードの例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードデモ2](../../../../../../assets/ScatterOnSplineGrayscale-Demo2.gif "ノードデモ2")
+![ノードデモ2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "ノードデモ2")
 
 </td>
 </tr>

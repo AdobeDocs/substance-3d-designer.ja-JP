@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 金属Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-edge-wear.png){width="128px"}
+![](metal-edge-wear.resources/metal-edge-wear.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
 このマスクは、金属物体のエッジの摩耗を表現し、凸状の隆起エッジにスクラッチや切り屑が現れ、ベイクしたAO暗部によってマスクされる可能性があります。
 
@@ -47,11 +47,11 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>曲率</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
 | <b>経年劣化入力</b> <i>グレースケール入力</i> |  |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
-| <b>ワールド空間標準</b> <i>カラー入力</i> |  |
+| <b>ワールド空間法線</b> <i>カラー入力</i> |  |
 | <b>位置</b> <i>カラー入力</i> |  |
 
 <a name="parameters"></a>
@@ -76,7 +76,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/metal-edge-wear-ex.gif" />
+            <img src="metal-edge-wear.resources/metal-edge-wear-ex.gif" />
         </td>
     </tr>
 </table>

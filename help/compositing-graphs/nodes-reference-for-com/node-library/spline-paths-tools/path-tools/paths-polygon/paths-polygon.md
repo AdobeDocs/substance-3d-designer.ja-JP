@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多角形のパス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/paths-polygon-icon.png "ノードアイコン")
+![ノードアイコン](paths-polygon.resources/paths-polygon-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール>パスツール
 
@@ -63,12 +63,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "ノードの例1")
+![ノードの例1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/PathsPolygon_Variant2.jpg "ノードの例2")
+![ノードの例2](paths-polygon.resources/PathsPolygon_Variant2.jpg "ノードの例2")
 
 </td>
 </tr>

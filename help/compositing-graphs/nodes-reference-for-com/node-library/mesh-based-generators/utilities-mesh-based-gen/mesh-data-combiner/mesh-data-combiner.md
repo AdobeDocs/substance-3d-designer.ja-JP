@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
-description: Mesh Data Combinerノードを使用すると、複数のメッシュデータ入力を組み合わせて、高度なメッシュベースのテクスチャを生成することができます。
+description: メッシュデータ結合ノードを使用すると、複数のメッシュデータ入力を結合して、高度なメッシュベースのテクスチャを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Mesh Data Combiner
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: メッシュデータコンバイナ
+title: メッシュデータ結合ツール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# メッシュデータコンバイナ
+# メッシュデータ結合ツール
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレータ>ユーティリティ
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## 説明
 
-これは、「コンパクトマテリアルモード」で使用するために、ベイク処理されたメッシュデータを1つのグループに「パック」する、非常に単純なノードです。
+これはベイクしたメッシュデータを「パック」して1つのグループにまとめ、「コンパクトマテリアルモード」で使用する非常にシンプルなノードです。
 
-このノードは主に、[マテリアルメッシュデータブレンダー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)など、ギャラリー内の特定のノードでベイクされた入力の多くを簡単に操作できるヘルパーです。 これにより、手動ですべてを接続することを避けることができます。
+このノードは、[マテリアル メッシュデータブレンダー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)など、ギャラリー内の特定のノードでベイクされた入力の多くを簡単に操作できるヘルパーです。 これにより、手動ですべてを接続することを避けることができます。
 
 </td>
 </tr>
@@ -49,9 +49,9 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>環境オクルージョン</b> <i>False/True</i> |  |
+| <b>Ambient occlusion</b> <i>False/True</i> |  |
 | <b>UV マスク</b> <i>False/True</i> |  |
-| <b>曲線</b> <i>False/True</i> |  |
+| <b>曲率</b> <i>False/True</i> |  |
 | <b>Height</b> <i>False/True</i> |  |
 | <b>位置（グレースケール）</b> <i>False/True</i> |  |
 | <b>Thickness</b> <i>False/True</i> |  |

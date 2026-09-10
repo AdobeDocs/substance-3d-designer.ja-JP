@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
-description: '[スプライン選択]ノードを使用して、グラフ内のスプラインパスに基づいて特定のリージョンを選択してマスクします。'
+description: '[スプライン選択]ノードを使用して、グラフ内のスプラインパスに基づいて特定の領域を選択し、マスクします。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Select
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン選択
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-select-icon.png "ノードアイコン")
+![ノードアイコン](spline-select.resources/spline-select-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect – バリアント1 – 前">
+      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect – バリアント1 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>後</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect – バリアント2 – 前">
+      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect – バリアント2 – 前">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ノードの例1](../../../../../../assets/SplineSelect-Demo.gif "ノードの例1")
+![ノードの例1](spline-select.resources/SplineSelect-Demo.gif "ノードの例1")
 
 </td>
 <td style="border: 0;" valign="top">

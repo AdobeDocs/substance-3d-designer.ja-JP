@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パス形式の仕様
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Pathsドキュメントはパスのリストです。各パスは、<b>32ビッ�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![パスポリゴン符号化データ](../../../../../../assets/PathsPolygon_Data.jpg "パスポリゴン符号化データ")
+![パスポリゴン符号化データ](paths-format-specifications.resources/PathsPolygon_Data.jpg "パスポリゴン符号化データ")
 
 </td>
 </tr>
@@ -88,13 +88,13 @@ top[uv\_pos]とbottom[uv\_pos]を組み合わせると、ドキュメントの�
 +++下
 <b>XY</b>
 
-この文書で定義された最後の頂点のアドレス。 これは、新しいデータを追加する場合に便利です。
+このドキュメントで定義された最後の頂点のアドレス。 これは、新しいデータを追加する場合に便利です。
 
 したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 &rbrack;0, 1[×]0,.5&lbrack;
 
 <b>ZW</b>
 
-未使用。浮動小数2(0, 1)である必要があります。
+未使用。Float2(0, 1)である必要があります。
 
 +++
 
@@ -111,10 +111,10 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 +++上
 <b>X</b>
 
-このパス内の頂点数。 [0, 16777216]の範囲内である必要があります。
+このパス内の頂点の数。 [0, 16777216]の範囲内である必要があります。
 
-クローズパスの開始パスと終了頂点が同じ場所にある場合は、2つの頂点がカウントされます。\
-頂点が0のパスは有効なパスです。
+クローズパスの始点と終点が同じ位置にある場合は、2つの頂点がカウントされます。\
+頂点が0個のパスは有効なパスです。
 
 <b>年</b>
 
@@ -164,21 +164,21 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 <b>幅</b>
 
-頂点の種類。 値の符号と絶対値が分割されます。
+頂点のタイプ： 値の符号とその絶対値の間で分割されます。
 
-符号の部分では、値0は実際には頂点がないことを意味します（他のすべてのコンポーネントも0でなければなりません）。 負の値を指定すると、頂点は「コーナー」としてマークされます。正の値を指定すると、頂点は「滑らか」になります。 コーナーモードとスムーズモードの頂点は、純粋な分離アトリビュートであり、他のパスエンコーディングに影響を与えたり意味を持ったりすることはありません。
+符号パーツでは、値0は実際には頂点がないことを意味します（他のすべてのコンポーネントも0である必要があります）。 負の値を指定すると、頂点は「コーナー」としてマークされます。正の値を指定すると、頂点は「スムーズ」になります。 頂点のコーナーとスムーズは純粋な分離アトリビュートで、他のパスのエンコーディングに影響を与えたり意味を持ったりすることはありません。
 
-絶対値部では、ピクセルの種類(Start, Mid, End)と別のフラグ(trivial\_link)が符号化される：
+絶対値の部分では、ピクセルの種類(Start, Mid, End)と別のフラグ(trivial\_link)が符号化される。
 
-* *0.125*：終了頂点 （図形の最後の頂点。常に非簡易リンクです。以下を参照してください）
+* *0.125*：終了頂点（図形の最後の頂点。常に非簡易リンクです。以下を参照してください）
 
-* *0.25*: 頂点を開始します（図形の最初の頂点。常に非簡易リンクです。以下を参照してください）
+* *0.25*：開始頂点（図形の最初の頂点。常に非簡易リンクです。以下を参照してください）
 
-* *0.5*：重要なリンクを含む中間頂点
+* *0.5*：中間の頂点に非簡易リンクがあります
 
-* *1*: 頂点の途中に簡易リンクがあります
+* *1*：頂点の中央に些細なリンクがあります
 
-「簡易リンク」とは、前のパスと次の頂点（現在の頂点のリスト内）が左のピクセル(vert\_addr-(0,pixel\_size))に格納され、右のピクセル(vert\_addr+(0,pixel\_size))に格納されることを意味し、「非簡易リンク」とは、これらの少なくとも1つが他の場所に格納されることを意味します。
+「簡易リンク」とは（現在のパスの頂点のリストの）前の頂点と次の頂点が左のピクセル(vert\_addr-(0,pixel\_size))に保存され、右のピクセル(vert\_addr+(0,pixel\_size))に保存されることを意味し、「非簡易リンク」とは、これらの頂点の少なくとも1つが他の場所に保存されることを意味します。
 
 +++
 
@@ -187,12 +187,12 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 <b>XY</b>
 
-このパスの前の頂点のアドレス。 開始頂点の場合は、次の兄弟頂点を指します。\
+このパスの前の頂点のアドレス。 開始頂点の場合は、次の兄弟の頂点を指します。\
 if |top[vert\_addr].W| = 1, then bottom[vert\_addr].XY = vert\_addr - (0,pixel\_size)
 
 <b>ZW</b>
 
-このパスの次の頂点のアドレス。 エンド頂点の場合、これは次の兄弟頂点を指します。\
+このパスの次の頂点のアドレス。 終了頂点の場合は、次の兄弟の頂点を指します。\
 if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
@@ -201,7 +201,7 @@ if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 独自のパス処理ノードを作成する場合は、いくつかのツールがあります。
 
-基本は、[Paths 頂点プロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)および[Paths 頂点プロセッサシンプル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)ノードによって提供されます。これらのノードは基本的に[ピクセルプロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)と同じように使用できます。
+基本は、[パス頂点プロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)および[パス頂点プロセッサシンプル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)のノードによって提供されます。このノードは基本的に[ピクセルプロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)と同じ方法で使用できます。
 
 頂点プロセッサノードが提供するパス（より多くの入力テクスチャ、またはより多くの前後の頂点）以上の機能が必要な場合は、このグラフの実装をコピーすることをお勧めします(<b>Get(&quot;%perVertex&quot;)</b>ノードをカスタム処理で置き換えると仮定します)。
 
@@ -249,79 +249,79 @@ if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 +++
 
 +++is_corner
-頂点の四隅のフラグを確認してください（最初に`is\_vertex`を確認する必要はありません。回答がtrueの場合は、頂点を確認してください）。 このフラグはまだ公式ノードではサポートされていないことに注意してください。
+頂点のコーナーフラグを確認してください（最初に`is\_vertex`を確認する必要はありません。回答がtrueの場合は、確実に頂点を確認してください）。 このフラグはまだ公式ノードではサポートされていないことに注意してください。
 
 +++
 
 +++has_trivial_links
-頂点の場合は、底部をサンプリングすることなく、前後の頂点の位置を簡単に推定できるかどうかを示します。 （注意：非頂点は常にfalseを返します）。
+頂点の場合は、底部をサンプリングしなくても、前後の頂点の位置を簡単に推定できるかどうかを示します。 （注：頂点以外の場合は、常にfalseが返されます）。
 
 これを直接使用するのではなく、`sample\_next\*`または`sample\_prev\*`のいずれかの関数を使用して処理を行うことをお勧めします。
 
 +++
 
 +++sample_next, sample_prev
-先頭のサンプル値`*sampled*`とその場所`*sampled\_position*`を指定して、次の（それぞれ前の） 頂点先頭のサンプル値を返し、浮動小数2変数`*next\_sampled\_pos*`をこの近隣ノードの場所（先頭）に設定します(&lt;戻り値> = SampleColor(next\_sampled\_pos, image0))。 `*input0PixSize*`は、パスのピクセルサイズ(top[(0,0)].YZ)と等しくなければなりません。
+トップパーツのサンプリング値`*sampled*`とその位置`*sampled\_position*`を指定して、次の（それぞれ前の）頂点のトップパーツのサンプリング値を返し、この近隣の（トップパーツの）位置にFloat2変数`*next\_sampled\_pos*`を設定します(&lt;戻り値> = SampleColor(next\_sampled\_pos, image0))。 `*input0PixSize*`は、パスのピクセルサイズ(top[(0,0)].YZ)と等しくなければなりません。
 
-現在のピクセル(`*sampled*`)が<b>Start</b> 頂点の場合、*sample\_prev*&#x200B;によってこの頂点の次の兄弟が返されます。同様に、それが<b>End</b> 頂点の場合、*sample\_next*&#x200B;によってこの頂点の次の兄弟が返されます（つまり、望むものではない可能性があります）。 この問題を解決するには、以下の`*sample\_next\_advanced*`と`*sample\_prev\_advanced*`を参照してください。
+現在のピクセル(`*sampled*`)が<b>開始</b>頂点の場合、*sample\_prev*&#x200B;によってこの頂点の次の兄弟が返されます。同様に、それが<b>終了</b>頂点の場合、*sample\_next*&#x200B;によってこの頂点の次の兄弟が返されます（つまり、望むものではない可能性があります）。 この問題を解決するには、以下の`*sample\_next\_advanced*`と`*sample\_prev\_advanced*`を参照してください。
 
 簡単にするために、<b>パス情報はinput0!</b>に格納されていると見なされます。 また、関数のドキュメントの状態とは異なり、`*next\_sampled\_pos*`を事前に宣言する必要はありません。 `*[out]next\_sampled\_pos*`は、この2番目の「戻り値」が存在することを通知するダミーパラメーターです。
 
-`*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)は、3番目のIterateノードの反復パラメーターで使用方法の例を確認できます。
+`*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)は、3番目のIterateノードのIterationsパラメーターで使用方法の例を確認できます。
 
-![sample_nextの最小限の使用例](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "sample_nextの最小限の使用例")
+![sample_nextの最小限の使用例](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_nextの最小限の使用例")
 
 
 
-![プレビューパス(path_trace)でのsample_nextの使用例](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "プレビューパス(path_trace)でのsample_nextの使用例")
+![プレビューパス(path_trace)でのsample_nextの使用例](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "プレビューパス(path_trace)でのsample_nextの使用例")
 
 
 
 +++
 
 +++sample_next_advanced, sample_prev_advanced
-これは、閉じたパスでの作業を目的としています。 オープンパスの場合、StartまたはEnd 頂点には兄弟がありません。この場合、両方の関数は同じ隣人のみを返します。 複数の兄弟（ネットワークとして接続された頂点）を持つ開始または終了パスの場合、リンクされたリスト内の次の兄弟の近隣頂点を返します。
+これは、閉じたパスでの作業を目的としています。 オープンパスの場合、開始または終了の頂点には兄弟がありません。この場合、両方の関数は同じ隣接する唯一の関数を返します。 複数の兄弟（ネットワークとして接続されたパス）を持つ開始または終了の頂点の場合は、リンクリスト内の次の兄弟の隣接する頂点を返します。
 
 +++
 
 ### &#39;書き込み&#39;関数
 
-`Write`フォルダーには、[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>で<b>書き込み可能な浮動小数 4を構築する小さなヘルパーがあります。
+`Write`フォルダーには、[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>で<b>書き込み可能なFloat4を構築する小さなヘルパーがあります。
 
-実際、[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)は描画する前にRGBとAlphaを掛け合わせるので、実際の値は掛け合わされずに補正されます。 これらの関数を例えば[ピクセルプロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)で使用する場合は、事前に乗算を自分で再適用するか、カスタム版（使用する環境に合わせて最適化され、使用が容易な版）を作成することをお勧めします。
+実際、[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)は描画する前にRGBとAlphaを掛け合わせるので、実際の値は掛け合わされずに補正されます。 例えば[ピクセルプロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)でこれらの関数を使用する場合は、前乗算を自分で再適用するか、カスタムバージョン（ユースケースに合わせて最適化され、使用が簡単なバージョン）を作成することをお勧めします。
 
 +++document_header
 指定したパスの数を宣言して、文書ヘッダーの最上部を構築します。
 
 +++
 
-+++document_last_頂点_spec
-文書ヘッダの\*bottom\*部分を構築します。これは最後の頂点アドレスを指定します（A.1を参照）。
++++document_last_vertex_spec
+最後の頂点アドレスを指定する文書ヘッダの\*bottom\*部分を構築する（A.1を参照）。
 
 +++
 
 +++path_header
-パス`*nbVertices*`の頂点数、`*isClosed*`フラグ、および`*pathIndex*`に基づいて、パスヘッダーの上部をビルドします。
+パス`*nbVertices*`の頂点の数、`*isClosed*`フラグ、および`*pathIndex*`に基づいて、パスヘッダーの上部を構築します。
 
 +++
 
-+++開始頂点、中間頂点、終了頂点
++++start_vertex、mid_vertex、end_vertex
 頂点の最上部を構築し、位置、種類、その他のオプションを適宜設定します。
 
-*mid\_parameter*&#x200B;および&#x200B;*hasTrivialLinks* 頂点ーのバージョン情報：適切な値を設定するのが理想的ですが、リンクがトリビアルかどうかわからない場合は、安全にfalseに設定できます（生成されたパスの処理に時間がかかります）。
+*mid\_vertex*&#x200B;および&#x200B;*hasTrivialLinks*&#x200B;パラメーターのバージョン情報：適切な値を設定することをお勧めします。ただし、リンクが重要な値であるかどうかを判断できない場合は、安全にfalseに設定できます（生成されたパスの処理に時間がかかります）。
 
 +++
 
-パスのヘッダと頂点のボトムパートのビルダはありません。どちらもトップの部分への2つのリンクをエンコードするので、この関数は本質的に2つの浮動小数2の浮動小数点ベクトル4コンストラクタになります。 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)を使用して書く場合は、XYZをWで除算することを忘れないでください（WはアドレスのYです。Wをnullにすることはできません）。
+パスのヘッダと頂点に対するボトムパートビルダはありません。どちらもトップ部分への2つのリンクをエンコードするので、この関数は本質的に2つのFloat2からのベクトルFloat4コンストラクタになります。 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)を使用して書く場合は、XYZをWで除算することを忘れないでください（WはアドレスのYです。Wをnullにすることはできません）。
 
 [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)ノードをホストする&#x200B;<b>*paths\_polygon.sbs* </b>パッケージで、これらの関数の適切な使用例を確認できます。
 
 ### パスを処理するメソッド
 
-ピクセルプロセッサーまたはFx-Mapを使用して、カスタム処理を実装する可能性があります。カスタム処理には、次の強さと弱点があります。
+通常は、ピクセルプロセッサーまたはFx-Mapを使用して、次のような長所と短所のあるカスタム処理を実装します。
 
 +++FX-Map
-[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)ベースのソリューションは通常、パス全体（またはパス）、または累積パス（たとえば、デシメーションまたはテセレーション後に頂点を再パックするなど）に関するグローバルな知識が必要な高レベルの処理を実行する場合に推奨されます。 また、この方法は最も簡単です。初めてカスタム処理を行う場合は、Fx-Mapを使用することをお勧めします。ただし、*速度が遅くなる可能性があります*。
+[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)ベースのソリューションは通常、パス全体（またはパス）または累積パス（たとえば、デシメーションまたはテッセレーション後に頂点を再パックするなど）のグローバルな知識を必要とする高レベルの操作を実行する場合に推奨されます。 また、この方法は最も簡単です。初めてカスタム処理を行う場合は、Fx-Mapを使用することをお勧めします。ただし、*速度が遅くなる可能性があります*。
 
 そもそもFx-Mapに精通している必要があります。 これに該当しない場合は、[固有のドキュメント](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)を確認してください。
 
@@ -330,12 +330,12 @@ Fx-Mapを使用したパスの読み取りと書き込みの方法について�
 +++
 
 +++ピクセルプロセッサー
-[ピクセルプロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)ソリューションは、「ローカル」情報のみが必要な場合に適しています。 ここでは空間的（頂点間の距離）ではなく、位相的（要素が互いにリンクしている）に対して「ローカル」を意味します。 これが頂点プロセッサの実装方法です。 この種の処理では、ピクセルプロセッサーは通常Fx-Mapよりも高速です。これは、各ピクセルの関数が並列に評価され、アクセスされるデータ量が限られているためです。 現在のピクセルしか変更できないため、実装作業の方がはるかに重要な場合があります。
+[ピクセルプロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)ソリューションは、「ローカル」情報のみが必要な場合に適しています。 ここでは、空間的（要素間の距離）ではなく、位相的（頂点が互いにリンクしている）に「ローカル」を意味します。 これが頂点プロセッサの実装方法です。 通常、ピクセルプロセッサはFx-Mapよりも高速です。これは、各ピクセルの機能が並列に評価され、アクセスされるデータの量が限られているためです。 現在のピクセルしか変更できないため、実装作業の方がはるかに重要な場合があります。
 
 具体的なユースケースに応じて言うべきことはたくさんありますが、最初にすべきことは、自分がどこにいるか確認することです。
 
-上位($pos.y &lt; 0.5)または下位($pos.y > 0.5)のパーツにいますか？ 専用の変数（例： `*isTop*`）で、`*vert.addr*` 浮動小数2を作成することをお勧めします。この値は、上部パーツで`*$pos*`、下部パーツで`$pos - (0,0.5)`です。
+上位($pos.y &lt; 0.5)または下位($pos.y > 0.5)のパーツにいますか？ 専用の変数（例： `*isTop*`）で、`*vert.addr*`浮動小数点2を作成して、その値を上部の`*$pos*`、下部の`$pos - (0,0.5)`にすることを推奨します。
 
-*vert.addr*&#x200B;とは何ですか？ これをサンプリングして、何かあるかどうか(W != 0)をチェックし、あるとしたらどうなるかを正確にチェックします。 ヘッダー(W = 0.0625) （`*Read/is\_header*`で確認）または頂点 （`Read/is\_vertex`で確認） ヘッダーの場合は、ドキュメントヘッダーですか、パスヘッダーですか？ （`*Read/current\_pixel\_is\_document\_header*`を使用して確認できます）。 1つまたは複数のヘルパー関数を使用して、興味を引くものに一致させます。
+*vert.addr*&#x200B;とは何ですか？ これをサンプリングして、何かあるかどうか(W != 0)をチェックし、あるとしたらどうなるかを正確にチェックします。 ヘッダー(W = 0.0625) （`*Read/is\_header*`でチェック）または頂点（`Read/is\_vertex`でチェック） ヘッダーの場合は、ドキュメントヘッダーですか、パスヘッダーですか？ （`*Read/current\_pixel\_is\_document\_header*`を使用して確認できます）。 ヘルパー関数の1つまたは複数を使用して、興味を引くものと一致させます。
 
 +++

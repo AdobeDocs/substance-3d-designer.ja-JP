@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UVマッパーカラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/uv-mapper-color-icon.png "ノードアイコン")
+![ノードアイコン](uv-mapper-color.resources/uv-mapper-color-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -77,11 +77,11 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ UV入力で指定された座標を使用して、入力カラーイメージを
 </tr>
 </table>
 
-![グラフのノード](../../../../../../assets/UVMapperColor-Graph.jpg "グラフのノード")
+![グラフのノード](uv-mapper-color.resources/UVMapperColor-Graph.jpg "グラフのノード")

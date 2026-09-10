@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR レンダリング
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render.png){width="250px"}
 
 <b>イン：</b> マテリアルフィルター > PBRユーティリティ
 
@@ -91,7 +91,7 @@ Image Based Lighting(IBL)を使用して、球体、プレーン、またはシ�
 | <b>円柱の長さ</b> <i>0.0 - 1.0</i> | 円柱の長さを設定します。 |
 | <b>回転</b> <i>0.0 - 1.0</i> | 照明を回転せずにシェイプを回転します。 |
 | <b>回転方向</b> <i>0.0 - 1.0</i> | 2Dの回転軸を設定します。 |
-| <b>方向を中心とした回転</b> <i>0.0 - 1.0</i> | 回転軸上でシェイプをスピンします。 |
+| <b>方向を中心とした回転</b> <i>0.0 - 1.0</i> | 回転軸のスピンシェイプです。 |
 | <b>図形の位置</b> <i>-1.0 - 1.0</i> | シェイプを移動します。 |
 | <b>タイリング</b> <i>1.0 - 6.0</i> | タイリング量を設定します。 |
 | <b>球UV スケール</b> <i>0.0 - 4.0</i> | 球体上のUVのスケールを設定します。 |
@@ -128,14 +128,14 @@ Image Based Lighting(IBL)を使用して、球体、プレーン、またはシ�
 | <b>レンズDirtの強さ</b> <i>0.0 - 1.0</i> | Dirtマップの効果を設定します。 |
 | <b>レンダリング設定</b> |  |
 | <b>Diffuse品質</b> <i>16個のサンプル、32個のサンプル、64個のサンプル、128個のサンプル</i> | 拡散反射光マップの品質レベルを切り替えます。 |
-| <b>Diffuse Emissiveマルチプライア</b> <i>0.0 - 1.0</i> | 放射パーツが放射に寄与する度合いをコントロールします。 |
+| <b>Diffuse Emissiveマルチプライア</b> <i>0.0 - 1.0</i> | emissiveパーツが放射に影響する量をコントロールします。 |
 | <b>Diffuseシャドウの適用度</b> <i>0.0 - 1.0</i> | 拡散シャドウの強度を制御します。 |
 | <b>Specular ディザリング</b> <i>0.0 - 1.0</i> | Specularのディザリング量を設定します。 |
 | <b>Specularシャドウマルチプライヤ</b> <i>0.0 - 1.0</i> | Specular反射のシャドウの強さを制御します。 |
-| <b>不透明度モード</b> <i>ディザAlphaテスト、シンプルAlphaブレンド</i> | 透明度の適用方法を制御します。 <i>シンプルAlphaブレンド</i>モードは、均一な背景で最も目立ちます。 |
-| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | 環境オクルージョンのシャドウの強さを設定します。 |
-| <b>材料調整</b> |  |
-| <b>法線の再計算</b> <i>False/True</i> | 法線は、ディスプレイスメントの強さに従ってHeightマップから再計算されます。 |
+| <b>不透明度モード</b> <i>ディザAlphaテスト、シンプルAlphaブレンド</i> | 透明度の適用方法を制御します。 <i>シンプルブレンド</i>モードは、均一な背景で最も目立ちます。 |
+| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | ambient occlusionのシャドウの強さを設定します。 |
+| <b>マテリアル調整</b> |  |
+| <b>法線の再計算</b> <i>False/True</i> | 法線は、ディスプレイスメントの強さに応じて高さマップから再計算されます。 |
 | <b>標準の形式</b> <i>DirectX、OpenGL</i> | 法線マップ形式を切り替える（グリーンチャンネルを反転する） |
 | <b>誘電体F0入力</b> <i>定数値、Specular level入力</i> | どのドライブのF0値を設定します。 Specular level入力：入力マップによって駆動されます。 |
 | <b>誘電体F0</b> <i>0.0 - 0.08</i> | 誘電体F0入力に定数値を選択した場合、このスライダを使用してグローバル値を設定できます。 |
@@ -160,30 +160,30 @@ Image Based Lighting(IBL)を使用して、球体、プレーン、またはシ�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 季節フィルター
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/default-icon.png){width="128px"}
+![](season-filter.resources/default-icon.png){width="128px"}
 
 <b>内：</b> マテリアルフィルター >エフェクト
 
@@ -80,11 +80,11 @@ ht-degree: 11%
 | <b>コケの色</b> <i>（カラー値）</i> | コケのカラーを設定します。 |
 | <b>水の色</b> <i>（カラー値）</i> | アルファ/不透明度を含む、水のカラーを設定します。 |
 | <b>ブレンド</b> |  |
-| <b>Diffuseの適用度</b> <i>0.0 - 1.0</i> | 拡散反射光のブレンド強度。 |
-| <b>Base colorの適用度</b> <i>0.0 - 1.0</i> | ベースカラーのブレンド強度。 |
-| <b>法線の強度</b> <i>0.0 - 1.0</i> | 法線のブレンド強度。 |
-| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularのブレンド強度。 |
-| <b>光沢度の適用度</b> <i>0.0 - 1.0</i> | 光沢のブレンド強度。 |
-| <b>ラフネスの適用度</b> <i>0.0 - 1.0</i> | 粗さのブレンド強度。 |
-| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | アンビエントオクルージョンのブレンド強度。 |
+| <b>Diffuseの適用度</b> <i>0.0 - 1.0</i> | Diffuseの描画強さ。 |
+| <b>Base colorの適用度</b> <i>0.0 - 1.0</i> | base colorの描画強さ。 |
+| <b>法線の強度</b> <i>0.0 - 1.0</i> | 法線の描画強さ。 |
+| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularの描画強さ。 |
+| <b>光沢度の適用度</b> <i>0.0 - 1.0</i> | 光沢度の描画強さ。 |
+| <b>ラフネスの適用度</b> <i>0.0 - 1.0</i> | ラフネスの描画強さ。 |
+| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | ambient occlusionの描画強さ。 |
 | <b>Heightの適用度</b> <i>0.0 - 1.0</i> | Heightのブレンド強度。 |

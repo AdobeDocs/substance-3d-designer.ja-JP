@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 汚れ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
-このマスクは、ベイク処理されたAOと曲率に基づいて、隠れたエッジと沈んだエッジおよびコーナーのDirtを表します。
+このマスクは、ベイクされたAOと曲率に基づいて、隠れたエッジと沈んだエッジおよびコーナーのDirtを表します。
 
 </td>
 </tr>
@@ -47,11 +47,11 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！ |
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！ |
+| <b>曲率</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！ |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 必須！ |
 | <b>経年劣化入力</b> <i>グレースケール入力</i> | カスタム経年劣化マップ入力、オプション、パラメーターにより有効化 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
-| <b>ワールド空間標準</b> <i>カラー入力</i> | Triplanarにのみ使用されます。 |
+| <b>ワールド空間法線</b> <i>カラー入力</i> | Triplanarにのみ使用されます。 |
 | <b>位置</b> <i>カラー入力</i> | Triplanarにのみ使用されます。 |
 
 <a name="parameters"></a>
@@ -74,7 +74,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dirt-ex.gif" />
+            <img src="dirt.resources/dirt-ex.gif" />
         </td>
     </tr>
 </table>

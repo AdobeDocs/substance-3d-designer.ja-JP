@@ -10,7 +10,7 @@ helpx_tags: ""
 title: セル 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![セル 3 – アイコン](../../../../../../assets/cells_3.png "セル 3 – アイコン"){width="200px"}
+![セル 3 – アイコン](cells-3.resources/cells_3.png "セル 3 – アイコン"){width="200px"}
 
 <b>イン：</b> テクスチャジェネレーター> ノイズ
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 | <b>角度</b> <i>フロート</i> | 円盤の方向を設定するために使用する角度です。回転の回数で指定し、水平右から開始します。 |
 | <b>角度ランダム</b> <i>フロート</i> | <b>角度</b>の値に適用されるランダムな変動の最大量（ターン数）。 |
 | <b>タイルのオフセット</b> <i>浮動小数点2</i> | ノイズのレンダリングに使用される無限平面の部分の位置を制御します。 |
-| <b>非正方形の拡張</b> <i>ブール値</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
+| <b>非正方形の拡張</b> <i>ブーリアン</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成量を画像の境界まで拡張します。 |
 
 ## 例
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![セル 3 – 例1](../../../../../../assets/cells_3_1.png "セル 3 – 例1"){zoomable="yes"}
+![セル 3 – 例1](cells-3.resources/cells_3_1.png "セル 3 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![セル 3 – 例2](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso0.gif "セル 3 – 例2"){zoomable="yes"}
+![セル 3 – 例2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "セル 3 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![セル 3 – 例3](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso1.gif "セル 3 – 例3"){zoomable="yes"}
+![セル 3 – 例3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "セル 3 – 例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![セル 3 – 例4](../../../../../../assets/noise_cells_3_v2_speed0.3_aniso0.6.gif "セル 3 – 例4"){zoomable="yes"}
+![セル 3 – 例4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "セル 3 – 例4"){zoomable="yes"}
 
 </td>
 </tr>

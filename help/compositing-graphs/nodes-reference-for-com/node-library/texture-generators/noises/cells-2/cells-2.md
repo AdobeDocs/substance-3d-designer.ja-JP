@@ -10,7 +10,7 @@ helpx_tags: ""
 title: セル 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![セル 2 – アイコン](../../../../../../assets/cells_2.png "セル 2 – アイコン"){width="200px"}
+![セル 2 – アイコン](cells-2.resources/cells_2.png "セル 2 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -61,8 +61,8 @@ ht-degree: 1%
 | <b>エッジの幅</b> <i>フロート</i> | セル間の壁のThicknessをグリッドの比率で調整します。 （解像度に依存しない） |
 | <b>反転</b> <i>ブール値</i> | 出力画像の黒と白を切り替えます。 |
 | <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
-| <b>非正方形の拡張</b> <i>ブール値</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成を画像の境界まで拡張します。 |
+| <b>速度の乱れ</b> <i>浮動小数</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>非正方形の拡張</b> <i>ブーリアン</i> | 非正方形の画像では、生成されたタイルを正方形に保ち、ノイズの生成量を画像の境界まで拡張します。 |
 
 ## 例
 
@@ -70,12 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![セル 2 – 例1](../../../../../../assets/cells_2_1.png "セル 2 – 例1"){zoomable="yes"}
+![セル 2 – 例1](cells-2.resources/cells_2_1.png "セル 2 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![セル 2 – 例2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "セル 2 – 例2"){zoomable="yes"}
+![セル 2 – 例2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "セル 2 – 例2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パススプラインツールの操作
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![パス多角形の出力](../../../../../assets/PathsPolygon_Data.jpg "パス多角形の出力")
+![パス多角形の出力](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "パス多角形の出力")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![2Dビューの3次スプライン](../../../../../assets/SplineCubic-Demo.gif "2Dビューの3次スプライン")
+![2Dビューの3次スプライン](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "2Dビューの3次スプライン")
 
 </td>
 </tr>
@@ -79,14 +79,14 @@ ht-degree: 0%
 
 パスとスプラインツールは集中的な計算を必要とするため、ツールセットを使用する際には、最高のパフォーマンスと応答性を確保するために、次のいくつかの設定に注意する必要があります。
 
-1. ツールセットは、GPU上で高速に実行される<b>Substance engine</b>機能を幅広く利用します。 したがって、お使いのシステムのエンジンのGPUバージョンを使用してください： <b>Direct3D</b> (Windows)または<b>OpenGL</b> (macOS)。\
+1. ツールセットは、GPU上で高速に実行される<b>Substance engine</b>機能を幅広く利用します。 そのため、次のシステムに対応するエンジンのGPUバージョンを使用してください： <b>Direct3D</b> (Windows)または<b>OpenGL</b> (macOS)。\
    エンジンを切り替えるには、<b>F9</b>キーを押すか、メインメニューバーの<b>ツール/エンジンを切り替え…</b>に移動します。
-1. その場合は、[環境設定](../../../../../interface/preferences-window/preferences-window.md)の「<b>グラフ</b>」セクションで「<b>コンテキスト編集</b>」をオフにすることを強くお勧めします（このウィンドウにアクセスするには、メインメニューバーの「<b>編集/環境設定…</b>」に移動します）。\
-   コンテキスト編集機能を使用すると、ホストグラフのコンテキストでインスタンス化を開くことができます。これは非常に便利ですが、ツールセットの画像キャッシュに必要な計算を指数関数的に増やす副作用があります。
+1. その場合は、[環境設定](../../../../../interface/preferences-window/preferences-window.md)の<b>グラフ</b>セクションで<b>コンテキスト編集</b>をオフにすることを強くお勧めします（このウィンドウにアクセスするには、メインメニューバーの<b>編集/環境設定…</b>に移動します）。\
+   コンテキスト内編集では、ホストグラフのコンテキストでインスタンスノードを開くことができます。これは明らかに非常に便利ですが、ツールセットのイメージキャッシュによって必要とされる計算を指数関数的に増加させる副作用があります。
 
 これら2つの設定のいずれかを推奨状態に変更すると、パフォーマンスが大幅に向上します。
 
-![ライブラリのパスツール](../../../../../assets/PathsTools.jpg "ライブラリのパスツール")
+![ライブラリのパスツール](working-with-path-and-spline-tools.resources/PathsTools.jpg "ライブラリのパスツール")
 
 ## パスツール
 
@@ -94,18 +94,18 @@ ht-degree: 0%
 
 [パス多角形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)は、指定された半径と辺の数の多角形の形状のパスを生成します。
 
-または、[Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)ノードを使用して、グレースケールイメージからパスを抽出できます。\
-これは現在、複雑な図形を作成する唯一の方法です。[パスパスパスのノード](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)のライブラリ全体を利用して、最終的にSubstanceに変換される図形を作成できます。
+または、[Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)ノードを使用して、グレースケール画像からパスを抽出できます。\
+これは現在、複雑な図形を作成する唯一の方法です。[パスグラフノード](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)のライブラリ全体を利用して、最終的にSubstanceに変換される図形を作成できます。
 
-![パス生成ノード](../../../../../assets/Paths_Generation.jpg "パス生成ノード"){width="600px"}
+![パス生成ノード](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "パス生成ノード"){width="600px"}
 
 ### パスの編集
 
-[パス2D 変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)、[パスワープ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)および[パスのクアッド変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)を使用すると、パスの形状を編集できます。
+[パス2Dの変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)、[パスのワープ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)および[パスの四角形変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)では、パスのシェイプを編集できます。
 
 [パスの選択](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)ノードを使用して、インデックスまたは長さでパスを選択することで、不要なパスを削除することもできます。
 
-[Paths 頂点プロセッサ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)ノードを使用すると、パスの各ポイントでより複雑な処理を実行できます。 [よりシンプルなバージョン](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)が存在し、細かい調整が可能です。
+[パス頂点プロセッサー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)ノードを使用すると、パスの各ポイントでより複雑な処理を実行できます。 [よりシンプルなバージョン](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)が存在し、細かい調整が可能です。
 
 <table>
 <tr style="border: 0;">
@@ -114,14 +114,14 @@ ht-degree: 0%
 ### パスのプレビューノード
 
 パスノードの結果のプレビューは、専用の[パスのプレビュー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)ノードを使用して実行されます。\
-このノードには出力がありません。 ノードのLMBをダブルクリックして、[2D ビュー](../../../../../interface/2d-view/2d-view.md)のプレビューを表示します。
+このノードには出力がありません。 ノード上のLMBをダブルクリックして、[2Dビュー](../../../../../interface/2d-view/2d-view.md)にプレビューを表示します。
 
 個別のパスにはプレビューで一意のカラーが使用され、各パスを簡単に区別できます。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![パスのプレビューノード](../../../../../assets/PreviewPaths_Node.jpg "パスのプレビューノード")
+![パスのプレビューノード](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "パスのプレビューノード")
 
 </td>
 </tr>
@@ -137,16 +137,16 @@ ht-degree: 0%
 
 <b>マスク/パスにマスク/スプラインへのパス</b>
 
-![スプラインへのパス](../../../../../assets/Spline_PathToSpline.jpg "スプラインへのパス")
+![スプラインへのパス](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "スプラインへのパス")
 
 ### パス形式の仕様
 
 パスノードは、カラー画像にエンコードされたパスのデータを出力するので、「パスをプレビュー」ノードは必須です。\
 このエンコードは、[パス形式の仕様](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)ページで説明されている仕様に従っています。
 
-この仕様を使用して、このフォーマットを使用して独自のノードを作成し、[Paths 頂点プロセッサ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)のノードを最大限に活用できます。
+この仕様を使用して、この形式を使用して独自のノードを作成し、[パス頂点プロセッサー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)のノードを最大限に活用できます。
 
-![ライブラリ内のスプラインツール](../../../../../assets/SplineTools.jpg "ライブラリ内のスプラインツール")
+![ライブラリ内のスプラインツール](working-with-path-and-spline-tools.resources/SplineTools.jpg "ライブラリ内のスプラインツール")
 
 ## スプラインツール
 
@@ -185,19 +185,19 @@ ht-degree: 0%
 
 これは、[スプラインブリッジ（一覧）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)、[スプラインブリッジマッパー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)、[スプライン結合リスト](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)など、スプラインを結合する必要があるノードに影響を与えます。
 
-![リンク作成モードでスプラインを追加しています](../../../../../assets/LinkCreationMode_Splines.gif "リンク作成モードでスプラインを追加しています")
+![リンク作成モードでスプラインを追加しています](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "リンク作成モードでスプラインを追加しています")
 
 ### スプライン入力および出力
 
-スプラインは、コネクターのグループを使用して1つのノードから別のノードに渡されます。
+スプラインは、1つのノードから別のノードに、コネクタのグループを使用して渡されます。
 
 * <b>スプライン座標&#x200B;</b>*色*&#x200B;入力スプラインの点の座標は、カラー画像のRGBAチャンネルでエンコードされます。
 * <b>スプラインデータ&#x200B;</b>*色*&#x200B;カラー画像のRGBAチャンネルにエンコードされた入力スプラインの追加データ。
 * <b>スプラインの量&#x200B;</b>*整数*&#x200B;入力スプラインの数です。
 
-ソース・ノードの各出力コネクターは、ターゲット・ノードの名前が一致する入力コネクターに接続されている必要があります。
+ソースノードの各出力コネクタは、ターゲットノードの名前が一致する入力コネクタに接続されている必要があります。
 
-<b>マテリアル</b>を使用するか、<b>コンパクトマテリアル</b>を使用すると、これらの接続を高速化できます [リンク作成モード](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 これにより、1回の操作で3つのスプラインコネクターを接続できます。
+これらの接続を高速化するには、<b>マテリアル</b>を使用するか、<b>マテリアルを圧縮</b>します [リンク作成モード](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 これにより、1回の操作で3つのスプラインコネクタを接続できます。
 
 <table>
 <tr style="border: 0;">
@@ -212,7 +212,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![スプラインノードのプレビュー出力](../../../../../assets/Spline_PreviewOutput.jpg "スプラインノードのプレビュー出力")
+![スプラインノードのプレビュー出力](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "スプラインノードのプレビュー出力")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![セグメントとしてレンダリングされたスプライン](../../../../../assets/Spline_Segments.jpg "セグメントとしてレンダリングされたスプライン")
+![セグメントとしてレンダリングされたスプライン](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "セグメントとしてレンダリングされたスプライン")
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ### スプラインからイメージを作成する
 
-スプラインのオーサリングと編集が完了したら、残りのSubstance グラフノードを利用できるイメージを作成するために使用できます。
+スプラインのオーサリングと編集が完了したら、そのスプラインを使用して残りのSubstanceグラフノードを活用できるイメージを作成できます。
 
 スプラインを使用してグラフィックスを生成するには、主に次の3つの方法があります。
 

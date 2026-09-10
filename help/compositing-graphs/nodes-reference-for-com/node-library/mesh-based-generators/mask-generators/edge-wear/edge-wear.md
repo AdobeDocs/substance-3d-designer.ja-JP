@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-wear.png){width="128px"}
+![](edge-wear.resources/edge-wear.png){width="128px"}
 
 <b>In:</b> メッシュベースのジェネレーター> マスクジェネレーター
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
 このノードは、オブジェクトのエッジの損耗を表します。 パラメーターは数多くありますが、使い方は簡単ではありません。遊び回って、物事を感じてみることをお勧めします。 このノードは非常に強力ですが、カスタムのオーバーライドマスクは実行できません。
 
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ |
+| <b>曲率</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
 <a name="parameters"></a>
@@ -67,7 +67,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-wear-ex.gif" />
+            <img src="edge-wear.resources/edge-wear-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
 breadcrumb-title: ''
-description: '[スプライン塗りつぶし]ノードを使用して、閉じたスプラインによって定義された領域をテクスチャまたは色で塗りつぶします。'
+description: '[スプライン塗り潰し]ノードを使用して、閉じたスプラインによって定義された領域をテクスチャまたは色で塗り潰します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Fill
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプライン塗り
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ノードアイコン](../../../../../../assets/spline-fill-icon.png "ノードアイコン")
+![ノードアイコン](spline-fill.resources/spline-fill-icon.png "ノードアイコン")
 
 <b>イン：</b>スプラインおよびパスツール> スプラインツール
 
@@ -72,11 +72,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>後</i>
     </td>
   </tr>
@@ -85,7 +85,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例2](../../../../../../assets/SplineFill-Demo.gif "ノードの例2")
+![ノードの例2](spline-fill.resources/SplineFill-Demo.gif "ノードの例2")
 
 </td>
 </tr>
