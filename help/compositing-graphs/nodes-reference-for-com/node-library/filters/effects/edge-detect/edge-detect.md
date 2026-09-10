@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
 breadcrumb-title: ''
-description: エッジ検出ノードを使用して、アウトラインやエッジベースのマスクエフェクトを作成するためのテクスチャでエッジを検出します。
+description: エッジ検出ノードを使用して、テクスチャのエッジを検出し、アウトラインやエッジベースのマスク効果を作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Edge Detect
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: エッジ検出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-detect.png){width="128px"}
+![](edge-detect.resources/edge-detect.png){width="128px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 説明
 
-白黒画像のコントラストを検出し、そのコントラストを強調する黒と白のマスクの画像を作成します。
+白黒画像のコントラストを検出し、そのコントラストを強調する白黒マスクを作成します。
 
 エッジに対して何らかのマスクが必要な場合に便利です。 コントラストの強い入力では最適に機能することに注意してください。必要に応じて、コントラストを調整してから、このノードに値を渡してください。
 
@@ -57,7 +57,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-detect-ex.png" />
+            <img src="edge-detect.resources/edge-detect-ex.png" />
         </td>
     </tr>
 </table>

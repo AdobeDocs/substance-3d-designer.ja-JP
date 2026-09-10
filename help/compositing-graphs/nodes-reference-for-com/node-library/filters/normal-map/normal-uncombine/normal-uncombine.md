@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 通常の結合解除
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![通常の結合解除アイコン](../../../../../../assets/NormalUncombine.png "通常の結合解除アイコン"){width="200px"}
+![通常の結合解除アイコン](normal-uncombine.resources/NormalUncombine.png "通常の結合解除アイコン"){width="200px"}
 
 <b>イン：</b>フィルター>標準マップ
 
@@ -70,44 +70,44 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![通常の結合解除：例2](../../../../../../assets/normal_uncombine_example_4.png "通常の結合解除：例2"){zoomable="yes"}
+![通常の結合解除：例2](normal-uncombine.resources/normal_uncombine_example_4.png "通常の結合解除：例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![通常の結合解除：例4](../../../../../../assets/normal_uncombine_example_6.png "通常の結合解除：例4"){zoomable="yes"}
+![通常の結合解除：例4](normal-uncombine.resources/normal_uncombine_example_6.png "通常の結合解除：例4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>後</i>
     </td>
   </tr>
 </table>
 
-![通常の結合解除：例6](../../../../../../assets/normal_uncombine_example_5.png "通常の結合解除：例6"){zoomable="yes"}
+![通常の結合解除：例6](normal-uncombine.resources/normal_uncombine_example_5.png "通常の結合解除：例6"){zoomable="yes"}

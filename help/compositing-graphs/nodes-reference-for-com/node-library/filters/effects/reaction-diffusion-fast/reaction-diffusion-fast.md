@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: '[反応拡散高速]ノードを使用すると、プロシージャルのテクスチャに対して高速の反応拡散アルゴリズムを使用して有機的なパターンを生成できます。'
+description: プロシージャテクスチャ用の高速反応拡散アルゴリズムを使用して有機的なパターンを生成するには、反応拡散の高速ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 拡散反応（速い）
+title: 反応拡散速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# 拡散反応（速い）
+# 反応拡散速
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![リアクション拡散ノードアイコン](../../../../../../assets/reaction-diffusion.png "リアクション拡散ノードアイコン")
+![リアクションディフュージョンノードアイコン](reaction-diffusion-fast.resources/reaction-diffusion.png "リアクションディフュージョンノードアイコン")
 
 <b>イン:</b>フィルター/効果
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## 説明
 
-このノードは、入力グレースケールイメージに対してリアクション拡散効果を行います。
+このノードは、入力グレースケール画像に対して反応拡散効果を実行します。
 
-反応 – 拡散とは、物質が広がって（拡散して）他の物質と相互作用する（反応する）過程のことです。 これは、例えば、動物の皮膚に特定のパターンが形成されたときに自然に何が起こるかをシミュレートする数学モデルです。
+反応拡散とは、物質が広がって（拡散して）他の物質と相互作用する（反応する）過程のことです。 これは、例えば、動物の皮膚に特定のパターンが形成されたときに自然に何が起こるかをシミュレートする数学モデルです。
 
 このノードはパフォーマンス用に最適化されており、速度に関していくつかの精度のトレードオフを行います。
 
@@ -65,8 +65,8 @@ ht-degree: 3%
 
 |  |  |
 |:---|:---|
-| <b>半径</b> *浮動小数* | 効果が広がる範囲。 |
-| <b>コントラスト</b> *浮動小数* | 入力のコントラストを調整します。一種の閾値として機能します。 |
+| <b>半径</b> *フロート* | 効果が広がる範囲。 |
+| <b>コントラスト</b> *フロート* | 入力のコントラストを調整します。一種の閾値として機能します。 |
 
 ## 例
 
@@ -74,17 +74,17 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![例1](../../../../../../assets/reactdiff03.png "例1")
+![例1](reaction-diffusion-fast.resources/reactdiff03.png "例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![例2](../../../../../../assets/reactdiff02.png "例2")
+![例2](reaction-diffusion-fast.resources/reactdiff02.png "例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![例3](../../../../../../assets/reactdiff01.gif "例3")
+![例3](reaction-diffusion-fast.resources/reactdiff01.gif "例3")
 
 </td>
 </tr>
