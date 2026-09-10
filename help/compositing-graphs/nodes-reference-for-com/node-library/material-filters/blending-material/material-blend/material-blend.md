@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
-description: ブレンドノードを使用すると、合成マテリアルエフェクトを作成するためのマスクを使用して、マテリアル全体をブレンドすることができます。
+description: マテリアルのブレンドノードを使用すると、複合マテリアル効果を作成するためのマスクを使用して、マテリアル全体をブレンドできます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ブレンド
+title: マテリアルブレンド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -18,13 +18,13 @@ ht-degree: 6%
 ---
 
 
-# ブレンド
+# マテリアルブレンド
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend.png){width="128px"}
 
 <b>イン:</b> マテリアルフィルター/描画
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## 説明
 
-ブレンドは、[アトミックブレンド マテリアル](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)に相当するマルチチャネルフルノードです。 グレースケールマスクに基づいて、またはオプションでカラー ID マスクの1つのカラーに基づいて、2つの完全なマテリアル（可能なすべてのチャンネル）をブレンドします。
+マテリアルブレンドは、[アトミックブレンドノード](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)に相当するマルチチャンネルのフルマテリアルです。 グレースケールマスクに基づいて、または必要に応じてカラー ID マスクから1つの単色に基づいて、2つの完全なマテリアル（可能なすべてのチャンネル）をブレンドします。
 
-このノードは、2つのマテリアルをブレンドし、グレースケールマップはあるがフルカラーID 烘焙がない場合に便利です。 カラーID 烘焙があり、3つ以上のマテリアルをブレンドする場合は、[マルチマテリアルブレンド](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)を使用することをお勧めします。
+このノードは、2つのマテリアルをブレンドし、グレースケールマップはあるがフルカラーIDベイク処理がない場合に便利です。 カラーIDベイク処理を行っていて、3つ以上のマテリアルをブレンドする場合は、[マルチマテリアルブレンド](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)を使用することをお勧めします。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 6%
 
 |  |  |
 |:---|:---|
-| <b>色ID</b> <i>カラー入力</i> | オプションのベイクカラーID マップ。 |
+| <b>色ID</b> <i>カラー入力</i> | オプションのベイクカラーIDマップ。 |
 | <b>グレースケールマスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
 <a name="parameters"></a>
@@ -56,11 +56,11 @@ ht-degree: 6%
 
 |  |  |
 |:---|:---|
-| <b>チャネル</b> | メタリック/ラフネスの代わりにSpecular/光沢度マップを使用する場合など、この領域でマテリアルチャンネルのオン/オフを切り替えます。 |
-| <b>Diffuse</b> |  |
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用します。 |
+| <b>拡散</b> |  |
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 前景と背景のブレンドの不透明度 |
 | <b>描画モード</b> <i>標準、追加、減算、乗算、追加/サブ、最大、最小、切り替え</i> |  |
-| <b>Base color</b> |  |
+| <b>基本色</b> |  |
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 前景と背景のブレンドの不透明度 |
 | <b>描画モード</b> <i>標準、追加、減算、乗算、追加/サブ、最大、最小、切り替え</i> |  |
 | <b>標準</b> |  |

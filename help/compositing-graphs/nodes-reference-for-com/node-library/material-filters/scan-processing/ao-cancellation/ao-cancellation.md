@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
 description: 「AOキャンセル」ノードを使用して、スキャンしたマテリアルからambient occlusionを取り除き、クリーンなテクスチャ処理を行います。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AOのキャンセル
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancel.png){width="128px"}
 
 <b>イン：</b> マテリアルフィルター > スキャン処理
 
