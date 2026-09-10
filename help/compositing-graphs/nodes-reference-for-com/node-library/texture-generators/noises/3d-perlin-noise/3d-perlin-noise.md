@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
 breadcrumb-title: ''
 description: 「3Dパーリンのノイズ」ノードを使用すると、自然な外観のボリューム感を持つテクスチャを作成するために、3D空間でスムーズなパーリンのノイズパターンを生成できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3Dパーリンノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dperlinnoise.png){width="200px"}
+![](3d-perlin-noise.resources/3dperlinnoise.png){width="200px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -67,13 +67,13 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlin.gif" />
+            <img src="3d-perlin-noise.resources/3dperlin.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlinnoise-variant2.jpg" />
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlinnoise-variant.jpg" />
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" />
         </td>
     </tr>
 </table>

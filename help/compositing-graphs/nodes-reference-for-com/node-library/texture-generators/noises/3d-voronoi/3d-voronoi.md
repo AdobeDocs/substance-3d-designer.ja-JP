@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: 3D Voronoiノードを使用すると、3Dワールドポジションに基づいてボロノイパターンを生成し、体積細胞テクスチャを作成できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> このノイズは、<i>GPU エンジンのみ</i> （例： <b>Direct3D</b>または<b>OpenGL</b>）で使用します。 <b>ツール/エンジンの切り替え…</b>に移動するか、<b>F9</b>キーを押して、目的のエンジンを選択します。
+> このノイズは、<i>GPUエンジンのみ</i> （<b>Direct3D</b>または<b>OpenGL</b>）で使用することを目的としています。 <b>ツール/エンジンの切り替え…</b>に移動するか、<b>F9</b>キーを押して、目的のエンジンを選択します。
 
 <a name="parameters"></a>
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>反転</b> <i>ブーリアン</i> | 出力イメージを反転します。 |
-| <b>スケール</b> <i>浮動小数</i> | 3Dボロノイノイズのスケールを制御します。<br><br><i>注意</i>: <b>タイリング</b>が<i>任意の軸</i>で有効になっている場合、スケール調整は<i>段階的</i>です。 これは予期される動作です。 |
-| <b>サイズ</b> <i>浮動小数3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸の3Dボロノイノイズのサイズを制御します。 値が均一でないと、<i>伸縮または収縮</i>効果が発生します。<br><br><i>注意</i>: <i>任意の軸</i>で<b>タイリング</b>が有効になっている場合、サイズの調整は<i>段階的</i>になります。 これは予期される動作です。 |
-| <b>オフセット</b> <i>浮動小数3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸の3D Voronoiノイズの<i>position</i>にオフセットを適用します。 |
-| <b>障害</b> <i>浮動小数3</i> | <i>ランダムオフセット</i>の強度は、<b>X</b>、<b>Y</b>および<b>Z</b>軸のノイズの各点に適用されます。 |
+| <b>反転</b> <i>ブール値</i> | 出力イメージを反転します。 |
+| <b>スケール</b> <i>フロート</i> | 3Dボロノイノイズのスケールを制御します。<br><br><i>注意</i>: <b>タイリング</b>が<i>任意の軸</i>で有効になっている場合、スケール調整は<i>段階的</i>です。 これは予期される動作です。 |
+| <b>サイズ</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸の3Dボロノイノイズのサイズを制御します。 値が均一でないと、<i>伸縮または収縮</i>効果が発生します。<br><br><i>注意</i>: <i>任意の軸</i>で<b>タイリング</b>が有効になっている場合、サイズの調整は<i>段階的</i>になります。 これは予期される動作です。 |
+| <b>オフセット</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸の3D Voronoiノイズの<i>position</i>にオフセットを適用します。 |
+| <b>障害</b> <i>浮動小数点3</i> | <i>ランダムオフセット</i>の強度は、<b>X</b>、<b>Y</b>および<b>Z</b>軸のノイズの各点に適用されます。 |
 | <b>ゆがみの適用度</b> <i>フロート</i> | 3Dボロノイノイズに適用される<i>ワープ効果</i>の強さを制御します。 |
 | <b>ゆがみスケール乗数</b> <i>フロート</i> | <b>ゆがみの強さ</b>で制御されるワープ効果で使用される<i>変形パターン</i>のスケールを制御します。 |
 | <b>角丸曲線</b> <i>フロート</i> | ノイズの各点の周りに<i>勾配</i>を丸めて<i>凸型</i>にします。<br><br><i>注意</i>: <b>Style</b>パラメーターが<i>Edge</i>に設定されている場合、このパラメーターは使用できません。 |
@@ -71,24 +71,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
         </td>
     </tr>
 </table>
