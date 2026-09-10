@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
 breadcrumb-title: ''
 description: '[方向性ノイズ 4]ノードを使用して、4つのオクターブを持つ方向性ノイズパターンを作成し、異方的なテクスチャを作成します。'
 helpx_creative_field: ""
