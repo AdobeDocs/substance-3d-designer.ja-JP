@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
 breadcrumb-title: ''
 description: Crystal 2ノードを使用して、結晶性および幾何学的なテクスチャ効果を作成するための高度なクリスタルパターンを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: クリスタル2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-2.png){width="128px"}
+![](crystal-2.resources/crystal-2.png){width="128px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -56,7 +56,7 @@ angularの布の折り目のようなパターンを作成します。 [折り�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/crystal-2-1.png" />
+            <img src="crystal-2.resources/crystal-2-1.png" />
         </td>
     </tr>
 </table>

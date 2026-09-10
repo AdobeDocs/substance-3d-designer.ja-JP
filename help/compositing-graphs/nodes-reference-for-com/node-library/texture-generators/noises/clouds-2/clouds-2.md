@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
 breadcrumb-title: ''
 description: '[雲2]ノードを使用して、大気テクスチャエフェクトおよびボリュームテクスチャエフェクトを作成するための中間の雲パターンを生成します。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 雲2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![雲2 – アイコン](../../../../../../assets/clouds_2.png "雲2 – アイコン"){width="200px"}
+![雲2 – アイコン](clouds-2.resources/clouds_2.png "雲2 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![雲2 – 例1](../../../../../../assets/clouds_2_1.png "雲2 – 例1"){zoomable="yes"}
+![雲2 – 例1](clouds-2.resources/clouds_2_1.png "雲2 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![雲2 – 例2](../../../../../../assets/noise_clouds_2_v2_speed0.6_aniso0.gif "雲2 – 例2"){zoomable="yes"}
+![雲2 – 例2](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif "雲2 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![雲2 – 例3](../../../../../../assets/noise_clouds_2_v2_speed0.6_aniso1.gif "雲2 – 例3"){zoomable="yes"}
+![雲2 – 例3](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif "雲2 – 例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![雲2 – 例4](../../../../../../assets/noise_clouds_2_v2_speed0.3_aniso0.6.gif "雲2 – 例4"){zoomable="yes"}
+![雲2 – 例4](clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif "雲2 – 例4"){zoomable="yes"}
 
 </td>
 </tr>
