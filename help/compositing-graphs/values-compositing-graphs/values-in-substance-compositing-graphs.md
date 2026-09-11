@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 効果的なマテリアル作成のためのSubstance合成グラフにおける値タイプとデータ処理について説明します。
 helpx_creative_field: ""

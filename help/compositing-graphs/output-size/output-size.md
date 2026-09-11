@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Substance合成グラフの出力サイズを設定し、テクスチャの解像度と画質を制御します。
 helpx_creative_field: ""
