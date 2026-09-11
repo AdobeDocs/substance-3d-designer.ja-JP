@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
-description: Multi Switchノードを使用すると、条件付きテクスチャ選択用のセレクターに基づいて、複数の入力テクスチャを切り替えることができます。
+description: Multi Switchノードを使用すると、条件付きテクスチャ選択用のセレクターに基づいて複数の入力テクスチャを切り替えることができます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch
 helpx_experience_level: ""
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 スイッチボックスとして機能し、&#39;Input Selection&#39;パラメーターで定義された入力のみを通過します。 したがって、2つの入力が接続されている場合、ユーザーの選択に応じて、そのうちの1つだけが返されます（変更されません）。
 
-グラフに様々なオプションを追加する場合に非常に便利です。 [公開](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) （ドロップダウンリストとして表示することが望ましい）と組み合わせると、多くのカスタマイズが可能です。
+グラフに様々なオプションを追加する場合に非常に便利です。 [表示](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) （ドロップダウンリストとして推奨）と組み合わせると、多くのカスタマイズが可能です。
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「マルチスイッチ」、グレースケール入力には「マルチスイッチグレースケール」を使用します。
 

@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 説明
 
-[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)ベースからランダムなグレースケールのルミナンス値を生成します。 タイルに輝度バリエーションを追加する場合に便利です。
+[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)ベースからランダムなグレースケール輝度値を生成します。 タイルに輝度のバリエーションを加える場合に便利です。
 
 </td>
 </tr>

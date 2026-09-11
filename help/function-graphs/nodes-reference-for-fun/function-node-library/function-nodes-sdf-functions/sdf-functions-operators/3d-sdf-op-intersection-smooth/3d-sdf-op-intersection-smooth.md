@@ -1,6 +1,6 @@
 ---
 title: 交差のスムーズ
-description: Designer/Substance合成グラフ/ノードの参照Substance合成グラフ/ノードライブラリ/SDF 関数/演算子/交点の滑らかさ
+description: Designer/Substance合成グラフ/ノード合成の参照グラフ/Substanceライブラリ/SDF 関数/演算子/交差のスムーズ
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '114'
@@ -40,6 +40,6 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *フロート* | 最初のSDFシェイプ。 |
-| <b>SDF 2</b> *フロート* | 2番目のSDFシェイプ。 |
-| <b>Smoothness</b> *フロート* | 2つのSDF形状の交点のエッジのSmoothness。<br><br><i>注：</i>滑らかさの半径が交差する部分にハードエッジが表示されることがあります。<br><br><i>既定： 0</i> |
+| <b>SDF 1</b> *浮動小数* | 最初のSDFシェイプ。 |
+| <b>SDF 2</b> *浮動小数* | 2番目のSDFシェイプ。 |
+| <b>Smoothness</b> *浮動小数* | 2つのSDF形状の交点のエッジのSmoothness。<br><br><i>注：</i>滑らかさの半径が交差する部分にハードエッジが表示されることがあります。<br><br><i>既定： 0</i> |

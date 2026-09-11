@@ -1,6 +1,6 @@
 ---
 title: モーフ
-description: Designer/Substance合成グラフ/ノードの参照Substance合成グラフ/Node library/SDF 関数/演算子/モーフ
+description: Designer/Substance合成グラフ/ノード合成の参照Substance合成グラフ/Node library/SDF 関数/演算子/モーフ
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '102'
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 説明
 
-調整可能なミックス係数に従って、基本SDF形状とターゲットSDF形状間の線形補間を返します。
+基本SDF形状と対象SDF形状のリニア補間を調整可能な混合係数に基づいて返します。
 
 </td>
 </tr>

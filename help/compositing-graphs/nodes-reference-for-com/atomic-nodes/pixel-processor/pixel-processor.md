@@ -103,7 +103,7 @@ ht-degree: 1%
 | --- | --- |
 | <b>入力画像#</b> *グレースケール/カラー* | [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)または[Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)ノードを使用して、指定されたインデックスの入力の値にアクセスします。 |
 
-## 出力コネクター
+## 出力コネクタ
 
 |  |  |
 | --- | --- |

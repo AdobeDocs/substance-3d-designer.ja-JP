@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: 「パスをプレビュー」ノードを使用して、デバッグや検証のために2Dビューでパスデータを表示します。
+description: 「パスのプレビュー」ノードを使用して、デバッグおよび検証用に2D ビュー内のパスデータを表示します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 説明
 
-指定した背景の上にあるパスのセグメントと頂点をトレースします。 パスごとに1つのランダムカラー。
+指定した背景の上にパスのセグメントと頂点をトレースします。 パスごとに1つのランダムカラー。
 
 パスへの[マスク](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)の<b>プレビュー</b>出力と同様の結果が得られますが、オプションが増えます。
 
@@ -56,9 +56,9 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>コーナーを表示</b> <i>ブール値</i> | コーナーとしてマークされた各頂点に正方形を表示します（加算ブレンド）。 |
-| <b>頂点を表示</b> <i>ブール値</i> | 各頂点に円形シェイプを表示します（加算ブレンド）。 コーナーは引き続き正方形として表示されます。 |
-| <b>セグメントのThickness(px)</b> <i>フロート</i> | レンダリングされたセグメントのThicknessをピクセル単位で調整します。 |
+| <b>コーナーを表示</b> <i>ブーリアン</i> | 各頂点にコーナーマークの付いた正方形を表示します（加算ブレンド）。 |
+| <b>頂点を表示</b> <i>ブーリアン</i> | 各頂点に円形を表示します（加算ブレンド）。 コーナーは引き続き正方形として表示されます。 |
+| <b>セグメントのThickness(px)</b> <i>浮動小数</i> | レンダリングされたセグメントのThicknessをピクセル単位で調整します。 |
 
 ## 例
 

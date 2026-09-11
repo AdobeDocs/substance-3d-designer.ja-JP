@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
-description: パス2Dトランスフォームノードを使用すると、パスを移動、回転、スケールの各操作でトランスフォームできます。
+description: パス2D変形ノードを使用して、直線移動、回転、スケーリングの各操作でパスを変形します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Path 2D Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: パス2D変形
+title: 経路2D変形
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# パス2D変形
+# 経路2D変形
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 説明
 
-ギズモを使用してパスを変換します。
+ギズモを使用してパスを変形します。
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>パス</b> <i>色</i> | 変換されたパス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
+| <b>パス</b> <i>色</i> | 変形パス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
 
 <a name="parameters"></a>
 
@@ -61,8 +61,8 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>マトリックスの変形</b> <i>浮動小数点4</i> | スプラインに適用される変換行列。 マトリックスパラメーターは、次の3つの方法で編集できます。<br>*– 変換ギズモ：*&#x200B;スプライン2D変形ノードが選択された場合、[2D ビュー](../../../../../../interface/2d-view/2d-view.md)に表示されたギズモのハンドルを微調整します。<br>*– 回転/伸縮:*&#x200B;スプラインの回転と伸縮を個別に制御します。 値は常に現在の変換に対して相対的に適用されることに注意してください。 例えば、50%の幅を2回適用すると、幅が25%になります。<br>*– 行列の値：* <b>行列の値を編集</b>ボタンをクリックして、行列の生の数値を直接入力します。 |
-| <b>オフセット</b> <i>浮動小数点2</i> | 位置オフセットをX（水平）およびY（垂直）のスプラインに適用します。 |
+| <b>マトリックスの変形</b> <i>浮動小数4</i> | スプラインに適用される変換行列。 マトリックスパラメーターは、次の3つの方法で編集できます。<br>*– 変換ギズモ：*&#x200B;スプライン2D変形ノードが選択された場合、[2D ビュー](../../../../../../interface/2d-view/2d-view.md)に表示されたギズモのハンドルを微調整します。<br>*– 回転/伸縮:*&#x200B;スプラインの回転と伸縮を個別に制御します。 値は常に現在の変換に対して相対的に適用されることに注意してください。 例えば、50%の幅を2回適用すると、幅が25%になります。<br>*– 行列の値：* <b>行列の値を編集</b>ボタンをクリックして、行列の生の数値を直接入力します。 |
+| <b>オフセット</b> <i>浮動小数2</i> | 位置オフセットをX（水平）およびY（垂直）のスプラインに適用します。 |
 
 ## 例
 

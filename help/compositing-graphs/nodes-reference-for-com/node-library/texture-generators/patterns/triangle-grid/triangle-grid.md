@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
 
-![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
 
 <b>イン：</b>テクスチャジェネレーター>パターン
 
@@ -84,12 +84,12 @@ ht-degree: 0%
 | <b>描画モード</b> *整数* | *重なり合う三角形*&#x200B;の値をブレンドする方法を設定します。 このモードを使用すると、三角形のうち&#x200B;*どの*&#x200B;を表示するかを効果的に選択できます。 <ul data-preserve-html="true"> <li data-preserve-html="true"><b>分：</b>テキスト</li> <li data-preserve-html="true"><b>最大：</b>テキスト</li> <li data-preserve-html="true"><b>深度テスト</b>:テキスト</li> <li data-preserve-html="true"><b>Alphaブレンド：</b>テキスト</li> </ul>注意：使用できる描画モードは、<b>カラー出力</b>パラメーターの値によって異なります。 |
 | <b>カラーソース</b> *整数* *&#39;カラー出力&#39;パラメーターが&#39;頂点単位&#39;、&#39;三角形ごと&#39;または&#39;細線&#39;に設定されている場合に使用できます。* | 選択した<b>カラー出力</b>モードに応じて、頂点、三角形、またはセグメントに割り当てる&#x200B;*カラー*&#x200B;の取得方法（輝度）を設定します：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Height</b><b>:</b>頂点のHeightを輝度として使用</li> <li data-preserve-html="true"><b>ランダム</b><b>:</b>ランダムな輝度値を使用</li> <li data-preserve-html="true"><b>色入力</b><b>:</b> <b style="">色入力</b>入力からサンプリングされた値を使用します</li> </ul> |
 | <b>カラーソースの不透明度</b> *浮動小数点* *&#39;カラー出力&#39;パラメーターが&#39;細線&#39;に設定されている場合に使用できます。* | 選択した<b>カラーソース</b>から得られる値を使用して、<b>線の色</b>の値の&#x200B;*上書き*&#x200B;を制御します。   注意：この値が1に設定されている場合、<b>線の色</b>パラメーターは影響を受けません。 |
-| <b>エッジThicknessまでの距離</b> *浮動小数点* *&#39;カラー出力&#39;パラメーターが&#39;エッジまでの距離&#39;に設定されている場合に使用できます。* | グラデーションのThicknessを設定します。 値が小さいほど、*短い*&#x200B;グラデーションになります。 |
-| <b>線の色</b> *Float/Float4* *&#39;カラー出力&#39;パラメーターが&#39;細線&#39;に設定されている場合に使用できます。* | セグメントの輝度値。   注意： <b>カラーソースの不透明度</b>の値が1に設定されている場合、このパラメーターは影響しません。 |
-| <b>背景色</b> *Float/Float4* *&#39;カラー出力&#39;パラメーターが&#39;細線&#39;に設定されている場合に使用できます。* | セグメント間に表示される背景の輝度値。   注意： <b>描画モード</b>が&#x200B;*最大*&#x200B;に設定されている場合、背景は予期したとおり&#x200B;*明るい*&#x200B;セグメントを上書きします。 |
-| <b>ランダムカラーシードモード</b> *整数* *&#39;カラー出力&#39;パラメーターが&#39;頂点ごと&#39;、&#39;三角形ごと&#39;または&#39;細い線&#39;に設定され、&#39;カラーソース&#39;パラメーターが&#39;ランダム&#39;に設定されている場合に使用できます。* | 擬似ランダムのカラー分布で使用されるシードを取得する方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>グローバルランダムシード</b><b>:</b>は、ノードのグラフからシードを継承します</li> <li data-preserve-html="true"><b>手動シード</b><b>:</b>カスタムの個別シードを使用する</li> </ul> |
-| <b>ランダムカラーシード</b> *整数* *&#39;ランダムカラーシードモード&#39;パラメーターが&#39;手動シード&#39;に設定され、&#39;カラーソース&#39;パラメーターが&#39;ランダム&#39;に設定されている場合に使用できます。* | 擬似ランダムのカラー分布で使用される離散シード値。 |
-| <b>非正方形拡張</b> *ブール値* | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>エッジThicknessまでの距離</b> *浮動小数* *&#39;色出力&#39;パラメーターが&#39;エッジまでの距離&#39;に設定されている場合に使用できます。* | グラデーションのThicknessを設定します。 値が小さいほど、*短い*&#x200B;グラデーションになります。 |
+| <b>線の色</b> *浮動小数/浮動小数4* *&#39;色出力&#39;パラメーターが&#39;細線&#39;に設定されている場合に使用できます。* | セグメントの輝度値。   注意： <b>カラーソースの不透明度</b>の値が1に設定されている場合、このパラメーターは影響しません。 |
+| <b>背景色</b> *浮動小数/浮動小数4* *&#39;色出力&#39;パラメーターが&#39;細線&#39;に設定されている場合に使用できます。* | セグメント間に表示される背景の輝度。   注意： <b>ブレンドモード</b>が&#x200B;*最大*&#x200B;に設定されている場合、背景は予期したとおり&#x200B;*明るい*&#x200B;部分を上書きします。 |
+| <b>ランダムカラーシードモード</b> *整数* *&#39;カラー出力&#39;パラメーターが&#39;三角形ごと&#39;、&#39;頂点ごと&#39;または&#39;細線&#39;に設定され、&#39;カラーソース&#39;パラメーターが&#39;ランダム&#39;に設定されている場合に使用できます。* | 擬似ランダムのカラー分布で使用されるシードを取得する方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>グローバルランダムシード</b><b>:</b>は、ノードのグラフからシードを継承します</li> <li data-preserve-html="true"><b>手動シード</b><b>:</b>カスタムの個別シードを使用する</li> </ul> |
+| <b>ランダムカラーシード</b> *整数* *&#39;Random Color Seed Mode&#39;パラメーターが&#39;Manual Seed&#39;に設定され、&#39;Color Source&#39;パラメーターが&#39;Random&#39;に設定されている場合に使用できます。* | 擬似ランダムのカラー分布で使用される離散シード値。 |
+| <b>非正方形拡張</b> *ブーリアン* | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
@@ -97,37 +97,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid：例1"){zoomable="yes"}
+![Triangle Grid：例1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid：例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid：例2"){zoomable="yes"}
+![Triangle Grid：例2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid：例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid：例3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid：例3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid：例4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid：例4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid：例5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid：例5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid：例6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid：例6"){zoomable="yes"}
+![Triangle Grid：例3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid：例3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid:レザー](../../../../../../assets/trianglegrid-demo.png "Triangle Grid:レザー"){zoomable="yes"}
+![Triangle Grid：例4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid：例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid:グラフ](../../../../../../assets/trianglegrid-node.png "Triangle Grid:グラフ"){zoomable="yes"}
+![Triangle Grid：例5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid：例5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid：例6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid：例6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid:レザー](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid:レザー"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid:グラフ](triangle-grid.resources/trianglegrid-node.png "Triangle Grid:グラフ"){zoomable="yes"}
 
 </td>
 </tr>

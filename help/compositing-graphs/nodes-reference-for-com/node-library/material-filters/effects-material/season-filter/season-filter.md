@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
-description: 季節フィルターノードを使用して季節の効果をマテリアルに適用し、春、夏、秋、冬のバリエーションを作成します。
+description: 季節フィルターノードを使用して季節の効果をマテリアルに適用し、春、夏、秋、冬のバリエーションを作り出します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter
 helpx_experience_level: ""
@@ -37,7 +37,7 @@ ht-degree: 11%
 
 これは、完全なPBR補正を目的としていない古いフィルターであることに注意してください。 これはレガシー/互換性の理由で保存されることが多いですが、場合によっては引き続き有用です。 最新のPBR補正版は、[Snowカバー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)と[水位](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)で確認できます。
 
-このノードでは、主に詳細なHeightmapまたはNormalmapを使用して、マテリアル入力の適切なセットが必要です。
+このノードには適切なマテリアル入力のセットが必要です。主に詳細なHeightmapまたはNormalmapを使用します。
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ ht-degree: 11%
 
 |  |  |
 |:---|:---|
-| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。例えば、メタリック/ラフネスの代わりにSpecular/光沢度マップを使用する場合などです。 |
 | <b>詳細</b> |  |
 | <b>標準の形式</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |
 | <b>マスク</b> <i>False/True</i> | マスクマップの使用のオン/オフを切り替えます。 |
@@ -80,11 +80,11 @@ ht-degree: 11%
 | <b>コケの色</b> <i>（カラー値）</i> | コケのカラーを設定します。 |
 | <b>水の色</b> <i>（カラー値）</i> | アルファ/不透明度を含む、水のカラーを設定します。 |
 | <b>ブレンド</b> |  |
-| <b>Diffuseの適用度</b> <i>0.0 - 1.0</i> | Diffuseの描画強さ。 |
-| <b>Base colorの適用度</b> <i>0.0 - 1.0</i> | base colorの描画強さ。 |
-| <b>法線の強度</b> <i>0.0 - 1.0</i> | 法線の描画強さ。 |
-| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularの描画強さ。 |
-| <b>光沢度の適用度</b> <i>0.0 - 1.0</i> | 光沢度の描画強さ。 |
-| <b>ラフネスの適用度</b> <i>0.0 - 1.0</i> | ラフネスの描画強さ。 |
-| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | ambient occlusionの描画強さ。 |
+| <b>Diffuseの適用度</b> <i>0.0 - 1.0</i> | 拡散反射光のブレンド強度。 |
+| <b>Base colorの適用度</b> <i>0.0 - 1.0</i> | ベースカラーのブレンド強度。 |
+| <b>法線の強度</b> <i>0.0 - 1.0</i> | 法線のブレンド強度。 |
+| <b>Specularの適用度</b> <i>0.0 - 1.0</i> | Specularのブレンド強度。 |
+| <b>光沢度の適用度</b> <i>0.0 - 1.0</i> | 光沢のブレンド強度。 |
+| <b>ラフネスの適用度</b> <i>0.0 - 1.0</i> | 粗さのブレンド強度。 |
+| <b>Ambient occlusionの適用度</b> <i>0.0 - 1.0</i> | アンビエントオクルージョンのブレンド強度。 |
 | <b>Heightの適用度</b> <i>0.0 - 1.0</i> | Heightのブレンド強度。 |

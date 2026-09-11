@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# ベースカラー/メタリック/粗さコンバーター
+# BaseColor/メタリック/ラフネスコンバーター
 
 <table>
 <tr style="border: 0;">

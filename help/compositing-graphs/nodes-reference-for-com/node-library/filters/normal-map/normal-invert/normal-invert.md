@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
 breadcrumb-title: ''
-description: 法線の反転ノードを使用すると、サーフェスの方向と照明方向を反転するために法線マップベクトルを反転できます。
+description: サーフェスの方向と照明の方向を反転するための法線マップベクトルを反転するには、[法線の反転]ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Invert
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-ノーマルマップの任意のチャンネルおよびすべてのチャンネルを反転できるため、これを手動で行うための迅速かつ簡単なショートカットとなります。
+Normalmapの任意のチャンネルおよびすべてのチャンネルを反転し、これを手動で行うための迅速かつ簡単なショートカットを提供します。
 
 入力または出力としてノーマルマップを使用するほとんどのノードには、DirectXまたはOpenGLスタイルのノーマルマップに対して、グリーンチャンネルを反転するオプションがあることに注意してください。 つまり、このような場合には、このノードはほとんど必要ありません。
 

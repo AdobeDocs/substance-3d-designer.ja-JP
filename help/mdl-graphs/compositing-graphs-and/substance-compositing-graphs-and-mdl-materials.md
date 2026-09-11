@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SubstanceグラフとMDL資料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Substanceグラフで<b>[3Dビューで出力を表示]</b>オプションを使
 
 Substanceグラフの個々のテクスチャは、IDにかかわらず、SubstanceグラフノードでRMBを押して3Dビューにドラッグすることで、テクスチャサンプリングをサポートする任意のMDLマテリアルパラメータにコネクトすることができます。 使用可能なサンプラーの使用法のリストが表示され、選択したテクスチャのターゲット使用法を選択できます。
 
-![公開されたMDLグラフ入力](../../assets/mdl-graph-inputs-samplers.png "公開されたMDLグラフ入力")
+![公開されたMDLグラフ入力](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "公開されたMDLグラフ入力")
 
 *Substanceグラフによって出力されたテクスチャは、3DビューでMDLグラフの公開パラメーターに接続されています*
 
@@ -48,7 +48,7 @@ Substanceグラフの個々のテクスチャは、IDにかかわらず、Substa
 Substanceグラフのインスタンスを<b>エクスプローラー</b>パネルからMDLグラフにドラッグすると、MDLグラフに直接配置できます。 <b>Substance 3Dファイル</b> (SBS)と<b>Substance 3Dアセットファイル</b> (SBSAR)の両方のSubstanceグラフをMDLグラフで使用できます。
 
 +++Substance 3Dファイル(SBS)からのSubstanceグラフ
-![MDLグラフのSBSファイルのSubstanceグラフ](../../assets/mdl-sbs-instance-hl.png "MDLグラフのSBSファイルのSubstanceグラフ")
+![MDLグラフのSBSファイルのSubstanceグラフ](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "MDLグラフのSBSファイルのSubstanceグラフ")
 
 
 
@@ -57,7 +57,7 @@ MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview
 +++
 
 +++Substance 3Dアセット(SBSAR)のSubstanceグラフ
-![MDLグラフのSBSARファイルのSubstanceグラフ](../../assets/mdl-sbsar-instance-hl.png "MDLグラフのSBSARファイルのSubstanceグラフ")
+![MDLグラフのSBSARファイルのSubstanceグラフ](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "MDLグラフのSBSARファイルのSubstanceグラフ")
 
 
 

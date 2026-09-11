@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
-description: '[スプラインレンダリング]ノードを使用すると、カスタマイズ可能な幅、色、描画モードを備えたテクスチャとしてスプラインをレンダリングできます。'
+description: '[スプラインレンダリング]ノードを使用すると、カスタマイズ可能な幅、色、描画モードを持つテクスチャとしてスプラインをレンダリングできます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Render
 helpx_experience_level: ""

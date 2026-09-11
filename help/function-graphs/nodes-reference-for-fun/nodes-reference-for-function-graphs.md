@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
 breadcrumb-title: ''
-description: Substance 3D Designer関数グラフで使用可能なすべてのノードの完全なリファレンスガイドにアクセスできます。
+description: Substance 3D Designer関数グラフで使用可能なすべてのノードの完全なリファレンスガイドにアクセスします。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 関数グラフのノード参照
+title: 関数グラフのNodesリファレンス
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 953b99bc5f48c431e7ace47a23b0b451cceaa0db
@@ -18,9 +18,9 @@ ht-degree: 20%
 ---
 
 
-# 関数グラフのノード参照
+# 関数グラフのNodesリファレンス
 
-Substance関数グラフ用のDesignerライブラリ内のすべてのノードを一覧表示します。
+Substance関数グラフのDesignerライブラリ内のすべてのノードを一覧表示します。
 
 ## このセクション内
 
@@ -39,7 +39,7 @@ Substance関数グラフ用のDesignerライブラリ内のすべてのノード
 * [関数ノード](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/function-nodes/function-nodes.md)
 * [制御ノード](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)
 
-### インスタンスノード
+### インスタンス化
 
 * [SDF 関数](function-node-library/function-node-library.md#sdf-functions)
 * 比較

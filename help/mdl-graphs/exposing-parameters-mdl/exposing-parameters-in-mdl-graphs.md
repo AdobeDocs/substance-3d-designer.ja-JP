@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDLグラフでのパラメータの表示
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 このページでは、グラフの&#x200B;*その他のノード*&#x200B;または&#x200B;*外部ソース*&#x200B;によって提供される値およびテクスチャに接続できるように、MDLグラフにパラメーターを公開するプロセスについて説明します。
 
-![ノード入力の公開された状態](../../assets/mdl-node-inputs-hl.png "ノード入力の公開された状態")
+![ノード入力の公開された状態](exposing-parameters-in-mdl-graphs.resources/mdl-node-inputs-hl.png "ノード入力の公開された状態")
 
 *ノード入力の公開された状態*
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 <b>グラフビュー</b>でノードを選択すると、そのプロパティが<b>プロパティ</b>パネルに表示されます。 ほとんどのプロパティは、ラベルの右側にボタンのセットと共に表示されます。
 
-* **![](../../assets/mdl-expose-new-node.png)値を新しいノードにコピーし、このパラメーターにリンクします**：このプロパティの&#x200B;*入力コネクタ*&#x200B;を作成し、このプロパティの現在の値を出力する&#x200B;*新しいノード*&#x200B;に接続します
-* **![](../../assets/mdl-expose-new-input.png)このパラメーターの入力ピンを作成**：このプロパティの&#x200B;*入力コネクタ*&#x200B;を作成します
-* **![](../../assets/mdl-expose-reset.png)このパラメーターを既定値にリセットします**：このプロパティの入力コネクタに値が接続されていない場合、値は既定値にリセットされます
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-node.png)値を新しいノードにコピーし、このパラメーターにリンクします**：このプロパティの&#x200B;*入力コネクタ*&#x200B;を作成し、このプロパティの現在の値を出力する&#x200B;*新しいノード*&#x200B;に接続します
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-input.png)このパラメーターの入力ピンを作成**：このプロパティの&#x200B;*入力コネクタ*&#x200B;を作成します
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-reset.png)このパラメーターを既定値にリセットします**：このプロパティの入力コネクタに値が接続されていない場合、値は既定値にリセットされます
 
-![](../../assets/mdl-expose-input.gif)
+![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-input.gif)
 
 *ノード入力の操作*
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 **このパラメーターの入力ピンを作成**&#x200B;ボタンをもう一度クリックして、入力コネクタを&#x200B;*削除*&#x200B;できます。 その時点で、プロパティ値は&#x200B;**プロパティ**&#x200B;パネルで設定された値に戻ります。
 
-![公開ノードパラメーター](../../assets/mdl-exposed-float-hl.png "公開ノードパラメーター")
+![公開ノードパラメーター](exposing-parameters-in-mdl-graphs.resources/mdl-exposed-float-hl.png "公開ノードパラメーター")
 
 *公開されたノードパラメーター*
 
@@ -57,7 +57,7 @@ MDLグラフでは、値を出力するノードを公開することで、グ�
 
 表示できるノードのコンテキストメニューに<b>表示</b>オプションがあります。 ほとんどの場合、これらは値または浮動小数、カラー、テクスチャ座標などのデータを生成するノードです。
 
-ノードのコンテキストメニューの![「表示」オプション](../../assets/mdl-expose-float-menu-hl.png "&quot;表示&amp;quot；ノードのコンテキストメニューのオプション")
+ノードのコンテキストメニューの![「表示」オプション](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&quot;表示&amp;quot；ノードのコンテキストメニューのオプション")
 
 ノードのコンテキストメニューの&#x200B;*「表示」オプション*
 
@@ -81,6 +81,6 @@ MDLグラフでは、値を出力するノードを公開することで、グ�
 >
 > グラフ入力は&#x200B;*node*&#x200B;レベルで構成されるように設定されていますが、[グラフプロパティ](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)の&#x200B;**グラフ入力**&#x200B;セクションで&#x200B;*グラフ*&#x200B;レベルで順序が管理されます。
 
-![ノードをグラフ入力に表示する](../../assets/mdl-expose-parameter.gif "ノードをグラフ入力に表示する")
+![ノードをグラフ入力に表示する](exposing-parameters-in-mdl-graphs.resources/mdl-expose-parameter.gif "ノードをグラフ入力に表示する")
 
 *ノードをグラフ入力に表示しています*

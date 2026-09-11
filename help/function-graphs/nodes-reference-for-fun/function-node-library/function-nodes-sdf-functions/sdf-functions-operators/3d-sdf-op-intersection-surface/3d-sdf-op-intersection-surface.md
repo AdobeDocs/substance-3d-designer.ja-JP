@@ -1,6 +1,6 @@
 ---
 title: 交差サーフェス
-description: Designer > Substance合成グラフ>ノードリファレンスSubstance合成グラフ> Node library > SDF 関数 > Operator > Intersection surface
+description: Designer > Substance合成グラフ >ノード合成のリファレンスグラフ > Substanceライブラリ> SDF 関数 >オペレータ> Intersection surface
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '104'

@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
-description: Tri Planarノードを使用して3つの直交平面からテクスチャを投影し、複雑なジオメトリ上でシームレスなテクスチャマッピングを行います。
+description: Tri平面ノードを使用して3つの直交平面からテクスチャを投影し、複雑なジオメトリ上でシームレスなテクスチャマッピングを行います。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Tri Planar
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3平面
+title: トリ平面
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# 3平面
+# トリ平面
 
 <table>
 <tr style="border: 0;">
@@ -35,11 +35,11 @@ ht-degree: 6%
 
 ## 説明
 
-この高度なノードは、ベイク処理された位置とワールド空間の法線データに基づいて、2Dの三平面投影マッピングを実行します。 つまり、UV座標は本質的に完全にメッシュ自体に基づく（ほとんど）シームのないマッピングに変換されます。
+このアドバンスドノードは、ベイクされた位置とワールド空間法線データに基づいて、2Dでトライプラナー投影マッピングを行います。 つまり、UV座標をメッシュ自体に基づいた（大部分は）シームのないマッピングに完全に変換します。
 
-これは、毎回再焼き付けすることなく、継ぎ目を避けるための良い方法です（パン屋と同じようなことが可能です）。 欠点は、このノードが非常に重いため、高速ではないということです。
+これは、毎回リベイク処理を行わずにシームを回避する優れた方法です（ベイカーと同様の処理を行うことができます）。 欠点は、このノードが非常に重いため、高速ではないということです。
 
-あなたのパンは高精度である必要があることに注意してください： 8ビットのパンは非常に良い結果をもたらさないでしょう。
+ベイクは高精度にする必要があることに注意してください。8ビットのベイクでは、非常に良い結果が得られません。
 
 </td>
 </tr>
@@ -51,10 +51,10 @@ ht-degree: 6%
 
 |  |  |
 |:---|:---|
-| <b>位置</b> <i>カラー入力</i> | ベイク処理された位置マップ。 16ビット以上の精度が理想的です。 |
-| <b>ワールド空間標準</b> <i>カラー入力</i> | ベイク処理されたワールド空間の法線マップ、理想的には16ビット以上の精度。 |
+| <b>位置</b> <i>カラー入力</i> | 位置マップをベイク。 16ビット以上の精度が理想的です。 |
+| <b>ワールド空間法線</b> <i>カラー入力</i> | ワールド空間法線マップ。16ビット以上の精度が理想的です。 |
 | <b>入力X</b> <i>カラー入力（グレースケール入力）</i> | トライプラナー投影を介してUVからワールド空間に再マップする入力マップ。 画像入力が1に設定されている場合はすべての軸で使用され、3に設定されている場合はX軸で使用されます。 |
-| <b>入力Y</b> <i>カラー入力（グレースケール入力）</i> | イメージ入力が3に設定されている場合のみ。 Y軸上のUVからワールド空間に再マップする入力マップ。 |
+| <b>入力Y</b> <i>カラー入力（グレースケール入力）</i> | イメージ入力が3に設定されている場合のみ。 Y軸のUVからワールド空間に再マップする入力マップ。 |
 | <b>入力Z</b> <i>カラー入力（グレースケール入力）</i> | イメージ入力が3に設定されている場合のみ。 Z軸上のUVからワールド空間に再マップする入力マップ。 |
 
 <a name="parameters"></a>

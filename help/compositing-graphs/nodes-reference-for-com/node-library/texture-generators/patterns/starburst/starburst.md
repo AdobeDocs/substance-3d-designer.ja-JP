@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スターバースト
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -24,9 +24,9 @@ ht-degree: 15%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst.png){width="128px"}
 
-<b>イン：</b>テクスチャジェネレーター>パターン
+<b>イン：</b> テクスチャジェネレーター>パターン
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -51,14 +51,14 @@ ht-degree: 15%
 | <b>最小サイズ</b> <i>0.0 - 1.0</i> | 変動の最小サイズを設定します。 |
 | <b>最大サイズ</b> <i>0.0 - 2.0</i> | 最大サイズを設定し、変動が使用されない場合はグローバルスケールを制御します。 |
 | <b>サイズのバリエーション</b> <i>0.0 - 1.0</i> | 枝ごとにランダムにスケーリングします。 |
-| <b>タイル表示</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
+| <b>タイリング</b> <i>1 - 16</i> | 結果をタイルする回数を設定します。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/starburst-ex.gif" />
+            <img src="starburst.resources/starburst-ex.gif" />
         </td>
     </tr>
 </table>

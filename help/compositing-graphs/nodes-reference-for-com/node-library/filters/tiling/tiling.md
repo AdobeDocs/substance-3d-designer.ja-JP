@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのタイリングフィルターノードにアクセスして、シームレスなタイルテクスチャパターンを作成します。
+description: Substance 3D Designerのタイリングフィルターノードを使用して、シームレスにタイル状のテクスチャパターンを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # タイリング
 
-タイリングカテゴリには、テクスチャのタイリングを改善するために使用するノードが含まれます。 [スキャン処理](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)には、他にも利用可能なノードがあります。
+タイリングカテゴリには、テクスチャのタイリングを向上させるために使用されるノードが含まれます。 [スキャン処理](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)には、他にも利用可能なノードがあります。
 
-左側のナビゲーションリストを使用して、<b>タイル</b>の下にあるすべてのノードを参照します。
+左側のナビゲーションリストを使用して、<b>タイリング</b>の下にあるすべてのノードを参照します。
 
 このカテゴリには、次の2つのノードがあります。
 

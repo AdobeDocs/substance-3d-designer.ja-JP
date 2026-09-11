@@ -24,7 +24,7 @@ ht-degree: 1%
 
 左側の<b>ナビゲーションリスト</b>を使用して、「効果」の下にあるすべてのノードを参照します。
 
-多数のノードは、Normalmap、AO、Curvatureなどのベイク済みマップの処理、生成、編集を目的としています。 以下に例を示します。
+多数のノードは、Normalmap、AO、曲率などのベイク済みマップの処理、生成、編集を目的としています。 以下に例を示します。
 
 * [曲線スムーズ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
 * [環境オクルージョン(HBAO)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)

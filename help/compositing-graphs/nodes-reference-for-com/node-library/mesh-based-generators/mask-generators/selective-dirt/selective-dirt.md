@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
 この[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)マスクは、凸状のエッジに対する単純なDirt効果を表します。
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 
 |  |  |
 |:---|:---|
-| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>曲率</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
 | <b>バリエーションマスク</b> <i>グレースケール入力</i> | オプションのバリエーションマップは、パラメーターを使用して有効にできます。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
-description: Scene Browserを使用して、ビューポート内の3Dシーン要素、マテリアル、およびオブジェクトをナビゲートおよび管理します。
+description: シーン内の3D シーン要素、マテリアル、オブジェクトを移動および管理するには、ビューポート・ブラウザを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シーンブラウザー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 Designerでは、シーンの説明と管理に[USD](https://openusd.org/release/index.html)を使用しているため、用語とコンセプトはそのシーンツリーにあります。
 
-これは、[3Dビューのシーンツールバー](../../../interface/3d-view/3d-view.md)で専用のトグルボタン![](../../../assets/sceneBrowser-toggleButton.png)をクリックすると表示されます。
+これは、[3Dビューのシーンツールバー](../../../interface/3d-view/3d-view.md)で専用のトグルボタン![](scene-browser.resources/sceneBrowser-toggleButton.png)をクリックすると表示されます。
 
-![Scene Browser – ロードされた3Dシーン](../../../assets/loaded3DScene.png "Scene Browser – ロードされた3Dシーン"){zoomable="yes"}
+![シーンブラウザー – 3D シーンを読み込みました](scene-browser.resources/loaded3DScene.png "シーンブラウザー – 3D シーンを読み込みました"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -56,14 +56,14 @@ Designerでは、シーンの説明と管理に[USD](https://openusd.org/release
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Scene Browserには、階層ツリーに配置されたオブジェクトのリストが表示されます。
+シーンブラウザには、階層ツリーに配置されたオブジェクトのリストが表示されます。
 
 オブジェクトは、シーンのルートまで、他のオブジェクトの親になります。 親オブジェクトには、子のリストを展開または折りたたむために使用する矢印ボタンがあります。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シーンブラウザー – シーンツリー](../../../assets/sceneBrowser-sceneTree.png "シーンブラウザー – シーンツリー"){zoomable="yes"}
+![シーン一覧 – シーンツリー](scene-browser.resources/sceneBrowser-sceneTree.png "シーン一覧 – シーンツリー"){zoomable="yes"}
 
 </td>
 </tr>
@@ -71,11 +71,11 @@ Scene Browserには、階層ツリーに配置されたオブジェクトのリ�
 
 ツリー内の任意の項目にカーソルを置いたまま数秒間待つと、ツールチップに次の情報が表示されます。
 
-* <b>パス：</b>シーン内のオブジェクトの完全なパスです。
+* <b>Path:</b> シーン内のオブジェクトの完全なパスです。
 * <b>TypeName:</b>オブジェクトのUSD型です。
-* <b>ドキュメント：</b> USDシーン要素としてのオブジェクトに関する詳細情報です。
+* <b>ドキュメント：</b> USD シーン要素としてのオブジェクトに関する詳細情報です。
 
-メッシュには、頂点の数、フェースの数、UVの数などの追加情報があります。
+メッシュには、頂点数、面数、UV数などの詳細情報が表示されます。
 
 ### Designerで追加されたオブジェクト
 
@@ -83,16 +83,16 @@ Scene Browserには、階層ツリーに配置されたオブジェクトのリ�
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Designerは、読み込まれたシーンにオブジェクトを追加します。 Designerによって追加されたオブジェクトには、<b>太字</b>でラベルが付けられます。
+Designerは、読み込まれた任意のシーンにオブジェクトを追加します。 Designerによって追加されたオブジェクトには、<b>太字</b>でラベルが付けられます。
 
-ライト、カメラ、環境メニューで「編集…」アクションを使用すると、シーン内に他のライト、カメラ、環境があるかどうかに関係なく、これらのオブジェクトが編集されます。
+「ライト」、「カメラ」、「環境」の各メニューで「編集…」アクションを使用すると、シーン内に他のライト、カメラ、環境があるかどうかに関係なく、これらのオブジェクトが編集されます。
 
-これらのオブジェクトは、[書き出し](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時にシーンに含まれます。
+これらのオブジェクトは、[書き出し](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時にシーンに含められます。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene Browser - Designerによって追加されたオブジェクトが太字で表示されます](../../../assets/sceneBrowser-addedByDesigner.png "Scene Browser - Designerによって追加されたオブジェクトが太字で表示されます"){zoomable="yes"}
+![シーンブラウザー – Designerによって追加されたオブジェクトが太字で表示されます](scene-browser.resources/sceneBrowser-addedByDesigner.png "シーンブラウザー – Designerによって追加されたオブジェクトが太字で表示されます"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Designerは、読み込まれたシーンにオブジェクトを追加します
 
 親オブジェクトの状態はその子に継承されるので、親オブジェクトを無効にすると、その子も無効になります。
 
-オブジェクトの表示/非表示は、目のボタン![](../../../assets/sceneBrowser-eyeButton.png)をクリックするか、コンテキストメニューから切り替えることができます。 このメニューには、シーンオブジェクトの表示を管理するためのアクションがいくつか用意されています。
+オブジェクトの表示/非表示は、目のボタン![](scene-browser.resources/sceneBrowser-eyeButton.png)をクリックするか、コンテキストメニューから切り替えることができます。 このメニューには、シーンオブジェクトの表示を管理するためのアクションがいくつか用意されています。
 
 * <b>非表示：</b>選択したオブジェクトを無効にします。
 * <b>表示：</b>選択したオブジェクトを有効にします。
@@ -128,42 +128,42 @@ Designerは、読み込まれたシーンにオブジェクトを追加します
 * <b>すべての子を展開：</b>選択したオブジェクトの下にあるすべての子のリストを再帰的に展開します。
 * <b>すべての子を折りたたむ：</b>選択したオブジェクトの下にあるすべての子のリストを再帰的に折りたたみます。
 
-![Scene Browser – オブジェクトの表示/非表示の切り替え](../../../assets/sceneBrowser-toggleVisibility.gif "Scene Browser – オブジェクトの表示/非表示の切り替え"){zoomable="yes"}
+![Scene Browser – オブジェクトの表示/非表示の切り替え](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Scene Browser – オブジェクトの表示/非表示の切り替え"){zoomable="yes"}
 
 ### 環境
 
 環境光(DomeLight)の表示/非表示は、他のオブジェクトと同様に有効/無効にできます。
 
-環境光を無効にすると、シーンに対する環境光の効果も無効になります。
+環境光を無効にすると、シーンに対する光源の役割も無効になります。
 
-複数の環境光が有効になっている場合、その光の効果は&#x200B;*累積的に追加*&#x200B;されます。
+複数の環境光が有効になっている場合、照明の効果は&#x200B;*累積的に追加*&#x200B;されます。
 
-![Scene Browser – 環境の表示/非表示の切り替え](../../../assets/sceneBrowser-toggleEnvLights.gif "Scene Browser – 環境の表示/非表示の切り替え"){zoomable="yes"}
+![シーンの表示/非表示を切り替えています](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "シーンの表示/非表示を切り替えています"){zoomable="yes"}
 
 ### ライト
 
-シーン内の任意のライトについても同じことが言えます。各ライトは個別に切り替えることができます。
+シーン内の任意のライトでも同じことが言えます。各ライトは個別に切り替えることができます。
 
-![Scene Browser – ライトの表示/非表示の切り替え](../../../assets/sceneBrowser-toggleLights.gif "Scene Browser – ライトの表示/非表示の切り替え"){zoomable="yes"}
+![シーン一覧 – 光源の表示/非表示を切り替えています](scene-browser.resources/sceneBrowser-toggleLights.gif "シーン一覧 – 光源の表示/非表示を切り替えています"){zoomable="yes"}
 
 ## 接続されたマテリアル
 
-Scene Browserでは、オーバーライドされたマテリアルを、Designerの3Dビューの[マテリアルメニュー](../../../interface/3d-view/3d-view.md)にリストされている別のマテリアルにコネクトすることもできます。
+シーンブラウザーを使用すると、オーバーライドされたマテリアルを、3Dビューの[マテリアルメニュー](../../../interface/3d-view/3d-view.md)にDesignerによってリストされた別のマテリアルに接続することもできます。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Designerで一覧表示されるマテリアルは、少なくとも1つのメッシュで使用されるシーンツリー内のマテリアルオブジェクトです。
+Designerで一覧表示されるマテリアルは、シーンツリー内のマテリアルオブジェクトであり、少なくとも1つのメッシュで使用されます。
 
-これらのマテリアルのいずれかを[上書き](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、Designerにより、数字のサフィックスを持つコピーが作成されます。
+これらのマテリアルのいずれかを[上書き](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コピーがDesignerによって作成され、数値の接尾辞が付きます。
 
-オーバーライドされたマテリアルは、コンテキストメニューに追加の項目を提供します。&#39;[接続されたマテリアル](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&#39;サブメニューには、このマテリアルをオーバーライドするために使用できるその他すべての利用可能なマテリアルが一覧表示されます。
+オーバーライドされたマテリアルは、コンテキストメニューに別の項目を表示します。&#39;[接続されたマテリアル](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&#39;サブメニューには、このマテリアルをオーバーライドするために使用できるその他のすべての利用可能なマテリアルが一覧表示されます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![シーンブラウザー – 接続されたマテリアル](../../../assets/sceneBrowser-connectedMaterial.png "シーンブラウザー – 接続されたマテリアル"){zoomable="yes"}
+![シーンブラウザー – 接続マテリアル](scene-browser.resources/sceneBrowser-connectedMaterial.png "シーンブラウザー – 接続マテリアル"){zoomable="yes"}
 
 </td>
 </tr>

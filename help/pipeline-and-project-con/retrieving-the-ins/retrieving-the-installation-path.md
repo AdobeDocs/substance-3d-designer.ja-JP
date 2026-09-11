@@ -34,7 +34,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 > このレジストリキーは、バージョン11.2以降でのみ使用できます。\
-> 古いバージョンの場合、インストールパスは、 HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExtsのファイル関連付けから取得できます
+> 古いバージョンの場合、インストールパスは、 HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ エクスプローラー\FileExtsにあるファイルの関連付けから取得できます
 
 ### Substance版（スタンドアロン）
 

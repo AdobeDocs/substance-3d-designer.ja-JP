@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ユーザーの環境設定 – 自動設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ user\_preferences.xmlファイルには、[プロジェクト構成](../../pipel
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XMLファイルアイコン](../../assets/xml-5.png "XMLファイルアイコン")
+![XMLファイルアイコン](user-preferences-automating-setup.resources/xml-5.png "XMLファイルアイコン")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Designerでデフォルト以外の[設定ファイル](../../pipeline-and-proje
 
 自動設定がない場合、またはテスト目的の場合は、手動で<b>編集/環境設定…</b>に移動し、左側の「<b>プロジェクト</b>」セクションをクリックできます。
 
-![プロジェクト設定](../../assets/preferences-ui.png "プロジェクト設定")
+![プロジェクト設定](user-preferences-automating-setup.resources/preferences-ui.png "プロジェクト設定")
 
 赤でマークされたボタンを使用すると、ユーザーは別の[SBSCFGファイル](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)を選択できます。
 
@@ -210,4 +210,4 @@ def SetConfigurationFile(p_ConfigPath):
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![実行可能ファイルプロパティの構成ファイルの入力](../../assets/shortcutargument.jpg "実行可能ファイルプロパティの構成ファイルの入力")
+![実行可能ファイルプロパティの構成ファイルの入力](user-preferences-automating-setup.resources/shortcutargument.jpg "実行可能ファイルプロパティの構成ファイルの入力")

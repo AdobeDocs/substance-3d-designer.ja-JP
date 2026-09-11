@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プロジェクト構成ファイル – SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJファイルアイコン](../../assets/sbsprj.png "SBSPRJファイルアイコン")
+![SBSPRJファイルアイコン](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJファイルアイコン")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Windowsの場合、[メモ帳++](https://notepad-plus-plus.org)は無料で利�
 
 エディターでSBSPRJファイルを開くと、UIのタブに対応するセクションを含む、非常に単純な構造化レイアウトが表示されます。 全ての設定がここで文書化されるわけではありません。
 
-![XML編集](../../assets/project-xml.png "XML編集")
+![XML編集](project-configuration-files-sbsprj.resources/project-xml.png "XML編集")
 
 ## 相対パスとエイリアス
 
@@ -93,7 +93,7 @@ Windowsの場合、[メモ帳++](https://notepad-plus-plus.org)は無料で利�
 
 ファイルが複数のユーザーのPCでシステム内の他のファイルを参照する場合の大きな問題の1つは、絶対ファイルパスが機能しないことです。 ユーザーは、完全に異なる場所にSVNリポジトリを定義できます。 C:/John/Gamedev/SubstanceLibraryまたはD:/Dev/SubstanceLibrary)。 エイリアスと相対パスの両方が連携してこの問題を解決します。 他のユーザーのファイルを開いて、ローカルにあるユーザーの特定の場所で使用されているカスタムノードを探す場合があります。この場合、同じ方法で定義されている可能性は低くなります。
 
-<b>エイリアス</b>は、パスの一部を置き換えるキーワードです。 これは、%TEMP%のようなWindows環境変数に似ています。この環境変数では、1つの単語で頻繁に使用されるパスが置き換えられ、そのパスが一元的に定義されます。 メリットは、あらゆる場所でパスが簡素化されることです。また、このパスを再配置すると、すべての参照を一度に変更できます。
+<b>エイリアス</b>は、パスの一部を置き換えるキーワードです。 これは、%TEMP%のようなWindows環境変数に似ています。この環境変数では、1つの単語で頻繁に使用されるパスが置き換えられ、そのパスが一元的に定義されます。 この機能の利点は、あらゆる場所のパスが単純化されることと、このパスを再配置することにした場合にすべてのリファレンスを一度に変更できることです。
 
 >[!NOTE]
 >

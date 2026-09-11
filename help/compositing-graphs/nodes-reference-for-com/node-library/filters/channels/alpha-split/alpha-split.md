@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
 breadcrumb-title: ''
-description: Alpha分割ノードを使用して、RGBA テクスチャからアルファチャンネルを取り出し、個別に処理および操作できるようにします。
+description: Alphaのスプリットノードを使用して、RGBAテクスチャからアルファチャンネルを抽出し、個別の処理と操作を行います。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Split
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## 説明
 
-入力画像のアルファを除去して、単数化します。 逆の結果については、[Alpha結合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md)も参照してください。
+入力画像のアルファを除去して単色表示します。 逆の結果については、[Alpha結合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md)も参照してください。
 
-アルファを除去したイメージとアルファチャンネルを別々に出力します。
+アルファを削除した画像とアルファチャンネルを別々に出力します。
 
 </td>
 </tr>

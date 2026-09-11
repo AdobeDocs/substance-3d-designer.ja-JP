@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities.html"
 breadcrumb-title: ''
-description: Substance 3D DesignerのPBRユーティリティノードにアクセスして、物理的なレンダリングマテリアルのプロパティと変換を操作します。
+description: Substance 3D DesignerのPBRユーティリティーノードにアクセスして、物理ベースのレンダリングマテリアルのプロパティと変換を操作します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # PBR ユーティリティ
 
-このカテゴリには、PBRマテリアルを操作するためのヘルパーノードが含まれています。 このエフェクトは、「Specular光沢」と「メタリックの粗さ」の両方のPBRワークフローで使用することを目的としています。 すべてのノードはマルチチャンネルマテリアルを対象としており、チャンネルをアクティブ化（非）して、1つまたは両方のワークフローをサポートすることができます。
+このカテゴリには、PBR マテリアルを操作するためのヘルパーノードが含まれています。 これは、光沢度とメタリックラフネスの両方のPBRワークフローでの使用を目的としています。 すべてのノードはマルチチャンネルマテリアルを対象としており、チャンネルをアクティブ化（解除）して、1つまたは両方のワークフローをサポートすることができます。
 
 以下のノードは特に有用です。
 

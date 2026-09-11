@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プロジェクト設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '2687'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Substance 3D Designerでは、プロジェクトごとに&#x200B;*環境設定*&
 >
 > **生産パイプライン**&#x200B;でのSubstance 3D Designerの設定と統合の詳細については、ドキュメントの[パイプラインおよびプロジェクト構成](../../../pipeline-and-project-con/pipeline-and-project-configuration.md)のセクションを参照して&#x200B;*お勧めします*。
 
-![プロジェクト設定](../../../assets/2019-3-0-prefs-proj-01.png "プロジェクト設定"){zoomable="yes"}
+![プロジェクト設定](project-settings.resources/2019-3-0-prefs-proj-01.png "プロジェクト設定"){zoomable="yes"}
 
 ## 構成
 
@@ -176,7 +176,7 @@ Substance 3D Designerは、<b>Url</b>リストに追加したフォルダーに�
 >
 > [Perforce](https://www.perforce.com/)は、現在バージョン管理でサポートされている&#x200B;*のみ*&#x200B;ツールです。
 
-[バージョン管理](../../../interface/preferences-window/version-control/version-control.md)ページを参照してください。
+[バージョン管理](../../../interface/preferences-window/version-control/version-control.md)を参照してください。
 
 **これを使用する方法を選択してください。**
 
@@ -185,9 +185,9 @@ Designerのプロジェクトファイル(\*.sbsprj)には、*&#x200B;プロジ�
 * 接線空間プラグイン
 * ライブラリ
 * エイリアス
-* 3D表示設定
-* ベイク処理の設定
-* [バージョン管理の設定](../../../interface/preferences-window/version-control/version-control.md)
+* 3D ビュー設定
+* ベイクの設定
+* [バージョン管理設定](../../../interface/preferences-window/version-control/version-control.md)
 
 すべてのパスは、プロジェクトファイル(.spsprj)の&#x200B;*相対パス*&#x200B;として保存されます。 perforceのプロジェクトファイルと同じ場所に&#x200B;**library**&#x200B;フォルダーを作成し、次のサブフォルダーツリーを作成します。
 
@@ -199,7 +199,7 @@ Designerのプロジェクトファイル(\*.sbsprj)には、*&#x200B;プロジ�
 * 3Dビュー/
 * ...
 
-プロジェクトファイルと同じレベルに、接線空間プラグインまたはデフォルトのシェーダを保存することもできます。
+プロジェクトファイルと同じレベルで、シェーダーまたはデフォルト接線空間プラグインを保存することもできます。
 
 設定ファイル(\*.sbscfg)は、プロジェクトファイルと共にPerforceワークスペースに配置する必要があります。
 

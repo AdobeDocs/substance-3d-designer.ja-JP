@@ -150,7 +150,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 「[パスのマスク](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)」ノードを使用すると、グレースケールパターンの境界線を、セグメントのリストの形式で抽出できます。
 
-その後、[パス2D変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)または[パスワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)ノードを使用してこれらのパスを処理し、必要に応じて微調整できます。  また、[Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)ノードのおかげで、パスをスプラインに変換でき、スキャッタリングなどこれまで言及されていたスプライン専用のノードをすべて利用できます。
+その後、[パス2D 変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)または[パスワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)でパスを処理し、必要に応じて微調整できます。  また、[Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)ノードのおかげで、パスをスプラインに変換でき、スキャッタリングなどこれまで言及されていたスプライン専用のノードをすべて利用できます。
 
 <table>
 <tr style="border: 0;">
@@ -186,22 +186,22 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 上記の新しいノードはすべて、新しいSubstance engineバージョンに基づいており、主要な新機能<b>loops</b>を最大限に活用しています。
 
-ループは、[Substance関数グラフ](../../function-graphs/function-graphs.md)内でのみ使用することを意図しており、[Pixel Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)、または[Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)にループを実装する可能性があります。 もちろんループは条件が満たされるまで、関数を何度も簡単に繰り返すことができます。 グラフを明るくして精度を上げるのに役立ちます。
+ループは、[Substance関数グラフ](../../function-graphs/function-graphs.md)内でのみ使用することを意図しており、[ピクセルプロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)、または[バリュープロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)に実装する可能性が最も高いです。 もちろんループは条件が満たされるまで、関数を何度も簡単に繰り返すことができます。 多くのグラフを明るくし、精度を上げるのに役立ちます。
 
 この専用[チュートリアル](https://www.youtube.com/watch?v=Ggoy8G90oDI)は、ループの操作を開始するのに役立ちます。
 
 また、Substance engine v9では次の点も改善されています。
 
-* [Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードのグラデーションエディターの新しい平面モード（補間なし）
+* [グラデーションマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードのグラデーションエディターの新しい平面モード（補間なし）
 * Substance関数グラフのatomic pow()ノード
 * Samplerノードで境界の折り返しオプション（クランプからエッジ、繰り返し）を追加する
-* [ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)および[方向ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)ノードの最も近いサンプリング
+* [ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)および[指向性ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)ノードの最も近いサンプリング
 
 ## ポータルノード
 
-[ポータル](../../interface/the-graph-view/graph-items/graph-items.md)ノードは、[Dot](../../interface/the-graph-view/graph-items/graph-items.md)ノードの新しい拡張であり、グラフで接続を非表示にすることができます。
+[ポータル](../../interface/the-graph-view/graph-items/graph-items.md)ノードは、[Dot](../../interface/the-graph-view/graph-items/graph-items.md)ノードの新しい拡張機能で、グラフ内の接続を非表示にすることができます。
 
-この機能により、非常に長いコネクションを非表示にしてグラフの読みやすさを向上させることができます。また、グラフのどこからでもキーノードにすばやくアクセスできます。
+この機能により、非常に長いコネクションを非表示にしてグラフの読みやすさを向上させることができます。また、グラフのどこからでも主要なノードにすばやくアクセスできます。
 
 この新機能については、この専用の[チュートリアル](https://www.adobe.com/go/designer-tutorial-portals)で詳細に説明しています。
 
@@ -249,7 +249,7 @@ Designerで言語を変更する場合は、[環境設定](../../interface/prefe
 * [コンテンツ]スプライン追加ノード
 * [コンテンツ]スプライン選択ノード
 * [コンテンツ] [スプライン結合リスト]ノード
-* [コンテンツ]スプライン2D変換ノード
+* [コンテンツ]スプライン2D変形ノード
 * [コンテンツ]スプラインワープノード
 * [コンテンツ]スプラインサンプルHeightノード
 * [コンテンツ]スプラインサンプルThicknessノード
@@ -261,18 +261,18 @@ Designerで言語を変更する場合は、[環境設定](../../interface/prefe
 * [コンテンツ]スプラインブリッジマッパーの色ノード
 * [コンテンツ]スプラインブリッジマッパーのグレースケールノード
 * [コンテンツ]スプラインフローマッパーノード
-* [コンテンツ] UVマッパーカラーノード
-* [コンテンツ] UVマッパグレースケールノード
+* [コンテンツ] UVマッパーの[色]ノード
+* [コンテンツ] [UVマッパー] [グレースケール]ノード
 * [コンテンツ] [パスからスプラインへ]ノード
 * [コンテンツ]パスノードへのマスク
-* [コンテンツ]パス2D変換ノード
+* [コンテンツ] Paths 2D 変形ノード
 * [コンテンツ] [パス] [ポリゴン]ノード
 * [コンテンツ] [パスをプレビュー]ノード
 * [コンテンツ] [パスワープ]ノード
 * [コンテンツ]パス選択ノード
 * [コンテンツ] [パス] [頂点プロセッサ]ノード
 * [コンテンツ] [パス] [頂点プロセッサ] [シンプル]ノード
-* [コンテンツ]パスノードのクアッドトランスフォーム
+* [コンテンツ] [パス上のクアッド変形]ノード
 * [コンテンツ]レイトレースAmbient occlusion v2
 * [コンテンツ]レイトレースベンド法線v2
 * [コンテンツ]レイトレースシャドウv2
@@ -301,14 +301,14 @@ Designerで言語を変更する場合は、[環境設定](../../interface/prefe
 * [API] MDL グラフのドットノードに定義もプロパティもありません
 * [API] 関数ノードのパラメーターを設定すると正しく動作しない
 * [コンテンツ] 3D Voronoiと3D Voronoi Fractalノードが調理の警告を出す
-* [エンジン] &#39;Intensity Map Offset&#39;パラメーターは、SSE2エンジンのグレースケールデータには影響しません
-* [エクスプローラー] グラフi/oを削除できる
+* [Engine] &#39;Intensity Map Offset&#39;パラメーターはSSE2エンジンのグレースケールデータには影響しません
+* [エクスプローラ]グラフi/oを削除できます
 * [グラフ]ビットマップがインスタンスで使用されている場合は無視されます
 * [グラフ]ノードからノードを作成すると、ドットノードの位置が正しくない
-* [グラフ] &#39;Enter&#39;キーを使用した&#39;パラメーターの表示&#39;ダイアログでフォーカスが正しくない
-* [グラフ]コンテキスト編集でビットマップを使用したヒストグラムスキャンで、間違った結果が生じる
+* [グラフ] 「Enter」キーを使用すると、「パラメーターを表示」ダイアログにフォーカスが移動する
+* [グラフ]コンテキスト編集でビットマップを使用したヒストグラムスキャンで、正しい結果が得られない
 * [ローカライゼーション]さまざまなクリッピングの問題を修正
-* [Parameters] 入力パラメーターを削除するときにクラッシュが発生する
-* [Publish]フォルダー内のグラフが、公開されたパッケージのルートに移動される
-* [Resources]ディスク上の読み込まれたリソースの更新中にクラッシュが発生しました
+* [パラメーター]入力パラメーターを削除するとクラッシュする
+* [Publish]フォルダー内のグラフを、公開したパッケージのルートに移動する
+* [リソース]ディスク上の読み込まれたリソースを更新するとクラッシュする
 * [VisibleIf]条件付き表示/非表示の評価で回帰を修正

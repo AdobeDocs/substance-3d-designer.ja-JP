@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 構成リスト – SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFGファイルアイコン](../../assets/sbscfg.png "SBSCFGファイルアイコン")
+![SBSCFGファイルアイコン](configuration-list-sbscfg.resources/sbscfg.png "SBSCFGファイルアイコン")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ハイライト表示されたセクションは、コンフィギュレーションファイルに関連する部分です。上記で定義したSBSCFGファイルに保存されているプロジェクトをリストに追加するだけです。
 
-![プロジェクト設定](../../assets/config-ui.png "プロジェクト設定")
+![プロジェクト設定](configuration-list-sbscfg.resources/config-ui.png "プロジェクト設定")
 
 ### XMLとしての外部編集
 

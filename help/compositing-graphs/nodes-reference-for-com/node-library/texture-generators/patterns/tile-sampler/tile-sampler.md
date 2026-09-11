@@ -10,7 +10,7 @@ helpx_tags: ""
 title: タイルSampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
 <b>イン：</b> テクスチャジェネレーター>パターン
 
@@ -67,7 +67,7 @@ ht-degree: 6%
 |:---|:---|
 | <b>X金額</b> <i>0 - 64</i> | パターンのX繰り返しの量。 |
 | <b>Y金額</b> <i>0 - 64</i> | パターンのY繰り返しの量。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 | <b>パターン</b> |  |
 | <b>パターン</b> <i>パターン入力，正方形，円盤， 放物面,ベル，ガウス， とげ, ピラミッド,レンガ,グラデーション，波，ハーフベル，うね付きベル,三日月,カプセル,円錐</i> | 使用するパターン形状を選択します。 |
 | <b>パターンの入力番号</b> <i>1 - 6</i> | ランダムに選択するカスタムパターンの量。 |
@@ -122,7 +122,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>パラメーターが入力マップ（パターン分布、スケール、回転）によって決定される方法の例を示します。</i>
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>パラメーターが入力マップ（パターン分布、スケール、回転）によって決定される方法の例を示します。</i>
         </td>
     </tr>
 </table>

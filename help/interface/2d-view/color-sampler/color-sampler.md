@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カラーサンプラーツール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # カラーサンプラーツール
 
-![カラーサンプラーツール](../../../assets/color-sampler-demo.png "カラーサンプラーツール"){zoomable="yes"}
+![カラーサンプラーツール](color-sampler.resources/color-sampler-demo.png "カラーサンプラーツール"){zoomable="yes"}
 
 カラーSamplerツールを使用すると、パラメーターを微調整したり、ノードを切り替えたりしながら、[2Dビュー](../../../interface/2d-view/2d-view.md)で<b>指定のピクセルの値をトラッキング</b>できます。
 
@@ -30,16 +30,16 @@ ht-degree: 0%
 
 ツールにアクセスして使用するには、次の手順に従います。
 
-1. 2Dビューツールバーの![](../../../assets/color-sampler-information-button.png) <b>情報</b>ボタンをクリックして、情報ドックとツールバーを開きます
-1. 情報ツールバーの![](../../../assets/color-sampler-tool-icon.png) <b>カラーSamplerツール</b>をクリックします
-1. ビューポートで、サンプルする特定のピクセルをクリックして![](../../../assets/color-sampler-pin-icon.png) <b>ピン</b>を配置します
+1. 2Dビューツールバーの![](color-sampler.resources/color-sampler-information-button.png) <b>情報</b>ボタンをクリックして、情報ドックとツールバーを開きます
+1. 情報ツールバーの![](color-sampler.resources/color-sampler-tool-icon.png) <b>カラーSamplerツール</b>をクリックします
+1. ビューポートで、サンプルする特定のピクセルをクリックして![](color-sampler.resources/color-sampler-pin-icon.png) <b>ピン</b>を配置します
 1. 情報ドックの専用セクションでサンプル値を確認します
-1. ツールの操作が完了したら、![](../../../assets/color-sampler-remove-pin.png) <b>削除</b>ボタンをクリックして、ビューポートからピンを削除します。\
+1. ツールの操作が完了したら、![](color-sampler.resources/color-sampler-remove-pin.png) <b>削除</b>ボタンをクリックして、ビューポートからピンを削除します。\
    ピンを削除するには、ピンのRMBをクリックして、コンテキストメニューで「削除」アクションを選択します。
 
 以下に、このツールの動作を示します。
 
-![カラーサンプラー：ツールを使用](../../../assets/color-sampler-demo.gif "カラーサンプラー：ツールを使用"){zoomable="yes"}
+![カラーサンプラー：ツールを使用](color-sampler.resources/color-sampler-demo.gif "カラーサンプラー：ツールを使用"){zoomable="yes"}
 
 *クリックして拡大*
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 情報パネルのカラーサムネールを、これらのパラメーターのカラーサムネールに直接ドラッグ&amp;ドロップすることもできます。
 
-![カラーサンプラー： RGBA値をコピー](../../../assets/color-sampler-demo-copy-rgba-values.gif "カラーサンプラー： RGBA値をコピー"){zoomable="yes"}
+![カラーサンプラー： RGBA値をコピー](color-sampler.resources/color-sampler-demo-copy-rgba-values.gif "カラーサンプラー： RGBA値をコピー"){zoomable="yes"}
 
 
 
@@ -76,17 +76,17 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![サンプル情報](../../../assets/color-sampler-information.png "サンプル情報"){zoomable="yes"}
+![サンプル情報](color-sampler.resources/color-sampler-information.png "サンプル情報"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-この値は、画像で使用されるビット深度によって異なります。 Substanceグラフでは、ビット深度は<b>出力形式</b>で制御されます [基本パラメーター](../../../compositing-graphs/graph-parameters/graph-parameters.md)。
+この値は、画像で使用されるビット深度によって異なります。 グラフでは、ビット深度は<b>出力形式</b>で制御されます [基本パラメーター](../../../compositing-graphs/graph-parameters/graph-parameters.md)。
 
 使用可能なビット深度は次のとおりです。
 
-* <b>8ビット整数：</b> 0 ～ 255の256個の整数値です。
-* <b>16ビット整数：</b> 0 ～ 65,535の65,536個の整数値。
+* <b>8ビット整数:</b> 0 ～ 255の256 整数値。
+* <b>16ビット整数:</b> 65,536の整数値を0から65,535に変更します。
 * <b>HDR低精度（16ビット）</b>: 16ビットを使用してエンコードされた浮動小数点値です。
-* <b>HDR高精度（32ビット）</b>: 32ビットを使用してエンコードされた浮動小数点値です。 これは、Designerで使用可能な最高精度です。
+* <b>HDR high precision (32-bit)</b>: 32ビットを使用してエンコードされた浮動小数点値です。 これは、Designerで使用可能な最高精度です。

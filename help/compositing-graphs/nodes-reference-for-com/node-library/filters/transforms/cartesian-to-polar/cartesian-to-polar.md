@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 直交座標から極座標
+title: デカルトを極座標に
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 直交座標から極座標
+# デカルトを極座標に
 
 <table>
 <tr style="border: 0;">

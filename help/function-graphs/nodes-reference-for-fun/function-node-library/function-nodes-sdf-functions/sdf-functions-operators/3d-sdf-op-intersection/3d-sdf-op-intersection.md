@@ -1,6 +1,6 @@
 ---
 title: 積集合
-description: Designer/Substance合成グラフ/ノードの参照Substance合成グラフ/Node library/SDF 関数/演算子/積集合
+description: Designer/Substance合成グラフ/ノード合成の参照グラフ/Substanceライブラリ/SDF 関数/演算子/交点
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '75'

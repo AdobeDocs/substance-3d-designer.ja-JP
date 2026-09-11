@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
-description: '[カラーパレットを修正]ノードを使用して、テクスチャから抽出されたカラーパレットを調整および変形します。'
+description: '[カラーパレットを修正]ノードを使用して、テクスチャから抽出されたカラーパレットを調整および変換します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Modify Color Palette
 helpx_experience_level: ""
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 ## 説明
 
-番号付きパレットのカラーを変更し、ID マップを使用して画像に適用します。
+番号付きパレットのカラーを変更し、IDマップを使用して画像に適用します。
 
-パレット内のインデックスをID マップ内のカラーのインデックスと一致させることで、カラーを選択できます。
+IDマップのインデックスをパレットのカラーのインデックスと一致させることで、カラーを選択できます。
 
-例えば、パレットのカラー#2は、ID値が2のID マップ内のすべてのピクセルに適用されます。
+例えば、パレットのカラー#2は、ID値が2のIDマップ内のすべてのピクセルに適用されます。
 
 このノードは、次のノードと組み合わせて使用できます： [色のクオンタイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)、[カラーパレットの作成](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)、[カラーパレットの適用](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)、[カラーパレットの表示](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>ID</b> <i>グレースケール</i>プライマリ | 出力でカラーを変更および分布させるためにカラーを選択するために使用する入力ID マップ。   ID マップとは、全体の一部（シェイプなど）であるピクセルがすべて同じ一意のID値を保持している画像です。 この場合、値は整数です。   [カラーのクオンタイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)ノードを使用してID マップを生成できます。 |
+| <b>ID</b> <i>グレースケール</i>プライマリ | カラーを変更して出力に分配するために、カラーの選択に使用する入力IDマップ。   IDマップは、全体（例えば、シェイプ）の一部であるピクセルがすべて同じ一意の識別値を保持する画像です。 この場合、値は整数です。   IDマップは、[クオンタイズカラー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)ノードを使用して作成できます。 |
 | <b>パレット</b> <i>色</i> | ピクセルの行としてエンコードされたRGBカラーの順序付けされたリスト。 パレットには、最大256色を保持できます。 これは、ノードが変更するパレットです。   パレットは、[色を量子化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)または[カラーパレットを作成](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)のノードを使用して作成できます。 |
 
 <a name="outputs"></a>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>出力</b> <i>色</i> | 変更したパレットの色をID マップのインデックスにマッピングした結果。 |
+| <b>出力</b> <i>色</i> | 修正したパレットの色をIDマップのインデックスにマッピングした結果。 |
 | <b>パレット</b> <i>色</i> | 指定した色の変更が適用された、更新されたパレット。   パレットは、[カラーパレットを適用](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)ノードを使用して別の画像に適用するか、[カラーパレットを表示](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)ノードを使用して表示できます。 |
 
 <a name="parameters"></a>

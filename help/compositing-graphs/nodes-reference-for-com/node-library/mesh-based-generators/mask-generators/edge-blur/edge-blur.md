@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
-description: エッジぼかしノードを使用してエッジマスクをぼかし、緩やかな遷移と滑らかなエッジベースの耐候性エフェクトを作成します。
+description: エッジぼかしノードを使用してエッジマスクをぼかし、緩やかな変化を生み出し、エッジベースの風化効果を滑らかにします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Blur
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
-このマスクは、ベイク処理された曲率マップに基づいてエッジをハイライトします。 これは、非常に単純なマスクジェネレータの1つです。
+このマスクは、ベイクされた曲率マップに基づいてエッジをハイライトします。 これは、より簡単なマスクジェネレーターの1つです。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲線</b> <i>グレースケール入力</i> | 効果の基になるベイク済みマップです。 |
+| <b>曲率</b> <i>グレースケール入力</i> | 効果の基になるベイク済みマップです。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
 <a name="parameters"></a>

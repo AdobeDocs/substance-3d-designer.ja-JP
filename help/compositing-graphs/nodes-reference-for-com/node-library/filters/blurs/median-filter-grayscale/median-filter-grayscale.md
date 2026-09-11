@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
-description: 中間値フィルターのグレースケールノードを使用すると、ノイズを軽減し、エッジをグレースケールテクスチャで保持できます。
+description: 中間値フィルターのグレースケールノードを使用すると、ノイズを軽減して、グレースケールテクスチャのエッジを保持できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale
 helpx_experience_level: ""

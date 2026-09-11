@@ -10,7 +10,7 @@ helpx_tags: ""
 title: サンプル Substance グラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 6%
@@ -32,12 +32,12 @@ ht-degree: 6%
 
 このプロジェクトでは、他のグラフのフィルターとして使用する簡単なグラフ設定を特徴としています。 [フィルター](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)は、1つ以上の入力画像を変更またはブレンドするノードです。
 
-[![サンプルファイルアイコンのフィルター](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
+[![サンプルファイルアイコンのフィルター](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Filters&#39; sample](../../assets/demo-filter.png "&#39;Filters&#39; sample"){zoomable="yes"}
+![&#39;Filters&#39; sample](sample-substance-compositing-graphs.resources/demo-filter.png "&#39;Filters&#39; sample"){zoomable="yes"}
 
 </td>
 </tr>
@@ -53,12 +53,12 @@ ht-degree: 6%
 
 継承については、アドビのドキュメントの[このページ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)をご覧ください。
 
-[![継承のサンプルファイルアイコン](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
+[![継承のサンプルファイルアイコン](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;継承&#39;サンプル](../../assets/demo-inheritance.png "&#39;継承&#39;サンプル"){zoomable="yes"}
+![&#39;継承&#39;サンプル](sample-substance-compositing-graphs.resources/demo-inheritance.png "&#39;継承&#39;サンプル"){zoomable="yes"}
 
 </td>
 </tr>
@@ -74,12 +74,12 @@ ht-degree: 6%
 
 このプロジェクトでは、ピクセルプロセッサーをジェネレーターとフィルターの2つの簡単な用途で使用する方法を紹介します。 また、[関数グラフ](../../function-graphs/function-graphs.md)で多くのことを行うための足がかりにもなります。
 
-[![ピクセルプロセッササンプルファイルアイコン](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
+[![ピクセルプロセッササンプルファイルアイコン](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;ピクセルプロセッサ&#39;サンプル](../../assets/demo-pixel-processor.png "&#39;ピクセルプロセッサ&#39;サンプル"){zoomable="yes"}
+![&#39;ピクセルプロセッサ&#39;サンプル](sample-substance-compositing-graphs.resources/demo-pixel-processor.png "&#39;ピクセルプロセッサ&#39;サンプル"){zoomable="yes"}
 
 </td>
 </tr>

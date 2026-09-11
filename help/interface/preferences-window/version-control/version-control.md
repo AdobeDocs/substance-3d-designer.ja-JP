@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Designerでは、[Perforce](https://www.perforce.com/) (P4)のバージョンコ
 
 [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v)で、以下のようにワークスペース名とパスをメモします。
 
-![P4Vワークスペース情報](../../../assets/p4v-workspace-strings.jpg "P4Vワークスペース情報"){zoomable="yes"}
+![P4Vワークスペース情報](version-control.resources/p4v-workspace-strings.jpg "P4Vワークスペース情報"){zoomable="yes"}
 
 任意のテキストエディターまたはIDEで、Designerのインストールにある次のスクリプトを開きます： &#39;*tools/version\_control/perforce.py*&#39;。
 
@@ -54,7 +54,7 @@ cVerbose = False
 
 バージョン管理が[プロジェクト設定](../../../interface/preferences-window/project-settings/project-settings.md)で構成されており、Designerの[環境設定](../../../interface/preferences-window/preferences-window.md)で利用できます。
 
-![プロジェクト設定の[バージョン管理]タブ](../../../assets/p4v-project-settings.jpg "プロジェクト設定の[バージョン管理]タブ"){zoomable="yes"}
+![プロジェクト設定の[バージョン管理]タブ](version-control.resources/p4v-project-settings.jpg "プロジェクト設定の[バージョン管理]タブ"){zoomable="yes"}
 
 1. 編集/環境設定に移動
 1. 「プロジェクト」に移動し、ターゲット[プロジェクトファイル](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)を選択して、「バージョン管理」タブに移動します
@@ -64,7 +64,7 @@ cVerbose = False
    * <b>名前：</b> P4Vから以前に取得した&#39;ワークスペース名&#39;を入力してください
    * <b>パス：</b> P4Vから以前に取得した&#39;ワークスペースパス&#39;を入力してください
 
-Designerでの![P4の設定：ワークスペース](../../../assets/p4v-project-settings-workspace.jpg "DesignerでのP4の設定：ワークスペース"){zoomable="yes"}
+Designerでの![P4の設定：ワークスペース](version-control.resources/p4v-project-settings-workspace.jpg "DesignerでのP4の設定：ワークスペース"){zoomable="yes"}
 
 ### アクションの設定
 
@@ -88,7 +88,7 @@ Designerでの![P4の設定：ワークスペース](../../../assets/p4v-project
 1. Designerのインストールで、次のスクリプトを選択します： &#39;*tools/version\_control/perforce.py*&#39;
 1. スクリプトは、他のすべてのアクション用に自動的に設定されます。
 
-Designerでの![P4の設定： actions](../../../assets/p4v-project-settings-actions.jpg "DesignerでのP4の設定： actions"){zoomable="yes"}
+Designerでの![P4の設定： actions](version-control.resources/p4v-project-settings-actions.jpg "DesignerでのP4の設定： actions"){zoomable="yes"}
 
 ### カスタムアクションの設定
 
@@ -103,13 +103,13 @@ Designerでの![P4の設定： actions](../../../assets/p4v-project-settings-act
 1. スクリプトファイルの拡張子または接尾辞と、インタプリタの実行可能ファイルへのパスを設定します
 1. perforce.pyスクリプトを編集して、「p4」バイナリの場所を更新します
 
-Designerでの![P4の設定：インタープリター](../../../assets/p4v-project-settings-interpreters.jpg "DesignerでのP4の設定：インタープリター"){zoomable="yes"}
+Designerでの![P4の設定：インタープリター](version-control.resources/p4v-project-settings-interpreters.jpg "DesignerでのP4の設定：インタープリター"){zoomable="yes"}
 
 ## バージョン管理の使用方法
 
 1. 新しいパッケージを作成
 1. 「ワークスペースのパス」ディレクトリにパッケージを保存します。
-1. パッケージで「RMB」をクリックします。これで、「バージョン管理」サブメニューにアクセスできるようになりました。
+1. パッケージで「RMB」をクリックします。「バージョン管理」サブメニューにアクセスできるようになりました。
 1. ワークスペースのパッケージファイルのステータスに応じて、いくつかのアクションを使用できます。
 
    * <b>追加：</b>ファイルを&#39;追加&#39;としてマークします
@@ -123,12 +123,12 @@ Designerでの![P4の設定：インタープリター](../../../assets/p4v-proj
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![&#39;送信&#39;ダイアログ](../../../assets/p4v-submit.jpg "&#39;送信&#39;ダイアログ"){zoomable="yes"}
+   ![&#39;送信&#39;ダイアログ](version-control.resources/p4v-submit.jpg "&#39;送信&#39;ダイアログ"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![&#39;元に戻す&#39;ダイアログ](../../../assets/p4v-revert.jpg "&#39;元に戻す&#39;ダイアログ"){zoomable="yes"}
+   ![&#39;元に戻す&#39;ダイアログ](version-control.resources/p4v-revert.jpg "&#39;元に戻す&#39;ダイアログ"){zoomable="yes"}
 
    </td>
    </tr>
@@ -138,7 +138,7 @@ Designerでの![P4の設定：インタープリター](../../../assets/p4v-proj
 >
 > すべてのアクションで複数選択がサポートされています
 > 
-> P4およびその他のバージョン管理ツールで、読み取り専用ファイル権限を使用して変更を制限する場合、ユーザーは変更を行う前にパッケージをチェックアウトする必要があります。
+> P4およびその他のバージョン管理ツールで、読み取り専用のファイル権限を使用して変更を制限する場合は、変更を行う前にパッケージをチェックアウトする必要があります。
 > 
 > 読み取り専用のパッケージファイルはSDで変更できません。
 
@@ -148,28 +148,28 @@ Designerでの![P4の設定：インタープリター](../../../assets/p4v-proj
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![パッケージアイコン：最新](../../../assets/p4-up-to-date.png "パッケージアイコン：最新")
+![パッケージアイコン：最新](version-control.resources/p4-up-to-date.png "パッケージアイコン：最新")
 
 最新
 
 </td>
 <td style="border: 0;" valign="top">
 
-![パッケージアイコン：チェックアウト済み](../../../assets/p4-checked-out.png "パッケージアイコン：チェックアウト済み")
+![パッケージアイコン：チェックアウト済み](version-control.resources/p4-checked-out.png "パッケージアイコン：チェックアウト済み")
 
 チェックアウトしました
 
 </td>
 <td style="border: 0;" valign="top">
 
-![パッケージアイコン：追加](../../../assets/p4-added.png "パッケージアイコン：追加")
+![パッケージアイコン：追加](version-control.resources/p4-added.png "パッケージアイコン：追加")
 
 追加用にマーク
 
 </td>
 <td style="border: 0;" valign="top">
 
-![パッケージアイコン：デポにありません](../../../assets/p4-not-in-depot.png "パッケージアイコン：デポにありません")
+![パッケージアイコン：デポにありません](version-control.resources/p4-not-in-depot.png "パッケージアイコン：デポにありません")
 
 車庫にない
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
-description: Substance 3D Designer関数グラフの「取得」ノードにアクセスして、変数値とデータを取得します。
+description: Substance 3D Designer関数グラフのGetノードにアクセスして、変数値とデータを取得します。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Variables
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 変数は、後で取得(<b>Get</b>)または変更(<b>Set</b>)するために<b>値</b>を保存する方法です。
 
-![Substance関数グラフ – 浮動小数点の取得](../../../../assets/assign-getfloat.gif "Substance関数グラフ – 浮動小数点の取得"){zoomable="yes"}
+![Substance関数のグラフ- floatを取得](get-nodes.resources/assign-getfloat.gif "Substance関数のグラフ- floatを取得"){zoomable="yes"}
 
 Getノードの基本的な機能は、ダイナミック変数をグラブし、それをGet Nodesの出力から返して関数で使用することです。 これらのGetノードは、[入力パラメーターパラメーター](../../../../compositing-graphs/graph-parameters/graph-parameters.md)と[グラフー関数](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)で定義されたパラメーター間のリンクを形成します。
 
@@ -58,7 +58,7 @@ Getノードを使用するたびに、ドロップダウンメニューから�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Get float2 – アイコン](../../../../assets/fn_variables_getfloat2.png "Get float2 – アイコン"){width="200px"}
+![Get float2 – アイコン](get-nodes.resources/fn_variables_getfloat2.png "Get float2 – アイコン"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -88,25 +88,25 @@ Getノードを使用するたびに、ドロップダウンメニューから�
 ### ノードの取得
 
 +++フロート
-![フロートの取得 – アイコン](../../../../assets/fn_variables_getfloat.png "フロートの取得 – アイコン"){width="200px"}
+![フロートの取得 – アイコン](get-nodes.resources/fn_variables_getfloat.png "フロートの取得 – アイコン"){width="200px"}
 
 
 
 浮動小数を取得
 
-![Get float2 – アイコン](../../../../assets/fn_variables_getfloat2.png "Get float2 – アイコン"){width="200px"}
+![Get float2 – アイコン](get-nodes.resources/fn_variables_getfloat2.png "Get float2 – アイコン"){width="200px"}
 
 
 
 浮動小数 2 を取得
 
-![Get float3 – アイコン](../../../../assets/fn_variables_getfloat3.png "Get float3 – アイコン"){width="200px"}
+![Get float3 – アイコン](get-nodes.resources/fn_variables_getfloat3.png "Get float3 – アイコン"){width="200px"}
 
 
 
 浮動小数 3 を取得
 
-![Get float4 – アイコン](../../../../assets/fn_variables_getfloat4.png "Get float4 – アイコン"){width="200px"}
+![Get float4 – アイコン](get-nodes.resources/fn_variables_getfloat4.png "Get float4 – アイコン"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Getノードを使用するたびに、ドロップダウンメニューから�
 +++
 
 +++整数
-![Get integer – アイコン](../../../../assets/fn_variables_getint.png "Get integer – アイコン"){width="200px"}
+![Get integer – アイコン](get-nodes.resources/fn_variables_getint.png "Get integer – アイコン"){width="200px"}
 
 
 
 整数を取得
 
-![Get integer2 – アイコン](../../../../assets/fn_variables_getint2.png "Get integer2 – アイコン"){width="200px"}
+![Get integer2 – アイコン](get-nodes.resources/fn_variables_getint2.png "Get integer2 – アイコン"){width="200px"}
 
 
 
 整数 2 を取得
 
-![Get integer3 – アイコン](../../../../assets/fn_variables_getint3.png "Get integer3 – アイコン"){width="200px"}
+![Get integer3 – アイコン](get-nodes.resources/fn_variables_getint3.png "Get integer3 – アイコン"){width="200px"}
 
 
 
 整数 3 を取得
 
-![Get integer4 – アイコン](../../../../assets/fn_variables_getint4.png "Get integer4 – アイコン"){width="200px"}
+![Get integer4 – アイコン](get-nodes.resources/fn_variables_getint4.png "Get integer4 – アイコン"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Getノードを使用するたびに、ドロップダウンメニューから�
 +++
 
 +++その他
-![ブール値を取得 – アイコン](../../../../assets/fn_variables_getboolean.png "ブール値を取得 – アイコン"){width="200px"}
+![ブール値を取得 – アイコン](get-nodes.resources/fn_variables_getboolean.png "ブール値を取得 – アイコン"){width="200px"}
 
 
 
 ブーリアンを取得
 
-![文字列の取得 – アイコン](../../../../assets/fn_variables_getstring.png "文字列の取得 – アイコン"){width="200px"}
+![文字列の取得 – アイコン](get-nodes.resources/fn_variables_getstring.png "文字列の取得 – アイコン"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Getノードを使用するたびに、ドロップダウンメニューから�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![設定：ノードアイコン](../../../../assets/fn_variables_set.png "設定：ノードアイコン"){width="200px"}
+![設定：ノードアイコン](get-nodes.resources/fn_variables_set.png "設定：ノードアイコン"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Getノードを使用するたびに、ドロップダウンメニューから�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![定義：ノードアイコン](../../../../assets/fn_variables_isdefined.png "定義：ノードアイコン"){width="200px"}
+![定義：ノードアイコン](get-nodes.resources/fn_variables_isdefined.png "定義：ノードアイコン"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 波形1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![波形1 – アイコン](../../../../../../assets/waveform_01_v2.png "波形1 – アイコン"){width="200px"}
+![波形1 – アイコン](waveform-1.resources/waveform_01_v2.png "波形1 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![波形1 – 例1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "波形1 – 例1"){zoomable="yes"}
+![波形1 – 例1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "波形1 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

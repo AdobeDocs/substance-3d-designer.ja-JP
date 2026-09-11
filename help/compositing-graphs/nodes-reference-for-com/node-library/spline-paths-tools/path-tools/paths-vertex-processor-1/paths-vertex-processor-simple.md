@@ -70,7 +70,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>パス</b> <i>色</i> | 変換されたパス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
+| <b>パス</b> <i>色</i> | 変形パス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
 
 <a name="parameters"></a>
 
@@ -78,8 +78,8 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>画像入力数</b> <i>整数</i> | <b>頂点単位関数</b>パラメーター関数でサンプリングする必要があるイメージを接続するための表示可能な<b>入力#</b>入力コネクタの数。<br>必要なサンプルをすべて設定したら、このパラメーターの値を0に戻すことにより、使用されていないピンを非表示にすることができます。<br>入力を増やす場合は、代わりに[Paths 頂点ープロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)を使用してください。 |
-| <b>頂点単位関数</b> <i>浮動小数点2</i> | 各頂点に適用される関数。 新しい頂点位置を返す必要があります。<br>ガイダンスについては、このページの<b>説明</b>セクションを参照してください。 |
+| <b>画像入力数</b> <i>整数</i> | <b>頂点単位関数</b>パラメーター関数でサンプリングする必要があるイメージを接続するための、表示可能な<b>入力#</b>入力コネクターーの数。<br>必要なサンプルをすべて設定したら、このパラメーターの値を0に戻すことにより、使用されていないピンを非表示にすることができます。<br>入力を増やす場合は、代わりに[Paths 頂点ープロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)を使用してください。 |
+| <b>頂点単位関数</b> <i>浮動小数2</i> | 各頂点に適用される関数。 新しい頂点位置を返す必要があります。<br>ガイダンスについては、このページの<b>説明</b>セクションを参照してください。 |
 
 ## 例
 

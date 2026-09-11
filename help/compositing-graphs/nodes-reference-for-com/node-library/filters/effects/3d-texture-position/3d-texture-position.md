@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D テクスチャの位置
+title: 3Dテクスチャ位置
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 3D テクスチャの位置
+# 3Dテクスチャ位置
 
 <table>
 <tr style="border: 0;">

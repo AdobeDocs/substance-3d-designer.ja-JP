@@ -84,7 +84,7 @@ ht-degree: 2%
 * &#39;Opacity&#39;を0に設定しました： &#39;Foreground&#39;入力&#x200B;*に接続されたノードのストリームは計算されません*。
 * &#39;Opacity&#39;が1に設定されています： &#39;Background&#39;入力&#x200B;*に接続されたノードのストリームは計算されません*。
 
-そのため、このモードはグラフのパフォーマンスを向上させるために使用できます。
+そのため、このモードはグラフのパフォーマンスを向上させるために使用される場合があります。
 
 [スイッチ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)および[グレースケールの切り替え](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)ノードは、これらの特定の構成のブレンドノードを使用するように設定されています。
 
@@ -92,9 +92,9 @@ ht-degree: 2%
 
 ## 除算
 
-*除算*&#x200B;描画モードは、背景入力ピクセルの値を前景の対応する各ピクセルで除算します。
+*分割*&#x200B;描画モードでは、背景の入力ピクセルの値が前景の対応する各ピクセルで除算されます。
 
-![描画モード：除算](blending-modes-description.resources/image2015-8-20-9-41-32.png "描画モード：除算"){zoomable="yes"}
+![描画モード： 分割](blending-modes-description.resources/image2015-8-20-9-41-32.png "描画モード： 分割"){zoomable="yes"}
 
 ## オーバーレイ
 
@@ -116,8 +116,8 @@ ht-degree: 2%
 
 ## ソフトライト
 
-ソフトライト描画モードでは、描画色の明るさに応じて、淡い明るさまたは暗い色の結果が作成されます。
+ソフトライト描画モードでは、描画色の明るさに応じて、淡い明るさまたは暗い色の効果が生成されます。
 
 明るさが50%を超えるブレンドカラーは背景ピクセルを明るくし、明るさが50%未満のカラーは背景ピクセルを暗くします。
 
-![描画モード：ソフトライト](blending-modes-description.resources/image2015-8-20-9-42-32.png "描画モード：ソフトライト"){zoomable="yes"}
+![描画モード： ソフトライト](blending-modes-description.resources/image2015-8-20-9-42-32.png "描画モード： ソフトライト"){zoomable="yes"}

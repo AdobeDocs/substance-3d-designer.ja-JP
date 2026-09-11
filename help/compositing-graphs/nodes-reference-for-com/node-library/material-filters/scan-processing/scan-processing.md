@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのスキャン処理ノードにアクセスして、スキャンした素材とテクスチャをクリーンアップおよび処理します。
+description: Substance 3D Designerのスキャン処理ノードにアクセスして、スキャンされたマテリアルとテクスチャをクリーンアップおよび処理します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # スキャン処理
 
-このカテゴリは、写真やスキャンを完全なタイル状のPBRマテリアルに処理するためのニーズを満たすことを目的としています。 これには、照明の削除、境界線の切り抜き、タイリングの改善などの機能を持つツールの大規模な品揃えが含まれています。
+このカテゴリは、写真やスキャンをタイリングのフルPBRマテリアルに処理するためのニーズを満たすことを目的としています。 これには、照明を取り除き、境界線を切り抜き、タイリングを向上させる機能を備えたツールの大規模な品揃えが含まれています。
 
 次のノードは良い紹介です。
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
-description: '[スプライン選択]ノードを使用して、グラフ内のスプラインパスに基づいて特定の領域を選択し、マスクします。'
+description: '[スプライン選択]ノードを使用して、グラフ内のスプラインパスに基づいて特定のリージョンを選択してマスクします。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Select
 helpx_experience_level: ""
@@ -73,8 +73,8 @@ ht-degree: 0%
 | <b>スプラインインデックス</b> <i>整数</i> | （「選択モード」が「インデックス」に設定されている場合に使用可能）選択するスプラインのインデックス。 |
 | <b>範囲の開始</b> <i>整数</i> | （「選択モード」が「範囲」に設定されている場合に使用可能）選択したスプラインの範囲の最小インデックス。 |
 | <b>範囲の終了</b> <i>整数</i> | （「選択モード」が「範囲」に設定されている場合に使用可能）選択したスプラインの範囲の最大インデックス。 |
-| <b>開始</b> <i>フロート</i> | 選択するスプライン部分の始点をオフセットします。 これにより、スプラインが効果的にトリムされます。<br>この値は、スプラインの正規化された長さを表します。 |
-| <b>終了</b> <i>フロート</i> | 選択するスプライン部分の終点をオフセットします。 これにより、スプラインが効果的にトリムされます。<br>この値は、スプラインの正規化された長さを表します。 |
+| <b>開始</b> <i>浮動小数</i> | 選択するスプライン部分の始点をオフセットします。 これにより、スプラインが効果的にトリムされます。<br>この値は、スプラインの正規化された長さを表します。 |
+| <b>終了</b> <i>浮動小数</i> | 選択するスプライン部分の終点をオフセットします。 これにより、スプラインが効果的にトリムされます。<br>この値は、スプラインの正規化された長さを表します。 |
 | <b>プレビュー</b> |  |
 | <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインの視覚化に使用するセグメントの数を調整します。<br>値を大きくすると、より滑らかな線になります。 |
 | <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |

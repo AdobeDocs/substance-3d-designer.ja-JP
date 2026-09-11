@@ -10,7 +10,7 @@ helpx_tags: ""
 title: サンプラ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Samplerノード
 
-![Samplerノード](../../../../assets/image2016-1-12-14-45-43.png "Samplerノード")
+![Samplerノード](sampler-nodes.resources/image2016-1-12-14-45-43.png "Samplerノード")
 
 これらのノードは、指定された2D座標で入力画像の値をサンプリングします。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ピクセル座標](../../../../assets/samplercoords.png "ピクセル座標")
+![ピクセル座標](sampler-nodes.resources/samplercoords.png "ピクセル座標")
 
 </td>
 </tr>

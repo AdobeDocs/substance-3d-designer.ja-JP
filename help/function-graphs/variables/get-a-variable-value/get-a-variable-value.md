@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数値を取得する
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 これを行うには、*Get*&#x200B;ノードを使用する必要があります。
 
-![](../../../assets/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/image2015-12-21-7-29-51.png)
 
 Getノードには様々な種類があります。読み込む値の種類に応じて適切なノードを選択します。
 
-![](../../../assets/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/image2015-12-21-7-31-4.png)
 
 ## 取得ノードへの変数の割り当て
 
@@ -38,7 +38,7 @@ Getノードには様々な種類があります。読み込む値の種類に�
 
 変数名がノードに表示されます。
 
-![](../../../assets/assign-getfloat.gif)
+![](get-a-variable-value.resources/assign-getfloat.gif)
 
 リストには、Getノードと同じ型の変数だけが表示されることに注意してください。
 

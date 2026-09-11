@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
+ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
 
 このマスクは、金属物体のエッジの摩耗を表現し、凸状の隆起エッジにスクラッチや切り屑が現れ、ベイクしたAO暗部によってマスクされる可能性があります。
 
@@ -47,11 +47,11 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲率</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
-| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
 | <b>経年劣化入力</b> <i>グレースケール入力</i> |  |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
-| <b>ワールド空間法線</b> <i>カラー入力</i> |  |
+| <b>ワールド空間標準</b> <i>カラー入力</i> |  |
 | <b>位置</b> <i>カラー入力</i> |  |
 
 <a name="parameters"></a>

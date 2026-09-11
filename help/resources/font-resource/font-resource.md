@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
-description: Substance 3D Designerでフォントリソースを読み込んで使用し、テキストやタイポグラフィを素材に追加できます。
+description: Substance 3D Designerでフォントリソースを読み込んで使用し、テキストやテキスト編集をマテリアルに追加できます。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Font resource
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 2%
 >
 > **SBSARのフォント**
 > 
-> フォントは、リンクされたリソースから、またはシステムにインストールされたフォントを使用しているかどうかに関係なく、常にSBSARに埋め込まれます。 この方法の利点は、インストールする必要がないことと、依存関係のあるSBSファイルを書き出すときにフォントファイルが一緒に来ることを確認できることです。
+> フォントは、リンクされたリソースから、またはシステムにインストールされたフォントを使用しているかどうかに関係なく、常にSBSARに埋め込まれます。 この方法の利点は、インストールする必要がなく、依存性のあるSBSファイルを書き出すときにフォントファイルが一緒に来ることを確認できることです。
 
 ## カスタムフォントリソースの使用
 

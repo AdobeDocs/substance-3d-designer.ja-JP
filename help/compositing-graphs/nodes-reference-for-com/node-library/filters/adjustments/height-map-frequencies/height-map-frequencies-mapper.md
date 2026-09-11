@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Heightマップ周波数マッパー
+title: 高さマップ周波数マッパー
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
@@ -18,7 +18,7 @@ ht-degree: 8%
 ---
 
 
-# Heightマップ周波数マッパー
+# 高さマップ周波数マッパー
 
 <table>
 <tr style="border: 0;">

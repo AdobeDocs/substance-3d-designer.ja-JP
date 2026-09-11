@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDLグラフ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Substance 3D DesignerのMDLグラフを使用すると、MDL資料を作成して、その動作をリアルタイムでプレビューできます。
 
-![マラカイトMDLマテリアル](../assets/mdl-malachite-example.jpg "マラカイトMDLマテリアル")
+![マラカイトMDLマテリアル](mdl-graphs.resources/mdl-malachite-example.jpg "マラカイトMDLマテリアル")
 
 *クリソコラを使ったマラカイト、[Mark Foreman](https://www.artstation.com/oggyart)* *アドビの[従来のSubstance share](https://share-legacy.substance3d.com/libraries/4043)* *プラットフォーム*&#x200B;で利用可能なMDLマテリアル
 
@@ -62,7 +62,7 @@ MDLグラフは、[Substanceグラフ](../compositing-graphs/substance-compositi
 >
 > NVIDIAが作成および管理するすべてのMDL仕様および[MDLハンドブック](http://mdlhandbook.com/)へのリンクが含まれている[NVIDIA MDLドキュメント](https://raytracing-docs.nvidia.com/mdl/index.html)で、材料定義言語の技術的な実装について詳しく説明します。
 
-![MDLグラフのプロパティ](../assets/mdl-main.png "MDLグラフのプロパティ")
+![MDLグラフのプロパティ](mdl-graphs.resources/mdl-main.png "MDLグラフのプロパティ")
 
 *プロパティパネルのMDLグラフプロパティ*
 

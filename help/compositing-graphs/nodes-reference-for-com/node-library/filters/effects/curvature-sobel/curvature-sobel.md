@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 曲率ソベル
+title: カーバチュアソベル
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# 曲率ソベル
+# カーバチュアソベル
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 説明
 
-入力[Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)に対して、単純で過酷なシングルパス曲率変換を行います。 作成されるマップには、凸状の領域に白い色合いがあり、凹状の領域に黒い色合いがあります。 曲率を行うと、常に線が太くなり、変化がシャープになります。
+入力[Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)に対して、単純で過酷なシングルパス曲率変換を実行します。 作成されるマップには、凸状の領域に白い色合いがあり、凹状の領域に黒い色合いがあります。 曲率を行うと、常に線が太くなり、変化がシャープになります。
 
 このノードは、特定のエッジをすばやくハイライト表示したり暗くしたりする場合に便利です。 これは、[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)とは少し異なります。画質は向上しますが、シャープで粗い印象を与えます。
 

@@ -1,6 +1,6 @@
 ---
 title: 円柱2点
-description: Designer > Substance合成グラフ>ノードリファレンスSubstance合成グラフ> Node library > SDF 関数 >プリミティブ> Cylinder 2 points
+description: Designer > Substance合成グラフ >ノードリファレンスのSubstance合成グラフ > Node library > SDF 関数 >プリミティブ> Cylinder 2 point
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '133'
@@ -43,4 +43,4 @@ ht-degree: 1%
 | <b>開始</b> *浮動小数点3* | 円柱の開始ディスクの位置です。<br><br><i>既定値： (0, 0, 0)</i> |
 | <b>終了</b> *浮動小数点3* | 円柱の終了ディスクの位置です。<br><br><i>既定値： (0, 0, 1)</i> |
 | <b>半径</b> *フロート* | 円柱の半径。<br><br><i>既定： 0.25</i> |
-| <b>P</b> *浮動小数点3* | 変換されたワールド空間の位置。 この入力を使用して、<b>オフセットP</b>および<b>回転P</b>ノードを使用する追加の変換を適用します。<br><br><i>既定：変換されていないワールドスペースの位置。</i> |
+| <b>P</b> *浮動小数点3* | ワールド空間の位置。 この入力を使用して、<b>オフセットP</b>および<b>回転P</b>ノードを使用する追加の変換を適用します。<br><br><i>既定：変換されていないワールドスペースの位置。</i> |

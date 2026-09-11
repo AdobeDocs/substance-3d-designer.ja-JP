@@ -1,6 +1,6 @@
 ---
 title: ユニオンスムーズ
-description: Designer/Substance合成グラフ/ノードの参照Substance合成グラフ/Node library/SDF 関数/演算子/和集合スムーズ
+description: Designer/Substance合成グラフ/ノード合成の参照Substance合成グラフ/Node library/SDF 関数/演算子/結合スムーズ
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '101'
@@ -40,6 +40,6 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *フロート* | 最初のSDFシェイプ。 |
-| <b>SDF 2</b> *フロート* | 2番目のSDFシェイプ。 |
-| <b>Smoothness</b> *フロート* | 交点のエッジから開始されるスムージング半径。<br><br><i>既定値： 0</i><br><br><i>注：</i>スムージング半径が交差する部分にハードなエッジが表示される場合があります。 |
+| <b>SDF 1</b> *浮動小数* | 最初のSDFシェイプ。 |
+| <b>SDF 2</b> *浮動小数* | 2番目のSDFシェイプ。 |
+| <b>Smoothness</b> *浮動小数* | 交点のエッジから開始されるスムージング半径。<br><br><i>既定値： 0</i><br><br><i>注：</i>スムージング半径が交差する部分にハードなエッジが表示される場合があります。 |

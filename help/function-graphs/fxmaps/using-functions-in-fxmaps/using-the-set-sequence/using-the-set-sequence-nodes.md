@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SetSequenceノードの使用
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの設定とシーケンス](../../../../assets/image2017-3-17-15-5-5.png "ノードの設定とシーケンス")
+![ノードの設定とシーケンス](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "ノードの設定とシーケンス")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ノードの設定](../../../../assets/image2017-3-17-15-12-52.png "ノードの設定")
+![ノードの設定](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "ノードの設定")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ノードの例の設定](../../../../assets/image2018-8-30-17-45-35.png "ノードの例の設定")
+![ノードの例の設定](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "ノードの例の設定")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![シーケンスノード](../../../../assets/image2017-3-17-15-17-38.png "シーケンスノード")
+![シーケンスノード](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "シーケンスノード")
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![シーケンスノードの例](../../../../assets/image2018-8-30-17-49-41.png "シーケンスノードの例")
+![シーケンスノードの例](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "シーケンスノードの例")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 たとえば、これらのアクションを&#x200B;*特定の順序で*&#x200B;実行しながら、最初に変数を&#x200B;*設定*&#x200B;し、後でその値を&#x200B;*更新*&#x200B;し、その後で最終値を&#x200B;*読み取り*&#x200B;することができます。
 
-![シーケンスノードチェーン](../../../../assets/image2018-8-30-17-52-27.png "シーケンスノードチェーン")
+![シーケンスノードチェーン](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "シーケンスノードチェーン")
 
 ## 変数の表示
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![象限のプロパティ](../../../../assets/image2018-8-30-18-1-6.png "象限のプロパティ")
+![象限のプロパティ](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "象限のプロパティ")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![象限の色/輝度の関数](../../../../assets/image2018-8-30-18-4-46.png "象限の色/輝度の関数")
+![象限の色/輝度の関数](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "象限の色/輝度の関数")
 
 </td>
 </tr>
 </table>
 
-![パターンの散布量](../../../../assets/image2018-8-30-18-5-30.png "パターンの散布量")
+![パターンの散布量](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "パターンの散布量")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![パターン回転のパラメーター関数メニュー](../../../../assets/image2018-8-30-18-7-57.png "パターン回転のパラメーター関数メニュー")
+![パターン回転のパラメーター関数メニュー](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "パターン回転のパラメーター関数メニュー")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![パターンの回転の浮動小数点出力を取得](../../../../assets/image2018-8-30-18-10-58.png "パターンの回転の浮動小数点出力を取得")
+![パターンの回転の浮動小数点出力を取得](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "パターンの回転の浮動小数点出力を取得")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ ht-degree: 0%
 
 輝度も回転を制御するようになりました。
 
-![パターンを回転](../../../../assets/image2018-8-30-18-12-25.png "パターンを回転")
+![パターンを回転](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "パターンを回転")

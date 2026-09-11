@@ -30,8 +30,8 @@ ht-degree: 3%
 
 | 名前 | タイプ | 目的 |
 | --- | --- | --- |
-| $size | Float2 | 現在のノードのサイズをピクセル単位で返します。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで使用されている場合、*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合、*継承された値*&#x200B;を返します。 |
-| $sizelog2 | Float2 | 上記と同様ですが、サイズは2の累乗値として返されます（例： 2048\*2048画像の場合、`$sizelog2`は11を返します）。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで使用されている場合、*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合、*継承された値*&#x200B;を返します。 |
+| $size | Float2 | 現在のノードのサイズをピクセル単位で返します。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで&#x200B;*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合は、*継承された値*&#x200B;を返します。 |
+| $sizelog2 | Float2 | 上記と同様ですが、サイズは2の累乗値として返されます（例： 2048\*2048画像の場合、`$sizelog2`は11を返します）。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで&#x200B;*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合は、*継承された値*&#x200B;を返します。 |
 | $pixelratio | 整数 | 現在のノードのピクセル比（継承または絶対）に対応する整数値を返します： 0：伸長1：正方形 |
 | $tiling | 整数 | 現在のノードのタイリングモード（継承または絶対）に対応する整数値を返します。 0:タイリングなし1：水平タイリング2：垂直タイリング3: HおよびVタイリング |
 | $physicalsize | Float3 | [グラフの](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>物理サイズ</b>プロパティ値を返します。 |

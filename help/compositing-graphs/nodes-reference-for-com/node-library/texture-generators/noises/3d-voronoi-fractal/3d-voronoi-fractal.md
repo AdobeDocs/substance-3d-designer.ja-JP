@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
-description: 3D Voronoi Fractalノードを使用して、体積テクスチャの3D位置に基づいてフラクタルボロノイパターンを生成します。
+description: 3D Voronoi Fractalノードを使用して、ボリュームテクスチャの3Dポジションに基づいてフラクタルボロノイパターンを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 説明
 
-<b>3D Voronoi Fractal</b>ノードは、<b>位置マップ</b>の入力に基づいて、3D空間で<i>フラクタル</i>ボロノイノイズを生成します。
+<b>3D Voronoi Fractal</b>ノードは、<b>位置マップ</b>の入力に基づいて、3D空間で<i>フラクタル</i>ボロノイノイズを発生させます。
 
 このノードは、実際のベイク済みマップではなく、[Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)を入力としてテストできます（下図の例を参照）。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> このノイズは、<i>GPU エンジンのみ</i> （例： <b>Direct3D</b>または<b>OpenGL</b>）で使用します。 <b>ツール/エンジンの切り替え…</b>に移動するか、<b>F9</b>キーを押して、目的のエンジンを選択します。
+> このノイズは、<i>GPUエンジンのみ</i> （<b>Direct3D</b>または<b>OpenGL</b>）で使用することを目的としています。 <b>ツール/エンジンの切り替え…</b>に移動するか、<b>F9</b>キーを押して、目的のエンジンを選択します。
 
 <a name="parameters"></a>
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>反転</b> <i>ブーリアン</i> | 出力イメージを反転します。 |
-| <b>スケール</b> <i>浮動小数</i> | フラクタル3Dボロノイノイズのスケールを制御します。<br><br><i>注意</i>: <b>タイリング</b>が<i>任意の軸</i>で有効になっている場合、スケール調整は<i>ステップ</i>です。 これは予期される動作です。 |
-| <b>サイズ</b> <i>浮動小数3</i> | フラクタル3Dボロノイノイズの<b>X</b>、<b>Y</b>および<b>Z</b>軸のサイズを制御します。 値が均一でないと、<i>伸縮または収縮</i>効果が発生します。<br><br><i>注意</i>: <i>任意の軸</i>で<b>タイリング</b>が有効になっている場合、サイズの調整は<i>段階的</i>になります。 これは予期される動作です。 |
-| <b>オフセット</b> <i>浮動小数3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3Dボロノイノイズの<i>position</i>にオフセットを適用します。 |
-| <b>障害</b> <i>浮動小数3</i> | <i>ランダムオフセット</i>の強さは、<b>X</b>、<b>Y</b>および<b>Z</b>軸のノイズの各ポイントに適用されます。 |
+| <b>反転</b> <i>ブール値</i> | 出力イメージを反転します。 |
+| <b>スケール</b> <i>フロート</i> | フラクタル3Dボロノイノイズのスケールを制御します。<br><br><i>注意</i>: <b>タイリング</b>が<i>任意の軸</i>で有効になっている場合、スケール調整は<i>ステップ</i>です。 これは予期される動作です。 |
+| <b>サイズ</b> <i>浮動小数点3</i> | フラクタル3Dボロノイノイズの<b>X</b>、<b>Y</b>および<b>Z</b>軸のサイズを制御します。 値が均一でないと、<i>伸縮または収縮</i>効果が発生します。<br><br><i>注意</i>: <i>任意の軸</i>で<b>タイリング</b>が有効になっている場合、サイズの調整は<i>段階的</i>になります。 これは予期される動作です。 |
+| <b>オフセット</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3Dボロノイノイズの<i>位置</i>にオフセットを適用します。 |
+| <b>障害</b> <i>浮動小数点3</i> | <i>ランダムオフセット</i>の強さは、<b>X</b>、<b>Y</b>および<b>Z</b>軸のノイズの各ポイントに適用されます。 |
 | <b>ゆがみの適用度</b> <i>浮動小数</i> | フラクタル3Dボロノイノイズに適用される<i>ワープ効果</i>の強さを制御します。 |
 | <b>ゆがみスケール乗数</b> <i>浮動小数</i> | <b>ゆがみの強さ</b>で制御されるワープ効果で使用される<i>変形パターン</i>のスケールを制御します。 |
 | <b>最小レベル</b> <i>整数</i> | フラクタルパターンで使用される繰り返しの最小<i>レベル</i>です。 最小値/最大値の範囲が広いほど、より多くの周波数範囲で変化が生じる<i>豊富なパターン</i>になります。 |

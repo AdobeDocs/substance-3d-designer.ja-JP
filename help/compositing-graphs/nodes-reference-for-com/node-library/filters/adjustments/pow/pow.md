@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
-description: 「Pow」ノードを使用すると、明るさのカーブとガンマ補正を制御するためのテクスチャに対して、パワー関数の調整を行うことができます。
+description: Powノードを使用して、テクスチャにパワー関数調整を適用し、明るさカーブとガンマ補正を制御します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
 helpx_experience_level: ""

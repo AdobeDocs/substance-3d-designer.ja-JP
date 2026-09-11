@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
-description: カラー関数ノードを使用して、関数グラフでカラー変換とトーンマッピングの操作を実行します。
+description: カラー関数ノードを使用して、関数グラフでカラー変換やトーンマッピングを行います。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Color
 helpx_experience_level: ""
@@ -36,13 +36,13 @@ HSIからRGB
 
 HSLオフセット
 
-HSLをRGBに
+RGBにHSL
 
 HSVからRGB
 
 リニアsRGBからACEScg
 
-リニアからsRGB（輝度）
+リニアからsRGB(輝度)
 
 リニアからsRGB
 
@@ -61,11 +61,11 @@ RGB色相2極
 
 RGBの色相（六角形）
 
-RGB明度平均
+明度平均
 
-RGB明度バイヘクコーン
+明度バイヘクコーン
 
-RGB明度6角形
+明度六円錐
 
 RGB明度ルミナンス 601
 
@@ -84,17 +84,17 @@ HCLへのRGB
 
 HSIへのRGB
 
-HSLへのRGB
+HSLのRGB
 
 HSVRGB
 
-sRGBをリニアに（輝度）
+sRGBからリニア(輝度)
 
 sRGBからリニア
 
 色温度をsRGBに
 
-ACES tonemapper
+ACE tonemapper
 
 AgXトネマッパー
 

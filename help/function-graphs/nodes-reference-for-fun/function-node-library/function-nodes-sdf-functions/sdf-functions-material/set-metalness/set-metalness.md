@@ -1,6 +1,6 @@
 ---
 title: メタネスの設定
-description: SDFシーンのマテリアルのメタライズを設定します。
+description: SDF シーンのマテリアルのメタル化を設定します。
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '84'
@@ -17,14 +17,14 @@ ht-degree: 2%
 
 ![メタルの設定アイコン](set-metalness.png "メタルの設定")
 
-<b>In:</b> 3D関数>マテリアル
+<b>In:</b> 3D関数> マテリアル
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-SDFシーンのマテリアルのメタライズを設定します。
+SDF シーンのマテリアルのメタル化を設定します。
 
 この値は、[シェイプスプラッタv2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)の&#x200B;*SDFメタネス*&#x200B;出力で、スプラッタされたすべてのSDFシェイプについて取得できます。
 
@@ -40,7 +40,7 @@ SDFシーンのマテリアルのメタライズを設定します。
 
 |                          |                             |
 |--------------------------|-----------------------------|
-| <b>SDFシーン</b> *フロート* | 入力SDFシーン。 |
+| <b>SDF シーン</b> *フロート* | 入力SDF シーン。 |
 | <b>メタル</b> *フロート* | 設定するメタネス値。 |
 
 

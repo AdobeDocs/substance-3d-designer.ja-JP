@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
-description: 3D テクスチャボリュームレンダーノードを使用して、雲やフォグのエフェクトを作成するために3Dデータからボリュームテクスチャをレンダーします。
+description: 3Dテクスチャボリュームレンダーノードを使用して、3Dデータからボリュームテクスチャをレンダーし、雲やフォグのエフェクトを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D テクスチャボリュームレンダリング
+title: 3Dテクスチャボリュームレンダリング
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 3D テクスチャボリュームレンダリング
+# 3Dテクスチャボリュームレンダリング
 
 <table>
 <tr style="border: 0;">
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## 説明
 
-**3D テクスチャボリュームレンダリング**&#x200B;ノードは、**3D 符号付き距離場**&#x200B;の画像入力からの対応する&#x200B;*signed distanceフィールド*&#x200B;を使用して、*3D テクスチャ*&#x200B;によって記述された図形のボリュームをレンダリングします。
+**3Dテクスチャボリュームレンダリング**&#x200B;ノードは、対応する&#x200B;**3D 符号付き距離場**&#x200B;画像入力の&#x200B;*署名付き距離フィールド*&#x200B;を使用して、*3Dテクスチャ*&#x200B;で記述された図形のボリュームをレンダリングします。
 
 体積は&#x200B;*単位キューブ*&#x200B;の境界内で表されます。 照明は、*指向性ライト*&#x200B;と&#x200B;*半球スカイライト*&#x200B;を使用して計算されます。
 
 >[!NOTE]
 >
-> 署名付き距離フィールドは、256スライスの&#x200B;**16x16**&#x200B;テクスチャを持つ図形を表す&#x200B;**4096x4096**&#x200B;グリッドである必要があります。\
-> [3D テクスチャ SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)ノードを使用して、256スライスの3D テクスチャの署名付き距離フィールドを計算できます。
+> 署名付き距離フィールドは、256スライスの&#x200B;**16x16**&#x200B;グリッドを持つ図形を記述する&#x200B;**4096x4096**&#x200B;テクスチャである必要があります。\
+> [3DテクスチャSDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)ノードを使用して、256スライスの3Dテクスチャの署名付き距離フィールドを計算できます。
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>3D 符号付き距離場</b> <i>グレースケール</i> | 図形の<i>符号付きディスタンスフィールド</i>の256 <i>スライス</i>を表す4096 x 4096の画像は、16 x 16グリッドに配置されました。<br>[3D テクスチャ SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)ノードを使用して、256スライスの3D テクスチャの符号付き距離フィールドを計算できます。 |
+| <b>3D 符号付き距離場</b> <i>グレースケール</i> | 図形の<i>符号付き距離フィールド</i>の256 <i>スライス</i>を表す4096 x 4096の画像は、16 x 16グリッドに配置されました。<br>[3D テクスチャ SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)ノードを使用して、256スライスの3D テクスチャの符号付き距離フィールドを計算できます。 |
 | <b>密度</b> <i>グレースケール</i> | 図形の<i>密度</i>の256 <i>スライス</i>を表す4096 x 4096の画像は、16 x 16グリッドに配置されています。 Densityは、グレースケールの値を0 （完全に透明） ～ 1 （完全に不透明）の範囲でマップされます。<br>必要に応じて、[3Dボリュームマスク](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md)または3D ノイズノード（[3Dパーリンノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)、[3Dボロノイ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md)、[3Dリッジノイズフラクタル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md)など）を[3D テクスチャ位置](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)ノードと組み合わせて、256スライスの3D テクスチャとしてボリュームマスクを生成します。 |
 
 <a name="parameters"></a>
@@ -62,7 +62,7 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>出力解像度</b> <i>整数2</i> | <b>X</b>と<b>Y</b>の出力画像の解像度です。<i>2</i>の累乗で表されます。 |
-| <b>カメラの位置</b> <i>浮動小数2</i> | シェイプの周囲のカメラの位置です。<br>ノードを選択した場合は、<b>2D ビュー</b>のポジションギズモを使用して、カメラを<i>軌道</i>できます。 |
+| <b>カメラの位置</b> <i>浮動小数点2</i> | シェイプの周囲のカメラの位置。<br>ノードを選択した場合は、<b>2D ビュー</b>のポジションギズモを使用して、カメラを<i>軌道</i>できます。 |
 | <b>明るい位置</b> <i>浮動小数点2</i> | 図形の周囲の<i>指向性ライト</i>の位置です。<br>節点を選択すると、光源の<b>2D ビュー</b>にある位置ギズモを使用して<i>軌道</i>できます。 |
 | <b>カメラの距離</b> <i>フロート</i> | カメラからシェイプまでの距離です。 |
 | <b>カメラの視野</b> <i>フロート</i> | カメラの視野（<i>度</i>）。 |

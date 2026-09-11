@@ -10,7 +10,7 @@ helpx_tags: ""
 title: スプラッタ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter.png)
+![](splatter.resources/splatter.png)
 
-![](../../../../../../assets/splatter-color.png)
+![](splatter.resources/splatter-color.png)
 
 <b>イン：</b>テクスチャジェネレーター>パターン
 
@@ -60,7 +60,7 @@ ht-degree: 9%
 | <b>パンX</b> <i>-100.0 - 100.0</i> | X軸上で結果を丸ごとパンします。 |
 | <b>パンY</b> <i>-100.0 - 100.0</i> | 結果をY軸にパンします。 |
 | <b>障害</b> <i>0.0 - 100.0</i> | シェイプをランダムにシフトします。 |
-| <b>グリッド番号</b> <i>0 - 8</i> | 結果のスケールを調整するために、様々なグリッドサイズにジャンプします。 タイリングを維持します。 |
+| <b>グリッド番号</b> <i>0 - 8</i> | 結果のスケールを調整するために、様々なグリッドサイズにジャンプします。 タイルを維持します。 |
 | <b>乱雑な角度</b> <i>0.0 - 360.0</i> | 乱れの変化の角度をコントロールします。 |
 | <b>ランダムな障害</b> <i>False/True</i> | 乱れの角度をランダム化し、さらにカオスを加えます。 |
 | <b>パターンサイズ</b> <i>5 - 12</i> |  |
@@ -77,7 +77,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/splatter-ex.gif" />
+            <img src="splatter.resources/splatter-ex.gif" />
         </td>
     </tr>
 </table>

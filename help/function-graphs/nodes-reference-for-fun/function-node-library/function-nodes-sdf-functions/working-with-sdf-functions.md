@@ -20,14 +20,14 @@ ht-degree: 0%
 
 # SDF 関数の操作
 
-バージョン16.0.0で、Substance 3D DesignerはSDF 関数を作成するための強力なノードのセットを導入しました。このノードを使用して、手続き型の3Dシェイプを作成および操作できます。
+バージョン16.0.0で、Substance 3D DesignerはSDF 関数を作成するための強力なノードのセットを導入しました。このノードを使用して、プロシージャルした3Dシェイプを作成および操作できます。
 
 SDF 関数は、ツールセットで使用可能なSDFノードを組み合わせたSubstance関数グラフで、SDF 関数をサポートするノードの専用パラメータに適用されます。
 
 作業を開始する前に、基本的なワークフローを以下に示します。
 
 1. [3Dビューア](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)ノードで、結果を視覚化するSDF 関数を作成します。
-2. 最終関数グラフをコピーします（または[インスタンス化](../../../../glossary/glossary.md#instance-node)）。[Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)など、SDF 関数をサポートするノードのSDF 関数パラメーターにコピーします。
+2. 最終的な関数グラフをコピー（または[インスタンス化](../../../../glossary/glossary.md#instance-node)）して、[Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)などのSDF 関数をサポートするノードのSDF 関数パラメーターにコピーします。
 
 <img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Substance 3D Designerの3D SDF 関数ノード機能のモーショングラフ" />
 
@@ -44,9 +44,9 @@ SDF 関数は、ツールセットで使用可能なSDFノードを組み合わ�
     </tr>
 </table>
 
-これらの関数は、表面の描画、影の投影、輪郭マスク、衝突検出など、コンピュータグラフィックスの多くのアプリケーションを備えています。
+これらの機能は、画面の描画、影のキャスト、コンターマスク、衝突検出など、コンピューターグラフィックスで多くの用途に使用されています。
 
-Substance 3D Designerでは、SDF 関数を使用して3Dシェイプを手続き型に編集します。
+Substance 3D Designerでは、SDF 関数を使用してプロシージャルした方法で3Dシェイプを作成および操作します。
 
 ### SDF 関数の出力と意図された使用
 
@@ -60,19 +60,19 @@ SDF 関数ノードは、1つの浮動小数値、つまり最も近いサーフ
 
 ### Substance関数グラフ
 
-SDF 関数ノードは、専用のSubstance関数グラフで使用することを目的としているため、そのグラフの種類でのみ使用できます。
+SDF 関数ノードは専用のSubstance関数グラフで使用されるため、そのグラフの種類でのみ使用できます。
 関数として表現するノードパラメーターでは、「関数の編集」ボタンを使用します。
 
 Substance関数グラフについて知っておくべきこと：
-* Substanceグラフと同様に、ノードコネクタは&#x200B;*特殊化*&#x200B;されています。つまり、種類[&#128279;](../../function-nodes-overview/function-nodes-overview.md#color-coding)を表す&#x200B;*一致する色* の他のコネクタにのみ接続できます。
+* グラフと同様に、nodes コネクターは&#x200B;*specialized*&#x200B;です。つまり、型[&#128279;](../../function-nodes-overview/function-nodes-overview.md#color-coding)を表す&#x200B;*一致する色* の他のコネクターにのみ接続できます。
 * ノードにはパラメータはなく、入力のみを持つことができます。 （ただし、いくつかの例外があります）。
-* グラフには単一の出力ノードがあります。 ノードを右クリックし、`Set as output`を選択して出力ノードとして指定します。
-* また、Substanceグラフと同様に、基本構成要素である&#x200B;*atomic*&#x200B;個のノードと、他のSubstance関数グラフを表す&#x200B;*instance*&#x200B;個のノードがあります。
-* グラフの値に対して操作を実行できる個別の演算子（代数演算子、論理演算子、および比較演算子）がありますが、SDFノードには[独自の演算子](#operators)があります
+* グラフには出力ノードが1つあります。 ノードを右クリックし、`Set as output`を選択して出力ノードとして指定します。
+* グラフと同様に、基本ビルディングブロックである&#x200B;*atomic*&#x200B;ノードと、他のSubstance関数グラフを表す&#x200B;*instance*&#x200B;ノードがあります。
+* グラフ内の値に対して演算を実行できる個別の演算子（代数演算子、論理演算子、比較演算子）がありますが、SDFノードには[独自の演算子](#operators)があります
 
 +++ SDF 関数を定義する関数グラフの例
 
-![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
+![working-with-sdf-function-グラフ.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
 
 +++
 
@@ -80,9 +80,9 @@ Substance関数グラフについて知っておくべきこと：
 
 SDF 関数を作成するには、まずノードを視覚化して、調整するノードとパラメーターの効果を理解する必要があります。
 
-[3Dビューア](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)ノードには、ノードを使用して作成された図形を視覚化する専用モードがあります。SDF 関数の<b>シーンの種類</b>パラメーターを`SDF function`に設定し、**関数の編集**&#x200B;ボタンをクリックして、SDF 関数自体をホストする関数グラフを開きます。
+[3Dビューア](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)ノードには、ノードを使用して作成された図形を視覚化するための専用モードがあります。SDF 関数の<b>シーンの種類</b>パラメーターを`SDF function`に設定し、**関数の編集**&#x200B;ボタンをクリックして、SDF 関数自体をホストする関数グラフを開きます。
 
-このノードは、バウンディングフレームやアイソラインなど、SDF 関数の様々な側面を直感的かつ効率的に視覚化するための専用機能を提供します。
+このノードは、バウンディングフレームやアイソラインなど、より直感的かつ効率的にSDF 関数の側面を視覚化するための専用機能を提供します。
 
 [物理的な太陽/空](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md)ノードを使用すると、3Dビューアーで環境照明をすばやく設定できます。
 
@@ -90,16 +90,16 @@ SDF 関数を作成するには、まずノードを視覚化して、調整す�
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>すべてのSDF 関数ノードとその入力コネクタには、その目的と使用方法を詳しく説明するツールチップがあります。</p><p>ぜひチェックしてみてください。</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="SDF 関数ノードの入力コネクタのツールチップ。" /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>すべてのSDF 関数ノードとその入力コネクターには、その目的と使用方法に関する詳細を知らせるツールチップがあります。</p><p>ぜひチェックしてみてください。</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="SDF 関数ノードの入力コネクターのツールチップ。" /></td></tr></table>
 
 ### ノード値の設定
 
-Substance関数グラフのすべてのノードと同様に、SDF 関数ノードにはパラメータがなく、パラメータとして使用される入力コネクタのみが含まれます。
+Substance関数グラフのすべてのノードと同様に、SDF 関数ノードにはパラメータがなく、パラメータとして使用される入力コネクターのみが含まれます。
 
-これらの入力の値を設定するには、**Float**、**Float3**、**Integer3**&#x200B;などの[定数ノード](../../atomic-function-nodes/constant-nodes/constant-nodes.md)を使用できます。\
-ノードメニューを使用して通常の方法で接続を作成することも、コネクタから新しい接続をドラッグして、一致するタイプのノードのフィルタ処理されたリストからメリットを得ることもできます。
+これらの入力の値を設定するには、[定数ノード](../../atomic-function-nodes/constant-nodes/constant-nodes.md)を使用します（**浮動小数**、**浮動小数3**、**整数3**&#x200B;など）。\
+ノードメニューを使用して通常の方法で作成するか、またはノードから新しいコネクションをドラッグして、一致するタイプのコネクターのフィルタリングされたリストからメリットを得ることができます。
 
-SDF 関数ノードのほとんどの入力コネクタにはデフォルト値があります。この値はツールチップに表示されます。
+SDF 関数ノードのほとんどの入力コネクターにはデフォルト値があります。この値はツールチップに表示されます。
 
 <img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="SDFプリミティブの編集に使用する定数ノード。" />
 
@@ -335,12 +335,12 @@ SDF図形にはマテリアルIDを割り当てることができます。マテ
     </tr>
 </table>
 
-### 材料サンプル
+### マテリアルサンプル
 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p><b>錆びたボルト</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">マテリアルサンプル</a>を使用すると、シェイプスプラッタv2ノードのコンテキストで適用されたSDF 関数にジャンプできます。</p><p>グラフの構造、ノード設定、およびSDF 関数設定をガイドするように、ノードが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2とSDF 関数ツールセットについて実践的に理解することができます。 好きなだけサンプルグラフを作って頂けるので、自由に試してみてください。</p>
+            <p><b>錆びたボルト</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">マテリアルサンプル</a>を使用すると、シェイプスプラッタv2ノードのコンテキストで適用されたSDF 関数にジャンプできます。</p><p>グラフの構造、ノード設定、およびSDF 関数設定をガイドするように、ノードが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2とSDF 関数ツールセットについて実践的に理解することができます。 サンプルグラフは好きなだけ作れるので、自由に試してみてください。</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
             <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />

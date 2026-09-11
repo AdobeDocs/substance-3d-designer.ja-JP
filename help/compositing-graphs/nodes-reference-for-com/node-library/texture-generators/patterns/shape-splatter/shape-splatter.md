@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シェイプスプラッタ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter.png){width="128px"}
+![](shape-splatter.resources/shape-splatter.png){width="128px"}
 
-<b>イン：</b>テクスチャジェネレーター>パターン
+<b>イン：</b> テクスチャジェネレーター>パターン
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ ht-degree: 7%
 | <b>スケール（重なりを除く）</b> <i>0.0 - 1.0</i> | タイルが重ならないように、均一に（ただし下のみ）拡大・縮小をランダムに行います。 前の2つのパラメータと一緒に使用しないでください。 |
 | <b>スケールマップマルチプライヤ</b> <i>0.0 - 1.0</i> | スケールマップの影響を設定します。 |
 | <b>サイズ</b> <i>0.0 - 1.0</i> | タイルを不均等にスケーリングできます。 |
-| <b>Bg 勾配からのサイズ比</b> <i>0.0 - 1.0</i> | 背景マップ勾配（計算済みの法線）を使用して、タイルを不均一に尺度変更します。 遠近ワープをシミュレートします。 |
+| <b>Bg 勾配からのサイズ比</b> <i>0.0 - 1.0</i> | 背景マップ勾配（計算済みの法線）を使用して、タイルを不均一に尺度変更します。 遠近法ワープをシミュレートします。 |
 | <b>サイズ（X/Y量比）</b> <i>0.0 - 1.0</i> | XとYの量の異なる比率を補正するための不均等なスケーリング。 |
 | <b>位置</b> |  |
 | <b>ランダムな配置</b> <i>0.0 - 2.0</i> | すべてのタイルに対してオプションをランダムにオフセット |

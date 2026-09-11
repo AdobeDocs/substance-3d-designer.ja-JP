@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDLライブラリ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ NVIDIAの[vMaterials](https://developer.nvidia.com/vmaterials)ライブラリが
 </td>
 <td style="border: 0;" valign="top">
 
-![ライブラリのMDLリソース](../../assets/mdl-library.png "ライブラリのMDLリソース")
+![ライブラリのMDLリソース](mdl-library.resources/mdl-library.png "ライブラリのMDLリソース")
 
 ライブラリの&#x200B;*「mdl」セクション、vMaterialsライブラリ、およびカスタムコンテンツはフレーム化されています*
 
@@ -71,6 +71,6 @@ Irayレンダラーを使用する場合、ライブラリで使用可能なす�
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * [MDLグラフ](../../mdl-graphs/mdl-graphs.md)を読み込みました
 
-![3DビューのMDLマテリアル](../../assets/mdl-apply-in-3dview-material-list.png "3DビューのMDLマテリアル")
+![3DビューのMDLマテリアル](mdl-library.resources/mdl-apply-in-3dview-material-list.png "3DビューのMDLマテリアル")
 
 *3DビューのMDLマテリアル*

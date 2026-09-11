@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのぼかしフィルターノードにアクセスして、テクスチャを滑らかにしたり柔らかくしたりするためのさまざまなブラー効果を適用します。
+description: Substance 3D Designerのぼかしフィルターノードを使用すると、テクスチャを滑らかにしたりソフトにしたりするための様々なブラーエフェクトを適用できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs
 helpx_experience_level: ""

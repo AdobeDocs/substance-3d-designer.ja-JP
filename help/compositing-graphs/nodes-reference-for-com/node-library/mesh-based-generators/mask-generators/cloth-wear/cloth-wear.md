@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
 マスクは、布マテリアルのエッジのすり切れを表します。 効果の大部分を決定する布地のディテールの高さマップを使用します。適切なマップがなければ、効果は非常に基本的に見えます。
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 |:---|:---|
 | <b>布のHeight</b> <i>グレースケール入力</i> | 布パターンのみのHeight。 これは、（ベイクされた）オブジェクトのHeightではなく、タイリングの詳細パターンです。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
-| <b>曲線</b> <i>グレースケール入力</i> | 隆起したエッジを判別するためのベイク/生成された曲率。 |
+| <b>曲率</b> <i>グレースケール入力</i> | 隆起したエッジを判別するためのベイク/生成された曲率。 |
 
 <a name="parameters"></a>
 

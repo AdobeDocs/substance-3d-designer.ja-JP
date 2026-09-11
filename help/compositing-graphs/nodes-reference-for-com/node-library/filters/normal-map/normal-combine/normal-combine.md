@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
-description: '[法線の結合]ノードを使用して、サーフェスの詳細と詳細をレイヤ化するための複数の法線マップを結合します。'
+description: サーフェスのディテールとディテールを重ね合わせるために複数の法線マップを組み合わせるには、 Normal Combineノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Combine
 helpx_experience_level: ""
@@ -41,9 +41,9 @@ ht-degree: 4%
 </tr>
 </table>
 
-これは、2Dで生成された法線マップの詳細をベイク済みマップに加える最も適切な方法です。
+これは、2Dで生成された法線マップのディテールをベイク済みマップに加える最も適切な方法です。
 
-2つの法線マップのディテールを結合せずに（マスクを使用するなどして） 2つの法線マップをブレンドするには、[法線のブレンド](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)を使用する必要があります。
+マスクなどを使用して、ディテールを結合せずに2つの法線マップをブレンドする場合は、[通常のブレンド](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)を使用する必要があります。
 
 <a name="inputs"></a>
 

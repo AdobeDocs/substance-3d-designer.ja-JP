@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 注釈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![コメントアイコン](../../../../assets/graphatomic-comment_1.png "コメントアイコン")
+![コメントアイコン](comment.resources/graphatomic-comment_1.png "コメントアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![コメント：親になったコメント](../../../../assets/graph-comment_parented.gif "コメント：親になったコメント")
+![コメント：親になったコメント](comment.resources/graph-comment_parented.gif "コメント：親になったコメント")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 1%
 
 ## HTMLの書式設定
 
-HTMLタグを使用してテキストを書式設定できます。 この書式設定は、コメントの<b>Description</b>プロパティの![](../../../../assets/graph-frames_html-markup-button.png) <b>HTMLマークアップ</b>ボタンを使用して切り替えられます。
+HTMLタグを使用してテキストを書式設定できます。 この書式設定は、コメントの<b>Description</b>プロパティの![](comment.resources/graph-frames_html-markup-button.png) <b>HTMLマークアップ</b>ボタンを使用して切り替えられます。
 
 >[!TIP]
 >
 > この機能について詳しくは、[フレーム](../../../../interface/the-graph-view/graph-items/frame/frame.md)のドキュメントの<b>説明</b>セクションを参照してください。
 
-![注釈：HTML注釈](../../../../assets/graph-comment_html-markup.gif "注釈：HTML注釈")
+![注釈：HTML注釈](comment.resources/graph-comment_html-markup.gif "注釈：HTML注釈")

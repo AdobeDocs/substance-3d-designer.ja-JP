@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概要
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 他のアプリケーションと比較した結果は次のとおりです。
 
-|  | <div><img alt="Substance 3D Samplerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Samplerアイコン" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painterアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designerアイコン" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Samplerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D Samplerアイコン" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painterアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designerアイコン" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>学習曲線</b> | 低 | 中 | 高 |
 | <b>マテリアルの作成</b> | はい | はい | はい |
@@ -60,7 +60,7 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### Substance 3Dファイル
 
@@ -71,7 +71,7 @@ Substanceファイルは、Designerの&#x200B;**メインソースファイル**
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Substance 3D アセット
 
@@ -82,7 +82,7 @@ Substanceアーカイブは<b>個のコンパイル済み最適化された</b>�
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### 静的ファイル
 
@@ -104,7 +104,7 @@ Substance 3Dファイルには、様々な目的を持つ様々なリソース�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

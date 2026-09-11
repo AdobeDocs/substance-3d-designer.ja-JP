@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数の作成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Setノードの使用は少し特殊です。
 >
 > 作成する変数が複数ある場合は、*Set*&#x200B;と&#x200B;*Sequence*&#x200B;のノード作成操作を繰り返し、最後のシーケンスノードを出力ノードとして設定します。
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)

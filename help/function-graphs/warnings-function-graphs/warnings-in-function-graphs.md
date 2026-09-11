@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 関数グラフの警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 警告は、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。\
 関数が[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)のパラメーター&#x200B;*に適用されている*&#x200B;場合、警告が発生すると、そのパラメーターに関して「*[x]パラメーターの関数にエラーがあります*」が発生します。
 
-## ![（エラー）](../../assets/error.svg)出力ノードが定義されていません
+## ![（エラー）](warnings-in-function-graphs.resources/error.svg)出力ノードが定義されていません
 
 関数に出力ノードが定義されていません。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-function-graphs.resources/check.svg)ソリューション**
 
 この関数に予期される型と一致する値を出力するグラフ内のノードがある場合は選択し、RMBをクリックして、コンテキストメニューの&#x200B;**出力ノードとして設定**&#x200B;オプションを選択します。\
 関数グラフの出力ノードは&#x200B;*オレンジ*&#x200B;色で表示されます。
@@ -45,13 +45,13 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output.gif)
 
 </td>
 </tr>
 </table>
 
-### ![（エラー）](../../assets/error.svg)現在の出力ノードは、型&#x200B;*x*&#x200B;の値を返します
+### ![（エラー）](warnings-in-function-graphs.resources/error.svg)現在の出力ノードは、型&#x200B;*x*&#x200B;の値を返します
 
 関数の出力ノードは、その関数で期待される出力値の型と一致しない値を返します。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-function-graphs.resources/check.svg)ソリューション**
 
 この関数に対して期待される型と一致する値を出力するグラフ内のノードを選択し、[RMB]をクリックして、コンテキストメニューの&#x200B;**出力ノードとして設定**&#x200B;オプションを選択します。\
 関数グラフの出力ノードは&#x200B;*オレンジ*&#x200B;色で表示されます。
@@ -71,13 +71,13 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
 
 </td>
 </tr>
 </table>
 
-### ![（エラー）](../../assets/error.svg)一部のGetノードに変数名がありません
+### ![（エラー）](warnings-in-function-graphs.resources/error.svg)一部のGetノードに変数名がありません
 
 1つ以上の[Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)ノードの<b>Get...</b>プロパティが空白のままです。したがって、変数がないことを示しています。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-function-graphs.resources/check.svg)ソリューション**
 
 この警告を発生させているGetノードの&#x200B;**Get...**&#x200B;プロパティに、関数のスコープ&#x200B;*で使用可能な変数*&#x200B;の名前と一致する文字列を入力してください。
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
 
 </td>
 </tr>
 </table>
 
-### ![（エラー）](../../assets/error.svg)一部のSetノードに変数名がありません
+### ![（エラー）](warnings-in-function-graphs.resources/error.svg)一部のSetノードに変数名がありません
 
 1つ以上の[Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)ノードの&#x200B;**Set**&#x200B;プロパティが空白のままであるため、変数がないことを示しています。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-function-graphs.resources/check.svg)ソリューション**
 
 この警告を発生させたSetノードの&#x200B;**Set**&#x200B;プロパティに任意の文字列を入力してください。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
 
 </td>
 </tr>

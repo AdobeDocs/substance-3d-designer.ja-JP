@@ -10,7 +10,7 @@ helpx_tags: ""
 title: If式の表示
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 * グラフの[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノード；
 * グラフの[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードです。
 
-![入力パラメーターの表示を切り替えています](../../assets/visible-if-example.gif "入力パラメーターの表示を切り替えています"){width="512px"}
+![入力パラメーターの表示を切り替えています](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "入力パラメーターの表示を切り替えています"){width="512px"}
 
 論理式が`true`と評価される場合、パラメーター、入力または出力は、現在のグラフを表すすべての[インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)に表示されます。 それ以外の場合は、*非表示*&#x200B;になります。
 
@@ -93,7 +93,7 @@ input["identifier"]
 | 真 | ` input["my_input"]   input.my_input `  ` input["my_input"] == true   input.my_input == true ` | my\_inputはブール値です |
 | 偽 | ` !input["my_input"]   !input.my_input `  ` input["my_input"] == false   input.my_input == false `  ` input["my_input"] != true   input.my_input != true ` | my\_inputはブール値です |
 | より低い | ` input["my_input"] < 3   input.my_input < 3 ` | my\_inputは整数値です |
-| 次と等しい | ` input["param1"] == 2   input.param1 == 2 ` | param1は浮動小数点数または整数値です |
-| より低い | ` input["my_input"].y < 3   input.my_input.y < 3 ` | my\_inputは、1つ以上の要素を持つ浮動小数点または整数値です – 例えば、float2(x, y), integer3(x, y, z) |
+| 次と等しい | ` input["param1"] == 2   input.param1 == 2 ` | param1は浮動小数点値または整数値です |
+| より低い | ` input["my_input"].y < 3   input.my_input.y < 3 ` | my\_inputは、1つ以上の要素を持つ実数または整数値です – 例： float2(x, y), 整数3(x, y, z) |
 | Or | ` input["param1"] \|\| input["param2"]   input.param1 \|\| input.param2 ` | param1とparam2はブール値です |
 | And | ` input["param1"] > 0 && input["param2"] > 1   input.param1 > 0 && input.param2 > 1 ` | param1とparam2は浮動小数点値または整数値です |

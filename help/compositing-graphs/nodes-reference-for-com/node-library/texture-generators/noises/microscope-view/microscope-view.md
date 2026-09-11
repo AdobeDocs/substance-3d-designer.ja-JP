@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 顕微鏡像
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/microscope-view.png){width="128px"}
+![](microscope-view.resources/microscope-view.png){width="128px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -47,15 +47,15 @@ ht-degree: 8%
 |:---|:---|
 | <b>スケール</b> <i>0 - 10</i> | エフェクトのグローバルスケールを設定します。 |
 | <b>ワープの強さ</b> <i>0.0 - 1.0</i> | ワープ効果の強さを設定します。 ダブルクリックして–1と入力すると、負の値を指定することもできます。 |
-| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を生じさせる |
-| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+| <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/microscope-view-ex.gif" />
+            <img src="microscope-view.resources/microscope-view-ex.gif" />
         </td>
     </tr>
 </table>

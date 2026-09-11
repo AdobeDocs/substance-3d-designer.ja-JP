@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ショートカット
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
@@ -32,11 +32,11 @@ ht-degree: 18%
 
 **ウィンドウ**
 
-![Windowsのキーボードショートカット](../../assets/keyboard_shortcuts_win.png "Windowsのキーボードショートカット"){zoomable="yes"}
+![Windowsのキーボードショートカット](shortcuts.resources/keyboard_shortcuts_win.png "Windowsのキーボードショートカット"){zoomable="yes"}
 
 **macOS**
 
-![macOSのショートカットキー](../../assets/keyboard_shortcuts_mac.png "macOSのショートカットキー"){zoomable="yes"}
+![macOSのショートカットキー](shortcuts.resources/keyboard_shortcuts_mac.png "macOSのショートカットキー"){zoomable="yes"}
 
 ## ショートカットリスト
 

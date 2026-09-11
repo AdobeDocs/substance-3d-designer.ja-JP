@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDLグラフの主な概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -33,7 +33,7 @@ MDLマテリアルでは、物理ベースのレンダリングソリューシ�
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Irayロゴ](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Irayロゴ](main-mdl-graph-concepts.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ MDLグラフの結果は、<b>Root</b>ノードによって定義されます。
 
 ルートノードには、現在の出力のプレビューを表示するサムネールが含まれています。
 
-![MDLグラフのルートノード](../../assets/mdl-root-hl.png "MDLグラフのルートノード")
+![MDLグラフのルートノード](main-mdl-graph-concepts.resources/mdl-root-hl.png "MDLグラフのルートノード")
 
 *MDLグラフのルートノードとそのプロパティが[プロパティ](../../interface/properties/properties.md)* *パネル*&#x200B;に表示されました
 
@@ -81,7 +81,7 @@ MDLグラフにはDesignerの他のグラフよりもはるかに多くのデー
 >
 > *一致するデータ型*&#x200B;のコネクターのみをリンクできます。 色分けの唯一の目的は、グラフに渡されるデータの種類や、どのコネクターをリンクさせるかについて、読みやすさを向上させることです。
 
-![MDLノードコネクターの種類](../../assets/mdl-connector-types.png "MDLノードコネクターの種類"){width="512px"}
+![MDLノードコネクターの種類](main-mdl-graph-concepts.resources/mdl-connector-types.png "MDLノードコネクターの種類"){width="512px"}
 
 *コネクターのアスペクトは、I/O値の種類によって異なります。I/O 識別子の後に括弧内に表示されます*
 
@@ -101,7 +101,7 @@ MDLグラフにはDesignerの他のグラフよりもはるかに多くのデー
 * *リンクを*&#x200B;出力&#x200B;*コネクタからドラッグ*&#x200B;してノードメニューを表示すると、一覧には、*最初の入力*&#x200B;のデータ型が選択した&#x200B;*出力*&#x200B;のデータ型と一致するノードが含まれます
 * *リンクを*&#x200B;入力&#x200B;*コネクタからドラッグ*&#x200B;してノードメニューを表示すると、リストには、*出力*&#x200B;のデータ型が&#x200B;*選択された入力*&#x200B;のデータ型と一致するノードが含まれます
 
-![フィルター処理されたノードの作成](../../assets/mdl-filtered-node-creation.gif "フィルター処理されたノードの作成")
+![フィルター処理されたノードの作成](main-mdl-graph-concepts.resources/mdl-filtered-node-creation.gif "フィルター処理されたノードの作成")
 
 *MDLグラフでフィルター処理されたノードの作成です。一覧は、コネクタの値の種類に応じて変わります*
 
@@ -111,6 +111,6 @@ MDLマテリアルは、外部ソースから、値やテクスチャなどの�
 
 データは、*型*&#x200B;に応じて公開されたノードに渡すことができます。 たとえば、浮動小数点の値を、公開された<b>float</b>ノードに渡し、テクスチャを、公開された<b>color</b>ノードに渡すことができます（この場合、サンプリングされたピクセルのRGBA値はカラー値として渡されます）。
 
-![公開されたグラフ入力](../../assets/mdl-graph-inputs-samplers.png "公開されたグラフ入力")
+![公開されたグラフ入力](main-mdl-graph-concepts.resources/mdl-graph-inputs-samplers.png "公開されたグラフ入力")
 
 *公開されたノードは、テクスチャの未加工値入力およびサンプラーの両方であるグラフ入力を作成します*

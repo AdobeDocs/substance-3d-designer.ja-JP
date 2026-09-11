@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 円弧舗装
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/arcpavement-ex.png)
+![](arc-pavement.resources/arcpavement-ex.png)
 
 <b>イン：</b>テクスチャジェネレーター>パターン
 
@@ -60,14 +60,14 @@ ht-degree: 11%
 | <b>グローバルパターン幅ランダム</b> <i>0.0 - 1.0</i> | タイル間の隙間を広げずに、タイルの幅をランダムに変化させます。 |
 | <b>パターンのHeightを下げる</b> <i>0.0 - 1.0</i> | 各弧の端でタイルのHeightを押し潰すかどうかをコントロールします。 |
 | <b>カラーランダム</b> <i>0.0 - 1.0</i> | タイルのカラーをランダム化します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/arcpavement-ex.png" />
+            <img src="arc-pavement.resources/arcpavement-ex.png" />
         </td>
     </tr>
 </table>

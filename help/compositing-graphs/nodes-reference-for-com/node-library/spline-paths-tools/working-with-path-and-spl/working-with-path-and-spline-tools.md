@@ -144,7 +144,7 @@ ht-degree: 0%
 パスノードは、カラー画像にエンコードされたパスのデータを出力するので、「パスをプレビュー」ノードは必須です。\
 このエンコードは、[パス形式の仕様](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)ページで説明されている仕様に従っています。
 
-この仕様を使用して、この形式を使用して独自のノードを作成し、[パス頂点プロセッサー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)のノードを最大限に活用できます。
+この仕様を使用して、このフォーマットを使用して独自のノードを作成し、[Paths 頂点プロセッサ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)のノードを最大限に活用できます。
 
 ![ライブラリ内のスプラインツール](working-with-path-and-spline-tools.resources/SplineTools.jpg "ライブラリ内のスプラインツール")
 
@@ -189,15 +189,15 @@ ht-degree: 0%
 
 ### スプライン入力および出力
 
-スプラインは、1つのノードから別のノードに、コネクタのグループを使用して渡されます。
+スプラインは、コネクターのグループを使用して1つのノードから別のノードに渡されます。
 
 * <b>スプライン座標&#x200B;</b>*色*&#x200B;入力スプラインの点の座標は、カラー画像のRGBAチャンネルでエンコードされます。
 * <b>スプラインデータ&#x200B;</b>*色*&#x200B;カラー画像のRGBAチャンネルにエンコードされた入力スプラインの追加データ。
 * <b>スプラインの量&#x200B;</b>*整数*&#x200B;入力スプラインの数です。
 
-ソースノードの各出力コネクタは、ターゲットノードの名前が一致する入力コネクタに接続されている必要があります。
+ソース・ノードの各出力コネクターは、ターゲット・ノードの名前が一致する入力コネクターに接続されている必要があります。
 
-これらの接続を高速化するには、<b>マテリアル</b>を使用するか、<b>マテリアルを圧縮</b>します [リンク作成モード](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 これにより、1回の操作で3つのスプラインコネクタを接続できます。
+<b>マテリアル</b>を使用するか、<b>コンパクトマテリアル</b>を使用すると、これらの接続を高速化できます [リンク作成モード](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 これにより、1回の操作で3つのスプラインコネクターを接続できます。
 
 <table>
 <tr style="border: 0;">

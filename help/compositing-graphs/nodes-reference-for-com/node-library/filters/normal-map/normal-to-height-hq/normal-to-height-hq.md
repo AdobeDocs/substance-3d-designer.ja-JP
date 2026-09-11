@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
-description: '[法線からHeightへ] HQノードを使用して、サーフェスの詳細を抽出するために法線マップを高品質の高さマップに変換します。'
+description: '[法線からHeightへ] HQノードを使用して、サーフェスの詳細を抽出するために法線マップを高品質のHeightマップに変換します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 説明
 
-正接空間のノーマルマップを再びハイトマップに変換しようとする逆変換ノード。 これは、より高度なノードです。[Heightに対して標準](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)では、選択肢が少なく、異なる計算を使用します。
+接線空間の法線マップを再び高さマップに変換しようとする逆変換ノード。 これは、より高度なノードです。[Heightに対して標準](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)では、選択肢が少なく、異なる計算を使用します。
 
 ノーマルマップソースしかなくても、ハイトマップと組み合わせて操作を実行したい場合に便利です。 Heightを通常に変換すると情報が失われるため、100%正しい結果を得ることはできないことに注意してください。 正しく生成されたHeightmapを置き換えることはできません。
 

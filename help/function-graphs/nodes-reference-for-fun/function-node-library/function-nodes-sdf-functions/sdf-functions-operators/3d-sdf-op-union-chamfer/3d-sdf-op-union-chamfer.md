@@ -1,6 +1,6 @@
 ---
 title: ユニオン面取り
-description: Designer/Substance合成グラフ/ノード合成の参照Substance合成グラフ/Node library/SDF 関数/演算子/結合面取り
+description: Designer > Substance合成グラフ >ノード合成のノードリファレンスグラフ > Substanceライブラリ> SDF 関数 >演算子>ユニオン面取り
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '101'

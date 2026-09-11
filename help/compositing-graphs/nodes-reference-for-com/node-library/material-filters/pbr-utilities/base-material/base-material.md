@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
 breadcrumb-title: ''
-description: ベースマテリアルノードを使用して、物理ベースのベースマテリアルを最初から構築するためのマテリアルプロパティを作成します。
+description: ベースマテリアルノードを使用して、物理的なベースのマテリアルをゼロから構築するためのベースマテリアルプロパティを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > Base Material
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## 説明
 
-[Adobe Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)でマルチチャンネルマテリアルをすばやく簡単に作成できます。 このノードは、単純な単色の設定と値に基づいてバンドルされたフルマテリアルを返します。 これをプレースホルダーとして使用したり、複雑なマテリアルに調整したりできます。
+[Adobe Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)でマルチチャンネルマテリアルを作成する最も簡単で迅速な方法です。 このノードは、単純な単色の設定と値に基づいて、バンドルされたFullマテリアルを返します。 これをプレースホルダーとして使用したり、複雑なマテリアルに調整したりすることができます。
 
-このノードは、フルプロップをテクスチャリングして複数のマテリアルをブレンドする場合に非常に便利です。 実際、複雑なマテリアルベースを必要とせずに、このノードからマテリアルを1つずつ開始できます。
+このノードは、完全なプロップをテクスチャリングして複数のマテリアルをブレンドする場合に非常に便利です。 実際、複雑なマテリアルベースを必要とせずに、このノードからすべてのマテリアルを開始することができます。
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ ht-degree: 6%
 |:---|:---|
 | <b>PBRワークフロー</b> <i>金属 – ラフネス、Specular - 光沢度</i> | 使用するPBRモデルを設定します。 |
 | <b>マテリアルプリセット</b> <i>カスタム、誘電体、金、銀、アルミニウム、鉄、銅、チタン、ニッケル、コバルト、プラチナ</i> | 特定の金属を作成するためのクイックショートカット。 無関係なオプションを無効にします。 |
-| <b>Base color</b> <i>（カラー値）</i> | base colorに使用される単色です。 |
+| <b>基本色</b> <i>（カラー値）</i> | base colorに使用される単色です。 |
 | <b>メタリック</b> <i>（グレースケール値）</i> | メタリックに使用される実数値。 |
 | <b>Diffuseの色</b> <i>（カラー値）</i> | Diffuseに使用される単色です。 |
 | <b>Specular</b> <i>（カラー値）</i> | Specularに使用される単色です。 |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ライセンス認証とライセンス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## ライセンス認証手順（Substance版）
 
-### ライセンス認証ウィザードの使用
+### アクティベーションウィザードの使用
 
 次の3つの選択肢があります。
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 >
 > ライセンスファイルをアクティベーションウィザードと共にインストールするには、Designerを管理者として実行し、ウイルス対策を一時的に無効にしてください。
 
-![ライセンス認証ウィザード](../../assets/activation-wizard.png "ライセンス認証ウィザード")
+![ライセンス認証ウィザード](activation-and-licenses.resources/activation-wizard.png "ライセンス認証ウィザード")
 
 ### 手動アクティベーション
 
