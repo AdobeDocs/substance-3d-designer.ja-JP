@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
-description: グラフビューのナビゲーションピンを使用すると、Substance 3D Designerグラフの様々な場所の間をすばやくジャンプできます。
+description: グラフビューのナビゲーションピンを使用すると、Substance 3D Designer グラフの様々な場所をすばやくジャンプできます。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items > Pin
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ピン
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,12 +24,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ナビゲーションピンアイコン](../../../../assets/graphatomic-pin_1.png "ナビゲーションピンアイコン")
+![ナビゲーションピンアイコン](navigation-pin.resources/graphatomic-pin_1.png "ナビゲーションピンアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-ピンは、グラフ内の特定の場所をすばやく移動できるヘルパーです。
+ピンは、グラフ内の特定の場所をすばやくジャンプできるヘルパーです。
 
 カスタムラベルは、<b>Description</b>プロパティを使用して設定できます。
 
@@ -39,43 +39,43 @@ ht-degree: 1%
 
 ## ピンの作成
 
-ピンは、次のいずれかの方法で作成できます。
+ピンは次のいずれかの方法で作成できます。
 
 +++ノードメニュー
-グラフ表示で<b>スペースバー</b>を押して<b>ノードメニュー</b>を開き、リストの「固定」項目を選択します。
+グラフビューの<b>スペースバー</b>を押して<b>ノードメニュー</b>を開き、一覧の[ピン]をクリックします。
 
-検索フィールドに「pin」と入力して、項目を表示し、より迅速に検索します。
+検索フィールドに「ピン」と入力して、アイテムのサーフェスを表示し、すばやく検索することができます。
 
 +++
 
 +++ショートカット
-キーボードショートカットが[環境設定](../../../../interface/preferences-window/preferences-window.md)の「ピン」項目にマッピングされている場合、グラフビューにフォーカスがあるときにそのショートカットを押します。
+[環境設定](../../../../interface/preferences-window/preferences-window.md)の「ピン」項目にキーボードショートカットがマッピングされている場合は、グラフビューにフォーカスがあるときにそのショートカットを押します。
 
 +++
 
 +++コンテキストメニュー
-グラフビューで、空の領域の<b>人民元</b>を押し、[<b>ピンの追加</b>]オプションを選択します。
+グラフビューで、空き領域の<b>人民元</b>を押し、「<b>ピンの追加</b>」オプションを選択します。
 
 +++
 
 +++グラフツールバー
-グラフビューツールバーで、<b>ノードパレット</b>の[固定]ボタンをクリックします。
+グラフビューツールバーで、<b>ノードパレット</b>の[ピン]ボタンをクリックします。
 
 +++
 
 +++ライブラリ
-ライブラリで、<b>グラフ項目</b>カテゴリを選択し、「ピン」項目をグラフビューにドラッグアンドドロップします。
+ライブラリで、<b>グラフ項目</b>カテゴリを選択し、&#39;ピン&#39;項目をグラフビューにドラッグアンドドロップします。
 
 +++
 
 >[!TIP]
 >
-> ピンが作成されると、その「説明」プロパティは自動的にフォーカスを取得するので、ピンのテキストをすぐに編集できます。
+> ピンを作成すると、その「説明」プロパティに自動的にフォーカスが移動し、ピンのテキストをすぐに編集できます。
 
 ## ピンにジャンプ
 
-任意のグラフの種類で、<b>F2</b>を押すと、グラフ内のすべてのピンが作成順に切り替わります。
+任意のグラフの種類で<b>F2</b>を押すと、そのグラフのすべてのピンが順番に切り替わります。
 
-ビューポートの現在のズームレベルでピンがフレームされます。
+ビューポート内の現在のズームレベルで、ピンにフレームが作成されます。
 
-![ピン：ピンにジャンプ](../../../../assets/graph-pin_jumping.gif "ピン：ピンにジャンプ")
+![ピン: ピンにジャンプ](navigation-pin.resources/graph-pin_jumping.gif "ピン: ピンにジャンプ")

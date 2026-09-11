@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
-description: ノードを効率的に接続するためのSubstance 3D Designer グラフビューのリンク作成モードについて説明します。
+description: ノードを効率的に接続するためのSubstance 3D Designerグラフビューのリンク作成モードについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > The graph view > Link creation modes
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: リンク作成モード
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -20,28 +20,28 @@ ht-degree: 0%
 
 # リンク作成モード
 
-[Substance グラフ](../../../compositing-graphs/substance-compositing-graphs.md)では、3つの<b>リンク作成モード</b>のいずれかを使用してノードを接続できます。
+[Substanceグラフ](../../../compositing-graphs/substance-compositing-graphs.md)では、3つの<b>リンク作成モード</b>のいずれかを使用してノードを接続できます。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![リンク作成モード：標準](../../../assets/link-creation-mode-standard.gif "リンク作成モード：標準"){zoomable="yes"}
+![リンク作成モード：標準](link-creation-modes.resources/link-creation-mode-standard.gif "リンク作成モード：標準"){zoomable="yes"}
 
 *クリックして拡大*
 
-<b>![](../../../assets/image2020-10-6-19-40-25.png)標準</b> (1)
+<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png)標準</b> (1)
 
 条件は適用されません。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![リンクの作成モード： マテリアル](../../../assets/link-creation-mode-material.gif "リンクの作成モード： マテリアル"){zoomable="yes"}
+![リンク作成モード：マテリアル](link-creation-modes.resources/link-creation-mode-material.gif "リンク作成モード：マテリアル"){zoomable="yes"}
 
 *クリックして拡大*
 
-![](../../../assets/image2020-10-6-17-11-20.png) <b>マテリアル</b> (2)
+![](link-creation-modes.resources/image2020-10-6-17-11-20.png) <b>マテリアル</b> (2)
 
 入力と出力は、それらの使用状況に基づいて照合されます。
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![リンクの作成モード：コンパクトマテリアル](../../../assets/link-creation-mode-compact-material.gif "リンクの作成モード：コンパクトマテリアル"){zoomable="yes"}
+![リンク作成モード：マテリアルの最適化](link-creation-modes.resources/link-creation-mode-compact-material.gif "リンク作成モード：マテリアルの最適化"){zoomable="yes"}
 
 *クリックして拡大*
 
-![](../../../assets/image2020-10-6-19-40-46.png) <b>コンパクトマテリアル</b> (3)
+![](link-creation-modes.resources/image2020-10-6-19-40-46.png) <b>コンパクトマテリアル</b> (3)
 
 マテリアルと同じです。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-![](../../../assets/link-creation-mode.png) <b>リンク作成モード</b>ボタンをクリックするか、上記のキーボードショートカットを使用して、グラフツールバーでいつでもモードを切り替えることができます。
+![](link-creation-modes.resources/link-creation-mode.png) <b>リンク作成モード</b>ボタンをクリックするか、上記のキーボードショートカットを使用して、グラフツールバーでいつでもモードを切り替えることができます。
 
-<b>マテリアル</b>および<b>コンパクトマテリアル</b>モードでは、*使用が一致しない*&#x200B;入力と出力の間の接続は禁止されています。
+<b>マテリアル</b>および<b>マテリアルの最適化</b>モードでは、*用途が一致しない*&#x200B;入出力間の接続は禁止されています。
 
 ## モード
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 標準 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> コンパクト | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> コンパクトマテリアル |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> 標準 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> コンパクト | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> コンパクトマテリアル |
 | --- | --- | --- | --- |
 | <b>入力</b> | すべての入力が表示されます | すべての入力が表示されます | 1つのグループにつき1入力のみ |
 | <b>出力</b> | すべての出力が表示されます | すべての出力が表示されます | グループあたり1つの出力のみ |
@@ -92,7 +92,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ノード上のグループカプセル](../../../assets/link-creation-mode-group-node.png "ノード上のグループカプセル"){zoomable="yes"}
+![ノード上のグループカプセル](link-creation-modes.resources/link-creation-mode-group-node.png "ノード上のグループカプセル"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![グループ属性](../../../assets/link-creation-mode-group.png "グループ属性"){zoomable="yes"}
+![グループ属性](link-creation-modes.resources/link-creation-mode-group.png "グループ属性"){zoomable="yes"}
 
 *クリックして拡大*
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Usage属性](../../../assets/link-creation-mode-usage.png "Usage属性"){zoomable="yes"}
+![Usage属性](link-creation-modes.resources/link-creation-mode-usage.png "Usage属性"){zoomable="yes"}
 
 *クリックして拡大*
 
