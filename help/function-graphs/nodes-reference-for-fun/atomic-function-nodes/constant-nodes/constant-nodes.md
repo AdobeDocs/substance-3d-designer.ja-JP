@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフで定数ノードにアクセスし、定数値とパラメーターを定義します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数の種類アイコン](../../../../assets/fn-constant-integer.png "整数の種類アイコン")
+![整数型アイコン](constant-nodes.resources/fn-constant-integer.png "整数型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> パラメーター関数の<b>負の整数</b>は&#x200B;*サポートされていません*。 回避策については、[技術的な問題]の[このページ](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)を参照してください。
+> <b>パラメーター関数の負の整数</b>は&#x200B;*サポートされていません*。 回避策については、[技術的な問題]の[このページ](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)を参照してください。
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数2の種類アイコン](../../../../assets/fn-constant-integer2.png "整数2の種類アイコン")
+![Integer2型アイコン](constant-nodes.resources/fn-constant-integer2.png "Integer2型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 Integer2ノードは、(X,Y)成分を持つ静的2成分整数ベクトルを生成する。
 
-整数 2は一般的ではありませんが、[Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)のXおよびY 2Dタイリングを設定する場合などに使用されます。
+Integer2は一般的ではありませんが、[Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)のXとYの2Dタイリングを設定する場合などに使用されます。
 
 </td>
 </tr>
@@ -77,14 +77,14 @@ Integer2ノードは、(X,Y)成分を持つ静的2成分整数ベクトルを生
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数3の種類アイコン](../../../../assets/fn-constant-integer3.png "整数3の種類アイコン")
+![Integer3型アイコン](constant-nodes.resources/fn-constant-integer3.png "Integer3型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>整数3</b>
+<b>Integer3</b>
 
-整数3ノードは、(X,Y,Z)成分を有する静的3成分整数ベクトルを生成する。
+Integer3ノードは、(X, Y, Z)成分を持つ静的3成分整数ベクトルを生成する。
 
 整数3は一般的ではなく、ほとんど検出されません。<b>\
 </b>
@@ -97,12 +97,12 @@ Integer2ノードは、(X,Y)成分を持つ静的2成分整数ベクトルを生
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数4の種類アイコン](../../../../assets/fn-constant-integer4.png "整数4の種類アイコン")
+![Integer4型アイコン](constant-nodes.resources/fn-constant-integer4.png "Integer4型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>整数4</b>
+<b>Integer4</b>
 
 Integer4ノードは、(X, Y, Z, W)成分を持つ静的4成分整数ベクトルを生成する。
 
@@ -123,7 +123,7 @@ Integer4ノードは、(X, Y, Z, W)成分を持つ静的4成分整数ベクト�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![フロートの種類のアイコン](../../../../assets/fn-constant-float.png "フロートの種類のアイコン")
+![フロートの種類のアイコン](constant-nodes.resources/fn-constant-float.png "フロートの種類のアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Floatは1つの要素を持ち、簡潔さのために名前から(1)が省略�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2型アイコン](../../../../assets/fn-constant-float2.png "Float2型アイコン")
+![Float2型アイコン](constant-nodes.resources/fn-constant-float2.png "Float2型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Float2ノードは、静的な2成分Floatベクトルを生成します。 コ�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3型アイコン](../../../../assets/fn-constant-float3.png "Float3型アイコン")
+![Float3型アイコン](constant-nodes.resources/fn-constant-float3.png "Float3型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Float3ノードは、スタティックな3成分Floatベクトルを生成し�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4型アイコン](../../../../assets/fn-constant-float4.png "Float4型アイコン")
+![Float4型アイコン](constant-nodes.resources/fn-constant-float4.png "Float4型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Substance関数グラフには、2つのデータ型（ブール型と文字列�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![ブール型アイコン](../../../../assets/fn-constant-boolean.png "ブール型アイコン")
+![ブール型アイコン](constant-nodes.resources/fn-constant-boolean.png "ブール型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Substance関数グラフには、2つのデータ型（ブール型と文字列�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![文字列型アイコン](../../../../assets/fn-constant-string.png "文字列型アイコン")
+![文字列型アイコン](constant-nodes.resources/fn-constant-string.png "文字列型アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
