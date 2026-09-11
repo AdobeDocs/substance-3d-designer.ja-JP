@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのドットノードとポータルノードを使用して、接続ポイントを作成し、グラフフローを整理します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ドットノード（ポータルも含む）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![ドットノードアイコン](../../../../assets/graphatomic-dot_1.png "ドットノードアイコン")
+![ドットノードアイコン](dot-node.resources/graphatomic-dot_1.png "ドットノードアイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 0%
 +++リンク上に挿入
 <b>Alt</b>キーを押しながら接続をポイントすると、ドットノードのプレビューが表示されます。次に、[LMB]をクリックすると、その場所の接続にドットノードが追加されます。
 
-![ドットノードを挿入しています](../../../../assets/dot-node-insert-optim.gif "ドットノードを挿入しています"){width="512px"}
+![ドットノードを挿入しています](dot-node.resources/dot-node-insert-optim.gif "ドットノードを挿入しています"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 新しい接続を引き続きドラッグし、この操作を繰り返して、その接続を任意にルーティングできます。
 
-![ドット：コネクターから作成](../../../../assets/graph-dot_create-from-connector.gif "ドット：コネクターから作成")
+![ドット：コネクターから作成](dot-node.resources/graph-dot_create-from-connector.gif "ドット：コネクターから作成")
 
 
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 +++ノードメニュー
 <b>スペースバー</b>を押して<b>ノードメニュー</b>を表示し、「ドット」項目を選択するか、検索フィールドに「ドット」と入力して、項目を表示して素早く検索します。
 
-![ノードメニューのドットノード](../../../../assets/dot-node-insert-menu.png "ノードメニューのドットノード")
+![ノードメニューのドットノード](dot-node.resources/dot-node-insert-menu.png "ノードメニューのドットノード")
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![リンクを結合しています](../../../../assets/dot-node-congrenate-links-optim.gif "リンクを結合しています"){width="512px"}
+![リンクを結合しています](dot-node.resources/dot-node-congrenate-links-optim.gif "リンクを結合しています"){width="512px"}
 
 </td>
 </tr>
@@ -97,24 +97,24 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![ポータルとしてのドットノード – アイコン](../../../../assets/DotNode_Portal-1.png "ポータルとしてのドットノード – アイコン")
+![ポータルとしてのドットノード – アイコン](dot-node.resources/DotNode_Portal-1.png "ポータルとしてのドットノード – アイコン")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-ドットノードを<b>ポータル</b>として使用すると、読みやすさを損なう面倒な長いリンクを設定することなく、グラフ内の長距離でデータを送信できます。 これにより、ドットノード間のリンクが効果的に非表示になります。
+ドットノードを<b>ポータル</b>として使用すると、読みやすさを損なう面倒な長いリンクを設定することなく、グラフ内の長距離にわたってデータを送信できます。 これにより、ドットノード間のリンクが効果的に非表示になります。
 
 </td>
 </tr>
 </table>
 
-![ポータルとしてのドットノード](../../../../assets/DotNode_Portal.gif "ポータルとしてのドットノード")
+![ポータルとしてのドットノード](dot-node.resources/DotNode_Portal.gif "ポータルとしてのドットノード")
 
 ### ポータルの作成
 
 送信機と受信機の2つのドット・ノード間には、送信機のドット・ノードに名前を付けると、ポータルが自動的に作成されます。 ドットノードに名前を付けるには、<b>Name</b>プロパティに一意の識別子を設定します。
 
-グラフ内に1つ以上の名前付きドットノードがある場合、任意のドットノードを受信側として接続するには、次の手順を実行します。
+グラフ内に1つ以上の名前付きドットノードが存在する場合、任意のドットノードを受信側として接続するには、次の手順を実行します。
 
 * 受信機の入力と送信機の出力の間にリンクを作成すること。
 * 受信機の<b>Input Portal</b>プロパティで送信機の名前を選択しています。
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 ### ポータルの識別
 
-ポータルとして使用されるドットノードには、ポータルとして使用されるコネクターの横に無線信号アイコンが配置される。
+ポータルとして使用されるドットノードは、ポータルとして使用されるコネクタの横に無線信号アイコンが配置される。
 
 ポータルとして使用されている任意のドットノードを選択すると、他のポータルへの非表示の接続が破線で表示されます。
 
@@ -136,6 +136,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> [FX-Map グラフ](../../../../function-graphs/fxmaps/fxmaps.md)では、ドットノードをポータルとして使用できません。
+> [FX-Mapグラフ](../../../../function-graphs/fxmaps/fxmaps.md)では、ポータルとしてドットノードを使用できません。
 
 ポータルとしてのドットノードに関するこのチュートリアルをご覧ください。
