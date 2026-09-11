@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
 breadcrumb-title: ''
 description: Voronoiノードを使用して、細胞のテクスチャや有機的なマテリアルエフェクトを作成するためのVoronoiパターンを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ボロノイ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/voronoi.png){width="200px"}
+![](voronoi.resources/voronoi.png){width="200px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | <b>ミンコフスキー数</b> <i>フロート</i> | ミンコフスキー距離の次数&#x200B;*p*。 距離グラデーションを象限に分割すると、この数は次のように象限に影響します。<br><br>- pは&#x200B;*正確* 1：直線<br>- pは&#x200B;*低* 1より：凹<br>- pは&#x200B;*大* 1より：凸<br><br>対象の値：<br><br>- *1.0*:マンハッタン距離<br>- *2.0*:ユークリッド距離&#x200B;*無限大*:チェビシェフ距離&#x200B;<br><br>*注意*：このパラメーターは、**距離モード**&#x200B;パラメーターが&#x200B;*ミンコフスキー*&#x200B;に設定されている場合にのみ使用できます。<br> |
 | <b>スタイル</b> <i>整数</i> | Voronoiノイズのデータ&#x200B;*をレンダリングするノイズを設定します。このメソッドは、空間内の一連のポイントに基づいています：<br><br>-* F1 *:スペース内の*&#x200B;最も近いポイント&#x200B;*までの距離<br>-* F2 *:スペース内の* 2番目に近いポイント&#x200B;*までの距離<br>-* F2-F1\*F2*<br>- *f1/F2*<br>- *エッジ*：空間内のノイズの各セル&#x200B;*の間にある*&#x200B;エッジ<br>- *ランダムな色*: *ランダムなフラットな色*&#x200B;を空間内のノイズの各セルに割り当てます&#x200B;**<br>* |
 | <b>エッジThickness</b> <i>フロート</i> | ボロノイノイズのセル間で検出されるエッジのThicknessを調整します。 X、Y、およびZ軸で辺が検出されました。セルの&#x200B;*深度*&#x200B;によっては、一部の太さが他よりも速く増加する場合があります。<br><br>*注意*：このパラメーターは、**Style**&#x200B;パラメーターが&#x200B;*Edge*&#x200B;に設定されている場合にのみ使用できます。 |
-| <b>ランダムカラーシードモード</b> <i>整数</i> | セルごとのカラー選択のランダムシードを&#x200B;*取得*&#x200B;するメソッドを設定します： <br><br>- *グローバルランダムシード*:ノードから継承&#x200B;*シードを使用します<br>-*&#x200B;手動シード&#x200B;*:*&#x200B;個別&#x200B;*シードを使用します<br><br>*&#x200B;注意&#x200B;*：このパラメーターは、**Style**&#x200B;パラメーターが*&#x200B;ランダムカラー&#x200B;*に設定されている場合にのみ使用できます。* |
+| <b>ランダムカラーシードモード</b> <i>整数</i> | セルごとのカラー選択のランダムシードを&#x200B;*取得*&#x200B;するメソッドを設定します： <br><br>- *グローバルランダムシード*:ノードから継承&#x200B;*シードを使用します<br>-*&#x200B;手動シード&#x200B;*:*&#x200B;個別&#x200B;*シードを使用します<br><br>*&#x200B;注意&#x200B;*：このパラメーターは、**Style**パラメーターが*&#x200B;ランダムカラー&#x200B;*に設定されている場合にのみ使用できます。* |
 | <b>ランダムカラーシード</b> <i>整数</i> | セルごとのカラー選択に使用する個別のランダムシードです。<br><br>*注意*：このパラメーターは、**Style**&#x200B;パラメーターが&#x200B;*ランダムカラー*&#x200B;に設定されていて、**ランダムカラーシードモード**&#x200B;パラメーターが&#x200B;***手動シード***&#x200B;に設定されている場合にのみ使用できます。 |
 | <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 
@@ -73,22 +73,22 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/voronoi-variant2.jpg" />
+            <img src="voronoi.resources/voronoi-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/voronoi-variant3.jpg" />
+            <img src="voronoi.resources/voronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/voronoi-variant5.jpg" />
+            <img src="voronoi.resources/voronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/voronoi-variant.jpg" />
+            <img src="voronoi.resources/voronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/voronoi-variant4.jpg" />
+            <img src="voronoi.resources/voronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/voronoi-variant6.jpg" />
+            <img src="voronoi.resources/voronoi-variant6.jpg" />
         </td>
     </tr>
 </table>

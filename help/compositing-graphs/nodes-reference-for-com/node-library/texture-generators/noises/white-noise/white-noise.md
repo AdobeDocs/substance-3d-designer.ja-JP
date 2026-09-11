@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: ホワイトノイズノードを使用して、テクスチャのバリエーションやランダムな効果を作成するためのホワイトノイズパターンを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ホワイトノイズ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ホワイトノイズ – アイコン](../../../../../../assets/white_noise_v2.png "ホワイトノイズ – アイコン"){width="200px"}
+![ホワイトノイズ – アイコン](white-noise.resources/white_noise_v2.png "ホワイトノイズ – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -63,12 +63,12 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ホワイトノイズ – 例1](../../../../../../assets/white_noise_v2_1.png "ホワイトノイズ – 例1"){zoomable="yes"}
+![ホワイトノイズ – 例1](white-noise.resources/white_noise_v2_1.png "ホワイトノイズ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ホワイトノイズ – 例2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "ホワイトノイズ – 例2"){zoomable="yes"}
+![ホワイトノイズ – 例2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "ホワイトノイズ – 例2"){zoomable="yes"}
 
 </td>
 </tr>
