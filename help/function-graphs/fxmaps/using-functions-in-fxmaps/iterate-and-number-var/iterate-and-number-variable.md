@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: FXMapで反復変数と数値変数を使用して、ループパターンとプロシージャルバリエーションを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,25 +10,25 @@ helpx_tags: ""
 title: 反復変数および数値変数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
 
-# 反復処理および$number変数
+# 反復処理して`$number`変数
 
 ![](iterate-and-number-variable.resources/iterate-1.jpg)
 
-Iterateノードは、右側のノードにコネクトされたノードをレンダリングして、反復値で指定された時間を出力します。
+Iterateノードは、右側にコネクトされたノードをIterations値で指定された時間だけレンダーします。
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1 反復:ガウスパターンは1回レンダリングされます |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1回繰り返し：ガウスパターンは1回レンダリングされます |
 | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10 反復：ガウスパターンは同じ場所に10回レンダリングされます |
 
-Iterateノードを使用する場合は、 $number変数を使用して現在の反復値を取得できます。 $numberはfloat値で、0から始まります。
+Iterateノードを使用する場合、`$number`変数を使用して現在の反復値を取得できます。 `$number`は浮動小数値で、0から始まります。
 
 <table>
 <tr style="border: 0;">
@@ -47,6 +47,4 @@ Iterateノードを使用する場合は、 $number変数を使用して現在�
 
 Pattern Offsetパラメーターで設定されたこの関数は、パターンごとに1つずつ、10回実行されます。
 
-最初のパターンは、0に等しい$number値を持ち、次に(0, 0)座標でレンダリングされます。 2番目のパターンの$number値は1で、次のパターンでは(0.1, 0)座標(1 x 0.1 = 0.1)でレンダリングされます。
-
-サンプルのダウンロード： [iterate\_node.sbs](https://helpx.adobe.com/content/dam/help/en/substance-3d/documentation/sddoc/files/102400023/102367299/1/1423458106000/iterate-node.sbs)
+最初のパターンの`$number`の値は0で、次に(0, 0)座標でレンダリングされます。 2番目のパターンの`$number`の値は1で、次のパターンでは(0.1, 0)座標(1 x 0.1 = 0.1)でレンダリングされます。

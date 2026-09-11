@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでのプロジェクトの作成または読み込みに関する問題をトラブルシューティングして、解決策を見つけます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: プロジェクトを作成できません
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Substance 3D Designerでプロジェクトを作成または読み込めない�
 
 ## アプリケーションが古すぎるため、URLを開けません
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](cannot-create-load-a-project.resources/error.svg)問題**
 
 **Substance 3Dファイル(SBS)**&#x200B;は、*そのフォーマットをサポートしていない* Substance 3D Designerのバージョンで読み込まれています。 Substance 3Dファイルは、更新されたフォーマットを使用する&#x200B;*新しいバージョン*&#x200B;で保存されている可能性があります。
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](cannot-create-load-a-project.resources/check.svg)推奨ステップ**
 
 Substance 3D Designerの進化に伴い、Substance 3Dファイルフォーマット(SBS)も進化します。 多くの場合、ソフトウェアの新しいバージョンは、最新機能をサポートできるように&#x200B;*ファイルを更新*&#x200B;する必要があります。
 
@@ -43,7 +43,7 @@ Substance 3D Designerの進化に伴い、Substance 3Dファイルフォーマ�
 まず、現在のライセンスで許可されている最新バージョンのSubstance 3D Designerを使用していることを確認します。 各エディションのアップデートには、以下のアクセスポイントがあります。
 
 * <b>AdobeのSubstance 3Dサブスクリプション：</b> [Adobe Creative Cloudデスクトップ](https://creativecloud.adobe.com/en/apps/download/creative-cloud)アプリケーションの[アプリ]タブの[更新]セクションに移動します
-* <b>[Substance3d.com](http://Substance3d.com)サブスクリプション:</b> Substance 3D Designerでプロンプトが表示されたら更新するか、[Substance3d.com](http://substance3d.com) webサイトの[ライセンス](https://store.substance3d.com/user)セクションで最新のインストーラーをダウンロードします
+* <b>[Substance3d.com](http://Substance3d.com)サブスクリプション: </b> Substance 3D Designerでプロンプトが表示されたら更新するか、[Substance3d.com](http://substance3d.com) webサイトの[ライセンス](https://store.substance3d.com/user)セクションで最新のインストーラーをダウンロードします
 * <b>Steam:</b>アプリケーションは既定で自動更新されます。 Substance 3D Designerを起動するか、ダウンロード画面に移動して、手動でアップデートをトリガーできます
 
 >[!WARNING]
@@ -54,7 +54,7 @@ Substance 3D Designerの進化に伴い、Substance 3Dファイルフォーマ�
 
 ## プロジェクトの作成または読み込み中のクラッシュ
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](cannot-create-load-a-project.resources/error.svg)問題</b>
 
 プロジェクトの作成または読み込み中にクラッシュが発生する場合は、ワークスペースの設定中に[3D ビュー](../../interface/3d-view/3d-view.md)を初期化しているときにエラーが発生することがあります。
 
@@ -62,7 +62,7 @@ Substance 3D Designerの進化に伴い、Substance 3Dファイルフォーマ�
 
 *表示設定またはスケーリング*&#x200B;がセッション間で変更され、3D ビューレンダリングフレームが無効な座標で作成された場合にも、クラッシュが発生する可能性があります。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](cannot-create-load-a-project.resources/check.svg)推奨ステップ</b>
 
 このクラッシュの考えられる原因が複数あることを考えると、次のトラブルシューティング手順を順番に実行することをお勧めします。
 
@@ -84,7 +84,7 @@ Substance 3D Designerの進化に伴い、Substance 3Dファイルフォーマ�
 
 レジストリに保存されているユーザーインターフェイスをリセットする
 
-このクラッシュの原因が表示設定の変更やスケーリングである場合は、Designerの既存のレジストリエントリを削除して、特にユーザーインターフェイスを完全にリセットしてみてください。
+表示設定やスケーリングの変更が原因でクラッシュした場合は、Designerの既存のレジストリエントリを削除して、特にユーザーインターフェイスを完全にリセットしてみてください。
 
 オペレーティングシステムごとにこのリセットを実行する手順は、以下の通りです。
 

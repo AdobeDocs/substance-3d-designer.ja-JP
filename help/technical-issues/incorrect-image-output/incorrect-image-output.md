@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの誤った出力画像のトラブルシューティングと、レンダリングの問題を解決する方法について説明します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 画像出力が正しくない
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](incorrect-image-output.resources/error.svg)問題**
 
 出力画像のグラデーションは、滑らかではなく段階的です。 ステッピングの原因は、画像で使用される&#x200B;*値の範囲が狭すぎることです*。\
 つまり、グラデーションの1つのステップから次のステップにスムーズに移行するのに十分な値がありません。
@@ -43,13 +43,13 @@ HDR画像を使用する必要がない場合、ほとんどのノードでは�
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](incorrect-image-output.resources/check.svg)推奨ステップ**
 
 ノードとすべてのノードの&#x200B;**出力形式** （ビット深度）を確認し、これらのノードが&#x200B;*少なくとも16ビットの整数精度*&#x200B;を使用していることを確認してください。
 
@@ -73,7 +73,7 @@ Output formatパラメーターは、通常、*入力に対する相対* [継承
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](incorrect-image-output.resources/error.svg)問題</b>
 
 右側の図に示すように、Substance 3Dアーカイブ(SBSAR)から出力されるイメージの画質は、パブリッシュされるSubstance 3Dファイルのグラフよりも著しく低くなります。\
 出力の解像度が低く見えます。
@@ -81,13 +81,13 @@ Output formatパラメーターは、通常、*入力に対する相対* [継承
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](incorrect-image-output.resources/check.svg)推奨ステップ</b>
 
 すべての[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードの[出力サイズ](../../compositing-graphs/output-size/output-size.md)プロパティが&#x200B;*絶対* [継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されていることを確認してください。
 
@@ -99,20 +99,20 @@ Output formatパラメーターは、通常、*入力に対する相対* [継承
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（エラー）](../../assets/error.svg)問題**
+**![（エラー）](incorrect-image-output.resources/error.svg)問題**
 
 [変形2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)または[ブレンド](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)などの一部のノードを使用すると、シェイプがわずかにぼやけます。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![（ティック）](../../assets/check.svg)推奨ステップ**
+**![（ティック）](incorrect-image-output.resources/check.svg)推奨ステップ**
 
 画像内のピクセルを再配置する場合、例えばシェイプのサイズ変更や画像の解像度の変更を行う場合、ソースのピクセルを宛先に&#x200B;*マップ*&#x200B;する方法を決定するには2つの方法があります。
 

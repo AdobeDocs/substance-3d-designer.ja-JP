@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでよくある警告やエラーの解決策を確認して、問題を迅速にトラブルシューティングできます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 警告とエラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### エクスプローラー
 
-[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
+[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](warnings-and-errors.resources/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
 
 次の規則に従います。
 
@@ -48,7 +48,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### グラフビュー
 
-[グラフビュー](../../interface/the-graph-view/the-graph-view.md)パネル内の警告を含む項目については、その警告がビューポートの&#x200B;*左下隅*&#x200B;に色付きのテキストで表示されます。 特定のノードによって警告がトリガーされた場合、そのノードには![](../../assets/warning-badge.png)警告バッジが付きます。 バッジの上に数秒間カーソルを置いたままにすると、*ツールヒント*&#x200B;が表示され、すべての警告の詳細が一覧表示されます。
+[グラフビュー](../../interface/the-graph-view/the-graph-view.md)パネル内の警告を含む項目については、その警告がビューポートの&#x200B;*左下隅*&#x200B;に色付きのテキストで表示されます。 特定のノードによって警告がトリガーされた場合、そのノードには![](warnings-and-errors.resources/warning-badge.png)警告バッジが付きます。 バッジの上に数秒間カーソルを置いたままにすると、*ツールヒント*&#x200B;が表示され、すべての警告の詳細が一覧表示されます。
 
 次の規則に従います。
 
@@ -71,7 +71,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -83,18 +83,18 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 ### プロパティ
 
-[プロパティ](../../interface/properties/properties.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](../../assets/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
+[プロパティ](../../interface/properties/properties.md)パネルの項目に警告がある場合、その警告は、リスト内の項目のエントリの右端に![](warnings-and-errors.resources/warning-icon.png)アイコンと共に表示されます。 そのアイコンにカーソルを数秒間置くと、すべての警告の詳細を一覧表示する&#x200B;*ツールチップ*&#x200B;が表示されます。
 
 次の規則に従います。
 
 * アイテムが他のアイテムの下にネストされている場合（例：セクションヘッダー）、折りたたまれている場合はそのアイテムに警告が表示されます。
 * 警告リストは&#x200B;*累積的*&#x200B;で、項目の警告&#x200B;*と*&#x200B;の合計、その子の表面化された警告です。
-* [入力パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)に適用された[関数グラフ](../../function-graphs/function-graphs.md)に1つ以上の警告がある場合、そのパラメーター項目には&#x200B;*単一* `The [x] parameter's function has some warnings`の警告があります。
+* [入力パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)に適用された[関数グラフ](../../function-graphs/function-graphs.md)に1つ以上の警告がある場合、パラメーター項目には&#x200B;*単一* `The [x] parameter's function has some warnings`の警告が含まれます。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -110,12 +110,12 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 >[!NOTE]
 >
-> コンソール内のすべてのテキストは&#x200B;*選択可能*&#x200B;であるため、このパネルを使用して&#x200B;*警告およびエラーメッセージを簡単にコピー*&#x200B;し、このドキュメントの&#x200B;**ローカル検索**&#x200B;ツールまたはインターネット検索エンジンに貼り付けることができます。 これにより、問題のトラブルシューティングに関するガイダンスを迅速に入手できます。
+> コンソール内のすべてのテキストは&#x200B;*選択可能*&#x200B;であるため、このパネルを使用して&#x200B;*警告およびエラーメッセージを簡単にコピー*&#x200B;し、このドキュメントの&#x200B;**ローカル検索**&#x200B;ツールまたは任意のインターネット検索エンジンに貼り付けることができます。 これにより、問題のトラブルシューティングに関するガイダンスを迅速に入手できます。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Designerで発生する可能性のある警告とエラーを、発生元に基
 ### Substance グラフの警告
 
 * 出力ノードが定義されていません
-* [x]パラメーターの関数に警告があります
+* `[x]`パラメーターの関数に警告があります
 * 参照したデータにいくつかの警告があります
 * 参照リソースが見つかりません
 * テキストノードで無効なフォントが使用されています
@@ -163,5 +163,5 @@ Designerで発生する可能性のある警告とエラーを、発生元に基
 * リンクされたファイルが見つかりません
 * カラースペースが見つかりませんでした
 * 参照リソースが見つかりません
-* UVタイルは複数回割り当てられます
+* UVタイルが複数回割り当てられる
 * 無効なUVタイル

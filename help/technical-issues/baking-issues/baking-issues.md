@@ -1,26 +1,26 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
-description: Substance 3D Designerでのテクスチャのベイク処理に関する技術的な問題のトラブルシューティング手順を説明します。
+description: Substance 3D Designerでのテクスチャのベイクに関する技術的な問題のトラブルシューティング手順を説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > Baking issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ベイク処理の問題
+title: ベイクの問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 
-# ベイク処理の問題
+# ベイクの問題
 
-このページでは、Substance 3D Designerでの[テクスチャのベイク](../../bakers/bakers.md)に関する技術的な問題を一覧表示し、それぞれのトラブルシューティング手順を紹介します。
+このページでは、Substance 3D Designerの[ベイク処理テクスチャ](../../bakers/bakers.md)に関連する技術的な問題の一覧を表示し、それぞれのトラブルシューティング手順を紹介します。
 
 ## このページ内
 
@@ -32,20 +32,20 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![（エラー）](../../assets/error.svg)問題</b>
+<b>![（エラー）](baking-issues.resources/error.svg)問題</b>
 
-「一致」オプションが「メッシュ名による」に設定されている場合、一致が適用されないか、すべてのシーンオブジェクトに一貫して適用されません。
+「一致」オプションが「メッシュ名による」に設定されている場合、一致が適用されないか、すべてのシーンオブジェクトで一貫して適用されない。
 
-<b>![(tick)](../../assets/check.svg)おすすめの手順</b>
+<b>![（ティック）](baking-issues.resources/check.svg)推奨ステップ</b>
 
-Designer 14.1以前のバージョンでは、低ポリゴンおよび高ポリゴンのオブジェクトは、*親*&#x200B;オブジェクトの名前を使用して一致させられました。ほとんどの場合、親のトランスフォームです。
+Designer 14.1以前のバージョンでは、低ポリゴンおよび高ポリゴンのオブジェクトは、*親*&#x200B;オブジェクトの名前を使用して一致させられました（ほとんどの場合、親の変形）。
 
 Designer 15.0以降、*ジオメトリ*&#x200B;オブジェクトの名前は直接使用されます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![シーンツリーのジオメトリオブジェクトとその親](../../assets/sceneTree_objectsName.png "シーンツリーのジオメトリオブジェクトとその親"){zoomable="yes"}
+![シーンツリーのジオメトリオブジェクトとその親](baking-issues.resources/sceneTree_objectsName.png "シーンツリーのジオメトリオブジェクトとその親"){zoomable="yes"}
 
 </td>
 </tr>
@@ -54,8 +54,8 @@ Designer 15.0以降、*ジオメトリ*&#x200B;オブジェクトの名前は直
 期待どおりの結果を得るには、次の2つの方法があります。
 
 * ジオメトリオブジェクトの名前を調整して、一致する名前を適用します。
-* プロジェクト設定で[&#39;名前フィルターモード&#39;オプション](../../interface/preferences-window/project-settings/project-settings.md)を適用して、Designerの以前のバージョンに戻します。
+* プロジェクト設定で[&#39;名前フィルターリングモード&#39;オプション](../../interface/preferences-window/project-settings/project-settings.md)を適用して、Designerの以前のバージョンに戻します。
   1. 編集/環境設定/プロジェクトを選択します
   1. リスト内の最後のプロジェクトファイルを選択
   1. プロジェクトファイルのリストの下で、「ベイカー」タブを選択します。
-  1. 「名前フィルタリングモード」を「親名（レガシー）」に設定
+  1. 「名前フィルターリングモード」を「親名（従来）」に設定
