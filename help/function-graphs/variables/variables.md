@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフで変数を使用して、値を効率的に保存および再利用する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -44,14 +44,14 @@ Substance 3D Designerには、NumericsとBooleansという2種類の変数があ
 
 数値変数は基本的に数値です。 でも、ここでは2種類の数字をはっきりと区別する。
 
-* 整数 : 0 | 1 | -1 | 203568など…
-* 浮動小数: 0.23 | 1.0 | -0.3546 |など
+* 整数： 0 | 1 | -1 | 203568など…
+* フロート： 0.23 | 1.0 | -0.3546 |など
 
 >[!WARNING]
 >
 > Designerでは、整数とフロートを明確に区別しています。デフォルトでは一緒に操作できません。
 > 
-> 幸いなことに、*To浮動小数*&#x200B;またはTo整数ノードを使用して型変換を行うことができます。
+> 幸いなことに、*To Integer*&#x200B;またはTo Floatノードを使用して、型変換を実行できます。
 
 ### 同じ変数に複数の数値が含まれている
 
@@ -61,8 +61,8 @@ Substance 3D Designerには、NumericsとBooleansという2種類の変数があ
 
 そのためには、次のいずれかの数値を選択します。
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## ブーリアン
 
-ブーリアンは純粋なバイナリ値であり、その値は&#x200B;*True*&#x200B;または&#x200B;*False* （0または1と言うこともできます）のみを指定できます。
+ブール値は純粋なバイナリ値です。つまり、値は&#x200B;*True*&#x200B;または&#x200B;*False*&#x200B;である必要があります（0または1と言うこともできます）。
