@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの2Dビューを使用して、マテリアルグラフからのテクスチャ出力をプレビューおよび確認します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D ビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 5191cabf7958a17076d2ce129eb46265f1345336
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 このページでは、Substance 3D Designerの&#x200B;**2Dビュー**&#x200B;パネルのユーザーインターフェイスと機能について説明します。
 
-![2Dビュー](../../assets/2d-view-main.png "2Dビュー")
+![2Dビュー](2d-view.resources/2d-view-main.png "2Dビュー")
 
 ## 概要
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 * パラメーター&#39; *ギズモ*&#x200B;を制御しています
 
 表示されている画像または値が変更されると、2Dビュー&#x200B;*は自動的に更新*&#x200B;され、データの現在の状態との同期が維持されます。\
-*複数* 2Dビューパネルはいつでもアクティブにでき、それぞれが異なる画像または値を表示できます。 ユーザーインターフェイスパネルの![](../../assets/2d-view-icon-pin.png) <b>ピン</b>機能を使用して、新しいパネルを使用するタイミングを制御できます。
+*複数* 2Dビューパネルはいつでもアクティブにでき、それぞれが異なる画像または値を表示できます。 ユーザーインターフェイスパネルの![](2d-view.resources/2d-view-icon-pin.png) <b>ピン</b>機能を使用して、新しいパネルを使用するタイミングを制御できます。
 
 ### 2Dビューでのコンテンツの表示
 
@@ -66,14 +66,14 @@ ht-degree: 0%
 
 * <b>パン：</b> Ctrl + RMB / MMB
 * <b>ズーム：</b> Alt + RMB /マウスホイール/ &#39;表示倍率&#39;ツール：\
-  ![](../../assets/2d-view-icon-zoom.png)
-* <b>ビューポートに合わせて調整：</b> F / &#39;ビューに合わせる&#39;ボタン![](../../assets/2d-view-icon-fit-to-view.png)
-* <b>1:1の倍率に調整：</b> Z / &#39;倍率に合わせる&#39;ボタン![](../../assets/2d-view-icon-fit-to-scale.png)
+  ![](2d-view.resources/2d-view-icon-zoom.png)
+* <b>ビューポートに合わせて調整：</b> F / &#39;ビューに合わせる&#39;ボタン![](2d-view.resources/2d-view-icon-fit-to-view.png)
+* <b>1:1の倍率に調整：</b> Z / &#39;倍率に合わせる&#39;ボタン![](2d-view.resources/2d-view-icon-fit-to-scale.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![2Dビュービュービュービュービュービューナビゲーション](../../assets/2d-view-viewport-navigation.gif "2Dビュービュービュービュービュービュービューナビゲーション")
+![2Dビュービュービュービュービュービューナビゲーション](2d-view.resources/2d-view-viewport-navigation.gif "2Dビュービュービュービュービュービュービューナビゲーション")
 
 </td>
 </tr>
@@ -107,83 +107,83 @@ ht-degree: 0%
 
 ビューポートには、ナビゲーションの他に次の機能があります。
 
-* タイル表示： *ビューポートで画像をタイル表示で繰り返します*。 これは、パターンまたはテクスチャがどのように繰り返されるかを確認する場合に便利です。 **スペースバー**&#x200B;または![](../../assets/2d-view-icon-tiling.png) **タイル表示**&#x200B;ボタンを使用して有効になっています
-* 物理サイズ表示：グラフの[物理サイズ](../../compositing-graphs/graph-parameters/graph-parameters.md)プロパティと一致する&#x200B;*比率*&#x200B;で画像を表示します。![](../../assets/2d-view-icon-physical-size.png) **物理サイズ比率**&#x200B;ボタンを使用すると有効になります
-* 表示サイズを維持：このオプション&#x200B;*は、表示スケールをロック*&#x200B;して、異なる画像全体で一貫した状態を保ちます。 *デフォルトで有効*&#x200B;であり、![](../../assets/2d-view-icon-lock-scale.png) **表示サイズを維持**&#x200B;ボタンを使用して無効にできます
+* タイル表示： *ビューポートで画像をタイル表示で繰り返します*。 これは、パターンまたはテクスチャがどのように繰り返されるかを確認する場合に便利です。 **スペースバー**&#x200B;または![](2d-view.resources/2d-view-icon-tiling.png) **タイル表示**&#x200B;ボタンを使用して有効になっています
+* 物理サイズ表示：グラフの[物理サイズ](../../compositing-graphs/graph-parameters/graph-parameters.md)プロパティと一致する&#x200B;*比率*&#x200B;で画像を表示します。![](2d-view.resources/2d-view-icon-physical-size.png) **物理サイズ比率**&#x200B;ボタンを使用すると有効になります
+* 表示サイズを維持：このオプション&#x200B;*は、表示スケールをロック*&#x200B;して、異なる画像全体で一貫した状態を保ちます。 *デフォルトで有効*&#x200B;であり、![](2d-view.resources/2d-view-icon-lock-scale.png) **表示サイズを維持**&#x200B;ボタンを使用して無効にできます
 
 ## メインツールバー
 
-<b>2D ビュー</b>パネルのメインツールバーでは、表示された画像に対してさらに多くの操作を実行できます。また、次の機能を提供しています。
+<b>2Dビュー</b>パネルのメインツールバーでは、表示された画像をさらに活用でき、次の機能が提供されます。
 
 +++背景画像
-![2D ビュー背景画像](../../assets/2d-view-background.png "2D ビュー背景画像"){width="360px"}
+![2Dビューの背景画像](2d-view.resources/2d-view-background.png "2Dビューの背景画像"){width="360px"}
 
 
 
-現在表示されている画像の上に&#x200B;*別の画像をオーバーレイ*&#x200B;できます。 ![](../../assets/2d-view-icon-background.png) <b>背景画像</b>ボタンを押すと、オーバーレイとして使用する画像ファイルを選択するように求められます。
+現在表示されている画像の上に&#x200B;*別の画像をオーバーレイ*&#x200B;できます。 ![](2d-view.resources/2d-view-icon-background.png) <b>背景画像</b>ボタンを押すと、オーバーレイとして使用する画像ファイルを選択するように求められます。
 
 ファイルを選択すると、新しいツールバーが表示され、画像オーバーレイについて次のコントロールが表示されます。
 
-<b>![](../../assets/2d-view-icon-background-close.png)閉じる：</b> オーバーレイコントロールツールバーを&#x200B;*閉じる*&#x200B;と、背景画像オーバーレイを&#x200B;*無効*&#x200B;にします。
+<b>![](2d-view.resources/2d-view-icon-background-close.png)閉じる：</b> オーバーレイコントロールツールバーを&#x200B;*閉じる*&#x200B;と、背景画像オーバーレイを&#x200B;*無効*&#x200B;にします。
 
-<b>![](../../assets/2d-view-icon-background-loadpng.png)画像の読み込み：</b>オーバーレイとして使用する&#x200B;*別の画像ファイル*&#x200B;を選択します。
+<b>![](2d-view.resources/2d-view-icon-background-loadpng.png)画像の読み込み：</b>オーバーレイとして使用する&#x200B;*別の画像ファイル*&#x200B;を選択します。
 
-<b>![](../../assets/2d-view-icon-background-0.png)ソース画像：</b>は、オーバーレイ画像を&#x200B;*0%*&#x200B;不透明度に設定します。
+<b>![](2d-view.resources/2d-view-icon-background-0.png)ソース画像：</b>は、オーバーレイ画像を&#x200B;*0%*&#x200B;不透明度に設定します。
 
-<b>![](../../assets/2d-view-icon-background-100.png)背景画像：</b>は、オーバーレイ画像を&#x200B;*100%*&#x200B;不透明度に設定します。
+<b>![](2d-view.resources/2d-view-icon-background-100.png)背景画像：</b>は、オーバーレイ画像を&#x200B;*100%*&#x200B;不透明度に設定します。
 
-<b>![](../../assets/2d-view-icon-background-50.png)リセット：</b>オーバーレイ画像を&#x200B;*50%*&#x200B;不透明度に設定します。
+<b>![](2d-view.resources/2d-view-icon-background-50.png)リセット：</b>オーバーレイ画像を&#x200B;*50%*&#x200B;不透明度に設定します。
 
 スライダーを使用すると、オーバーレイ画像の不透明度を&#x200B;*手動で*&#x200B;制御できます。
 
 +++
 
 +++画像を書き出し
-![2D ビューエクスポートイメージ](../../assets/2d-view-export-bitmap.png "2D ビューエクスポートイメージ"){width="360px"}
+![2Dビュー書き出し画像](2d-view.resources/2d-view-export-bitmap.png "2Dビュー書き出し画像"){width="360px"}
 
 
 
-現在表示されている画像は、*画像ファイルにエクスポート*&#x200B;できます。 ![](../../assets/2d-view-icon-export.png) <b>画像を保存…</b>ボタンを押すと、書き出したファイルの&#x200B;*場所*、*名前*&#x200B;および&#x200B;*ファイル形式*&#x200B;を選択するように求められます。
+現在表示されている画像は、*画像ファイルにエクスポート*&#x200B;できます。 ![](2d-view.resources/2d-view-icon-export.png) <b>画像を保存…</b>ボタンを押すと、書き出したファイルの&#x200B;*場所*、*名前*&#x200B;および&#x200B;*ファイル形式*&#x200B;を選択するように求められます。
 
-画像はビューポートの左下に表示されている&#x200B;*元の解像度*&#x200B;として書き出されますが、*ビット深度*&#x200B;と&#x200B;*色の形式*&#x200B;は、選択した画像の形式&#x200B;*に依存します*。 例えば、32ビット浮動小数点精度の画像は、TIFF、EXR、HDRなど、この精度をサポートする画像形式を使用して、完全なデータ範囲でのみ書き出すことができます。 画像形式がデータをサポートしていない場合は、書き出された画像でクランプやカラーバンドが発生する可能性があります。\
+画像はビューポートの左下に表示される&#x200B;*元の解像度*&#x200B;としてエクスポートされますが、*ビット深度*&#x200B;と&#x200B;*色の形式*&#x200B;は選択した画像の形式&#x200B;*に依存します*。 例えば、32ビット浮動小数点精度イメージは、TIFF、EXR、HDRなど、この精度をサポートするイメージフォーマットを使用して、完全なデータ範囲でのみ書き出すことができます。 画像形式がデータをサポートしていない場合は、書き出された画像でクランプやカラーバンドが発生する可能性があります。\
 一般に、使用する画像形式（浮動小数点のサポート、ICCプロファイルなど）によって提供される精度や機能に注意してください。
 
-<b>OCIO</b>または<b>ACEをAdobe</b>する場合 現在、[カラーマネジメントモード](../../color-management/color-management.md)が使用されており、書き出した画像の&#x200B;*カラースペース*&#x200B;を選択するための追加オプションを使用できます。
+<b>OCIO</b>または<b>AdobeACE</b>の場合 現在、[カラーマネジメントモード](../../color-management/color-management.md)が使用されており、書き出した画像の&#x200B;*カラースペース*&#x200B;を選択するための追加オプションを使用できます。
 
 +++
 
 +++クリップボードにコピー
-![クリップボードへの2D ビューコピー](../../assets/2d-view-copy-clipboard.gif "クリップボードへの2D ビューコピー"){width="360px"}
+![2D表示でクリップボードにコピー](2d-view.resources/2d-view-copy-clipboard.gif "2D表示でクリップボードにコピー"){width="360px"}
 
 
 
-現在表示されている画像を&#x200B;*クリップボードにコピー*&#x200B;できます。 ![](../../assets/2d-view-icon-copy.png) <b>画像をクリップボードにコピー</b>ボタンを押すと、画像をAdobe Photoshopなどのサードパーティソフトウェアにペーストする準備が整います。
+現在表示されている画像を&#x200B;*クリップボードにコピー*&#x200B;できます。 ![](2d-view.resources/2d-view-icon-copy.png) <b>画像をクリップボードにコピー</b>ボタンを押すと、画像をAdobe Photoshopなどのサードパーティソフトウェアにペーストする準備が整います。
 
 画像は、ビューポートの左下に表示されている&#x200B;*元の解像度*&#x200B;で、*8ビット*&#x200B;の精細度の画像としてコピーされます。
 
 +++
 
 +++グラフ出力を切り替え
-![2D ビュー切り替えグラフ出力](../../assets/2d-view-switch-graph-outputs.gif "2D ビュー切り替えグラフ出力"){width="360px"}
+![2D ビュー切り替えグラフ出力](2d-view.resources/2d-view-switch-graph-outputs.gif "2D ビュー切り替えグラフ出力"){width="360px"}
 
 
 
-現在表示されている画像が&#x200B;*グラフ出力*&#x200B;の場合、![](../../assets/2d-view-icon-view-outputs.png) <b>出力を選択</b>ボタンを使用して&#x200B;*他のグラフ出力に*&#x200B;すばやく切り替えることができます。
+現在表示されている画像が&#x200B;*グラフ出力*&#x200B;の場合、![](2d-view.resources/2d-view-icon-view-outputs.png) <b>出力を選択</b>ボタンを使用して&#x200B;*他のグラフ出力に*&#x200B;すばやく切り替えることができます。
 
 この機能は、複数の出力を持つノードを含む他のノードで&#x200B;*使用できません*。
 
 +++
 
 +++UVオーバーレイ
-![2D ビュー UVオーバーレイ](../../assets/2d-view-uv.png "2D ビュー UVオーバーレイ"){width="357px"}
+![2D ビュー UVオーバーレイ](2d-view.resources/2d-view-uv.png "2D ビュー UVオーバーレイ"){width="357px"}
 
 
 
 [3D ビュー](../../interface/3d-view/3d-view.md)ドックの<b>シーン</b>メニューで「<b>2D ビューのUVを表示</b>」オプションが有効になっている場合、2D ビューのオーバーレイ機能をUVで使用できます。
 
-「<b>UV</b>」ボタンを使用して有効にすることができます。![](../../assets/2d-view-icon-uv.png)
+「<b>UV</b>」ボタンを使用して有効にすることができます。![](2d-view.resources/2d-view-icon-uv.png)
 
-3D ビュー[&#128279;](../../interface/3d-view/3d-view.md)で現在選択されているメッシュ のUVが、色付きのワイヤーフレームとして表示されます。
+3D ビュー](../../interface/3d-view/3d-view.md)で現在選択されているメッシュ [のUVが、色付きのワイヤーフレームとして表示されます。
 
 メッシュファイルでマテリアルカラー情報が使用できる場合は、そのマテリアルカラーがUVオーバーレイのカラーとして使用されます。
 
@@ -192,11 +192,11 @@ ht-degree: 0%
 +++
 
 +++画像情報
-![2D ビューイメージ情報](../../assets/2d-view-information.png "2D ビューイメージ情報"){width="360px"}
+![2D ビューイメージ情報](2d-view.resources/2d-view-information.png "2D ビューイメージ情報"){width="360px"}
 
 
 
-![](../../assets/2d-view-icon-information.png) <b>画像情報</b>ボタンを使用して有効になっている<b>情報</b>パネルでは、画像の&#x200B;*正確なピクセル値* *および座標*&#x200B;を表示できます。 これは、HDR画像を確認する場合や、ピクセル間のステップが意図した進行状況に従っていることを確認する場合などに非常に役立ちます。
+![](2d-view.resources/2d-view-icon-information.png) <b>画像情報</b>ボタンを使用して有効になっている<b>情報</b>パネルでは、画像の&#x200B;*正確なピクセル値* *および座標*&#x200B;を表示できます。 これは、HDR画像を確認する場合や、ピクセル間のステップが意図した進行状況に従っていることを確認する場合などに非常に役立ちます。
 
 色は<b>RGBA</b>および<b>HSV</b>の値で表され、次のように画像の&#x200B;*精度*&#x200B;に応じて表示されます。
 
@@ -213,11 +213,11 @@ ht-degree: 0%
 +++
 
 +++ヒストグラム
-![2D ビューのヒストグラム](../../assets/2d-view-histogram.png "2D ビューのヒストグラム"){width="360px"}
+![2D ビューのヒストグラム](2d-view.resources/2d-view-histogram.png "2D ビューのヒストグラム"){width="360px"}
 
 
 
-*ヒストグラム*&#x200B;の画像を<b>ヒストグラム</b>パネルで表示できます。このパネルは、![](../../assets/2d-view-icon-histogram.png) <b>ヒストグラムの表示</b>ボタンを使用して有効になっています。
+*ヒストグラム*&#x200B;の画像を<b>ヒストグラム</b>パネルで表示できます。このパネルは、![](2d-view.resources/2d-view-icon-histogram.png) <b>ヒストグラムの表示</b>ボタンを使用して有効になっています。
 
 次の&#x200B;*ヒストグラムモード*&#x200B;を使用できます：
 
@@ -273,11 +273,11 @@ ht-degree: 0%
 >
 > 3本の平行線で表される左端の&#x200B;*ハンドル*&#x200B;を使用して、**2Dビュー**&#x200B;パネルの周りにツールバーを&#x200B;*再配置*&#x200B;できます。
 
-![2Dカラーチャンネルの表示](../../assets/2d-view-color-channel.png "2Dカラーチャンネルの表示"){width="360px"}
+![2Dカラーチャンネルの表示](2d-view.resources/2d-view-color-channel.png "2Dカラーチャンネルの表示"){width="360px"}
 
 ### カラーチャンネル
 
-![](../../assets/2d-view-icon-channels.png) <b>カラーチャンネル</b>ボタンを使用して、画像の単一チャンネルを表示できます。 これによりコンボボックスが開き、<b>赤</b>、<b>緑</b>、<b>青</b>および<b>Alpha</b>のチャンネルのうち表示するチャンネルを選択できます。 <b>[RGB]</b>を選択すると、すべてのチャンネルを含む画像の通常の状態が復元されます。
+![](2d-view.resources/2d-view-icon-channels.png) <b>カラーチャンネル</b>ボタンを使用して、画像の単一チャンネルを表示できます。 これによりコンボボックスが開き、<b>赤</b>、<b>緑</b>、<b>青</b>および<b>Alpha</b>のチャンネルのうち表示するチャンネルを選択できます。 <b>[RGB]</b>を選択すると、すべてのチャンネルを含む画像の通常の状態が復元されます。
 
 次の&#x200B;*キーボードショートカット*&#x200B;を使用すると、別のカラーチャンネルにすばやく切り替えることができます。
 
@@ -295,27 +295,27 @@ ht-degree: 0%
 > 
 > パネルにはフォーカスが必要なので、グラフのノードを作成するために設定した&#x200B;*カスタムショートカット*&#x200B;を、これらのショートカット&#x200B;*が*&#x200B;妨げることはありません。この機能の詳細については、[こちら](../../interface/preferences-window/preferences-window.md)を参照してください。
 
-![2D表示/透明の切り替え](../../assets/2d-view-transparency.png "2D表示/透明の切り替え"){width="360px"}
+![2D表示/透明の切り替え](2d-view.resources/2d-view-transparency.png "2D表示/透明の切り替え"){width="360px"}
 
 ### 透明トグル
 
-![](../../assets/2d-view-icon-transparency-off.png)/![](../../assets/2d-view-icon-transparency-on.png) <b>チェッカーボードを表示</b>ボタンを使用して、透明表示のオンとオフを切り替えることができます。 このオプションを有効にすると、チェッカーパターンを使用して透明度が表示されます。
+![](2d-view.resources/2d-view-icon-transparency-off.png)/![](2d-view.resources/2d-view-icon-transparency-on.png) <b>チェッカーボードを表示</b>ボタンを使用して、透明表示のオンとオフを切り替えることができます。 このオプションを有効にすると、チェッカーパターンを使用して透明度が表示されます。
 
-透明度を解釈する主な方法は2つあります。透明度は、![](../../assets/2d-view-icon-transparency-straight.png)/![](../../assets/3d-view-icon-transparency-premultiplied.png) <b>透明度モード</b>ボタンを使用して選択できます。
+透明度を解釈する主な方法は2つあります。透明度は、![](2d-view.resources/2d-view-icon-transparency-straight.png)/![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) <b>透明度モード</b>ボタンを使用して選択できます。
 
-<b>![](../../assets/2d-view-icon-transparency-straight.png)直線：</b>透明情報はアルファチャンネルにのみ保存され、画像の他の側面には影響しません
+<b>![](2d-view.resources/2d-view-icon-transparency-straight.png)直線：</b>透明情報はアルファチャンネルにのみ保存され、画像の他の側面には影響しません
 
-<b>![](../../assets/3d-view-icon-transparency-premultiplied.png)合成：</b>透明度情報はアルファチャンネルに格納されます。また、アルファチャンネルに対して合成されるため、RGBチャンネルにも影響します
+<b>![](2d-view.resources/3d-view-icon-transparency-premultiplied.png)合成：</b>透明度情報はアルファチャンネルに格納されます。また、アルファチャンネルに対して合成されるため、RGBチャンネルにも影響します
 
 *正しい色*&#x200B;を表示するには、画像が&#x200B;*作成*&#x200B;されたときに適用された透明方法と一致するように、<b>2Dビュー</b>パネルで適切な透明モードを選択する必要があります。
 
-![2D表示カラースペース](../../assets/2d-view-viewport-color-space.png "2D表示カラースペース"){width="360px"}
+![2D表示カラースペース](2d-view.resources/2d-view-viewport-color-space.png "2D表示カラースペース"){width="360px"}
 
 ### カラースペース
 
 色を最も正確に表現するために、既定で画像は、*モニター*&#x200B;で使用されているものと一致する&#x200B;*カラースペース*&#x200B;に表示されます。
 
-使用可能なコントロールと![](../../assets/2d-view-icon-color-space.png)/![](../../assets/2d-view-icon-color-space-linear.png) <b>カラースペース</b>ボタンの効果は、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で設定された[カラーマネジメントモード](../../color-management/color-management.md)によって異なります。 これらのコントロールの詳細については、このページの「カラーマネジメント」セクションを参照してください。
+使用可能なコントロールと![](2d-view.resources/2d-view-icon-color-space.png)/![](2d-view.resources/2d-view-icon-color-space-linear.png) <b>カラースペース</b>ボタンの効果は、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で設定された[カラーマネジメントモード](../../color-management/color-management.md)によって異なります。 これらのコントロールの詳細については、このページの「カラーマネジメント」セクションを参照してください。
 
 <table>
 <tr style="border: 0;">
@@ -335,7 +335,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![2D表示ビットマップペイントツール](../../assets/2dview-paintingtools-main.png "2D表示ビットマップペイントツール")
+![2D表示ビットマップペイントツール](2d-view.resources/2dview-paintingtools-main.png "2D表示ビットマップペイントツール")
 
 </td>
 </tr>
@@ -351,7 +351,7 @@ ht-degree: 0%
 
 ## ベクターグラフィックエディター
 
-<b>ベクターグラフィックスエディター</b>は、*インポート済み* [&#x200B; SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)で使用できます。リンクされたリソースは&#x200B;*サポートされていません*。
+<b>ベクターグラフィックスエディター</b>は、*インポート済み* [ SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)で使用できます。リンクされたリソースは&#x200B;*サポートされていません*。
 
 >[!NOTE]
 >
@@ -360,7 +360,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![2Dビューベクターグラフィックスエディター](../../assets/2dview-vectorediting-main.png "2Dビューベクターグラフィックスエディター")
+![2Dビューベクターグラフィックスエディター](2d-view.resources/2dview-vectorediting-main.png "2Dビューベクターグラフィックスエディター")
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ ht-degree: 0%
 >
 > 詳しくは、ドキュメントの[ベクター編集ツール](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) （非推奨）のページを参照してください。
 
-![2D表示のカラーマネジメント](../../assets/2d-view-color-management-ocio.png "2D表示のカラーマネジメント"){width="360px"}
+![2D表示のカラーマネジメント](2d-view.resources/2d-view-color-management-ocio.png "2D表示のカラーマネジメント"){width="360px"}
 
 ## カラーマネジメント
 
@@ -378,9 +378,9 @@ ht-degree: 0%
 
 これらのコントロールは、次のように、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で設定された現在の[カラーマネジメントモード](../../color-management/color-management.md)に適応します。
 
-* <b>従来：</b> ![](../../assets/2d-view-icon-color-space.png) sRGBまたは![](../../assets/2d-view-icon-color-space-linear.png)リニアsRGBカラースペースで画像を表示またはレイアウトできます。
-* <b>Adobe ACE:</b> ![](../../assets/2d-view-icon-color-space.png) *有効*&#x200B;のカラーマネジメントを有効にして、Adobe ACEエンジンによって検出された&#x200B;*現在のモニター*&#x200B;に最適なカラースペースを設定するか、![](../../assets/2d-view-icon-color-space-linear.png) *無効*&#x200B;のカラーマネジメントを行って、Raw色値を使用して画像を表示できます。
-* <b>OCIO:</b> ![](../../assets/2d-view-icon-color-space.png) *有効*&#x200B;なカラーマネジメントを設定し、OCIOエンジンによって検出された&#x200B;*現在のモニター*&#x200B;に最適なカラーマネジメントを設定するには、コンボボックスを使用して、現在使用されている[OCIO構成ファイル](../../color-management/color-management.md)で使用可能な&#x200B;*表示カラースペース*&#x200B;を選択するか、![](../../assets/2d-view-icon-color-space-linear.png) *無効*&#x200B;なカラーマネジメントを選択し、Raw色の値で画像を表示します。
+* <b>従来：</b> ![](2d-view.resources/2d-view-icon-color-space.png) sRGBまたは![](2d-view.resources/2d-view-icon-color-space-linear.png)リニアsRGBカラースペースで画像を表示またはレイアウトできます。
+* <b>Adobe ACE:</b> ![](2d-view.resources/2d-view-icon-color-space.png) *有効*&#x200B;のカラーマネジメントを有効にして、Adobe ACEエンジンによって検出された&#x200B;*現在のモニター*&#x200B;に最適なカラースペースを設定するか、![](2d-view.resources/2d-view-icon-color-space-linear.png) *無効*&#x200B;のカラーマネジメントを行って、Raw色値を使用して画像を表示できます。
+* <b>OCIO:</b> ![](2d-view.resources/2d-view-icon-color-space.png) *有効*&#x200B;なカラーマネジメントを設定し、OCIOエンジンによって検出された&#x200B;*現在のモニター*&#x200B;に最適なカラーマネジメントを設定するには、コンボボックスを使用して、現在使用されている[OCIO構成ファイル](../../color-management/color-management.md)で使用可能な&#x200B;*表示カラースペース*&#x200B;を選択するか、![](2d-view.resources/2d-view-icon-color-space-linear.png) *無効*&#x200B;なカラーマネジメントを選択し、Raw色の値で画像を表示します。
 
 >[!WARNING]
 >
