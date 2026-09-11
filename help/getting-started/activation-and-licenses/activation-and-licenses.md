@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Substance 3D Designerをアクティベートし、すべての機能にアクセスするためのライセンスを管理する方法について説明します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | エディション | アクティベーションプロセス |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloudデスクトップ(CCD) | CCDアプリから製品をインストールし、起動します。 ライセンスに問題がある場合は、次のページに移動してください。[サブスクリプションのエラーが原因で、アプリが起動しない](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [アカウント、プラン、請求に関するヘルプ](https://helpx.adobe.com/account/individual.html) |
+| Creative Cloudデスクトップ(CCD) | CCDアプリから製品をインストールし、起動します。 ライセンスに問題がある場合は、次のページに移動してください。[サブスクリプションのエラーが原因で、アプリが起動しない](https://helpx.adobe.com/jp/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [アカウント、プラン、請求に関するヘルプ](https://helpx.adobe.com/jp/account/individual.html) |
 | スチーム | Steamライブラリから直接製品を起動します。 |
 | Substance（スタンドアロン） | 以下のアクティベーションプロセスを参照してください。 |
 
