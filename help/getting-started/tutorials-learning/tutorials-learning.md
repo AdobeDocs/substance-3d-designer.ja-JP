@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのチュートリアルと学習リソースにアクセスし、プロシージャルのマテリアル作成テクニックを習得します。
 helpx_creative_field: ""

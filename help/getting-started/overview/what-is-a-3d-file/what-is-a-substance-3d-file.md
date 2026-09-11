@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: Substance 3Dのファイル形式と、様々なアプリケーションで使用できるプロシージャルマテリアルおよびテクスチャの保存方法について説明します。
 helpx_creative_field: ""
