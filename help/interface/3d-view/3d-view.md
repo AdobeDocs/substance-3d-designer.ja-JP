@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの3Dビューを使用して、3Dオブジェクトのマテリアルをプレビューし、照明条件をテストします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D ビュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 3D ビュー
 
-3D ビューは、カスタムメッシュとレンダリングされたPBRマテリアルを使用してマテリアルを表示および理解するのに役立ちます。<br>すべてのSubstance 3D Designerウィンドウと同様に、右クリックメニューオプションおよびドラッグアンドドロップ操作を使用して他のウィンドウと連携します。
+3Dビューは、カスタムメッシュとレンダリングされたPBRマテリアルを使用してマテリアルを表示し、理解するのに役立ちます。<br>すべてのSubstance 3D Designerウィンドウと同様に、右クリックメニューオプションおよびドラッグアンドドロップ操作を使用して他のウィンドウと連携します。
 
-3Dビューには、3D シーンでマテリアルをレンダリングする方法として、主に次の2つがあります。
+3Dビューには、3Dシーンでマテリアルをレンダリングする方法として、主に次の2つがあります。
 * **ラスタライザー**&#x200B;と&#x200B;**OpenGL**&#x200B;のレンダラーを使用した、高速なリアルタイムの視覚化
 * **GPU パストレーサー**&#x200B;レンダラーを使用した高品質のレイトレースレンダリング
 
@@ -34,25 +34,25 @@ ht-degree: 1%
 
 +++
 
-## ビューポート相互作用
+## ビューポートの操作
 
 以下のセクションでは、一般的なアクションを簡単に実行する方法と、そのプロセスを説明するアニメーションGIFについて説明します。
 
-![ビューポートのナビゲーション](../../assets/3d-navigate.gif "ビューポートのナビゲーション")
+![ビューポートナビゲーション](3d-view.resources/3d-navigate.gif "ビューポートナビゲーション")
 
 ### ナビゲーション
 
-カメラと環境は、次の3つの方法で操作できます。
+3Dビューカメラおよび環境は、次の3つの方法で操作できます。
 
 * <b>軌道：</b> LMB +ドラッグ
 * <b>パン</b>: MMB+ドラッグ/ Ctrl+RMB+ドラッグ
 * <b>ズーム</b>:マウスホイールを使用してスクロールする/RMB+ドラッグ
 * <b>環境の回転：</b> ⇧+右マウスボタンを押しながらドラッグ
-* <b>選択したメッシュにフォーカス：</b>F （選択がない場合はシーン全体にフォーカス）
+* <b>選択したメッシュに焦点を合わせる： </b> F （選択がない場合はシーン全体に焦点を合わせる）
 * <b>オービットポイントライト1:</b> Ctrl + ⇧ + LMB +ドラッグ
 * <b>ポイントライト1を原点に近づける、または原点から遠ざける：</b> Ctrl+⇧+RMB+ドラッグ
-* <b>カメラオービットの位置をリセット：</b> R
-* <b>カメラオービットの位置とプロパティをリセットします：</b> ⇧+R
+* <b>カメラのオービット位置をリセット：</b> R
+* <b>カメラのオービットの位置とプロパティをリセット：</b> ⇧+R
 
 トラックパッドの使用（macOSのみ）
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
 <b>Escキーを押して選択を解除します。</b> カーソルはメッシュ上にある必要はありません。
 
-![3Dビュー – フォーカスと選択解除](../../assets/sceneBrowser-focus.gif "3Dビュー – フォーカスと選択解除"){zoomable="yes"}
+![3Dビュー – フォーカスと選択解除](3d-view.resources/sceneBrowser-focus.gif "3Dビュー – フォーカスと選択解除"){zoomable="yes"}
 
 *選択、フォーカス、選択解除*
 
-![3Dビュー – コンテキストメニュー](../../assets/sceneBrowser-contextualMenu.gif "3Dビュー – コンテキストメニュー"){zoomable="yes"}
+![3Dビュー – コンテキストメニュー](3d-view.resources/sceneBrowser-contextualMenu.gif "3Dビュー – コンテキストメニュー"){zoomable="yes"}
 
 *選択、コンテキストメニュー*
 
@@ -114,13 +114,13 @@ Designerは、デフォルトで画像ベースの照明(IBL)で動作します�
 
 <b>ライト/プロパティの編集</b>に移動して、シーンのポイントライトを切り替えます。
 
-ポイントライト1は、ライトモードでビューポート内をLMBまたはRMBを押しながらドラッグすることで、シーンの原点を中心に移動できます。 <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+ポイントライト1は、ライトモードでビューポート内をLMBまたはRMBを押しながらドラッグすることで、シーンの原点を中心に移動できます。 <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-カメラモードの場合 <img src="../../assets/image2020-9-17-10-31-32.png" width="24" />、Ctrl + ⇧キーをマウスボタンと組み合わせて押すことにより、一時的に照明モードに切り替えることもできます。
+カメラモードの場合 <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" />、Ctrl + ⇧キーをマウスボタンと組み合わせて押すことにより、一時的に照明モードに切り替えることもできます。
 
 ## 3Dビューでデータを表示
 
-![Substanceグラフの出力を表示する](../../assets/3d-material.gif "Substanceグラフの出力を表示する")
+![Substanceグラフの出力を表示する](3d-view.resources/3d-material.gif "Substanceグラフの出力を表示する")
 
 ### Substance グラフ
 
@@ -140,7 +140,7 @@ Designerは、デフォルトで画像ベースの照明(IBL)で動作します�
 > 
 > 複数の単一のマテリアルでカスタムメッシュを使用する場合は、マテリアルを割り当てるマテリアルスロットを選択するよう求められます。 上記のいずれかの方法で、スロットをクリックして選択を確定します。 マテリアルとその割り当てについて詳しくは、以下の詳細セクションを参照してください。
 
-![3Dビューでノードとグラフの出力を表示する](../../assets/3d-channel.gif "3Dビューでノードとグラフの出力を表示する")
+![3Dビューでノードとグラフの出力を表示する](3d-view.resources/3d-channel.gif "3Dビューでノードとグラフの出力を表示する")
 
 ### 個々のノード/グラフ出力
 
@@ -152,7 +152,7 @@ Designerは、デフォルトで画像ベースの照明(IBL)で動作します�
 
 個々のグラフ出力を表示するには、[エクスプローラー](../the-explorer-window/the-explorer-window.md)ドックでグラフリソースを展開し、*LMB*&#x200B;を使用して出力を3Dビューにドラッグします。 ノードを割り当てる使用可能なチャンネルのリストが表示されます。 「任意」をクリックして確定します。
 
-![カスタム3Dメッシュの表示](../../assets/3d-mesh.gif "カスタム3Dメッシュの表示")
+![カスタム3Dメッシュの表示](3d-view.resources/3d-mesh.gif "カスタム3Dメッシュの表示")
 
 ## （カスタム）3Dシーンの表示
 
@@ -161,7 +161,7 @@ Designerには、12種類のプリセットメッシュが用意されていま�
 
 カスタム3Dシーンの場合は、[3Dシーンの操作](../../working-with-3d-scenes/working-with-3d-scenes.md)セクションに移動します。
 
-![マテリアルプロパティを変更しています](../../assets/3d-materials.gif "マテリアルプロパティを変更しています")
+![マテリアルプロパティを変更しています](3d-view.resources/3d-materials.gif "マテリアルプロパティを変更しています")
 
 ## シェーダプロパティの変更
 
@@ -184,7 +184,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 > * <b>ラスタライザ/GPU パストレーサー:</b>レンダラー設定（レンダラー/編集設定）にある&#x200B;*シーン全体*&#x200B;に影響します。
 > * <b>OpenGL:</b>マテリアルプロパティにあるマテリアルに影響を与えます。
 
-![シーンの書き出し](../../assets/3d-view-export-scene.gif "シーンの書き出し")
+![シーンの書き出し](3d-view.resources/3d-view-export-scene.gif "シーンの書き出し")
 
 ## シーンを書き出し
 
@@ -209,34 +209,34 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 >
 > いくつか注意事項
 > 
-> 元のメッシュに複数のマテリアルやUV セットがある場合、これらは&#x200B;*1つに結合*&#x200B;されます。
+> 元のメッシュに複数のマテリアルやUVセットがある場合、これらは&#x200B;*1つにマージ*&#x200B;されます。
 > 
-> 書き出しプロセスの期間と結果のファイルサイズは、三角形のメッシュ数と&#x200B;*テセレーション率*&#x200B;によって異なります。 テセレーション率の値が高いと、GPUのオンボードメモリプールによっては不安定になる可能性があります。
+> 書き出し処理の期間と結果のファイルサイズは、メッシュ三角形の数と&#x200B;*分割係数*&#x200B;によって異なります。 テッセレーション係数の値が高いと、GPUのオンボードメモリプールによっては不安定になることがあります。
 > 
 > つまり、テッセレーションされたメッシュの頂点数は、*Height*&#x200B;マップのピクセル数と&#x200B;*同じ範囲*&#x200B;にある必要があります。
 > 
-> <b>Phong</b> メッシュを使用する場合は、高さマップよりも高密度のテセレーションを使用するとメッシュが少しスムーズになりますが、最初に必要なソフトウェアの詳細を含んだメッシュが確実に書き出されるように注意し、必要に応じて他の高さマップで書き出されたメッシュを調整する必要があります。
+> <b>Phong</b>面分割を使用する場合、Heightマップよりも高密度のメッシュを使用するとメッシュが少し滑らかになりますが、最初に必要なHeightマップの詳細を含んだメッシュを確実にエクスポートし、必要に応じて他のソフトウェアでエクスポートされたメッシュをリファインすることを目指す必要があります。
 
 >[!WARNING]
 >
 > **TDR （Windowsのみ）**
 > 
-> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
+> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
 
 ## メニューバー
 
-メニューバーには、3D ビューに関するオプションを含む7つのメニューが表示されます。 以下に、使用可能なすべてのオプションの概要を示します。
+メニューバーには、3Dビューに関連する7つのメニューとオプションが表示されます。 以下に、使用可能なすべてのオプションの概要を示します。
 
 +++シーン
-<b>シーン</b>メニューは、表示されているジオメトリ（3Dリソース）と3Dビューの状態を扱います。 3Dリソースは単なるメッシュであり、シーンのステートはライト、カメラ、および関連する設定であり、メッシュをそれに沿って含めることもできます。
+<b>シーン</b>メニューは、表示されるジオメトリ（3Dリソース）と3Dビューの状態を扱います。 3Dリソースはメッシュのみです。シーンの状態はライト、カメラ、関連設定で、メッシュを横に並べて含めることもできます。
 
-![[シーン]メニューのメッシュ](../../assets/3d-view-meshes.png "[シーン]メニューのメッシュ")
+![シーンメニューメッシュ](3d-view.resources/3d-view-meshes.png "シーンメニューメッシュ")
 
 
 
-<b>編集： </b>[プロパティ](../../interface/properties/properties.md)パネルのシーンオプションを読み込みます。 3D メッシュの表示/非表示を切り替えることができます。
+<b>編集： </b>[プロパティ](../../interface/properties/properties.md)パネルのシーンオプションを読み込みます。 3Dメッシュの表示/非表示を切り替えることができます。
 
-<b>標準プリミティブ：</b> 3D ビュー内の以下の単純な3D メッシュを表示します。
+<b>標準プリミティブ：</b> 3Dビューで以下の単純な3Dメッシュのいずれかを表示します。
 
 * 立方体
 
@@ -252,7 +252,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 * 球面
 
-<b>拡張プリミティブ：</b> 3D ビュー内の以下の3Dメッシュを表示します。
+<b>拡張プリミティブ：</b> 3Dビューで以下の3Dメッシュを表示します。
 
 * 布
 
@@ -266,13 +266,13 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 * トーラス
 
-<b>2D ビューのUVを表示：</b>現在選択されているメッシュのUVを[2D ビュー](../2d-view/2d-view.md)にオーバーレイとして表示します。
+<b>UVを2Dビューで表示：</b>現在選択されているメッシュのUVを[2Dビュー](../2d-view/2d-view.md)にオーバーレイとして表示します。
 
-<b>現在のシーンから3Dリソースを作成…:</b>現在のシーンからパッケージ内に新しい[3D シーンリソース](../../resources/3d-scene-resource/3d-scene-resource.md)を作成します。
+<b>現在のシーンから3Dリソースを作成…:</b>現在のシーンからパッケージ内に新しい[3Dシーンリソース](../../resources/3d-scene-resource/3d-scene-resource.md)を作成します。
 
-<b>状態ファイルを読み込む…: </b>外部に保存された[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)を読み込みます。 3D メッシュは置き換えられず、3Dレンダラー、カメラ、ライトの設定のみが読み込まれます。
+<b>状態ファイルを読み込む…: </b>外部に保存された[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)を読み込みます。 3Dメッシュを置き換えず、3Dレンダラー、カメラ、ライトの設定のみをロードします。
 
-<b>メッシュを含む状態ファイルを読み込む…:</b>外部に保存された[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbscn)を読み込みます。 3Dレンダラ、カメラ、ライトの設定を、その参照3Dシーンと共にロードします。 .
+<b>メッシュで状態ファイルを読み込む…:</b>外部に保存された[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbscn)を読み込みます。 3Dレンダラ、カメラ、ライトの設定を、その参照3Dシーンと共にロードします。 .
 
 <b>状態ファイルを保存します…: </b>3Dビューの現在の状態を[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbscn)に保存します。
 
@@ -305,7 +305,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 <b>定義の読み込み…: </b>（OpenGLレンダラーのみ）独自のカスタム[GLSLFXシェーダーを読み込むことができます。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) シェーダーが上のリストに追加されます。
 
-<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
+<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
 
 <b>名前の変更：</b>このマテリアルのラベルを変更します。
 
@@ -526,25 +526,25 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>バックフェースカリング</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>バックフェースカリング</b>
 
 このオプションを無効にすると、*両側*&#x200B;からメッシュ面が表示されます。 このオプションは、ワイヤーフレームと組み合わせて使用できます。
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>バウンディングボックス</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>バウンディングボックス</b>
 
 メッシュのバウンディングボックスの表示を切り替えます。
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>頂点接線空間</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>頂点接線空間</b>
 
 すべての頂点の接線、従法線、法線ベクトルを色付きギズモとして表示します。
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>ワイヤーフレーム</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>ワイヤーフレーム</b>
 
 メッシュをワイヤーフレームとして表示するかどうかを切り替えます。
 
@@ -574,7 +574,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 ### カラーチャンネル
 
-![](../../assets/2d-view-icon-channels.png) <b>カラーチャンネル</b>ボタンを使用して、画像の単一チャンネルを表示できます。 これによりコンボボックスが開き、<b>赤</b>、<b>緑</b>および<b>青</b>のチャンネルのうち、表示するチャンネルを選択できます。 <b>[RGB]</b>を選択すると、すべてのチャンネルを含む画像の通常の状態が復元されます。
+![](3d-view.resources/2d-view-icon-channels.png) <b>カラーチャンネル</b>ボタンを使用して、画像の単一チャンネルを表示できます。 これによりコンボボックスが開き、<b>赤</b>、<b>緑</b>および<b>青</b>のチャンネルのうち、表示するチャンネルを選択できます。 <b>[RGB]</b>を選択すると、すべてのチャンネルを含む画像の通常の状態が復元されます。
 
 <b>カラーチャンネル</b>ボタン&#x200B;*の*&#x200B;アイコン&#x200B;*は、現在表示されているチャンネルによって異なります*。
 
