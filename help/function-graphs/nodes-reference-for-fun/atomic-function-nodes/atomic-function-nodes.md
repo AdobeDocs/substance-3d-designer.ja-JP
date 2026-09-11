@@ -20,7 +20,7 @@ ht-degree: 17%
 
 # アトミック関数ノード
 
-グラフ](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)の[アトミックノードと同様に、Substance関数グラフのアトミックノードは、その種類のグラフの最小ノード単位です。
+グラフ[&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)のアトミックノードと同様に、Substance関数グラフのアトミックノードは、その種類のグラフの最小ノード単位です。
 
 目的に応じて、いくつかのカテゴリに分類できます。
 

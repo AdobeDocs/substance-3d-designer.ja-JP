@@ -32,15 +32,15 @@ ht-degree: 2%
 
 ランダム離散[a, b]
 
-ランダムな一様[-1, 1[
+ランダムな一様&lbrack;-1, 1&lbrack;
 
-ランダムに一様[a, b[
+ランダムに一様&lbrack;a, b&lbrack;
 
-Random uniform float2 [a, b[
+Random uniform float2 &lbrack;a, b&lbrack;
 
-Random uniform float3 [a, b[
+Random uniform float3 &lbrack;a, b&lbrack;
 
-Random uniform float4 [a, b[
+Random uniform float4 &lbrack;a, b&lbrack;
 
 </td>
 <td style="border: 0;" valign="top">

@@ -183,7 +183,7 @@ ht-degree: 0%
 
 「<b>UV</b>」ボタンを使用して有効にすることができます。![](../../assets/2d-view-icon-uv.png)
 
-3D ビュー](../../interface/3d-view/3d-view.md)で現在選択されているメッシュ [のUVが、色付きのワイヤーフレームとして表示されます。
+3D ビュー[&#128279;](../../interface/3d-view/3d-view.md)で現在選択されているメッシュ のUVが、色付きのワイヤーフレームとして表示されます。
 
 メッシュファイルでマテリアルカラー情報が使用できる場合は、そのマテリアルカラーがUVオーバーレイのカラーとして使用されます。
 
@@ -351,7 +351,7 @@ ht-degree: 0%
 
 ## ベクターグラフィックエディター
 
-<b>ベクターグラフィックスエディター</b>は、*インポート済み* [ SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)で使用できます。リンクされたリソースは&#x200B;*サポートされていません*。
+<b>ベクターグラフィックスエディター</b>は、*インポート済み* [&#x200B; SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)で使用できます。リンクされたリソースは&#x200B;*サポートされていません*。
 
 >[!NOTE]
 >

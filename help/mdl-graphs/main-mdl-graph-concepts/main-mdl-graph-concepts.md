@@ -39,7 +39,7 @@ MDLマテリアルでは、物理ベースのレンダリングソリューシ�
 </tr>
 </table>
 
-MDLグラフを作成または読み込むと、Designerによって最初に検出された[ピン留めされていない](../../interface/customizing-your-wor/customizing-your-workspace.md) 3Dビューパネルが&#x200B;*自動的に* Iray](../../interface/3d-view/iray/iray.md)レンダラーに切り替わります。 [使用できる3Dビューがない場合は、*新しい* 3Dビューパネルが作成され、Irayレンダラーに切り替えられ、編集中のMDLマテリアルのレンダリングがホストされます。
+MDLグラフを作成または読み込むと、Designerによって最初に検出された[ピン留めされていない](../../interface/customizing-your-wor/customizing-your-workspace.md) 3Dビューパネルが&#x200B;*自動的に* Iray[&#128279;](../../interface/3d-view/iray/iray.md)レンダラーに切り替わります。 使用できる3Dビューがない場合は、*新しい* 3Dビューパネルが作成され、Irayレンダラーに切り替えられ、編集中のMDLマテリアルのレンダリングがホストされます。
 
 3DビューパネルでIrayレンダラーが選択されている場合、そのパネルの「マテリアル」メニューで、使用可能なMDLマテリアルを切り替えることができます。これには、エクスプローラーパネルに読み込まれるマテリアルと、DesignerのMDLライブラリ内のマテリアルが含まれます。 IrayでのMDLマテリアルの操作について詳しくは、このドキュメントの[Iray](../../interface/3d-view/iray/iray.md)セクションを参照してください。
 
