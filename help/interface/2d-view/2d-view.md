@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの2Dビューを使用して、マテリアルグラフからのテクスチャ出力をプレビューおよび確認します。
 helpx_creative_field: ""
