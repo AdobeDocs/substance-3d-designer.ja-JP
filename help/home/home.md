@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Substance 3D Designerを使用して、ノードベースのワークフローでプロシージャルマテリアル、テクスチャ、3Dアセットを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designerユーザーガイド
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # Substance 3D Designerユーザーガイド
 
-![Substance 3D Designerのメインウィンドウ](../assets/sdsummerinterface.jpg "Substance 3D Designerのメインウィンドウ")
+![Substance 3D Designerのメインウィンドウ](home.resources/sdsummerinterface.jpg "Substance 3D Designerのメインウィンドウ")
 
 [Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html) はマテリアルオーサリングソフトウェアです。 ノードグラフを使用して、プロシージャパターンやノイズからテクスチャを生成したり、ビットマップを操作することができます。
 

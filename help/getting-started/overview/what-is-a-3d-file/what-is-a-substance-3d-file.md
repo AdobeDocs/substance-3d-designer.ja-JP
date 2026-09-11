@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: Substance 3Dのファイル形式と、様々なアプリケーションで使用できるプロシージャルマテリアルおよびテクスチャの保存方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3Dファイルとは
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Substance 3Dファイルとは
 
-![パラメトリックレンガ壁マテリアル](../../../assets/MaterialsOverview.gif "パラメトリックレンガ壁マテリアル")
+![パラメトリックレンガ壁マテリアル](what-is-a-substance-3d-file.resources/MaterialsOverview.gif "パラメトリックレンガ壁マテリアル")
 
 *Käy Vriendが作成したレンガの壁のマテリアルの例\
 パラメーターを変更して、マテリアルの外観を動的に制御できます。*

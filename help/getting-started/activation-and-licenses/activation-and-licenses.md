@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Substance 3D Designerをアクティベートし、すべての機能にアクセスするためのライセンスを管理する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ライセンス認証とライセンス
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -24,13 +24,13 @@ ht-degree: 1%
 
 | エディション | アクティベーションプロセス |
 | --- | --- |
-| Creative Cloud デスクトップ | [HelpXドキュメント](https://helpx.adobe.com/jp/support/substance-3d-designer.html)の専用ページを参照してください。 問題が発生した場合、[Creative Cloudのドキュメント](https://helpx.adobe.com/jp/creative-cloud/user-guide.html)に詳細な回答が記載されている場合があります。 |
+| Creative Cloud デスクトップ | [HelpXドキュメント](https://helpx.adobe.com/support/substance-3d-designer.html)の専用ページを参照してください。 問題が発生した場合、[Creative Cloudのドキュメント](https://helpx.adobe.com/creative-cloud/user-guide.html)に詳細な回答が記載されている場合があります。 |
 | スチーム | Steamライブラリから直接製品を起動します。 |
 | Substance（スタンドアロン） | 以下のアクティベーションプロセスを参照してください。 |
 
 ## ライセンス認証手順（Substance版）
 
-### ライセンス認証ウィザードの使用
+### アクティベーションウィザードの使用
 
 次の3つの選択肢があります。
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 >
 > ライセンスファイルをアクティベーションウィザードと共にインストールするには、Designerを管理者として実行し、ウイルス対策を一時的に無効にしてください。
 
-![ライセンス認証ウィザード](../../assets/activation-wizard.png "ライセンス認証ウィザード")
+![ライセンス認証ウィザード](activation-and-licenses.resources/activation-wizard.png "ライセンス認証ウィザード")
 
 ### 手動アクティベーション
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーにパスを手動で入力するか、隠しファイルを表示して表示します。
+> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーでパスを手動で入力するか、隠しファイルを表示して表示します。
 
 >[!IMPORTANT]
 >
