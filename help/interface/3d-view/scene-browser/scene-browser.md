@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: シーン内の3D シーン要素、マテリアル、オブジェクトを移動および管理するには、ビューポート・ブラウザを使用します。
 helpx_creative_field: ""
