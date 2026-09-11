@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの環境設定ウィンドウにアクセスして、アプリケーションの設定と動作をカスタマイズします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 環境設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Preferencesウィンドウ
 
-![環境設定ウィンドウ](../../assets/image2021-6-22-20-56-1.png "環境設定ウィンドウ")
+![環境設定ウィンドウ](preferences-window.resources/image2021-6-22-20-56-1.png "環境設定ウィンドウ")
 
 このページには、<b>環境設定</b>ウィンドウとそのすべての設定が表示されます。
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ### 自動バックアップ
 
-自動保存機能がデフォルトで含まれています。この機能では、開いている[SBSパッケージ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)の現在のステータスのコピーを設定された時間に作成します。 自動保存は、SBSパッケージの場所にある<b>.autosave</b>フォルダーに配置されます。
+自動保存機能がデフォルトで含まれています。この機能では、開いている[SBSパッケージ](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)の現在の状態のコピーを設定された期間で作成します。 自動保存は、SBSパッケージの場所にある<b>.autosave</b>フォルダーに配置されます。
 
 |  |  |
 | --- | --- |
@@ -105,7 +105,7 @@ ht-degree: 1%
 | <b>最大#個のバージョンを保持</b>  *既定： 6* | 任意の時点で保持する自動保存の最大数。 |
 
 バージョンの最大数に達すると、新しいバックアップによって最も古いバックアップが削除されます。\
-自動保存は、SBSパッケージの元の場所に移動&#x200B;*した後、*&#x200B;開く必要があることにも注意してください。 現在の場所で&#x200B;*開かないでください*。
+また、自動保存は、元のSBSパッケージの場所に移動&#x200B;*した後、*&#x200B;開く必要があります。 現在の場所で&#x200B;*開かないでください*。
 
 ### SBSARファイルの公開と送信
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 |  |                                                                                                                                                                                                                                                                                                 |
 | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>調理のサイズ制限</b>  *既定： 8192ピクセル* | 任意のSubstance [グラフ](../../compositing-graphs/substance-compositing-graphs.md)内のすべてのノードに許可される最大ピクセル解像度を定義します。 グラフ出力は常に2の累乗の解像度の正方形のイメージであるため、ここで設定する値は、最大幅とHeightの両方をピクセル単位で定義します。 |
+| <b>調理のサイズ制限</b>  *既定： 8192ピクセル* | 任意のSubstance [グラフ](../../compositing-graphs/substance-compositing-graphs.md)内のすべてのノードに許可される最大ピクセル解像度を定義します。 グラフの出力は常に2の累乗の解像度の正方形イメージであるため、ここで設定する値は、最大幅と最大Heightの両方をピクセル単位で定義します。 |
 
 ### エンジン
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> グラフのメモリ使用量を減らすための推奨事項については、ドキュメントの「[Performance Optimization Guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md)」セクションを参照することをお勧めします。
+> グラフのメモリ使用量を減らすための推奨事項については、ドキュメントの「[パフォーマンス最適化ガイドライン](../../best-practices/performance-optimization/performance-optimization-guidelines.md)」セクションを参照することをお勧めします。
 
 ## プロジェクト
 
@@ -140,8 +140,8 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>Tabキーでノードメニューを表示</b>  *既定：確認済み* | オンにすると、&#39;Tab&#39;キーは<b>ノードメニュー</b>を開き、&#39;Space&#39;キーの機能を複製します。 |
-| <b>コネクターをクリックしてドラッグすることでノードの作成を有効にする</b>  *既定：確認済み* | オンにした場合、任意のコネクターをクリックしたときに、カーソルをドラッグしてグラフの空き領域で作成されたリンクを離すと、<b>ノードメニュー</b>が表示されます。   メニューは、クリックされたコネクターの種類に応じて&#x200B;*フィルター処理*&#x200B;されます。 つまり、クリックしたノードと互換性のあるコネクターのみが表示されます。 |
-| <b>グラフを開くときに3Dビューで出力を表示する</b>  *既定：確認済み* | オンにすると、グラフを開いたときに、すべてのグラフ出力が[3D ビュー](../../interface/3d-view/3d-view.md)に自動的に適用されます。   また、[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに至るストリームの一部であるすべてのノードをレンダリングする効果もあります。 |
+| <b>コネクタをクリックしてドラッグすることでノードの作成を有効にする</b>  *既定：確認済み* | オンにした場合、任意のコネクタをクリックしたときに、カーソルをドラッグしてグラフの空の領域で作成されたリンクを離すと、<b>ノードメニュー</b>が表示されます。   メニューは、クリックされたコネクタの種類に応じて&#x200B;*フィルター処理*&#x200B;されます。 つまり、クリックしたコネクタと互換性のあるノードのみが表示されます。 |
+| <b>グラフを開くときに3Dビューで出力を表示する</b>  *既定：確認済み* | オンにすると、グラフを開いたときに、すべてのグラフ出力が[3Dビュー](../../interface/3d-view/3d-view.md)に自動的に適用されます。   また、[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに至るストリームの一部であるすべてのノードをレンダリングする効果もあります。 |
 
 ### Substance 合成グラフ
 
@@ -157,14 +157,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![コンテキスト内の編集が無効になりました](../../assets/substance3ddesigner_incontext_no.gif "コンテキスト内の編集が無効になりました")
+![コンテキスト内の編集が無効になりました](preferences-window.resources/substance3ddesigner_incontext_no.gif "コンテキスト内の編集が無効になりました")
 
 *参照を開く*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![コンテキスト内の編集が有効になりました](../../assets/substance3ddesigner_incontext_yes.gif "コンテキスト内の編集が有効になりました")
+![コンテキスト内の編集が有効になりました](preferences-window.resources/substance3ddesigner_incontext_yes.gif "コンテキスト内の編集が有効になりました")
 
 *コンテキスト内の参照を開く*
 
@@ -178,20 +178,20 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>既定で非表示になっている環境</b>  *既定：確認済み* | [環境](../../interface/3d-view/3d-view.md)の既定の表示設定を決定します。 非表示にすると、3D ビューの背景が&#x200B;*単色*&#x200B;に置き換えられます。 |
-| <b>ビューポートの拡大/縮小</b>  *既定：自動* | ディスプレイの拡大・縮小が使用される際の3D ビューのレンダリング解像度の拡大・縮小を制御します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>自動</i>:レンダリング解像度は<i>拡大縮小</i>の表示解像度に基づいています</li> <li data-preserve-html="true"><i>なし</i>:レンダリング解像度は<i>ネイティブ</i>の表示解像度に基づいています</li> </ul> |
+| <b>既定で非表示になっている環境</b>  *既定：確認済み* | [環境](../../interface/3d-view/3d-view.md)の既定の表示設定を決定します。 非表示にすると、3Dビューの背景が&#x200B;*単色*&#x200B;に置き換えられます。 |
+| <b>ビューポートの拡大/縮小</b>  *既定：自動* | 表示倍率が使用されている場合に、3Dビューのレンダリング解像度の倍率を制御します。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>自動</i>:レンダリング解像度は<i>拡大縮小</i>の表示解像度に基づいています</li> <li data-preserve-html="true"><i>なし</i>:レンダリング解像度は<i>ネイティブ</i>の表示解像度に基づいています</li> </ul> |
 
 ### OpenGL
 
 |  |  |
 | --- | --- |
-| <b>サンプル数</b>  *既定： 64* | 3D ビューシェーダのサンプルテーブルのサイズに影響します。 値を大きくすると、画質は向上しますが、パフォーマンスは低下します。  **注意：**&#x200B;シェーダーのサンプルテーブルも、システムのGPUおよびOSの影響を受けます。 |
+| <b>サンプル数</b>  *既定： 64* | 3Dビューシェーダのサンプルテーブルのサイズに影響します。 値を大きくすると、画質は向上しますが、パフォーマンスは低下します。  **注意：**&#x200B;シェーダーのサンプルテーブルも、システムのGPUおよびOSの影響を受けます。 |
 
 ## ベイカー
 
 |  |  |
 | --- | --- |
-| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベイカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :NVIDIA Pascal GPUでDXRを強制的に使用</li> </ul> |
+| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベーカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :Nvidia Pascal GPUでDXRを強制的に使用</li> </ul> |
 
 ## ライブラリ
 
@@ -201,18 +201,18 @@ ht-degree: 1%
 
 ## ショートカット
 
-グラフのノードを作成するために、カスタムキーボードショートカットを割り当てることができます。
+グラフにノードを作成するためのカスタムキーボードショートカットを割り当てることができます。
 
-次のすべてのグラフの種類のノードにショートカットを割り当てることができます： [Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md)および[FXマップグラフ](../../function-graphs/fxmaps/fxmaps.md)。
+次のすべての種類のノードのグラフにショートカットを割り当てることができます： [Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md)および[FX-Map グラフ](../../function-graphs/fxmaps/fxmaps.md)。
 
-任意のノードにショートカットを割り当てることができます。カスタムライブラリノードにもショートカットを割り当てることができます。 同じショートカットを異なるグラフタイプに割り当てることができます。 デフォルトではショートカットが割り当てられていないため、自由にカスタマイズできます。
+任意のノードにショートカットを割り当てることができます。カスタムライブラリノードにも割り当てることができます。 同じショートカットを異なるグラフの種類で割り当てることができます。 デフォルトではショートカットが割り当てられていないため、自由にカスタマイズできます。
 
-別のノードショートカットまたは組み込みプログラムショートカットと競合する場合、エントリは強調表示され、警告が表示されます。 競合が解決されるまで、ショートカットは&#x200B;*効果がありません*。
+他のノードショートカットや組み込みプログラムショートカットと競合した場合は、その項目がハイライト表示され、警告が表示されます。 競合が解決されるまで、ショートカットは&#x200B;*影響を与えません*。
 
 >[!IMPORTANT]
 >
 > Pythonプラグインで上書きされるショートカット
 > 
-> ノードに割り当てられているキーボードショートカットをPythonプラグインが定義すると、プラグインはそのショートカットを上書きします。 つまり、ノードを作成する代わりにキーを使用するとプラグインアクションが起動します。
+> Pythonプラグインがノードに割り当てられたキーボードショートカットを定義すると、プラグインはそのショートカットをオーバーライドします。 つまり、ノードを作成する代わりにキーを使用するとプラグインアクションが起動します。
 > 
-> これは、[ノード整列ツール](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)で使用されるH、S、およびVキーに既に該当します。
+> これは、[ノードアラインメントツール](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)で使用されるH、S、およびVキーの場合です。
