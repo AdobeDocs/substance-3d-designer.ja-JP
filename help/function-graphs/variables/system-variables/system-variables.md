@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: 高度なワークフロー用のSubstance 3D Designerの関数グラフに組み込まれているシステム変数について説明します。
 helpx_creative_field: ""
@@ -62,5 +62,5 @@ ht-degree: 3%
 
 | 名前 | タイプ | 目的 |
 | --- | --- | --- |
-| $time | 浮動小数 | この変数は、Substance engineが起動してからの時間を秒単位で返します。 グラフで使用する場合は、経過時間に応じて結果が変化します。  **注意：**&#x200B;現在、Designerではこの値を変更する方法はありませんが、アニメーションの[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)、[動的ストローク](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)の[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)など、Substance engineを統合するアプリケーションでは、この値を利用できます。 |
+| $time | 浮動小数 | この変数は、Substance engineが起動してからの時間を秒単位で返します。 グラフで使用する場合は、経過時間に応じて結果が変化します。  **注意：**&#x200B;現在、Designerではこの値を変更する方法はありませんが、アニメーションの[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)、[動的ストローク](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)の[Substance 3D Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)など、Substance engineを統合するアプリケーションでは、この値を利用できます。 |
 | $normalformat | 整数 | 現在の環境で使用される標準のフォーマット（DirectXまたはOpenGL）。  **注意：**&#x200B;このSubstance engineは、Designerには影響を与えません。変数を組み込む他のアプリケーションで使用される可能性があります。 |

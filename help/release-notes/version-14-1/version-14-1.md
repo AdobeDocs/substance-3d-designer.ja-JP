@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: ノード配置ツールと新しいスプラインおよびパスノードについて詳しくは、Substance 3D Designerバージョン14.1のリリースノートを参照してください。
 helpx_creative_field: ""

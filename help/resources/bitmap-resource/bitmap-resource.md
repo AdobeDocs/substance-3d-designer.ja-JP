@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: テクスチャベースのマテリアル作成のために、Substance 3D Designerでビットマップリソースを読み込み、作成、使用する方法について説明します。
 helpx_creative_field: ""

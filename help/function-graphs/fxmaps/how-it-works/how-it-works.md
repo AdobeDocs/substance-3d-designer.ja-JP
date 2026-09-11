@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでFXMapを使用して、プロシージャルのエフェクトのテクスチャに関数グラフを適用する方法について説明します。
 helpx_creative_field: ""

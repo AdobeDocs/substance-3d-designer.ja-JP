@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 入力ノードを使用して、ユーザーが公開および調整できるSubstanceグラフの入力パラメーターを作成します。
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 [出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)とは異なり、カラー、グレースケール、または値の入力を明示的に配置する必要があります。 接続されている内容によってタイプが変わる独自の「不可知入力」を作成することはできません。
 
-入力ノードは[出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ほど重要ではありません。入力を必要としない、完全に機能する高度なグラフを作成できます。 入力は、Substance 3D Painterの[インスタンス](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)または[フィルター](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)を作成する場合など、グラフまたはノードインスタンスの結果を外部入力に基づいて作成する場合にのみ使用されます。
+入力ノードは[出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ほど重要ではありません。入力を必要としない、完全に機能する高度なグラフを作成できます。 入力は、Substance 3D Painterの[インスタンス](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)または[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)を作成する場合など、グラフまたはノードインスタンスの結果を外部入力に基づいて作成する場合にのみ使用されます。
 
 <table>
 <tr style="border: 0;">
@@ -145,11 +145,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 入力ノードの&#x200B;*入力に対する相対*&#x200B;継承方式は、[Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)では&#x200B;*サポートされていません*。 パッケージを公開する前に、すべての入力ノードの継承方式を&#x200B;*親に相対的*&#x200B;に設定してください。
+> 入力ノードの&#x200B;*入力に対する相対*&#x200B;継承方式は、[Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/jp/substance-3d-assets.html)では&#x200B;*サポートされていません*。 パッケージを公開する前に、すべての入力ノードの継承方式を&#x200B;*親に相対的*&#x200B;に設定してください。
 
 ## 統合の属性
 
-入力は3D ビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)で使用されます）。
+入力は3D ビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)で使用されます）。
 
 さらに、使用量属性は、正しい入力スロットと出力スロットに一致させるために、[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)でも使用されます。
 

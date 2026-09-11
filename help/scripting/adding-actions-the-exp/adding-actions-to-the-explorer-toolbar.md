@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
 breadcrumb-title: ''
 description: Pythonスクリプティングを使用して、Substance 3D Designerのエクスプローラーツールバーにカスタムアクションを追加する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのメインツールバーについて説明します。このメインツールバーから、一般的なワークフローのツールやコマンドにアクセスできます。
 helpx_creative_field: ""
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>新機能…:</b> Designerの最新リリースに追加された機能を示す画面が表示されます
 
-<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/substance-3d.html)での場所を案内する画面を表示します
+<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/jp/substance-3d.html)での場所を案内する画面を表示します
 
 <b>パートナー：</b> Designerのパートナーが提供するサードパーティ統合に関する免責事項および通知にアクセスできます。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/logging.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonプラグインでログを使用してデバッグやモニタリングを行う方法について説明します。
 helpx_creative_field: ""

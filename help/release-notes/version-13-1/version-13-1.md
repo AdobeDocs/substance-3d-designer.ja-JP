@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: ノードグラフの機能強化とAxF書き出しのサポートについては、Substance 3D Designerバージョン13.1のリリースノートを参照してください。
 helpx_creative_field: ""

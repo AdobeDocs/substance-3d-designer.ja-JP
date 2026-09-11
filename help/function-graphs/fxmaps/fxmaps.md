@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでFXMapを使用して、プロシージャルしたパターン生成のために関数グラフをテクスチャに適用する方法について説明します。
 helpx_creative_field: ""

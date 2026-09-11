@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
 breadcrumb-title: ''
 description: FXMap内で関数グラフを使用して、高度なプロシージャルマテリアルパターンおよびエフェクトを作成する方法について説明します。
 helpx_creative_field: ""

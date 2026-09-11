@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes.html"
 breadcrumb-title: ''
 description: 各バージョンの新機能、改善点、バグ修正については、Substance 3D Designerのリリースノートを参照してください。
 helpx_creative_field: ""

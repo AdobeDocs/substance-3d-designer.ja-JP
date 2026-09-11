@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Gitやその他のシステムと統合するには、Substance 3D Designer環境設定でバージョン管理を設定します。
 helpx_creative_field: ""

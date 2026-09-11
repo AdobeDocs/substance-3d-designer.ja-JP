@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのマスクジェネレーターノードにアクセスし、メッシュのジオメトリとプロパティに基づいてマスクを作成します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # マスクジェネレータ
 
-このカテゴリには、黒と白のマスクを生成するノードの選択肢が含まれます。 ベイク済みマップ情報に基づいてマスクが生成され、それを使用してマテリアルやその他のエフェクトをブレンドできます。 これらのノードは、Substance Painterの[スマートマスク](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)および[ジェネレーター](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators)に似ています。
+このカテゴリには、黒と白のマスクを生成するノードの選択肢が含まれます。 ベイク済みマップ情報に基づいてマスクが生成され、それを使用してマテリアルやその他のエフェクトをブレンドできます。 これらのノードは、Substance Painterの[スマートマスク](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/features/smart-materials-and-masks)および[ジェネレーター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/content/creating-custom-effects/generators)に似ています。
 
 これらのノードはすべて[ベイク済みマップ、](../../../../../bakers/bakers.md)を必要とします。[ベイク済みマップ](../../../../../bakers/bakers.md)なしでは、あまり結果が得られません。
 

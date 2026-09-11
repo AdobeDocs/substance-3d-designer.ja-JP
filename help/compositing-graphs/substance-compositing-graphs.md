@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: プロシージャルテクスチャやマテリアルワークフローを作成するためのSubstance 3D DesignerのSubstance合成グラフについて説明します。
 helpx_creative_field: ""

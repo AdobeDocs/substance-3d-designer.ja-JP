@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: シーンメニューの「シーンを書き出し」アクションを使用して、Designerで行ったすべての編集内容を含む3D シーンを書き出します。
 helpx_creative_field: ""

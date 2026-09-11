@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: 3Dビューでマテリアルプロパティを設定し、3DオブジェクトでSubstanceマテリアルがどのように表示されるかをプレビューして調整します。
 helpx_creative_field: ""
@@ -202,7 +202,7 @@ Adobe Standard Material(ASM)モデルはDesigner 11.2で導入されたもので
 Designerは新しいデフォルトモデルとしてOpenPBRに移行されますが、ASMは引き続き含まれ、そのプロパティも共有されます
 ラスタライザー、GPU パストレーサー、OpenGL [3Dレンダラー](../3d-renderers/3d-renderers.md)全体。
 
-モデルは、[こちら](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で文書化されています。
+モデルは、[こちら](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で文書化されています。
 
 <a name="usdpreviewsurface"></a>
 

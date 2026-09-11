@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: グラフビューのナビゲーションピンを使用すると、Substance 3D Designerグラフの様々な場所の間をすばやくジャンプできます。
 helpx_creative_field: ""

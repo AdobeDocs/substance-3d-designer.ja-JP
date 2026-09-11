@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: グラフを整理するためのフレーム、コメント、ピン、ポータルノードなど、Substance 3D Designerのグラフアイテムについて説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでAxFアピアランス交換形式のリソースを読み込んで使用して、マテリアルを読み込む方法について説明します。
 helpx_creative_field: ""
@@ -144,7 +144,7 @@ AxFファイルのインポートワークフローは、次の2つの方法の�
 Substanceグラフテンプレートには、次の2種類があります。
 
 <b>AxFからメタリックへの粗さ</b>および<b>AxFからSpecularへの光沢</b>は、*変換*&#x200B;テンプレートであり、AxFマテリアルを標準のPBRモデルにマップできます。\
-これらのマテリアルは、デフォルトの3Dビューシェーダーで使用したり、Designerの[Sampler](https://www.adobe.com/products/substance3d-sampler.html)で作成された他のPBRマテリアルや、[3Dアセット](https://substance3d.adobe.com/assets/)ライブラリから取得した他のPBRマテリアルと組み合わせたりできます。
+これらのマテリアルは、デフォルトの3Dビューシェーダーで使用したり、Designerの[Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)で作成された他のPBRマテリアルや、[3Dアセット](https://substance3d.adobe.com/assets/)ライブラリから取得した他のPBRマテリアルと組み合わせたりできます。
 
 <b>AxFからAxF</b>は、*パススルー*&#x200B;のテンプレートです。このテンプレートを使用すると、AxFマテリアルを所定の位置で編集し、これらの変更を既存のAxFファイル内の新しいレイヤーとしてエクスポートできます。 詳しくは、以下のAxFファイルのエクスポートを参照してください。
 
