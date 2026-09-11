@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
-description: Substance 3D Designer機能グラフのサンプラーノードにアクセスして、テクスチャをサンプリングし、カラー値を抽出します。
+description: Substance 3D Designer関数グラフのサンプラーノードにアクセスして、テクスチャをサンプルし、カラー値を抽出します。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Samplers
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: サンプラ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Samplerノード
 
-![Samplerノード](../../../../assets/image2016-1-12-14-45-43.png "Samplerノード")
+![Samplerノード](sampler-nodes.resources/image2016-1-12-14-45-43.png "Samplerノード")
 
-これらのノードは、指定された2D座標で入力イメージの値をサンプリングします。
+これらのノードは、指定された2D座標で入力画像の値をサンプリングします。
 
-<b>サンプルグレー</b>は、グレースケール画像の入力<b>位置</b>で輝度値をサンプリングし、<b>浮動小数点</b>値として出力します。
+<b>サンプルグレイ</b>は、グレースケールイメージの入力<b>Position</b>で輝度値をサンプリングし、<b>浮動小数</b>値として出力します。
 
-<b>サンプルカラー</b>は、カラー画像の入力<b>位置</b>でRGBA値をサンプリングし、<b>Float4</b>値として出力します。R、G、B、Aコンポーネントは、それぞれX、Y、Z、Wコンポーネントにマップされます。
+<b>サンプルカラー</b>は、カラー画像の入力<b>位置</b>でRGBA値をサンプリングし、R、G、B、AコンポーネントがそれぞれX、Y、Z、Wコンポーネントにマップされた<b>浮動小数4</b>値として出力します。
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ピクセル座標](../../../../assets/samplercoords.png "ピクセル座標")
+![ピクセル座標](sampler-nodes.resources/samplercoords.png "ピクセル座標")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> <b>位置</b>の入力は、画像のX座標とY座標が値のX要素とY要素にそれぞれマップされるFloat2値である必要があります
+> <b>Position</b>入力は、画像のX座標とY座標が値のX要素とY要素にそれぞれマップされる浮動小数 2値である必要があります
 
 ## パラメーター
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 リストは、現在接続されている入力に動的に適応します。 つまり、ノード入力を接続する際にエントリが追加されます。
 
-入力の番号付けは0から始まるので、ノードの最初の入力に接続されている画像は&#x200B;*入力画像0*&#x200B;として表示されます。
+入力の番号は0から始まるため、ノードの最初の入力に接続されたイメージは&#x200B;*入力画像 0*&#x200B;として表示されます。
 
 +++
 
@@ -66,8 +66,8 @@ ht-degree: 1%
 <b>最も近い</b>\
 ピクセルは、一致する座標でターゲット&#x200B;*をそのまま*&#x200B;にマップされます。 ターゲットの解像度が低い場合は、ピクセルが完全に無視されることがあります。 ターゲットの解像度が高い場合は、スパンをカバーするすべてのピクセルにマップされます。 出力は&#x200B;*鮮明*&#x200B;で、わずかに&#x200B;*エイリアスが発生*&#x200B;しているように見えます。
 
-<b>バイリニアフィルター</b>\
-ソース画像にフィルター処理が適用され、そのピクセルがターゲット解像度にマッピングされて、ピクセル間のトランジションが&#x200B;*滑らかになります*。 出力は&#x200B;*より滑らか*&#x200B;で、わずかに&#x200B;*ぼやけて*&#x200B;見えます。
+<b>フィルタリング</b>\
+フィルタリング処理は、元の画像に適用されます。元の画像のピクセルが対象の解像度にマッピングされ、ピクセル間のトランジションが&#x200B;*滑らかになります*。 出力は&#x200B;*より滑らか*&#x200B;で、わずかに&#x200B;*ぼやけて*&#x200B;見えます。
 
 +++
 

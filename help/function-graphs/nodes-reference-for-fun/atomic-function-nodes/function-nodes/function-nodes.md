@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフの関数ノードにアクセスして、カスタム関数グラフを呼び出して実行します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 関数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -20,14 +20,14 @@ ht-degree: 5%
 
 # 関数ノード
 
-関数ノードは、入力値を表す数学関数に従って変形します。
+関数ノードは、入力値を表す算術関数に従って変換します。
 
-これらの入力コネクターは通常は入力されませんが、すべての値の型をサポートしているわけではありません。
+入力コネクタは通常は入力されませんが、すべての値タイプをサポートしているわけではありません。
 
 ## ノードリスト
 
 +++Pow
-![Powノードアイコン](../../../../assets/Pow_Node.jpg "Powノードアイコン")
+![Powノードアイコン](function-nodes.resources/Pow_Node.jpg "Powノードアイコン")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2Powノードアイコン](../../../../assets/2Pow_Node.jpg "2Powノードアイコン")
+![2Powノードアイコン](function-nodes.resources/2Pow_Node.jpg "2Powノードアイコン")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++平方根
-![平方根ノードアイコン](../../../../assets/SquareRoot_Node.jpg "平方根ノードアイコン")
+![平方根ノードアイコン](function-nodes.resources/SquareRoot_Node.jpg "平方根ノードアイコン")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++指数
-![指数ノードアイコン](../../../../assets/Exponential_Node.jpg "指数ノードアイコン")
+![指数ノードアイコン](function-nodes.resources/Exponential_Node.jpg "指数ノードアイコン")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++対数
-![対数ノードアイコン](../../../../assets/Logarithm_Node.jpg "対数ノードアイコン")
+![対数ノードアイコン](function-nodes.resources/Logarithm_Node.jpg "対数ノードアイコン")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++対数の底 2
-![対数ベース2ノードアイコン](../../../../assets/LogarithmBase2_Node.jpg "対数ベース2ノードアイコン")
+![対数ベース2ノードアイコン](function-nodes.resources/LogarithmBase2_Node.jpg "対数ベース2ノードアイコン")
 
 
 
@@ -83,16 +83,16 @@ ht-degree: 5%
 +++
 
 +++絶対値
-![絶対ノードアイコン](../../../../assets/Absolute_Node.jpg "絶対ノードアイコン")
+![絶対ノードアイコン](function-nodes.resources/Absolute_Node.jpg "絶対ノードアイコン")
 
 
 
-入力の絶対値を返します： <b>abs(X)</b>。
+入力の絶対値を返します： <b>abs(X)</b>
 
 +++
 
 +++天井
-![Ceilノードアイコン](../../../../assets/Ceil_Node.jpg "Ceilノードアイコン")
+![Ceilノードアイコン](function-nodes.resources/Ceil_Node.jpg "Ceilノードアイコン")
 
 
 
@@ -101,16 +101,16 @@ ht-degree: 5%
 +++
 
 +++下限
-![下限ノードアイコン](../../../../assets/Floor_Node.jpg "下限ノードアイコン")
+![フロアノードアイコン](function-nodes.resources/Floor_Node.jpg "フロアノードアイコン")
 
 
 
-入力値を切り捨てます。 X以下の最大整数値を返します： <b>floor(X)</b>。
+入力値を切り捨てます。 X以下の最大の整数値を返します： <b>floor(X)</b>。
 
 +++
 
 +++リニア補間
-![リニア補間ノードアイコン](../../../../assets/LinearInterpolation_Node.jpg "リニア補間ノードアイコン")
+![リニア補間ノードアイコン](function-nodes.resources/LinearInterpolation_Node.jpg "リニア補間ノードアイコン")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 +++
 
 +++最小
-![最小ノードアイコン](../../../../assets/Minimum_Node.jpg "最小ノードアイコン")
+![最小ノードアイコン](function-nodes.resources/Minimum_Node.jpg "最小ノードアイコン")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++最大
-![最大ノードアイコン](../../../../assets/Maximum_Node.jpg "最大ノードアイコン")
+![最大ノードアイコン](function-nodes.resources/Maximum_Node.jpg "最大ノードアイコン")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++余弦
-![コサインノードアイコン](../../../../assets/Cosine_Node.jpg "コサインノードアイコン")
+![コサインノードアイコン](function-nodes.resources/Cosine_Node.jpg "コサインノードアイコン")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++正弦
-![サインノードアイコン](../../../../assets/Sine_Node.jpg "サインノードアイコン")
+![サインノードアイコン](function-nodes.resources/Sine_Node.jpg "サインノードアイコン")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++正接
-![接線ノードアイコン](../../../../assets/Tangent_Node.jpg "接線ノードアイコン")
+![接線ノードアイコン](function-nodes.resources/Tangent_Node.jpg "接線ノードアイコン")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++逆正接 2
-![Arc Tangent 2ノードアイコン](../../../../assets/ArcTangent2_Node.jpg "Arc Tangent 2ノードアイコン")
+![Arc Tangent 2ノードアイコン](function-nodes.resources/ArcTangent2_Node.jpg "Arc Tangent 2ノードアイコン")
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 5%
 +++
 
 +++デカルト
-![絶対ノードアイコン](../../../../assets/Absolute_Node.jpg "絶対ノードアイコン")
+![絶対ノードアイコン](function-nodes.resources/Absolute_Node.jpg "絶対ノードアイコン")
 
 
 
@@ -190,7 +190,7 @@ ht-degree: 5%
 +++
 
 +++ランダム
-![ランダムノードアイコン](../../../../assets/Random_Node.jpg "ランダムノードアイコン")
+![ランダムノードアイコン](function-nodes.resources/Random_Node.jpg "ランダムノードアイコン")
 
 
 
