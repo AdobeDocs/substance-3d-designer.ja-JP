@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [Substance関数のグラフ](https://substance3d.adobe.com/) <b>画像データ（ピクセルのセット全体）ではなく、単一の値</b> （整数、フロート、ベクター）を処理します。 関数はノードネットワークを持つグラフですが、[使用されるノード](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)およびインターフェイスが[通常のSubstance グラフ](../compositing-graphs/substance-compositing-graphs.md)と異なります。 このワークフローは、<b>算術演算</b>に完全に基づいており、画像プレビューのサムネールが表示されることはありません。そのため、Substance 3D Designerを使用した<b>はるかに高度な作業</b>になります。
 
-関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[表示されるパラメーター](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作の変更、[ピクセルプロセッサー](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作の作成、およびSubstanceグラフ](../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)での[値の使用です。
+関数は、多くの異なるコンテキストで使用できます。主なコンテキストは、[表示されるパラメーター](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)の動作の変更、[ピクセルプロセッサー](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作の作成、およびSubstanceグラフ[&#128279;](../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)での値の使用です。
 
 </td>
 </tr>
