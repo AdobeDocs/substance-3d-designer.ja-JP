@@ -58,6 +58,6 @@ Designerには3つの階層または構成ファイルがあり、それぞれ�
 1. <b>プロジェクトファイルに追加する設定を識別してグループ化します。</b> これはスタジオごとに異なり、一定の計画が必要です。\
    ほとんどの場合、少なくとも2つのプロジェクトを定義する必要があります。1つはグローバルなスタジオ全体のデフォルト（標準テンプレート、シェーダーファイル、ベイク設定など）用で、もう1つはライブラリコンテンツなどのより具体的なコンテンツ用です。 異なるプロジェクトを同時に実行している場合は、それぞれに複数のプロジェクト構成を作成することをお勧めします（合計で3つ以上）。
 1. <b>関連する[SBSPRJファイル](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)を作成し、それらをバージョン管理の下に配置してコンテンツを配置します。</b> Designerパイプラインおよびライブラリのコンテンツと、実際のプロジェクトのコンテンツおよびリソース（3Dモデル、テクスチャ、コード）を分離するために、*別のリポジトリ*&#x200B;を作成することを強くお勧めします。
-1. <b>すべてのプロジェクトファイルを一覧表示する[ SBSCFG構成](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)ファイルを作成し、バージョン管理</b>の下に配置します。 複数のプロジェクトがある場合は、プロジェクトごとに構成を作成できます。
+1. <b>すべてのプロジェクトファイルを一覧表示する[&#x200B; SBSCFG構成](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)ファイルを作成し、バージョン管理</b>の下に配置します。 複数のプロジェクトがある場合は、プロジェクトごとに構成を作成できます。
 1. <b>各ユーザーの[User\_Preferences.xml](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)が関連する構成ファイルを参照するように設定します。</b>\
    すべてのユーザーに手動で行わせることも、XMLファイルに行を挿入してスクリプトを作成することもできます。 [関連ページの詳細情報](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)。
