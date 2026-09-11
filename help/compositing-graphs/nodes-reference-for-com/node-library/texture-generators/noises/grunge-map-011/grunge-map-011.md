@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 経年劣化マップ011
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-011.png){width="128px"}
+![](grunge-map-011.resources/grungemap-011.png){width="128px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## 説明
 
-これにより、複雑な結合されたNoisemapが生成されます。 これは詳細な手順として非常に便利ですが、これらは非常にパフォーマンスが高いため生成が遅くなることに注意してください。
+これにより、複雑な結合されたNoisemapが生成されます。 これは詳細なプロシージャルとして非常に便利ですが、これらは非常に多くのパフォーマンスを必要とするため、生成が遅くなることに注意してください。
 
 </td>
 </tr>
@@ -50,14 +50,14 @@ ht-degree: 8%
 | <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
 | <b>反転</b> <i>False/True</i> | 結果を反転します。 |
 | <b>ブラシパターン</b> <i>0.0 - 1.0</i> | ブラシのアルファとして使用する場合に、エッジの周囲にマスクを追加します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-011-ex.gif" />
+            <img src="grunge-map-011.resources/grungemap-011-ex.gif" />
         </td>
     </tr>
 </table>

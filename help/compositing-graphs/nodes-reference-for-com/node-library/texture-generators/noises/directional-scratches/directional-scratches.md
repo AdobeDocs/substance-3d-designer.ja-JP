@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向スクラッチ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![方向スクラッチ – アイコン](../../../../../../assets/directional_scratches.png "方向スクラッチ – アイコン"){width="200px"}
+![方向スクラッチ – アイコン](directional-scratches.resources/directional_scratches.png "方向スクラッチ – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -72,27 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向の傷 – 例1](../../../../../../assets/directional_scratches_1.png "方向の傷 – 例1"){zoomable="yes"}
+![方向の傷 – 例1](directional-scratches.resources/directional_scratches_1.png "方向の傷 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向の傷 – 例2](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.gif "方向の傷 – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![方向の傷 – 例3](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.6.gif "方向の傷 – 例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![方向の傷 – 例4](../../../../../../assets/noise-directional-scrat-1.gif "方向の傷 – 例4"){zoomable="yes"}
+![方向の傷 – 例2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "方向の傷 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,7 +87,22 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向の傷 – 例5](../../../../../../assets/noise-directional-scrat-2.gif "方向の傷 – 例5"){zoomable="yes"}
+![方向の傷 – 例3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "方向の傷 – 例3"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![方向の傷 – 例4](directional-scratches.resources/noise-directional-scrat-1.gif "方向の傷 – 例4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![方向の傷 – 例5](directional-scratches.resources/noise-directional-scrat-2.gif "方向の傷 – 例5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

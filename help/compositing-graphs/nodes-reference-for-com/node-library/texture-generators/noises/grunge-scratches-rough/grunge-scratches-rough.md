@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches粗い
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grungescratchesrough.jpg){width="200px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -52,15 +52,15 @@ ht-degree: 1%
 | <b>詳細</b> |  |
 | <b>スクラッチの数量</b> <i>フロート</i> | サーフェス上のスクラッチの量を調整します。 |
 | <b>仮想記憶タイリング</b> <i>整数</i> | スクラッチに適用されるタイリングの量を調整します。 |
-| <b>ぼかし（仮想記憶）</b> <i>フロート</i> | 傷のぼかしを調整します。 |
-| <b>スクラッチの幅</b> <i>フロート</i> | スクラッチの幅を調整します。 |
-| <b>スクラッチの長さ</b> <i>フロート</i> | スクラッチの長さを調整します。 |
-| <b>仮想記憶マスク</b> <i>フロート</i> | 傷の一部に適用されるマスクの強度を調整します。 |
-| <b>スクラッチの汚れ</b> <i>フロート</i> | スクラッチの汚れを調整して、シャープさと連続性を損ないます。 |
-| <b>二重引っかき傷</b> <i>フロート</i> | 各スクラッチに沿って適用される2番目のスクラッチの不透明度を調整し、少しワープ効果を加えます。 |
-| <b>スクラッチスポットの強度</b> <i>フロート</i> | 傷と一緒に適用される破損したスポットの強度を調整します。 |
+| <b>ぼかし（仮想記憶）</b> <i>浮動小数</i> | 傷のぼかしを調整します。 |
+| <b>スクラッチの幅</b> <i>浮動小数</i> | スクラッチの幅を調整します。 |
+| <b>スクラッチの長さ</b> <i>浮動小数</i> | スクラッチの長さを調整します。 |
+| <b>仮想記憶マスク</b> <i>浮動小数</i> | 傷の一部に適用されるマスクの強度を調整します。 |
+| <b>スクラッチの汚れ</b> <i>浮動小数</i> | スクラッチの汚れを調整して、シャープさと連続性を損ないます。 |
+| <b>二重引っかき傷</b> <i>浮動小数</i> | 各スクラッチに沿って適用される2番目のスクラッチの不透明度を調整し、少しワープ効果を加えます。 |
+| <b>スクラッチスポットの強度</b> <i>浮動小数</i> | 傷と一緒に適用される破損したスポットの強度を調整します。 |
 | <b>スクラッチスポットタイリング</b> <i>整数</i> | 破損したスポットのタイリングを調整します。 |
-| <b>Dustの適用度</b> <i>フロート</i> | Dustオーバーレイの適用度を調整します。 |
+| <b>Dustの適用度</b> <i>浮動小数</i> | Dustオーバーレイの適用度を調整します。 |
 | <b>タイリング</b> <i>整数</i> | Dustオーバーレイのタイリングを調整します。 |
 | <b>シャープの適用度</b> <i>フロート</i> | グローバルなシャープ効果の適用度を調整します。 |
 
@@ -69,10 +69,10 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>
