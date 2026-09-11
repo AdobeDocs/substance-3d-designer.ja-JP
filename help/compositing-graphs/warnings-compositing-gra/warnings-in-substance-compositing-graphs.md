@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance合成グラフの警告について理解し、一般的な問題やエラーを解決する方法を学びます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance グラフの警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -20,67 +20,67 @@ ht-degree: 1%
 
 # Substance グラフの警告
 
-Substance 3D Designerの[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)によって発生する可能性のある警告メッセージとエラーメッセージの一覧を表示し、それぞれの一般的なトラブルシューティング手順を示します。
+このページには、Substance 3D Designerの[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)によってトリガーされる可能性のある警告メッセージとエラーメッセージが一覧表示され、それぞれの一般的なトラブルシューティング手順が示されます。
 
 警告は、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルのグラフリソースに対する警告アイコンのツールヒントと、グラフが読み込まれている場合は、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)の左下隅に表示されます。
 
-## ![（エラー）](../../assets/error.svg)出力ノードが定義されていません
+## ![（エラー）](warnings-in-substance-compositing-graphs.resources/error.svg)出力ノードが定義されていません
 
 グラフに[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードがありません。
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-substance-compositing-graphs.resources/check.svg)ソリューション**
 
-1つ以上の[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードをグラフに追加し、ストリームの最後のノードの出力をそのノードに接続します。
+1つ以上の[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードをグラフに追加し、ストリームの最後のノードの出力をこのノードに接続します。
 
 >[!NOTE]
 >
-> [新しいグラフ](../creating-compositing-gra/creating-a-substance-compositing-graph.md)ダイアログで使用できるグラフテンプレートには、プリセットの出力ノードが用意されており、使用できます。
+> [新しいグラフ](../creating-compositing-gra/creating-a-substance-compositing-graph.md)ダイアログで使用できるグラフテンプレートには、使用可能なプリセットの出力ノードがあります。
 
-![&#39;出力ノードが定義されていません&#39;という警告を修正する](../../assets/warnings-comp-output.gif "&#39;出力ノードが定義されていません&#39;という警告を修正する"){width="512px"}
+![&#39;出力ノードが定義されていません&#39;という警告を修正する](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "&#39;出力ノードが定義されていません&#39;という警告を修正する"){width="512px"}
 
-### ![（エラー）](../../assets/error.svg) *[x]*&#x200B;パラメーターの関数に警告があります
+### ![（エラー）](warnings-in-substance-compositing-graphs.resources/error.svg) *[x]*&#x200B;パラメーターの関数に警告があります
 
 指定されたノードの指定されたパラメーターに適用された[関数グラフ](../../function-graphs/function-graphs.md)に、少なくとも1つの警告があります。\
 nodeパラメーターは、テンプレートNode[Parameter]に続くノードラベルの後の角かっこ内に指定します。
 
-E.g. 均一カラー[出力カラー]、ピクセルプロセッサー[ピクセル関数単位]
+E.g. 均一カラー[出力カラー]、ピクセルプロセッサー[ピクセル関数ごと]
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-substance-compositing-graphs.resources/check.svg)ソリューション**
 
-[グラフビュー](../../interface/the-graph-view/the-graph-view.md)でラベルと警告バッジの警告を発しているノードを見つけて選択し、[プロパティ](../../interface/properties/properties.md)パネルでプロパティを表示します。 警告を出しているパラメーターを見つけ、**[関数の編集]**&#x200B;ボタンをクリックして、その関数を開きます。
+[グラフビュー](../../interface/the-graph-view/the-graph-view.md)でラベルと警告バッジの警告を発しているノードを見つけ、それを選択して[プロパティ](../../interface/properties/properties.md)パネルでプロパティを表示します。 警告を出しているパラメーターを見つけ、**[関数の編集]**&#x200B;ボタンをクリックして、その関数を開きます。
 
-次に、グラフビューの左下隅に表示されている警告を評価して、問題を解決します。 関数グラフで報告された警告のトラブルシューティングについては、[関数グラフの警告](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md)ページを参照してください。
+次に、グラフビューの左下隅に表示されている警告を確認し、問題を解決します。 関数のグラフで報告された警告のトラブルシューティングについては、[関数のグラフの警告](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md)ページを参照してください。
 
-![&#39;パラメーター関数に警告があります&#39;警告を修正](../../assets/warnings-comp-param-function.gif "&#39;パラメーター関数に警告があります&#39;警告を修正")
+![&#39;パラメーター関数に警告があります&#39;警告を修正](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "&#39;パラメーター関数に警告があります&#39;警告を修正")
 
-### ![（エラー）](../../assets/error.svg)参照されたデータに警告があります
+### ![（エラー）](warnings-in-substance-compositing-graphs.resources/error.svg)参照されたデータに警告があります
 
 ノードが参照するリソースに1つ以上の警告があります。 リソースを参照するノードを次に示します。
 
-* [グラフインスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ノードはグラフを参照しています
+* [グラフインスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ノードがグラフを参照しています
 * [ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードは[ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)を参照しています
 * [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)ノードが[SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)を参照しています
 * [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)ノードが[フォントリソース](../../resources/font-resource/font-resource.md)を参照しています
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-substance-compositing-graphs.resources/check.svg)ソリューション**
 
 [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルで、参照されているリソースを探し、リソースによって発生したすべての警告のトラブルシューティングを行います。
 
 * グラフについては、このページの他の項目を参照してください
 * 他の種類のリソースについては、[依存関係からの警告](../../resources/warnings-from-dep/warnings-from-dependencies.md)ページを参照してください
 
-![&#39;参照されたデータに警告があります&#39;の警告を修正する](../../assets/warnings-comp-referenced-data.gif "&#39;参照されたデータに警告があります&#39;の警告を修正する")
+![&#39;参照されたデータに警告があります&#39;の警告を修正する](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "&#39;参照されたデータに警告があります&#39;の警告を修正する")
 
-### ![（エラー）](../../assets/error.svg)参照リソースが見つかりません
+### ![（エラー）](warnings-in-substance-compositing-graphs.resources/error.svg)参照リソースが見つかりません
 
-[Substance 3D](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)ファイル(SBS)に保存されたパスに、ノードが参照するリソースが見つかりませんでした。 リソースを参照するノードを次に示します。
+[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)ファイル(SBS)に保存されたパスに、ノードが参照するリソースが見つかりませんでした。 リソースを参照するノードを次に示します。
 
 * [グラフインスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ノードはグラフを参照しています
 * [ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードは[ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)を参照しています
 * [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)ノードが[SVGリソース](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)を参照しています
 * [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)ノードが[フォントリソース](../../resources/font-resource/font-resource.md)を参照しています
 
-**![(tick)](../../assets/check.svg)ソリューション**
+**![(tick)](warnings-in-substance-compositing-graphs.resources/check.svg)ソリューション**
 
 [グラフインスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ノードの場合
 
@@ -92,12 +92,12 @@ E.g. 均一カラー[出力カラー]、ピクセルプロセッサー[ピクセ
 エクスプローラーパネルで参照されているリソースを検索し、**ファイルパス**&#x200B;属性に保存されている場所にリソースが存在することを確認してください。\
 表示されない場合は、エクスプローラーのリソース項目で「 RMB 」をクリックし、コンテキストメニューの&#x200B;**再配置…**&#x200B;オプションを選択して、そのリソースの新しい有効なターゲットファイルを設定します。
 
-![&#39;参照リソースが見つかりません&#39;という警告を修正する](../../assets/warnings-comp-referenced-resource.gif "&#39;参照リソースが見つかりません&#39;という警告を修正する")
+![&#39;参照リソースが見つかりません&#39;という警告を修正する](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "&#39;参照リソースが見つかりません&#39;という警告を修正する")
 
-### ![（エラー）](../../assets/error.svg)テキストノードは無効なフォントを使用しています
+### ![（エラー）](warnings-in-substance-compositing-graphs.resources/error.svg)テキストノードは無効なフォントを使用しています
 
 [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)ノードは、正しく読み込みまたは解析できないフォントを参照しています。
 
-<b>![(tick)](../../assets/check.svg)ソリューション</b>
+<b>![(tick)](warnings-in-substance-compositing-graphs.resources/check.svg)ソリューション</b>
 
 [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)ノードを選択し、<b>Font</b>プロパティの値をメモします。 システムでそのフォントのソースファイルを探し、それが&#x200B;*正常*&#x200B;であることを確認します（例：テキストエディターなどの別のアプリケーションで使用する）。 必要に応じて、正常なフォントファイルでフォントを置き換えるか、テキストノードを別のフォントに切り替えます。
