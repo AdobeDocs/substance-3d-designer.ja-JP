@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのメインツールバーについて説明します。このメインツールバーから、一般的なワークフローのツールやコマンドにアクセスできます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: メインツールバー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![メインツールバー](../../assets/mainmenu.png "メインツールバー")
+![メインツールバー](the-main-toolbar.resources/mainmenu.png "メインツールバー")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ ht-degree: 2%
 
 ## クイックアクセスボタン
 
-![](../../assets/newsubstance.png) <b>新しいSubstanceグラフ…:</b> (Ctrl + N) [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示し、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)で新しいパッケージを作成します。
+![](the-main-toolbar.resources/newsubstance.png) <b>新しいSubstanceグラフ…:</b> (Ctrl + N) [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)ウィンドウを表示し、[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)で新しいパッケージを作成します。
 
-![](../../assets/open.png) <b>開く…:</b> (Ctrl+O)既存の[Substanceパッケージ(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)を開きます。
+![](the-main-toolbar.resources/open.png) <b>開く…:</b> (Ctrl+O)既存の[Substanceパッケージ(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)を開きます。
 
-![](../../assets/saveall.png) <b>すべて保存：</b> (Ctrl+⇧+S) [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)に一覧表示されているすべてのパッケージを保存します。
+![](the-main-toolbar.resources/saveall.png) <b>すべて保存：</b> (Ctrl+⇧+S) [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)に一覧表示されているすべてのパッケージを保存します。
 
-![](../../assets/undo.png) <b>取り消し：</b> (Ctrl+Z)最後に行った操作を取り消します。
+![](the-main-toolbar.resources/undo.png) <b>取り消し：</b> (Ctrl+Z)最後に行った操作を取り消します。
 
-![](../../assets/redo.png) <b>やり直し：</b> (Ctrl + Y)最後に取り消した操作をやり直します。
+![](the-main-toolbar.resources/redo.png) <b>やり直し：</b> (Ctrl + Y)最後に取り消した操作をやり直します。
 
 ## ファイル
 
@@ -85,9 +85,9 @@ ht-degree: 2%
 
 <b>レンダリングのキャンセル：</b> (Esc) Substance engineの現在の処理を停止します。 不要で負荷の高いオペレーションを中断するために使用できます。
 
-<b>中断エンジン:</b> (⇧+Esc) レンダリングエンジンを中断します。 これにより、複雑な[グラフ](../../compositing-graphs/substance-compositing-graphs.md)の編集を高速化できます。
+<b>エンジンの中断：</b> (⇧+Esc)レンダリングエンジンを中断します。 これにより、複雑な[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)の編集を高速化できます。
 
-<b>スイッチエンジン...: </b>(F9) GPU エンジン （Windowsの&#39;DirectX&#39;、macOSの&#39;OpenGL&#39;）およびCPU エンジン （Appleシリコンの&#39;NEON&#39;、その他すべての&#39;SSE&#39;）を含むレンダリングエンジンを選択できます。
+<b>スイッチエンジン…: </b>(F9) GPUエンジン（Windowsの&#39;DirectX&#39;、macOSの&#39;OpenGL&#39;）およびCPUエンジン（Appleシリコンの&#39;NEON&#39;、その他すべての&#39;SSE&#39;）を含むレンダリングエンジンを選択できます。
 
 <b>Substance Player:</b> DesignerとSubstance Playerの連携を管理する：
 
@@ -98,9 +98,9 @@ ht-degree: 2%
 
 ## Windows
 
-<b>新しいエクスプローラー:</b>新しいエクスプローラードックを開きます。 複数のエクスプローラーのドックを開くことができます。
+<b>新しいエクスプローラ：</b>新しいエクスプローラドックを開きます。 複数のエクスプローラドックを開くことができます。
 
-<b>新しい3D ビュー:</b>新しい3D ビュードックを開きます。 複数の3D ビュードックを開くことができます。
+<b>新しい3Dビュー：</b>新しい3Dビューのドックを開きます。 複数の3Dビューのドックを開くことができます。
 
 <b>新しいライブラリビュー：</b>新しいライブラリドックを開きます。 複数のライブラリドックを開くことができます。
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>新機能…:</b> Designerの最新リリースに追加された機能を示す画面が表示されます
 
-<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/jp/substance-3d.html)での場所を案内する画面を表示します
+<b>ようこそ画面…\*:</b>新しいユーザーにDesignerの目的と[Substance 3Dエコシステム](https://helpx.adobe.com/substance-3d.html)での場所を案内する画面を表示します
 
 <b>パートナー：</b> Designerのパートナーが提供するサードパーティ統合に関する免責事項および通知にアクセスできます。
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDLコンテンツのエクスポート
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
@@ -38,7 +38,7 @@ DesignerでMDLマテリアルを作成したら、そのマテリアルを&#x200
 * 公開されたパラメーターとデフォルト値
 * その注釈（すなわち、メタデータ）：作成者、タグ、カテゴリ、...
 
-MDLモジュールのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールをエクスポートするには、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)の![](../../assets/mdl-export-module-icon.png) <b>MDLモジュールのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDLモジュールの対象の場所と名前を選択すると、エクスポート処理中にログに記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
+MDLモジュールのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールをエクスポートするには、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)の![](exporting-mdl-content.resources/mdl-export-module-icon.png) <b>MDLモジュールのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDLモジュールの対象の場所と名前を選択すると、エクスポート処理中にログに記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
 
 書き出されたモジュールには、パッケージ内の[MDLグラフ](../../mdl-graphs/mdl-graphs.md)で定義されたMDLマテリアル&#x200B;*all*&#x200B;の定義が含まれます。
 
@@ -50,7 +50,7 @@ MDLモジュールのエクスポートは、*パッケージ*&#x200B;レベル�
 >
 > このテンプレートに続く警告： `x appears to be invalid whereas it was expected to be an mdl::call`は、MDLグラフでMDLのデータがどのように処理されるかによって発生し、*無視しても*&#x200B;安全です。
 
-![MDL書き出し経路](../../assets/mdl-export-module.png "MDL書き出し経路")
+![MDL書き出し経路](exporting-mdl-content.resources/mdl-export-module.png "MDL書き出し経路")
 
 *エクスプローラーの[MDLモジュールのエクスポート]パス、および結果の[レポートのエクスポート]ダイアログ*
 
@@ -75,7 +75,7 @@ MDLモジュールプリセットは、基になるモジュールとほとん�
 >
 > [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)パネルからMDLモジュールをエクスポートすると、パッケージ内のMDLグラフによって定義された&#x200B;*すべての* MDLマテリアルを保持するMDLモジュールが作成されます。[3Dビュー](../../interface/3d-view/3d-view.md)からMDLプリセットをエクスポートすると、MDLモジュールに作成され、メニューの&#x200B;*選択したマテリアル* （この例では`my_material`）に適用されたMDLマテリアルの定義が&#x200B;*のみ*&#x200B;保持されます。
 
-![MDLプリセットの書き出し経路](../../assets/mdl-export-preset.png "MDLプリセットの書き出し経路")
+![MDLプリセットの書き出し経路](exporting-mdl-content.resources/mdl-export-preset.png "MDLプリセットの書き出し経路")
 
 *3Dビューの「プリセットの書き出し」経路と、その結果のMDLマテリアルプリセットの書き出しダイアログ*
 
@@ -83,7 +83,7 @@ MDLモジュールプリセットは、基になるモジュールとほとん�
 
 MDLモジュールアーカイブは、上記のMDLモジュールと、*テクスチャ*&#x200B;やReadmeファイルなどのリソースを、*単一の移動可能なファイル*&#x200B;に結合します。
 
-MDLモジュールアーカイブのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールアーカイブをエクスポートするには、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)の![](../../assets/mdl-export-module-icon.png) <b>MDLモジュールアーカイブのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDL モジュールアーカイブの保存先と名前を選択すると、エクスポート処理中に記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
+MDLモジュールアーカイブのエクスポートは、*パッケージ*&#x200B;レベルで実行されます。 特定のパッケージのMDLモジュールアーカイブをエクスポートするには、[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)の![](exporting-mdl-content.resources/mdl-export-module-icon.png) <b>MDLモジュールアーカイブのエクスポート</b>ボタンをクリックするか、*パッケージのコンテキストメニュー*&#x200B;で同じオプションを選択します。 エクスポートされたMDL モジュールアーカイブの保存先と名前を選択すると、エクスポート処理中に記録されたメッセージの一覧を含む<b>レポートのエクスポート</b>ダイアログが表示されます。
 
 エクスポートされたモジュールアーカイブには、パッケージ内の[MDL グラフ](../../mdl-graphs/mdl-graphs.md)で定義された&#x200B;*all*&#x200B;のMDL マテリアルを保持するMDL モジュールが含まれます。 [Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)が[MDL グラフにインスタンス化](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)され、[ルート](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)ノードに送られるストリームに接続されている場合、出力されるテクスチャは&#x200B;*アーカイブに保存*&#x200B;されます。
 
@@ -98,7 +98,7 @@ MDLモジュールアーカイブのエクスポートは、*パッケージ*&#x
 >
 > MDLアーカイブファイル形式の詳細については、NVIDIAの[MDL仕様](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9)の付録Cを参照してください。
 
-![MDR輸出経路](../../assets/mdl-export-archive.png "MDR輸出経路")
+![MDR輸出経路](exporting-mdl-content.resources/mdl-export-archive.png "MDR輸出経路")
 
 *エクスプローラーの[MDL モジュールアーカイブのエクスポート]パス、およびエクスポートレポートダイアログの結果*
 
@@ -116,6 +116,6 @@ MDLモジュールアーカイブのエクスポートは、*パッケージ*&#x
 >
 > カプセル化されたマテリアルの定義について詳しくは、NVIDIAの[MDL仕様](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9)のセクション13.5および[MDL SDK API](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html)を参照してください。
 
-![MDLE書き出し方法](../../assets/mdl-export-encapsulated.png "MDLE書き出し方法")
+![MDLE書き出し方法](exporting-mdl-content.resources/mdl-export-encapsulated.png "MDLE書き出し方法")
 
 *エクスプローラーの「mdleとして書き出し」方式と、その結果のレポートの書き出しダイアログ*

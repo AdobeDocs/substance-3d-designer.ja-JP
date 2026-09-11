@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Substance 3D Designerライブラリでカスタムコンテンツとフィルターを管理し、整理されたアセットにアクセスする方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カスタムコンテンツとフィルターの管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 つまり、1つ以上のProjectファイルを使用して、<b>ライブラリ</b>に追加するコンテンツのフォルダーや、そのコンテンツの並べ替えと整理を行うカテゴリとフィルターを設定できます。
 
-![ライブラリのカスタムコンテンツ](../../../assets/library-filters.png "ライブラリのカスタムコンテンツ")
+![ライブラリのカスタムコンテンツ](managing-custom-content-and-filters.resources/library-filters.png "ライブラリのカスタムコンテンツ")
 
 ## グラフ属性
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 カテゴリ（フォルダー）とフィルターは、次のボタンを使用して作成および編集します。
 
-<b>![](../../../assets/library-icon-new-folder.png)フォルダの追加：</b>ライブラリビューに展開可能なフォルダを作成します。 サブフォルダーを&#x200B;*作成*&#x200B;できません。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png)フォルダの追加：</b>ライブラリビューに展開可能なフォルダを作成します。 サブフォルダーを&#x200B;*作成*&#x200B;できません。
 
-<b>![](../../../assets/library-icon-new-filter.png)フィルターの追加： </b>選択したフォルダー内に新しいフィルターを追加します。 既存の既定のフォルダーに&#x200B;*フィルターを追加*&#x200B;できません。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png)フィルターの追加： </b>選択したフォルダー内に新しいフィルターを追加します。 既存の既定のフォルダーに&#x200B;*フィルターを追加*&#x200B;できません。
 
-<b>![](../../../assets/library-icon-edit.png)アイテムの編集： </b>現在選択されているフォルダまたはフィルタを編集します。 既定のフォルダーおよびフィルターのプロパティを&#x200B;*編集*&#x200B;できません。
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png)アイテムの編集： </b>現在選択されているフォルダまたはフィルタを編集します。 既定のフォルダーおよびフィルターのプロパティを&#x200B;*編集*&#x200B;できません。
 
 フォルダーまたはフィルターを&#x200B;*削除*&#x200B;するには、*フォルダーまたはフィルターを右クリック*&#x200B;し、コンテキストメニューから<b>削除</b>オプションを選択します。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 > *正しいプロジェクト*&#x200B;を確実に編集するために、これらを正しく設定することは&#x200B;*非常に*&#x200B;重要です。
 
-![カスタムフィルターエディション](../../../assets/library-filters-edit.png "カスタムフィルターエディション")
+![カスタムフィルターエディション](managing-custom-content-and-filters.resources/library-filters-edit.png "カスタムフィルターエディション")
 
 通常、**フィルター**&#x200B;は、フィルターの目的を達成するために&#x200B;*条件*&#x200B;が設定されている必要があります。 これらの条件は、次の条件を使用して設定されます。
 
