@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: 液体ノードを使用して、水、油、その他の流体サーフェスエフェクトを作成するための液体および流体パターンを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 液体
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/liquid.png){width="128px"}
+![](liquid.resources/liquid.png){width="128px"}
 
 <b>内：</b> テクスチャジェネレータ> ノイズ
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/liquid-ex.gif" />
+            <img src="liquid.resources/liquid-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise-2.html"
 breadcrumb-title: ''
 description: Moughtness Noise 2ノードを使用して、リアルな表面テクスチャ用の有機的な水分パターンを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: うるおいノイズ2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![湿気ノイズ2 – アイコン](../../../../../../assets/moisture_noise_2.png "湿気ノイズ2 – アイコン"){width="200px"}
+![湿気ノイズ2 – アイコン](moisture-noise-2.resources/moisture_noise_2.png "湿気ノイズ2 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -75,12 +75,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![湿気ノイズ2 – 例1](../../../../../../assets/moisture_noise_2_1.png "湿気ノイズ2 – 例1"){zoomable="yes"}
+![湿気ノイズ2 – 例1](moisture-noise-2.resources/moisture_noise_2_1.png "湿気ノイズ2 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![湿気ノイズ2 – 例2](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso0.gif "湿気ノイズ2 – 例2"){zoomable="yes"}
+![湿気ノイズ2 – 例2](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso0.gif "湿気ノイズ2 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![湿気ノイズ2 – 例3](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso1.gif "湿気ノイズ2 – 例3"){zoomable="yes"}
+![湿気ノイズ2 – 例3](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso1.gif "湿気ノイズ2 – 例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![湿気ノイズ2 – 例4](../../../../../../assets/noise_moisture_noise_2_speed0.3_aniso0.6.gif "湿気ノイズ2 – 例4"){zoomable="yes"}
+![湿気ノイズ2 – 例4](moisture-noise-2.resources/noise_moisture_noise_2_speed0.3_aniso0.6.gif "湿気ノイズ2 – 例4"){zoomable="yes"}
 
 </td>
 </tr>

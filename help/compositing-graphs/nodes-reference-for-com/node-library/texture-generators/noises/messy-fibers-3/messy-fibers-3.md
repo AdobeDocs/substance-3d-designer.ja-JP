@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
 breadcrumb-title: ''
 description: 「乱雑な繊維3」ノードを使用すると、複雑な繊維パターンを作成して、布地や繊維のテクスチャ効果を生み出すことができます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 乱雑な繊維3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![乱雑な繊維3 – アイコン](../../../../../../assets/messy_fibers_3.png "乱雑な繊維3 – アイコン"){width="200px"}
+![乱雑な繊維3 – アイコン](messy-fibers-3.resources/messy_fibers_3.png "乱雑な繊維3 – アイコン"){width="200px"}
 
 <b>In:</b>テクスチャジェネレーター>ノイズ
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![乱雑な繊維3 – 例1](../../../../../../assets/messy_fibers_3_1.png "乱雑な繊維3 – 例1"){zoomable="yes"}
+![乱雑な繊維3 – 例1](messy-fibers-3.resources/messy_fibers_3_1.png "乱雑な繊維3 – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![乱雑な繊維3 – 例2](../../../../../../assets/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "乱雑な繊維3 – 例2"){zoomable="yes"}
+![乱雑な繊維3 – 例2](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "乱雑な繊維3 – 例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![乱雑な繊維3 – 例3](../../../../../../assets/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "乱雑な繊維3 – 例3"){zoomable="yes"}
+![乱雑な繊維3 – 例3](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "乱雑な繊維3 – 例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![乱雑な繊維3 – 例4](../../../../../../assets/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "乱雑な繊維3 – 例4"){zoomable="yes"}
+![乱雑な繊維3 – 例4](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "乱雑な繊維3 – 例4"){zoomable="yes"}
 
 </td>
 </tr>
