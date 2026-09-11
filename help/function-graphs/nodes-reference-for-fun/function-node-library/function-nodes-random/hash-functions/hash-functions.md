@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: 関数グラフでハッシュ関数を使用すると、入力座標に基づいて確定的なランダム値を生成できます。
 helpx_creative_field: ""

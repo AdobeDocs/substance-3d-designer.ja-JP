@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフの関数ノードにアクセスして、カスタム関数グラフを呼び出して実行します。
 helpx_creative_field: ""
@@ -20,9 +20,9 @@ ht-degree: 5%
 
 # 関数ノード
 
-関数ノードは、入力値を表す算術関数に従って変換します。
+関数ノードは、入力値を表す数学関数に従って変形します。
 
-入力コネクタは通常は入力されませんが、すべての値タイプをサポートしているわけではありません。
+これらの入力コネクターは通常は入力されませんが、すべての値の型をサポートしているわけではありません。
 
 ## ノードリスト
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 
 
 
-入力の絶対値を返します： <b>abs(X)</b>
+入力の絶対値を返します： <b>abs(X)</b>。
 
 +++
 
@@ -101,11 +101,11 @@ ht-degree: 5%
 +++
 
 +++下限
-![フロアノードアイコン](../../../../assets/Floor_Node.jpg "フロアノードアイコン")
+![下限ノードアイコン](../../../../assets/Floor_Node.jpg "下限ノードアイコン")
 
 
 
-入力値を切り捨てます。 X以下の最大の整数値を返します： <b>floor(X)</b>。
+入力値を切り捨てます。 X以下の最大整数値を返します： <b>floor(X)</b>。
 
 +++
 

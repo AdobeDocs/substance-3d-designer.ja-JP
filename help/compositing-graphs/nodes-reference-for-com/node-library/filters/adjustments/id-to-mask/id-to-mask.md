@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
 description: 「IDを使用してグレースケールをマスク」ノードを使用して、IDマップ値をマテリアル選択用のグレースケールマスクに変換します。
 helpx_creative_field: ""

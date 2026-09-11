@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
-description: ワークフローの構成を改善するために、Substance合成グラフでパラメーターを管理および整理する方法について説明します。
+description: ワークフローを効率的に整理するために、Substance合成グラフでパラメーターを管理および整理する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 * ノードのすべてのパラメーターの値を[コピーして貼り付け](#copy-paste-parameters)
 * 後で再利用できるように、ノードの値またはすべてのパラメーターを[プリセットファイル](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)に保存します
-* [ノードのパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を公開してアクセス可能にし、リンク付けします
+* [ノードのパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を表示してアクセス可能にし、それらをリンクします
 * [他のパラメーターの値に従ってパラメーターを表示または非表示にする](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 * [Substance関数グラフ](../../function-graphs/function-graphs.md)を使用して、パラメーターの値を計算します
 
@@ -40,8 +40,8 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 ノードのプロパティがプロパティドックに表示されている場合、次のセクションヘッダーの&#39;<b>パラメーターの管理</b>&#39;メニューを使用して、ノードパラメーターをグローバルに管理できます。
 
-* [atomicノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)の場合：特定のパラメーター
-* [インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)の場合：インスタンスパラメーター
+* [アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)の場合：特定のパラメーター
+* [インスタンス化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)の場合：インスタンスパラメーター
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -54,7 +54,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 このメニューのアクションは、そのセクションに一覧表示されているパラメーター&#x200B;*すべて*&#x200B;に影響します：
 
-* <b>パラメーターの公開：</b> &#39;パラメーターの一括公開&#39;ダイアログを開きます。 公開されている各パラメーターに対して、アクションは新しいグラフ入力を作成し、そのグラフ入力を使用して関数を自動的に設定します。 [この専用ページ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)のパラメーターの公開について詳しく説明します。
+* <b>パラメーターの表示:</b> [パラメーターの一括表示]ダイアログボックスを開きます。 表示されるパラメーターごとに、新しいグラフ入力が作成され、そのグラフ入力を使用して関数が自動で設定されます。 [この専用ページ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)でパラメーターを表示する方法の詳細をご覧ください。
 * <b>パラメーターのコピー：</b>以下の[パラメーターのコピーと貼り付け](#copy-paste-parameters)のセクションを参照してください。
 * <b>パラメーターの貼り付け：</b>以下の[パラメーターのコピーと貼り付け](../../compositing-graphs/manage-parameters/manage-parameters.md)のセクションを参照してください。
 * <b>パラメーターをプリセットファイルとして保存する：</b> [この専用ページ](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)のパラメータープリセットの詳細をご覧ください。

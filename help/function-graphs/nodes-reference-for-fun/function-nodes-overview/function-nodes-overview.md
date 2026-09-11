@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの関数グラフで使用できる、カスタム関数を作成するための関数ノードについて説明します。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Function graphs > Nodes reference for function gra
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 関数ノードの概要
+title: 関数ノード概要
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
@@ -18,11 +18,11 @@ ht-degree: 1%
 ---
 
 
-# 関数ノードの概要
+# 関数ノード概要
 
-このページでは、すべてのファンクション・ノードの完全な概要を示し、ファンクション・データ型に使用されるカラー・コーディングについて説明します。クリックすると、詳細な説明を含む詳細なページに移動できます。
+ここでは、すべての関数ノードの概要と、関数データ型で使用される色分けについて説明します。クリックすると、詳細な説明を含む詳細なページに移動できます。
 
-これらの関数ノードにアクセスするには、グラフ関数エディタで右クリックして「要素」を選択するか、関数でスペースバーまたはTabキーを押すか、ライブラリの「関数」セクションを使用します。
+これらの関数ノードにアクセスするには、グラフ関数エディタ内で右クリックして[要素]を選択するか、関数で[スペースバー]または[Tab]を押すか、ライブラリの[関数]セクションを使用します。
 
 ## 色分け
 
@@ -76,4 +76,4 @@ ht-degree: 1%
 
 <b>[アトミック](../atomic-function-nodes/atomic-function-nodes.md)
 
-<b>[インスタンスノード](../function-node-library/function-node-library.md)
+<b>[インスタンス化](../function-node-library/function-node-library.md)

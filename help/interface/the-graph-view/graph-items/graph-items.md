@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのグラフ項目（グラフを整理するためのフレーム、コメント、ピン、ポータルノードなど）について説明します。
+description: グラフを整理するためのフレーム、コメント、ピン、ポータルノードなど、Substance 3D Designerのグラフアイテムについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # グラフ項目
 
-グラフアイテムは、グラフを整理し、読みやすさを向上させ、グラフ内の移動を高速化するのに役立つ特殊なオブジェクトです。
+グラフアイテムは、アイテムを整理し、読みやすさを向上させ、グラフ間の移動を高速化するのに役立つ特殊なオブジェクトです。
 
 <table>
 <tr style="border: 0;">
@@ -84,7 +84,7 @@ ht-degree: 7%
 </td>
 <td style="border: 0;" valign="top">
 
-グラフ上の目的のポイントにマークを付けてから、そのポイントにすばやくジャンプします。
+グラフ内の目的のポイントにマークを付けてから、すばやくジャンプします。
 
 </td>
 </tr>

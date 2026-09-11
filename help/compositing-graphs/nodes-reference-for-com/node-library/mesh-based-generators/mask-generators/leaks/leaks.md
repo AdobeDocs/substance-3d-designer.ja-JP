@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
 description: Leaksノードを使用して、水の汚れや流体エフェクトを作成するためのメッシュジオメトリに基づいてリークパターンを作成します。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
 この結節は、鋭利な縁からDirtと灰汁が漏れ出た縞状に見える。 ベイクされた位置で筋が生成されるため、常に下に向かって走ります。
 
@@ -50,8 +50,8 @@ ht-degree: 3%
 |  |  |
 |:---|:---|
 | <b>位置</b> <i>グレースケール入力</i> | ストリーク方向に使用するベイク位置マップ。 必須！ |
-| <b>曲線</b> <i>グレースケール入力</i> | 筋の留置にベイク済みマップを使用。 必須！ |
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 推奨されますが、代わりにフラットホワイトを使用することもできます。 |
+| <b>曲率</b> <i>グレースケール入力</i> | 筋の留置にベイク済みマップを使用。 必須！ |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 推奨されますが、代わりにフラットホワイトを使用することもできます。 |
 | <b>通常のワールド空間</b> <i>カラー入力</i> | 筋の方向に使用するワールド空間法線マップ。 必須！ |
 | <b>バリエーションマスク</b> <i>グレースケール入力</i> | オプションのバリエーションマスク。オーバーライドをTrueに設定して有効にします。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでプラグイン検索パスを設定し、Pythonプラグインの配置場所を指定します。
 helpx_creative_field: ""

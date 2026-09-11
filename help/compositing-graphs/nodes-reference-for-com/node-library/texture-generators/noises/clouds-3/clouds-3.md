@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
 breadcrumb-title: ''
 description: Clouds 3ノードを使用すると、大気やボリュームのテクスチャエフェクトを作成するための高度なクラウドパターンを生成できます。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでビットマップ、フォント、3Dシーンなどのリソースを読み込み、作成、管理する方法について説明します。
 helpx_creative_field: ""

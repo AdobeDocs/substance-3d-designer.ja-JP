@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの法線マップフィルターノードにアクセスして、法線マップテクスチャを処理および操作します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 法線マップ
 
-このカテゴリには、ノーマルマップを処理および操作するためのノードのみが含まれます。 これは、接線空間の問題を回避するために、ノーマルマップ処理を数学的に正しくする場合に絶対的に必要です。
+このカテゴリには、ノーマルマップを処理および操作するためのノードのみが含まれます。 正接空間の問題を避けるために、ノーマルマップ処理を数学的に正しくしたい場合には絶対に必要です。
 
 左側の<b>ナビゲーションリスト</b>を使用して、標準マップの下にあるすべてのノードを参照します。
 

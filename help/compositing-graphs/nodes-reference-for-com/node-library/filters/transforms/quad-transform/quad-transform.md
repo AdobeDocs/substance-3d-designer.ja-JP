@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
 description: クアッドメニューの[変形]ノードを使用して、遠近法の補正とワープを行うテクスチャに四辺形変換を適用します。
 helpx_creative_field: ""

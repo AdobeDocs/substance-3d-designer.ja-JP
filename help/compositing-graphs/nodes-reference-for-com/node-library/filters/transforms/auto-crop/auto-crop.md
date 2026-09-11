@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: 「自動切り抜き」ノードを使用して、テクスチャを自動的に切り抜き、空の境界線を削除して、テクスチャの寸法を最適化します。
 helpx_creative_field: ""

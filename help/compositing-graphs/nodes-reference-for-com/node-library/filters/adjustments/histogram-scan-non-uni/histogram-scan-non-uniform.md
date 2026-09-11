@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
 breadcrumb-title: ''
 description: 「ヒストグラムスキャンの不均一」ノードを使用して、カラー補正を高度に行う場合の不均一なヒストグラムスキャンを実行します。
 helpx_creative_field: ""

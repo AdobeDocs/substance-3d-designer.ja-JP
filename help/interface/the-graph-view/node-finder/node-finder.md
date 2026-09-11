@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: ノードファインダーを使用すると、グラフ内のノードをすばやく検索して見つけることができ、効率的に移動できます。
 helpx_creative_field: ""

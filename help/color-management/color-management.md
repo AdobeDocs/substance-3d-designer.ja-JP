@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: カラースペース、プロファイル、スポットカラーワークフローなど、Substance 3D Designerのカラーマネジメントについて説明します。
 helpx_creative_field: ""
@@ -104,13 +104,13 @@ Designerには、多くのICCプロファイルが同梱されています。 �
 
 |  |  |
 | --- | --- |
-| <b>2Dおよび3Dビューの既定の表示</b> | [2Dビュー](../interface/2d-view/2d-view.md)および[3Dビュー](../interface/3d-view/3d-view.md)ビューポートの既定の&#x200B;*ディスプレイ*&#x200B;カラースペースを設定します。 *既定：*** OSから取得したメイン画面用のICCプロファイル&#x200B;**&#x200B;** |
+| <b>2Dおよび3Dビューの既定の表示</b> | [2Dビュー](../interface/2d-view/2d-view.md)および[3Dビュー](../interface/3d-view/3d-view.md)ビューポートの既定の&#x200B;*ディスプレイ*&#x200B;カラースペースを設定します。 *既定：*** OSから取得したメイン画面用のICCプロファイル&#x200B;**** |
 
 ### グラフ表示
 
 |  |  |
 | --- | --- |
-| <b>サムネールのカラー管理</b> | *チェック*&#x200B;すると、Designerは&#x200B;*ノードサムネール*&#x200B;を現在の&#x200B;*作業用カラースペース*&#x200B;に変換します。 *既定：***&#x200B;未確認&#x200B;**&#x200B;** |
+| <b>サムネールのカラー管理</b> | *チェック*&#x200B;すると、Designerは&#x200B;*ノードサムネール*&#x200B;を現在の&#x200B;*作業用カラースペース*&#x200B;に変換します。 *既定：***&#x200B;未確認&#x200B;**** |
 
 ## レガシーモード
 

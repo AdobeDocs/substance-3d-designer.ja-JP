@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
 description: '[Flood Fillからボックスサイズへ]ノードを使用して、プロシージャスケーリング効果のバウンディングボックスサイズ値で領域を塗りつぶします。'
 helpx_creative_field: ""

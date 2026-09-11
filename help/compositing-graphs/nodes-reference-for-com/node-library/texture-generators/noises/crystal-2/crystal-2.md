@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
 breadcrumb-title: ''
-description: Crystal 2ノードを使用して、結晶性および幾何学的なテクスチャ効果を作成するための高度なクリスタルパターンを生成します。
+description: Crystal 2ノードを使用すると、結晶性および幾何学的なテクスチャ効果を生み出すための高度なクリスタルパターンを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 2
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## 説明
 
-angularの布の折り目のようなパターンを作成します。 [折り目のノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/creased/creased.md)と同様です。
+angularの布の折り目のようなパターンを作成します。 [折り目のノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/creased/creased.md)に似ています。
 
-これはニッチなノイズの一部です。繊細な大理石のパターンを再現したり、布を使用したりする場合など、このタイプのディテールが必要な場合に便利です。
+これはニッチなノイズの一部です。繊細な大理石のパターンを再現したり、布を使用したりする場合など、この種類のディテールが必要な場合に便利です。
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ angularの布の折り目のようなパターンを作成します。 [折り�
 |:---|:---|
 | <b>スケール</b> <i>1 - 16</i> | エフェクトのグローバルスケールを設定します。 |
 | <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 

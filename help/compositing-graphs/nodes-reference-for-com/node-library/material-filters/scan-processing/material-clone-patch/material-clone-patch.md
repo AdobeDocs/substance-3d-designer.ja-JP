@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
 breadcrumb-title: ''
-description: マテリアルコピーパッチノードを使用して、スキャンしたマテリアルのアーティファクトを修復するためのテクスチャ領域をクローンおよびパッチします。
+description: クローンパッチ・ノードを使用して、スキャンしたマテリアルのアーチファクトを修復するために、テクスチャリージョンをクローニングおよびパッチします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: マテリアルクローンパッチ
+title: マテリアル クローンパッチ
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# マテリアルクローンパッチ
+# マテリアル クローンパッチ
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## 説明
 
-[コピーパッチ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)のマルチチャンネル、完全なマテリアルバージョンです。 マテリアルのすべてのチャンネルに対してクローンパッチを実行します。 [詳細については、元のバージョンを参照してください。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
+[クローンパッチ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)のマルチチャネルフルマテリアル版です。 マテリアルのすべてのチャンネルに対してクローンパッチを実行します。 [詳細については、元のバージョンを参照してください。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 
-これは、マテリアルのすべてのチャンネルからディテールを削除する場合に非常に便利です。 複数のチャンネルのデバッグ画像を出力して、スマートパッチ領域がどのように見えるかを確認します。
+これは、マテリアルのすべてのチャンネルからディテールを取り除く場合に非常に便利です。 複数のチャンネルのデバッグ画像を出力して、スマートパッチ領域がどのように見えるかを確認します。
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 |  |  |
 |:---|:---|
-| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。例えば、メタリック/ラフネスの代わりにSpecular/光沢度マップを使用する場合などです。 |
 | <b>図形</b> <i>正方形、ディスク</i> | スタンプシェイプを設定します。 ベースとしてのみ使用されます。 |
 | <b>エッジ</b> |  |
 | <b>しきい値（複数チャンネル）</b> <i>0.0 - 1.0</i> | ブレンド領域の範囲を設定します。 この効果は、ターゲット領域のシェイプに沿って段階的に大きくなるので、背景が均一の場合の効果はほとんどありません。 視覚的な不一致が生じる可能性があるため、チャンネル間でこの値を頻繁に変更するときは注意してください。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
 breadcrumb-title: ''
 description: 「Hald CLUT」ノードを使用すると、カラーグレーディングと補正にHald CLUT形式を使用してカラールックアップテーブルを適用できます。
 helpx_creative_field: ""

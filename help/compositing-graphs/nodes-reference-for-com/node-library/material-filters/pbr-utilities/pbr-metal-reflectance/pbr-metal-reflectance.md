@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
 breadcrumb-title: ''
-description: PBRメタル反射ノードを使用して、物理ベースの材料ワークフローのメタル反射率の値を計算します。
+description: '[PBRメタルの反射率]ノードを使用して、物理ベースのマテリアルワークフローのメタル反射率の値を計算します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Metal Reflectance
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-これは、事前に定義された&#x200B;**純粋**&#x200B;金属の正しい反射カラーを返すためのクイックプリセットヘルパーノードです。 メタリックモデルの場合はベースカラーで使用でき、Specular/光沢モデルの場合はSpecularチャンネルで使用できます。
+これは、事前に定義された&#x200B;**純粋**&#x200B;金属の正しいヘルパーカラーを返すためのクイックプリセット反射ノードです。 これは、メタリックモデルの場合はベースカラーで使用でき、Specular/光沢度モデルの場合はSpecularチャンネルで使用できます。
 
 このノードは、純粋な金属の開始点を必要とする場合に便利で、チャートから色を選ばないようにすることができます。
 

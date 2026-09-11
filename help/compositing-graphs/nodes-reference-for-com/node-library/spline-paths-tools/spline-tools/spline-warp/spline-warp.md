@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
 breadcrumb-title: ''
 description: '[スプラインワープ]ノードを使用して、スプラインパスに沿ってテクスチャをワープし、カーブした有機的なパターンを作成します。'
 helpx_creative_field: ""

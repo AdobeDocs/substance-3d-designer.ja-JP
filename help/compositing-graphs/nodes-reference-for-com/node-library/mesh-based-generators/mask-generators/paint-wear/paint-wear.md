@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
 breadcrumb-title: ''
 description: ペイントの摩耗ノードを使用して、メッシュのジオメトリに基づいてペイントの摩耗マスクを作成し、リアルなペイントのチッピングエフェクトを作成します。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ペイント摩耗
+title: ペイントの摩耗
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# ペイント摩耗
+# ペイントの摩耗
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
+ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
 
 このマスクは、ペイントが欠損して縁がすり減っていることを示しています。
 
@@ -47,8 +47,8 @@ ht-degree: 6%
 
 |  |  |
 |:---|:---|
-| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
-| <b>曲率</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
 | <b>バリエーションマスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 

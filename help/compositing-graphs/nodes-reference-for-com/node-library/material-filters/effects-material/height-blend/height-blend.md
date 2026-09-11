@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
 breadcrumb-title: ''
 description: ブレンドノードを使用すると、高さマップに基づいてテクスチャをブレンドし、リアルなマテリアル効果を作成できます。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ブレンド
+title: Heightブレンド
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# ブレンド
+# Heightブレンド
 
 <table>
 <tr style="border: 0;">

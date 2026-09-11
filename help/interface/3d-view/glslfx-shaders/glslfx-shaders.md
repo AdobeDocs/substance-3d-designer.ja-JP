@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 3DビューでGLSLFXシェーダを使用して、マテリアルレンダリングとプレビュー効果をカスタマイズします。
 helpx_creative_field: ""
@@ -168,10 +168,10 @@ OpenGLステートの一部を設定できるようにします。
 |  | one\_minus\_src1\_color | OpenGL enumの場合： GL\_ONE\_MINUS\_SRC1\_COLOR |
 |  | src1\_alpha | OpenGL列挙GL\_SRC1\_ALPHA |
 |  | one\_minus\_src1\_alpha | OpenGL enumの場合： GL\_ONE\_MINUS\_SRC1\_ALPHA |
-| curl\_face\_enabled | ブール値 | 顔のカリングを有効/無効にする |
+| curl\_面\_enabled | ブール値 | 面カリングを有効/無効にする |
 |  | true |  |
 |  | 擬似 |  |
-| curl\_face\_mode | 文字列 | 顔のカリングモードの設定 |
+| curl\_face\_mode | 文字列 | 面のカリングモードの設定 |
 |  | 前面 | OpenGL列挙GL\_FRONT用 |
 |  | 裏 | OpenGL列挙GL\_BACKの場合 |
 |  | front\_and\_back | OpenGL enumの場合： GL\_FRONT\_AND\_BACK |
@@ -190,7 +190,7 @@ OpenGLステートの一部を設定できるようにします。
 
 #### 制服
 
-グローバルまたは親のテクニックで定義された一部のユニフォームをオーバーライドできるようにします。 これにより、このテクニックまたはレンダーパスのシェーダ動作を変更できます。
+グローバルまたは親のテクニックで定義された一部のユニフォームをオーバーライドできるようにします。 これにより、このテクニックまたはレンダーパスのシェーダーの動作を変更できます。
 
 定義について詳しくは、以下の<b>制服</b>のセクションを参照してください。
 
@@ -234,7 +234,7 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 
 >[!NOTE]
 >
-> 画面上のレンダーパスではカラーレンダーターゲットの使用は禁止されていますが、深度のレンダーターゲットは任意のレンダーパスで共用できます（ただし、シーン内で複数のマテリアルをミックスすると、レンダリングが壊れる可能性があります）。
+> 画面上のレンダーパスではカラーレンダーターゲットの使用は禁止されていますが、深度のレンダーターゲットは任意のレンダーパスで共用できます（ただし、シーンで複数のマテリアルをミックスすると、レンダリングが壊れる可能性があります）。
 
 <b>形式について</b>
 
@@ -249,7 +249,7 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 3つのチャンネル形式(RGB)はサポートされていません。代わりにRGBA形式を使用してください。\
 サポートされているチャンネルごとのビット深度:
 
-* 正規化された符号なし整数： 8, 16
+* 正規化された符号なし整数: 8、16
 * 浮動小数点： 16、32
 
 これらのルールの例外は、サポートされているGL\_R11F\_G11F\_B10F形式です。
@@ -271,9 +271,9 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 
 +++
 
-## 頂点フォーマットを入力
+## 入力頂点の形式
 
-これにより、頂点シェーダで定義される各アトリビュートのセマンティックを定義できます。
+これにより、シェーダーで定義される各属性のセマンティックを定義できます。
 
 <b>XML要素定義：</b>
 
@@ -288,9 +288,9 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 | --- | --- |
 | 位置 | 頂点の位置(float3) |
 | 法線 | 頂点法線(float3) |
-| textcoord[0..N] | 頂点テクスチャ座標バッファN (float2) |
-| tangent[0..N] | 頂点接線バッファN (float4) |
-| binormal[0..N] | 頂点従法線バッファN (float4) |
+| textcoord[0..N] | テクスチャ座標バッファーN (float2) |
+| 正接[0..N] | 正接バッファーN(float4) |
+| 従法線[0..N] | 従法線バッファーN(float4) |
 
 例：
 
@@ -324,7 +324,7 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 ## サンプラ
 
 これにより、各サンプラーの使用方法を定義できます。\
-アプリケーションによって、指定したサンプラーに設定するテクスチャとして使用されます。
+これは、アプリケーションが、指定されたサンプラーに設定するテクスチャを認識するために使用します。
 
 <b>XML要素定義：</b>
 
@@ -332,15 +332,15 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 
 属性 :
 
-* &#39;name&#39;:シェーダファイル内のサンプラ変数の名前。
+* &#39;name&#39;: シェーダーファイル内のsampler変数の名前です。
 * &#39;usage&#39;:サンプラーの使用方法。 これは、グラフの出力ノードで指定された使用方法と一致します。
 
 | &#39;usage&#39;値 | 説明 |
 | --- | --- |
-| 拡散 | 拡散マップ |
+| 拡散 | Diffuse地図 |
 | 不透明 | 不透明度マップ |
-| 発光 | 放射地図 |
-| 環境閉塞 | 環境オクルージョンマップ |
+| 発光 | Emissive地図 |
+| 環境閉塞 | Ambient occlusion地図 |
 | 周囲 | アンビエントマップ |
 | マスク | マスクマップ |
 | 詳細正常 | 詳細法線マップ |
@@ -352,10 +352,10 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 | specularcolor | Specularカラーマップ |
 | 反射 | Specular地図 |
 | 光沢 | 光沢マップ |
-| ラフネス | 粗さマップ |
+| ラフネス | ラフネス地図 |
 | 異方性ピレベル | 異方性レベルの地図 |
 | 異方性ピアングル | 異方性の角度マップ |
-| 透過 | 透過地図 |
+| transmissive | 透過地図 |
 | 反射 | 反射マップ |
 | 屈折 | 屈折マップ |
 | 環境 | 環境マップ（立方体マップ） |
@@ -374,7 +374,7 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 ```
 
 
-&#39;isHidden&#39;:サンプラーをGUIに表示するかどうかを示すブール値
+&#39;isHidden&#39;:サンプラーをGUIに表示するかどうかを示すブーリアン
 
 * 例：
 
@@ -389,11 +389,11 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 
 ラッピングモード：
 
-<table data-preserve-html="true"><tbody><tr><th>名前</th><th>値</th></tr><tr><td rowspan="4">texture_wrap_s, texture_wrap_t, texture_wrap_r<br/><br/><br/></td><td>clamp_to_edge</td></tr><tr><td>clamp_to_border</td></tr><tr><td colspan="1">mirrored_repeat</td></tr><tr><td colspan="1">繰り返し<br/><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>名前</th><th>値</th></tr><tr><td rowspan="4">テクスチャ_ラップ_s、テクスチャ_ラップ_t、テクスチャ_ラップ_r<br/><br/><br/></td><td>clamp_to_edge</td></tr><tr><td>clamp_to_border</td></tr><tr><td colspan="1">mirrored_repeat</td></tr><tr><td colspan="1">繰り返し<br/><br/></td></tr></tbody></table>
 
 テクスチャフィルター
 
-<table data-preserve-html="true"><tbody><tr><th>名前</th><th>値</th></tr><tr><td rowspan="6">texture_min_filter、texture_mag_filter<br/><br/><br/></td><td>nearest</td></tr><tr><td>線形</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>名前</th><th>値</th></tr><tr><td rowspan="6">テクスチャ_min_filter, テクスチャ_mag_filter<br/><br/><br/></td><td>nearest</td></tr><tr><td>線形</td></tr><tr><td colspan="1">nearest_ミップマップ_nearest</td></tr><tr><td colspan="1">linear_ミップマップ_nearest</td></tr><tr><td colspan="1">nearest_ミップマップ_linear</td></tr><tr><td colspan="1">linear_ミップマップ_リニア</td></tr></tbody></table>
 
 例：
 
@@ -430,7 +430,7 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 
 ## 制服
 
-これにより、各シェーダのユニフォームに追加情報を追加できます。
+これにより、各シェーダー制服に関する補足情報を入力できます。
 
 <b>XML要素定義：</b>
 
@@ -438,7 +438,7 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 
 属性 :
 
-&#39;name&#39;:シェーダファイル内のユニフォームの名前。
+&#39;name&#39;: シェーダーファイル内のユニフォームの名前です。
 
 | 「意味的」値 | 説明 |
 | --- | --- |
@@ -551,7 +551,7 @@ GL\_深度\_ATTACHMENT => &#39;深度&#39;
 
 属性 :
 
-* &#39;name&#39;:シェーダファイル内のユニフォームの名前。
+* &#39;name&#39;: シェーダーファイル内のユニフォームの名前です。
 * &#39;default&#39;：均一の既定値
 * &#39;min&#39;：有効範囲の最小値
 * &#39;max&#39;：有効範囲の最大値
@@ -595,14 +595,14 @@ vec3 iFS\_PointWSの変更；
 均一mat4 worldViewProjMatrix;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position;\
 iFS\_Normal = iVS\_Normal.xyz;\
 iFS\_UV = iVS\_UV;\
 iFS\_Tangent = iVS\_Tangent.xyz;\
-iFS\_Binormal = iVS\_Binormal.xyz;\
+iFS\_従法線 = iVS\_従法線.xyz;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
-&rbrace;
+}
 
 ### テッセレーション頂点シェーダファイル
 
@@ -610,9 +610,9 @@ iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 属性vec4 iVS\_Position;\
 属性vec4 iVS\_Normal;\
@@ -621,29 +621,29 @@ iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
 属性vec4 iVS\_Binormal;
 
 vec4 oVS\_Normalの変更；\
-vec2 oVS\_UVの変化；\
-vec4 oVS\_Tangentの変化；\
-vec4 oVS\_Binormal;
+vec2 oVS\_UVの変更；\
+vec4 oVS\_正接の変更；\
+vec4 oVS\_従法線の変更；
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = iVS\_Position;\
 oVS\_Normal = iVS\_Normal;\
 oVS\_UV = iVS\_UV;\
-oVS\_Tangent = iVS\_Tangent;\
-oVS\_Binormal = iVS\_Binormal;\
-&rbrace;
+oVS\_正接 = iVS\_正接;\
+oVS\_従法線 = iVS\_従法線;\
+}
 
-### テッセレーションコントロールシェーダファイル
+### テセレーション制御シェーダーファイル
 
 場所： .\tessellation\_parallax\tessellation\tcs.glsl
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400コア\
-&#x200B;#extension GL\_ARB\_tessellation\_shader ：有効にする
+#version 400コア\
+#extension GL\_ARB\_tessellation\_shader ：有効にする
 
 layout(vertices = 3) out;
 
@@ -660,7 +660,7 @@ out vec4 oTCS\_Binormal[];
 均一フローティングテッセレーション係数；
 
 void main()\
-&lbrace;\
+{\
 gl\_TessLevelOuter[0] = tessellationFactor;\
 gl\_TessLevelOuter[1] = tessellationFactor;\
 gl\_TessLevelOuter[2] = tessellationFactor;\
@@ -671,7 +671,7 @@ oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
 oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
-&rbrace;
+}
 
 ### テッセレーション評価シェーダファイル
 
@@ -679,16 +679,16 @@ oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400コア
+#version 400コア
 
 layout(triangles, equal\_spacing, ccw) in;
 
 in vec4 oTCS\_Normal[];\
 in vec2 oTCS\_UV[];\
 in vec4 oTCS\_Tangent[];\
-in vec4 oTCS\_Binormal[];
+vec4 oTCS\_従法線[];
 
 均一mat4 worldMatrix;\
 均一mat4 worldViewProjMatrix;
@@ -700,22 +700,22 @@ uniform float heightMapScale = 1.0f;
 
 out vec3 iFS\_Normal;\
 vec2 iFS\_UV出力；\
-out vec3 iFS\_Tangent;\
+vec3 iFS\_正接を出力します。\
 vec3 iFS\_Binormal;\
 vec3 iFS\_PointWSを出力しました。
 
 vec3 interpolate3D(vec3 v0, vec3 v1, vec3 v2, vec3 uvw)\
-&lbrace;\
+{\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 vec2 interpolate2D(vec2 v0, vec2 v1, vec2 v2, vec3 uvw)\
-&lbrace;\
+{\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 uvw = gl\_TessCoord.xyz;
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz, gl\_in[1].gl\_Position.xyz, gl\_in[2].gl\_Position.xyz, uvw);\
@@ -735,7 +735,7 @@ iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz;\
-&rbrace;
+}
 
 ### フラグメントシェーダーファイル
 
@@ -743,29 +743,29 @@ iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz;\
 
 コンテンツ：
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 // #define ALG\_NORMAL\_DIRECTX\
-&#x200B;#define ALG\_NORMAL\_OPENGL
+#define ALG\_NORMAL\_OPENGL
 
-&#x200B;#ifdef ALG\_NORMAL\_DIRECTX\
+#ifdef ALG\_NORMAL\_DIRECTX\
 // #define FLIP\_NORMAL\_X\
-&#x200B;#define FLIP\_NORMAL\_Y\
+#define FLIP\_NORMAL\_Y\
 // #define FLIP\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_DIRECTX
+#endif //#ifdef ALG\_NORMAL\_DIRECTX
 
-&#x200B;#ifdef ALG\_NORMAL\_OPENGL\
+#ifdef ALG\_NORMAL\_OPENGL\
 // #define FLIP\_NORMAL\_X\
-&#x200B;#define FLIP\_NORMAL\_Y\
+#define FLIP\_NORMAL\_Y\
 // #define FLIP\_NORMAL\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_OPENGL
+#endif //#ifdef ALG\_NORMAL\_OPENGL
 
 vec3 iFS\_Normalの変更；\
 可変vec2 iFS\_UV;\
-vec3 iFS\_Tangent;\
-vec3 iFS\_Binormal;\
+可変vec3 iFS\_正接;\
+可変vec3 iFS\_従法線;\
 vec3 iFS\_PointWSの変更；
 
 均一vec3 Lamp0Pos = vec3(0.0f,0.0f,70.0f);\
@@ -784,7 +784,7 @@ uniform float heightMapScale = 1.0f;\
 uniform int KF\_on = 1;\
 均一フロートKF = 1.0f;\
 uniform vec3 AmbiColor = vec3(0.07f,0.07f,0.07f);\
-均等浮動小数タイリング= 1.0f;\
+均一フロートタイリング= 1.0f;\
 uniform int enableTilingInFS = 0;
 
 uniform sampler2D heightMap;\
@@ -801,17 +801,17 @@ uniform samplerCube environmentMap;
 均一mat4 viewInverseMatrix;
 
 vec4 litFct(float NdotL、float NdotH、float specExp)\
-&lbrace;\
+{\
 float ambient = 1.0;\
 float diffuse = max(NdotL, 0.0);\
 float Specular = step(0.0, NdotL) \&#42; pow(max(0.0, NdotH), specExp);\
 return vec4(ambient, diffuse, Specular, 1.0);\
-&rbrace;
+}
 
 vec3 lerpFct(vec3 v0, vec3 v1, float percent)\
-&lbrace;\
+{\
 return v0 + (v1-v0) \&#42; percent;\
-&rbrace;
+}
 
 //フォンシェーディング\
 void phong\_シェーディング(\
@@ -821,44 +821,44 @@ vec3 pointToLightDirWSでは、\
 vec3 pointToCameraDirWSでは、\
 vec3 DiffuseContribを見つけます。\
 inout vec3 SpecularContrib)\
-&lbrace;\
+{\
 vec3 Hn = normalize(pointToCameraDirWS + pointToLightDirWS);\
 vec4 litV = litFct(dot(normalWS, pointToLightDirWS), dot(normalWS, Hn), SpecExpon);\
 DiffuseContrib = litV.y \&#42; LightColor;\
 SpecularContrib = litV.y \&#42; litV.z \&#42; Ks \&#42; LightColor;\
-&rbrace;
+}
 
 vec3 fixNormalSample(vec3 v)\
-&lbrace;\
+{\
 vec3結果= v - vec3(0.5,0.5,0.5);
 
-&#x200B;#ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_X\
 result.x = -result.x;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_X\
-&#x200B;#ifdef FLIP\_NORMAL\_Y\
+#endif // ifdef FLIP\_NORMAL\_X\
+#ifdef FLIP\_NORMAL\_Y\
 result.y = -result.y;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Y\
-&#x200B;#ifdef FLIP\_NORMAL\_Z\
+#endif // ifdef FLIP\_NORMAL\_Y\
+#ifdef FLIP\_NORMAL\_Z\
 result.z = -result.z;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Z
+#endif // ifdef FLIP\_NORMAL\_Z
 
 結果を返す。\
-&rbrace;
+}
 
 vec3 normalVecOSToWS(vec3 normal)\
-&lbrace;\
+{\
 return normal;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 cameraPosWS = viewInverseMatrix[3].xyz;\
 vec3 pointToLight0DirWS = normalize(Lamp0Pos - iFS\_PointWS);\
 vec3 pointToLight1DirWS = normalize(Lamp1Pos - iFS\_PointWS);\
 vec3 pointToCameraDirWS = normalize(cameraPosWS);\
 vec3 normalOS = normalize(iFS\_Normal);\
-vec3 tangentOS = normalize(iFS\_Tangent);\
-vec3 binormalOS = normalize(iFS\_Binormal);
+vec3 tangentOS = normalize(iFS\_正接);\
+vec3 binormalOS = normalize(iFS\_従法線);
 
 // ------------------------------------------\
 // TBNが直交化されていることを確認します\
@@ -871,14 +871,14 @@ vec3 cumulatedNormalOS = normalOS;
 // UVを更新\
 float a = dot(normalOS,-pointToCameraDirWS);\
 vec3 s = vec3(dot(pointToCameraDirWS,tangentOS), dot(pointToCameraDirWS,binormalOS), a);\
-vec2 uv = enableTilingInFS == 0 ? iFS\_UV : （iFS\_UV \&#42;タイリング）;\
-浮動小数点Height= texture2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
+vec2 uv = enableTilingInFS == 0 ? iFS\_UV : (iFS\_UV \&#42; タイリング);\
+浮動小数点Height= テクスチャ 2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
 float parallax = parallax\_mode == 0 ? (tessellationFactor / 100000.f + heightMapScale / 500.f) : (heightMapScale / 50.f);\
 uv += （Height \&#42; s.xy \&#42;視差） ;
 
 // ------------------------------------------\
 // normalMapから法線を追加\
-vec3 normalTS = texture2D(normalMap,uv).xyz;\
+vec3 normalTS = テクスチャ2D(normalMap,uv).xyz;\
 normalTS = fixNormalSample(normalTS);\
 vec3 normalMapOS = normalTS.x\&#42;tangentOS + normalTS.y\&#42;binormalOS;\
 cumulatedNormalOS = cumulatedNormalOS + normalMapOS;\
@@ -886,7 +886,7 @@ cumulatedNormalOS = normalize(cumulatedNormalOS);
 
 // ------------------------------------------\
 //詳細ノーマルマップを追加\
-vec3 normalDetailTS = texture2D(detailNormalMap,uv\&#42;TilingDetail).xyz;\
+vec3 normalDetailTS = テクスチャ 2D(detailNormalMap,uv\&#42;TilingDetail).xyz;\
 normalDetailTS = fixNormalSample(normalDetailTS);\
 vec3 variableNormalDetailTS = lerpFct(vec3(0.0,0.0,0.5),normalDetailTS,深度\_detail);\
 vec3 normalDetailOS = variableNormalDetailTS.x\&#42;tangentOS + variableNormalDetailTS.y\&#42;binormalOS;\
@@ -899,7 +899,7 @@ cumulatedNormalOS = normalOS;
 vec3 cumulatedNormalWS = normalVecOSToWS(cumulatedNormalOS);
 
 // ------------------------------------------\
-//拡散反射光とSpecularを計算
+// DiffuseとSpecularを計算
 
 //ライト0の貢献度\
 vec3 diffContrib = vec3(0, 0, 0);\
@@ -914,9 +914,9 @@ phong\_シェーディング(Lamp1Color, cumulatedNormalWS, pointToLight1DirWS, 
 diffContrib += diffContrib2;\
 specContrib += specContrib2;
 
-vec4 diffuseColor = texture2D(diffuseMap,uv);
+vec4 diffuseColor = テクスチャ2D(diffuseMap,uv);
 
-vec3 specularColor = texture2D(specularMap,uv).rgb;\
+vec3 specularColor = テクスチャ2D(specularMap,uv).rgb;\
 vec3 R = reflect(pointToCameraDirWS,cumulatedNormalWS);\
 vec3 reflColor = Kr \&#42; textureCube(environmentMap,R.xyz).bgr;
 
@@ -933,19 +933,19 @@ FallofRefl=1.0;
 vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 
 // ------------------------------------------\
-vec3 emissive = texture2D(emissiveMap,uv).xyz;
+vec3 emissive = テクスチャ2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
-&#x200B;+ specularColor\&#42;specContrib\
-&#x200B;+ diffuseColor.rgb\&#42;diffContrib\
-&#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
++ specularColor\&#42;specContrib\
++ diffuseColor.rgb\&#42;diffContrib\
++ (reflColor\&#42;specularColor\&#42;FallofRefl)\
 +放射；
 
 //最終的なカラー\
 vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
-&rbrace;
+}
 
 ### GLSLFXファイル
 

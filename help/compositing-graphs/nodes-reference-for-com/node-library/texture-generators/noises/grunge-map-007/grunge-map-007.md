@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-007.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-007.html"
 breadcrumb-title: ''
 description: '[経年劣化マップ007]ノードを使用して、サーフェスの変動と摩耗効果を加えるためのプロシージャルの経年劣化テクスチャを作成します。'
 helpx_creative_field: ""

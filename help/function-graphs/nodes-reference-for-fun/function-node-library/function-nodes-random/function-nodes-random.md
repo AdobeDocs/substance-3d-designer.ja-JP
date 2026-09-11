@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
-description: ランダム関数ノードは、様々なアルゴリズムを使用して、特定の境界内でランダムな値を生成するために使用します。
+description: ランダム関数ノードを使用すると、様々なアルゴリズムを使用して、指定した範囲内でランダムな値を生成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random
 helpx_experience_level: ""
@@ -32,15 +32,15 @@ ht-degree: 2%
 
 ランダム離散[a, b]
 
-ランダムな一様&lbrack;-1, 1&lbrack;
+ランダムな一様[-1, 1[
 
-ランダムに一様&lbrack;a, b&lbrack;
+ランダムに一様[a, b[
 
-Random uniform float2 &lbrack;a, b&lbrack;
+Random uniform float2 [a, b[
 
-Random uniform float3 &lbrack;a, b&lbrack;
+Random uniform float3 [a, b[
 
-Random uniform float4 &lbrack;a, b&lbrack;
+Random uniform float4 [a, b[
 
 </td>
 <td style="border: 0;" valign="top">

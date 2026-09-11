@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでユーザー設定を自動化し、ワークフローの設定を合理化する方法について説明します。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ user\_preferences.xmlファイルには、[プロジェクト構成](../../pipel
 
 変更する必要がある唯一の関連する設定は、プロジェクトの一覧を含む[構成ファイル](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)です。 これは、以下に示すように、いくつかの方法で実行できます。
 
-または、ユーザープリファレンスの変更を完全に省略し、Designerショートカットのコマンドライン引数を使用してSBSCFGファイルのセッションベースのオーバーライドを実行することもできます。以下を参照してください。
+または、環境設定の変更を完全に省略し、Designer ショートカットのコマンドライン引数を使用してSBSCFGファイルのセッションベースのオーバーライドを実行することもできます（以下を参照）。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

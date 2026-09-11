@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
 breadcrumb-title: ''
 description: プラグイン開発用の完全なSubstance 3D Designer PythonスクリプティングAPIリファレンスにアクセスします。
 helpx_creative_field: ""
@@ -72,7 +72,7 @@ ht-degree: 0%
 * ビットマップ(*SDResourceBitmap*);
 * SVG画像(*SDResourceSVG*);
 * フォント(*SDResourceFont*);
-* シーン(*SDResourceScene*);
+* シーン (*SDResourceScene*);
 * BSDF測定(*SDResourceBSDFMeasurement*);
 * ライトプロファイル(*SDResourceLightProfile*)。
 
@@ -87,23 +87,23 @@ ht-degree: 0%
 
 UIマネージャーを使用すると、Substance Designerのメインウィンドウ（<b>メニュー</b>、<b>ドック</b>など）に<b>ユーザーインターフェイス要素を作成</b>でき、ユーザーインターフェイス関連のイベントが発生したときに<b>コールバック</b>を呼び出すことができます。
 
-さらに、UIマネージャーは、アクティブなグラフの<b>現在のアクティブなグラフ</b>と<b>選択範囲</b>にアクセスできます。
+さらに、UIマネージャーは、アクティブなグラフの<b>現在のアクティブなグラフ</b>および<b>選択範囲</b>にアクセスできます。
 
 ## グラフ(SDGraph)
 
-グラフ(*SDGraph*)は、次を含むオブジェクトです。
+グラフ (*SDGraph*)は、次を含むオブジェクトです：
 
 * <b>ノード</b>(*SDNode*);
 * <b>グラフオブジェクト</b> (*SDGraphObjects*);
 * <b>プロパティ</b>(*SDProperty*)。
 
-グラフには4つの種類があります。
+グラフの種類には以下の4つがある：
 
-* Substanceグラフ(*SDSBSCompGraph*)
-* Substance関数グラフ(*SDSBSFunctionGraph*)
-* SubstanceFXMapグラフ(*SDSBSFxMapGraph*)
+* グラフ(*SDSBSCompGraph*)
+* Substance関数のグラフ(*SDSBSFunctionGraph*)
+* SubstanceFXMap グラフ (*SDSBSFxMapGraph*)
 
-グラフには1つまたは複数の<b>出力</b>ノードを含めることができます。 出力ノードは、グラフの<b>結果</b>を表します。
+1つのグラフに1つまたは複数の<b>output</b>ノードを含めることができます。 出力ノードは、グラフの<b>結果</b>を表します。
 
 メソッド&#39;*getNodeDefinitions()*&#39;を使用すると、グラフで使用可能なすべてのノードを<b>取得</b>できます。
 
@@ -126,15 +126,15 @@ UIマネージャーを使用すると、Substance Designerのメインウィン
 
 * *<b>SDSBSCompNode</b>*: Substance グラフのノード(*SDSBSCompGraph*);
 * *<b>SDSBSFunctionNode</b>*: Substance 関数グラフのノード(*SDSBSFunctionGraph*);
-* *<b>SDSBSFxMapNode</b>*: Substance FXMap Graph (*SDSBSFxMapGraph*)のノード。
+* *<b>SDSBSFxMapNode</b>*: Substance FXMap グラフのノード(*SDSBSFxMapGraph*);
 
 ## グラフオブジェクト(SDGraphObjects)
 
-グラフオブジェクト(*SDGraphObject*)は、<b>追加情報</b>をグラフに追加するオブジェクトですが、グラフの評価処理中に&#x200B;<b>*考慮されない*&#x200B;オブジェクトです。</b>
+グラフオブジェクト(*SDGraphObject*)は、<b>グラフに追加情報</b>を追加するオブジェクトですが、グラフの評価中に&#x200B;<b>*考慮されない*&#x200B;オブジェクトです。</b>
 
 グラフオブジェクトには<b>3種類</b>があります：
 
-* <b>Pin</b> (*SDGraphObjectPin*)
+* <b>ピン</b> (*SDGraphObjectPin*)
 * <b>コメント</b> (*SDGraphObjectComment*)
 * <b>フレーム</b> (*SDGraphObjectFrame*)
 
@@ -142,19 +142,19 @@ UIマネージャーを使用すると、Substance Designerのメインウィン
 
 ## プロパティ(SDProperty)
 
-プロパティ(*SDProperty*)は、<b>別のオブジェクト</b> （グラフ、ノード、リソースなど）のプロパティを<b>説明</b>するオブジェクトです。
+プロパティ(*SDProperty*)は、<b>別のオブジェクト</b> （グラフ、ノード、リソースなど）のプロパティを<b>記述</b>するオブジェクトです。
 
 特定の<b>カテゴリ</b> (*SDPropertyCategory*)に属しています：
 
 * <b>入力</b>:オブジェクトの入力プロパティを分類します。これは通常<b>現在のオブジェクトによって実行される操作</b>に影響を与えます。
-  * 例：Substanceグラフの均一な色ノードのプロパティ&#39;*color*&#39;は入力プロパティです。
+  * 例： グラフの均一カラーノードのプロパティ&#39;*color*&#39;は入力プロパティです。
 * <b>出力</b>:オブジェクトの出力プロパティを分類します。 オブジェクトの<b>result</b>を識別するために使用されます。
 * <b>注釈</b>:オブジェクトによって実行された操作</b>に影響を与えない&#x200B;<b>*プロパティを分類します*。
-  * 例：グラフの&#39;*label*&#39;は、グラフの計算に影響を与えないため、注釈プロパティです。
+  * 例： グラフの&#39;*label*&#39;は、グラフの計算に影響を与えないため、注釈プロパティです。
 
 次の<b>メンバー</b>が含まれています：
 
-* <b>Id</b>：このカテゴリのコンテキスト内のプロパティの識別子；
+* <b>Id</b>：このカテゴリのコンテキストにおけるプロパティの識別子;
 * <b>型</b>：現在のプロパティでサポートされている型です。 一部のプロパティは&#x200B;*複数*&#x200B;の型をサポートできます： &#39;*int*&#39;、&#39;*float*&#39;など。
   * 例： &#39;*sbs::function::add*&#39;ノードの入力プロパティは、さまざまな型をサポートできます： &#39;*int&#39;*、&#39;*int2&#39;*、&#39;*int3&#39;*、&#39;*int4&#39;*、&#39;*float&#39;*、&#39;*float2&#39;*、&#39;*float3&#39;*、&#39;*float4&#39;など；*
 * <b>カテゴリ</b>:プロパティが属するカテゴリ（入力、出力、注釈）;
@@ -170,17 +170,17 @@ UIマネージャーを使用すると、Substance Designerのメインウィン
 
 * &#39;*sbs::compositing::input*&#39;ノードのプロパティ：
 
-<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing:：入力</th></tr><tr><td style="text-align: left;"><strong>入力</strong></td><td style="text-align: left;"><strong>注釈</strong></td><td style="text-align: left;"><strong>出力</strong></td></tr><tr><td>$outputsize</td><td>ラベル</td><td><p>unique_filter_output (CONNECTABLE)</p></td></tr><tr><td>$format</td><td>description</td><td><br/></td></tr><tr><td>$pixelsize</td><td>identifier</td><td><br/></td></tr><tr><td>$pixelratio</td><td>userdata</td><td><br/></td></tr><tr><td>$tiling</td><td>グループ</td><td><br/></td></tr><tr><td>$randomseed</td><td>visibleif</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>用途</td><td><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing:：入力</th></tr><tr><td style="text-align: left;"><strong>入力</strong></td><td style="text-align: left;"><strong>注釈</strong></td><td style="text-align: left;"><strong>出力</strong></td></tr><tr><td>$outputsize</td><td>ラベル</td><td><p>unique_filter_output (CONNECTABLE)</p></td></tr><tr><td>$format</td><td>description</td><td><br/></td></tr><tr><td>$pixelsize</td><td>識別子</td><td><br/></td></tr><tr><td>$pixelratio</td><td>userdata</td><td><br/></td></tr><tr><td>$tiling</td><td>グループ</td><td><br/></td></tr><tr><td>$randomseed</td><td>visibleif</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>用途</td><td><br/></td></tr></tbody></table>
 
 * &#39;*sbs::compositing::blend*&#39;ノードのプロパティ：
 
-<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing:：ブレンド</th></tr><tr><td style="text-align: left;"><strong>入力</strong></td><td style="text-align: left;"><strong>注釈</strong></td><td style="text-align: left;"><strong>出力</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output (CONNECTABLE)</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelratio</td><td><br/></td><td><br/></td></tr><tr><td>$tiling</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.connector （接続可能）</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.connector （接続可能）</p></td><td><br/></td><td><br/></td></tr><tr><td>opacity.connector （接続可能）</td><td><br/></td><td><br/></td></tr><tr><td>opacitymult</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">blendingmode</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">colorblending</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">maskrectangle</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing:：ブレンド</th></tr><tr><td style="text-align: left;"><strong>入力</strong></td><td style="text-align: left;"><strong>注釈</strong></td><td style="text-align: left;"><strong>出力</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output (CONNECTABLE)</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelratio</td><td><br/></td><td><br/></td></tr><tr><td>タイリング($C)</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.コネクター （接続可能）</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.コネクター （接続可能）</p></td><td><br/></td><td><br/></td></tr><tr><td>opacity.コネクター（接続可能）</td><td><br/></td><td><br/></td></tr><tr><td>opacitymult</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">blendingmode</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">colorblending</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">maskrectangle</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
 
 ## 型(SDType)
 
 型(*SDType*)には、次のような値<b>型</b>の情報が含まれています：
 
-* <b>Id</b>：型の識別子；
+* <b>Id</b>：型の識別子;
 * <b>修飾子</b>: &#39;*SDTypeModifier&#39;* <b>enum</b>値の1つである型修飾子：
   * *自動*;
   * *均一*：値は操作ごとに&#x200B;*一度*&#x200B;評価されます。
@@ -230,7 +230,7 @@ UIマネージャーを使用すると、Substance Designerのメインウィン
 
 次の情報が含まれます。
 
-* モジュールマネージャー(*SDModuleMgr*)のコンテキストで一意の<b>ID</b> (*Id*);
+* モジュールマネージャー(*SDModuleMgr*)のコンテキストで一意の<b>識別子</b> (*Id*);
 * <b>定義</b>の一覧(*SDDefinition*);
 * <b>型</b>の一覧(*SDType*)。
 
@@ -240,7 +240,7 @@ UIマネージャーを使用すると、Substance Designerのメインウィン
 
 次の情報が含まれます。
 
-* <b>Id</b>：定義の識別子；
+* <b>Id</b>：定義の識別子;
 * <b>ラベル</b>：定義のラベル；
 * <b>説明</b>：定義の説明；
 * <b>プロパティ</b>：使用可能なすべてのプロパティ&#x200B;*カテゴリ* (*SDPropertyCategory*)のプロパティ。

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
-description: Substanceグラフのファイルサイズを縮小して、パフォーマンスとストレージの要件を最適化するためのガイドラインについて説明します。
+description: グラフのファイルサイズを縮小して、パフォーマンスとストレージの要件を最適化するためのガイドラインについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Filesize Reduction Guidelines
 helpx_experience_level: ""
@@ -22,11 +22,11 @@ ht-degree: 1%
 
 場合によっては、[Substance 3Dアセット(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)の合計ファイルサイズが重要な要素になることがあります。 このページでは、ファイルサイズを縮小する際に留意すべき重要な領域と設定について説明します。
 
-ファイルサイズは主に[埋め込みビットマップ](../../resources/bitmap-resource/bitmap-resource.md)によって決定されます。 これらは、リンク、埋め込み、またはベイク処理され、リソースとして[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)ファイル(SBS)に追加されたファイルです。 グラフで使用されているビットマップ（つまり、直接またはノードチェーンを介して出力に接続されているビットマップ）のみが、Substance 3Dアセットで公開されます。 Substance 3Dファイルでは、ビットマップのリソースはファイルの外部に保存されるので、ビットマップがファイルのサイズに影響することはありません。
+ファイルサイズは主に[埋め込みビットマップ](../../resources/bitmap-resource/bitmap-resource.md)によって決定されます。 これらは、[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html)ファイル(SBS)にリンク、埋め込み、またはベイクされ、リソースとして追加されたファイルです。 グラフで使用されているビットマップ、つまり、直接またはノードチェーンを介して出力に接続されているビットマップのみがSubstance 3Dアセットで公開されます。 Substance 3Dファイルでは、ビットマップのリソースはファイルの外部に保存されるので、ビットマップがファイルのサイズに影響することはありません。
 
 >[!IMPORTANT]
 >
-> すべての[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードの[出力サイズ](../../compositing-graphs/output-size/output-size.md)プロパティが&#x200B;*絶対* [継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されていることを確認してください。 そうでない場合は、参照されている[ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)は、公開されたSubstance 3Dアセットファイルにデフォルトの256\*256解像度で保存されます。これにより、* 1つ以上の出力の品質に影響します*。
+> すべての[Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードの[Output size](../../compositing-graphs/output-size/output-size.md)プロパティが&#x200B;*Absolute* [継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されていることを確認してください。 そうでない場合は、参照されている[ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)は、公開されたSubstance 3Dアセットファイルにデフォルトの256\*256解像度で保存されます。これにより、* 1つ以上の出力の品質に影響します*。
 
 ## ファイルサイズの係数
 
@@ -63,14 +63,14 @@ SBSARのファイルサイズの合計に影響を与える要因はいくつか
 +++パッケージ内のビットマップ形式
 リソースプロパティで、「Raw」圧縮と「Jpeg」圧縮の間で選択できます。 これは、最終結果に大きな影響を与える可能性があります。
 
-*見つかった場所：ビットマップリソースプロパティ、エクスプローラウィンドウ。*
+*見つかった場所：ビットマップリソースプロパティ、エクスプローラーウィンドウを使用。*
 
 +++
 
 +++パッケージのビットマップ圧縮品質
 「Jpeg」ビットマップ形式を使用する場合、以下のスライダーは画質とファイルサイズに影響を与える可能性があります。 このスライダは予測可能な動作ではありませんが、1は最高画質のJPG圧縮に対応し、0.5は最小サイズに対応します。
 
-*見つかった場所：ビットマップリソースプロパティ、エクスプローラウィンドウ。*
+*見つかった場所：ビットマップリソースプロパティ、エクスプローラーウィンドウを使用。*
 
 +++
 
@@ -83,9 +83,9 @@ SBSARにパブリッシュする場合、圧縮は「自動」、「最高」、
 
 ## Filesizeの比較
 
-次の表は、すべての設定が相互に与える影響を示しています。 使用されているビットマップは、4096 x 4096の生成されたノイズの画像で、Photoshopから画質8で24ビットTGAまたはJPGとして書き出されます。 TGAはグレースケールおよびRGBAモードとしても書き出されました。
+次の表は、すべての設定が相互に与える影響を示しています。 使用されるビットマップは、生成されたノイズの4096 x 4096イメージで、Photoshopから画質8で24ビットTGAまたはJPGとして書き出されます。 TGAはグレースケールおよびRGBAモードとしても書き出されました。
 
-グラフでは、1つの出力にコネクトされた1つのビットマップノードが配置されるだけです。 ビットマップモードは、ソースファイルモードに応じて設定されます。
+このグラフは、1つの出力に接続された1つのビットマップノードを配置するだけです。 ビットマップモードは、ソースファイルモードに応じて設定されます。
 
 右側の表は完全な結論を導き出すものではありませんが、視覚的な結果とファイルサイズを比較する際に、次の情報を確認できます。
 
@@ -98,7 +98,7 @@ SBSARにパブリッシュする場合、圧縮は「自動」、「最高」、
 >
 > **Jpegビットマップ形式**
 > 
-> 法線マップ、ベクトルマップなどの高精度を必要とする特殊マップは、アーティファクトが非常に目立つことがあるので、Jpeg圧縮に設定しないようにしてください。
+> 法線マップやベクターマップなどの高精度を必要とする特殊マップは、アーティファクトが非常に目立つことがあるので、Jpeg圧縮に設定しないようにしてください。
 
 | 元の画像 | カラーTGA | カラーJPG | グレースケールTGA | グレースケールJPG |
 | --- | --- | --- | --- | --- |

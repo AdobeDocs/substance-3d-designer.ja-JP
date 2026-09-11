@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: カスタム関数や再利用可能なノードネットワークを作成するためのDesignerのSubstance関数グラフについて説明します。
 helpx_creative_field: ""
@@ -88,23 +88,23 @@ Substance関数グラフで使用可能なノードは、Substanceグラフで�
 >
 > <b>生成された結果の種類を再確認してください</b>
 > 
-> *出力ノードとして設定*&#x200B;が灰色表示されている場合は、ノードによって生成された値が、パラメーターまたはピクセルプロセッサによって予期された値と異なることを意味します。
+> *出力ノードとして設定*&#x200B;が灰色表示されている場合は、ピクセルプロセッサーによって生成された値が、パラメーターまたはノードによって予期された値と異なっていることを示しています。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Substanceグラフの場合は、別のグラフで作成した関数を読み込むことができます。 参照グラフを右クリックして「参照を開く」を選択すると、参照グラフを開くことができます。
+グラフについては、別のグラフで作成された関数を読み込むことができます。 リファレンスグラフを右クリックして「リファレンスを開く」を選択すると、以下の操作を実行できます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![参照Substance関数グラフを開く](../../assets/image2017-6-27-10-44-55.png "参照Substance関数グラフを開く")
+![参照されたSubstance関数グラフを開く](../../assets/image2017-6-27-10-44-55.png "参照されたSubstance関数グラフを開く")
 
 </td>
 </tr>
 </table>
 
-複数の関数を含むsbsがある場合は、それをSubstanceの関数グラフに直接ドラッグ&amp;ドロップし、表示されるリストからインポートする関数を選択できます。
+複数の関数を含むsbsがある場合は、それをSubstanceの関数グラフに直接ドラッグ&amp;ドロップして、表示されるリストからインポートする関数を選択できます。
 
 ![パッケージからSubstance関数グラフを削除](../../assets/sbsdrag.gif "パッケージからSubstance関数グラフを削除")

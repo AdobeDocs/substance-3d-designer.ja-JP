@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
 description: 物理的なSunSkyノードを使用して、物理的に正確な太陽と空のライティング環境を生成し、リアルなマテリアルプレビューを実現します。
 helpx_creative_field: ""

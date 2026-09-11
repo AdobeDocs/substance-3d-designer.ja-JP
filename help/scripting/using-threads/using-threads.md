@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/using-threads.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
 breadcrumb-title: ''
 description: 並列処理とパフォーマンスのために、Substance 3D Designer Pythonスクリプティングでスレッドを使用する方法について説明します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 これは、Designerの実行中にバックグラウンド処理やI/O処理を行う場合に便利です。
 
-Python APIをDesignerするのほとんどのクラスやメソッドは、<b>メインアプリケーションスレッド</b>から&#x200B;*のみ*&#x200B;呼び出すことができます。 そのため、Designerで現在開いているグラフに変更を加える場合は、メインアプリケーションスレッドから変更を加える必要があります。
+Python APIをDesignerするのほとんどのクラスやメソッドは、<b>メインアプリケーションスレッド</b>から&#x200B;*のみ*&#x200B;呼び出すことができます。 したがって、Designerで現在開いているグラフに変更を加える場合は、メインアプリケーションスレッドから変更を加える必要があります。
 
 考えられる解決策の1つは、次の例のように<b>QThread</b>と<b>キュー接続</b>を使用することです。
 

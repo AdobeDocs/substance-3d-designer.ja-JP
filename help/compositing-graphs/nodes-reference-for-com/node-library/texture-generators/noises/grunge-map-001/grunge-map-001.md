@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
 breadcrumb-title: ''
 description: 経年劣化マップ001ノードを使用して、サーフェスのディテールおよび磨耗のエフェクトをマテリアルに加えるためのプロシージャル経年劣化 テクスチャを作成します。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 ![](grunge-map-001.resources/grungemap-001.png){width="128px"}
 
-<b>In:</b>テクスチャジェネレーター>ノイズ
+<b>イン：</b> テクスチャジェネレーター> ノイズ
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -49,7 +49,7 @@ ht-degree: 7%
 | <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
 | <b>反転</b> <i>False/True</i> | 結果を反転します。 |
 | <b>ブラシパターン</b> <i>0.0 - 1.0</i> | ブラシのアルファとして使用する場合に、エッジの周囲にマスクを追加します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 

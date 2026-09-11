@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでSBSCFG構成リストを使用して、プロジェクト設定とプリセットを管理する方法について説明します。
 helpx_creative_field: ""

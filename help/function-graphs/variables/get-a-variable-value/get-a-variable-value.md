@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: 「変数を取得」ノードを使用して、Substance 3D Designer関数グラフで変数値を取得する方法について説明します。
 helpx_creative_field: ""

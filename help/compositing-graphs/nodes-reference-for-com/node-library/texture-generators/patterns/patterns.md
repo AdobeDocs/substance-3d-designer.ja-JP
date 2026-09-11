@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのパターン生成ノードを使用して、幾何学的シェイプ、タイル、プロシージャルパターンを作成できます。
 helpx_creative_field: ""

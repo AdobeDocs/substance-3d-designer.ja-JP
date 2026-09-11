@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
 description: 精度の高い詳細を得るには、[標準ワールド単位にHeight]ノードを使用して、ワールド単位のスケーリングを使用して高さマップを法線マップに変換します。
 helpx_creative_field: ""

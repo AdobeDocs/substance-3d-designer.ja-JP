@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonスクリプティング用のプラグインパッケージを作成および構築する方法について説明します。
 helpx_creative_field: ""

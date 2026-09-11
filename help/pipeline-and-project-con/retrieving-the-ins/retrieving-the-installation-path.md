@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: スクリプト作成や自動処理のためにSubstance 3D Designerのインストールパスを取得する方法について説明します。
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 > このレジストリキーは、バージョン11.2以降でのみ使用できます。\
-> 古いバージョンの場合、インストールパスは、 HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExtsのファイル関連付けから取得できます
+> 古いバージョンの場合、インストールパスは、 HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ エクスプローラー\FileExtsにあるファイルの関連付けから取得できます
 
 ### Substance版（スタンドアロン）
 

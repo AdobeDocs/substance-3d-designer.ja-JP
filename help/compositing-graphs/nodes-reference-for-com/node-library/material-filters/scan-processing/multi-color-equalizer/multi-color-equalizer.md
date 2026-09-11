@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
 breadcrumb-title: ''
 description: マルチColor Equalizerノードを使用して、複数のテクスチャチャンネルにわたってカラーを平均化し、スキャンされたマテリアルを一貫して処理できます。
 helpx_creative_field: ""

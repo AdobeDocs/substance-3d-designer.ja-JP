@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
 breadcrumb-title: ''
-description: 「しきい値」ノードを使用して、マスク作成のしきい値に基づいてグレースケールテクスチャを白黒に変換します。
+description: 「しきい値」ノードを使用して、マスクを作成するためのしきい値に基づいてグレースケールテクスチャを白黒に変換します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Threshold
 helpx_experience_level: ""

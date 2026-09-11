@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
 breadcrumb-title: ''
 description: '[エッジの斑点]ノードを使用して、メッシュエッジに斑点のある摩耗パターンを生成し、リアルなエッジのダメージ効果を作成します。'
 helpx_creative_field: ""

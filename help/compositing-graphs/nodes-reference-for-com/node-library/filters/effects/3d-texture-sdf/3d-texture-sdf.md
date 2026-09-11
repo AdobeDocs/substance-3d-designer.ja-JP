@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: 3DテクスチャSDFノードを使用して、滑らかな形状と効果を作成するために、3Dデータから署名付き距離フィールドテクスチャを生成します。
 helpx_creative_field: ""

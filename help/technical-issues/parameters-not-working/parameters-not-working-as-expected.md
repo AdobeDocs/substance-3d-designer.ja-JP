@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
-description: Substanceグラフのパラメーターが正常に機能しない問題をトラブルシューティングし、解決策を見つけます。
+description: グラフパラメーターが正常に機能しない問題をトラブルシューティングし、解決策を見つけます。
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > Parameters not working as expected
 helpx_experience_level: ""
@@ -26,11 +26,11 @@ ht-degree: 5%
 
 <b>![（エラー）](../../assets/error.svg)問題</b>
 
-Designerで[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用しているとき、またはそのグラフのSubstance 3Dアセット(SBSAR)のパラメーターリスト[公開済み](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)に含まれているときに、グラフの公開パラメーターの一部が&#x200B;*表示されていません*。
+グラフの一部の表示されるパラメーターは、Designerで[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用しているとき、またはそのグラフのSubstance 3Dアセット(SBSAR) [公開済み](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)のパラメーターリストに&#x200B;*表示されていません*。
 
 <b>![(tick)](../../assets/check.svg)おすすめの手順</b>
 
-不足しているパラメーターは可能性が高い[静的パラメーター](../../glossary/glossary.md)です。グラフが&#x200B;*cooked*&#x200B;になった後（つまり、アルゴリズムを迅速かつ効率的に実行するために処理された後）、*その場で編集することはできません*。 グラフが&#x200B;*編集*&#x200B;または&#x200B;*公開*&#x200B;されるたびに、Designerでクッキングが行われます。 このような制限の影響を受けるパラメーターは、このドキュメントの[パラメーターの公開](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)ページの[制限](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)セクションに記載されています。
+不足しているパラメーターは可能性が高い[静的パラメーター](../../glossary/glossary.md)です。アルゴリズムを迅速かつ効率的に実行するために、グラフを&#x200B;*cooked*&#x200B;した後に&#x200B;*その場で編集*&#x200B;することはできません。 グラフが&#x200B;*編集*&#x200B;または&#x200B;*公開*&#x200B;されるたびに、Designerで料理が行われます。 このような制限の影響を受けるパラメーターは、このドキュメントの「[パラメーターの表示](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)」ページの「[制限](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)」セクションに記載されています。
 
 そのため、静的パラメーターはDesignerでは表示および編集できますが、公開されたSubstance 3Dアセットでは&#x200B;*非表示*&#x200B;になります。 Substance 3Dアセットに公開する前に、[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用して、これらの制限が有効であることを確認できます。
 
@@ -38,18 +38,18 @@ Designerで[プレビューモード](../../compositing-graphs/manage-parameters
 
 | ノード | パラメーター |
 | --- | --- |
-| すべてのノード | タイリングモードのピクセル比 |
-| [均一な色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | カラーモード |
-| [ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | カラーモード |
-| [ブレンド](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | 描画モードAlpha描画モードで切り抜く領域 |
+| すべてのノード | タイリングモードピクセル比 |
+| [均一カラー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | カラーモード |
+| [ピクセルプロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | カラーモード |
+| [ブレンド](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | 描画モードクロップエリア |
 | [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | ブレンドモード |
-| [象限](../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | パターン入力画像アルファ入力画像フィルター |
+| [象限](../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | パターン入力画像アルファ入力画像フィルタリング |
 
 ## パラメーターに適用されたSubstance関数グラフの結果が正しくありません
 
 <b>![（エラー）](../../assets/error.svg)問題</b>
 
-負の整数を使用した場合、ノードパラメータに適用されたSubstance関数グラフが期待値を出力しません。
+負の整数を使用すると、nodeパラメーターに適用されたSubstance関数グラフが期待値を出力しません。
 
 <b>![(tick)](../../assets/check.svg)おすすめの手順</b>
 

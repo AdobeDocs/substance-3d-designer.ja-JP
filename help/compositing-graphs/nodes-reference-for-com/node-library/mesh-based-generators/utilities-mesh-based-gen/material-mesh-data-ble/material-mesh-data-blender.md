@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: メッシュデータブレンダーノードは、マテリアルメッシュデータをブレンドして、異なるマテリアルゾーン間の滑らかなトランジションを作成する場合に使用します。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: マテリアルメッシュデータブレンダー
+title: メッシュデータブレンダー
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 8%
 ---
 
 
-# マテリアルメッシュデータブレンダー
+# メッシュデータブレンダー
 
 <table>
 <tr style="border: 0;">
@@ -48,12 +48,12 @@ ht-degree: 8%
 |  |  |
 |:---|:---|
 | <b>完全なマテリアル入力（グループの「マテリアル」）</b> | マテリアルマップのフルセット。<br><br>これらは、このノードによって変更され、再度出力として返されます。 |
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
-| <b>曲線</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>曲率</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
 | <b>Height</b> <i>グレースケール入力</i> |  |
 | <b>標準</b> <i>カラー入力</i> |  |
 | <b>頂点の色</b> <i>カラー入力</i> |  |
-| <b>ワールド空間標準</b> <i>カラー入力</i> |  |
+| <b>ワールド空間法線</b> <i>カラー入力</i> |  |
 
 <a name="parameters"></a>
 

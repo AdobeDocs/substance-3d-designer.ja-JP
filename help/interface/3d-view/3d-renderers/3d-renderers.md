@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 3Dビューでラスタライザーレンダラーとパストレーサーレンダラーのいずれかを選択すると、プレビューの品質とパフォーマンスが異なります。
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ USDを基盤としているため、Adobeの[USDFileFormatプラグイン](https
 
 >[!TIP]
 >
-> プロジェクト設定[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)の「「3Dビュー」」セクションで、新しい3Dビューを開始する際にデフォルトで使用するレンダラーを選択できます。
+> プロジェクト設定](../../../interface/preferences-window/project-settings/project-settings.md)の「[「3Dビュー」」セクションで、新しい3Dビューを開始する際にデフォルトで使用するレンダラーを選択できます。
 
 <a name="rasterizer"></a>
 
@@ -178,7 +178,7 @@ Heightを表示するには、次の2つの方法を使用できます。
 
 <b>テッセレーション+ ディスプレイスメント</b> – ジオメトリを再分割し、法線に沿って頂点を移動します。
 
-アドビ標準マテリアルについては、アドビのドキュメントの[このセクション](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で詳細に説明されています。
+アドビ標準マテリアルについては、アドビのドキュメントの[このセクション](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)で詳細に説明されています。
 
 +++
 
@@ -290,7 +290,7 @@ Heightを表示するには、次の2つの方法を使用できます。
 
 +++
 
-Designerでは、GLSLFXファイル[&#128279;](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)を使用して、OpenGLレンダラー用に独自のシェーダーを設定することもできます。
+Designerでは、GLSLFXファイル](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)を使用して、OpenGLレンダラー[用に独自のシェーダーを設定することもできます。
 
 >[!IMPORTANT]
 > 

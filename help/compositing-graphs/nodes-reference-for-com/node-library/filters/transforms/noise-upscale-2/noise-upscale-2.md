@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: 「ノイズアップスケール2」ノードを使用すると、より大きなサイズでテクスチャの品質を維持するために、ノイズベースの補間を使用してテクスチャをアップスケールすることができます。
 helpx_creative_field: ""

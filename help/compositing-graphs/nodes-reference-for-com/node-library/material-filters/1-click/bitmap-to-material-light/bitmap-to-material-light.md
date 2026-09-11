@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: 「ビットマップをマテリアルに変換」ノードを使用すると、ビットマップ画像を高速なワークフロー用に最適化された照明のマテリアルにすばやく変換できます。
 helpx_creative_field: ""
@@ -50,7 +50,7 @@ ht-degree: 11%
 | <b>チャネル</b> | この領域のマテリアルチャンネルのオン/オフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢度マップを使用する場合などです。 |
 | <b>グローバル</b> |  |
 | <b>深度残高</b> <i>-1.0 - 1.0</i> | ハイトマップのバイアス/シフトを設定します。 |
-| <b>Diffuse</b> |  |
+| <b>拡散</b> |  |
 | <b>シャープ</b> <i>0.0 - 1.0</i> | 拡散の結果にシャープを追加します。 |
 | <b>色相</b> <i>0.0 - 1.0</i> | 選択した色相シフトで拡散する色合い。 |
 | <b>彩度</b> <i>0.0 - 1.0</i> | Diffuse結果の彩度を変更します。 |
@@ -65,7 +65,7 @@ ht-degree: 11%
 | <b>標準のシャープ</b> <i>0.0 - 1.0</i> | 変換後の法線マップをシャープにして、ディテールを際立たせます。 |
 | <b>通常のソフト</b> <i>0.0 - 1.0</i> | 変換後に法線マップをソフトにし、ディテールを隠します。 |
 | <b>Specular</b> |  |
-| <b>Specular Diffuseの影響</b> <i>0.0 - 1.0</i> | Specularに対する拡散反射光の影響を設定します。 光沢度とラフネスの出力にも影響します。 |
+| <b>Specular Diffuseの影響</b> <i>0.0 - 1.0</i> | Specularに対する拡散反射光の影響を設定します。 光沢と粗さの出力にも影響します。 |
 | <b>Specularの彩度</b> <i>0.0 - 1.0</i> | Specular出力の彩度を変更します。 |
 | <b>Specularシャープ</b> <i>0.0 - 1.0</i> | Specular出力をシャープにします。 |
 | </b>の<b>Specular level <i>0.0 - 1.0</i> | Specular変換の入力レベルを設定します。 |
@@ -83,5 +83,5 @@ ht-degree: 11%
 | <b>DiffuseのAmbient occlusion</b> <i>0.0 - 1.0</i> | 生成されたAOのDiffuse出力のブレンド。 |
 | <b>Ambient occlusionスプレッド</b> <i>0.0 - 1.0</i> | 生成されたAOの広がりの範囲を設定します。 |
 | <b>Ambient occlusion光の距離</b> <i>0.0 - 1.0</i> | AO 「深度」変換を設定します。 スプレッドが大きい場合は影響が小さくなります。 |
-| <b>Ambient occlusion光角</b> <i>0.0 - 1.0</i> | フェイクライティングAOキャスト角度を設定します。 反対の角度に設定されている場合は、拡散反射光に既にある方向AOを補正するために使用できます。 |
+| <b>Ambient occlusion光角</b> <i>0.0 - 1.0</i> | フェイクライティングAOキャスト角度を設定します。 反対の角度に設定されている場合、Diffuse内の既に存在する方向AOを補正するために使用できます。 |
 | <b>Ambient occlusionレベル</b> <i>0.0 - 1.0</i> | AO出力レベルを変更します。 |

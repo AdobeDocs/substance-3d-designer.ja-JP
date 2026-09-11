@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
 breadcrumb-title: ''
-description: マテリアルを抽出するためにテクスチャから低周波のライティングのバリエーションを削除するには、[低周波をキャンセル]ノードを使用します。
+description: マテリアルを抽出するために低周波の照明の変動をテクスチャから取り除くには、[低周波をキャンセル]ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ハイパスと似ていますが、最終的な彩度を下げることはありません。
 
-さらに高度なバージョンについては、[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)も参照してください。
+[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)を参照して、より高度なバージョンを確認してください。
 
 </td>
 </tr>

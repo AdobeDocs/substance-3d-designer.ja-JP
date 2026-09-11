@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのプロパティパネルを使用して、ノードのプロパティとグラフパラメーターを表示および編集します。
 helpx_creative_field: ""

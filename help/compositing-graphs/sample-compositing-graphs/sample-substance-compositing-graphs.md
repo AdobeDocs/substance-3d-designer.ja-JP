@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: DesignerのSubstance合成グラフのサンプルを紹介し、高度なテクニックとベストプラクティスについて学びます。
 helpx_creative_field: ""

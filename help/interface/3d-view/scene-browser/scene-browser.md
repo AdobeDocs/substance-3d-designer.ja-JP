@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Scene Browserを使用して、ビューポート内の3Dシーン要素、マテリアル、およびオブジェクトをナビゲートおよび管理します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ''
 description: '[距離]ノードを使用して、シェイプから距離マップを計算し、マスクや手続き型の効果を作成します。'
 helpx_creative_field: ""

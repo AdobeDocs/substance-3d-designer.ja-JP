@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのプラグインマネージャーを使用して、拡張機能のためのPythonプラグインをインストール、管理、設定します。
 helpx_creative_field: ""

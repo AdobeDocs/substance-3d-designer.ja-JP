@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフの比較ノードにアクセスして、値を比較し、ブール結果を生成します。
 helpx_creative_field: ""

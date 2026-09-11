@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
-description: テクスチャを極座標からデカルト座標に変換するには、[極座標をデカルト座標に]ノードを使用します。
+description: 極座標からデカルト座標にテクスチャを変換するには、[極座標]ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Polar to Cartesian
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 極座標から直交座標
+title: 極座標からデカルト
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# 極座標から直交座標
+# 極座標からデカルト
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 説明
 
-極座標（角度と半径）の入力を直交座標（XとY）に変換します。 [直交座標から極座標への変換](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)では、逆の処理が可能です。
+極座標（角度と半径）の入力をデカルト座標（XとY）に変換します。 [極座標へのデカルト](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)では逆の処理が可能です。
 
 </td>
 </tr>

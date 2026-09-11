@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
-description: 「ハイパス」ノードを使用して、テクスチャから高周波のディテールを抽出し、シャープとディテールの強調の効果を作成します。
+description: ハイパスノードを使用して、テクスチャから高周波数のディテールを取り出し、シャープとディテールの強調の効果を生み出します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Highpass
 helpx_experience_level: ""
@@ -36,7 +36,7 @@ ht-degree: 4%
 ## 説明
 
 カラーおよびグレースケールバージョンで使用可能なハイパスフィルターを実行します。 同じ名前のPhotoshopアクションに似ています。\
-タイリングのためにテクスチャをクリーンアップする場合など、画像の輝度に大きな差がある場合に便利です。
+タイリングのためにテクスチャをクリーンアップする場合など、画像の大きな輝度差を取り除く場合に便利です。
 
 重要：入力に適したバージョンを使用してください。 カラー入力には「ハイパス」、グレースケール入力には「ハイパスグレースケール」を使用します。
 

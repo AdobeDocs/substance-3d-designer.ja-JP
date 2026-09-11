@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのマテリアルフィルターノードにアクセスして、様々なワークフローでマテリアルを処理、ブレンド、変換します。
+description: Substance 3D Designerのマテリアルフィルターノードにアクセスして、様々なワークフローのマテリアルを処理、ブレンド、変換します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters
 helpx_experience_level: ""
@@ -20,19 +20,19 @@ ht-degree: 3%
 
 # マテリアルフィルター
 
-マテリアルフィルターは、完全なマテリアル入力で動作するノードです。複数のチャンネルの組み合わせであり、[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)で最適に使用されます。 ベースカラーや標準などの単一のチャンネルまたは単純な白黒マスクではなく、すべてのPBRマテリアルを使用する場合は、マテリアルフィルターカテゴリを使用することをお勧めします。
+マテリアルフィルターは、完全なマテリアル入力で動作するノードです。複数のチャンネルの組み合わせであり、[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)で最適に使用されます。 「ベースカラー」や「標準」などのシングルチャンネルだけでなく、完全なPBR マテリアルや、単純な白黒白のマスクを使用する場合は、常に「マテリアルフィルター」カテゴリが使用されます。
 
 このカテゴリは、次のような複数のサブカテゴリで構成されます。
 
-* [1 – クリック](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/1-click.md)\
-  Bitmap2Materialのみが含まれます。
+* [ワンクリック](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/1-click.md)\
+  Bitmap2マテリアルのみを含みます。
 * [効果](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/effects-material.md)\
-  ファンシーなオールインワンのマテリアルエフェクト。
+  ファンシーなオールインワンマテリアルエフェクト。
 * [変形](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/transforms-material.md)\
   マルチチャンネル変換ヘルパー。
 * [ブレンド](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/blending-material.md)\
   マルチチャンネルブレンドノード
 * [PBRユーティリティ](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-utilities.md)\
-  PBRヘルパーノードとツール。
+  PBR ヘルパーノードとツール。
 * [スキャン処理](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)\
-  フォトスキャンしたテクスチャ専用のツール。
+  フォトスキャンテクスチャ専用のツール。

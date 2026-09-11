@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
 description: BaseColor メタリックラフネスコンバーターノードを使用して、異なるPBR マテリアル形式およびワークフロー間で変換を行います。
 helpx_creative_field: ""
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# ベースカラー/メタリック/粗さコンバーター
+# BaseColor/メタリック/ラフネスコンバーター
 
 <table>
 <tr style="border: 0;">

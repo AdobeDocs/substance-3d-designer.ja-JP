@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
-description: Gitやその他のシステムと統合するには、Substance 3D Designerの環境設定でバージョンコントロールを構成します。
+description: Gitやその他のシステムと統合するには、Substance 3D Designer環境設定でバージョン管理を設定します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Preferences window > Version control
 helpx_experience_level: ""
@@ -24,11 +24,11 @@ ht-degree: 0%
 >
 > Substance 3D Designerバージョン<b>14.0.0</b>は、Perforceサポートを<b>Python 3</b>にアップグレードします。
 > 
-> 必要に応じて、他のスクリプトやバージョンコントロール環境を調整してください。
+> 必要に応じて、他のスクリプトやバージョン管理環境を調整してください。
 
-Designerでは、[Perforce](https://www.perforce.com/) (P4)のバージョンコントロールシステムをPythonで統合できます。
+Designerでは、[Perforce](https://www.perforce.com/) (P4)バージョン管理システムをPythonで統合できます。
 
-この統合により、[エクスプローラー](../../../interface/the-explorer-window/the-explorer-window.md)のパッケージのコンテキストメニューにカスタムの&#39;バージョン管理&#39;サブメニューが追加され、P4のパッケージの状態に一致するカスタムアイコンが追加されます。
+この統合により、[エクスプローラー](../../../interface/the-explorer-window/the-explorer-window.md)のパッケージのコンテキストメニューにカスタムの&#39;バージョン管理&#39;サブメニューが追加され、P4のパッケージのステータスに一致するカスタムアイコンが追加されます。
 
 ## P4を準備中
 
@@ -52,13 +52,13 @@ cVerbose = False
 
 ## Designerでの設定
 
-バージョン管理が[プロジェクト設定](../../../interface/preferences-window/project-settings/project-settings.md)で構成されており、Designerの[環境設定](../../../interface/preferences-window/preferences-window.md)で利用できます。
+バージョン管理は、Designerの[環境設定](../../../interface/preferences-window/preferences-window.md)で利用可能な[プロジェクト設定](../../../interface/preferences-window/project-settings/project-settings.md)で構成されています。
 
-![プロジェクト設定の[バージョン管理]タブ](../../../assets/p4v-project-settings.jpg "プロジェクト設定の[バージョン管理]タブ"){zoomable="yes"}
+![&#39;プロジェクト設定の[バージョン管理]タブ](../../../assets/p4v-project-settings.jpg "&#39;プロジェクト設定の[バージョン管理]タブ"){zoomable="yes"}
 
 1. 編集/環境設定に移動
 1. 「プロジェクト」に移動し、ターゲット[プロジェクトファイル](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)を選択して、「バージョン管理」タブに移動します
-1. 「バージョン管理が有効になっています」を確認します。
+1. 「バージョン管理が有効」をオンにします。
 1. 「ワークスペース」セクションに次の情報を入力します。
 
    * <b>名前：</b> P4Vから以前に取得した&#39;ワークスペース名&#39;を入力してください
@@ -68,7 +68,7 @@ Designerでの![P4の設定：ワークスペース](../../../assets/p4v-project
 
 ### アクションの設定
 
-これらのアクションは、エクスプローラーのパッケージのコンテキストメニューで使用できます。 ほとんどのバージョン管理ツールの概念に一致する定義済みのアクションがあります。
+これらのアクションは、エクスプローラー内のパッケージのコンテキストメニューで使用できます。 ほとんどのバージョン管理ツールのコンセプトに一致する事前定義されたアクションがあります。
 
 * 必要に応じて、すべてのアクションラベルを変更できます。
 * すべてのアクションを有効にするには、スクリプトが必要です。
@@ -92,7 +92,7 @@ Designerでの![P4の設定： actions](../../../assets/p4v-project-settings-act
 
 ### カスタムアクションの設定
 
-すべてのバージョン管理ツールは異なり、多くの機能が含まれているため、ユーザーはカスタムアクションを追加することができます。
+すべてのバージョン管理ツールは異なり、多くの機能が含まれているため、カスタムアクションを追加できます。
 
 1. 「項目を追加」をクリック
 1. 新しいアクションのラベルを入力し、スクリプトパスを設定します
@@ -109,7 +109,7 @@ Designerでの![P4の設定：インタープリター](../../../assets/p4v-proj
 
 1. 新しいパッケージを作成
 1. 「ワークスペースのパス」ディレクトリにパッケージを保存します。
-1. パッケージで「RMB」をクリックします。これで、「バージョン管理」サブメニューにアクセスできるようになりました。
+1. パッケージで「RMB」をクリックします。「バージョン管理」サブメニューにアクセスできるようになりました。
 1. ワークスペースのパッケージファイルのステータスに応じて、いくつかのアクションを使用できます。
 
    * <b>追加：</b>ファイルを&#39;追加&#39;としてマークします
@@ -138,7 +138,7 @@ Designerでの![P4の設定：インタープリター](../../../assets/p4v-proj
 >
 > すべてのアクションで複数選択がサポートされています
 > 
-> P4およびその他のバージョン管理ツールで、読み取り専用ファイル権限を使用して変更を制限する場合、ユーザーは変更を行う前にパッケージをチェックアウトする必要があります。
+> P4およびその他のバージョン管理ツールで、読み取り専用のファイル権限を使用して変更を制限する場合は、変更を行う前にパッケージをチェックアウトする必要があります。
 > 
 > 読み取り専用のパッケージファイルはSDで変更できません。
 

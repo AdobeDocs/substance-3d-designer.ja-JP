@@ -52,7 +52,7 @@ Substanceグラフのインスタンスを<b>エクスプローラー</b>パネ�
 
 
 
-MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview.md) (SBS)の*[&#x200B; Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)インスタンス
+MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview.md) (SBS)の*[ Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)インスタンス
 
 +++
 
@@ -61,7 +61,7 @@ MDL graph *の[Substance 3Dファイル](../../getting-started/overview/overview
 
 
 
-*[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)MDLグラフの[Substance 3Dアセット](../../getting-started/overview/overview.md) (SBSAR)のインスタンス*
+*[MDLグラフの[Substance 3Dアセット](../../getting-started/overview/overview.md) (SBSAR)の](../../compositing-graphs/substance-compositing-graphs.md)インスタンス*
 
 +++
 

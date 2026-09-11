@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: ピクセルプロセッサノードを使用すると、高度なテクスチャ操作を行うカスタム式を使用して個々のピクセルを処理できます。
 helpx_creative_field: ""
@@ -103,7 +103,7 @@ ht-degree: 1%
 | --- | --- |
 | <b>入力画像#</b> *グレースケール/カラー* | [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)または[Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)ノードを使用して、指定されたインデックスの入力の値にアクセスします。 |
 
-## 出力コネクター
+## 出力コネクタ
 
 |  |  |
 | --- | --- |

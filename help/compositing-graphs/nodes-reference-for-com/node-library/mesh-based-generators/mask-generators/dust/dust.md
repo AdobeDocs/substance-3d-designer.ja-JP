@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dust.html"
 breadcrumb-title: ''
-description: Dustノードを使用して、メッシュジオメトリに基づいてDustのアキュムレーションマスクを作成し、リアルなDustと汚れのエフェクトを作成します。
+description: Dustノードを使用して、メッシュジオメトリに基づいてDustのアキュムレーションマスクを作成し、リアルなDustと汚れの効果を生み出します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dust
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## 説明
 
-ベイク済みマップとユーザー設定に基づいて白黒マスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)に似ています。
+ベイク済みマップとユーザー設定に基づいて、黒と白のマスクを生成します。 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)の[スマートマスク](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)と同様。
 
-このマスクは、上に向いている領域だけでなく、閉塞した領域や下がっている領域にも蓄積されているDustを表します。 適切なベイク処理されたAOおよびワールド空間法線が動作する必要があります。
+このマスクは、閉塞した低速領域に蓄積したDustを表すとともに、上方に面した領域のみに蓄積したエネルギーを表す。 適切なベイクAOとワールド空間法線が必要です。
 
 </td>
 </tr>
@@ -47,9 +47,9 @@ ht-degree: 5%
 
 |  |  |
 |:---|:---|
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | Dustの配置に使用するベイク済みマップ。 必須！ |
-| <b>ワールド空間標準</b> <i>カラー入力</i> | Dustの配置に使用するベイク済みマップ。 必須！ |
-| <b>ノイズ</b> <i>グレースケール入力</i> | カスタムDustマップ（オプション）。[ノイズのオーバーライド]が[True]に設定されている場合にのみ表示されます。 |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | Dustの配置に使用するベイク済みマップ。 必須！ |
+| <b>ワールド空間法線</b> <i>カラー入力</i> | Dustの配置に使用するベイク済みマップ。 必須！ |
+| <b>ノイズ</b> <i>グレースケール入力</i> | カスタムDustマップ（オプション）。「上書き」ノイズがTrueに設定されている場合にのみ表示されます。 |
 | <b>マスク（オプション）</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 |
 
 <a name="parameters"></a>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: FX-Mapノードを使用して、プロシージャパターンおよびプロシージャエフェクトを作成するために、テクスチャに関数グラフを適用します。
 helpx_creative_field: ""
@@ -71,7 +71,7 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 
 ## パラメーター
 
-他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって決定されることに注意してください。
+他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって[決定されることに注意してください。
 
 |  |  |
 | --- | --- |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
 breadcrumb-title: ''
 description: 「水平線を直線化」ノードを使用すると、HDRI環境で水平線を直線化して、アラインメントと向きを適切に調整できます。
 helpx_creative_field: ""

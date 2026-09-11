@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのリソースの依存関係に関する警告とその解決方法について説明します。
 helpx_creative_field: ""
@@ -140,20 +140,20 @@ ht-degree: 0%
 
 <b>![(tick)](../../assets/check.svg)ソリューション</b>
 
-3Dメッシュリソースの各UVセットに対して、<b>UVタイル</b>リストに&#x200B;*複数回存在する* UDIMインデックスがないことを確認してください。
+3D メッシュリソースの各UV セットに対して、<b>UV タイル</b>の一覧に&#x200B;*複数回存在する* UDIMインデックスがないことを確認してください。
 
-![&#39;UVタイルが複数回割り当てられています&#39;解決策](../../assets/warnings-dep-udim-same.gif "&#39;UVタイルが複数回割り当てられています&#39;解決策")
+![&#39;UVタイルが複数回割り当てられています&#39;ソリューション](../../assets/warnings-dep-udim-same.gif "&#39;UVタイルが複数回割り当てられています&#39;ソリューション")
 
 ## ![（エラー）](../../assets/error.svg)無効なUVタイル
 
-[3Dシーンリソース](../3d-scene-resource/3d-scene-resource.md)にリストされたUVタイルが、メッシュで定義されていないか、破損しています。
+[UVリソース](../3d-scene-resource/3d-scene-resource.md)に一覧表示されている3D シーンタイルは、メッシュで定義されていないか、壊れています。
 
 <b>![(tick)](../../assets/check.svg)ソリューション</b>
 
-3Dメッシュリソースの各UVセットに対して、<b>UVタイル</b>リストのすべての項目が、リンクされたリソースに&#x200B;*存在*&#x200B;するUDIMを参照していることを確認してください。
+3D メッシュリソースの各UV セットについて、<b>UV タイル</b>の一覧のすべての項目が、リンクされたリソース内の&#x200B;*存在*&#x200B;するUDIMを参照していることを確認してください。
 
 >[!NOTE]
 >
-> この警告は、*only*&#x200B;がリンクされたリソースで検出されたUDIMを一覧表示するため、ユーザーインターフェイスを通じてトリガーすることはできません。 Substance 3Dファイル(SBS) *直接*&#x200B;のデータを変更した場合にのみ、この警告がトリガーされます。
+> リンクされたリソースで検出されたUDIMが&#x200B;*only*&#x200B;によって一覧表示されているため、ユーザーインターフェイスを使用してこの警告をトリガーすることはできません。 Substance 3Dファイル(SBS) *直接*&#x200B;のデータを変更した場合にのみ、この警告がトリガーされます。
 
 ![&#39;無効なUVタイル&#39;ソリューション](../../assets/warnings-dep-udim-invalid.gif "&#39;無効なUVタイル&#39;ソリューション")

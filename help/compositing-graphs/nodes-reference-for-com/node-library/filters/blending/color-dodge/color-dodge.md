@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-dodge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-dodge.html"
 breadcrumb-title: ''
-description: 覆い焼きカラーのブレンドノードを使用して、ハイライトと光彩のエフェクトを作成するためのコントラストを下げ、テクスチャを明るくします。
+description: 覆い焼きカラー描画ノードを使用して、ハイライトと光彩の効果を生み出すコントラストを下げることでテクスチャを明るくします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Dodge
 helpx_experience_level: ""
@@ -56,4 +56,4 @@ ht-degree: 9%
 |  |  |
 |:---|:---|
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 前景と背景の間のブレンド不透明度。 |
-| <b>アルファブレンディング</b> <i>False/True</i> | 前景および背景のアルファチャンネルのブレンドを切り替えます。 Falseに設定した場合、フォアグラウンドのアルファチャンネルは無視されます。 |
+| <b>アルファブレンディング</b> <i>False/True</i> | 描画領域と背景アルファチャンネルのブレンドを切り替えます。 Falseに設定した場合、前景のアルファチャンネルは無視されます。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
 description: '[デカルトを極座標に]ノードを使用して、テクスチャをデカルトから極座標系に変換し、放射状の効果を作成します。'
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 直交座標から極座標
+title: デカルトを極座標に
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 直交座標から極座標
+# デカルトを極座標に
 
 <table>
 <tr style="border: 0;">

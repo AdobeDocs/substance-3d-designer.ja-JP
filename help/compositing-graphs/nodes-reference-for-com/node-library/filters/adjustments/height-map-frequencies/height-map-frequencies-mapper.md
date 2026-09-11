@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
 breadcrumb-title: ''
 description: 高さマップ周波数マッパーノードを使用すると、テクスチャの詳細レベルを分けるために高さマップ周波数をマッピングできます。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Heightマップ周波数マッパー
+title: 高さマップ周波数マッパー
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
@@ -18,7 +18,7 @@ ht-degree: 8%
 ---
 
 
-# Heightマップ周波数マッパー
+# 高さマップ周波数マッパー
 
 <table>
 <tr style="border: 0;">

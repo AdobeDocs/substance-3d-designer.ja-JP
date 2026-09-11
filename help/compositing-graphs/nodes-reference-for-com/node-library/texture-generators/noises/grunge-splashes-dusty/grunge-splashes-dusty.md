@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: 経年劣化スプラッシュのほこりのノードを使用して、風化したテクスチャのディテールを加えるほこりのスプラッシュパターンを作成します。
 helpx_creative_field: ""
@@ -52,8 +52,8 @@ ht-degree: 2%
 | <b>詳細</b> |  |
 | <b>スプラッシュの数量</b> <i>フロート</i> | サーフェス上のスプラッシュの量を調整します。 |
 | <b>スプラッシュゆがみ</b> <i>フロート</i> | スプラッシュに適用されるワープ効果の強度を調整します。 |
-| <b>スプラッシュ/Dirt比</b> <i>浮動小数</i> | 表面のDirtとスプラッシュの&#x200B;*比*&#x200B;を調整します。 |
-| <b>Dirtスプレッド</b> <i>浮動小数</i> | Dirtの広がりを調整します。 |
+| <b>スプラッシュ/Dirt比</b> <i>フロート</i> | 表面のDirtとスプラッシュの&#x200B;*比*&#x200B;を調整します。 |
+| <b>Dirtスプレッド</b> <i>フロート</i> | Dirtの広がりを調整します。 |
 
 ## 例
 

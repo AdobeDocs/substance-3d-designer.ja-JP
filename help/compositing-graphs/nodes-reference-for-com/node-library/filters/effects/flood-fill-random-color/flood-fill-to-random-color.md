@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
 breadcrumb-title: ''
 description: 「Flood Fillからランダムなカラーへ」ノードを使用すると、接続された領域をランダムなカラーで塗りつぶして、様々なテクスチャパターンを作成できます。
 helpx_creative_field: ""

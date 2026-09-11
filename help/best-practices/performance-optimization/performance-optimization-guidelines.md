@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのパフォーマンス最適化ガイドラインについて説明します。これにより、グラフパフォーマンスが向上し、処理時間が短縮されます。
+description: グラフのパフォーマンスを向上させ、処理時間を短縮するための、Substance 3D Designerのパフォーマンス最適化ガイドラインについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Performance optimization guidelines
 helpx_experience_level: ""
@@ -22,21 +22,21 @@ ht-degree: 0%
 
 ## Substance グラフ
 
-[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)は複雑であるほど、レンダリングに必要な処理能力が高くなります。 <b>複雑さとレンダリング速度のバランスを取ってください</b>。\
+[グラフ](../../compositing-graphs/substance-compositing-graphs.md)が複雑になるほど、レンダリングに必要な処理能力が高まります。 <b>複雑さとレンダリング速度のバランスを取ってください</b>。\
 ゲームなどのリアルタイムグラフィックスアプリケーションで使用する場合は、*特に*&#x200B;重要です。
 
-一般に、カスタムパラメーターを公開しているノード（実行時に変更可能）は、<b>できるだけグラフの末尾に配置する必要があります</b>。
+一般に、実行時に変更可能なカスタムパラメーターを表示するノードは、<b>グラフの終わりにできるだけ近い場所</b>に配置する必要があります。
 
-これは、各ノードの出力が可能な限りキャッシュされるためです。 したがって、ツィーク可能ノードのグラフが上がるほど、これらの公開パラメータの1つが変更されるたびに、より多くの出力を処理する必要があります。 公開されたノードがグラフの終わりに近い場合、そのノードと出力ノードの間にあるいくつかのノードのみを再計算する必要があります。
+これは、各ノードの出力が可能な限りキャッシュされるためです。 したがって、ツィーク可能ノードのグラフが上がるほど、これらの表示されるパラメーターのいずれかが変更されるたびに多くの出力を処理する必要があります。 表示したノードがノードの終わりに近い場合、グラフと出力ノードの間にあるいくつかのノードのみを再計算する必要があります。
 
-例えば、グラフの先頭で均一なカラーを微調整すると、次のノードがすべて再計算されます。 出力の直前に配置したHSLノードを微調整すると、このノードのみが再計算され、グラフのパフォーマンスが大幅に向上します。
+たとえば、グラフの先頭で均一カラーをツィークすると、次のすべてのノードが再計算されます。 出力の直前に配置したHSLノードを微調整すると、このノードのみが再計算され、グラフのパフォーマンスが大幅に向上します。
 
 次のガイドラインに注意してください。
 
 ### パフォーマンスに関する一般設定
 
-+++GPUエンジンはCPUエンジンよりもはるかに高速
-サポートされていない（統合された）グラフィックカードがない場合は、GPU Substanceエンジン（ホットキーF9で変更）を使用します。
++++GPU エンジンは、CPU エンジンよりもはるかに高速です
+サポートされていない（統合された）グラフィックカードがない場合は、GPU Substance エンジンを使用します（ホットキーF9で変更）。
 
 +++
 
@@ -50,12 +50,12 @@ ht-degree: 0%
 
 +++
 
-### グラフの最適化
+### グラフ最適化
 
-+++一般的に、ノードの解決と継承に注意してください。
-値を大きくするとパフォーマンスに重大な影響が生じるため、マテリアルがどのように使用されるか、および使用するデータサイズを減らすことができるかどうかを考慮してください。
++++ノードの解決策と継承全般に注意してください。
+値を大きくするとパフォーマンスに重大な影響が生じるため、マテリアルの使用方法と、使用するデータ・サイズを減らすことができるかどうかを検討してください。
 
-[ノードの解像度（出力サイズ）](../../compositing-graphs/output-size/output-size.md)と[Substanceグラフの継承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)について詳しく知ることをお勧めします。
+[ノードの解像度（出力サイズ）](../../compositing-graphs/output-size/output-size.md)と[グラフの継承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)について詳しく知ることをお勧めします。
 
 +++
 
@@ -134,14 +134,14 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 ### 埋め込みビットマップのサイズ最適化
 
 [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)の[出力サイズ](../../compositing-graphs/output-size/output-size.md)は、既定では[&#39;絶対&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されています。 つまり、ビットマップがノードチェーンを介して出力に接続されている場合、最終的な出力は必ず埋め込まれたビットマップのサイズになります。\
-ビットマップの後に挿入するノードの出力サイズは[&#39;入力に対する相対&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されます。 これは、ノードがビットマップのサイズを継承し、このサイズをノードチェーンから出力に伝えることも意味します。 これを修正するには、ビットマップの後のノードの出力サイズを[&#39;親に対する相対&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定する必要があります。
+ビットマップの後に挿入するノードの出力サイズは[&#39;入力に対する相対&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されます。 これは、ノードがビットマップのサイズを継承し、このサイズをノードチェーンから出力に伝えることも意味します。 これを修正するには、ビットマップの後のノードの出力サイズを[&#39;親に相対的&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定する必要があります。
 
-グラフがダイナミック解像度に設定されている場合は、埋め込まれたビットマップの出力サイズを「親を基準」に変更できます。\
-この場合、ビットマップのサイズは親グラフに基づいて変化し、グラフがビットマップ内で必要な解像度よりも高い解像度を処理するような状況には陥りません。
+グラフがダイナミック解像度に設定されている場合は、埋め込まれたビットマップの出力サイズを親に相対的に変更できます。\
+こうすると、ビットマップのサイズが親グラフに基づいて変わり、グラフがビットマップで必要な解像度よりも高い解像度を処理している状況にはならなくなります。
 
 >[!WARNING]
 >
-> [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードを[親を基準にする]に設定して、Substance 3Dアセット(SBSAR)にグラフを[公開](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)すると、元のサイズではなく&#x200B;**256x256**&#x200B;の解像度でビットマップが保存されます。 代わりに、ビットマップノードの[継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を&#39;絶対&#39;として[出力サイズ](../../compositing-graphs/output-size/output-size.md)に保持し、ビットマップノードの直後に&#39;親に対して相対&#39;に設定された[変換2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)ノードを使用することをお勧めします。
+> [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードを「親に相対的」に設定し、そのノードをSubstance 3D グラフ (SBSAR)に[公開](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)すると、元のサイズではなく&#x200B;**256x256**&#x200B;の解像度でビットマップが保存されます。 代わりに、ビットマップノードの[継承メソッド](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を&#39;絶対&#39;として[出力サイズ](../../compositing-graphs/output-size/output-size.md)に維持し、ビットマップノードの直後に、[変形 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)ノードを&#39;親に相対的&#39;に設定することをお勧めします。
 
 ![埋め込みビットマップの最適化1](performance-optimization-guidelines.resources/input-1.jpg "埋め込みビットマップの最適化1")
 

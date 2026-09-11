@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
-description: 効果的なマテリアル作成のためのSubstance合成グラフにおける値タイプとデータ処理について説明します。
+description: 効率的なマテリアル作成のためのSubstance合成グラフにおける値の種類とデータ処理について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
 helpx_experience_level: ""
@@ -20,21 +20,21 @@ ht-degree: 2%
 
 # Substance グラフの値
 
-バージョン2019.1.0の[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html) Engine v7の導入以降、関数だけでなく、Substanceグラフでも[値を処理できるようになりました。](../../function-graphs/function-graphs.md) 値データは関数（整数、浮動小数点、ブール値など）で使用されるデータと同じであり、画像全体のピクセル値を表すカラー画像やグレースケール画像のデータとは大きく異なります。 具体的には、値データを記述する場合、*Integer 1, Integer 2, Integer 3 and Integer 4, Float 1, Float 2, Float 3 and Float 4 and Boolean*&#x200B;を意味します。 それぞれが個別のカラーコードを持ち、ほとんど互いに入れ替わりません。
+バージョン2019.1.0で[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html) エンジン v7が導入されて以来、関数だけでなく、Substanceグラフで値を処理できるようになりました。[](../../function-graphs/function-graphs.md) 値データは、関数（整数、浮動小数、ブール値など）で使用されるデータと同じであり、イメージ全体のピクセル値を表すカラーデータやグレースケールイメージデータとは明確に異なります。 具体的には、値データに言及する場合、*整数 1、整数 2、整数 3と整数 4、浮動小数 1、浮動小数 2、浮動小数 3、浮動小数 4とブーリアン*&#x200B;を意味します。 それぞれが個別のカラーコードを持ち、ほとんど互いに入れ替わりません。
 
 これには、次のような使用例があります。
 
-* 単一値のマテリアルプロパティや追加のメタデータなど、画像以外のデータを返して処理します。 たとえば、マテリアルのIOR値などです。
-* ピクセルごとに計算する必要のないグラフ計算を最適化しています（[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)の代わりに使用できます）。 例えば、ランダムなベタ塗り。
+* 単一値マテリアルプロパティまたは追加のメタデータなどの非画像データを返して処理します。 例えば、マテリアルのIOR値などです。
+* ピクセルごとに計算する必要のないグラフの計算を最適化しています（[ピクセルプロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)の代わりに使用できます）。 例えば、ランダムなベタ塗り。
 * 画像データを値に処理することによって、1つのノードのプロパティを別のノードにリンクする。 例えば、レベルを調整する画像の最小値と最大値などです。
 
 ## 新しい値ノードと入力
 
-2つの新しいAtomicノードは値で動作します。
+次の2つの新しいアトミックノードが値を操作します。
 
 |  |  |
 | --- | --- |
-| <div><img alt="バリュープロセッサノードアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../assets/valueprocessor.png" title="バリュープロセッサノードアイコン" width="100px"/></div>  <b>[Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [値プロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)は、任意の数のグレースケール入力またはカラー入力を受け取り、これらの入力に基づいて計算から1つの値を返すことができます。 |
+| <div><img alt="バリュープロセッサーノードアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../assets/valueprocessor.png" title="バリュープロセッサーノードアイコン" width="100px"/></div>  <b>[バリュープロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [バリュープロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)には、任意の数のグレースケール入力またはカラー入力を指定でき、これらの入力に基づく計算から1つの値を返すことができます。 |
 | <div><img alt="値入力ノードアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../assets/inputnumeric.png" title="値入力ノードアイコン" width="100px"/></div>  **[値の入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [値入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)を使用すると、値として明示的に定義されたサブグラフに入力スロットを作成できます。 |
 
 さらに、他のノードでは特定の方法で処理されます。

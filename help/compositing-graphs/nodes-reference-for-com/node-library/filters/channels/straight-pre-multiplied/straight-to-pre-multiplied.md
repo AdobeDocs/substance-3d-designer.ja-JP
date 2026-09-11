@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
 breadcrumb-title: ''
 description: ストレートからプリマルチプライドノードを使用すると、合成でアルファチャンネルをストレートからプリマルチプライドに変換できます。
 helpx_creative_field: ""

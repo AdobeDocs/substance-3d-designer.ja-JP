@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
-description: Substance 3D Designerで3D シーンリソースを読み込んで使用し、マテリアルのプレビューとテストを行う方法について説明します。
+description: Substance 3D Designerで3Dシーンリソースを読み込んで使用し、マテリアルのプレビューとテストを行う方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > 3D scene resource
 helpx_experience_level: ""
@@ -20,31 +20,31 @@ ht-degree: 1%
 
 # 3D シーンリソース
 
-このページでは、Substance 3D Designerの&#x200B;**3D シーン**&#x200B;リソースの種類について、サポートされているファイル形式と使用方法を含めて説明します。
+このページでは、Substance 3D Designerの&#x200B;**3Dシーン**&#x200B;リソースの種類について説明します。サポートされているファイル形式とその使用方法も含まれます。
 
 ## 概要
 
-3D シーンリソースは、様々なワークフローで使用できます。
+3Dシーンリソースは、様々なワークフローで使用できます。
 
-* [メッシュマップ](../../bakers/bakers.md)
-* [3D ビュー](../../interface/3d-view/3d-view.md)の[Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)から&#x200B;*テクスチャ*&#x200B;をプレビュー
+* [メッシュマップをベイク処理する](../../bakers/bakers.md)
+* [3Dビュー](../../interface/3d-view/3d-view.md)で[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)から&#x200B;*テクスチャ*&#x200B;をプレビューします
 
-サポートされる3D シーンファイル形式は次のとおりです。
+次の3Dシーンファイル形式がサポートされています。
 
 * [USD](https://graphics.pixar.com/usd/release/index.html) (\*.usd)
 * [USDA](https://graphics.pixar.com/usd/release/index.html) (\*.usda)
 * [USDZ](https://graphics.pixar.com/usd/release/index.html) (\*.usdz)
 * [Autodesk FBX](https://www.autodesk.com/products/fbx/overview) (\*.fbx)
-* [Wavefront OBJ](https://www.fileformat.info/format/wavefrontobj/egff.htm) (\*.object)
-* [Autodesk 3D Studio メッシュ](https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/3DSMax-Data-Exchange/files/GUID-A16ECF7F-70E5-4F9F-8EAD-35F5CFB485A2-htm.html) (\*.3ds)
+* [Wavefront OBJ](https://www.fileformat.info/format/wavefrontobj/egff.htm) (\*.obj)
+* [Autodesk 3D Studioメッシュ](https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/3DSMax-Data-Exchange/files/GUID-A16ECF7F-70E5-4F9F-8EAD-35F5CFB485A2-htm.html) (\*.3ds)
 * [コラダ](https://www.khronos.org/collada/) (\*.dae)
 * [Autodesk AutoCAD図面](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-D4242737-58BB-47A5-9B0E-1E3DE7E7D647-htm.html) (\*.dxf)
 
 ## メッシュストレージ
 
-3D シーンは&#x200B;*のみ*&#x200B;リンクできます。つまり、ディスク上の場所に留まり、アプリケーションで参照されるだけです。
+3Dシーンは&#x200B;*のみ*&#x200B;リンクできます。つまり、ディスク上の位置に留まり、アプリケーションで参照されるだけです。
 
-3D シーンリソースを含むパッケージが[Substance 3D](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)アセット(SBSAR)として公開されると、メッシュは&#x200B;*埋め込まれず*&#x200B;ですが、破棄されます。
+3D シーンリソースを含むパッケージが[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)アセット(SBSAR)として公開されると、メッシュは&#x200B;*埋め込まれず*&#x200B;ですが、破棄されます。
 
 ## メッシュマップ
 

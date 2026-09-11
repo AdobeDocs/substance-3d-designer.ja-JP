@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
 breadcrumb-title: ''
 description: '[経年劣化マップ008]ノードを使用して、マテリアルに風化したテクスチャの詳細を追加するためのプロシージャ経年劣化パターンを作成します。'
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
 breadcrumb-title: ''
 description: 焼き込みノードを使用して、焼き込みリニアモードでテクスチャをブレンドし、減光効果とコントラスト効果を生み出します。
 helpx_creative_field: ""

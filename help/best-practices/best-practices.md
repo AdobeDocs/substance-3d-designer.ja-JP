@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのベストプラクティスガイドにアクセスしてワークフローを最適化し、効率的なマテリアルを作成します。
 helpx_creative_field: ""
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 ## パフォーマンス最適化ガイドライン
 
-Substanceグラフが複雑になるほど、レンダリングの処理能力が高くなります。 複雑さとレンダリング速度のバランスを取るようにしてください。
+グラフが複雑になるほど、レンダリングの処理能力が高くなります。 複雑さとレンダリング速度のバランスを取るようにしてください。

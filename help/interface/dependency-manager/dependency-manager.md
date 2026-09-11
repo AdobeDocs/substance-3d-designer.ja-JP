@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの依存マネージャーを使用して、プロジェクトのリソースの依存関係を表示および管理します。
 helpx_creative_field: ""

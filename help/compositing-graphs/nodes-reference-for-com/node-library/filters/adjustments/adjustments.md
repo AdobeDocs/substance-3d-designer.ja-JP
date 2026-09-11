@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの補正フィルターノードにアクセスして、カラー、明るさ、コントラスト、およびその他のテクスチャプロパティを変更します。
 helpx_creative_field: ""

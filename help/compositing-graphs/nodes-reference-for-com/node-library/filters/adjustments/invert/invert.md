@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
 breadcrumb-title: ''
 description: 反転ノードを使用して、テクスチャ内のカラー値を反転し、負の効果を生み出したり、反転したマスクを作成したりします。
 helpx_creative_field: ""

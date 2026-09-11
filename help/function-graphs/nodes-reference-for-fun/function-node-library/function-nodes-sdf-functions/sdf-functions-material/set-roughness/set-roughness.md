@@ -1,6 +1,6 @@
 ---
-title: 粗さを設定
-description: SDFシーンのマテリアルの粗さを設定します。
+title: ラフネスを設定
+description: SDF シーンのマテリアルのラフネスを設定します。
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '84'
@@ -9,24 +9,24 @@ ht-degree: 2%
 ---
 
 
-# 粗さを設定
+# ラフネスを設定
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![粗さの設定アイコン](set-roughness.png "粗さの設定")
+![ラフネスアイコンの設定](set-roughness.png "ラフネスの設定")
 
-<b>In:</b> 3D関数>マテリアル
+<b>In:</b> 3D関数> マテリアル
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-SDFシーンのマテリアルの粗さを設定します。
+SDF シーンのマテリアルのラフネスを設定します。
 
-この値は、[シェイプスプラッタv2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)の&#x200B;*SDF粗さ*&#x200B;出力で、スプラッタされたすべてのSDFシェイプについて取得できます。
+この値は、[Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)の&#x200B;*SDF ラフネス*&#x200B;出力で、スプラッタされたすべてのSDFシェイプについて取得できます。
 
 </td>
 </tr>
@@ -40,8 +40,8 @@ SDFシーンのマテリアルの粗さを設定します。
 
 |  |  |
 | --- | --- |
-| <b>SDFシーン</b> *フロート* | 入力SDFシーン。 |
-| <b>粗さ</b> *フロート* | 設定する粗さの値。 |
+| <b>SDF シーン</b> *浮動小数* | 入力SDF シーン。 |
+| <b>ラフネス</b> *浮動小数* | 設定するラフネス値。 |
 
 
 

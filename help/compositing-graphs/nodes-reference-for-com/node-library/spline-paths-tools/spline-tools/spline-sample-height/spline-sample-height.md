@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: '[スプラインサンプル]Heightノードを使用して、手続き型ディスプレイスメント効果のスプラインに沿ってHeight値をサンプリングします。'
 helpx_creative_field: ""

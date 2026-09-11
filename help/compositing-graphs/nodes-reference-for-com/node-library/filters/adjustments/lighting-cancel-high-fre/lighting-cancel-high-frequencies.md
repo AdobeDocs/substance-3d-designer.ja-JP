@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
 breadcrumb-title: ''
-description: マテリアル分析用にテクスチャから高周波数の照明のディテールを取り除くには、「照明キャンセル高周波数」ノードを使用します。
+description: マテリアル分析のためにテクスチャから高周波数のライティングのディテールを除去するには、ライティングのキャンセル高周波数ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 [ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)と似ていますが、フルカラー画像に適しています（それほど彩度を下げません）。このノードは、高周波数の小さな照明のディテールを取り消そうとします。
 
-[低周波数の照明をキャンセル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)および、より高度な、おすすめの[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)も参照してください。
+[低周波数の照明をキャンセル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)および、より高度な、推奨される[輝度ハイパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)も参照してください。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>適用度</b> <i>0.0 - 1.0</i> | 照明キャンセル効果の強さ。 |
+| <b>適用度</b> <i>0.0 - 1.0</i> | ライトのキャンセル効果の強度。 |
 | <b>半径</b> <i>0.0 - 10.0</i> | キャンセルする光の詳細の半径またはサイズ。 |
 
 ## 例

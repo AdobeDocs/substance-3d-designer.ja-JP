@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
-description: 事前に作成されたSubstance機能グラフにインスタンスノードとしてアクセスして、ワークフローを高速化し、機能を強化します。
+description: 事前定義済みのSubstance機能グラフにインスタンス化としてアクセスして、ワークフローを高速化し、機能を強化します。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # 関数ノードライブラリ
 
-Designerでは、[atomic nodes](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md)に加えて、事前に作成されたSubstance関数グラフもインスタンスノードとして提供しています。 ワークフローを高速化するツールが数多く用意されており、ベクトルやカラーの操作、値のリマップ、より高度な代数の実行などのより多くの機能を利用できます。
+Designerでは、[アトミックノード](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md)に加えて、インスタンス化として事前定義済みのSubstance機能グラフも提供しています。 ワークフローを高速化するツールが数多く用意されており、ベクトルやカラーの操作、値のリマップ、より高度な代数の実行などのより多くの機能を利用できます。
 
 これらのツールは、いくつかのカテゴリに分類されています。
 
@@ -72,7 +72,7 @@ Designerでは、[atomic nodes](../../../function-graphs/nodes-reference-for-fun
 
 [ピラミッド](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid/3d-sdf-pyramid.md)
 
-[角錐](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid-square/3d-sdf-pyramid-square.md)
+[ピラミッド正方形](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid-square/3d-sdf-pyramid-square.md)
 
 [ロック](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-rock/3d-sdf-rock.md)
 
@@ -147,7 +147,7 @@ Designerでは、[atomic nodes](../../../function-graphs/nodes-reference-for-fun
 
 [メタネスの設定](function-nodes-sdf-functions/sdf-functions-material/set-metalness/set-metalness.md)
 
-[粗さを設定](function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
+[ラフネスを設定](function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ float4と等しくない
 
 [a, b] ～ [0, 1]
 
-float1に対するブール値
+float1へのブーリアン
 
 度からラジアン
 
@@ -335,13 +335,13 @@ HSIからRGB
 
 HSLオフセット
 
-HSLをRGBに
+RGBにHSL
 
 HSVからRGB
 
 リニアsRGBからACEScg
 
-リニアからsRGB（輝度）
+リニアからsRGB(輝度)
 
 リニアからsRGB
 
@@ -360,15 +360,15 @@ RGB色相2極
 
 RGBの色相（六角形）
 
-RGB明度平均
+明度平均
 
-RGB明度バイヘクコーン
+明度バイヘクコーン
 
-RGB明度6角形
+明度六円錐
 
 RGB明度ルミナンスRec.601
 
-RGB明度ルミナンスRec.709
+RGB 明度ルミナンスRec.709
 
 RGB飽和度HSI
 
@@ -383,17 +383,17 @@ HCLへのRGB
 
 HSIへのRGB
 
-HSLへのRGB
+HSLのRGB
 
 HSVRGB
 
-sRGBをリニアに（輝度）
+sRGBからリニア(輝度)
 
 sRGBからリニア
 
 体温からRGBへ
 
-ACES tonemapper
+ACE tonemapper
 
 Agxトネマッパー（約）
 
@@ -411,7 +411,7 @@ Agxトネマッパー（約）
 
 ## 変形
 
-デカルト対極
+デカルトを極座標に
 
 方向オフセット
 
@@ -465,15 +465,15 @@ Vec2 （ラジアン）を回転
 
 正規分布
 
-ランダムな一様&lbrack;-1, 1&lbrack;
+ランダムな一様[-1, 1[
 
-ランダムに一様&lbrack;a, b&lbrack;
+ランダムに一様[a, b[
 
-Random uniform float2 &lbrack;a, b&lbrack;
+Random uniform float2 [a, b[
 
-Random uniform float3 &lbrack;a, b&lbrack;
+Random uniform float3 [a, b[
 
-Random uniform float4 &lbrack;a, b&lbrack;
+Random uniform float4 [a, b[
 
 </td>
 </tr>
@@ -577,29 +577,29 @@ float4 8入力の切り替え
 </td>
 <td style="border: 0;" valign="top">
 
-整数2入力を切り替え
+整数 2入力の切り替え
 
-整数4入力を切り替え
+整数 4入力の切り替え
 
 スイッチ整数8入力
 
-スイッチinteger2 2入力
+スイッチ整数2 2入力
 
-整数2 4入力を切り替え
+スイッチ整数2 4入力
 
-スイッチinteger2 8入力
+スイッチ整数2 8入力
 
-integer3 2入力を切り替え
+スイッチ整数3 2入力
 
-integer3 4入力を切り替え
+スイッチ整数3 4入力
 
-integer3 8入力を切り替え
+スイッチ整数3 8入力
 
-整数4 2入力を切り替え
+スイッチ整数4 2入力
 
-整数4 4入力を切り替え
+スイッチ整数4 4入力
 
-スイッチinteger4 8入力
+スイッチ整数4 8入力
 
 </td>
 </tr>

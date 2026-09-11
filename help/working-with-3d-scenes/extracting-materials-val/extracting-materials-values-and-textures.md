@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
-description: 3Dシーンからマテリアルプロパティを抽出して、マテリアル作成ワークフローのSubstanceグラフで使用します。
+description: 3D シーンからマテリアルプロパティを抽出し、マテリアル作成ワークフローのSubstanceグラフで使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
 helpx_experience_level: ""
@@ -44,35 +44,35 @@ ht-degree: 0%
 
 ## テクスチャからの新しいグラフ
 
-「テクスチャ入力からグラフを作成」アクションを使用すると、マテリアルで使用されているすべてのテクスチャを含む新しいSubstanceグラフが作成されます
+「テクスチャ入力からグラフを作成」アクションは、マテリアルが使用するすべてのテクスチャを使用して新しいSubstanceグラフを作成します
 
 このアクションを使用すると、いくつかの処理が行われます。
 
-* 選択した場所にマテリアルにちなんだ名前のSubstanceグラフが作成されます。
-* [ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)は、マテリアルで使用されるすべてのテクスチャに対して作成され、&#39;Resources&#39;フォルダーの下の、マテリアルにちなんだ名前のフォルダーに配置されます。
-* グラフでは、これらのビットマップリソースごとに[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードが作成され、テクスチャを使用して、マテリアルプロパティの後に構成された[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードに自動的に接続されます。
-* 同じテクスチャの各チャンネルを使用して異なるマテリアルプロパティを制御する場合（このテクニックは[チャンネルパッキング](../../glossary/glossary.md)と呼ばれます）、[グレースケール変換](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)のノードが自動的に追加され、適切なチャンネルが選択されます。
-* グラフは自動的にマテリアルに接続され、グラフを編集するまで外観は変わりません。
+* 選択した場所に、マテリアルにちなんだ名前の付いたSubstanceグラフーが作成されます。
+* [ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)は、マテリアルが使用するすべてのテクスチャに対して作成され、&#39;Resources&#39;フォルダーの下の、マテリアルの名前の付いたフォルダーに配置されます。
+* グラフでは、これらのビットマップリソースごとに[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)個のノードが作成され、テクスチャを使用して、マテリアルプロパティの後に構成された[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)個のノードに自動的に接続されます。
+* 同じテクスチャの各チャンネルを使用して異なるマテリアルプロパティを制御する場合（[チャンネルパッキング](../../glossary/glossary.md)と呼ばれます）、[グレースケール変換](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)のノードが自動的に追加され、適切なチャンネルが選択されます。
+* グラフはマテリアルに自動的に接続されます。グラフを編集するまで、その外観は変わりません。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![テクスチャ入力からグラフを作成 – 「3Dビュー」ビューポートでの操作](../../assets/createGraphFromTexturesActionViewport.png "テクスチャ入力からグラフを作成 – 「3Dビュー」ビューポートでの操作"){zoomable="yes"}
+![テクスチャ入力からグラフを作成 – &#39;3D ビュー&#39; ビューポートの操作](../../assets/createGraphFromTexturesActionViewport.png "テクスチャ入力からグラフを作成 – &#39;3D ビュー&#39; ビューポートの操作"){zoomable="yes"}
 
-*3Dビュービューポートのアクション*
-
-</td>
-<td style="border: 0;" valign="top">
-
-![テクスチャ入力からグラフを作成 – 「マテリアル」メニューのアクション](../../assets/createGraphFromTexturesActionMaterials.png "テクスチャ入力からグラフを作成 – 「マテリアル」メニューのアクション"){zoomable="yes"}
-
-*マテリアルメニューのアクション*
+*3D ビュー ビューポートの操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックでの操作](../../assets/createGraphFromTexturesActionProps.png "テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックでの操作"){zoomable="yes"}
+![テクスチャ入力からグラフを作成 – [マテリアル]メニューの操作](../../assets/createGraphFromTexturesActionMaterials.png "テクスチャ入力からグラフを作成 – [マテリアル]メニューの操作"){zoomable="yes"}
+
+*マテリアルメニューの操作*
+
+</td>
+<td style="border: 0;" valign="top">
+
+![テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックの操作](../../assets/createGraphFromTexturesActionProps.png "テクスチャ入力からグラフを作成 – &#39;プロパティ&#39;ドックの操作"){zoomable="yes"}
 
 *プロパティドックのアクション*
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 </tr>
 </table>
 
-![マテリアルテクスチャからグラフを作成した結果](../../assets/createGraphFromTexturesResult.png "マテリアルテクスチャからグラフを作成した結果"){zoomable="yes"}
+![テクスチャからグラフが作成された結果](../../assets/createGraphFromTexturesResult.png "マテリアルテクスチャからグラフが作成された結果"){zoomable="yes"}
 
-*マテリアルテクスチャからグラフを作成した結果*
+*テクスチャからグラフを作成した結果*
 
 +++デモンストレーション
 ![テクスチャ入力からグラフを作成 – デモ](../../assets/createGraphFromTextures.gif "テクスチャ入力からグラフを作成 – デモ"){zoomable="yes"}
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> オブジェクト上にカーソルを置き<b>Shift + LMB</b>を押して選択することで、3Dビュービューポートでアクションにすばやく直接アクセスできます。 次に、RMBをクリックして、アクションをホストしているコンテキストメニューにアクセスします。
+> オブジェクトにカーソルを置き<b>Shift + LMB</b>を押して選択すると、3D ビュー ビューポートですばやく直接アクションにアクセスできます。 次に、RMBをクリックして、アクションをホストしているコンテキストメニューにアクセスします。
 
 >[!NOTE]
 >

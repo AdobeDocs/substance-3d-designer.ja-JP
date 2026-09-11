@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: FXMapでSetSequenceノードを使用して、連続したパターンと手続き型のバリエーションを作成する方法について説明します。
 helpx_creative_field: ""

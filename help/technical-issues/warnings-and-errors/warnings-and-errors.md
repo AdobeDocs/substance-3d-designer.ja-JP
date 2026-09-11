@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Substance 3D Designerでよくある警告やエラーの解決策を確認して、問題を迅速にトラブルシューティングできます。
 helpx_creative_field: ""
@@ -89,7 +89,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 * アイテムが他のアイテムの下にネストされている場合（例：セクションヘッダー）、折りたたまれている場合はそのアイテムに警告が表示されます。
 * 警告リストは&#x200B;*累積的*&#x200B;で、項目の警告&#x200B;*と*&#x200B;の合計、その子の表面化された警告です。
-* [入力パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)に適用された[関数グラフ](../../function-graphs/function-graphs.md)に1つ以上の警告がある場合、パラメーター項目には&#x200B;*単一* `The [x] parameter's function has some warnings`の警告が含まれます。
+* [入力パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)に適用された[関数グラフ](../../function-graphs/function-graphs.md)に1つ以上の警告がある場合、そのパラメーター項目には&#x200B;*単一* `The [x] parameter's function has some warnings`の警告があります。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -110,7 +110,7 @@ Designerでプロジェクトの作業中に、プロジェクトの問題を通
 
 >[!NOTE]
 >
-> コンソール内のすべてのテキストは&#x200B;*選択可能*&#x200B;であるため、このパネルを使用して&#x200B;*警告およびエラーメッセージを簡単にコピー*&#x200B;し、このドキュメントの&#x200B;**ローカル検索**&#x200B;ツールまたは任意のインターネット検索エンジンに貼り付けることができます。 これにより、問題のトラブルシューティングに関するガイダンスを迅速に入手できます。
+> コンソール内のすべてのテキストは&#x200B;*選択可能*&#x200B;であるため、このパネルを使用して&#x200B;*警告およびエラーメッセージを簡単にコピー*&#x200B;し、このドキュメントの&#x200B;**ローカル検索**&#x200B;ツールまたはインターネット検索エンジンに貼り付けることができます。 これにより、問題のトラブルシューティングに関するガイダンスを迅速に入手できます。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -163,5 +163,5 @@ Designerで発生する可能性のある警告とエラーを、発生元に基
 * リンクされたファイルが見つかりません
 * カラースペースが見つかりませんでした
 * 参照リソースが見つかりません
-* UVタイルが複数回割り当てられる
+* UVタイルは複数回割り当てられます
 * 無効なUVタイル

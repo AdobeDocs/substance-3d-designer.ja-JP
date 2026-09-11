@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
 breadcrumb-title: ''
 description: Substanceグラフでスプラインを作成、操作、およびレンダリングするためのすべてのスプラインツールノードにアクセスします。
 helpx_creative_field: ""

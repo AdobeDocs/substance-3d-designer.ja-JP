@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでSubstance合成グラフを作成し、プロシージャルテクスチャワークフローを構築する方法について説明します。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
 
 新しい[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)を作成するには、次のいずれかの方法を使用します。
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ Designerでのテクスチャのオーサリングは、最初に作成済みの
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -139,7 +139,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – サムネイルカード](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "新しいSubstanceグラフダイアログ – サムネイルカード")
+![新しいグラフダイアログ – サムネイルカード](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "新しいSubstanceグラフダイアログ – サムネイルカード")
 
 </td>
 </tr>
@@ -149,13 +149,13 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 ### マテリアルサンプル
 
-<b>マテリアルサンプル</b>のカテゴリには、[厳選されたグラフの選択](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)が含まれており、そこから学習して試すことができます。
+<b>マテリアルサンプル</b>のカテゴリには、[厳選されたグラフのセレクション](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)が含まれており、そこから学んだり、試したりできます。
 
 <b>[サンプルに移動]</b>ボタンを使用して、ホーム画面から直接サンプルにアクセスすることもできます。
 
 すべてのサンプルは[マテリアルモデル](../../interface/3d-view/material-properties/material-properties.md#openpbr)に基づいています。
 
-![マテリアルサンプル – ホームスクリーンバナー](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "マテリアルサンプル – ホームスクリーンバナー"){zoomable="yes"}
+![マテリアルサンプル – ホーム画面のバナー](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "マテリアルサンプル – ホーム画面のバナー"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -165,7 +165,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 各テンプレート項目の情報アイコンにカーソルを合わせると、テンプレートに関する追加情報を含むツールチップが表示されます。
 
-<b>種類：</b>テンプレートが生成するアセットの種類です。 これは、[グラフプロパティ](../../compositing-graphs/graph-parameters/graph-parameters.md)で編集できます。
+<b>種類：</b>テンプレートが生成するアセットの種類です。 これは、[グラフのプロパティ](../../compositing-graphs/graph-parameters/graph-parameters.md)で編集できます。
 
 <b>説明：</b>統合するワークフロー、使用目的、使用に関する推奨事項など、テンプレートに関する詳細。
 
@@ -174,7 +174,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – テンプレートのヒント](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "新しいSubstanceグラフダイアログ – テンプレートのヒント"){zoomable="yes"}
+![新しいグラフダイアログ – テンプレートのヒント](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "新しいSubstanceグラフダイアログ – テンプレートのヒント"){zoomable="yes"}
 
 </td>
 </tr>
@@ -188,19 +188,19 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 
 テンプレートの一覧は、<b>表示モード</b>ボタンを使用して、さまざまなモードで表示できます。
 
-選択したカテゴリとプロジェクトファイルによって実行されたフィルタは、すべてのビューに適用されます。
+選択したカテゴリとプロジェクトファイルによって実行されたフィルタリングは、すべてのビューに適用されます。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – 表示モード](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "新しいSubstanceグラフダイアログ – 表示モード"){zoomable="yes"}
+![新しいグラフダイアログ – ビューモード](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "新しいSubstanceグラフダイアログ – ビューモード"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++表示モード
-![新しいSubstanceグラフダイアログ – サムネイルビュー](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "新しいSubstanceグラフダイアログ – サムネイルビュー"){zoomable="yes"}
+![新しいグラフダイアログ – サムネールビュー](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "新しいSubstanceグラフダイアログ – サムネールビュー"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – カテゴリ別にフィルター処理](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "新しいSubstanceグラフダイアログ – カテゴリ別にフィルター処理"){zoomable="yes"}
+![新しいグラフダイアログ – カテゴリ別フィルタリング](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "新しいSubstanceグラフダイアログ – カテゴリ別フィルタリング"){zoomable="yes"}
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-テンプレートの<b>テンプレートデータ</b>には、テンプレートにカテゴリが設定されている場合があります [グラフ属性](../../compositing-graphs/graph-parameters/graph-parameters.md)。テンプレートのリストを絞り込むためのフィルターとして使用されます：
+テンプレートの<b>テンプレートデータ</b>には、テンプレートにカテゴリが設定されている場合があります [グラフ属性](../../compositing-graphs/graph-parameters/graph-parameters.md)。テンプレートの一覧を絞り込むためのフィルターとして使用されます：
 
 &lt;category>;&lt;subtitle>
 
@@ -290,7 +290,7 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – テンプレートカテゴリを設定しています](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "新しいSubstanceグラフダイアログ – テンプレートカテゴリを設定しています"){zoomable="yes"}
+![新しいグラフダイアログ – テンプレートカテゴリを設定しています](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "新しいSubstanceグラフダイアログ – テンプレートカテゴリを設定しています"){zoomable="yes"}
 
 </td>
 </tr>
@@ -300,16 +300,16 @@ Designerにはノードが事前設定されたグラフテンプレートが含
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### プロジェクトファイルによるフィルタリング
+### プロジェクトファイル別のフィルタリング
 
-アクティブな[プロジェクトファイル](../../interface/preferences-window/project-settings/project-settings.md)のいずれかに1つ以上のテンプレートパスが指定されている場合、これらのパスで見つかったパッケージファイル内のグラフがテンプレートの一覧に追加されます。
+アクティブな[プロジェクトファイル](../../interface/preferences-window/project-settings/project-settings.md)のいずれかが1つ以上のテンプレートパスを提供している場合、これらのパスで見つかったパッケージファイル内のグラフがテンプレートの一覧に追加されます。
 
 次に、<b>プロジェクトファイルでフィルター</b>ボタンを使用して、テンプレートのリストを特定のプロジェクトファイルで提供されているリストに絞り込みます。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新しいSubstanceグラフダイアログ – プロジェクトファイルによるフィルター処理](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "新しいSubstanceグラフダイアログ – プロジェクトファイルによるフィルター処理"){zoomable="yes"}
+![新しいグラフダイアログ – プロジェクトファイルごとのフィルタリング](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "新しいSubstanceグラフダイアログ – プロジェクトファイルごとのフィルタリング"){zoomable="yes"}
 
 </td>
 </tr>

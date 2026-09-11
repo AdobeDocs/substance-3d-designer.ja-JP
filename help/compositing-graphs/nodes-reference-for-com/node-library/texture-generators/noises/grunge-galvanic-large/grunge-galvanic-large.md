@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
 breadcrumb-title: ''
-description: 経年劣化ガルバニックラージノードを使用して、金属風化効果の大規模なガルバニックコロージョンパターンを作成します。
+description: 経年劣化ガルバニック大型ノードを使用して、金属風化効果のための大規模なガルバニック腐食パターンを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](grunge-galvanic-large.resources/grungegalvaniclarge.jpg){width="200px"}
 
-<b>In:</b>テクスチャジェネレーター>ノイズ
+<b>イン：</b> テクスチャジェネレーター> ノイズ
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
-| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
-| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
-| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>残高</b> <i>浮動小数</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>浮動小数</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブーリアン</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブーリアン</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 | <b>詳細</b> |  |
-| <b>ワープの強さ</b> <i>フロート</i> | 主要なワープ効果の強度を調整します。 |
-| <b>リッジの詳細の不透明度</b> <i>フロート</i> | 明るい尾根の不透明度を調整します。 |
+| <b>ワープの強さ</b> <i>浮動小数</i> | 主要なワープ効果の強度を調整します。 |
+| <b>リッジの詳細の不透明度</b> <i>浮動小数</i> | 明るい尾根の不透明度を調整します。 |
 | <b>シャープの適用度</b> <i>フロート</i> | グローバルなシャープ効果の適用度を調整します。 |
 
 ## 例

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: Greaseノードを使用して、メッシュジオメトリと接触領域に基づいてグリース蓄積マスクを生成します。
 helpx_creative_field: ""
@@ -59,7 +59,7 @@ ht-degree: 5%
 |:---|:---|
 | <b>レベル</b> <i>0.0 - 1.0</i> | 表示するエフェクトの総量を設定します。 |
 | <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
-| <b>Thicknessしきい値</b> <i>0.0 - 1.0</i> | エフェクトを表示する最小Thicknessを設定します。 レベルも同様に重要です。Thicknessマップに合わせて調整してください。 |
+| <b>Thicknessしきい値</b> <i>0.0 - 1.0</i> | エフェクトを表示する最小Thicknessを設定します。 レベルと同様に重要です。厚みマップに合わせて調整してください。 |
 | <b>ノイズの上書き</b> <i>False/True</i> | カスタム入力スロットで内部グリース経年劣化マップを上書きします。 |
 
 ## 例

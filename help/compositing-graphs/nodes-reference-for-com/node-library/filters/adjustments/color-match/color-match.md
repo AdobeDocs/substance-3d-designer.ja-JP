@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-match.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-match.html"
 breadcrumb-title: ''
-description: '[カラーマッチ]ノードを使用して、テクスチャ間で色を一致させ、一貫したカラーパレットを作成したり、テクスチャを調和させます。'
+description: カラーマッチノードを使用して、テクスチャ間で色を一致させ、一貫したカラーパレットを作成してテクスチャを調和させます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color Match
 helpx_experience_level: ""

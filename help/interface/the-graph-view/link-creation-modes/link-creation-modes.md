@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
-description: ノードを効率的に接続するためのSubstance 3D Designerグラフビューのリンク作成モードについて説明します。
+description: ノードを効率的に接続するためのSubstance 3D Designer グラフビューのリンク作成モードについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > The graph view > Link creation modes
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # リンク作成モード
 
-[Substanceグラフ](../../../compositing-graphs/substance-compositing-graphs.md)では、3つの<b>リンク作成モード</b>のいずれかを使用してノードを接続できます。
+[Substance グラフ](../../../compositing-graphs/substance-compositing-graphs.md)では、3つの<b>リンク作成モード</b>のいずれかを使用してノードを接続できます。
 
 <table>
 <tr style="border: 0;">
@@ -37,7 +37,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![リンク作成モード：マテリアル](../../../assets/link-creation-mode-material.gif "リンク作成モード：マテリアル"){zoomable="yes"}
+![リンクの作成モード： マテリアル](../../../assets/link-creation-mode-material.gif "リンクの作成モード： マテリアル"){zoomable="yes"}
 
 *クリックして拡大*
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![リンク作成モード：マテリアルの最適化](../../../assets/link-creation-mode-compact-material.gif "リンク作成モード：マテリアルの最適化"){zoomable="yes"}
+![リンクの作成モード：コンパクトマテリアル](../../../assets/link-creation-mode-compact-material.gif "リンクの作成モード：コンパクトマテリアル"){zoomable="yes"}
 
 *クリックして拡大*
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ![](../../../assets/link-creation-mode.png) <b>リンク作成モード</b>ボタンをクリックするか、上記のキーボードショートカットを使用して、グラフツールバーでいつでもモードを切り替えることができます。
 
-<b>マテリアル</b>および<b>マテリアルの最適化</b>モードでは、*用途が一致しない*&#x200B;入出力間の接続は禁止されています。
+<b>マテリアル</b>および<b>コンパクトマテリアル</b>モードでは、*使用が一致しない*&#x200B;入力と出力の間の接続は禁止されています。
 
 ## モード
 

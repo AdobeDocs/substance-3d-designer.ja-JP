@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
 description: グラデーション2点ノードを使用して、空と地面の色のトランジション用のHDRI環境で2点グラデーションを作成します。
 helpx_creative_field: ""
@@ -45,10 +45,10 @@ ht-degree: 5%
 
 |  |  |
 |:---|:---|
-| <b>ポイント1の位置</b> | ユーザが選択した最初のポイント位置。 2Dビューにハンドルがあります。 |
+| <b>ポイント1の位置</b> | ユーザが選択した最初のポイント位置。 2D ビューにハンドルがあります。 |
 | <b>ポイント1の色</b> <i>（カラー値）</i> | グラデーションの開始点のカラー。 |
 | <b>ポイント1コントラスト</b> <i>0.0 - 1.0</i> | 最初のポイントマスクのコントラスト。 |
-| <b>ポイント2の位置</b> | ユーザが選択した2点目の位置。 2Dビューにハンドルがあります。 |
+| <b>ポイント2の位置</b> | ユーザが選択した2点目の位置。 2D ビューにハンドルがあります。 |
 | <b>ポイント2の色</b> <i>（カラー値）</i> | グラデーションの終了点のカラー。 |
 | <b>ポイント2コントラスト</b> <i>0.0 - 1.0</i> | 2点目マスクのコントラスト。 |
 

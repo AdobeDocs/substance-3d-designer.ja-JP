@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
 description: マルチアングルからアルベドへのノードを使用して、マルチアングルでスキャンされたイメージからアルベドマップを抽出し、きれいなマテリアルカラーを得ます。
 helpx_creative_field: ""

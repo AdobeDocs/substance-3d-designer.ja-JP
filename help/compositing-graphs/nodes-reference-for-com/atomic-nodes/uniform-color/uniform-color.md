@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: '[色を統一]ノードを使用して、単色の塗り潰しとベースレイヤを作成するための均一な色のテクスチャを生成します。'
 helpx_creative_field: ""

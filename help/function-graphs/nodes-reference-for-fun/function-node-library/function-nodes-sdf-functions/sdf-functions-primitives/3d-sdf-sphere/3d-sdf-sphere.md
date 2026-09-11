@@ -1,6 +1,6 @@
 ---
 title: 球
-description: Designer > Substance合成グラフ>ノードリファレンスSubstance合成グラフ> Node library > SDF 関数 >プリミティブ>球体
+description: Designer > Substance合成グラフ >ノードリファレンスのSubstance合成グラフ > Node library > SDF 関数 >プリミティブ> Sphere
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '103'
@@ -41,5 +41,5 @@ ht-degree: 3%
 |  |  |
 | :--- | :--- |
 | <b>半径</b> *フロート* | 球の半径。<br><br><i>既定値： 0.5</i> |
-| <b>中央位置</b> *浮動小数点3* | 球の基点のワールド空間の位置。<br><br><i>既定値： (0, 0, 0)</i> |
-| <b>P</b> *浮動小数点3* | 変換されたワールド空間の位置。 この入力を使用して、<b>オフセットP</b>および<b>回転P</b>ノードを使用する追加の変換を適用します。<br><br><i>既定：変換されていないワールドスペースの位置。</i> |
+| <b>中央位置</b> *浮動小数点3* | 球の基点のワールド空間位置。<br><br><i>既定値： (0, 0, 0)</i> |
+| <b>P</b> *浮動小数点3* | ワールド空間の位置。 この入力を使用して、<b>オフセットP</b>および<b>回転P</b>ノードを使用する追加の変換を適用します。<br><br><i>既定：変換されていないワールドスペースの位置。</i> |

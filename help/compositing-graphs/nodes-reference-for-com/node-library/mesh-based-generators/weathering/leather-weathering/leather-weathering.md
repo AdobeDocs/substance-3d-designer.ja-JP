@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: レザー風化ノードを使用して、メッシュの曲率に基づいてレザーマテリアルに磨耗パターンとエージングエフェクトを加えます。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 説明
 
-これは完全なマテリアル効果で、複数のチャンネルで同時に機能します。 年齢と汚れをコントロールしながら、ランダムなレザーの摩耗効果を追加します。 [ファブリック風化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)に似ていますが、特に革に合わせて調整されています。<br>適切にベイクされたAOとワールド空間のノーマルマップを埋め込まない限り、この効果は効果がありません。すべてのデータを適切に計算して生成するには、これらを使用する必要があります。
+これはフルマテリアルのエフェクトで、複数のチャンネルで同時に機能します。 年齢と汚れをコントロールしながら、ランダムなレザーの摩耗効果を追加します。 [ファブリック風化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)に似ていますが、特に革に合わせて調整されています。<br>適切にベイクされたAOとワールド空間のノーマルマップを埋め込まない限り、この効果は効果がありません。すべてのデータを適切に計算して生成するには、これらを使用する必要があります。
 
 フルマテリアルを使用する場合は、[リンク作成モード](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)について十分に理解してください。
 
@@ -47,7 +47,7 @@ ht-degree: 9%
 
 |  |  |
 |:---|:---|
-| <b>環境オクルージョン</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
+| <b>Ambient occlusion</b> <i>グレースケール入力</i> | 内部エフェクトおよびマスクに使用されるベイク済みマップ。 |
 | <b>標準のワールド空間</b> <i>カラー入力</i> |  |
 | <b>マスク</b> <i>グレースケール入力</i> | ノードのエフェクトのマスクに使用するマスクスロット。 「マスク」パラメーターで切り替えることができます。 |
 
@@ -57,7 +57,7 @@ ht-degree: 9%
 
 |  |  |
 |:---|:---|
-| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。例えば、メタリック/ラフネスの代わりにSpecular/光沢度マップを使用する場合などです。 |
 | <b>詳細</b> |  |
 | <b>標準の形式</b> <i>DirectX、OpenGL</i> | 異なるノーマルマップ形式に切り替えます（グリーンチャンネルを反転します）。 |
 | <b>マスク</b> <i>False/True</i> | マスクマップの使用のオン/オフを切り替えます。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Substance 3D Designerライブラリでカスタムコンテンツとフィルターを管理し、整理されたアセットにアクセスする方法について説明します。
 helpx_creative_field: ""

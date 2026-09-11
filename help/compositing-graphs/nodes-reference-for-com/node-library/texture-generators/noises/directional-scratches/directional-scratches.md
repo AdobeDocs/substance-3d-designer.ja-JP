@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: '[方向Scratches]ノードを使用して、マテリアルに磨耗や損傷の効果を加える方向のスクラッチパターンを作成します。'
 helpx_creative_field: ""

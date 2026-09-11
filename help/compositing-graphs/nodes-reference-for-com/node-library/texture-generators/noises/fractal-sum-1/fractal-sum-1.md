@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
 breadcrumb-title: ''
 description: '[フラクタル和 1]ノードを使用して、複数のオクターブを合計して詳細なテクスチャを作成し、フラクタルノイズパターンを作成します。'
 helpx_creative_field: ""

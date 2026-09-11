@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonスクリプトでグラフやノード選択にアクセスし、操作する方法について説明します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # グラフと選択範囲へのアクセス
 
-<b>SDApplication</b>クラスには、*現在アクティブ*&#x200B;グラフとその中の&#x200B;*現在の選択範囲*&#x200B;にアクセスできる便利なメソッドが含まれています。
+<b>SDApplication</b>クラスには、*現在アクティブ* グラフとその中の&#x200B;*現在の選択範囲*&#x200B;にアクセスできる便利なメソッドが含まれています。
 
 ```
 import sd 
@@ -55,6 +55,6 @@ for node in selection:
 ```
 
 
-*特定の*&#x200B;グラフビューで表示されているグラフには、<b>graphViewID</b>を使用してアクセスできます。
+*固有* グラフビューに表示されているグラフには、<b>graphViewID</b>を使用してアクセスできます。
 
-この方法は、カスタムグラフビューツールバーを作成する場合に便利です。 詳細については、「[ユーザーインターフェイス要素の作成](../../scripting/creating-user-interface/creating-user-interface-elements.md)」の章の<b>グラフビューのツールバーの作成</b>の例を参照してください。
+この方法は、カスタムグラフビューツールバーを作成する場合に便利です。 詳細については、「[ユーザーインターフェイスグラフビューの作成](../../scripting/creating-user-interface/creating-user-interface-elements.md)」の章の<b>エレメントのツールバーの作成</b>の例を参照してください。

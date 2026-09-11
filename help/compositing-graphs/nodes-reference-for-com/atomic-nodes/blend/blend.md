@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: ブレンドノードを使用すると、様々なブレンドモードを使用して2つのテクスチャをブレンドし、合成効果を作成することができます。
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
+その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
 
 >[!TIP]
 >
@@ -91,19 +91,19 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>前景</b> *グレースケール/カラー* | ブレンド操作の最上位または前景レイヤー。 |
+| <b>前景</b> *グレースケール/カラー* | ブレンド処理の最上位または前景レイヤー。 |
 | <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | ブレンド操作の下レイヤーまたは背景レイヤー。 |
 | <b>不透明度</b> *グレースケール* | オプションのAlphaマスク入力。 |
 
 >[!IMPORTANT]
 >
-> ブレンドノードには、接続に応じてグレースケールとカラーを切り替える動的な入力があります。<b> ブレンドノードは、同じ種類</b>の2つの入力のみをブレンドできます。
+> ブレンドノードには、接続に応じてグレースケールとカラーを切り替える動的入力があります。<b> ブレンドノードは、同じ型</b>の2つの入力のみをブレンドできます。
 > 
 > カラーとグレースケールの入力を前景と背景に接続すると、赤い破線で接続され、計算エラーであることが示されます。
 > 
 > これは、新規ユーザーがカラーとグレースケールの接続で問題が発生する最大の理由です。両方の接続のタイプが同じであることを確認してください。
 
-## 出力コネクタ
+## 出力コネクター
 
 |  |  |
 | --- | --- |

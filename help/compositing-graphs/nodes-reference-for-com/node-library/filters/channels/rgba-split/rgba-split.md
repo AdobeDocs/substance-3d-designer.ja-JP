@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
 breadcrumb-title: ''
-description: RGBA分割ノードを使用すると、個々の処理でテクスチャを赤、緑、青、アルファチャンネルに分割できます。
+description: RGBAスプリットノードを使用すると、テクスチャを赤、緑、青、アルファチャンネルに分割して個別に処理することができます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Split
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## 説明
 
-入力画像を赤、緑、青、アルファチャンネルに分割します。 画像を効果的に「アンパック」します。
+入力画像を赤、緑、青、Alphaの各チャンネルに分割します。 画像を効果的に「アンパック」します。
 
-パックされたチャネルを個別に分析および使用する場合に便利です。 Substance Painterのエフェクトにベイク位置マップまたはベイクワールド空間ノーマルマップを使用する場合、例えばX、Y、またはZコンポーネントをシングルアウトできます。
+パックされたチャネルを個別に分析および使用する場合に便利です。 ベイク処理された位置マップ、またはベイク処理されたワールド空間の法線マップを使用してSubstance Painterのエフェクトを作成する場合、たとえばX、Y、またはZコンポーネントをシングルアウトできます。
 
 </td>
 </tr>

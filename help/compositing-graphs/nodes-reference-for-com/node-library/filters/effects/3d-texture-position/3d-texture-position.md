@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: 3D テクスチャの位置ノードを使用して、空間効果やマッピングを作成するために、3D テクスチャから位置情報を抽出します。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D テクスチャの位置
+title: 3Dテクスチャ位置
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 3D テクスチャの位置
+# 3Dテクスチャ位置
 
 <table>
 <tr style="border: 0;">

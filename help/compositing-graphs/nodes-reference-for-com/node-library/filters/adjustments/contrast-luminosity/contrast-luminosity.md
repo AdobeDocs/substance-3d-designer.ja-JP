@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
 breadcrumb-title: ''
 description: 明るさとコントラストの範囲を制御するためのコントラストと輝度の値を調整するには、「コントラストの輝度」ノードを使用します。
 helpx_creative_field: ""

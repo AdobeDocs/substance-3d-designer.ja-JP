@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
 breadcrumb-title: ''
 description: 折り目ノードを使用して、折り目パターンを作成し、折り目のある布地やシワのあるサーフェスのテクスチャ効果を作成します。
 helpx_creative_field: ""
@@ -50,7 +50,7 @@ ht-degree: 8%
 | <b>スケール</b> <i>1 - 8</i> | エフェクトのグローバルスケールを設定します。 |
 | <b>ワープの強さ</b> <i>0.0 - 128.0</i> | ベンド/ワープエフェクトの強度を設定します。 |
 | <b>障害</b> <i>0.0 - 100.0</i> | ノイズの作成に使用するレイヤーをわずかにオフセットして、バリエーションを生み出します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 

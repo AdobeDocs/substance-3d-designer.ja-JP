@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
-description: 中間値フィルターカラーノードを使用して、ノイズを軽減し、カラーテクスチャのエッジを保持します。
+description: ノイズを軽減し、カラーテクスチャでエッジを保持するには、「中間値フィルター」カラーノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter color
 helpx_experience_level: ""

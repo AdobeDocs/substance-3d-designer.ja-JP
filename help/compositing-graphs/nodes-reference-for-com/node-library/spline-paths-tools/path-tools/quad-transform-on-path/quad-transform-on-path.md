@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
-description: '[パス上の四角形変換]ノードを使用して、パスカーブに沿った要素に四角形変換を適用します。'
+description: '[パス上でクアッド変形]ノードを使用して、パスカーブに沿った要素に二次変換を適用します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: パス上のクアッドメニュートランスフォーム
+title: パス上のクアッド変形
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# パス上のクアッドメニュートランスフォーム
+# パス上のクアッド変形
 
 <table>
 <tr style="border: 0;">
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>パス</b> <i>色</i> | 変換されたパス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
+| <b>パス</b> <i>色</i> | 変形パス。 [パスのプレビュー](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)を使用して、結果がどんな結果になるかを把握したり、別のパス処理ノードを使用したり、[スプラインへのパス](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)に入力して、さらにスプラインとして処理したりすることができます。 |
 
 <a name="parameters"></a>
 
@@ -61,10 +61,10 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>p00</b> <i>浮動小数点2</i> | 左上ハンドルの位置を指定します。 |
-| <b>p01</b> <i>浮動小数点2</i> | 右上ハンドルの位置を指定します。 |
-| <b>p02</b> <i>浮動小数点2</i> | 左下のハンドルの位置。 |
-| <b>p03</b> <i>浮動小数点2</i> | 右下のハンドルの位置。 |
+| <b>p00</b> <i>浮動小数2</i> | 左上ハンドルの位置を指定します。 |
+| <b>p01</b> <i>浮動小数2</i> | 右上ハンドルの位置を指定します。 |
+| <b>p02</b> <i>浮動小数2</i> | 左下のハンドルの位置。 |
+| <b>p03</b> <i>浮動小数2</i> | 右下のハンドルの位置。 |
 
 ## 例
 

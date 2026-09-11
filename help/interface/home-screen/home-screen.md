@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのホーム画面を使用すると、最近使用したプロジェクト、テンプレートおよび学習リソースにアクセスできます。
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 以下に、<b>最近使用したファイル</b>の下にある最近使用したファイルのリストを示します。最新のプロジェクトから最も古いプロジェクトまで、最後に読み込んだプロジェクトにすばやくアクセスできます。
 
-最近使用したファイルは、リストの右上にある<b>フィルター</b>入力フィールドを使用してフィルターできます。 フィルタリングは、プロジェクトのファイル名に含まれる文字列と一致します。
+最近使用したファイルは、リストの右上にある<b>フィルター</b>入力フィールドを使用してフィルターできます。 フィルター処理では、プロジェクトのファイル名に含まれる文字列はすべて一致します。
 
 >[!TIP]
 >

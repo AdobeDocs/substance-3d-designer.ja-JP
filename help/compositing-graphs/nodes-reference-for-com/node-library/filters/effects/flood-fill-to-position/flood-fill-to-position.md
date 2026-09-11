@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
 breadcrumb-title: ''
 description: '[Flood Fillを配置]ノードを使用して、プロシージャパターンを作成するための位置に基づく値で領域を塗りつぶします。'
 helpx_creative_field: ""

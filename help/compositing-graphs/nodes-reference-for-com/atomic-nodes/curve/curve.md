@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Curveノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。
 helpx_creative_field: ""
@@ -186,9 +186,9 @@ RGBカーブモードでは、![](curve.resources/image2017-2-17-14-55-0.png)を
 
 <b>水平方向/垂直方向に分布：</b>選択した軸にポイントを分布します
 
-<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択した点を反転します。
+<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択したポイントを反転します。
 
-<b>水平方向/垂直方向にミラー：</b>選択した軸に従って曲線全体をミラーします
+<b>水平方向/垂直方向にミラー：</b>選択した軸に従ってカーブ全体をミラーします
 
 ### キーボードショートカット
 

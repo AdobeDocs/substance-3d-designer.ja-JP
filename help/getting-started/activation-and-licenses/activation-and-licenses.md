@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Substance 3D Designerをアクティベートし、すべての機能にアクセスするためのライセンスを管理する方法について説明します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 | エディション | アクティベーションプロセス |
 | --- | --- |
-| Creative Cloud デスクトップ | [HelpXドキュメント](https://helpx.adobe.com/jp/support/substance-3d-designer.html)の専用ページを参照してください。 問題が発生した場合、[Creative Cloudのドキュメント](https://helpx.adobe.com/jp/creative-cloud/user-guide.html)に詳細な回答が記載されている場合があります。 |
+| Creative Cloud デスクトップ | [HelpXドキュメント](https://helpx.adobe.com/support/substance-3d-designer.html)の専用ページを参照してください。 問題が発生した場合、[Creative Cloudのドキュメント](https://helpx.adobe.com/creative-cloud/user-guide.html)に詳細な回答が記載されている場合があります。 |
 | スチーム | Steamライブラリから直接製品を起動します。 |
 | Substance（スタンドアロン） | 以下のアクティベーションプロセスを参照してください。 |
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーでパスを手動で入力するか、隠しファイルを表示して表示します。
+> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーにパスを手動で入力するか、隠しファイルを表示して表示します。
 
 >[!IMPORTANT]
 >

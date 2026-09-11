@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
 description: ミラーフィルターノードを使用すると、テクスチャを水平方向または垂直方向にミラーして、シンメトリーなパターンやエフェクトを作成できます。
 helpx_creative_field: ""

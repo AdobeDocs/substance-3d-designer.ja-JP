@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
-description: グラデーションマップノードを使用して、カラー化とエフェクトのグラデーションランプを使用してグレースケール値をカラーにマップします。
+description: Gradient Mapノードを使用して、カラー化とエフェクトのグラデーションランプを使用してグレースケール値をカラーにマップします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![アトミックノード:グラデーションマップ](gradient-map.resources/comp_gradient_1.png "アトミックノード:グラデーションマップ"){width="200px"}
+![原子ノード：グラデーションマップ](gradient-map.resources/comp_gradient_1.png "原子ノード：グラデーションマップ"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -65,26 +65,26 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>カラーモード</b> *ブーリアン* | 出力モードをカラーまたはグレースケールに設定します。 |
-| <b>グラデーションの追加</b> *ブーリアン* | [0, 1]の範囲外の繰り返し（タイル）またはクランプ値にグラデーションを設定します。 |
+| <b>カラーモード</b> *ブール値* | 出力モードをカラーまたはグレースケールに設定します。 |
+| <b>グラデーションの追加</b> *ブール値* | [0, 1]の範囲外の繰り返し（タイル）またはクランプ値にグラデーションを設定します。 |
 | <b>グラデーション</b> *グラデーションキーの配列* | 入力グレースケール値のマップに使用するカスタムグラデーションランプ。   同じ場所で編集するか、[グラデーションエディター](#gradient-editor)を使用できます。 |
 
 ## グラデーションエディター
 
-このウィンドウには、グラデーションマップノードがグレースケール値をカラーにマッピングするために使用する参照グラデーションを編集するためのコントロールがあります。
+このウィンドウには、グラデーションマップノードがグレースケール値をカラーにマッピングするために使用する参照グラデーションを編集するためのコントロールが用意されています。
 
-グラデーションマップノードの<b>プロパティ</b>から開くには、次の手順を実行します。
+次の方法で、グラデーションマップノードの<b>プロパティ</b>から開くことができます。
 
 * <b>グラデーションエディター</b>ボタンで「LMB」をクリックします。
-* グラデーションバーのピンで「LMB」をダブルクリックします。 クリックしたピンがグラデーションエディターで自動選択されるので、その値を直接編集できます。
+* グラデーションバーのピンの「LMB」をダブルクリックします。 クリックしたピンは、グラデーションエディターで自動的に選択されるので、その値を直接編集できます。
 
 ![グラデーションエディター](gradient-map.resources/image2017-2-17-16-13-5.png "グラデーションエディター")
 
-### グラデーションピンを編集する
+### グラデーションピンの編集
 
-グラデーションのカラーとカラーの位置は、グラデーションバーに沿って配置されたピンによって制御されます。
+グラデーションのカラーと位置は、グラデーションバーに配置されたピンで制御します。
 
-各ピンは、グラデーションに沿った場所にカラーを設定します。
+各ピンは、グラデーション上の位置にカラーを設定します。
 
 最初と最後のピンの前と後のグラデーションの部分は、それらのピンのカラーにそれぞれ設定されます。
 

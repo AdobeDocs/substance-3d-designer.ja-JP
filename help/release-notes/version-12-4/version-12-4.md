@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Designerバージョン12.4のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -111,7 +111,7 @@ ht-degree: 1%
 * [3Dビュー] ワイヤーフレーム表示プロパティが保存されない
 * [コンテンツ] [放射状ブラー]カラーパラメータはアルファチャンネルには影響しません
 * [ローカリゼーション]環境のOpenGLプロパティに、追加のスライダーおよびボタンが表示されます。
-* [MDL]&#x200B;[Substanceモデル]公開されたノードを削除するとクラッシュする
+* [MDL][Substanceモデル]公開されたノードを削除するとクラッシュする
 * [環境設定]削除してもデフォルトの\_configファイルが再作成されない
 * [Substanceモデル]インスタンスレベルで表示されないパラメーターの並べ替えがクラッシュする
 * [API] SDProperty.getDefaultValue()は、ほとんどの場合Noneを返します

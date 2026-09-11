@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: '[スプライン結合リスト]ノードを使用すると、複数のスプラインを結合して1つのスプラインリストにし、結合した操作を行うことができます。'
 helpx_creative_field: ""
@@ -66,12 +66,12 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>閉じたスプラインの距離のしきい値</b> <i>浮動小数</i> | 同じスプラインの2つの四肢が、そのスプラインを閉じる1つの点として処理される、テクスチャ空間での距離。<br>これにより、シェイプを散布したり、スプラインに沿ってイメージをマッピングしたりする場合に、オーバーラップを防ぐことができます。 |
+| <b>閉じたスプラインの距離のしきい値</b> <i>フロート</i> | 同じスプラインの2つの四肢が、そのスプラインを閉じる1つの点として処理される、テクスチャ空間での距離。<br>これにより、シェイプを散布したり、スプラインに沿ってイメージをマッピングしたりする場合に、オーバーラップを防ぐことができます。 |
 | <b>プレビュー</b> |  |
 | <b>セグメント数</b> <i>整数</i> | プレビュー出力でスプラインの視覚化に使用するセグメントの数を調整します。<br>値を大きくすると、より滑らかな線になります。 |
-| <b>方向のヘルパーを表示</b> <i>ブーリアン</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
-| <b>Thicknessの封筒を表示</b> <i>ブーリアン</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
-| <b>Thickness (px)</b> <i>浮動小数</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
+| <b>方向ヘルパーの表示</b> <i>ブール値</i> | プレビュー出力で、スプラインの始点に点を表示し、終点に矢印を表示します。 |
+| <b>Thicknessの封筒を表示</b> <i>ブール値</i> | スプラインのThicknessのエッジに追加の線分を表示します。 |
+| <b>Thickness (px)</b> <i>フロート</i> | プレビュー出力のスプラインの表示Thicknessをピクセル単位で調整します。 |
 
 ## 例
 

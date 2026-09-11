@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
 breadcrumb-title: ''
 description: 「BnWスポット1」ノードを使用して、白黒のスポットパターンを生成し、テクスチャバリエーションとディテールマスクを作成します。
 helpx_creative_field: ""

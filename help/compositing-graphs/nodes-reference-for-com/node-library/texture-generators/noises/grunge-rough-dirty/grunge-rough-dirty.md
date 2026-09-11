@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: 経年劣化の粗いダーティノードを使用して、荒いデータノードと汚れた経年劣化 テクスチャを作成し、風化したサーフェスのディテールを加えます。
 helpx_creative_field: ""
@@ -52,8 +52,8 @@ ht-degree: 2%
 | <b>詳細</b> |  |
 | <b>主な経年劣化適用度</b> <i>フロート</i> | サーフェスの分割に使用するメインのテクスチャの強さを調整します。 |
 | <b>Scratchesを反転</b> <i>ブール値</i> | サーフェス上のスクラッチの輝度を反転します。 |
-| <b>Scratchesの適用度</b> <i>フロート</i> | サーフェス上のスクラッチの強度を調整します。 |
-| <b>粒子の適用度</b> <i>フロート</i> | グローバル粒子効果の強度を調整します。 |
+| <b>Scratchesの適用度</b> <i>浮動小数</i> | サーフェス上のスクラッチの強度を調整します。 |
+| <b>粒子の適用度</b> <i>浮動小数</i> | グローバル粒子効果の強度を調整します。 |
 
 ## 例
 

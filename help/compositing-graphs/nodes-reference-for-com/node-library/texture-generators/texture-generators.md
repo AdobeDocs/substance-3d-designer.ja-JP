@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのテクスチャジェネレータノードにアクセスして、パターン、ノイズ、シェイプからプロシージャルテクスチャを作成します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # テクスチャ生成
 
-テクスチャジェネレータは、入力を必要としないノードです。つまり、イメージを完全にゼロから生成します。 「テクスチャジェネレーター」は「手続き」の別語と考えることができます。
+テクスチャジェネレーターは、入力を必要としないノードです。イメージをゼロから完全に生成します。 「テクスチャジェネレーター」は「手続き」の別語と考えることができます。
 
 これらは2つのカテゴリに分類されます。
 

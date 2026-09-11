@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: 高度なワークフロー用のSubstance 3D Designerの関数グラフに組み込まれているシステム変数について説明します。
 helpx_creative_field: ""
@@ -30,8 +30,8 @@ ht-degree: 3%
 
 | 名前 | タイプ | 目的 |
 | --- | --- | --- |
-| $size | Float2 | 現在のノードのサイズをピクセル単位で返します。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで使用されている場合、*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合、*継承された値*&#x200B;を返します。 |
-| $sizelog2 | Float2 | 上記と同様ですが、サイズは2の累乗値として返されます（例： 2048\*2048画像の場合、`$sizelog2`は11を返します）。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで使用されている場合、*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合、*継承された値*&#x200B;を返します。 |
+| $size | Float2 | 現在のノードのサイズをピクセル単位で返します。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで&#x200B;*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合は、*継承された値*&#x200B;を返します。 |
+| $sizelog2 | Float2 | 上記と同様ですが、サイズは2の累乗値として返されます（例： 2048\*2048画像の場合、`$sizelog2`は11を返します）。   [Output Size](../../../compositing-graphs/output-size/output-size.md)パラメーターで&#x200B;*Relative to...* [継承メソッド](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)に設定されている場合は、*継承された値*&#x200B;を返します。 |
 | $pixelratio | 整数 | 現在のノードのピクセル比（継承または絶対）に対応する整数値を返します： 0：伸長1：正方形 |
 | $tiling | 整数 | 現在のノードのタイリングモード（継承または絶対）に対応する整数値を返します。 0:タイリングなし1：水平タイリング2：垂直タイリング3: HおよびVタイリング |
 | $physicalsize | Float3 | [グラフの](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>物理サイズ</b>プロパティ値を返します。 |
@@ -62,5 +62,5 @@ ht-degree: 3%
 
 | 名前 | タイプ | 目的 |
 | --- | --- | --- |
-| $time | 浮動小数 | この変数は、Substance engineが起動してからの時間を秒単位で返します。 グラフで使用する場合は、経過時間に応じて結果が変化します。  **注意：**&#x200B;現在、Designerではこの値を変更する方法はありませんが、アニメーションの[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)、[動的ストローク](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)の[Substance 3D Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)など、Substance engineを統合するアプリケーションでは、この値を利用できます。 |
+| $time | 浮動小数 | この変数は、Substance engineが起動してからの時間を秒単位で返します。 グラフで使用する場合は、経過時間に応じて結果が変化します。  **注意：**&#x200B;現在、Designerではこの値を変更する方法はありませんが、アニメーションの[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)、[動的ストローク](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)の[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)など、Substance engineを統合するアプリケーションでは、この値を利用できます。 |
 | $normalformat | 整数 | 現在の環境で使用される標準のフォーマット（DirectXまたはOpenGL）。  **注意：**&#x200B;このSubstance engineは、Designerには影響を与えません。変数を組み込む他のアプリケーションで使用される可能性があります。 |

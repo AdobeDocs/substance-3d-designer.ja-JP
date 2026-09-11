@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 使用可能なすべてのノードについて詳しくは、DesignerのSubstance合成グラフの完全なノードリファレンスを参照してください。
 helpx_creative_field: ""
@@ -24,8 +24,8 @@ Substance 3D Designerはノードベースのテクスチャリングソフト�
 
 SD内の「ノード」と呼ばれるものは、2つのメイングループに分けられます。
 
-* [原子ノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)、任意のグラフのコア構成要素。
-* [グラフインスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)、複合ノードのうち、事前に作成されたコンテンツの大きな選択が[ノードライブラリ](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)で利用できます
+* [アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。あらゆるグラフの主要な構成要素です。
+* [グラフインスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)、複合ノードのうち、事前に作成されたコンテンツの大きなセレクションが[ノードライブラリ](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)で利用できます
 
 ## このセクションの内容：
 

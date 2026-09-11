@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
 description: 勾配ブラーノードを使用して、モーションブラーを作成するためのHeightマップ勾配に基づく方向ブラー効果を適用します。
 helpx_creative_field: ""

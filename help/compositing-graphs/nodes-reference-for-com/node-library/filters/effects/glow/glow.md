@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
 breadcrumb-title: ''
 description: 「光彩」ノードを使用して、テクスチャに光彩効果を加え、明るさとemissiveマテリアルのアピアランスを作り出します。
 helpx_creative_field: ""

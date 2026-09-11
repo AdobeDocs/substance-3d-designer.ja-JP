@@ -1,6 +1,6 @@
 ---
 title: '減算スムーズ '
-description: 'Designer/Substance合成グラフ/ノード参照Substance合成グラフ/ノードライブラリ/SDF 関数/演算子/減算スムーズ '
+description: 'Designer/Substance合成グラフ/ノード合成の参照グラフ/Substanceライブラリ/SDF 関数/演算子/減算の滑らかさ '
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '116'
@@ -40,6 +40,6 @@ SDF 2の交差に適用される調整可能なスムージングを使用して
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *フロート* | から差し引かれるSDFシェイプ。 |
-| <b>SDF 2</b> *フロート* | SDF 1形状から差し引かれるSDF形状。 |
-| <b>Smoothness</b> *フロート* | 2つの図形の交差に適用されたスムージングです。<br><br><i>注： </i>滑らかさの半径が交差する部分に、はっきりしたエッジが表示される場合があります。 |
+| <b>SDF 1</b> *浮動小数* | から差し引かれるSDFシェイプ。 |
+| <b>SDF 2</b> *浮動小数* | SDF 1形状から差し引かれるSDF形状。 |
+| <b>Smoothness</b> *浮動小数* | 2つの図形の交差に適用されたスムージングです。<br><br><i>注： </i>滑らかさの半径が交差する部分に、はっきりしたエッジが表示される場合があります。 |

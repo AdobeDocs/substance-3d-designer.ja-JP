@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: マテリアルHeightのブレンドノードを使用すると、レイヤ化されたマテリアル効果を作成するためのHeightマップに基づいて、複数のマテリアルをブレンドできます。
 helpx_creative_field: ""

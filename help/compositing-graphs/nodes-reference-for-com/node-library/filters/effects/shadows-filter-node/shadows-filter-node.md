@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
 breadcrumb-title: ''
 description: シャドウフィルターノードを使用して、入力テクスチャからシャドウ効果を生成し、マテリアルに深度とリアリズムを加えます。
 helpx_creative_field: ""

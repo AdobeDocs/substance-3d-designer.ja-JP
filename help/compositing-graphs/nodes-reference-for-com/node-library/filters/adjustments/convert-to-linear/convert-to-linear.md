@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
 breadcrumb-title: ''
 description: 正確なカラー計算を行うために、テクスチャをsRGBからリニアカラースペースに変換するには、「リニアに変換」ノードを使用します。
 helpx_creative_field: ""

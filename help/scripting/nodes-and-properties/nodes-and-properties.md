@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Pythonプラグインでノードとプロパティを作成および操作する方法について説明します。
 helpx_creative_field: ""
@@ -25,7 +25,7 @@ ht-degree: 1%
 使用可能なノード情報は次のとおりです。
 
 * 定義
-* identifier
+* 識別子
 * 位置
 * バウンディングボックス
 * プロパティ（リストとして）
@@ -136,7 +136,7 @@ def printSelectedNodesInfo(nodes):
 ```
 
 
-### ノード入力の識別子とタイプへのアクセス
+### ノード入力へのアクセス識別子と型
 
 ```
 import sd 

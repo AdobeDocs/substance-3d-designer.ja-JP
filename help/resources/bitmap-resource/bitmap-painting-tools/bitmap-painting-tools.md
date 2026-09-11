@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのビットマップペイントツールを使用すると、テクスチャ編集用にビットマップリソースに直接ペイントできます。
 helpx_creative_field: ""

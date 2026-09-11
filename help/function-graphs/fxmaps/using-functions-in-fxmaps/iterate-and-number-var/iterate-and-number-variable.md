@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: FXMapで反復変数と数値変数を使用して、ループパターンとプロシージャルバリエーションを作成する方法について説明します。
 helpx_creative_field: ""
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ![](../../../../assets/iterate-1.jpg)
 
-Iterateノードは、右側にコネクトされたノードをIterations値で指定された時間だけレンダーします。
+Iterateノードは、右側のノードにコネクトされたノードをレンダリングして、反復値で指定された時間を出力します。
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1回繰り返し：ガウスパターンは1回レンダリングされます |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 反復:ガウスパターンは1回レンダリングされます |
 | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 反復：ガウスパターンは同じ場所に10回レンダリングされます |
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
 breadcrumb-title: ''
-description: Substance 3D Designerのノードのライブラリにアクセスして、プロシージャルなマテリアル、テクスチャ、効果を作成できます。
+description: プロシージャルのマテリアル、テクスチャ、エフェクトを作成するための、Substance 3D Designerの完全なノードライブラリにアクセスします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # ノードライブラリ
 
-[原子ノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)とは別に、Designerには、多数のカテゴリーに分割された、事前に作成された[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のライブラリも付属しています。 200種類を超える種類があり、非常に頻繁に使用されるものもあれば、非常に特定のユースケースを目的としたものもあります。ドキュメントのこの領域では、すべてのライブラリノードについて説明し、使用を開始するのに適したノードに関するポインターとヒントを提供します。
+[アトミックノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)とは別に、Designerには事前作成された[グラフインスタンス](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のライブラリもあり、多数のカテゴリーに分けられています。 200種類を超える種類があり、非常に頻繁に使用されるものもあれば、非常に特定のユースケースを目的としたものもあります。ドキュメントのこの領域では、すべてのライブラリノードについて説明し、使用を開始するのに適したノードに関するポインターとヒントを提供します。
 
 Designerのライブラリパネルには、現在ドキュメントで説明されているよりも多くのカテゴリが表示されます。特にMDLノードが見つかりません。これらは将来追加される可能性があります。
 
@@ -108,8 +108,8 @@ Designerのライブラリパネルには、現在ドキュメントで説明さ
 * [乱雑な繊維2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
 * [乱雑な繊維3](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
 * [顕微鏡像](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/microscope-view/microscope-view.md)
-* [湿気ノイズ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
-* [パーリン雑音](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
+* [水分ノイズ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+* [パーリンノイズ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
 * [血漿](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/plasma/plasma.md)
 * [コースティクス](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/caustics/caustics.md)
 * [ボロノイ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/voronoi/voronoi.md)
@@ -152,7 +152,7 @@ Designerのライブラリパネルには、現在ドキュメントで説明さ
 * [シェイプの押し出し](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md)
 * [シェイプマッパー](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md)
 * [シェイプスプラッタ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)
-* [スプラッタブレンドのシェイプ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md)
+* [シェイプスプラッタブレンド](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md)
 * [シェイプスプラッターデータの抽出](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md)
 * [マスクにスプラッタをシェイプ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md)
 * [スプラッタ](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/splatter/splatter.md)
@@ -182,7 +182,7 @@ Designerのライブラリパネルには、現在ドキュメントで説明さ
 * [コントラスト/輝度](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md)
 * [リニアに変換](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-linear/convert-to-linear.md)
 * [sRGBに変換](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-srgb/convert-to-srgb.md)
-* [グレースケール変換（詳細設定）](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
+* [グレースケール変換の詳細](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
 * [ハルト・クラット](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hald-clut/hald-clut.md)
 * [HDR範囲ビューア](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hdr-range-viewer/hdr-range-viewer.md)
 * [Heightマップ周波数マッパー](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/height-map-frequencies/height-map-frequencies-mapper.md)
@@ -325,7 +325,7 @@ Designerのライブラリパネルには、現在ドキュメントで説明さ
 
 * [ビットマップからマテリアルライト](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md)
 
-### 効果（マテリアル）
+### 効果(マテリアル)
 
 * [Heightブレンド](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md)
 * [マテリアルHeightブレンド](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)
@@ -333,11 +333,11 @@ Designerのライブラリパネルには、現在ドキュメントで説明さ
 * [Snowカバー](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)
 * [水レベル](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)
 
-### 変換（マテリアル）
+### 変形(マテリアル)
 
 * [マテリアルの変換](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)
 
-### ブレンド（マテリアル）
+### 描画(マテリアル)
 
 * [マテリアル調整ブレンド](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
 * [マテリアルブレンド](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)

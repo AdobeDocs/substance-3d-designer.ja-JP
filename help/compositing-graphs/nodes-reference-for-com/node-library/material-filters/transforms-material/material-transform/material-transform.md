@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
 breadcrumb-title: ''
-description: マテリアルの変換ノードを使用して、回転、スケール、オフセットなどの変換をマテリアル出力に適用します。
+description: 変形ノードを使用して、回転、スケール、オフセットなどのマテリアル出力にトランスフォームを適用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Transforms (Material) > Material Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: マテリアルの変換
+title: 変形
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# マテリアルの変換
+# 変形
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## 説明
 
-Material Transformは、単に[Atomic Transformation 2Dノード](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)の「マルチチャンネル」マテリアルバージョンです。 [2D変換]と同じインタフェースを使用して、入力マテリアルのすべてのチャンネルを同時に変換します。
+マテリアル 変形は、単に[アトミック変形 2Dノード](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)の「マルチチャンネル」マテリアルバージョンです。 変形2Dと同じインターフェイスを使用して、入力マテリアルのすべてのチャンネルを同時に変形します。
 
-チャンネルを正しく設定してください。 デフォルトでは、「メタリック/粗さ」と「Specular/光沢」の両方が有効になっているため、混乱する可能性があります。
+チャンネルを正しく設定してください。 デフォルトでは、メタリック/ラフネスとSpecular/光沢度の両方が有効になっているため、混乱する可能性があります。
 
 </td>
 </tr>
@@ -48,6 +48,6 @@ Material Transformは、単に[Atomic Transformation 2Dノード](../../../../..
 |  |  |
 |:---|:---|
 | <b>変換</b> <i>（変換行列）</i> | 結果を回転およびスケールします。 移動/パンはオフセットパラメーターを使用して実行されます |
-| <b>オフセット</b> <i>-0.5 - 0.5</i> | 結果を移動または変換します。 変形コントロールがある場合、カンバスと直接相互作用することで結果を変更できます。 |
+| <b>オフセット</b> <i>-0.5 - 0.5</i> | 結果を移動または移動します。 変形コントロールがある場合、カンバスと直接相互作用することで結果を変更できます。 |
 | <b>標準の形式</b> | DirectX形式とOpenGL形式（緑色に反転）から選択します。 |
-| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。たとえば、メタリック/ラフネスの代わりにSpecular/光沢マップを使用する場合などです。 |
+| <b>チャネル</b> | この領域でマテリアルチャンネルのオンとオフを切り替えます。例えば、メタリック/ラフネスの代わりにSpecular/光沢度マップを使用する場合などです。 |

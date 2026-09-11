@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
 breadcrumb-title: ''
 description: 「経年劣化スポット」ノードを使用して、マテリアルに磨耗や経年劣化効果を加えるためのスポットパターンを作成します。
 helpx_creative_field: ""
@@ -45,13 +45,13 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>残高</b> <i>浮動小数</i> | 暗い値と明るい値のバランスを調整します。 |
-| <b>コントラスト</b> <i>浮動小数</i> | 画像のコントラストを調整します。 |
-| <b>反転</b> <i>ブーリアン</i> | `1-x`操作を使用して画像の出力を反転します。 |
-| <b>非正方形拡張</b> <i>ブーリアン</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 | <b>詳細</b> |  |
-| <b>詳細</b> <i>浮動小数</i> | *ワープ*&#x200B;したスポットの量を調整し、細かいスポットに分割します。 |
-| <b>適用範囲</b> <i>浮動小数</i> | 画像内のスポットの範囲を調整します。 |
+| <b>詳細</b> <i>フロート</i> | *ワープ*&#x200B;したスポットの量を調整し、細かいスポットに分割します。 |
+| <b>適用範囲</b> <i>フロート</i> | 画像内のスポットの範囲を調整します。 |
 | <b>カバレッジのコントラスト</b> <i>フロート</i> | 画像内のスポットの範囲を制御するために使用される&#x200B;*マスク*&#x200B;のコントラストを調整します。 |
 
 ## 例

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
-description: 「カラーパレットを作成」ノードを使用して、テクスチャから16色のパレットを抽出し、定型化された効果を得ます。
+description: 「カラーパレットを作成」ノードを使用して、テクスチャから16色のパレットを抽出し、スタイライズされた効果を得ます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)
 helpx_experience_level: ""
@@ -68,7 +68,7 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>カラー適用量</b> *整数* | パレットに追加するカラーの量。 |
-| <b>色#</b> *浮動小数3* *&#39;色の量&#39;の値として使用可能なパラメーターの数* | パレットに追加する色。   カラーは、この番号付きリストと同じ順序でパレットに追加されます。 |
+| <b>色#</b> *浮動小数点3* *&#39;カラーの値&#39;として使用可能なパラメーターの数* | パレットに追加する色。   カラーは、この番号付きリストと同じ順序でパレットに追加されます。 |
 
 ## 例
 

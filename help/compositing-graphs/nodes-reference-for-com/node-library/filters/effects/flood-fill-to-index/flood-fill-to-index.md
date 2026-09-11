@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Flood Fillからインデックスへのノードを使用して、番号パターンやラベル付きパターンを作成するために、リージョンをインデックス値で塗りつぶします。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 説明
 
-「Flood Fillをインデックスに変換」を選択すると、すべてのFlood Fillセルが、左上隅の0から始まるインデックス番号に従って値に変換されます。 グレースケール濃淡を正規化された形式（0.0 ～ 1.0、Flood Fillで得られた数のセルで割った形式）またはHDRのクランプされていない値（0 ～ nでnはセルの数）で返すために使用できます。
+「Flood Fillをインデックスに変換」を選択すると、すべてのFlood Fillセルが、左上隅の0から始まるインデックス番号に従って値に変換されます。 グレースケール濃淡を正規化された形式（0.0 ～ 1.0、Flood Fillで求められた数のセルで割った形式）またはHDRのクランプされていない値（0 ～ nでnはセルの数）で返すために使用できます。
 
 さらに、インデックスへのFlood Fillでは[値](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)が使用され、見つかった図形の量と、オプションの内部データテーブルが返されます。
 

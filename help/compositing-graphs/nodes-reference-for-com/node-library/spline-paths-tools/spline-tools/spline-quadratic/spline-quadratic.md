@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: スプライン二次ノードを使用して、3つの制御点を持つ滑らかな二次スプラインを作成します。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 2つの点<b>p1</b>と<b>p3</b>の間の任意の位置に1つのスプラインを生成します。
 
-スプラインの軌道は、<b>p1</b>の&#39;out&#39;正接と、<b>p3</b>の&#39;in&#39;正接、*両方*&#x200B;が1つの点<b>p3</b>によって制御されます。
+スプラインの軌道は、<b>p1</b>の「アウト」接線と、<b>p3</b>の「イン」接線によって制御されます。*両方*&#x200B;は、単一の点<b>p3</b>によって制御されます。
 
 スプラインによって形成される円弧のスパンは&#x200B;*調整可能*&#x200B;です。そのため、端からの軌道の一部がまっすぐに残ります。
 

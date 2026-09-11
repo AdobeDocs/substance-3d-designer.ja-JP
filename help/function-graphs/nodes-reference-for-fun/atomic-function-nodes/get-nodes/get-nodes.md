@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer関数グラフの「取得」ノードにアクセスして、変数値とデータを取得します。
 helpx_creative_field: ""

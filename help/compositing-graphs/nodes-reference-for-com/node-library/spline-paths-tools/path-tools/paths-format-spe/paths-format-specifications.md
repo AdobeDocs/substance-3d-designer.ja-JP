@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: パス形式の仕様と、パスノードとスプラインノードで使用されるデータ構造について学習します。
 helpx_creative_field: ""
@@ -88,13 +88,13 @@ top[uv\_pos]とbottom[uv\_pos]を組み合わせると、ドキュメントの�
 +++下
 <b>XY</b>
 
-このドキュメントで定義された最後の頂点のアドレス。 これは、新しいデータを追加する場合に便利です。
+この文書で定義された最後の頂点のアドレス。 これは、新しいデータを追加する場合に便利です。
 
-したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 &rbrack;0, 1[×]0,.5&lbrack;
+したがって、実際には、最後の頂点のアドレスよりも（スキャンライン順に）大きいアドレスであればどれでもかまいません。 範囲は、 ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
-未使用。Float2(0, 1)である必要があります。
+未使用。浮動小数2(0, 1)である必要があります。
 
 +++
 
@@ -111,10 +111,10 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 +++上
 <b>X</b>
 
-このパス内の頂点の数。 [0, 16777216]の範囲内である必要があります。
+このパス内の頂点数。 [0, 16777216]の範囲内である必要があります。
 
-クローズパスの始点と終点が同じ位置にある場合は、2つの頂点がカウントされます。\
-頂点が0個のパスは有効なパスです。
+クローズパスの開始パスと終了頂点が同じ場所にある場合は、2つの頂点がカウントされます。\
+頂点が0のパスは有効なパスです。
 
 <b>年</b>
 
@@ -164,21 +164,21 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 <b>幅</b>
 
-頂点のタイプ： 値の符号とその絶対値の間で分割されます。
+頂点の種類。 値の符号と絶対値が分割されます。
 
-符号パーツでは、値0は実際には頂点がないことを意味します（他のすべてのコンポーネントも0である必要があります）。 負の値を指定すると、頂点は「コーナー」としてマークされます。正の値を指定すると、頂点は「スムーズ」になります。 頂点のコーナーとスムーズは純粋な分離アトリビュートで、他のパスのエンコーディングに影響を与えたり意味を持ったりすることはありません。
+符号の部分では、値0は実際には頂点がないことを意味します（他のすべてのコンポーネントも0でなければなりません）。 負の値を指定すると、頂点は「コーナー」としてマークされます。正の値を指定すると、頂点は「滑らか」になります。 コーナーモードとスムーズモードの頂点は、純粋な分離アトリビュートであり、他のパスエンコーディングに影響を与えたり意味を持ったりすることはありません。
 
-絶対値の部分では、ピクセルの種類(Start, Mid, End)と別のフラグ(trivial\_link)が符号化される。
+絶対値部では、ピクセルの種類(Start, Mid, End)と別のフラグ(trivial\_link)が符号化される：
 
-* *0.125*：終了頂点（図形の最後の頂点。常に非簡易リンクです。以下を参照してください）
+* *0.125*：終了頂点 （図形の最後の頂点。常に非簡易リンクです。以下を参照してください）
 
-* *0.25*：開始頂点（図形の最初の頂点。常に非簡易リンクです。以下を参照してください）
+* *0.25*: 頂点を開始します（図形の最初の頂点。常に非簡易リンクです。以下を参照してください）
 
-* *0.5*：中間の頂点に非簡易リンクがあります
+* *0.5*：重要なリンクを含む中間頂点
 
-* *1*：頂点の中央に些細なリンクがあります
+* *1*: 頂点の途中に簡易リンクがあります
 
-「簡易リンク」とは（現在のパスの頂点のリストの）前の頂点と次の頂点が左のピクセル(vert\_addr-(0,pixel\_size))に保存され、右のピクセル(vert\_addr+(0,pixel\_size))に保存されることを意味し、「非簡易リンク」とは、これらの頂点の少なくとも1つが他の場所に保存されることを意味します。
+「簡易リンク」とは、前のパスと次の頂点（現在の頂点のリスト内）が左のピクセル(vert\_addr-(0,pixel\_size))に格納され、右のピクセル(vert\_addr+(0,pixel\_size))に格納されることを意味し、「非簡易リンク」とは、これらの少なくとも1つが他の場所に格納されることを意味します。
 
 +++
 
@@ -187,12 +187,12 @@ N番目のパスのパスヘッダーは、アドレス`path\_addr`で次のよ�
 
 <b>XY</b>
 
-このパスの前の頂点のアドレス。 開始頂点の場合は、次の兄弟の頂点を指します。\
+このパスの前の頂点のアドレス。 開始頂点の場合は、次の兄弟頂点を指します。\
 if |top[vert\_addr].W| = 1, then bottom[vert\_addr].XY = vert\_addr - (0,pixel\_size)
 
 <b>ZW</b>
 
-このパスの次の頂点のアドレス。 終了頂点の場合は、次の兄弟の頂点を指します。\
+このパスの次の頂点のアドレス。 エンド頂点の場合、これは次の兄弟頂点を指します。\
 if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
@@ -201,7 +201,7 @@ if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 独自のパス処理ノードを作成する場合は、いくつかのツールがあります。
 
-基本は、[パス頂点プロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)および[パス頂点プロセッサシンプル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)のノードによって提供されます。このノードは基本的に[ピクセルプロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)と同じ方法で使用できます。
+基本は、[Paths 頂点プロセッサ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)および[Paths 頂点プロセッサシンプル](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)ノードによって提供されます。これらのノードは基本的に[ピクセルプロセッサー](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)と同じように使用できます。
 
 頂点プロセッサノードが提供するパス（より多くの入力テクスチャ、またはより多くの前後の頂点）以上の機能が必要な場合は、このグラフの実装をコピーすることをお勧めします(<b>Get(&quot;%perVertex&quot;)</b>ノードをカスタム処理で置き換えると仮定します)。
 

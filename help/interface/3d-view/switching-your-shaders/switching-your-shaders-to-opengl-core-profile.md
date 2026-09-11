@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 3DビューでシェーダをOpenGL Core Profileに切り替えて、互換性とパフォーマンスを向上させる方法について説明します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # シェーダをOpenGLコアプロファイルに切り替える
 
-バージョン2018.2.0以降、3DビューポートではOpenGL Core Profileが使用されます。\
+バージョン2018.2.0以降、3D ビューポートはOpenGLコアプロファイルを使用します。\
 この際、GLSLバージョン120からGLSLバージョン330へのアプリケーションに用意されているシェーダをいくつか更新しました。
 
 独自のシェーダを更新して、使用可能な新しいGLSL関数を活用するか、GLSLコードをより新しくすることができます。 macOSでは、古いシェーダが機能しなくなる可能性があることに注意してください。\
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 現在、`attribute`および`varying`変数は、シェーダーステージに応じて`in`または`out`として明示的に宣言されています。
 
-頂点シェーダでは、頂点の`attribute`が`in`として宣言され、フラグメントシェーダに渡される`varying`が`out`として宣言されます。\
+頂点 シェーダーでは、頂点の`attribute`が`in`として宣言され、フラグメントシェーダーに渡される`varying`が`out`として宣言されています。\
 以下に例を示します。
 
 ```
@@ -78,7 +78,7 @@ out vec2 fragmentUV;
 ```
 
 
-フラグメントシェーダでも同様に、変化はになります。 また、gl\_FracColor （これはビルドインではなくなりました）を置き換えるout変数を宣言しなければなりません。
+フラグメントシェーダーでも同様に、変化が生じます。 また、gl\_FracColor （これはビルドインではなくなりました）を置き換えるout変数を宣言しなければなりません。
 
 ```
 ## version 120
@@ -128,9 +128,9 @@ outColor = vec4(myColor.rgb, 1.0);
 ```
 
 
-### 新しいテクスチャルックアップ関数の使用
+### 新しいテクスチャ参照関数の使用
 
-新しいバージョンのシェーディング言語では、テクスチャルックアップAPIが簡素化され、強化されています。
+新しいバージョンのシェーディング言語では、テクスチャ検索APIが簡素化され、強化されています。
 
 `texture1D()`、`texture2D()`、`texture3D()`および`textureCube()`関数はすべて`texture()`のオーバーロードになります。\
 同様に、`texture2DLod()`は`textureLod()`になり、`texture2DGrad()`は`textureGrad()`になります。

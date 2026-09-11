@@ -7,7 +7,7 @@ helpx_description: Designer > MDL graphs > Creating an MDL graph
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: MDL グラフの作成
+title: MDLグラフの作成
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# MDL グラフの作成
+# MDLグラフの作成
 
 ここでは、Substance 3D DesignerでMDL マテリアルを作成するMDL グラフを作成するプロセスについて説明します。
 
@@ -55,12 +55,12 @@ MDL グラフを作成するには、次のいずれかの方法を使用しま�
 >[!WARNING]
 >
 > 間違ったグラフを選択した場合、テンプレートの作成後に&#x200B;*別のテンプレートに切り替えることはできません*。\
-> 既存のグラフを別のテンプレートに移行するには、適切なテンプレートを使用して新しいグラフを作成し、そのテンプレートにグラフをコピー&amp;ペーストします。 必要に応じて、[ルート](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)ノードを含むノードを再接続します。
+> 既存のグラフを別のテンプレートに移植するには、適切なテンプレートを使用して新しいグラフを作成し、グラフを新しいグラフにコピー&amp;ペーストします。 必要に応じて、[ルート](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)ノードを含むノードを再接続します。
 
 テンプレートのリストは、**プロジェクト**&#x200B;コンボボックスの横にある&#x200B;*ボタン*&#x200B;を使用して、さまざまなモードで表示できます。
 
 * **![](../../assets/mdl-template-recent-icon.png)最近使用したテンプレートを表示**:リストをフィルターして、最後に使用したテンプレートを&#x200B;*最新のテンプレートから最新のテンプレートまで*&#x200B;順に表示します。一番上のアイテムが最新のテンプレートです
-* **![](../../assets/mdl-template-graphs-icon.png)グラフの表示**:テンプレートは、テンプレートのディレクトリにある[Substance 3D](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)ファイルの順に、*ラベルのみ*&#x200B;で表示されます
+* **![](../../assets/mdl-template-graphs-icon.png)グラフの表示**:テンプレートは、テンプレートのディレクトリにある[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)ファイルの順に、*ラベルのみ*&#x200B;で表示されます
 * **![](../../assets/mdl-template-packages-icon.png)Substance 3Dファイルの表示**:テンプレートは、テンプレートのディレクトリ内のファイルの順に、*属するSubstance 3Dファイルの子*&#x200B;としてラベルに従って表示されます
 * **![](../../assets/mdl-template-directory-icon.png)ディレクトリの表示**:テンプレートは、テンプレートのディレクトリ内のファイルの順序で、属するディレクトリの&#x200B;*子*&#x200B;としてラベルによって表示されます
 

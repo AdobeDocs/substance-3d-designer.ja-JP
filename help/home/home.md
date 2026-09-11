@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Substance 3D Designerを使用して、ノードベースのワークフローでプロシージャルマテリアル、テクスチャ、3Dアセットを作成する方法について説明します。
 helpx_creative_field: ""

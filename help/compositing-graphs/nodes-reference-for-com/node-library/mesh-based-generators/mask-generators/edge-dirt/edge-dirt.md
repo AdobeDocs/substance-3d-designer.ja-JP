@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
 breadcrumb-title: ''
 description: エッジDirtノードを使用して、メッシュエッジにDirtのアキュムレーションマスクを作成し、リアルなエッジのウェザリングエフェクトを作成します。
 helpx_creative_field: ""

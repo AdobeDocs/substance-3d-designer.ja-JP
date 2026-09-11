@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
 breadcrumb-title: ''
 description: 「露光量」ノードを使用して、HDRI環境で全体的な明るさと照明を制御する露光量レベルを調整します。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## 説明
 
-入力画像の露光量を調整します。 写真編集ソフトウェアのように、「ストップ」値のコンセプトでHDR写真を明るくしたり暗くしたりします。
+入力画像の露光量を調整します。 写真編集ソフトウェアと同様に、「ストップ」値の概念でHDR写真を明るくしたり暗くしたりします。
 
 </td>
 </tr>

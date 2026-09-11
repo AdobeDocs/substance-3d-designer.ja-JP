@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのライブラリを使用すると、ノードプリセット、マテリアル、カスタムコンテンツにアクセスして管理できます。
 helpx_creative_field: ""

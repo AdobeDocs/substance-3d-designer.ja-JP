@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: 以前のバージョンに慣れているユーザー向けに、Substance 3D Designer ベイカーの従来のインターフェイスについて説明します。
 helpx_creative_field: ""
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 * **[リソース名]**&#x200B;フィールドでは、必要に応じて、生成されたビットマップの名前を変更できます。
 * **ファイル形式**&#x200B;のドロップダウンリストでは、既定のファイル形式（WindowsまたはOS/2ビットマップ形式、「BMP」）を変更できます。
-* **&#x200B;**&#x200B;**[メッシュ固有のフォルダにリソースを配置する]チェックボックスをオンにすると、生成されたビットマップをモデルと同じレベルで保存するか、[Resources]という名前の新しいサブフォルダ内に保存するかを指定できます。**
+* **** **[メッシュ固有のフォルダにリソースを配置する]チェックボックスをオンにすると、生成されたビットマップをモデルと同じレベルで保存するか、[Resources]という名前の新しいサブフォルダ内に保存するかを指定できます。**
 * **メソッド**&#x200B;を使用すると、新しいビットマップSubstanceをリソースパッケージにリンクするか埋め込むかを指定できます。
 * **フォルダー**&#x200B;では、マップを保存する場所を定義できます。
 

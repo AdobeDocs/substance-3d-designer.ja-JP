@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの「相互運用に送信」機能を使用して、マテリアルを他のアプリケーションに書き出します。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![DesignerからSubstance 3Dアプリケーションに送信](../../../assets/explorer-interop.png "DesignerからSubstance 3Dアプリケーションに送信"){width="512px"}
 
-Adobe Substance 3D Designerは、[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)および[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)と相互運用できます。 これにより、*送信*&#x200B;と&#x200B;*再送信*&#x200B;を行ってすばやく作業し、Substance 3Dエコシステム全体で容易に繰り返すことができます。
+Adobe Substance 3D Designerは、[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)および[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)と相互運用できます。 これにより、*送信*&#x200B;と&#x200B;*再送信*&#x200B;を行ってすばやく作業し、Substance 3Dエコシステム全体で容易に繰り返すことができます。
 
 通常、ワークフローは次のようになります。
 
@@ -44,26 +44,26 @@ Adobe Substance 3D Designerは、[Substance 3D Sampler](https://www.adobe.com/jp
 
 Substanceグラフには多くの機能があります。 グラフの正確な機能を事前に定義して、正しく送信できるようにしておく必要があります。
 
-[Substanceグラフのプロパティ](../../../compositing-graphs/graph-parameters/graph-parameters.md)の<b>属性</b>セクションには、<b>種類</b>のオプションがあり、次のオプションを含むドロップダウンがあります。
+[グラフのプロパティ](../../../compositing-graphs/graph-parameters/graph-parameters.md)の<b>属性</b>セクションには、<b>型</b>のオプションがあり、次のオプションを含むドロップダウンがあります。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Substanceグラフの種類の属性](../../../assets/type-attribute.jpg "Substanceグラフの種類の属性")
+![グラフの型属性](../../../assets/type-attribute.jpg "Substanceグラフの型属性")
 
 </td>
 </tr>
 </table>
 
-* **未指定**&#x200B;は、設定していない場合の既定の型です。 送信先のアプリケーションによっては、異なる解釈が行われる場合があります。 [Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)は、例えばデフォルトでマテリアルに設定されます。
-* **標準マテリアル**&#x200B;は、マルチチャンネルPBRマテリアル用で、適切に[出力](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)とラベル付けされています。
-* **デカールマテリアル**&#x200B;は、アルファチャンネルを含むマルチチャンネルのPBRマテリアルで、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)でデカールとして適用されます。
-* **アトラスマテリアル**&#x200B;は、複数のアトラス画像で構成されるマルチチャンネルPBRマテリアル用で、Designerまたは[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)の[Atlas Scatterノード](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)で使用します。
-* **Filter**&#x200B;は、両方とも[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)で使用される、汎用フィルター用です。
-* **メッシュベースのジェネレーター**&#x200B;は、複数入力のマスクジェネレーター用です。 これは[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)のみが使用しています。
-* **テクスチャジェネレーター**&#x200B;は、2Dプロシージャやノイズなどの単一チャンネルマップ用です。
-* **環境光**&#x200B;は、単一チャンネルの照明環境用で、シーンやオブジェクトに光を当てるために使用します。
-* **ライトテクスチャ**&#x200B;は、物理的なライトに適用される単一チャンネルテクスチャ用です。
+* **未指定**&#x200B;は、設定していない場合の既定の型です。 送信先のアプリケーションによっては、異なる解釈が行われる場合があります。 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)は、例えばデフォルトでマテリアルに設定されます。
+* **標準マテリアル**&#x200B;は、マルチチャンネルPBR マテリアル用であり、適切に[出力](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)とラベル付けされています。
+* **デカル転写のマテリアル**&#x200B;は、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)でデカル転写として適用される、アルファチャンネルのあるマルチチャンネルPBR マテリアル用です。
+* **アトラスマテリアル**&#x200B;は、複数のアトラスイメージで構成されるマルチチャンネルPBR マテリアル用のノードです。Designerまたは[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)の[Atlas Scatterノード](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)で使用します。
+* **Filter**&#x200B;は、両方とも[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)で使用される、汎用フィルター用です。
+* **メッシュベースのジェネレーター**&#x200B;は、複数入力マスクジェネレーター用です。 これは[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)のみが使用しています。
+* **テクスチャジェネレータ**&#x200B;は、2Dプロシージャやノイズなどのシングルチャンネルマップ用です。
+* **環境光**&#x200B;は、シーンやオブジェクトに光を当てるために使用される、単一チャンネルの照明環境用です。
+* **ライトテクスチャ**&#x200B;は、物理的なライトに適用されるシングルチャンネルのテクスチャです。
 
 <table>
 <tr style="border: 0;">
@@ -71,17 +71,17 @@ Substanceグラフには多くの機能があります。 グラフの正確な�
 
 ## 「送信先」メニュー
 
-送信処理では、背後からSubstance 3Dアセットファイル(SBSAR)に[公開](../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)個の1つ以上のパッケージが必要でした。
+送信処理では、シーンの背後にあるSubstance 3Dアセットファイル(SBSAR)に[公開](../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)個のパッケージが必要でした。
 
 コンテンツの送信は、次の方法で実行できます。
 
 * パッケージを右クリックして、コンテキストメニューの<b>送信先…</b>サブメニューを開き、ターゲットアプリケーションの<b>送信先…</b>オプションを選択します。
-* エクスプローラーパネルの上部にある「![](../../../assets/sendto-icon.jpg) <b>Publish/送信</b>」ボタンをクリックし、ターゲットアプリケーションの「<b>送信先…</b>」オプションを選択します。
+* アプリケーションパネルの上部にある![](../../../assets/sendto-icon.jpg) <b>Publish/送信</b>ボタンをクリックし、送信先エクスプローラーの<b>送信先…</b>オプションを選択します。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![エクスプローラーの[Publish]/[送信]メニュー](../../../assets/explorer-sendto-displayed.jpg "エクスプローラーの[Publish]/[送信]メニュー")
+![エクスプローラーのPublish/メニューに送信](../../../assets/explorer-sendto-displayed.jpg "エクスプローラーのPublish/メニューに送信")
 
 </td>
 </tr>

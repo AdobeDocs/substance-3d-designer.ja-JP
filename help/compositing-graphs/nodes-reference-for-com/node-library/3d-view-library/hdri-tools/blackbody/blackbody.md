@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/blackbody.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/blackbody.html"
 breadcrumb-title: ''
 description: Blackbodyノードを使用すると、リアルなライトのカラーシミュレーション用に温度に基づいて黒体の放射カラーを生成できます。
 helpx_creative_field: ""
