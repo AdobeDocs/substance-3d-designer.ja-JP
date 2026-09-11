@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのエクスプローラーウィンドウを使用して、プロジェクトのファイルやリソースを参照、整理、管理します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: エクスプローラー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![エクスプローラードック](../../assets/explorer-3.jpg "エクスプローラードック")
+![エクスプローラードック](the-explorer-window.resources/explorer-3.jpg "エクスプローラードック")
 
 </td>
 </tr>
@@ -54,22 +54,22 @@ ht-degree: 2%
 
 ## 上ツールバー
 
-このツールバーを使用すると、ワークフロー全体に関連する機能をすばやく実行できます。 すべてのボタンは&#x200B;*コンテキストに応じた*&#x200B;です。つまり、エクスプローラーの現在の選択範囲に基づいて、ボタンをアクティブにし、動作を変更します。
+このツールバーを使用すると、ワークフロー全体に関連する機能をすばやく実行できます。 すべてのボタンは&#x200B;*コンテキストに応じた*&#x200B;です。つまり、エクスプローラーでの現在の選択に基づいて、ボタンをアクティブにし、動作を変更します。
 
-![](../../assets/save.png) <b>選択したパッケージを保存</b>します。
+![](the-explorer-window.resources/save.png) <b>選択したパッケージを保存</b>します。
 
-![](../../assets/sendto-icon.jpg) <b>Publishまたは[送信](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>選択した要素：
+![](the-explorer-window.resources/sendto-icon.jpg) <b>Publishまたは[送信](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>選択した要素：
 
 * [選択したパッケージをSubstance 3Dアセット(SBSAR)にPublish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* 選択したパッケージを[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)さん、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)さん、または[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)に送信します。
+* 選択したパッケージを[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)さん、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)さん、または[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)に送信します。
 
-![](../../assets/republish.png) <b>Publishまたは以前と同じ形式で送信： </b>選択したアイテムをPublishするか、以前と同じ設定で送信します。 このオプションは、*現在*&#x200B;セッションで既に&#x200B;*少なくとも1回*&#x200B;公開されているパッケージでのみ使用できます。
+![](the-explorer-window.resources/republish.png) <b>Publishまたは以前と同じ形式で送信： </b>選択したアイテムをPublishするか、以前と同じ設定で送信します。 このオプションは、*現在*&#x200B;セッションで既に&#x200B;*少なくとも1回*&#x200B;公開されているパッケージでのみ使用できます。
 
-![](../../assets/graph-cleaner.jpg) <b>選択したグラフの未使用ノードを削除します</b>。 ツールは次の規則に従います。
+![](the-explorer-window.resources/graph-cleaner.jpg) <b>選択したグラフの未使用ノードを削除します</b>。 ツールは次の規則に従います。
 
-* このツールは、選択した項目が&#x200B;*同じ種類* （グラフ、フォルダー、またはパッケージのみ）の場合にのみ使用できます。
-* 選択範囲にフォルダーまたはパッケージが含まれている場合は、その中のすべてのグラフがクリーンアップされます。*再帰的に*;
-* ターゲットグラフの1つが[Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)の場合、2番目のオプションを使用して、そのグラフ内のノード上のすべてのパラメーター関数をクリーンアップできます。
+* このツールは、選択した項目が&#x200B;*同じ種類*:グラフ、フォルダー、またはパッケージのみ)の場合にのみ使用できます。
+* 選択範囲にフォルダーまたはパッケージが含まれている場合、ツールはその中のすべてのグラフを&#x200B;*再帰的に*&#x200B;消去します。
+* ターゲットグラフの1つが[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)の場合、2番目のオプションを使用して、そのグラフ内のノード上のすべてのパラメーター関数をクリーンアップできます。
 
 ツールの詳細については、[グラフビュー](../../interface/the-graph-view/the-graph-view.md)ページの[未使用ノードの削除]セクションを参照してください。
 
@@ -77,14 +77,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Publish/送信ドロップダウンメニュー](../../assets/explorer-sendto-displayed.jpg "Publish/送信ドロップダウンメニュー")
+![Publish/送信ドロップダウンメニュー](the-explorer-window.resources/explorer-sendto-displayed.jpg "Publish/送信ドロップダウンメニュー")
 
 *Publish/送信*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![使用されていないノードの削除ドロップダウンメニュー](../../assets/explorer-graph-cleaner.jpg "使用されていないノードの削除ドロップダウンメニュー")
+![使用されていないノードの削除ドロップダウンメニュー](the-explorer-window.resources/explorer-graph-cleaner.jpg "使用されていないノードの削除ドロップダウンメニュー")
 
 *未使用のノードを削除する*
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 ## コンテキストメニュー
 
-エクスプローラーとのやりとりの大半は、コンテキストメニューを使用して行われます。コンテキストメニューは、エクスプローラーのツリービューでアイテムのRMBをクリックすると表示されます。
+エクスプローラを使用する操作の大部分は、コンテキストメニューを使用して行われます。このコンテキストメニューは、エクスプローラのツリービューにある項目のRMBをクリックすると表示されます。
 
 使用できるオプションは、選択またはクリックしたアイテムによって異なります。
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 +++パッケージ
 
-<b>新しい</b>を使用すると、新しいグラフ ([Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)、[ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)、[ベクターグラフィック](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)のリソース、およびコンテンツを並べ替えるための&#x200B;*フォルダー*&#x200B;を作成できます
+<b>新規</b>を使用すると、コンテンツの並べ替えに使用する&#x200B;*フォルダー*&#x200B;に加えて、新しいグラフ([Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)および[ベクターグラフィックス](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)のリソースを作成できます
 
 <b>読み込み</b>と<b>リンク</b>[のリソースを取り込む](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 <b>依存関係のあるエクスポート</b>は、保存および発行とは異なります。 SBSファイルを取得し、参照されているすべてのリソースと依存関係を収集して、自己完結型のパッケージを作成します。 このダイアログでは、収集するライブラリと、ファイルを圧縮アーカイブ(7-zip)にするかどうかを選択できます。 これは、依存関係の欠落を気にすることなく、SBSファイルを他のユーザーと共有する場合に適しています。
 
-<b>送信先…</b>は、パッケージを直接[送信先](send-to-interoperability/send-to-interoperability.md)として[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)または[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)に送信するためのサブメニューを開きます。
+<b>送信先…</b>は、パッケージを直接[送信先](send-to-interoperability/send-to-interoperability.md)として[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)または[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)に送信するためのサブメニューを開きます。
 
 <b>コピー</b>選択したパッケージをコピーします。
 
@@ -158,7 +158,7 @@ ht-degree: 2%
 
 +++3D シーンリソース
 
-<b>開く：</b> （戻る）この3D メッシュを[3D ビュー](../../interface/3d-view/3d-view.md)で使用し、標準の立方体または平面を置き換えます。
+<b>開く：</b> （戻る）この3Dメッシュを[3Dビュー](../../interface/3d-view/3d-view.md)で使用し、標準の立方体または平面を置き換えます。
 
 <b>コピー：</b> (Ctrl-C)このリソースをクリップボードにコピーします。
 
@@ -170,17 +170,17 @@ ht-degree: 2%
 
 <b>再読み込み：</b>このメッシュをディスクから強制的に再読み込みします。
 
-<b>エクスプローラーに表示：</b>ディスク上のリソースの場所でシステムファイルブラウザーウィンドウを開きます。
+<b>エクスプローラーで表示：</b>ディスク上のリソースの場所で、システムファイルブラウザーウィンドウを開きます。
 
-<b>再配置:</b>このリソースを別のファイルにリンクするように変更します。
+<b>場所の変更：</b>このリソースを別のファイルにリンクするように変更します。
 
-<b>モデル情報の烘焙...:</b> [ベイクダイアログを開きます。](../../bakers/bakers.md)
+<b>モデル情報のベイク処理…:</b> [ベイク処理ダイアログを開きます。](../../bakers/bakers.md)
 
 +++
 
 +++フォルダー
 
-<b>新規：</b>コンテンツの並べ替えに使用する&#x200B;*グラフー*&#x200B;に加え、新しいSubstanceー([フォルダーグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md)、[ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)および[ベクターグラフィック](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)をフォルダー内に作成できます。
+<b>新規：</b>新しいグラフ([Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md)、[ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)および[ベクターグラフィックス](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)リソースと、コンテンツの並べ替えに使用する&#x200B;*フォルダー*&#x200B;をフォルダー内に作成できます。
 
 <b>読み込み</b>と<b>リンク： </b>[リソース](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)を取り込んで、フォルダーに配置します。
 
@@ -198,11 +198,11 @@ ht-degree: 2%
 
 ## 下部ツールバー
 
-エクスプローラードックの下部にあるツールバーには、パッケージまたはパッケージリソースに関する次の情報が表示されます。
+エクスプローラドックの下部にあるツールバーには、パッケージまたはパッケージリソースに関する次の情報が表示されます。
 
-<b>![](../../assets/explorer-dependencies.jpg)依存関係：</b>パッケージを選択すると、そのパッケージの依存関係が専用パネルに一覧表示されます。
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg)依存関係：</b>パッケージを選択すると、そのパッケージの依存関係が専用パネルに一覧表示されます。
 
-<b>![](../../assets/explorer-information.jpg)情報：</b>現在選択されているパッケージまたはリソースに関連するメタデータを提供します：
+<b>![](the-explorer-window.resources/explorer-information.jpg)情報：</b>現在選択されているパッケージまたはリソースに関連するメタデータを提供します：
 
 * パッケージ：パッケージの完全なファイルパス
 * [ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md):リソースの完全なファイルパス、その[ICCプロファイル](../../color-management/color-management.md)、画像サイズおよび[インポートメソッド](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) （例： *リンク*&#x200B;または&#x200B;*インポート*）
@@ -211,14 +211,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![依存関係パネル](../../assets/explorer-dependencies-displayed.jpg "依存関係パネル")
+![依存関係パネル](the-explorer-window.resources/explorer-dependencies-displayed.jpg "依存関係パネル")
 
 *依存関係*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![情報パネル](../../assets/explorer-information-displayed.jpg "情報パネル")
+![情報パネル](the-explorer-window.resources/explorer-information-displayed.jpg "情報パネル")
 
 *情報*
 

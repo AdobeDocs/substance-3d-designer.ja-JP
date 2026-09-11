@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: Substance 3D Designerの「相互運用に送信」機能を使用して、マテリアルを他のアプリケーションに書き出します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 送信先...  互換性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,16 +20,16 @@ ht-degree: 1%
 
 # 送信先...  互換性
 
-![DesignerからSubstance 3Dアプリケーションに送信](../../../assets/explorer-interop.png "DesignerからSubstance 3Dアプリケーションに送信"){width="512px"}
+![DesignerからSubstance 3Dアプリケーションに送信](send-to-interoperability.resources/explorer-interop.png "DesignerからSubstance 3Dアプリケーションに送信"){width="512px"}
 
-Adobe Substance 3D Designerは、[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)および[Substance 3D Stager](https://www.adobe.com/jp/products/substance3d-stager.html)と相互運用できます。 これにより、*送信*&#x200B;と&#x200B;*再送信*&#x200B;を行ってすばやく作業し、Substance 3Dエコシステム全体で容易に繰り返すことができます。
+Adobe Substance 3D Designerは、[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)および[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)と相互運用できます。 これにより、*送信*&#x200B;と&#x200B;*再送信*&#x200B;をすばやく処理でき、Substance 3Dエコシステム全体での反復が容易になります。
 
 通常、ワークフローは次のようになります。
 
-1. [Substanceグラフのプロパティ](../../../compositing-graphs/graph-parameters/graph-parameters.md)に<b>Type</b>属性を設定します
-1. [エクスプローラー](../the-explorer-window.md)パネルで、送信するパッケージを選択します
+1. [グラフのプロパティ](../../../compositing-graphs/graph-parameters/graph-parameters.md)に<b>Type</b>属性を設定します
+1. [エクスプローラー](../the-explorer-window.md)パネルで、送付するパッケージを選択します
 1. エクスプローラーの<b>Publish/送信</b>ドロップダウンで、対象のアプリケーションを選択します
-1. グラフに変更を加える
+1. グラフを変更
 1. 手順3を繰り返してパッケージを再送信し、既存の送信済みアセットに変更を適用します
 
 >[!WARNING]
@@ -40,27 +40,27 @@ Adobe Substance 3D Designerは、[Substance 3D Sampler](https://www.adobe.com/jp
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## グラフタイプの設定
+## グラフの種類の設定
 
-Substanceグラフには多くの機能があります。 グラフの正確な機能を事前に定義して、正しく送信できるようにしておく必要があります。
+グラフには多くの機能があります。 グラフの正確な機能を事前に定義し、正しく送信できるようにしておく必要があります。
 
 [グラフのプロパティ](../../../compositing-graphs/graph-parameters/graph-parameters.md)の<b>属性</b>セクションには、<b>型</b>のオプションがあり、次のオプションを含むドロップダウンがあります。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![グラフの型属性](../../../assets/type-attribute.jpg "Substanceグラフの型属性")
+![グラフの型属性](send-to-interoperability.resources/type-attribute.jpg "Substanceグラフの型属性")
 
 </td>
 </tr>
 </table>
 
-* **未指定**&#x200B;は、設定していない場合の既定の型です。 送信先のアプリケーションによっては、異なる解釈が行われる場合があります。 [Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)は、例えばデフォルトでマテリアルに設定されます。
+* **未指定**&#x200B;は、設定していない場合の既定の型です。 送信先のアプリケーションによっては、異なる解釈が行われる場合があります。 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)は、例えばデフォルトでマテリアルに設定されます。
 * **標準マテリアル**&#x200B;は、マルチチャンネルPBR マテリアル用であり、適切に[出力](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)とラベル付けされています。
-* **デカル転写のマテリアル**&#x200B;は、[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)でデカル転写として適用される、アルファチャンネルのあるマルチチャンネルPBR マテリアル用です。
-* **アトラスマテリアル**&#x200B;は、複数のアトラスイメージで構成されるマルチチャンネルPBR マテリアル用のノードです。Designerまたは[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)の[Atlas Scatterノード](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)で使用します。
-* **Filter**&#x200B;は、両方とも[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)で使用される、汎用フィルター用です。
-* **メッシュベースのジェネレーター**&#x200B;は、複数入力マスクジェネレーター用です。 これは[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)のみが使用しています。
+* **デカル転写のマテリアル**&#x200B;は、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)でデカル転写として適用される、アルファチャンネルのあるマルチチャンネルPBR マテリアル用です。
+* **アトラスマテリアル**&#x200B;は、複数のアトラスイメージで構成されるマルチチャンネルPBR マテリアル用のノードです。Designerまたは[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)の[Atlas Scatterノード](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)で使用します。
+* **Filter**&#x200B;は、両方とも[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)で使用される、汎用フィルター用です。
+* **メッシュベースのジェネレーター**&#x200B;は、複数入力マスクジェネレーター用です。 これは[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)のみが使用しています。
 * **テクスチャジェネレータ**&#x200B;は、2Dプロシージャやノイズなどのシングルチャンネルマップ用です。
 * **環境光**&#x200B;は、シーンやオブジェクトに光を当てるために使用される、単一チャンネルの照明環境用です。
 * **ライトテクスチャ**&#x200B;は、物理的なライトに適用されるシングルチャンネルのテクスチャです。
@@ -76,12 +76,12 @@ Substanceグラフには多くの機能があります。 グラフの正確な�
 コンテンツの送信は、次の方法で実行できます。
 
 * パッケージを右クリックして、コンテキストメニューの<b>送信先…</b>サブメニューを開き、ターゲットアプリケーションの<b>送信先…</b>オプションを選択します。
-* アプリケーションパネルの上部にある![](../../../assets/sendto-icon.jpg) <b>Publish/送信</b>ボタンをクリックし、送信先エクスプローラーの<b>送信先…</b>オプションを選択します。
+* アプリケーションパネルの上部にある![](send-to-interoperability.resources/sendto-icon.jpg) <b>Publish/送信</b>ボタンをクリックし、送信先エクスプローラーの<b>送信先…</b>オプションを選択します。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![エクスプローラーのPublish/メニューに送信](../../../assets/explorer-sendto-displayed.jpg "エクスプローラーのPublish/メニューに送信")
+![エクスプローラーのPublish/メニューに送信](send-to-interoperability.resources/explorer-sendto-displayed.jpg "エクスプローラーのPublish/メニューに送信")
 
 </td>
 </tr>

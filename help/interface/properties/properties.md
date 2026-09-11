@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designerのプロパティパネルを使用して、ノードのプロパティとグラフパラメーターを表示および編集します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プロパティ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Substance 3D Designerの<b>プロパティ</b>パネルとそのレイアウト�
 </td>
 <td style="border: 0;" valign="top">
 
-![プロパティドック](../../assets/image2020-11-9-13-49-48.png "プロパティドック")
+![プロパティドック](properties.resources/image2020-11-9-13-49-48.png "プロパティドック")
 
 </td>
 </tr>
