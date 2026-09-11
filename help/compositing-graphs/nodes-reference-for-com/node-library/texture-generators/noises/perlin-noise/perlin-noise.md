@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
 description: パーリンノイズノードを使用して、自然なテクスチャやバリエーションを生み出すための滑らかな自然な外観のノイズパターンを作成します。
 helpx_creative_field: ""

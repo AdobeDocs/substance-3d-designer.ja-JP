@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
 breadcrumb-title: ''
 description: プラズマノードを使用して、有機的および流体のテクスチャエフェクトを作成するためのプラズマのようなノイズパターンを作成します。
 helpx_creative_field: ""
