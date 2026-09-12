@@ -10,7 +10,7 @@ helpx_tags: ""
 title: プラグインマネージャー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 <b>プラグインマネージャー</b>ダイアログには、メインメニューバーの<b>ツール</b>メニューからアクセスできます。 *アクティブ*&#x200B;なプラグインと、*プラグインの読み込みと読み込み解除*&#x200B;プラグインを確認できます。
 
-![プラグインマネージャー](../../assets/pluginmgr.png "プラグインマネージャー")
+![プラグインマネージャー](plugin-manager.resources/pluginmgr.png "プラグインマネージャー")
 
 <b>参照</b>ボタンを使用してPythonファイルを選択することにより、プラグインを&#x200B;*手動*&#x200B;で読み込むこともできます。
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 新しいリソースの読み込み、リンクおよび追加
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 |                                                                                                                                                                         | 新規 | 読み込み | リンク |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| グラフ([Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md) | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md),[ベクターグラフィック (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 3D シーン、[フォント](../../resources/font-resource/font-resource.md) | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| SBSファイルの横に作成されます | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Designerで編集可能 | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| 外部編集は自動的に同期されます | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 公開されたSBSARに埋め込まれています | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| グラフ([Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../../function-graphs/function-graphs.md) | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md),[ベクターグラフィック (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 3D シーン、[フォント](../../resources/font-resource/font-resource.md) | <div><img alt="（エラー）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| SBSファイルの横に作成されます | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| Designerで編集可能 | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（エラー）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| 外部編集は自動的に同期されます | <div><img alt="（エラー）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（エラー）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 公開されたSBSARに埋め込まれています | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（ティック）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（ティック）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
 
 ## 新しいリソース
 
@@ -69,4 +69,4 @@ Designerで同時に作業しながら、外部エディターを使用してリ
 > パッケージからアイテムを削除した結果、*依存関係が壊れていることを予測*&#x200B;するために、これらのアイテムに注意して必要なアクションを実行することをお勧めします。\
 > これらのアクションには、削除前にこれらのリソースの&#x200B;*すべての使用を削除*&#x200B;することが含まれる場合があります。
 
-![&#39;使用中のリソースが削除されました&#39;警告](../../assets/confirm-item-removal.png "&#39;使用中のリソースが削除されました&#39;警告"){width="512px"}
+![&#39;使用中のリソースが削除されました&#39;警告](importing-linking-and-new-resources.resources/confirm-item-removal.png "&#39;使用中のリソースが削除されました&#39;警告"){width="512px"}

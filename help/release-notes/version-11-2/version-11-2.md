@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 Substance 3D DesignerのAdobe版には新しい送信機能が追加され、他のSubstance 3Dアプリケーションにすばやくアセットを送信できるようになりました。 SBSARとして公開して個々のファイルを読み込む必要がなくなり、「送信先」を使用するとワンクリックで問題が解決します。
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Substance 3D DesignerのAdobe版には新しい送信機能が追加され、他
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Substance 3D DesignerのAdobe版には新しい送信機能が追加され、他
 
 RTAOは、前のHBAOノードよりも鮮明で正確なAOを実行します。
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
 コースティクスは、単純なパーリンノイズなどの高いマップに基づいて、物理的に正確なレイトレースコースティクスを生成します。 リアルタイムコースティクス用のリアルなアニメートされたフリップブックテクスチャの作成に適しています。
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 「RTシャドウ」は、レイトレースされた正確なシャドウを簡単なコントロールで表現します。
 
@@ -92,17 +92,17 @@ RTAOは、前のHBAOノードよりも鮮明で正確なAOを実行します。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RTAOは、前のHBAOノードよりも鮮明で正確なAOを実行します。
 
 RT放射は、新しいノードの中で最も高度なノードです。 Heightマップと環境マップおよび/または放射マップを持つマテリアルに基づいてレイトレースされた放射を行います。
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
 つまり、スタイライズされたプロジェクトなどにあらかじめベイク処理されたライティングを使用してテクスチャを作成したり、レイトレースグローバウンスでハイトマップからベイク処理したりできます。
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
 最後にBent Normalノードがあります。 通常の通常の変換と比較すると、このノードはAOを使用して法線マップを変更し、そのAO情報を使用します。 効果を作成するためにメッシュベイカーが必要になる前に、このノードはテクスチャで処理します。
 

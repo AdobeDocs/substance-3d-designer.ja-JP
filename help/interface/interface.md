@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Workspace
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -87,13 +87,13 @@ Designerの初期設定のドックのレイアウトは次のとおりです。
 
 ## エクスプローラー
 
-[エクスプローラーウィンドウ](the-explorer-window/the-explorer-window.md)は、あらゆる種類のファイルやリソースを操作するための主要な方法です。 メインツールバーのファイルメニューよりも多くのオプションを提供します。ここで、すべての作業セッションの開始と終了が行われます。
+[エクスプローラーウィンドウ](the-explorer-window/the-explorer-window.md)は、あらゆる種類のファイルやリソースを操作するための主要な手段です。 メインツールバーのファイルメニューよりも多くのオプションを提供します。ここで、すべての作業セッションの開始と終了が行われます。
 
 ![エクスプローラー](interface.resources/explorer-4.png "エクスプローラー")
 
 ## グラフビュー
 
-[グラフビューのドック](../interface/the-graph-view/the-graph-view.md)は、Substance 3D Designerで最も重要なウィンドウです。 Designerで使用可能な任意の種類のグラフ（[Substanceグラフ](../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../function-graphs/function-graphs.md)、[FX-Mapグラフ](../function-graphs/fxmaps/fxmaps.md)）のノードネットワークを表示し、作成および編集できます。
+[グラフビュードック](../interface/the-graph-view/the-graph-view.md)は、Substance 3D Designerで最も重要なウィンドウです。 Designerで利用できるあらゆる種類のグラフ（[Substanceグラフ](../compositing-graphs/substance-compositing-graphs.md)、[Substance関数グラフ](../function-graphs/function-graphs.md)、[FX-Mapグラフ](../function-graphs/fxmaps/fxmaps.md)）のノードネットワークが表示され、作成および編集できます。
 
 ![グラフビュー](interface.resources/graph-6.png "グラフビュー")
 
@@ -105,18 +105,18 @@ Designerの初期設定のドックのレイアウトは次のとおりです。
 
 ## 2D ビュー
 
-[2Dビュー](../interface/2d-view/2d-view.md)は最も簡単なプレビューツールです。 この機能は、グラフと密接に連携しています。グラフビューの任意のノードをダブルクリックすると、2Dビューに視覚的な結果が表示されます。
+[2D ビュー](../interface/2d-view/2d-view.md)は最も簡単なプレビューツールです。 この機能は、グラフと密接に連携しています。グラフビューの任意のノードをダブルクリックすると、視覚的な結果が2D ビューに表示されます。
 
-![2Dビュー](interface.resources/2d-view-1.jpg "2Dビュー")
+![2D ビュー](interface.resources/2d-view-1.jpg "2D ビュー")
 
 ## 3D ビュー
 
-[3Dビュー](../interface/3d-view/3d-view.md)は、最もインタラクティブで高度なプレビューウィンドウです。 2Dビューとは異なり、マテリアル全体をレンダリングするには、さまざまな出力マップを使用します。 つまり、ベースカラー、法線、粗さなど、すべてのチャンネルが表示されます。
+[3D ビュー](../interface/3d-view/3d-view.md)は、最もインタラクティブで高度なプレビューウィンドウです。 2D ビューとは異なり、フルマテリアルをレンダリングするには、さまざまな出力マップを使用します。 つまり、ベースカラー、標準、ラフネスなどのすべてのチャンネルが表示されます。
 
-![3Dビュー](interface.resources/3dview-3.jpg "3Dビュー")
+![3D ビュー](interface.resources/3dview-3.jpg "3D ビュー")
 
 ## ライブラリ
 
-[ライブラリドック](../interface/the-library/the-library.md)では、Designerのライブラリに含まれているすべてのコンテンツと[カスタムコンテンツ](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)に既定でアクセスできます。 アトミックノードとライブラリ内のインスタンスノードの違いをより深く理解するには、[ノードの概要](https://helpx.adobe.com/substance-designer/using/nodes-overview.html)を参照してください。
+[ライブラリドック](../interface/the-library/the-library.md)では、Designerのライブラリに含まれているすべてのコンテンツと[カスタムコンテンツ](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)に既定でアクセスできます。
 
 ![ライブラリ](interface.resources/library-3.jpg "ライブラリ")

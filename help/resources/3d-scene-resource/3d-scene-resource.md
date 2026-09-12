@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D シーンリソース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -56,7 +56,7 @@ ht-degree: 1%
 * リソースを[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)に読み込んだ状態で、*RMB*&#x200B;をクリックし、コンテキストメニューの<b>モデル情報のベイク</b>をクリックします
 * [モデル情報のベイク](../../bakers/bakers.md)ダイアログが表示され、メッシュマップベイクを設定および実行できます
 
-![メッシュマップ](../../assets/bake-model-information.gif "ベイク処理メッシュマップ"){width="512px"}
+![メッシュマップ](3d-scene-resource.resources/bake-model-information.gif "ベイク処理メッシュマップ"){width="512px"}
 
 ## UDIM/UVタイルの使用
 

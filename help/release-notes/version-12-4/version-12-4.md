@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
@@ -30,49 +30,49 @@ ht-degree: 1%
 
 グラフを編集する際には、いくつかの方法を試してみたり、目的の結果が得られるまで様々なノードを接続または抜いたりする必要がある場合があります。 グラフの最後には、出力にコネクトされていないノードがあるため、最終結果に影響を与えません。 この新しいツールを使用すると、それらのノードを自動的に検出して削除し、グラフをファイナライズする前にクリーンアップできます。 クリーニングツールはオプションでパラメータ機能を調べることもでき、グラフビューのツールバーにある専用のボタンを使用して現在のグラフ上で起動したり、エクスプローラビューから選択したグラフ上で起動したりできます。
 
-![](../../assets/final-clean.gif){width="640px"}
+![](version-12-4.resources/final-clean.gif){width="640px"}
 
 ### パラメーターフィールドに数式を入力する
 
 特定のパラメータ値を入力する場合は、計算ツールを使用したり、頭の中で計算したりする必要がなくなりました。 アプリケーションのプロパティやその他の場所でパラメーターの数値を設定する際に、加算、除算、乗算、減算などの基本的な数式を直接入力できるようになりました。
 
-![](../../assets/final-formula.gif){width="640px"}
+![](version-12-4.resources/final-formula.gif){width="640px"}
 
 ### 3Dビューのクイックアクセスボタン
 
 [3Dビュー](../../interface/3d-view/3d-view.md)には、[ディスプレイ](../../interface/3d-view/3d-view.md)メニューで利用できるすべてのオプションに対応するツールバーが追加され、これらすべてのオプション（ワイヤーフレーム、グリッド、バウンディングボックスなど）にすばやくアクセスできるようになりました ボタンの切り替え また、環境マップの表示/非表示を切り替えるトグルも追加しました。
 
-![](../../assets/final-3dview.gif){width="640px"}
+![](version-12-4.resources/final-3dview.gif){width="640px"}
 
 ### ランダムシードを生成するボタン
 
 スライダーを移動する代わりに、新しいボタンを使用してグラフのランダムシードを生成することで、様々なバリエーションをすばやく作成できるようになりました。
 
-![](../../assets/final-seed.gif){width="640px"}
+![](version-12-4.resources/final-seed.gif){width="640px"}
 
 ### 出力サイズウィジェットのロック
 
 出力サイズの幅とHeightを固定して、正方形のサイズを維持できるようにし、2つの値を更新するたびに操作しないようにできるようになりました。
 
-![](../../assets/final-lock.gif){width="640px"}
+![](version-12-4.resources/final-lock.gif){width="640px"}
 
 ### 画像入力をカラー/グレースケールに変換
 
 ノードのコンテキストメニューで[Input Color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)と[Input Greyscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)をすばやく切り替えます。
 
-![](../../assets/final-switch.gif){width="640px"}
+![](version-12-4.resources/final-switch.gif){width="640px"}
 
 ### グラデーションエディターを表示するときにクリックしたピンを選択
 
 プロパティパネルで、ピンをクリックしてグラデーションを編集すると、表示されている[グラデーションエディター](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)で対応するピンが自動的に選択されます。
 
-![](../../assets/final-gradient.gif){width="640px"}
+![](version-12-4.resources/final-gradient.gif){width="640px"}
 
 ### 下流ノードを選択
 
 選択したノードの出力に接続されているすべてのノードを直接または間接的に選択するための[ノードコンテキストメニュー](../../interface/the-graph-view/the-graph-view.md)の新しいエントリです。 そのため、ノードの影響を受けるすべてのノードを選択します。 グラフの一部を削除したり、グラフレイアウトを再調整したりする場合に便利です。
 
-![](../../assets/final-downstream.gif){width="640px"}
+![](version-12-4.resources/final-downstream.gif){width="640px"}
 
 ## Python APIアップデート
 

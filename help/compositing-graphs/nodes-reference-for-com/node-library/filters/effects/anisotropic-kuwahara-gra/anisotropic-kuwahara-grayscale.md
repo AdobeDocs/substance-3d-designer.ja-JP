@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 異方性桑原グレースケール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 77757b47067c1ae2bcdaa482a9181a8fe651c191
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![異方性桑原グレースケールアイコン](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/AnisotropicKuwaharaGrayscale.png "異方性桑原グレースケールアイコン"){width="200px"}
+![異方性桑原グレースケールアイコン](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_grayscale.png "異方性桑原グレースケールアイコン"){width="200px"}
 
 <b>イン:</b>フィルター/効果
 
@@ -37,6 +37,8 @@ ht-degree: 0%
 
 この調整可能なぼかしは、*方向マップ*&#x200B;を計算または受け取って、流量を特定します。流量は、より平坦で明確に定義された領域にシャープにすることができます。
 
+関連項目： [異方性桑原カラー](../anisotropic-kuwahara/anisotropic-kuwahara.md)
+
 </td>
 </tr>
 </table>
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 このフィルターは、絵画調の効果を生み出すことができ、スタイル設定に便利です。
 
-<b>異方性</b>
++++ 異方性
 
 下の図に示すように、流れの強さは主に[異方性](#parameters)パラメーターで制御されます。
 
@@ -55,64 +57,60 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![桑原フィルターを0の異方性で適用した果物のボウル。](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_gray_example_3_before.jpg){zoomable="yes"}
+![桑原フィルターを0の異方性で適用した果物のボウル。](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_3_before.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![桑原フィルターを0の異方性で適用した果物のボウル。](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_gray_example_3_after.jpg){zoomable="yes"}
+![桑原フィルターを0の異方性で適用した果物のボウル。](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_3_after.jpg){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-<a name="inputs"></a>
++++
 
 ## 入力
 
-|  |  |
-|:---|:---|
-| <b>入力</b> <i>グレースケール</i> <b>プライマリ</b> | 処理するグレースケールイメージです。 |
-| <b>異方性角度マップ</b> <i>グレースケール</i> | グレースケール値が回転の回数である、計算された方向に適用される追加の回転を示すグレースケールイメージ。   マップは、異方性パラメータが0の場合も影響を与えます。これは、桑原フィルタで使用されるカーネルのローテーションに影響を与えるためです。 |
+|                                                       |                                                                                                                                                                                                                                                                                                                         |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>入力</b> <i>グレースケール</i><br><code>プライマリ</code> | 処理するグレースケールイメージです。 |
+| <b>異方性角度マップ</b> <i>グレースケール</i> | グレースケールの画像は、計算された方向に適用される追加の回転を表します。グレースケールの値は回転の回数です。   マップは、異方性パラメータが0の場合も影響を与えます。これは、桑原フィルタで使用されるカーネルのローテーションに影響を与えるためです。 |
 | <b>勾配マップ</b> <i>グレースケール</i> | 「勾配マップ入力乗数」パラメータ値に従って、方向マップが準拠する勾配を表すマップ。 |
 | <b>半径マップ（オプション）</b> <i>グレースケール</i> | 接続すると、ブラーの「半径」が入力画像に対して乗算されます。 |
 | <b>方向マップ</b> <i>色</i> | 異方性反射フィルタカーネルによって使用される方向を記述するマップ。   マップは、異方性パラメータが0の場合も影響を与えます。これは、桑原フィルタで使用されるカーネルのローテーションに影響を与えるためです。   メモ：この入力は、「入力方向マップーを使用」パラメーターが「True」に設定されている場合にのみ使用されます。 |
 
-<a name="outputs"></a>
-
 ## 出力
 
-|  |  |
-|:---|:---|
+|                                   |                                                                                                                                                                                                                                      |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>出力</b> <i>グレースケール</i> | 入力画像上のノードによって適用された異方性ブラーの結果。 |
 | <b>方向マップ</b> <i>色</i> | 入力画像から計算された方向マップを使用して、不等方性ブラーを駆動します。   「入力方向マップーを使用」パラメーターが「True」に設定されている場合、「方向マップー」入力に指定された画像が使用され、そのまま出力されます。 |
 
-<a name="parameters"></a>
-
 ## パラメーター
 
-|  |  |
-|:---|:---|
-| <b>半径</b> *浮動小数* | ブラーの半径の値を大きくすると、ぼかし効果が強くなります。   最大値は32です。 |
-| <b>Smoothness</b> *浮動小数* | 計算された方向にカラーをブレンドする量を調整します。   この値を0に設定すると、カラーはほとんどその方向に置き換えられ、ブレンドはほとんど発生しません。 |
-| <b>シャープ</b> *浮動小数* | ぼやけた領域のコントラストが上がり、より平坦で鮮明に見えます。 |
-| <b>異方性</b> *浮動小数* | ぼかしの方向マップの効果を調整します。   このパラメーター値が0の場合は、方向マップとそのすべての修飾子（パラメーターと入力マップの両方）が有効です。これは、方向マップが桑原フィルターカーネルで使用されているためです。 |
-| <b>入力方向マップを使用する</b> *ブーリアン* | 「True」の場合、入力画像から方向マップは計算されず、代わりに「方向マップ」入力に接続されたイメージを使用して異方性ブラーが駆動されます。 |
-| <b>テンソルSmoothness</b> *浮動小数* *[入力方向マップの使用]が&#39;False&#39;に設定されている場合に使用できます* | 画像から計算されて方向マップに保存された方向に対して適用されるぼかしの強さを調整します。   この値を大きくすると、画像に高い周波数のディテールが多く含まれている場合に、滑らかな結果が得られます。 |
-| <b>Anisotropy angle</b> *浮動小数* *[入力方向マップの使用]が&#39;False&#39;に設定されている場合に使用できます* | 方向マップに回転をターン数で追加します。   この追加のローテーションは、&#39;Anisotropy angleマップ&#39;入力で指定されたローテーションを使用した&#x200B;*cumulative*&#x200B;です。 |
-| <b>Anisotropy angleマップマルチプライヤ</b> *浮動小数* *[入力方向マップの使用]が&#39;False&#39;に設定されている場合に使用できます* | 「Anisotropy angleマップ」入力の値の強さを調整します。この値は、方向マップに適用される回転の上にターン数で追加されます。   この追加回転角度は、&#39;異方性角度&#39;パラメーターで指定された回転角度を持つ&#x200B;*累積回転角度*&#x200B;です。 |
-| <b>勾配マップ入力乗数</b> *Float* *[入力方向マップの使用]が&#39;False&#39;に設定されている場合に使用できます* | 「勾配マップ」の入力によって提供される勾配に合わせて方向マップの適用度を調整します。 |
+|                                                                                                                              |                                                                                                                                                                                                                                                                               |
+|------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>半径</b> <i>浮動小数</i> | ブラーの半径の値を大きくすると、ぼかし効果が強くなります。   最大値は32です。 |
+| <b>Smoothness</b> <i>浮動小数</i> | 計算された方向にカラーをブレンドする量を調整します。   この値を0に設定すると、カラーはほとんどその方向に置き換えられ、ブレンドはほとんど発生しません。 |
+| <b>シャープ</b> <i>浮動小数</i> | ぼやけた領域のコントラストが上がり、より平坦で鮮明に見えます。 |
+| <b>異方性</b> <i>浮動小数</i> | ぼかしの方向マップの効果を調整します。   このパラメーター値が0の場合は、方向マップとそのすべての修飾子（パラメーターと入力マップの両方）が有効です。これは、方向マップが桑原フィルターカーネルで使用されているためです。 |
+| <b>入力方向マップを使用する</b> <i>ブーリアン</i> | 「True」の場合、入力画像から方向マップは計算されず、代わりに「方向マップ」入力に接続されたイメージを使用して異方性ブラーが駆動されます。 |
+| <b>テンソルSmoothness</b> <i>浮動小数</i><br><br><i>[入力方向マップーを使用]が&#39;False&#39;に設定されている場合に使用できます</i> | 画像から計算されて方向マップに保存された方向に対して適用されるぼかしの強さを調整します。   この値を大きくすると、画像に高い周波数のディテールが多く含まれている場合に、滑らかな結果が得られます。 |
+| <b>Anisotropy angle</b> <i>浮動小数</i><br><br><i>[入力方向マップーを使用]が&#39;False&#39;に設定されている場合に使用できます</i> | 方向マップに回転をターン数で追加します。   この追加のローテーションは、&#39;Anisotropy angleマップ&#39;入力で指定されたローテーションを使用した&#x200B;*cumulative*&#x200B;です。 |
+| <b>Anisotropy angleマップマルチプライヤ</b> <i>浮動小数</i><br><br><i>[入力方向マップーを使用]が&#39;False&#39;に設定されている場合に使用できます</i> | 「Anisotropy angleマップ」入力の値の強さを調整します。この値は、方向マップに適用される回転の上にターン数で追加されます。   この追加のローテーションは、&#39;Anisotropy angle&#39;パラメーターで指定されたローテーションと共に&#x200B;*cumulative*&#x200B;です。 |
+| <b>勾配マップ入力乗数</b> <i>浮動小数</i><br><br><i>[入力方向マップーを使用]が&#39;False&#39;に設定されている場合に使用できます</i> | 「勾配マップ」の入力によって提供される勾配に合わせて方向マップの適用度を調整します。 |
 
 ## 例
 
 <table>
   <tr>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_1_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_1_before.jpg" alt="anisotropic_kuwahara_gray_example_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_1_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_1_after.jpg" alt="anisotropic_kuwahara_gray_example_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -121,11 +119,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_2_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_2_before.jpg" alt="anisotropic_kuwahara_gray_example_2_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_2_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_2_after.jpg" alt="anisotropic_kuwahara_gray_example_2_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -134,11 +132,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_4_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_4_before.jpg" alt="anisotropic_kuwahara_gray_example_4_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_4_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_4_after.jpg" alt="anisotropic_kuwahara_gray_example_4_after">
       <br><i>後</i>
     </td>
   </tr>

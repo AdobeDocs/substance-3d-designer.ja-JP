@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ビットマップペイントツール
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 このページでは、互換性のあるビットマップの[2Dビュー](../../../interface/2d-view/2d-view.md)パネルで使用できるペイントツールについて説明します。
 
-![2D表示のビットマップペイントツール](../../../assets/2dview-paintingtools-main_1.png "2D表示のビットマップペイントツール"){width="512px"}
+![2D表示のビットマップペイントツール](bitmap-painting-tools.resources/2dview-paintingtools-main_1.png "2D表示のビットマップペイントツール"){width="512px"}
 
 ## 概要
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 > 
 > タブレットユーザーは、最も信頼性の高いエクスペリエンスを実現するために、次のページで説明されている設定を適用する必要があります： [ペンとタブレットの構成](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![新しいビットマップダイアログ](../../../assets/2dview-paintingtools-new-bitmap.png "新しいビットマップダイアログ"){width="512px"}
+![新しいビットマップダイアログ](bitmap-painting-tools.resources/2dview-paintingtools-new-bitmap.png "新しいビットマップダイアログ"){width="512px"}
 
 ## ペイントツールの有効化
 
@@ -77,15 +77,15 @@ ht-degree: 0%
 
 ペイントツールは&#x200B;**ツール選択ツールバー**&#x200B;にあります。このツールバーは、初期設定では[2D ビュー](../../../interface/2d-view/2d-view.md)パネルの&#x200B;*左側*&#x200B;に配置されています。 キーボードショートカットを使用すると、これらのツールにすばやくアクセスでき、ツール/関数名の後ろにかっこで囲まれた以下のマークが付きます。
 
-![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>カラー選択</b> <b>サムネイル：</b> *プライマリ*&#x200B;および&#x200B;*セカンダリ*&#x200B;の色を定義できます。 これらのサムネイルのいずれかをクリックすると、<b>カラーエディター</b>ウィンドウが表示され、色を定義できます。 ツールは&#x200B;*プライマリ*&#x200B;色を使用します。 プライマリとセカンダリの色はいつでも&#x200B;*交換* (<b>X</b>)できます
+![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-secondary.png) <b>カラー選択</b> <b>サムネイル：</b> *プライマリ*&#x200B;および&#x200B;*セカンダリ*&#x200B;の色を定義できます。 これらのサムネイルのいずれかをクリックすると、<b>カラーエディター</b>ウィンドウが表示され、色を定義できます。 ツールは&#x200B;*プライマリ*&#x200B;色を使用します。 プライマリとセカンダリの色はいつでも&#x200B;*交換* (<b>X</b>)できます
 
-![](../../../assets/2dview-paintingtools-icon-brush.png) <b>ブラシツール(B):</b> [ツールオプション]ツールバーで定義されたオプションを使用して、ペンヒントまたは<b>LMB</b>ボタンが押されたときに、カーソルの場所に&#x200B;*プライマリ*&#x200B;色を適用します
+![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush.png) <b>ブラシツール(B):</b> [ツールオプション]ツールバーで定義されたオプションを使用して、ペンヒントまたは<b>LMB</b>ボタンが押されたときに、カーソルの場所に&#x200B;*プライマリ*&#x200B;色を適用します
 
-![](../../../assets/2dview-paintingtools-icon-clone.png) <b>スタンプツール(T):</b>画像の一部を別の部分にスタンプできます。 <b>Alt</b>キーを押しながら<b>LMB</b>をクリックすると、スタンプする&#x200B;*ソース*&#x200B;を定義できます。 ツールオプションツールバーで定義されたオプションを使用して、ペンヒントまたは<b>LMB</b>ボタンが押されると、画像のこの領域は、カーソル位置の&#x200B;*target*&#x200B;領域にスタンプされます。 ソースがターゲットの動きを&#x200B;*追跡*&#x200B;し、*ソース*&#x200B;領域のサイズが&#x200B;*ブラシ*&#x200B;のサイズと&#x200B;*一致*&#x200B;することに注意してください
+![](bitmap-painting-tools.resources/2dview-paintingtools-icon-clone.png) <b>スタンプツール(T):</b>画像の一部を別の部分にスタンプできます。 <b>Alt</b>キーを押しながら<b>LMB</b>をクリックすると、スタンプする&#x200B;*ソース*&#x200B;を定義できます。 ツールオプションツールバーで定義されたオプションを使用して、ペンヒントまたは<b>LMB</b>ボタンが押されると、画像のこの領域は、カーソル位置の&#x200B;*target*&#x200B;領域にスタンプされます。 ソースがターゲットの動きを&#x200B;*追跡*&#x200B;し、*ソース*&#x200B;領域のサイズが&#x200B;*ブラシ*&#x200B;のサイズと&#x200B;*一致*&#x200B;することに注意してください
 
-![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>アラインメントを有効にする（スタンプツールオプション）:</b>新しいスタンプの開始時にソースを&#x200B;*同じ場所に留める*&#x200B;か、または新しいスタンプの場所に対してソースを&#x200B;*相対的に再配置させる*&#x200B;かを指定できます
+![](bitmap-painting-tools.resources/2dview-paintingtools-clone-alignment.png) <b>アラインメントを有効にする（スタンプツールオプション）:</b>新しいスタンプの開始時にソースを&#x200B;*同じ場所に留める*&#x200B;か、または新しいスタンプの場所に対してソースを&#x200B;*相対的に再配置させる*&#x200B;かを指定できます
 
-<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) 消しゴム (E):</b> [ツールオプション]ツールバーで定義されているオプションを使用して、ペンヒントまたは<b>LMB</b>ボタンが押されたときに、現在の色がカーソルの位置の値(0, 0, 0, 0)に置き換えられます。 [透明表示](../../../interface/2d-view/2d-view.md)が有効になっていることを確認して、このツールが<b>Alpha</b>チャンネルに与える影響を追跡してください。
+<b>![](bitmap-painting-tools.resources/2dview-paintingtools-icon-eraser.png) 消しゴム (E):</b> [ツールオプション]ツールバーで定義されているオプションを使用して、ペンヒントまたは<b>LMB</b>ボタンが押されたときに、現在の色がカーソルの位置の値(0, 0, 0, 0)に置き換えられます。 [透明表示](../../../interface/2d-view/2d-view.md)が有効になっていることを確認して、このツールが<b>Alpha</b>チャンネルに与える影響を追跡してください。
 
 ## ツールオプションツールバー
 
@@ -97,16 +97,16 @@ ht-degree: 0%
 
 ### ブラシ選択
 
-![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>ブラシ選択</b>を使用すると、使用可能なブラシ&#x200B;*プリセット*&#x200B;から&#x200B;*事前設定済み*&#x200B;のブラシを選択し、<b>サイズ</b>と<b>硬さ</b> *（*&#x200B;ブラシエディターの<b>シェイプ</b>セクションを参照）を設定して、ブラシストロークの*プレビュー*を表示できます。
+![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>ブラシ選択</b>を使用すると、使用可能なブラシ&#x200B;*プリセット*&#x200B;から&#x200B;*事前設定済み*&#x200B;のブラシを選択し、<b>サイズ</b>と<b>硬さ</b> *（*&#x200B;ブラシエディターの<b>シェイプ</b>セクションを参照）を設定して、ブラシストロークの*プレビュー*を表示できます。
 
-ブラシプリセットは、ブラシエディターで作成および編集し、*ライブラリ*&#x200B;に配置できます。 このパネルに表示されるブラシプリセットは、読み込まれたすべてのブラシプリセットライブラリの&#x200B;*合計*&#x200B;です。 これらのライブラリは、![](../../../assets/2dview-paintingtools-brushpresets-library.png) <b>ブラシライブラリ</b>メニューにアクセスして管理できます（ブラシエディターの<b>プリセット</b>セクションを参照）
+ブラシプリセットは、ブラシエディターで作成および編集し、*ライブラリ*&#x200B;に配置できます。 このパネルに表示されるブラシプリセットは、読み込まれたすべてのブラシプリセットライブラリの&#x200B;*合計*&#x200B;です。 これらのライブラリは、![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-library.png) <b>ブラシライブラリ</b>メニューにアクセスして管理できます（ブラシエディターの<b>プリセット</b>セクションを参照）
 
-![](../../../assets/2dview-paintingtools-brushpresets-previewbkgd.png) <b>背景色を選択</b>ボタンを使用すると、*ブラシストロークプレビュー*&#x200B;の背景色を変更できます。
+![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-previewbkgd.png) <b>背景色を選択</b>ボタンを使用すると、*ブラシストロークプレビュー*&#x200B;の背景色を変更できます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ブラシ選択パネル](../../../assets/2dview-paintingtools-brushes.png "ブラシ選択パネル")
+![ブラシ選択パネル](bitmap-painting-tools.resources/2dview-paintingtools-brushes.png "ブラシ選択パネル")
 
 </td>
 </tr>
@@ -118,15 +118,15 @@ ht-degree: 0%
 
 ### ブラシエディター
 
-![](../../../assets/2dview-paintingtools-icon-brush-options.png) <b>ブラシエディター</b>では、ブラシの動作を定義する詳細なオプションにアクセスできます。
+![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush-options.png) <b>ブラシエディター</b>では、ブラシの動作を定義する詳細なオプションにアクセスできます。
 
 <b>プリセット</b>
 
-ブラシをカスタマイズして<b>ブラシプリセット</b>として保存すると、![](../../../assets/2dview-paintingtools-editor-currentpreset.png) <b>ブラシプリセットリスト</b>と![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>ブラシ選択</b>パネルで使用できます。
+ブラシをカスタマイズして<b>ブラシプリセット</b>として保存すると、![](bitmap-painting-tools.resources/2dview-paintingtools-editor-currentpreset.png) <b>ブラシプリセットリスト</b>と![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>ブラシ選択</b>パネルで使用できます。
 
-プリセットを作成するには、以下のプロパティを好みに合わせて設定し、![](../../../assets/2dview-paintingtools-editor-addpreset.png) <b>「ブラシプリセットを追加」 </b>ボタンをクリックして、<b>プリセット名</b>ウィンドウでブラシ名を設定します。 新しいプリセットは、<b>ブラシプリセットリスト</b>で自動的に選択されるようになり、現在の新しい設定でいつでも![](../../../assets/2dview-paintingtools-editor-updatepreset.png) <b>更新</b>したり、![](../../../assets/2dview-paintingtools-editor-deletepreset.png) <b>削除</b>したりできます。
+プリセットを作成するには、以下のプロパティを好みに合わせて設定し、![](bitmap-painting-tools.resources/2dview-paintingtools-editor-addpreset.png) <b>「ブラシプリセットを追加」 </b>ボタンをクリックして、<b>プリセット名</b>ウィンドウでブラシ名を設定します。 新しいプリセットは、<b>ブラシプリセットリスト</b>で自動的に選択されるようになり、現在の新しい設定でいつでも![](bitmap-painting-tools.resources/2dview-paintingtools-editor-updatepreset.png) <b>更新</b>したり、![](bitmap-painting-tools.resources/2dview-paintingtools-editor-deletepreset.png) <b>削除</b>したりできます。
 
-プリセットは、*ライブラリ*&#x200B;に整理されて保存されます。このライブラリは、![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>ブラシライブラリ</b>メニューで管理できます。
+プリセットは、*ライブラリ*&#x200B;に整理されて保存されます。このライブラリは、![](bitmap-painting-tools.resources/2dview-paintingtools-editor-presetlibrary.png) <b>ブラシライブラリ</b>メニューで管理できます。
 
 <b>ライブラリのエクスポート：</b> 現在のプリセットとそのすべての設定をライブラリファイルに&#x200B;*保存*
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![ブラシエディター](../../../assets/2dview-paintingtools-brusheditor.png "ブラシエディター")
+![ブラシエディター](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor.png "ブラシエディター")
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ ht-degree: 0%
 +++テクスチャ
 ブラシに&#x200B;*ビットマップファイル*&#x200B;を適用し、単色の代わりにそのビットマップを&#x200B;*スタンプ*&#x200B;するために使用できます。 ブラシテクスチャは次のように動作します。
 
-<b>テクスチャファイル： </b>ブラシテクスチャとして使用するビットマップの&#x200B;*パス*&#x200B;を定義します。 入力フィールドの横にある![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png)ボタンを使用すると、システムファイルブラウザからビットマップを選択できます
+<b>テクスチャファイル： </b>ブラシテクスチャとして使用するビットマップの&#x200B;*パス*&#x200B;を定義します。 入力フィールドの横にある![](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor-selecttexture.png)ボタンを使用すると、システムファイルブラウザからビットマップを選択できます
 
 テクスチャ *のみ*&#x200B;はブラシの基本の単色に置き換わります。つまり、前述の&#x200B;*すべてのブラシプロパティを引き続き使用して*&#x200B;説明どおりに機能できます
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 <b>流量</b>は、任意の時点で適用される&#x200B;*ツールの効果の量*&#x200B;を制御します。 これは、同じストロークに&#x200B;*加算*&#x200B;されます。つまり、領域の&#x200B;*同じストローク*&#x200B;の複数のパス、または複数の個別のストロークを実行することで、領域の不透明度を最大100%に戻すことができます。
 
-![不透明度と流量のコントロール](../../../assets/2dview-paintingtools-opacityflow.png "不透明度と流量のコントロール")
+![不透明度と流量のコントロール](bitmap-painting-tools.resources/2dview-paintingtools-opacityflow.png "不透明度と流量のコントロール")
 
 <table>
 <tr style="border: 0;">
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 ### タイリングモード
 
-ブラシツール、スタンプツール、消しゴムツールでも、![](../../../assets/2dview-paintingtools-icon-tiling.png) <b>タイリングモード</b>を設定できます。このモードでは、ストロークが画像の境界の外側の領域に影響を与えるときに、画像の反対側に&#x200B;*ループバック*&#x200B;する機能が定義されます。
+ブラシツール、スタンプツール、消しゴムツールでも、![](bitmap-painting-tools.resources/2dview-paintingtools-icon-tiling.png) <b>タイリングモード</b>を設定できます。このモードでは、ストロークが画像の境界の外側の領域に影響を与えるときに、画像の反対側に&#x200B;*ループバック*&#x200B;する機能が定義されます。
 
 <b>タイリングXおよびY</b>:ブラシストロークタイル&#x200B;*水平および垂直方向の両方*
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![タイリングモード](../../../assets/2dview-paintingtools-tiling.png "タイリングモード")
+![タイリングモード](bitmap-painting-tools.resources/2dview-paintingtools-tiling.png "タイリングモード")
 
 </td>
 </tr>

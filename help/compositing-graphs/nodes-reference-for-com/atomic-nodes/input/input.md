@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 入力
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -46,51 +46,6 @@ ht-degree: 0%
 
 入力ノードは[出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ほど重要ではありません。入力を必要としない、完全に機能する高度なグラフを作成できます。 入力は、Substance 3D Painterの[インスタンス](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)または[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)を作成する場合など、グラフまたはノードインスタンスの結果を外部入力に基づいて作成する場合にのみ使用されます。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 属性
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 遺伝
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 統合属性
-
-</td>
-</tr>
-</table>
-
 ## パラメーター
 
 デフォルトでは、何も接続されていない場合、入力カラーまたはグレースケールは黒を返します。 別の既定値を設定するか、既存の[ビットマップリソース](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)を[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からグラフの入力ノードにドラッグして、スロットでこのデータをプレビューできます。 この機能は、カラーとグレースケールの入力に対してのみ使用できます。 デフォルト値は、他のコンテキストで使用される場合は永続的で、プレビュービットマップは他の場所に破棄されます。
@@ -116,40 +71,40 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 複数の入力が存在する場合は、これらの入力からグラフが[基本パラメーターを継承](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)する方法に注意する必要があります。\
 基本パラメーターには、<b>出力サイズ</b>、<b>出力フォーマット</b>および<b>タイリングモード</b>が含まれます。
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+入力は、[プライマリ入力](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)として定義できます。 この入力は、継承方式が&#x200B;*親に相対的*&#x200B;に設定されているすべての入力の属性を制御します。 入力ノードで既定で設定されている継承方式&#x200B;*です。*
 
-[![グラフの主な入力](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![グラフの主な入力](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
 
-入力は、[プライマリ入力](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)として定義できます。 この入力は、継承方式が&#x200B;*親に相対的*&#x200B;に設定されているすべての入力の属性を制御します。 入力ノードで既定で設定されている継承方式&#x200B;*です。*
+入力ノードをグラフのプライマリ入力として設定するには、ノードの&#x200B;*RMB*&#x200B;をクリックし、コンテキストメニューの<b>プライマリ入力として設定</b>オプションを選択します。\
+ノードのプライマリ入力は、コネクタの&#x200B;*小さな暗い点*&#x200B;でマークされます（このセクションの横の例では赤い丸で囲まれています）。
 
-ノード上の&#x200B;*RMB*&#x200B;をクリックし、コンテキストメニューの<b>主入力として設定</b>オプションを選択すると、入力ノードをグラフの主入力として設定できます。\
-ノードのプライマリ入力は、コネクターの&#x200B;*小さな暗い点*&#x200B;でマークされます（このセクションの横の例では赤い丸で囲まれています）。
+または、*入力に対して相対的*&#x200B;継承メソッドに設定された入力は、プライマリ入力の&#x200B;*に関係なく*&#x200B;接続先のノードから属性を継承します。
 
-または、*入力に対して相対* 継承メソッドに設定された入力は、プライマリ入力の&#x200B;*に関係なく*&#x200B;接続先のノードから属性を継承します。
-
-最後に、継承方式を&#x200B;*Absolute*&#x200B;に設定することで、指定された属性の任意の値を上書きできます。
+最後に、継承メソッドを&#x200B;*絶対*&#x200B;に設定することで、指定された属性の値を上書きできます。
 
 >[!TIP]
 >
-> 継承の詳細については、このドキュメントの[Substanceグラフの継承](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)を参照してください。
+> 継承の詳細については、このドキュメントの[Substanceグラフでの継承](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)ページに移動してください。
 
 >[!IMPORTANT]
 >
-> 入力ノードの&#x200B;*入力に対する相対*&#x200B;継承方式は、[Substance 3Dアセット(SBSAR)](https://helpx.adobe.com/jp/substance-3d-assets.html)では&#x200B;*サポートされていません*。 パッケージを公開する前に、すべての入力ノードの継承方式を&#x200B;*親に相対的*&#x200B;に設定してください。
+> [Substance 3Dアセット(SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)では、入力ノードの&#x200B;*入力に対する相対*&#x200B;継承方法が&#x200B;*サポートされていません*。 パッケージを公開する前に、すべての入力ノードの継承メソッドを&#x200B;*親に対する相対*&#x200B;に設定してください。
 
 ## 統合の属性
 
-入力は3D ビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)で使用されます）。
+入力は3Dビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)で使用されます）。
 
 さらに、使用量属性は、正しい入力スロットと出力スロットに一致させるために、[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)でも使用されます。
 
@@ -157,6 +112,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>コンポーネント</b> *文字列* | これにより、結果の入力に実際にどのチャンネルが含まれるかが決まります。   これは従来の設定で、統合やグラフでは使用されなくなりました。 |
+| <b>コンポーネント</b> *文字列* | これにより、結果の入力に実際にどのチャンネルが含まれるかが決まります。   これはレガシー設定で、統合やグラフでは使用されなくなりました。 |
 | <b>使用方法</b> *文字列* | この入力のタイプまたは使用方法を定義します。 他のノードがこの入力に接続する方法を示します。 |
 | <b>カラースペース</b> *文字列* | この入力を解釈するカラースペースを設定します。 |

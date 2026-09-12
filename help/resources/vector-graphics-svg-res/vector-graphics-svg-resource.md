@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ベクターグラフィック（SVG）リソース
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ SVGストレージは、リンクされているか、インポートされて�
 * ストロークはサポートされていますが、結果として1ピクセル幅のストロークになるだけで、ストロークのスタイル設定は無視されます。
 * 破線スタイルは必ず破れます。
 * レンダリングするには、テキストをパス/アウトラインに変換する必要があります。
-* [複合パス](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths)はサポートされていません。
+* [複合パス](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html)はサポートされていません。
 * グラデーションなどの高度な機能はサポートされていません。
 * CSSプロパティのスタイル要素はサポートされていません。
 
@@ -87,7 +87,7 @@ SVGストレージは、リンクされているか、インポートされて�
 > アートボードは、生成されたSVGファイルの結果に影響を与える場合があります。 一部のIllustratorファイルテンプレートには、複数のアートボードが含まれています。\
 > SVGとして保存する場合は、適切にトリミングされた1つのアートボードのみを用意し、アートボードウィンドウでそのアートボードを選択するようにしてください。
 
-![Illustrator SVGの書き出しオプション](../../assets/svg-export-options-ai.jpg "Illustrator SVGの書き出しオプション"){width="512px"}
+![Illustrator SVGの書き出しオプション](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Illustrator SVGの書き出しオプション"){width="512px"}
 
 ### Inkscape
 
