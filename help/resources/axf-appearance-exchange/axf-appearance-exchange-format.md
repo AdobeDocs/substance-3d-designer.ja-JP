@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Substance 3D DesignerでAxFアピアランス交換形式のリソースを読み込んで使用して、マテリアルを読み込む方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AxF（Appearance eXchange Format）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![AxFファイルアイコン](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
+[![AxFファイルアイコン](axf-appearance-exchange-format.resources/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,7 +39,7 @@ AxFファイルは、デジタル設計ワークフロー全体にわたって�
 
 簡単に言うと、AxFファイルはX-RiteのTAC7スキャナーハードウェアによって抽出されたテクスチャの数と、マテリアルの追加プロパティを記述するメタデータをホストします。 つまり、AxFは単なるテクスチャデータではなく、シェーディングプロパティも保持します。
 
-AxFファイルはパッケージ[resource](../../resources/resources.md)としてインポートされていません&#x200B;*1&rbrace;。*&#x200B;代わりに、[インポートプロセス](#import)では、AxFファイルからテクスチャとメタデータを抽出し、それを使用して[専用のテンプレート](#graph-templates)から作成されたグラフを準備します。
+AxFファイルはパッケージ[resource](../../resources/resources.md)としてインポートされていません&#x200B;*1}。*&#x200B;代わりに、[インポートプロセス](#import)では、AxFファイルからテクスチャとメタデータを抽出し、それを使用して[専用のテンプレート](#graph-templates)から作成されたグラフを準備します。
 
 使用可能なテンプレートは、次の2つのAxFワークフロー向けです。
 
@@ -64,7 +64,7 @@ AxFファイルのインポートワークフローは、次の2つの方法の�
 
 [ホーム画面](../../interface/home-screen/home-screen.md)の左側のセクションで、[<b>AxFのインポート…</b>]ボタンをクリックします。
 
-![AxF:ホーム画面から読み込みを開始](../../assets/axf_home-screen.png "AxF:ホーム画面から読み込みを開始"){width="600px"}
+![AxF:ホーム画面から読み込みを開始](axf-appearance-exchange-format.resources/axf_home-screen.png "AxF:ホーム画面から読み込みを開始"){width="600px"}
 
 +++
 
@@ -72,7 +72,7 @@ AxFファイルのインポートワークフローは、次の2つの方法の�
 
 [エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)でパッケージの[RMB]をクリックし、パッケージのコンテキストメニューの<b>インポート/AxF</b>に移動します。
 
-![AxF:エクスプローラーからのインポートを開始](../../assets/axf_explorer.png "AxF:エクスプローラーからのインポートを開始"){width="600px"}
+![AxF:エクスプローラーからのインポートを開始](axf-appearance-exchange-format.resources/axf_explorer.png "AxF:エクスプローラーからのインポートを開始"){width="600px"}
 
 +++
 
@@ -90,7 +90,7 @@ AxFファイルのインポートワークフローは、次の2つの方法の�
 
 <b>メタデータ</b>と<b>プロパティ</b>には、AxFファイルのマテリアルから抽出されたデータが一覧表示されます。 これらは、一部のSubstanceグラフテンプレートのプロパティの構成方法に影響を与えます（以下の[グラフテンプレート](#graph-templates)セクションを参照）。
 
-![AxF:ダイアログのインポート](../../assets/axf_import.png "AxF:ダイアログのインポート")
+![AxF:ダイアログのインポート](axf-appearance-exchange-format.resources/axf_import.png "AxF:ダイアログのインポート")
 
 ### 結果
 
@@ -110,7 +110,7 @@ AxFファイルのインポートワークフローは、次の2つの方法の�
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF:インポートプロセスのパッケージ結果](../../assets/axf_package.png "AxF:インポートプロセスのパッケージ結果")
+![AxF:インポートプロセスのパッケージ結果](axf-appearance-exchange-format.resources/axf_package.png "AxF:インポートプロセスのパッケージ結果")
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ AxFファイルのインポートワークフローは、次の2つの方法の�
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF:インポートダイアログにテンプレートを追加](../../assets/axf_add-template.png "AxF:インポートダイアログにテンプレートを追加")
+![AxF:インポートダイアログにテンプレートを追加](axf-appearance-exchange-format.resources/axf_add-template.png "AxF:インポートダイアログにテンプレートを追加")
 
 </td>
 </tr>
@@ -144,14 +144,14 @@ AxFファイルのインポートワークフローは、次の2つの方法の�
 Substanceグラフテンプレートには、次の2種類があります。
 
 <b>AxFからメタリックへの粗さ</b>および<b>AxFからSpecularへの光沢</b>は、*変換*&#x200B;テンプレートであり、AxFマテリアルを標準のPBRモデルにマップできます。\
-これらのマテリアルは、デフォルトの3Dビューシェーダーで使用したり、Designerの[Sampler](https://www.adobe.com/jp/products/substance3d-sampler.html)で作成された他のPBRマテリアルや、[3Dアセット](https://substance3d.adobe.com/assets/)ライブラリから取得した他のPBRマテリアルと組み合わせたりできます。
+これらのマテリアルは、デフォルトの3Dビューシェーダーで使用したり、Designerの[Sampler](https://www.adobe.com/products/substance3d-sampler.html)で作成された他のPBRマテリアルや、[3Dアセット](https://substance3d.adobe.com/assets/)ライブラリから取得した他のPBRマテリアルと組み合わせたりできます。
 
 <b>AxFからAxF</b>は、*パススルー*&#x200B;のテンプレートです。このテンプレートを使用すると、AxFマテリアルを所定の位置で編集し、これらの変更を既存のAxFファイル内の新しいレイヤーとしてエクスポートできます。 詳しくは、以下のAxFファイルのエクスポートを参照してください。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substanceグラフテンプレート](../../assets/axf-templates.png "AxF: Substanceグラフテンプレート")
+![AxF: Substanceグラフテンプレート](axf-appearance-exchange-format.resources/axf-templates.png "AxF: Substanceグラフテンプレート")
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ AxFファイルのマテリアルから抽出された&#x200B;*メタデータ*&
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substanceグラフパラメーター](../../assets/axf_graph-props.png "AxF: Substanceグラフパラメーター")
+![AxF: Substanceグラフパラメーター](axf-appearance-exchange-format.resources/axf_graph-props.png "AxF: Substanceグラフパラメーター")
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ AxFファイルのマテリアルから抽出された&#x200B;*メタデータ*&
 >
 > ファイル内のリソースへの変更は、*新しいレイヤー*&#x200B;として追加されます。 つまり、Designerから同じAxFファイルに書き出すたびに、そのファイルのサイズが大きくなります。
 
-![AxFのエクスポート](../../assets/exportaxf.gif)
+![AxFのエクスポート](axf-appearance-exchange-format.resources/exportaxf.gif)
 
 <table>
 <tr style="border: 0;">
@@ -219,12 +219,12 @@ AxFファイルのマテリアルから抽出された&#x200B;*メタデータ*&
 
 <b>AxF</b>書き出しダイアログは、<b>出力の書き出し</b>ダイアログで専用タブとして使用できます。
 
-[グラフビュー](../../interface/the-graph-view/the-graph-view.md)ツールバーで、![](../../assets/tools.jpg) <b>ツール</b>メニューを開き、[<b>出力のエクスポート…</b>]オプションを選択してダイアログを表示し、[<b>AxF</b>]タブを選択します。
+[グラフビュー](../../interface/the-graph-view/the-graph-view.md)ツールバーで、![](axf-appearance-exchange-format.resources/tools.jpg) <b>ツール</b>メニューを開き、[<b>出力のエクスポート…</b>]オプションを選択してダイアログを表示し、[<b>AxF</b>]タブを選択します。
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF:グラフビューのツールバーの[エクスポート]オプション](../../assets/axf_graph-export.png "AxF:グラフビューのツールバーの[エクスポート]オプション")
+![AxF:グラフビューのツールバーの[エクスポート]オプション](axf-appearance-exchange-format.resources/axf_graph-export.png "AxF:グラフビューのツールバーの[エクスポート]オプション")
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ AxFファイルのマテリアルから抽出された&#x200B;*メタデータ*&
 >
 > グラフ出力をこのダイアログに一覧表示するには、グラフ出力の<b>Group</b>プロパティを&#39;AxF&#39;に設定する必要があります。
 
-![AxF：書き出しダイアログ](../../assets/axf_export.png "AxF：書き出しダイアログ")
+![AxF：書き出しダイアログ](axf-appearance-exchange-format.resources/axf_export.png "AxF：書き出しダイアログ")
 
 <b>書き出しの開始</b>をクリックして、マップされた出力の変更を含む新しいレイヤーでターゲットAxFファイルを編集します。
 
@@ -258,7 +258,7 @@ AxFファイルのマテリアルから抽出された&#x200B;*メタデータ*&
 
 さらに、出力の<b>グループ</b>のプロパティ&#x200B;*は、AxF書き出しダイアログに一覧表示されるために、&#39;AxF&#39;に設定する必要があります（上記参照）。*
 
-![AxF: Substanceグラフの出力の使用状況](../../assets/axf_output_usage.png "AxF: Substanceグラフの出力の使用状況")
+![AxF: Substanceグラフの出力の使用状況](axf-appearance-exchange-format.resources/axf_output_usage.png "AxF: Substanceグラフの出力の使用状況")
 
 リソースは、特定のチャンネル数を持つテクスチャ（ビットマップ）またはユニフォーム（値）です。 グラフの出力は、指定したチャンネル数と正確に一致していることが必須です。 そうでない場合は、エクスポート中にそのリソースに対してエラーが発生し、リソースは変更されません。
 
@@ -285,7 +285,7 @@ AxFファイルのSVBRDFマテリアルを標準のPBRマテリアルに変換�
 この場合、3Dビューで&#x200B;**OpenGLレンダラー**&#x200B;を使用し、<code>AxF SVBRFを選択する必要があります</code> シェーダ。\
 次に、読み込みダイアログボックスで設定したSubstanceグラフをドラッグアンドドロップして、その出力をシェーダにコネクトすることができます。
 
-![AxF:コンバージョン用に表示](../../assets/axf-view-for-convert.gif "AxF:コンバージョン用に表示")
+![AxF:コンバージョン用に表示](axf-appearance-exchange-format.resources/axf-view-for-convert.gif "AxF:コンバージョン用に表示")
 
 +++
 
@@ -302,7 +302,7 @@ AxFファイル<b>AxF SVBRDF</b>のSVBRDF表現を使用してマテリアルを
 
 シェーダを選択した後、グラフの空きスペースでRMBをクリックし、<b>「出力を3Dビューで表示」</b>オプションを選択して、出力を[3Dビュー](../../interface/3d-view/3d-view.md)で表示します。
 
-![AxF: SVBRDF GLSLFXシェーダー](../../assets/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFXシェーダー"){width="600px"}
+![AxF: SVBRDF GLSLFXシェーダー](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFXシェーダー"){width="600px"}
 
 このシェーダは現在&#x200B;*処理中*&#x200B;で、一部の機能はまだサポートされていません。 したがって、マテリアルの特性の概要を示すことはできますが、微調整には使用しないでください。
 
@@ -311,7 +311,7 @@ AxFファイル<b>AxF SVBRDF</b>のSVBRDF表現を使用してマテリアルを
 
 シェーダを選択した後、グラフの空きスペースでRMBをクリックし、<b>「出力を3Dビューで表示」</b>オプションを選択して、出力を[3Dビュー](../../interface/3d-view/3d-view.md)で表示します。
 
-![AxF:エディション用に表示](../../assets/axf-view-for-edit.gif "AxF:エディション用に表示")
+![AxF:エディション用に表示](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF:エディション用に表示")
 <i>注意： </i> IrayレンダラーとMDLのサポートは、バージョン16.0.0でDesignerから<i>削除</i>されたため、ビデオの一部を最後までスイッチからIrayレンダラーに移動しないでください。
 
 +++
