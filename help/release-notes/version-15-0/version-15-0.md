@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: 新しい3Dレンダラーと米ドルのネイティブサポートについては、Substance 3D Designerバージョン15.0のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *リリース日：2025年7月15日*
 
-![バナー](../../assets/banner-47.png "バージョン15.0バナー")
+![バナー](version-15-0.resources/banner-47.png "バージョン15.0バナー")
 
 ## 新しい 3D レンダラー
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 この新しいリリースでは、ラスタライザーモード（マテリアルの作業中にリアルタイムのプレビューを表示）とパストレーサーモード（完全で正確なレンダリングを実現するレイトレースモード）を備えた高度な[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)にアクセスできます。 この新しいレンダラーは、ラスタライザーモードでのシャドウなどの機能を使用して機能を強化し、品質とパフォーマンスを向上させます。また、[MaterialX](https://materialx.org/)などの将来のテクノロジーをサポートするように設計されています。 Designerの既存のOpenGLレンダラーおよびIrayレンダラーを補完し、Substance 3D ViewerおよびSubstance 3D Samplerで利用できるレンダラーと連携して、エコシステム全体で統一されたエクスペリエンスを実現します。
 
-![ラスタライザの影と半透明](../../assets/feature_1b.png)
+![ラスタライザの影と半透明](version-15-0.resources/feature_1b.png)
 
 [3dビューツールバー](../../interface/3d-view/3d-view.md)が更新され、このレンダラーで使用できる新機能の一部にすばやくアクセスできるようになりました。
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 * <b>トーンマッピング： </b>広ダイナミックレンジ(HDR)効果を得るためのプロファイルを持つ色範囲。
 * <b>フィールドの深度:</b>は、カメラレンズのフォーカスプロパティをシミュレートします（ラスタライザのみ）。
 
-![Designer 15.0](../../assets/postfx.gif)の投稿FX
+![Designer 15.0](version-15-0.resources/postfx.gif)の投稿FX
 
 ## コンテキスト内のアセットエディション
 
 マテリアルを操作するときは、[特定の3Dシーンのコンテキストでプレビュー](../../working-with-3d-scenes/working-with-3d-scenes.md)することをお勧めします。 そのため、テクスチャ、カメラ、ライトを含む完全なシーンを読み込んでレンダリングできるようになりました。 チェリーの上に表示されます。このシーンがMaterialXシェーダを参照している場合は、ラスタライザを使用して正しくレンダリングされます。
 
-![Designerに読み込まれ、レンダリングされたUSDシーン](../../assets/feature_2.png)
+![Designerに読み込まれ、レンダリングされたUSDシーン](version-15-0.resources/feature_2.png)
 
 読み込みが完了すると、メッシュを選択して（[Shift]を押しながらクリックするか、シーンブラウザのおかげで）、[そのマテリアルをオーバーライド](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)することで、シーンを操作できます。 その後、次の操作を実行できます。
 
@@ -76,17 +76,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ブレンドノード](../../assets/blend.gif)
+![ブレンドノード](version-15-0.resources/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ぼかしノード](../../assets/blur.gif)
+![ぼかしノード](version-15-0.resources/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![距離ノード](../../assets/distance.gif)
+![距離ノード](version-15-0.resources/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 非正方形テクスチャを操作する必要がある場合は、この新しいオプションが適しています。 3Dビューの[マテリアルプロパティ](../../interface/3d-view/material-properties/material-properties.md)で、タイリングを制御するUVオプションで、両方の軸に異なる値を設定できるようになりました。
 
-![異なるU Vスケール](../../assets/nonsquare.png){zoomable="yes"}
+![異なるU Vスケール](version-15-0.resources/nonsquare.png){zoomable="yes"}
 
 ## ベイカー
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## ビデオ
 
-[![Substance 3D Designerのアップデート：新しいレンダラー、FXの投稿、コンテキストの編集 | Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D Designerのアップデート：新しいレンダラー、FXの投稿、コンテキストの編集 | Substance 3D](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## リリースノート
 

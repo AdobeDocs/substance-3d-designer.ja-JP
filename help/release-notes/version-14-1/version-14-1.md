@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: ノード配置ツールと新しいスプラインおよびパスノードについて詳しくは、Substance 3D Designerバージョン14.1のリリースノートを参照してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *リリース日：2025年1月14日*
 
-![スプライン上の散乱スプライン](../../assets/fond.png)
+![スプライン上の散乱スプライン](version-14-1.resources/fond.png)
 
 ## スプラインとパスの更新
 
@@ -34,12 +34,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![スプライン上の散乱スプラインアニメーション1](../../assets/spline1.gif){zoomable="yes"}
+![スプライン上の散乱スプラインアニメーション1](version-14-1.resources/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![スプライン2](../../assets/spline2.gif){zoomable="yes"}上の散乱スプライン
+![スプライン2](version-14-1.resources/spline2.gif){zoomable="yes"}上の散乱スプライン
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 グラフをクリーンで読みやすいものに保ちたい場合は、[ノードアライメントツール](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)が役立ちます。このツールは完全に刷新されました。 ノードを（水平または垂直に）均等に配置できるようになりました。また、ノードを整列すると、ノードを正確に積み重ねることで重なり合う必要がなくなります。 チェリーを上に：両方の機能は、ノードの実際のサイズを考慮に入れています！
 
-![ノードの整列](../../assets/alignment.gif){zoomable="yes"}
+![ノードの整列](version-14-1.resources/alignment.gif){zoomable="yes"}
 
 ## パラメーターのコピーとペースト
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 2Dビューの新しい[カラーSamplerツール](../../interface/2d-view/color-sampler/color-sampler.md)を使用すると、選択したピクセルにピンをドロップして、そのピクセルの値をトラッキングできます。 これは、グラフ内の複数のノードにわたる同じピクセルの情報を常に表示する場合に非常に便利です。 情報パネルを開いてツールにアクセスし、試してみてください。
 
-![カラーサンプラー：ツールを使用](../../assets/color-sampler-demo.gif "カラーサンプラー：ツールを使用"){width="640px" zoomable="yes"}
+![カラーサンプラー：ツールを使用](version-14-1.resources/color-sampler-demo.gif "カラーサンプラー：ツールを使用"){width="640px" zoomable="yes"}
 
 ## 検索の改善
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 * ノードファインダーツールを有効にすると、検索フィールドにフォーカスが自動的に設定されます。
 * スペースを節約するために、ツールバーのレイアウトが見直されました。
 
-![ツールバーの検索](../../assets/search-53.png){width="640px"}
+![ツールバーの検索](version-14-1.resources/search-53.png){width="640px"}
 
 ## ビデオ
 
@@ -78,12 +78,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![スプライン上のビデオ散乱スプライン](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![スプライン上のビデオ散乱スプライン](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![ビデオユーザーエクスペリエンス機能](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![ビデオユーザーエクスペリエンス機能](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ ht-degree: 1%
 * [関数グラフ]長い値が「実数」ノードに重なって表示される
 * [Fx-Map]象限ノードプロパティを表示するとクラッシュする
 * [グラフ] [UDIM] UDIMリストにスクロールバーがあると、1..1 1..2のエントリになる
-* [グラフ]&#x200B;[ショートカット]ショートカットを使用して作成したノードが、ノード複製後に既存のリンクに配置されない
+* [グラフ][ショートカット]ショートカットを使用して作成したノードが、ノード複製後に既存のリンクに配置されない
 * [プロパティ]値が無効な場合にパラメータが正しく表示されない
 * [Publish]パッケージを公開すると、相互依存が無限ループに陥る
 * [Publish]依存関係がアンロードされたパッケージで「Publish」アクションを使用すると、サイレントエラーが発生する
