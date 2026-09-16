@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: 「レベル」ノードを使用して、カラー補正と補正の明るさ、コントラスト、階調範囲のテクスチャを調整します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: レベル
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 3%
@@ -20,14 +20,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![アトミックノード:レベル](levels.resources/comp_levels_1.png "アトミックノード:レベル"){width="100%"}
 
 <b>イン：</b> アトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 画像のシャドウ、中間調、ハイライトの全体的な階調範囲とカラーバランスを調整します。
 
@@ -39,9 +39,9 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="levels.resources/levels-tooltip.gif" alt="レベルのツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="levels.resources/levels-tooltip.gif" alt="レベルのツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -76,8 +76,8 @@ ht-degree: 3%
 | <b>高レベル</b> *浮動小数/浮動小数4* | 入力画像のハイライトレベルを定義します。  入力の高い値を白にリマップします。 |
 | <b>中レベル</b> *浮動小数/浮動小数4* | 入力画像の中間調レベルを指定します。  入力Mid値をミッドグレーに再マップします。 |
 | <b>低いレベルへ移動</b> *浮動小数/浮動小数4* | 出力画像の低光量を定義します。  黒出力レベルをクランプして限界値を設定します。 |
-| <b>レベルアウト高</b> *フロート/フロート4* | 出力画像のハイライトレベルを定義します。  白出力レベルをクランプしてリミットを設定します。 |
-| <b>中間クランプ</b> *ブール値* | 出力レベルを計算する前に、変形入力値を[0, 1]にクランプするかどうかを指定します。 |
+| <b>レベルアウト高</b> *浮動小数/浮動小数4* | 出力画像のハイライトレベルを定義します。  白出力レベルをクランプしてリミットを設定します。 |
+| <b>中間クランプ</b> *ブーリアン* | 出力レベルを計算する前に、変形入力値を[0, 1]にクランプするかどうかを指定します。 |
 
 ## 使用方法ガイド
 
@@ -109,7 +109,7 @@ ht-degree: 3%
 
 スライダーは、カラー入力またはグレースケール入力によって変わります。カラー入力では、RGBAチャンネルごとに4つのスライダーが個別に作成されます。グレースケールには1つのスライダーしかないため、操作が簡単です。 各スライダーの説明については、上記のパラメーターリストを参照してください。
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |

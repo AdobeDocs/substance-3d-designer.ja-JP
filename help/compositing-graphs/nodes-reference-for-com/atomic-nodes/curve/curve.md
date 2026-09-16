@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
-description: Curveノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。
+description: '[カーブ]ノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カーブ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%
@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード： Curve](curve.resources/comp_curve_1.png "原子ノード： Curve"){width="100%"}
+![アトミックノード:カーブ](curve.resources/comp_curve_1.png "アトミックノード:カーブ"){width="100%"}
 
-<b>In:</b>個のアトミックノード
+<b>イン：</b> アトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 カスタムカーブを使用して、画像内の値を再マップします。
 
@@ -39,15 +39,15 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="曲線ツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="曲線ツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
 他のほとんどのノードとは異なり、カーブノードには、スライダとパラメータを持つ標準的なインタフェースはありませんが、代わりに完全なカーブエディタが表示されます。 使用方法については、次の拡張可能なセクションを参照してください。
 
-[ただし、これは、Curveノードのパラメーターをサブグラフに公開できないことを意味します](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 ここでの唯一のオプションは、[Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)を使用して、異なる曲線プロファイル間を切り替えることです。
+[ただし、これは、Curveノードのパラメーターをサブグラフに表示できないことを意味します](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 ここでの唯一のオプションは、[Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)を使用して、異なる曲線プロファイル間を切り替えることです。
 
 
 
@@ -55,8 +55,8 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>曲線を適用/表示</b> *ブール値* | ユーザー曲線を入力画像に適用する代わりに、出力にコピーできます |
-| <b>曲線アドレス指定</b> *ブール値* | このパラメーターは、入力の[0, 1]範囲外のHDRピクセルの処理方法（[0, 1]までクランプまたは折りたたむ）を決定します。 |
+| <b>カーブの適用/表示</b> *ブーリアン* | ユーザーカーブを入力画像に適用する代わりに、出力にコピーできます |
+| <b>曲線アドレス指定</b> *ブーリアン* | このパラメーターは、入力の[0, 1]範囲外のHDRピクセルの処理方法（[0, 1]までクランプまたは折りたたみ）を指定します。 |
 | <b>曲線</b> *曲線キーの配列* | 入力グレースケール値のマッピングに使用するカスタムカーブ。   [曲線エディター](#curve-editor)を使用して編集できます。 |
 
 ## カーブエディタ
@@ -152,9 +152,9 @@ RGBカーブモードでは、![](curve.resources/image2017-2-17-14-55-0.png)を
 
 <b>水平方向/垂直方向に分布：</b>選択した軸にポイントを分布します
 
-<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択した点を反転します。
+<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択したポイントを反転します。
 
-<b>水平方向/垂直方向にミラー：</b>選択した軸に従って曲線全体をミラーします
+<b>水平方向/垂直方向にミラー：</b>選択した軸に従ってカーブ全体をミラーします
 
 ### キーボードショートカット
 
@@ -181,7 +181,7 @@ RGBカーブモードでは、![](curve.resources/image2017-2-17-14-55-0.png)を
 
 <b>Shiftキーを押しながらドラッグ</b>
 
-X軸またはY軸に沿って移動を制限します。
+移動をX方向またはY軸に制限します。
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 出力
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 33.33%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子ノード： Output](output.resources/comp_output_1.png "原子ノード： Output"){width="100%"}
 
 <b>In:</b>個のアトミックノード
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Outputノードは、Substanceグラフの<b>result</b>を指定します。複数のOutputノードが含まれている場合は、結果の1つを指定します。
 
@@ -39,9 +39,9 @@ Outputノードは、Substanceグラフの<b>result</b>を指定します。複�
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="output.resources/output-tooltip.gif" alt="出力ツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="output.resources/output-tooltip.gif" alt="出力ツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -60,7 +60,7 @@ Outputノードは、Substanceグラフの<b>result</b>を指定します。複�
 | <b>識別子</b> *文字列* | 出力の一意の識別子。 このプロパティは、空白のままにすることはできません。また、特殊文字やスペースを含めることはできません。   識別子は、ノードのラベルとして使用されます。「ラベル」プロパティは空白のままです。 また、[書き出されたテクスチャ](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)に名前を付ける場合にも使用できます。 |
 | <b>説明</b> *文字列* | 出力のツールチップとして使用されるオプションの説明は、Substanceグラフです。 |
 | <b>ラベル</b> *文字列* | このグラフを表す[インスタンスノード](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)で、出力ノードと対応するコネクタのラベルとして使用されます。 ラベルには、スペースや特殊文字を含めることができます。 |
-| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/jp/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
+| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
 | <b>グループ</b> *文字列* | Designerの[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)で出力をグループ化するために使用される属性です。   同一の「Group」属性を持つ出力は、「コンパクトマテリアル」リンク作成モードで1つの接続として表示されます。 |
 
 ## 統合の属性

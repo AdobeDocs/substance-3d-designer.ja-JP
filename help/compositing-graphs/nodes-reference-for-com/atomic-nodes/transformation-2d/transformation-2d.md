@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 変換2Dノードを使用して、移動、回転、スケーリングなどのテクスチャに2D変換を適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変形 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 5%
@@ -20,14 +20,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![アトミックノード：変換2D](transformation-2d.resources/comp_transformation_1.png "アトミックノード：変換2D"){width="100%"}
 
 <b>In:</b>個のアトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 画像に変換、回転、スケーリング、対称、シアーの 2D 変形行列を適用します。
 
@@ -39,9 +39,9 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2dツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2dツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -70,15 +70,15 @@ ht-degree: 5%
 | <b>変換行列</b> *浮動小数点4* | 直接編集する基になるマトリックスの変形を開きます。 回転とスケールを変更できます。 2Dビューのギズモを使用して調整することもできます。   警告：ビューに直接関連付けられるものではなく、ステップごとに適用できる相対調整です。 |
 | <b>オフセット</b> *浮動小数点2* | イメージの2Dディスプレイスメントを定義します。 位置またはオフセットを変更できます。また、2Dビューのギズモを使用して調整することもできます。   2Dビューの出力に直接関連します。 |
 | <b>Mipmapモード</b> *整数* | 手動[mipmap](../../../../glossary/glossary.md)レベルに切り替えることができます。これにより、テクスチャフィルターを使用して画像の斑点を減らすことができます。 |
-| <b>ミップマップレベル</b> *整数* | [mipmap](../../../../glossary/glossary.md)レベルを設定して使用します。     *&#39;Mipmapモード&#39;が&#39;手動&#39;に設定されている場合に使用できます* |
-| <b>マットの色</b> *浮動小数点4* | 変形のタイリングが無効な場合に、背景として使用される色です。 つまり、変換された入力が出力の領域をカバーしていない場合に使用するカラーを設定します。   RGBAカラーで作業している場合は、透明にすることができます。 |
-| <b>フィルター</b> *整数* | 使用するダウンサンプリング方法を設定します。 ミップマップレベル量を減らしても特に効果がありません。 |
+| <b>ミップマップレベル</b> *整数* | 使用する[ミップマップ](../../../../glossary/glossary.md)レベルを設定します。     *&#39;ミップマップモード&#39;が&#39;手動&#39;に設定されている場合に使用可能* |
+| <b>マットの色</b> *浮動小数4* | 変形のタイリングが無効な場合に背景として使用される色です。 つまり、変形された入力が出力の一部を覆っていない場合に使用するカラーを設定します。   RGBAカラーで作業している場合は、透明にすることができます。 |
+| <b>フィルタリング</b> *整数* | 使用するダウンサンプリング方法を設定します。 ミップマップレベル量を減らしても特に効果がありません。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |
-| <b>入力</b> *グレースケール/カラー*&#x200B;プライマリ | 変換する画像。 |
+| <b>入力</b> *グレースケール/カラー*&#x200B;プライマリ | 変形する画像。 |
 
 
 ## 例

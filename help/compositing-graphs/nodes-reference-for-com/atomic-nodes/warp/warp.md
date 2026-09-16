@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: ワープノードを使用して、テクスチャにゆがみエフェクトを適用し、ワープやディスプレイスメントエフェクトを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ワープ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 9%
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子ノード：ワープ](warp.resources/comp_warp_1.png "原子ノード：ワープ"){width="100%"}
 
 <b>In:</b>個のアトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 別のグラデーション入力から計算されたスロープに従って入力画像のピクセル値を移動し、結果として変形を行います。
 
@@ -39,9 +39,9 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="ワープツールヒント" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="warp.resources/warp-tooltip.gif" alt="ワープツールヒント" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

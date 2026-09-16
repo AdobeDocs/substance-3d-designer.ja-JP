@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: 入力パラメーターと値で制御できる動的なグラデーションを作成するには、グラデーション（動的）ノードを使用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グラデーション (ダイナミック)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子ノード： Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "原子ノード： Gradient dynamic"){width="100%"}
 
 <b>In:</b>個のアトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 別の画像のピクセルの行または列によって提供されたグラデーションを使用して、画像内のグレースケール値を再マップします。
 
@@ -39,9 +39,9 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

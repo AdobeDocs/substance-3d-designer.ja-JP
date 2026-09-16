@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
-description: ブラー（方向）ノードを使用して、モーションブラーおよび筋エフェクトを作成する特定の方向にブラー効果を適用します。
+description: 指向性ブラーノードを使用して、モーションブラーや筋の効果を生み出すブラーエフェクトを指定した方向に適用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 指向性ブラー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
@@ -20,18 +20,18 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード：方向ブラー](directional-blur.resources/comp_dirmotionblur_1.png "原子ノード：方向ブラー"){width="100%"}
+![アトミックノード：ブラー（方向）](directional-blur.resources/comp_dirmotionblur_1.png "アトミックノード：ブラー（方向）"){width="100%"}
 
-<b>In:</b>個のアトミックノード
+<b>イン：</b> アトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 強度マップに従って、指定した方向にぼかしを適用します。
 
-このノードは、入力に対してモーションブラーと同様の操作を実行します。 すべての方向に均等にぼかす通常の&#39;[ブラー](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)&#39;ノードとは異なり、&#39;方向ぼかし&#39;はユーザー定義の角度に沿って機能します。
+このノードは、入力に対してモーションブラーと同様のオペレーションを実行します。 すべての方向に均等にぼかす通常の&#39;[ブラー](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)&#39;ノードとは異なり、&#39;方向ぼかし&#39;はユーザー定義の角度に沿って機能します。
 
 </td>
 </tr>
@@ -39,9 +39,9 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向ぼかしツールヒント" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向ぼかしツールヒント" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -76,10 +76,10 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>適用度</b> *フロート* | ぼかしの半径をピクセル単位で設定します。 |
-| <b>角度</b> *フロート* | 水平から開始し、時計回りに数ターン単位でぼかし効果の方向を指定します。つまり、方向ベクトル(1, 0)です。 |
+| <b>適用度</b> *浮動小数* | ぼかしの半径をピクセル単位で設定します。 |
+| <b>角度</b> *浮動小数* | 水平方向から時計回りに数ターンでブラーエフェクトの向きを指定します。つまり、方向ベクトル(1, 0)です。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |

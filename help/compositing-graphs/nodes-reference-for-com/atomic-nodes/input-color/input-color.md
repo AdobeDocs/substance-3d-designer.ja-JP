@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 入力カラー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子ノード：入力色](input-color.resources/comp_inputcolor_1.png "原子ノード：入力色"){width="100%"}
 
 <b>In:</b>個のアトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## 説明
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 [出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)とは異なり、カラー、グレースケール、または値の入力を明示的に配置する必要があります。 接続されている内容によってタイプが変わる独自の「不可知入力」を作成することはできません。
 
-入力ノードは[出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ほど重要ではありません。入力を必要としない、完全に機能する高度なグラフを作成できます。 入力は、グラフまたはノードインスタンスの結果を外部入力に基づいて生成する場合にのみ使用されます。たとえば、Substance 3D Painterの[インスタンス](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)または[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)を作成する場合などです。
+入力ノードは[出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ほど重要ではありません。入力を必要としない、完全に機能する高度なグラフを作成できます。 入力は、グラフまたはノードインスタンスの結果を外部入力に基づいて生成する場合にのみ使用されます。たとえば、Substance 3D Painterの[インスタンス](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)または[フィルター](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)を作成する場合などです。
 
 参照： [入力グレースケール](../input-grayscale/input-grayscale.md)、[入力値](../input-value/input-value.md)
 
@@ -45,9 +45,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-color.resources/input-color-tooltip.gif" alt="入力カラーツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-color.resources/input-color-tooltip.gif" alt="入力カラーツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 
 ## 統合の属性
 
-入力は3Dビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)で使用されます）。
+入力は3Dビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)で使用されます）。
 
 さらに、使用量属性は、正しい入力スロットと出力スロットに一致させるために、[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)でも使用されます。
 

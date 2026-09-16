@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: ビットマップノードを使用すると、ビットマップイメージを読み込んで、Substance合成グラフのテクスチャとして使用することができます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ビットマップ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomicノード：ビットマップ](bitmap.resources/comp_bitmap.png "Atomicノード：ビットマップ"){width="100%"}
 
 <b>In:</b>個のアトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 [ビットマップリソース](../../../../resources/bitmap-resource/bitmap-resource.md)をグラフに読み込みます。
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="ビットマップのツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="ビットマップのツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

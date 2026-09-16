@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
-description: テキストノードを使用して、テキストベースのパターンを作成するためのカスタマイズ可能なフォントおよびスタイルを持つテキストテクスチャを生成します。
+description: テキストノードを使用すると、テキストベースのパターンを作成するためのカスタマイズ可能なフォントとスタイルを使用して、テキストテクスチャを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: テキスト
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -20,16 +20,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomicノード： Text](text.resources/comp_text_1.png "Atomicノード： Text"){width="100%"}
+![アトミックノード:テキスト](text.resources/comp_text_1.png "アトミックノード:テキスト"){width="100%"}
 
-<b>In:</b>個のアトミックノード
+<b>イン：</b> アトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
-テキストノードを使用すると、ユーザーが作成したテキストをグラフに配置できます。 ユーザーは、フォント、整列、回転などの設定を選択して、テキストの配置をカスタマイズすることもできます。
+「テキスト」ノードを使用すると、ユーザーが作成したテキストをグラフに配置できます。 フォント、アラインメント、回転などの設定を選択して、テキストの位置をカスタマイズすることもできます。
 
 テキストノードは非常に強力で、テキストを簡単に配置する唯一の方法です。 配置は常に限られた正方形のカンバス上で行われ、フォントはシステム定義の外部リストによって決定されるため、使用するのは少し難しい場合があります。
 
@@ -39,15 +39,15 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="text.resources/text-tooltip.gif" alt="テキストツールヒント" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="text.resources/text-tooltip.gif" alt="テキストツールヒント" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-Truetype(.ttf)および特定のOpentypeフォントのみがサポートされています。 リストにないフォントがある場合は、それが原因である可能性があります。 <b>フォントをパラメーターとして公開することはできません。</b>
+Truetype(.ttf)および特定のOpentypeフォントのみがサポートされています。 リストにないフォントがある場合は、それが原因である可能性があります。 <b>フォントをパラメーターとして表示できません。</b>
 
-テキストを使用したグラフがsbsarに公開されると、フォントはビットマップやその他のリソースと同様にパッケージに埋め込まれ、すべてのシステムおよびアプリケーションで動作するようになります。
+テキストを使用するグラフがsbsarに公開されると、フォントはビットマップやその他のリソースと同様にパッケージに埋め込まれ、すべてのシステムおよびアプリケーションで動作するようになります。
 
 
 
@@ -55,11 +55,11 @@ Truetype(.ttf)および特定のOpentypeフォントのみがサポートされ�
 
 |  |  |
 | --- | --- |
-| <b>カラーモード</b> *ブール値* | グレースケールとカラー出力画像を切り替えます。 |
+| <b>カラーモード</b> *ブーリアン* | グレースケールとカラー出力画像を切り替えます。 |
 | <b>テキスト</b> *文字列* | テキストの説明を指定します。 |
 | <b>フォント</b> *文字列* | テキストのレンダリングに使用するフォントリソース。 |
-| <b>フォントサイズ</b> *フロート* | テキストのフォントサイズをポイントで指定します。 |
-| <b>整列</b> *整数* | テキストのアラインメントを左、中央（デフォルト）、または右に設定します。 |
+| <b>フォントサイズ</b> *浮動小数* | テキストのフォントサイズをポイントで指定します。 |
+| <b>アラインメント</b> *整数* | テキストのアラインメントを左、中央（デフォルト）、または右に設定します。 |
 | <b>変換</b> *浮動小数4* | レンダリングされたテキストに適用される2 x 2の変換行列。 |
 | <b>位置</b> *浮動小数2* | 出力画像でのテキストの位置。 |
 | <b>背景</b> *浮動小数/浮動小数4* | 出力画像の背景色です。 |

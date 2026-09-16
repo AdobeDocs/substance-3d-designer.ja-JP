@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
-description: SVGノードを使用して、SVGのベクターグラフィックをテクスチャとして読み込んでレンダリングし、スケーラブルなグラフィックエレメントを作成します。
+description: SVGノードを使用して、スケーラブルなグラフィックエレメントを作成するためのテクスチャとしてSVGベクターグラフィックを読み込んでレンダリングします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="100%"}
+![アトミックノード: SVG](svg.resources/comp_svg_1.png "アトミックノード: SVG"){width="100%"}
 
-<b>In:</b>個のアトミックノード
+<b>イン：</b> アトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 [SVG画像](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)をビットマップとしてレンダリングします。 つまり、ベクトルシェイプをピクセルにマッピングします。
 
@@ -39,24 +39,24 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="svg.resources/svg-tooltip.gif" alt="svgツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="svgツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-最初からノードを作成するか、SVGファイルをグラフビューにドロップします。
+ノードを最初から作成するか、SVGファイルをグラフビューにドロップします。
 
 
 >[!TIP]
 >
-> 生成または読み込まれたSVG画像は、[2Dビュー](../../../../interface/2d-view/2d-view.md) Dockの[ベクター編集ツール](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)を使用して編集できます。
+> 生成またはインポートされたSVG画像は、[2D ビュー](../../../../interface/2d-view/2d-view.md) Dockの[ベクター編集ツール](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)を使用して編集できます。
 
 >[!IMPORTANT]
 >
 > このノードは外部リソースに依存しているため、これらのノードを使用する際には、いくつかの点に留意する必要があります。
 > 
-> * SVGノードはカラーまたはグレースケールを返すことができますが、リソースがグレースケールベクトルの場合でもデフォルトでカラーが使用されます。 この設定は、グラフのパフォーマンスや複雑さに影響を与える可能性があるため、必要に応じて常に「グレースケール」の[カラーモード](#parameters)に切り替えてください。
+> * SVGノードはカラーまたはグレースケールを返すことができますが、リソースがグレースケールベクトルの場合でもデフォルトでカラーが使用されます。 この設定は、グラフの性能や複雑さに影響する可能性があるため、必要に応じて常に「グレースケール」の[カラーモード](#parameters)に切り替えてください。
 > * SVGノードを削除しても、[パッケージ](../../../../glossary/glossary.md)の[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)は削除されません。[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)で手動で削除する必要があります。
 > * SVGシェイプは、Substanceグラフでビットマップとして使用するために、[テッセレーション](../../../../glossary/glossary.md)されてジオメトリ/ポリゴンに変換され、次に&#x200B;*ラスタライズ*&#x200B;されます。 これらの操作に使用されるテクノロジーは、アウトラインなどの複数のベクトルプロパティをサポートしていません。 これらの制限の詳細については、[こちら](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)をご覧ください。
 
@@ -73,15 +73,15 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>カラーモード</b> *ブール値* | カラーまたはグレースケールで返すノードの出力タイプを指定します。 |
+| <b>カラーモード</b> *ブーリアン* | カラーまたはグレースケールで返すノードの出力タイプを指定します。 |
 | <b>背景色</b> *カラー/グレースケール* | ベクターシェイプで覆われていない領域で使用する出力画像の背景色を設定します。   *入力が接続されている場合は、&#39;[Background](#inputs)&#39;入力によって上書きされます。* |
-| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのSVGノードにドラッグアンドドロップすることをお勧めします。 |
+| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターのテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのSVGノードにドラッグアンドドロップすることをお勧めします。 |
 
 ## ベクター編集ツール
 
 ベクターシェイプはDesignerで編集できます。 編集ツールの詳細については、[このセクション](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)を参照してください。
 
-## 入力コネクター
+## 入力コネクタ
 
 |  |  |
 | --- | --- |

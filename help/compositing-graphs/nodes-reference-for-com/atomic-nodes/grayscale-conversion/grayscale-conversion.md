@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
-description: さまざまな変換方法を使用してカラーテクスチャをグレースケールに変換するには、グレースケール変換ノードを使用します。
+description: グレースケール変換ノードを使用して、様々な変換方法でカラーテクスチャをグレースケールに変換します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: グレースケール変換
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 7%
@@ -20,14 +20,14 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード：グレースケール変換](grayscale-conversion.resources/comp_grayscaleconversion_1.png "原子ノード：グレースケール変換"){width="100%"}
+![アトミックノード:グレースケール変換](grayscale-conversion.resources/comp_grayscaleconversion_1.png "アトミックノード:グレースケール変換"){width="100%"}
 
-<b>In:</b>個のアトミックノード
+<b>イン：</b> アトミックノード
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 各カラーチャンネルの輝度に重み付けを行い、カラー画像をグレースケールに変換します。
 
@@ -39,9 +39,9 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="グレースケール変換ツールチップ" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="グレースケール変換ツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -57,11 +57,11 @@ ht-degree: 7%
 
 |  |  |
 | --- | --- |
-| <b>チャンネルの太さ</b> *浮動小数点4* | グレースケール変換の各RGBAチャンネルのウェイトを設定します。   デフォルトでは、RGBチャンネルで均等に分割されます。 |
-| <b>アルファを統合</b> *ブール値* | グレースケール値にはAlpha情報を含めることができないため、最終的なグレースケール結果に対するAlphaの動作を設定します。   *True*&#x200B;の場合、グレースケール変換は入力画像のAlphaチャンネルに対して乗算されます |
-| <b>背景の値</b> *フロート* | 入力にアルファマスクが含まれている場合に、ベース背景値を設定します。 つまり、透明として扱うピクセルを指定します。   *&#39;アルファの平坦化&#39;が&#39;True&#39;に設定されている場合に使用できます。* |
+| <b>チャンネルの太さ</b> *浮動小数4* | グレースケール変換の各RGBAチャンネルのウェイトを設定します。   デフォルトでは、RGBチャンネルで均等に分割されます。 |
+| <b>アルファを統合</b> *ブーリアン* | グレースケール値にはAlpha情報を含めることができないため、最終的なグレースケール結果に対するAlphaの動作を設定します。   *True*&#x200B;の場合、グレースケール変換は入力画像のアルファチャンネルに対して乗算されます |
+| <b>背景の値</b> *浮動小数* | 入力にアルファマスクが含まれている場合に、ベース背景値を設定します。 つまり、透明として扱うピクセルを指定します。   *&#39;アルファの平坦化&#39;が&#39;True&#39;に設定されている場合に使用できます。* |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |

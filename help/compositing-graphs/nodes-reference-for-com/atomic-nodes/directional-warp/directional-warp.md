@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
 description: 方向ワープノードを使用して、テクスチャに方向ゆがみを適用し、フローエフェクトやモーションエフェクトを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 指向性ワープ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 9%
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子ノード：方向ワープ](directional-warp.resources/comp_directionalwarp_1.png "原子ノード：方向ワープ"){width="100%"}
 
 **<b>内：</b> アトミックノード**
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 強度マップに従ってピクセルを指定した方向に移動します。これにより、変形が発生する場合があります。
 
@@ -39,9 +39,9 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="方向ワープツールヒント" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="方向ワープツールヒント" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
