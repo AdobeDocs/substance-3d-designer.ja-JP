@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+breadcrumb-title: ""
 description: Substance合成グラフで継承を使用して、再利用可能なグラフ階層とバリエーションを作成する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance グラフの継承
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # Substance グラフの継承
 
@@ -81,7 +79,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 
 >[!WARNING]
 >
-> このページで説明する概念を理解するための重要なお知らせ： *インスタンスノード*&#x200B;は、別のグラフ[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表すノードであり、その&#x200B;*独自の個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されます。\
+> このページで説明する概念を理解するための重要なお知らせ： *インスタンスノード*&#x200B;は、別のグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表す[ノードであり、その&#x200B;*独自の個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されます。\
 > 例えば、同じグラフ内の2つの[Perlinノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)ノードは、両方とも&#x200B;*同じ*&#x200B;ソースグラフ（`noise_perlin_noise.sbs`の`perlin_noise`）を、*独自のパラメーター値のセット*&#x200B;で表現したものです。
 
 >[!NOTE]
@@ -196,7 +194,7 @@ Substanceグラフ内のすべてのノードは、ソースから一部のパ�
 </tr>
 </table>
 
-入力の1つをグラフの&#x200B;**プライマリ入力**&#x200B;として設定するには、[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノードで&#x200B;**RMB**&#x200B;をクリックし、コンテキストメニューの&#x200B;**プライマリ入力として設定**&#x200B;オプションを選択します。
+入力の1つをグラフの&#x200B;**プライマリ入力**&#x200B;として設定するには、[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)ノードで&#x200B;**RMB**&#x200B;をクリックし、コンテキストメニューの&#x200B;**プライマリ入力として設定**&#x200B;オプションを選択します。
 
 </td>
 <td style="border: 0;" valign="top">

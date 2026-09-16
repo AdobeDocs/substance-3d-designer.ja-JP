@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+breadcrumb-title: ""
 description: プロシージャルテクスチャやマテリアルワークフローを作成するためのSubstance 3D DesignerのSubstance合成グラフについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance グラフ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Substance グラフ
 
@@ -59,7 +57,7 @@ Substanceグラフは[最も広くサポートされている種類のグラフ]
 
 
 
-フィルターグラフは、通常のマップを[入力](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) （カスタムプレビューを含む）として受け取り、[曲率に変換](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)して、[コントラストを調整](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)して、最終的な[出力](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)として凸状のエッジのマスクを作成します。
+フィルターグラフでは、法線マップを[入力](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) （カスタムプレビュー付き）として指定し、[曲率に変換](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)して、[コントラストを調整](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)して、最終的な[出力](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)として凸型のエッジのマスクを作成します。
 
 ヒストグラムに設定されたコントラスト値を表示できるため、これはダイナミック入力スロットと組み合わせたシンプルで便利なフィルターになります。
 

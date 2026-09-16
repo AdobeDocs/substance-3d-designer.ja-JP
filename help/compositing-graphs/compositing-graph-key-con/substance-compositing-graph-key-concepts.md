@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+breadcrumb-title: ""
 description: ノード、コネクション、ワークフローの基礎など、Substance合成グラフのキーコンセプトについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance グラフの重要な概念
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Substance グラフの重要な概念
 
@@ -43,7 +41,7 @@ ht-degree: 1%
 * 出力を識別するには、<b>一意の名前</b>にする必要があります。出力を書き出す際に役立ちます。
 * Nodeの右側にあるすべてのコネクターは、実際にはOutputです（詳細は「サブグラフ」を参照してください）
 
-[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)は出力に似ています。自分または他のユーザーが自分のデータを接続するための空の空きスロットです。 これにより、外部のユーザー定義の画像データに対して、入力画像を適用するフィルター（ぼかし、コントラスト補正など）のようなグラフを加えることができます。
+[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)は出力に似ています。自分または他のユーザーが自分のデータを接続するための空の空きスロットです。 これにより、外部のユーザー定義の画像データに対して、入力画像を適用するフィルター（ぼかし、コントラスト補正など）のようなグラフを加えることができます。
 
 入力について知っておくべきいくつかの点を次に示します。
 

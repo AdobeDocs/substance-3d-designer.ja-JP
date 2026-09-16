@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+breadcrumb-title: ""
 description: 入力、出力、描画およびカラー調整などの基本的な操作については、Substance 3D Designerのアトミックノードにアクセスします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: アトミックノード
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 11%
-
+ht-degree: 12%
 ---
-
 
 # アトミックノード
 
@@ -58,7 +56,7 @@ ht-degree: 11%
 
 [![原子ノード：ブラー（方向）](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[ブラー（方向）](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[ブラー（方向）](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -129,16 +127,16 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![原子ノード：入力カラー](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![原子ノード：入力カラー](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[入力カラー](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[入力カラー](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![アトミックノード：入力グレースケール](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![アトミックノード：入力グレースケール](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[入力グレースケール](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[入力グレースケール](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
 </td>
 </tr>
@@ -148,9 +146,9 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![アトミックノード：入力値](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![アトミックノード：入力値](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
-[入力値](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[入力値](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -188,35 +186,35 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![アトミックノード:シャープ](atomic-nodes.resources/comp_sharpen.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
+[![アトミックノード：シャープ](atomic-nodes.resources/comp_sharpen.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
 
 [シャープ](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![アトミックノード: チャンネルシャッフル](atomic-nodes.resources/comp_shuffle_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
+[![アトミックノード：チャネルの移動](atomic-nodes.resources/comp_shuffle_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
 [チャンネルシャッフル](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![アトミックノード: SVG](atomic-nodes.resources/comp_svg.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
+[![アトミックノード： SVG](atomic-nodes.resources/comp_svg.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
 
 [SVG](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![アトミックノード:テキスト](atomic-nodes.resources/comp_text.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
+[![アトミックノード：テキスト](atomic-nodes.resources/comp_text.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
 [テキスト](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![アトミックノード: 変形 2D](atomic-nodes.resources/comp_transformation.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
+[![アトミックノード：変換2D](atomic-nodes.resources/comp_transformation.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
 
 [変形 2D](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
 
@@ -228,21 +226,21 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![アトミックノード: 均一カラー](atomic-nodes.resources/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
+[![原子ノード：均一な色](atomic-nodes.resources/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 [均一カラー](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![アトミックノード: バリュープロセッサー](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
+[![アトミックノード：値プロセッサ](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 [バリュープロセッサー](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![アトミックノード:ワープ](atomic-nodes.resources/comp_warp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
+[![原子ノード：ワープ](atomic-nodes.resources/comp_warp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
 
 [ワープ](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
 
@@ -262,30 +260,30 @@ ht-degree: 11%
 
 ## アトミックノードの配置
 
-グラフでアトミックノードを作成するには、いくつかの方法があります。
+Substanceグラフでアトミックノードを作成するには、いくつかの方法があります。
 
 ### <b>ノードパレット</b>
 
 ![](atomic-nodes.resources/atomic-bar.png)
 
-ノードパレットは[グラフビューツールバー](../../../interface/the-graph-view/the-graph-view.md)に表示され、ノードをクリックするかグラフ内にドラッグするだけで、アトミックノードに簡単にアクセスできます。
+ノードパレットは[グラフビューツールバー](../../../interface/the-graph-view/the-graph-view.md)にあり、ノードをクリックするかグラフ内にドラッグするだけで、アトミックノードに簡単にアクセスできます。
 
 パレットは、次のボタンを使用して切り替えられます： ![](atomic-nodes.resources/node-palette-toggle.png)
 
 ### <b>ノードメニュー</b>
 
-既定では、グラフビューの&#x200B;*スペースバー*&#x200B;または&#x200B;*Tab*&#x200B;を押すと、検索可能なノードの一覧が表示され、すべてのアトミックノードが一覧表示されます。
+グラフ表示で&#x200B;*スペースバー*&#x200B;または&#x200B;*タブ*&#x200B;を押すと、検索可能なノードのリストが表示され、デフォルトですべてのアトミックノードが一覧表示されます。
 
 検索フィールドでは、[ライブラリ内の他のすべてのノード](../../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)を参照できます。これには、[自分のコンテンツ](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) （追加されている場合）を含みます。
 
 ### <b>グラフのコンテキストメニュー</b>
 
-ノードを右クリックして「グラフを追加」サブメニューに移動し、アトミックノードのリストにアクセスします。
+グラフを右クリックして「ノードの追加」サブメニューに移動し、アトミックノードのリストにアクセスします。
 
 ### <b>ライブラリ</b>
 
-[Library](../../../interface/the-library/the-library.md)の&#39;アトミックノード&#39;カテゴリは、すべてのアトミックノードをホストします。 Substanceのグラフにドラッグ&amp;ドロップできます。
+[Library](../../../interface/the-library/the-library.md)の&#39;Atomic nodes&#39;カテゴリは、すべてのアトミックノードをホストします。 Substanceグラフにドラッグ&amp;ドロップできます。
 
 ### <b>キーボードショートカット</b>
 
-[独自のキーボードショートカット](../../../interface/preferences-window/preferences-window.md)を定義して、アトミックノードを含むグラフ内の任意のノードをすばやく作成できます。
+[独自のキーボードショートカット](../../../interface/preferences-window/preferences-window.md)を定義して、アトミックノードを含むグラフ内の任意のノードを即座に作成できます。

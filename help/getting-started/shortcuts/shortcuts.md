@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+breadcrumb-title: ""
 description: Substance 3D Designerのキーボードショートカットを使用して、ワークフローを高速化し、生産性を向上させる方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: ショートカット
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 18%
-
 ---
-
 
 # ショートカット
 
 このページでは、Substance 3D Designerのすべてのショートカットの概要を説明します。
-
-## 目次
-
-[Keymaps](#keymaps)
-
-[ショートカットリスト](#shortcuts-lists)
 
 ## Keymaps
 
@@ -44,7 +36,7 @@ ht-degree: 18%
 
 | アクション | Windows | macOS |
 | --- | --- | --- |
-| [新しいSubstanceグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
+| [新しいグラフ](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | パッケージを読み込み | Ctrl + O | ⌘ + O |
 | 選択したパッケージを閉じる | Ctrl + F4 | ⌘ + W |
 | パッケージを保存 | Ctrl + S | ⌘ + S |
