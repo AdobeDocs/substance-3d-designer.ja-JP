@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 変換2Dノードを使用して、移動、回転、スケーリングなどのテクスチャに2D変換を適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変形 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![アトミックノード：変換2D](transformation-2d.resources/comp_transformation_1.png "アトミックノード：変換2D")
+![アトミックノード：変換2D](transformation-2d.resources/comp_transformation_1.png "アトミックノード：変換2D"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 5%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2dツールチップ" /></div>
+<div data-preserve-html="true" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2dツールチップ" /></div>
 
 これは非常に便利で広く適用されているノードであり、タイリングを増やす、タイリングを削除する、画像を特定の位置に配置する、入力を伸縮または収縮させるなどの操作を実行できます。
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
-description: 指向性ブラーノードを使用して、モーションブラーや筋の効果を生み出すブラーエフェクトを指定した方向に適用します。
+description: ブラー（方向）ノードを使用して、モーションブラーおよび筋エフェクトを作成する特定の方向にブラー効果を適用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 指向性ブラー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -22,20 +22,20 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![アトミックノード：ブラー（方向）](directional-blur.resources/comp_dirmotionblur_1.png "アトミックノード：ブラー（方向）")
+![原子ノード：方向ブラー](directional-blur.resources/comp_dirmotionblur_1.png "原子ノード：方向ブラー"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 強度マップに従って、指定した方向にぼかしを適用します。
 
-このノードは、入力に対してモーションブラーと同様のオペレーションを実行します。 すべての方向に均等にぼかす通常の&#39;[ブラー](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)&#39;ノードとは異なり、&#39;方向ぼかし&#39;はユーザー定義の角度に沿って機能します。
+このノードは、入力に対してモーションブラーと同様の操作を実行します。 すべての方向に均等にぼかす通常の&#39;[ブラー](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)&#39;ノードとは異なり、&#39;方向ぼかし&#39;はユーザー定義の角度に沿って機能します。
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向ぼかしツールヒント" /></div>
+<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向ぼかしツールヒント" /></div>
 
 「ぼかし」と同様に、より高速で低品質な操作です。 拡張された高品質の代替エフェクトが[異方性反射ブラー](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)で提供されます。性能のトレードオフがあります
 
@@ -68,10 +68,10 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>適用度</b> *浮動小数* | ぼかしの半径をピクセル単位で設定します。 |
-| <b>角度</b> *浮動小数* | 水平方向から時計回りに数ターンでブラーエフェクトの向きを指定します。つまり、方向ベクトル(1, 0)です。 |
+| <b>適用度</b> *フロート* | ぼかしの半径をピクセル単位で設定します。 |
+| <b>角度</b> *フロート* | 水平から開始し、時計回りに数ターン単位でぼかし効果の方向を指定します。つまり、方向ベクトル(1, 0)です。 |
 
-## 入力コネクター
+## 入力コネクタ
 
 |  |  |
 | --- | --- |
