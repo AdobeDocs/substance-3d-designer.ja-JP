@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
-description: シャープノードを使用して、テクスチャのディテールとエッジを強調し、鮮明でくっきりとした表面のディテールを作成します。
+description: シャープノードを使用して、テクスチャのディテールとエッジを強調し、鮮明でくっきりとしたディテールを浮かび上がらせます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シャープ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -22,12 +22,12 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![シャープノードアイコン](sharpen.resources/sharpen-4.png "シャープノードアイコン"){width="20%"}
+![シャープノードアイコン](sharpen.resources/sharpen-4.png "シャープノードアイコン")
 
-<b>In:</b>個のアトミックノード
+<b>イン：</b> アトミックノード
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 説明
 
@@ -37,9 +37,9 @@ ht-degree: 4%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="シャープツールヒント" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="シャープツールヒント" /></div>
 
-名前は異なりますが、数学的にはPhotoshopのアンシャープマスクに非常に似ています。 これはベースカラーマップのような場合に適していますが、通常のマップやメタリックマップのようなマップでは使用しないでください。
+名前は異なりますが、数学的にはPhotoshopのアンシャープマスクに非常に似ています。 これはベースカラーマップのような場合に適していますが、法線マップやメタリックマップのようなマップでは使用しないでください。
 
 ## 入力
 
@@ -48,11 +48,11 @@ ht-degree: 4%
 
 ## パラメーター
 
-<b>適用度</b> *フロート*\
+<b>適用度</b> *浮動小数*\
 シャープ効果の強さを設定します。
 
-<b>パンチスルーAlpha</b> *ブール値* （カラー画像が<b>入力</b>に接続されている場合に使用できます）\
-画像のアルファチャンネルにシャープを適用するか、変更しないかを指定します。
+<b>パンチスルーAlpha</b> *ブーリアン* （カラー画像が<b>入力</b>に接続されている場合に使用可能）\
+画像のアルファチャンネルをシャープにするか、または変更しないかを指定します。
 
 ## 例
 

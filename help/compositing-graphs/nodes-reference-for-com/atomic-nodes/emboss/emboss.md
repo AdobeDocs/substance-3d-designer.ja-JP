@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: '[エンボス]ノードを使用して、テクスチャにエンボス効果を加え、サーフェスのディテールに深度とリリーフを加えます。'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: エンボス
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 9%
@@ -20,12 +20,12 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomicノード：エンボス](emboss.resources/comp_emboss_1.png "Atomicノード：エンボス"){width="20%"}
+![Atomicノード：エンボス](emboss.resources/comp_emboss_1.png "Atomicノード：エンボス")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 画像内の形状の側面を、指定した光源方向に合わせて照明することで、エンボス効果を適用します。
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="エンボスツールチップ" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="エンボスツールチップ" /></div>
 
 このノードはPBRのようなプロジェクトではあまり使用されませんが、テクスチャにベイク処理されたシンプルなライティングが必要な場合に使用できます。 代わりに、[グロスによるエンボス](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)と[Uberエンボス](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)を使用すると、同様の機能が、より広範な機能を利用できます。
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
-description: HSLノードを使用して、テクスチャの色相、彩度、明度を調整し、カラーの操作や補正を行います。
+description: HSLノードを使用して、色相、彩度、色明度のテクスチャを調整し、カラーを操作および補正します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード： HSL](hsl.resources/comp_hsl_1.png "原子ノード： HSL"){width="20%"}
+![アトミックノード: HSL](hsl.resources/comp_hsl_1.png "アトミックノード: HSL")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 カラー画像の色相、彩度、明度を調整します。
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="hslツールチップ" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="hsl.resources/hsl-tooltip.gif" alt="hslツールチップ" /></div>
 
 
 
@@ -45,11 +45,11 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>色相</b> *フロート* | 入力画像のカラーを指定します。   0.5より小さい値を指定すると色相が負にシフトし、0.5より大きい値を指定するとプラスにシフトします。 |
-| <b>彩度</b> *フロート* | 入力画像のカラーの彩度を指定します。   0.5より小さい値を指定すると彩度が下がり、0.5より大きい値を指定すると彩度が上がります。 |
-| <b>明るさ</b> *フロート* | 入力イメージの明度を決定します。0.5より小さい値を指定すると明度が下がり、0.5より大きい値を指定すると明度が上がります。 |
+| <b>色相</b> *浮動小数* | 入力画像のカラーを指定します。   0.5より小さい値を指定すると色相が負にシフトし、0.5より大きい値を指定するとプラスにシフトします。 |
+| <b>彩度</b> *浮動小数* | 入力画像のカラーの彩度を指定します。   0.5より小さい値を指定すると彩度が下がり、0.5より大きい値を指定すると彩度が上がります。 |
+| <b>明度</b> *浮動小数* | 入力画像の明度を指定します。0.5より小さい値にすると明度が下がり、0.5より大きい値にすると上がります。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |

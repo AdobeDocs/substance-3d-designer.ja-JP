@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
 description: 方向ワープノードを使用して、テクスチャに方向ゆがみを適用し、フローエフェクトやモーションエフェクトを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 指向性ワープ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：方向ワープ](directional-warp.resources/comp_directionalwarp_1.png "原子ノード：方向ワープ"){width="20%"}
+![原子ノード：方向ワープ](directional-warp.resources/comp_directionalwarp_1.png "原子ノード：方向ワープ")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 強度マップに従ってピクセルを指定した方向に移動します。これにより、変形が発生する場合があります。
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="方向ワープツールヒント" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="方向ワープツールヒント" /></div>
 
 ワープノードは、非常に単純ですが便利なノードで、他のより高度なエフェクトの良い基盤として機能します。 その他の関連するノードとして、[勾配ぼかし](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)および[ベクトルワープ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)など、より高度な代替手段があります。
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 |  |  |
 | --- | --- |
 | <b>入力</b> *グレースケール/カラー*&#x200B;プライマリ | ワープ効果を適用するグレースケールまたはカラー入力画像。 |
-| <b>強度入力</b> *グレースケール* | <b>入力</b>画像に適用する必要のあるワープの量を定義するグレースケールイメージです。 |
+| <b>強度入力</b> *グレースケール* | <b>入力</b>画像に適用する必要のあるワープの量を定義するグレースケール画像です。 |
 
 
 ## 例
@@ -64,17 +64,17 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![指向性ワープ – 例1](directional-warp.resources/dir-warp.gif "指向性ワープ – 例1"){width="20%"}{zoomable="yes"}
+![方向ワープ – 例1](directional-warp.resources/dir-warp.gif "方向ワープ – 例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![指向性ワープ – 例2](directional-warp.resources/dir-warp02.gif "指向性ワープ – 例2"){zoomable="yes"}
+![方向ワープ – 例2](directional-warp.resources/dir-warp02.gif "方向ワープ – 例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![指向性ワープ – 例3](directional-warp.resources/dir-warp03.gif "指向性ワープ – 例3"){zoomable="yes"}
+![方向ワープ – 例3](directional-warp.resources/dir-warp03.gif "方向ワープ – 例3"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: チャンネルシャッフルノードを使用して、テクスチャのカラーチャンネルを再配置し、カラーエフェクトやチャンネルの入れ替えを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: チャンネルシャッフル
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![アトミックノード：チャンネルの移動](channel-shuffle.resources/comp_shuffle.png "アトミックノード：チャンネルの移動"){width="20%"}
+![アトミックノード：チャンネルの移動](channel-shuffle.resources/comp_shuffle.png "アトミックノード：チャンネルの移動")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 1 つまたは 2 つの入力画像のカラーチャンネルを出力画像に再配置します。
 
@@ -37,7 +37,7 @@ ht-degree: 7%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="チャンネルシャッフルツールヒント" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="チャンネルシャッフルツールヒント" /></div>
 
 チャンネルの移動には基本的なオプションがありますが、チャンネルパッキングまたは取り消しおよびAlphaチャンネルの設定では、ほとんどの場合、[RGBAマージ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md)、[RGBAスプリット](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md)、[Alphaの結合](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md)および[Alphaの分割](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md)を使用する方が簡単です。 これらは、複数のパラメーターを変更したり、後でグレースケールに変換したりする必要のないデフォルトのアクションを実行するように設定されています。 より高度なバージョンと、より多くの描画オプションをお探しの場合は、[チャンネルミキサー](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md)をご覧ください。
 
@@ -57,7 +57,7 @@ ht-degree: 7%
 |  |  |
 | --- | --- |
 | <b>入力1</b> *カラー/グレースケール*&#x200B;プライマリ | プライマリ入力画像。 |
-| <b>入力2</b> *カラー/グレースケール* | セカンダリ入力イメージ： |
+| <b>入力2</b> *カラー/グレースケール* | 二次入力画像 |
 
 
 ## 例

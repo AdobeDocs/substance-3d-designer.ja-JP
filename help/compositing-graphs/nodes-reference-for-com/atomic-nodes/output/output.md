@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 出力
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![アトミックノード：出力](output.resources/comp_output_1.png "アトミックノード：出力"){width="20%"}
+![アトミックノード：出力](output.resources/comp_output_1.png "アトミックノード：出力")
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +35,7 @@ Outputノードは、Substanceノードの<b>result</b>を指定します。複�
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="出力ツールチップ" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="output.resources/output-tooltip.gif" alt="出力ツールチップ" /></div>
 
 同様に、[公開されたSbsar ファイル](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)にこのグラフが含まれている場合、そのファイルは、そのファイルを使用する任意の統合またはプラグインでそのイメージを出力できます。
 
@@ -52,7 +52,7 @@ Outputノードは、Substanceノードの<b>result</b>を指定します。複�
 | <b>識別子</b> *文字列* | 出力の一意の識別子。 このプロパティは、空白のままにすることはできません。また、特殊文字やスペースを含めることはできません。   この識別子は、ノードのラベルが&#39;Label&#39;プロパティが空白のままであるために使用されます。 また、[書き出されたテクスチャ](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)に名前を付ける場合にも使用できます。 |
 | <b>説明</b> *文字列* | 出力のツールチップとして使用されるオプションの説明は、グラフです。 |
 | <b>ラベル</b> *文字列* | これは、出力ノードのラベルとして使用され、このグラフを表す[インスタンス化](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)内の対応するコネクターとして使用されます。 ラベルには、スペースや特殊文字を含めることができます。 |
-| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/jp/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
+| <b>ユーザーデータ</b> *文字列* | 特定のフィルタリング操作に使用できるオプションのメタデータ。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)このデータを使用して[いくつかの機能を実行](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
 | <b>グループ</b> *文字列* | Designerの[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)で出力をグループ化するために使用される属性です。   同一の「Group」属性を持つ出力は、「コンパクトマテリアル」リンク作成モードで1つの接続として表示されます。 |
 
 ## 統合の属性
@@ -71,34 +71,34 @@ Outputノードは、Substanceノードの<b>result</b>を指定します。複�
 
 +++
 
-### 3Dビューでの使用の役割について
+### 3D ビュー内での使用のロールについて
 
-グラフ出力は特定のテクスチャチャンネルの最終結果として使用されることが多いため、出力は3Dビューで使用されるシェーダの適切なサンプラに自動的に送信されます。
+グラフ出力は多くの場合、特定のテクスチャチャンネルの最終結果として使用されるため、3D ビューに使用されているシェーダーの適切なサンプラーに出力を自動送信することができます。
 
-実際、3Dビューの<b>使用方法</b>のプロパティ&#x200B;*がサンプラー使用方法*&#x200B;と一致する出力は、そのサンプラーに接続されます。 例えば、使用方法が`basecolor`の出力は、3Dビューシェーダーの`basecolor`サンプラーに接続されます。 （詳細： [3Dビューでデータを表示](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)）
+実際、3D ビュー内の<b>Usage</b>のプロパティ&#x200B;*がサンプラーの使用状況*&#x200B;に一致する出力は、そのサンプラーに接続されます。 例えば、`basecolor`を使用する出力は、シェーダーの`basecolor`サンプラーに接続されます。 （詳細： [3Dビューでデータを表示](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)）
 
-[グラフビュー](../../../../interface/the-graph-view/the-graph-view.md)の空の領域で人民元をクリックし、コンテキストメニューの<b>3Dビューで出力を表示</b>オプションを選択して、すべての出力を&#x200B;*一致する使用法*&#x200B;を持つ3Dビューサンプラーに接続します。
+[グラフビュー](../../../../interface/the-graph-view/the-graph-view.md)の空の領域でRMBをクリックし、コンテキストメニューで「<b>3Dビューで出力を表示</b>」オプションを選択して、すべての出力を&#x200B;*一致する使用状況*&#x200B;を持つ3D ビューサンプラーに接続します。
 
 >[!IMPORTANT]
 >
-> たとえば、パックされたテクスチャのチャンネルに使用法を割り当てるために複数の使用法が設定されている場合、リストの&#x200B;*最初の使用法*&#x200B;のみが3Dビューに接続されます。 これは既知の制限です。
+> たとえば、パックされたテクスチャのチャンネルに使用を割り当てるように複数の使用が設定されている場合、リスト内の&#x200B;*最初の使用*&#x200B;のみが3D ビューに接続されます。 これは既知の制限です。
 
 ## デフォルト出力
 
-1つのグラフに複数の出力がある場合は、そのうちの1つをグラフのデフォルト出力として設定できます。 どの出力を使用するかを指定します。
+グラフに複数の出力がある場合は、そのうちの1つをグラフのデフォルト出力にすることができます。 どの出力を使用するかを指定します。
 
-* グラフを表すインスタンスノードのサムネイル
-* 2Dビューでのインスタンスノードの表示
+* そのグラフを表すインスタンス化のサムネール
+* 2D ビュー内のインスタンス化の表示
 * ライブラリにあるそのグラフのサムネイル（独自のリソースの追加については、[こちら](../../../../interface/preferences-window/project-settings/project-settings.md)を参照してください）
 
-この機能を使用すると、グラフをノードとして表示する方法とは別に、グラフ出力を任意の順序で配置できます。
+この機能を使用すると、グラフをグラフ出力として表示する方法とは別に、ノードを任意の順序で配置できます。
 
 出力ノードをグラフのデフォルト出力として設定するには：
 
 * 出力ノードを右クリックし、コンテキストメニューで「デフォルトの出力として設定」アクションを選択します。
 * 出力ノードのプロパティで、「属性」セクションのヘッダーにある「デフォルトとして設定」ボタンを使用します。
 
-次に、デフォルト出力の設定前と設定後のインスタンスノードの例を示します。
+次に、デフォルト出力の設定前と設定後のインスタンス化の例を示します。
 
 <table>
   <tr style="border: 0">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: テキストノードを使用して、テキストベースのパターンを作成するためのカスタマイズ可能なフォントおよびスタイルを持つテキストテクスチャを生成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: テキスト
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード： Text](text.resources/comp_text_1.png "Atomicノード： Text"){width="20%"}
+![Atomicノード： Text](text.resources/comp_text_1.png "Atomicノード： Text")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 テキストノードを使用すると、ユーザーが作成したテキストをグラフに配置できます。 ユーザーは、フォント、整列、回転などの設定を選択して、テキストの配置をカスタマイズすることもできます。
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="text.resources/text-tooltip.gif" alt="テキストツールヒント" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="text.resources/text-tooltip.gif" alt="テキストツールヒント" /></div>
 
 Truetype(.ttf)および特定のOpentypeフォントのみがサポートされています。 リストにないフォントがある場合は、それが原因である可能性があります。 <b>フォントをパラメーターとして公開することはできません。</b>
 
@@ -51,13 +51,13 @@ Truetype(.ttf)および特定のOpentypeフォントのみがサポートされ�
 | <b>テキスト</b> *文字列* | テキストの説明を指定します。 |
 | <b>フォント</b> *文字列* | テキストのレンダリングに使用するフォントリソース。 |
 | <b>フォントサイズ</b> *フロート* | テキストのフォントサイズをポイントで指定します。 |
-| <b>整列</b> *整数* | テキストの左揃え、中央揃え（デフォルト）、右揃えを設定します。 |
-| <b>変換</b> *浮動小数点4* | レンダリングされたテキストに適用される2 x 2の変換行列。 |
-| <b>位置</b> *浮動小数点2* | 出力画像でのテキストの位置。 |
-| <b>背景</b> *フロート/フロート4* | 出力画像の背景色です。 |
-| <b>フォントの色</b> *フロート/フロート4* | テキストの色。 |
+| <b>整列</b> *整数* | テキストのアラインメントを左、中央（デフォルト）、または右に設定します。 |
+| <b>変換</b> *浮動小数4* | レンダリングされたテキストに適用される2 x 2の変換行列。 |
+| <b>位置</b> *浮動小数2* | 出力画像でのテキストの位置。 |
+| <b>背景</b> *浮動小数/浮動小数4* | 出力画像の背景色です。 |
+| <b>フォントの色</b> *浮動小数/浮動小数4* | テキストの色。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |

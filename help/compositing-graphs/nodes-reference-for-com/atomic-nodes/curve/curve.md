@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
-description: Curveノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。
+description: '[カーブ]ノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: カーブ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード： Curve](curve.resources/comp_curve_1.png "原子ノード： Curve"){width="20%"}
+![アトミックノード:カーブ](curve.resources/comp_curve_1.png "アトミックノード:カーブ")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 カスタムカーブを使用して、画像内の値を再マップします。
 
@@ -35,11 +35,11 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="曲線ツールチップ" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="曲線ツールチップ" /></div>
 
 他のほとんどのノードとは異なり、カーブノードには、スライダとパラメータを持つ標準的なインタフェースはありませんが、代わりに完全なカーブエディタが表示されます。 使用方法については、次の拡張可能なセクションを参照してください。
 
-[ただし、これは、Curveノードのパラメーターをサブグラフに公開できないことを意味します](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 ここでの唯一のオプションは、[Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)を使用して、異なる曲線プロファイル間を切り替えることです。
+[ただし、これは、Curveノードのパラメーターをサブグラフに表示できないことを意味します](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 ここでの唯一のオプションは、[Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)を使用して、異なる曲線プロファイル間を切り替えることです。
 
 
 
@@ -47,8 +47,8 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>曲線を適用/表示</b> *ブール値* | ユーザー曲線を入力画像に適用する代わりに、出力にコピーできます |
-| <b>曲線アドレス指定</b> *ブール値* | このパラメーターは、入力の[0, 1]範囲外のHDRピクセルの処理方法（[0, 1]までクランプまたは折りたたむ）を決定します。 |
+| <b>カーブの適用/表示</b> *ブーリアン* | ユーザーカーブを入力画像に適用する代わりに、出力にコピーできます |
+| <b>曲線アドレス指定</b> *ブーリアン* | このパラメーターは、入力の[0, 1]範囲外のHDRピクセルの処理方法（[0, 1]までクランプまたは折りたたみ）を指定します。 |
 | <b>曲線</b> *曲線キーの配列* | 入力グレースケール値のマッピングに使用するカスタムカーブ。   [曲線エディター](#curve-editor)を使用して編集できます。 |
 
 ## カーブエディタ
@@ -57,13 +57,13 @@ ht-degree: 2%
 
 ポイントを作成するには、カーブビューの任意の場所をダブルクリックします。
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### ポイントの影響を制御する
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 正確な結果を得るために、曲線ノードには点ごとに異なるモードがあります。
 
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 カラーノードを入力すると、各チャンネルのカーブを調整できます。
 
@@ -123,7 +123,7 @@ RGBカーブモードでは、![](curve.resources/image2017-2-17-14-55-0.png)を
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 カーブビューを右クリックすると、さらにオプションが表示されます。
 
@@ -144,9 +144,9 @@ RGBカーブモードでは、![](curve.resources/image2017-2-17-14-55-0.png)を
 
 <b>水平方向/垂直方向に分布：</b>選択した軸にポイントを分布します
 
-<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択した点を反転します。
+<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択したポイントを反転します。
 
-<b>水平方向/垂直方向にミラー：</b>選択した軸に従って曲線全体をミラーします
+<b>水平方向/垂直方向にミラー：</b>選択した軸に従ってカーブ全体をミラーします
 
 ### キーボードショートカット
 
@@ -173,7 +173,7 @@ RGBカーブモードでは、![](curve.resources/image2017-2-17-14-55-0.png)を
 
 <b>Shiftキーを押しながらドラッグ</b>
 
-X軸またはY軸に沿って移動を制限します。
+移動をX方向またはY軸に制限します。
 
 </td>
 <td style="border: 0;" valign="top">

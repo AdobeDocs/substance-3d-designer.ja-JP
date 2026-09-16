@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: 法線ノードを使用して、法線マップテクスチャを処理および操作し、サーフェスのディテールとライティングを制御します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法線
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：標準](normal.resources/comp_normal_1.png "原子ノード：標準"){width="20%"}
+![原子ノード：標準](normal.resources/comp_normal_1.png "原子ノード：標準")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 高さマップとして解釈されたグレースケール画像から法線マップを計算します。
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="normal.resources/normal-tooltip.gif" alt="標準ツールチップ" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="normal.resources/normal-tooltip.gif" alt="標準ツールチップ" /></div>
 
 これは、リアルタイム対応のマテリアル用にHeightマップの入力を法線マップに変換するために頻繁に使用される非常に便利なノードです。 [通常のソベル](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)および通常のワールドユニットへのHeightに見つかる代替案があります。
 

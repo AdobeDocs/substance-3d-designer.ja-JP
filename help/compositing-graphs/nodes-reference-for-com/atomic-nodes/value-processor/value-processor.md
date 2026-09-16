@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
-description: 値プロセッサノードを使用すると、カスタム調整の数学的な演算を使用してテクスチャ値を処理および操作できます。
+description: バリュープロセッサーノードを使用すると、カスタム調整の数学的な演算を使用してテクスチャ値を処理および操作できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バリュープロセッサー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -20,42 +20,42 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomicノード：値プロセッサ](value-processor.resources/comp_valueprocessor_1.png "Atomicノード：値プロセッサ"){width="20%"}
+![アトミックノード: バリュープロセッサー](value-processor.resources/comp_valueprocessor_1.png "アトミックノード: バリュープロセッサー")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 [Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)を計算し、その結果を出力します。
 
-[ピクセルプロセッサ](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)に相当しますが、ピクセルごとに関数を計算するのではなく、1つの値を計算し、[Substanceグラフで使用できるようにする](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)点が異なります。
+[ピクセルプロセッサー](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)に相当しますが、ピクセルごとに関数を計算するのではなく、値を1つだけ計算し、Substanceのグラフで[使用できるようにする点が異なります。](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></div>
 
 
 >[!TIP]
 >
-> このノードは、[Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)について学習するための開始点として適しています。
+> このノードは、[Substance関数のグラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)について学習するための開始点として適しています。
 > 
-> また、このタイプのグラフを使用して数学的な演算を実行することは、このノードから何かを得るために必須です。
+> また、この種のノードを使用して数学的な演算を実行することは、このグラフから何かを得るために必須です。
 
 
 ## パラメーター
 
 |  |  |
 | --- | --- |
-| <b>値プロセッサ関数</b> *任意の使用可能な値の種類* | [Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)は、出力値を計算するために評価されました。 |
+| <b>バリュープロセッサー関数</b> *任意の使用可能な値の種類* | [Substance関数グラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)は、出力値を計算するために評価されました。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |
-| <b>入力画像#</b> *グレースケール/カラー* | [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)または[Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)ノードを使用して、指定されたインデックスの入力の値にアクセスします。 |
+| <b>入力画像 #</b> *グレースケール/カラー* | [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)または[Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)ノードを使用して、指定されたインデックスの入力の値にアクセスします。 |
 
 
 ## 例

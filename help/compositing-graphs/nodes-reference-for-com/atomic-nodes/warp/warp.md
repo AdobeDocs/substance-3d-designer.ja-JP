@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: ワープノードを使用して、テクスチャにゆがみエフェクトを適用し、ワープやディスプレイスメントエフェクトを作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ワープ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード：ワープ](warp.resources/comp_warp_1.png "原子ノード：ワープ"){width="20%"}
+![原子ノード：ワープ](warp.resources/comp_warp_1.png "原子ノード：ワープ")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 別のグラデーション入力から計算されたスロープに従って入力画像のピクセル値を移動し、結果として変形を行います。
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="warp.resources/warp-tooltip.gif" alt="ワープツールヒント" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="ワープツールヒント" /></div>
 
 このノードは、エフェクトの結果がグラデーション入力に大きく依存するため、少し扱いにくいことがあります。グラデーションをわずかに微調整すると、同じ強度値で視覚的に大きな違いが生じる可能性があります。 グラデーション入力のコントラスト、輝度、スケール、およびこのノードの強度スライダーを試してください。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: FX-Mapノードを使用して、プロシージャパターンおよびプロシージャエフェクトを作成するために、テクスチャに関数グラフを適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード： FX-Map](fx-map.resources/fxmap.png "Atomicノード： FX-Map"){width="20%"}
+![Atomicノード： FX-Map](fx-map.resources/fxmap.png "Atomicノード： FX-Map")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、パラメータや論理関数によって各パターンの分布を制御することができます。
 
@@ -35,7 +35,7 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-mapツールチップ" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-mapツールチップ" /></div>
 
 [ピクセルプロセッサ](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)と同様に、このノードの動作と出力を決定する関数を定義および作成する操作はユーザーが行います。
 
@@ -49,7 +49,7 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 > FX-Mapノードを使用する前に、ソフトウェアに関するあらゆる側面について十分に理解し、パラメーター用の[数学関数](../../../../function-graphs/function-graphs.md)を作成することに問題がないことを確認することをお勧めします。
 
 
-他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって決定されることに注意してください。
+他のノードとは異なり、FX-Mapの動作の大部分はパラメーターによって決定されるのではなく、内部のFX-Map関数](../../../../function-graphs/fxmaps/fxmaps.md)を編集することによって[決定されることに注意してください。
 
 |  |  |
 | --- | --- |
@@ -58,21 +58,21 @@ FX-Mapは、画像やパターン入力を繰り返し複製し再分割し、�
 | <b>領域のレンダリング</b> *浮動小数点4* | FX-Mapの各側面の開始ピクセル範囲を設定し、結果としてストレッチ効果を作成できます。 |
 | <b>タイル領域</b> *浮動小数点4* | FX-Mapのタイリング距離をオフセットします。 |
 | <b>外側をカリング</b> *ブール値* | 通常の範囲から外れる[カリング](../../../../glossary/glossary.md)パターンで最適化を実行します。 |
-| <b>ラフネス</b> *浮動小数* | 深度と不透明度の乗数として機能します。 FXマップのブレンドプロセスにバイアスを適用します。 |
-| <b>グローバル不透明度</b> *浮動小数* | FX-mapの出力のグローバル不透明度を設定します。 |
+| <b>粗さ</b> *フロート* | 深度と不透明度の乗数として機能します。 FXマップのブレンドプロセスにバイアスを適用します。 |
+| <b>グローバル不透明度</b> *フロート* | FX-mapの出力のグローバル不透明度を設定します。 |
 
 ## FX-Mapガイド
 
 *近日公開。*
 
-## 入力コネクター
+## 入力コネクタ
 
 |  |  |
 | --- | --- |
 | <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | 出力画像の背景色です。 |
-| <b>入力画像 #</b> *グレースケール/カラー* |  |
+| <b>入力画像#</b> *グレースケール/カラー* |  |
 
 
 ## 例
 
-![](fx-map.resources/image2015-9-10-17-28-32.png){width="20%"}
+![](fx-map.resources/image2015-9-10-17-28-32.png)
