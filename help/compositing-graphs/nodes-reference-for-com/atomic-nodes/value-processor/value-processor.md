@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+breadcrumb-title: ""
 description: 値プロセッサノードを使用すると、カスタム調整の数学的な演算を使用してテクスチャ値を処理および操作できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: バリュープロセッサー
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
-
+source-wordcount: '153'
+ht-degree: 3%
 ---
-
 
 # バリュープロセッサー
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード：値プロセッサ](value-processor.resources/comp_valueprocessor_1.png "Atomicノード：値プロセッサ"){width="200px"}
+![Atomicノード：値プロセッサ](value-processor.resources/comp_valueprocessor_1.png "Atomicノード：値プロセッサ"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,25 +35,8 @@ ht-degree: 4%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></div>
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -63,20 +44,6 @@ ht-degree: 4%
 > 
 > また、このタイプのグラフを使用して数学的な演算を実行することは、このノードから何かを得るために必須です。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -90,11 +57,6 @@ ht-degree: 4%
 | --- | --- |
 | <b>入力画像#</b> *グレースケール/カラー* | [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)または[Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)ノードを使用して、指定されたインデックスの入力の値にアクセスします。 |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *任意の使用可能な値の種類* |  |
 
 ## 例
 

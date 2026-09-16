@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+breadcrumb-title: ""
 description: ビットマップノードを使用すると、ビットマップイメージを読み込んで、Substance合成グラフのテクスチャとして使用することができます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: ビットマップ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
-
+source-wordcount: '453'
+ht-degree: 0%
 ---
-
 
 # ビットマップ
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード：ビットマップ](bitmap.resources/comp_bitmap.png "Atomicノード：ビットマップ"){width="200px"}
+![Atomicノード：ビットマップ](bitmap.resources/comp_bitmap.png "Atomicノード：ビットマップ"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,27 +37,10 @@ ht-degree: 1%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="ビットマップのツールチップ" /></div>
+
 ノードを最初から作成するか、サポートされている形式の[ビットマップ](../../../../glossary/glossary.md)を[グラフ]ビューにドロップします。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -74,30 +55,6 @@ ht-degree: 1%
 > * 一方、エクスプローラーで[ビットマップリソース](../../../../resources/bitmap-resource/bitmap-resource.md)を削除する場合は注意してください。キャッシュに保持されるため、そのセッションのグラフでは引き続き機能しますが、次に[パッケージ](../../../../glossary/glossary.md)を読み込んだときに、欠落しているリソースとしてマークされます。
 > * Substanceグラフが[cooked](../../../../glossary/glossary.md)の場合、ビットマップの解像度は、元のサイズではなく、グラフ内の解像度で固定されます。 ビットマップノードの&#39;出力サイズ&#39; [基本パラメーター](../../../../glossary/glossary.md)で&#39;絶対&#39; [継承メソッド](../../../../glossary/glossary.md)が使用され、そのノードの後に、&#39;親を基準にする&#39;に設定された[変換2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)ノード（ホストグラフの解像度）が続いていることを確認することをお勧めします。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ビットマップペイントツール
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -111,11 +68,6 @@ ht-degree: 1%
 
 ビットマップはDesignerで編集できます。 編集ツールの詳細については、[このセクション](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)を参照してください。
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール/カラー* |  |
 
 ## 例
 

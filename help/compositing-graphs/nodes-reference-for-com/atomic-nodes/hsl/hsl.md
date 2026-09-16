@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
-breadcrumb-title: ''
-description: HSLノードを使用して、色相、彩度、色明度のテクスチャを調整し、カラーを操作および補正します。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+breadcrumb-title: ""
+description: HSLノードを使用して、テクスチャの色相、彩度、明度を調整し、カラーの操作や補正を行います。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: HSL
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '149'
 ht-degree: 9%
-
 ---
-
 
 # HSL
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![アトミックノード: HSL](hsl.resources/comp_hsl_1.png "アトミックノード: HSL"){width="200px"}
+![原子ノード： HSL](hsl.resources/comp_hsl_1.png "原子ノード： HSL"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,60 +37,24 @@ ht-degree: 9%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="hslツールチップ" /></div>
 
 
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 出力コネクター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
 |  |  |
 | --- | --- |
-| <b>色相</b> *浮動小数* | 入力画像のカラーを指定します。   0.5より小さい値を指定すると色相が負にシフトし、0.5より大きい値を指定するとプラスにシフトします。 |
-| <b>彩度</b> *浮動小数* | 入力画像のカラーの彩度を指定します。   0.5より小さい値を指定すると彩度が下がり、0.5より大きい値を指定すると彩度が上がります。 |
-| <b>明度</b> *浮動小数* | 入力画像の明度を指定します。0.5より小さい値にすると明度が下がり、0.5より大きい値にすると上がります。 |
+| <b>色相</b> *フロート* | 入力画像のカラーを指定します。   0.5より小さい値を指定すると色相が負にシフトし、0.5より大きい値を指定するとプラスにシフトします。 |
+| <b>彩度</b> *フロート* | 入力画像のカラーの彩度を指定します。   0.5より小さい値を指定すると彩度が下がり、0.5より大きい値を指定すると彩度が上がります。 |
+| <b>明るさ</b> *フロート* | 入力イメージの明度を決定します。0.5より小さい値を指定すると明度が下がり、0.5より大きい値を指定すると明度が上がります。 |
 
-## 入力コネクター
+## 入力コネクタ
 
 |  |  |
 | --- | --- |
 | <b>入力</b> *色*&#x200B;プライマリ | 処理する画像。 |
 
-## 出力コネクター
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *色* |  |
 
 ## 例
 

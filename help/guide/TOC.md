@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 22%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -219,9 +217,9 @@ ht-degree: 22%
           + [乱雑な線維2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
           + [乱雑な繊維3](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
           + [顕微鏡像](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/microscope-view/microscope-view.md)
-          + [うるおいノイズ1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
-          + [うるおいノイズ2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
-          + [パーリン雑音](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
+          + [水分ノイズ1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+          + [水分ノイズ2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
+          + [パーリンノイズ](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
           + [血漿](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/plasma/plasma.md)
           + [コースティクス](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/caustics/caustics.md)
           + [ボロノイ](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/voronoi/voronoi.md)
@@ -256,7 +254,7 @@ ht-degree: 22%
           + [グリッドアトラスグレースケール](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-grayscale/grid-atlas-grayscale.md)
           + [高さ押し出し](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/height-extrude/height-extrude.md)
           + [メッシュ1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-1/mesh-1.md)
-          + [メッシュ2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-2/mesh-2.md)
+          + [メッシュ 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-2/mesh-2.md)
           + [パノラマシェイプ](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/panorama-shape/panorama-shape.md)
           + [多角形1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md)
           + [多角形2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md)
@@ -366,18 +364,18 @@ ht-degree: 22%
           + [3D テクスチャボリュームレンダリング](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-volume-render/3d-texture-volume-render.md)
           + [3Dビューア](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)
           + [AMBIENT OCCLUSION - HBAO](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
-          + [AMBIENT OCCLUSION - RTAO](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
+          + [環境オクルージョン- RTO](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
           + [異方性桑原色](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)
           + [異方性桑原グレースケール](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)
           + [ベベル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-filter-node/bevel-filter-node.md)
           + [ベベルスムーズ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)
           + [切断面](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [曲率](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
-          + [曲率スムーズ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [曲率ソベル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [曲線スムーズ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
+          + [カーバチュアソベル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [拡散カラー](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [拡散グレースケール](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
-          + [UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
+          + [拡散UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
           + [方向の距離](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)
           + [エッジ検出](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)
           + [光沢のあるエンボス](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)
@@ -405,7 +403,7 @@ ht-degree: 22%
           + [シェイプの線](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
           + [合計面積テーブル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/summed-area-table/summed-area-table.md)
           + [渦巻き](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/swirl/swirl.md)
-          + [Uber エンボス](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
+          + [Uberエンボス](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
           + [ベクターモーフ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-morph/vector-morph.md)
           + [ベクターワープ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)
         + 法線マップ{#normal-map}
@@ -418,7 +416,7 @@ ht-degree: 22%
           + [通常の結合](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
           + [法線の反転](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
           + [ノーマライズ（標準）](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
-          + [通常のsobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+          + [標準のソベル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [Heightに垂直](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [HeightHQに対して正常](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
           + [標準変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
@@ -430,15 +428,15 @@ ht-degree: 22%
           + [写真を並べて表示](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)
         + 変形{#transforms}
           + [変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
-          + [3Dテクスチャオフセット](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
+          + [3D テクスチャオフセット](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
           + [自動切り抜き](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/auto-crop/auto-crop.md)
           + [デカルトを極座標に](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)
           + [クローン-フィルターノード](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/clone-filter-node/clone-filter-node.md)
-          + [ミラー – フィルタノード](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)
+          + [ミラー – フィルターノード](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)
           + [ノイズアップスケール1](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md)
           + [ノイズアップスケール2](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md)
           + [ノイズアップスケール3](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md)
-          + [非正方形の変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
+          + [非正方形変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
           + [不均等な回転](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-uniform-rotation/non-uniform-rotation.md)
           + [極座標から直交座標](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)
           + [クアッド変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
@@ -518,7 +516,7 @@ ht-degree: 22%
           + [レザーウェア](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [ライト](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [マスクビルダー](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [金属製エッジ耳](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [金属エッジの摩耗](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [ペイント摩耗](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [選択的Dirt](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [日光漂白剤](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -547,7 +545,7 @@ ht-degree: 22%
           + [パスツール](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
           + [パス形式の仕様](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)
           + [パス2D変形](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
-          + [マスクをパスに](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
+          + [パスにマスク](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
           + [多角形パス](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
           + [パスのプレビュー](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
           + [パスワープ](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)

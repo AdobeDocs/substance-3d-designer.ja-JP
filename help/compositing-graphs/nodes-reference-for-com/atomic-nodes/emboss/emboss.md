@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+breadcrumb-title: ""
 description: '[エンボス]ノードを使用して、テクスチャにエンボス効果を加え、サーフェスのディテールに深度とリリーフを加えます。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: エンボス
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 9%
-
 ---
-
 
 # エンボス
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomicノード：エンボス](emboss.resources/comp_emboss_1.png "Atomicノード：エンボス"){width="200px"}
+![Atomicノード：エンボス](emboss.resources/comp_emboss_1.png "Atomicノード：エンボス"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,42 +35,11 @@ ht-degree: 9%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="エンボスツールチップ" /></div>
+
 このノードはPBRのようなプロジェクトではあまり使用されませんが、テクスチャにベイク処理されたシンプルなライティングが必要な場合に使用できます。 代わりに、[グロスによるエンボス](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)と[Uberエンボス](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)を使用すると、同様の機能が、より広範な機能を利用できます。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -90,11 +57,6 @@ ht-degree: 9%
 | <b>入力</b> *グレースケール/カラー*&#x200B;プライマリ | シェーディングされていない基本カラーを提供します。 拡散反射光テクスチャまたはベースカラーテクスチャの一種として表示します。 |
 | <b>強度入力</b> *グレースケール* | サーフェス上の照明の計算に使用する高さマップを表します。 黒は低く、白は高い。 |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール/カラー* |  |
 
 ## 例
 

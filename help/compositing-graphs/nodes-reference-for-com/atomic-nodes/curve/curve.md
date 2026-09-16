@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+breadcrumb-title: ""
 description: Curveノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: カーブ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '608'
 ht-degree: 2%
-
 ---
-
 
 # カーブ
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子ノード： Curve](curve.resources/comp_curve_1.png "原子ノード： Curve"){width="200px"}
+![原子ノード： Curve](curve.resources/comp_curve_1.png "原子ノード： Curve"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,53 +35,13 @@ ht-degree: 2%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="曲線ツールチップ" /></div>
+
 他のほとんどのノードとは異なり、カーブノードには、スライダとパラメータを持つ標準的なインタフェースはありませんが、代わりに完全なカーブエディタが表示されます。 使用方法については、次の拡張可能なセクションを参照してください。
 
 [ただし、これは、Curveノードのパラメーターをサブグラフに公開できないことを意味します](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 ここでの唯一のオプションは、[Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)を使用して、異なる曲線プロファイル間を切り替えることです。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## パラメーター
-
-### カーブエディタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 入力コネクタ
-
-### 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -99,7 +57,7 @@ ht-degree: 2%
 
 ポイントを作成するには、カーブビューの任意の場所をダブルクリックします。
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif){width="20%"}
 
 ### ポイントの影響を制御する
 
@@ -186,9 +144,9 @@ RGBカーブモードでは、![](curve.resources/image2017-2-17-14-55-0.png)を
 
 <b>水平方向/垂直方向に分布：</b>選択した軸にポイントを分布します
 
-<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択したポイントを反転します。
+<b>水平方向/垂直方向に反転：</b>選択した軸に従って、選択した点を反転します。
 
-<b>水平方向/垂直方向にミラー：</b>選択した軸に従ってカーブ全体をミラーします
+<b>水平方向/垂直方向にミラー：</b>選択した軸に従って曲線全体をミラーします
 
 ### キーボードショートカット
 
@@ -259,11 +217,6 @@ X軸またはY軸に沿って移動を制限します。
 | --- | --- |
 | <b>入力</b> *グレースケール/カラー*&#x200B;プライマリ | 処理する画像。 |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール/カラー* |  |
 
 ## 例
 
