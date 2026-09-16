@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 入力グレースケール
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '804'
 ht-degree: 1%
 ---
 
@@ -20,20 +20,22 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![アトミックノード：入力グレースケール](input-grayscale.resources/comp_inputgrayscale_1.png "アトミックノード：入力グレースケール"){width="100%"}
+
+<b>イン：</b> アトミックノード
 
 </td>
 <td style="border: 0;" valign="top">
 
 ## 説明
 
-入力ノードは、グラフにダイナミックスロットを作成する特殊なタイプのノードで、グラフを別のコンテキストで使用すると、任意の入力を接続できます。
+入力ノードは、グラフにダイナミックスロットを作成する特殊なノードで、グラフを別のコンテキストで使用すると、任意の入力を接続できます。
 
 [出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)とは異なり、カラー、グレースケール、または値の入力を明示的に配置する必要があります。 接続されている内容によってタイプが変わる独自の「不可知入力」を作成することはできません。
 
-入力ノードは[出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ほど重要ではありません。入力を必要としない、完全に機能する高度なグラフを作成できます。 入力は、グラフまたはノードインスタンスの結果を外部入力に基づいて生成する場合にのみ使用されます。たとえば、Substance 3D Painterの[インスタンス](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)または[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)を作成する場合などです。
+入力ノードは[出力ノード](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ほど重要ではありません。入力を必要としない、完全に機能する高度なグラフを使用できます。 入力は、グラフまたはノードインスタンスの結果を外部入力に基づいて生成する場合にのみ使用されます。たとえば、Substance 3D Painterの[インスタンス](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)または[フィルター](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)を作成する場合などです。
 
 参照： [入力カラー](../input-color/input-color.md)、[入力値](../input-value/input-value.md)
 
@@ -41,13 +43,19 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="グレースケールツールヒントを入力" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="グレースケールツールヒントを入力" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 ## パラメーター
 
 デフォルトでは、何も接続されていない場合、入力カラーまたはグレースケールは黒を返します。 別の既定値を設定するか、既存の[ビットマップリソース](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)を[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からグラフの入力ノードにドラッグして、スロットでこのデータをプレビューできます。 この機能は、カラーとグレースケールの入力に対してのみ使用できます。 デフォルト値は、他のコンテキストで使用される場合は永続的で、プレビュービットマップは他の場所に破棄されます。
 
-他のグラフの出力と一緒に表示したい場合は、上記の方法のためにグラフをビットマップに書き出すか、「コンテキスト内編集」を使用する必要があります。
+他のグラフの出力と一緒に表示したい場合は、上記の方法のためにそのグラフをビットマップに書き出すか、「コンテキスト内編集」を使用する必要があります。
 
 |  |  |
 | --- | --- |
@@ -73,7 +81,7 @@ ht-degree: 1%
 複数の入力が存在する場合、グラフがこれらの入力から[基本パラメーターを継承](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)する方法に注意する必要があります。\
 基本パラメーターには、特に<b>出力サイズ</b>、<b>出力形式</b>および<b>タイリングモード</b>が含まれます。
 
-入力は、[プライマリ入力](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)として定義できます。 この入力は、継承メソッドが&#x200B;*親に対する相対*&#x200B;に設定されているすべての入力の属性を駆動します。 これは、入力ノードで既定で設定されている継承メソッド&#x200B;*です。*
+入力は、[プライマリ入力](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)として定義できます。 この入力は、継承メソッドが&#x200B;*親に対する相対*&#x200B;に設定されているすべての入力の属性を駆動します。 入力ノードで既定で設定されている継承方式&#x200B;*です。*
 
 </td>
 <td width="25%" style="border: 0;" valign="top">
@@ -101,7 +109,7 @@ ht-degree: 1%
 
 ## 統合の属性
 
-入力は3D ビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/effects/filter)で使用されます）。
+入力は3D ビューに直接送信されませんが、その使用量属性は、特定のマップをスロットに自動入力するために[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)によって使用されます（主に[フィルター](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)で使用されます）。
 
 さらに、使用量属性は、正しい入力スロットと出力スロットに一致させるために、[リンク作成モード](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)でも使用されます。
 

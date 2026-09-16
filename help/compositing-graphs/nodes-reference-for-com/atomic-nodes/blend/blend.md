@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: ブレンドノードを使用すると、様々なブレンドモードを使用して2つのテクスチャをブレンドし、合成効果を作成することができます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ブレンド
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 8%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![アトミックノード: ブレンド](blend.resources/comp_blend_1.png "アトミックノード: ブレンド"){width="100%"}
+
+<b>イン：</b> アトミックノード
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,9 +37,15 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="blend.resources/blend-tooltip.gif" alt="描画ツールヒント" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blend.resources/blend-tooltip.gif" alt="描画ツールヒント" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
-その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
+その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
 
 >[!TIP]
 >

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
-description: グラデーションマップノードを使用して、カラー化とエフェクトのグラデーションランプを使用してグレースケール値をカラーにマップします。
+description: Gradient Mapノードを使用して、カラー化とエフェクトのグラデーションランプを使用してグレースケール値をカラーにマップします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: グラデーションマップ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1160'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![アトミックノード:グラデーションマップ](gradient-map.resources/comp_gradient_1.png "アトミックノード:グラデーションマップ"){width="100%"}
+![原子ノード：グラデーションマップ](gradient-map.resources/comp_gradient_1.png "原子ノード：グラデーションマップ"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 このノードは、複数のカラーを正確にマッピングするための、高度で機能豊富なグラデーションエディターを提供します。詳しくは、このページの[グラデーションエディター](#gradient-editor)セクションに移動してください。
 
@@ -43,24 +51,24 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>カラーモード</b> *ブーリアン* | 出力モードをカラーまたはグレースケールに設定します。 |
-| <b>グラデーションの追加</b> *ブーリアン* | [0, 1]の範囲外の繰り返し（タイル）またはクランプ値にグラデーションを設定します。 |
+| <b>カラーモード</b> *ブール値* | 出力モードをカラーまたはグレースケールに設定します。 |
+| <b>グラデーションの追加</b> *ブール値* | [0, 1]の範囲外の繰り返し（タイル）またはクランプ値にグラデーションを設定します。 |
 | <b>グラデーション</b> *グラデーションキーの配列* | 入力グレースケール値のマップに使用するカスタムグラデーションランプ。   同じ場所で編集するか、[グラデーションエディター](#gradient-editor)を使用できます。 |
 
 ## グラデーションエディター
 
-このウィンドウには、グラデーションマップノードがグレースケール値をカラーにマッピングするために使用する参照グラデーションを編集するためのコントロールがあります。
+このウィンドウには、グラデーションマップノードがグレースケール値をカラーにマッピングするために使用する参照グラデーションを編集するためのコントロールが用意されています。
 
-グラデーションマップノードの<b>プロパティ</b>から開くには、次の手順を実行します。
+次の方法で、グラデーションマップノードの<b>プロパティ</b>から開くことができます。
 
 * <b>グラデーションエディター</b>ボタンで「LMB」をクリックします。
-* グラデーションバーのピンで「LMB」をダブルクリックします。 クリックしたピンがグラデーションエディターで自動選択されるので、その値を直接編集できます。
+* グラデーションバーのピンの「LMB」をダブルクリックします。 クリックしたピンは、グラデーションエディターで自動的に選択されるので、その値を直接編集できます。
 
 ![グラデーションエディター](gradient-map.resources/image2017-2-17-16-13-5.png "グラデーションエディター")
 
-### グラデーションピンを編集する
+### グラデーションピンの編集
 
-グラデーションのカラーとカラーの位置は、グラデーションバーに沿って配置されたピンによって制御されます。
+グラデーションのカラーと位置は、グラデーションバーに配置されたピンで制御します。
 
 各ピンは、グラデーション上の位置にカラーを設定します。
 
@@ -155,7 +163,7 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 
 <b>すべてクリア</b>
 
-グラデーションバーのすべてのピンを削除します。
+グラデーションバーからすべてのピンを削除します。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -168,7 +176,7 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 
 <b>色の反転</b>
 
-このボタンをクリックすると、選択したピンのカラーが反転します。
+このボタンをクリックすると、選択したピンの色が負の色に切り替わります。
 
 <b>彩度を下げる</b>
 
@@ -176,19 +184,19 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 
 ### 補間モード
 
-ピンを設定した後は、使用可能な補間モードを使用して、ある補間から次のピンへのカラーのトランジション方法を制御できます。
+ピンを設定した後は、使用可能な補間モードを使用して、あるピンから次のピンに色をどのようにトランジションするかを制御できます。
 
 +++線形
-デフォルトの補間モード：各ピンの間に単純なリニア補間を適用して、グラデーションを均一に進行させます。
+デフォルトの補間モード：各ピンの間に単純な線形補間を適用して、グラデーションを均一に進行させます。
 
 +++
 
 +++フラット正接
-グラデーション間の変化をベジェ曲線（ピンがカーブのポイントになる）と見なすとき、これらのポイントが水平正接になります。
+グラデーション間のトランジションをベジェ曲線（ピンが曲線のポイントになる）と見なすとき、このモードを使用すると、これらのポイントに水平方向の接線が設定されます。
 
 その結果、スムースステップ補間を想起させるトランジションが作成されます。
 
-このモードを選択すると、<b>中点</b>パラメーターが有効になり、ポイント間の曲線の垂直中点の水平位置をオフセットできます。 これにより、「out」と「in」の正接の間のスケールが効果的に調整されます。
+このモードを選択すると、<b>中点</b>パラメーターが有効になり、ポイント間の曲線の垂直中点の水平位置をオフセットできます。 これにより、「out」接線と「in」接線の間のスケールが効果的にヒントになります。
 
 +++
 
@@ -200,9 +208,9 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 +++
 
 +++補間なし
-カラーはピンの位置でのみ変化し、グラデーションバーに沿って次にピンするまで一定です。
+カラーはピンの位置でのみ変化し、グラデーションバーに沿って次のピンが表示されるまで一定です。
 
-これにより、カラー間のステップが困難になり、ピンによって設定されたカラーだけがグラデーションに存在することになります。
+これにより、カラー間のハードステップが発生し、ピンで設定されたカラーのみがグラデーションに存在することになります。
 
 +++
 
@@ -240,7 +248,7 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
   または、スライダーの下にある専用入力フィールドのhexcodeを使用します。
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![カラーピッカー – RGB、HSV、Alphaスライダー](gradient-map.resources/image2017-2-17-18-31-41.png "カラーピッカー – RGB、HSV、Alphaスライダー")
 

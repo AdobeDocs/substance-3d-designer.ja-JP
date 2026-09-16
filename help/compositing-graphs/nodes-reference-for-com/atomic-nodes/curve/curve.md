@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Curveノードを使用すると、カスタマイズ可能なカーブを使用してテクスチャ値を調整し、正確なカラーと明るさのコントロールを行うことができます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: カーブ
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '611'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子ノード： Curve](curve.resources/comp_curve_1.png "原子ノード： Curve"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="曲線ツールチップ" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="曲線ツールチップ" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 他のほとんどのノードとは異なり、カーブノードには、スライダとパラメータを持つ標準的なインタフェースはありませんが、代わりに完全なカーブエディタが表示されます。 使用方法については、次の拡張可能なセクションを参照してください。
 
@@ -68,7 +76,7 @@ ht-degree: 2%
 正確な結果を得るために、曲線ノードには点ごとに異なるモードがあります。
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -107,7 +115,7 @@ ht-degree: 2%
 右上にあるドロップダウンリストで、調整する曲線を選択します。
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
 description: HSLノードを使用して、テクスチャの色相、彩度、明度を調整し、カラーの操作や補正を行います。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '152'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子ノード： HSL](hsl.resources/comp_hsl_1.png "原子ノード： HSL"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +39,13 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="hslツールチップ" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="hsl.resources/hsl-tooltip.gif" alt="hslツールチップ" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 
 

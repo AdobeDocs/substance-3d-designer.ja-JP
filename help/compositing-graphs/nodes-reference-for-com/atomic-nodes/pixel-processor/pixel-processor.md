@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: ピクセルプロセッサノードを使用すると、高度なテクスチャ操作を行うカスタム式を使用して個々のピクセルを処理できます。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ピクセルプロセッサー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '353'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomicノード：ピクセルプロセッサ](pixel-processor.resources/comp_pixelprocessor_1.png "Atomicノード：ピクセルプロセッサ"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +39,13 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="ピクセルプロセッサツールチップ" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="ピクセルプロセッサツールチップ" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md)と同様に、何かを実行するには内部機能を設定する必要があります。 ピクセルプロセッサーがFX-Mapと異なる点は、パターンの配置に焦点を合わせず、パターンの形状と配置を制御する複数の機能を備えていることです。 代わりに、各ピクセルに対して並列に1つの関数が実行され、各ピクセルは隣接するピクセルの計算結果を認識しません。
 

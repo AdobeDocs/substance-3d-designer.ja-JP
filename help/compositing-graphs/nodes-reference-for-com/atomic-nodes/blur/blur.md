@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ""
 description: ぼかしノードを使用して、テクスチャにぼかし効果を適用し、ディテールを滑らかにしてソフトフォーカス効果を作成します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ブラー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 6%
@@ -41,7 +41,13 @@ ht-degree: 6%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="blur.resources/blur-tooltip.gif" alt="ぼかしツールヒント" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="ぼかしツールヒント" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 ## パラメーター
 

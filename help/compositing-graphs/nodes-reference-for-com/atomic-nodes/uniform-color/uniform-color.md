@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
 description: '[色を統一]ノードを使用して、単色の塗り潰しとベースレイヤを作成するための均一な色のテクスチャを生成します。'
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 均一カラー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width: 33.33%; vertical-align: top">
 
 ![原子ノード：均一な色](uniform-color.resources/comp_uniform_1.png "原子ノード：均一な色"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +37,14 @@ ht-degree: 7%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="均一カラーツールヒント" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="均一カラーツールヒント" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 
 
 >[!TIP]

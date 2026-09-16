@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: 入力パラメーターと値で制御できる動的なグラデーションを作成するには、グラデーション（動的）ノードを使用します。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: グラデーション (ダイナミック)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '313'
 ht-degree: 8%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子ノード： Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "原子ノード： Gradient dynamic"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 これは主に、カラーのパラメータがノードの外部に移動するため、パラメータを公開できない問題を回避することができます。 これが「ダイナミック」な機能です。
 
@@ -59,7 +67,7 @@ Gradient (Dynamic)は単独で使用するのが難しいノードではあり�
 
 |  |  |
 | --- | --- |
-| <b>グレースケール入力</b> *グレースケール*&#x200B;プライマリ | 再マップするグレースケール画像。 |
+| <b>グレースケール入力</b> *グレースケール*&#x200B;プライマリ | 再マップするグレースケールイメージ。 |
 | <b>グラデーション入力</b> *カラー/グレースケール* | グラデーションはこの画像からサンプリングされます |
 
 
