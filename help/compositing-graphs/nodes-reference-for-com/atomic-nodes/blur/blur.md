@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: ぼかしノードを使用して、テクスチャにぼかし効果を適用し、ディテールを滑らかにしてソフトフォーカス効果を作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: ブラー
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 6%
-
 ---
-
 
 # ブラー
 
@@ -24,7 +22,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![ぼかしノードアイコン](blur.resources/blur-9.png){width="200px"}
+![ぼかしノードアイコン](blur.resources/blur-9.png)
 
 **In:**&#x200B;個のアトミックノード
 
@@ -40,6 +38,14 @@ ht-degree: 6%
 ぼかしは、いくつかのエッジをわずかにソフトにするなど、高速でシンプルな操作ではよく機能しますが、より要求の厳しいシナリオでは[ぼかし（最高画質）](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md)を選択することをお勧めします。これは、品質を考慮してパフォーマンスを落とすことになります。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="ぼかしツールヒント" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

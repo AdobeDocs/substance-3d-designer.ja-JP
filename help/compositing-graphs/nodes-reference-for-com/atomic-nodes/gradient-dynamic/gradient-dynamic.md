@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 入力パラメーターと値で制御できる動的なグラデーションを作成するには、グラデーション（動的）ノードを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,32 +8,40 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: グラデーション (ダイナミック)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 9%
-
+source-wordcount: '313'
+ht-degree: 8%
 ---
-
 
 # グラデーション (ダイナミック)
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード： Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "原子ノード： Gradient dynamic"){width="200px"}
+![原子ノード： Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "原子ノード： Gradient dynamic"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 別の画像のピクセルの行または列によって提供されたグラデーションを使用して、画像内のグレースケール値を再マップします。
 
 これはグラデーションノードに代わるわずかな機能ですが、グラデーションノードとは異なり、グラデーションカラーキーは内部では定義されず、外部入力から取得されます。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -45,50 +53,7 @@ Gradient (Dynamic)は単独で使用するのが難しいノードではあり�
 
 また、グラデーション入力位置スライダーを使用して、単一のランプ入力内に保存された複数のグラデーションを交互に切り替えることもできます。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## パラメーター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 入力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -102,14 +67,9 @@ Gradient (Dynamic)は単独で使用するのが難しいノードではあり�
 
 |  |  |
 | --- | --- |
-| <b>グレースケール入力</b> *グレースケール*&#x200B;プライマリ | 再マップするグレースケール画像。 |
+| <b>グレースケール入力</b> *グレースケール*&#x200B;プライマリ | 再マップするグレースケールイメージ。 |
 | <b>グラデーション入力</b> *カラー/グレースケール* | グラデーションはこの画像からサンプリングされます |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *カラー/グレースケール* |  |
 
 ## 例
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 法線ノードを使用して、法線マップテクスチャを処理および操作し、サーフェスのディテールとライティングを制御します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 法線
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 8%
-
+source-wordcount: '220'
+ht-degree: 7%
 ---
-
 
 # 法線
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード：標準](normal.resources/comp_normal_1.png "原子ノード：標準"){width="200px"}
+![原子ノード：標準](normal.resources/comp_normal_1.png "原子ノード：標準"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 高さマップとして解釈されたグレースケール画像から法線マップを計算します。
 
@@ -37,42 +37,17 @@ ht-degree: 8%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="normal.resources/normal-tooltip.gif" alt="標準ツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 これは、リアルタイム対応のマテリアル用にHeightマップの入力を法線マップに変換するために頻繁に使用される非常に便利なノードです。 [通常のソベル](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)および通常のワールドユニットへのHeightに見つかる代替案があります。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -86,13 +61,8 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>入力</b> *グレースケール*&#x200B;プライマリ | 入力画像がHeightマップとして解釈されます。 |
+| <b>入力</b> *グレースケール*&#x200B;プライマリ | 入力画像は高さマップとして解釈されます。 |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *色* |  |
 
 ## 例
 

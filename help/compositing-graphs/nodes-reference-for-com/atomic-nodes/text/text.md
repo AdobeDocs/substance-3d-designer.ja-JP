@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: テキストノードを使用すると、テキストベースのパターンを作成するためのカスタマイズ可能なフォントとスタイルを使用して、テキストテクスチャを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: テキスト
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 1%
-
 ---
-
 
 # テキスト
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![アトミックノード:テキスト](text.resources/comp_text_1.png "アトミックノード:テキスト"){width="200px"}
+![アトミックノード:テキスト](text.resources/comp_text_1.png "アトミックノード:テキスト"){width="100%"}
+
+<b>イン：</b> アトミックノード
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 「テキスト」ノードを使用すると、ユーザーが作成したテキストをグラフに配置できます。 フォント、アラインメント、回転などの設定を選択して、テキストの位置をカスタマイズすることもできます。
 
@@ -37,44 +37,19 @@ ht-degree: 1%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="text.resources/text-tooltip.gif" alt="テキストツールヒント" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Truetype(.ttf)および特定のOpentypeフォントのみがサポートされています。 リストにないフォントがある場合は、それが原因である可能性があります。 <b>フォントをパラメーターとして表示できません。</b>
 
 テキストを使用するグラフがsbsarに公開されると、フォントはビットマップやその他のリソースと同様にパッケージに埋め込まれ、すべてのシステムおよびアプリケーションで動作するようになります。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 出力コネクター
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -84,23 +59,18 @@ Truetype(.ttf)および特定のOpentypeフォントのみがサポートされ�
 | <b>テキスト</b> *文字列* | テキストの説明を指定します。 |
 | <b>フォント</b> *文字列* | テキストのレンダリングに使用するフォントリソース。 |
 | <b>フォントサイズ</b> *浮動小数* | テキストのフォントサイズをポイントで指定します。 |
-| <b>アラインメント</b> *整数* | テキストの左揃え、中央揃え（デフォルト）、右揃えを設定します。 |
-| <b>変換</b> *浮動小数点4* | レンダリングされたテキストに適用される2 x 2の変換行列。 |
-| <b>位置</b> *浮動小数点2* | 出力画像でのテキストの位置。 |
-| <b>背景</b> *フロート/フロート4* | 出力画像の背景色です。 |
-| <b>フォントの色</b> *フロート/フロート4* | テキストの色。 |
+| <b>アラインメント</b> *整数* | テキストのアラインメントを左、中央（デフォルト）、または右に設定します。 |
+| <b>変換</b> *浮動小数4* | レンダリングされたテキストに適用される2 x 2の変換行列。 |
+| <b>位置</b> *浮動小数2* | 出力画像でのテキストの位置。 |
+| <b>背景</b> *浮動小数/浮動小数4* | 出力画像の背景色です。 |
+| <b>フォントの色</b> *浮動小数/浮動小数4* | テキストの色。 |
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |
 | <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | 出力画像の背景色です。 |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール/カラー* |  |
 
 ## 例
 

@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/axf-appearance-exchange-format.html"
-breadcrumb-title: ''
-description: Substance 3D DesignerでAxFアピアランス交換形式のリソースを読み込んで使用して、マテリアルを読み込む方法について説明します。
+breadcrumb-title: ""
+description: Substance 3D DesignerでAxFアピアランス交換フォーマットのリソースを読み込んで使用する方法と、マテリアルの読み込み方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: AxF（Appearance eXchange Format）
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
-
 ---
-
 
 # AxF（Appearance eXchange Format）
 
@@ -24,41 +22,41 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![AxFファイルアイコン](axf-appearance-exchange-format.resources/axf-file-icon.png)](https://www.xrite.com/axf)
+[![AxF ファイルアイコン](axf-appearance-exchange-format.resources/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Substance 3D Designerでは、[X-RiteのアピアランスeXchange形式がサポートされています。](https://www.xrite.com/axf) 書式の作成者は、この書式を次のように記述します。
 
-AxFファイルは、デジタル設計ワークフロー全体にわたって複雑なマテリアル特性をキャプチャ、保存、編集、伝達するために使用されます。 AxFは、PLM（製品ライフサイクル管理）、CAD（コンピュータ支援設計）、および最先端のレンダリングアプリケーション全体の関連するすべての外観データ(色、テクスチャ、光沢、屈折、半透明度、特殊効果（輝き）、反射プロパティ)を保存および共有するための標準的な方法を提供します。
+AxF ファイルは、デジタルデザインワークフロー全体を通じて、複雑なマテリアル特性をキャプチャ、保存、編集、伝達するために使用されます。 AxFでは、PLM（製品ライフサイクル管理）、CAD（コンピュータ支援設計）、最先端のレンダリング・アプリケーションを通じて、関連するすべての外観データ(色、テクスチャ、光沢、屈折、translucency、特殊効果（輝き）、反射プロパティ)を保存し、共有するための標準的な手段を提供しています。」
 
 </td>
 </tr>
 </table>
 
-簡単に言うと、AxFファイルはX-RiteのTAC7スキャナーハードウェアによって抽出されたテクスチャの数と、マテリアルの追加プロパティを記述するメタデータをホストします。 つまり、AxFは単なるテクスチャデータではなく、シェーディングプロパティも保持します。
+簡単に言えば、AxF ファイルはX-RiteのTAC7スキャナーハードウェアによって抽出された多くのテクスチャと、マテリアルの付加的なプロパティを記述するメタデータをホストします。 つまり、AxFは単なるテクスチャ・データではなく、シェーディング・プロパティも保持します。
 
-AxFファイルはパッケージ[resource](../../resources/resources.md)としてインポートされていません&#x200B;*1&rbrace;。*&#x200B;代わりに、[インポートプロセス](#import)では、AxFファイルからテクスチャとメタデータを抽出し、それを使用して[専用のテンプレート](#graph-templates)から作成されたグラフを準備します。
+AxF ファイルはパッケージ[resource](../../resources/resources.md)としてインポートされていません&#x200B;*1&rbrace;。*&#x200B;代わりに、[インポートプロセス](#import)では、AxF ファイルからテクスチャとメタデータを抽出し、それらを使用して[専用のテンプレート](#graph-templates)から作成されたグラフを準備します。
 
 使用可能なテンプレートは、次の2つのAxFワークフロー向けです。
 
-* AxFファイルのSVBRDFマテリアルを<b>PBRマテリアルに変換</b>
-* SVBRDFマテリアルを配置して<b>編集</b>し、新しいレイヤーとして既存のAxFファイルに[書き出し](#export)します。
+* AxF ファイル内のSVBRDF マテリアルを<b>PBR マテリアルに</b>変換しています。
+* SVBRDF マテリアルを所定の位置で<b>編集</b>し、新しいレイヤーとして既存のAxF ファイルに[書き出し](#export)します。
 
 >[!NOTE]
 >
 > サポート対象マテリアルモデル
 > 
-> Designerで&#x200B;*完全*&#x200B;に読み込んで編集できるのは、<b>SVBRDF</b> （空間的に変化するBRDF）モデルを使用しているマテリアルのみです。
+> <b>SVBRDF</b> （空間的に変化するBRDF）モデルを使用しているマテリアルのみ、Designerで&#x200B;*完全に*&#x200B;読み込んで編集できます。
 > 
-> <b>EP-SVBRDF</b> (Energy Reserving SVBRDF)モデルを使用する材料は読み込むことができますが、編集および表示できるのはSVBRDFモデルに存在する機能のみです。 EP-SVBRDF専用の機能はサポートされていません。
+> <b>EP-SVBRDF</b> (Energy Reserving SVBRDF)モデルを使用するマテリアルを読み込むことはできますが、編集および表示できるのはSVBRDFモデルに存在する機能のみです。 EP-SVBRDF専用の機能はサポートされていません。
 > 
 > その他のモデルはサポートされていません。
 
-## AxFファイルのインポート
+## AxF ファイルの読み込み
 
-AxFファイルのインポートワークフローは、次の2つの方法のいずれかから開始できます。
+AxF ファイルの読み込みワークフローは、次の2つの方法のいずれかから開始できます。
 
 +++ホーム画面
 
@@ -163,7 +161,7 @@ Substanceグラフテンプレートには、次の2種類があります。
 
 <b>テンプレート</b>の一覧に追加されたすべてのSubstanceグラフテンプレートに対して、次の操作が実行されます。
 
-AxFファイルから抽出されたテクスチャの&#x200B;*ID*&#x200B;と&#x200B;*usage*&#x200B;が一致する[<b>Input</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノードの場合、そのInputノードは、そのテクスチャを参照している[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノードに置き換えられます。
+AxF ファイルから抽出されたテクスチャの&#x200B;*識別子*&#x200B;に&#x200B;*usage*&#x200B;が一致する[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)ノードの場合、そのノードは、その入力ノードを参照している[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) テクスチャに置き換えられます。
 
 グラフの<b>Resolution</b>プロパティ（つまり出力サイズ）は、抽出された&#x200B;*最大*&#x200B;テクスチャの解像度以上の2の累乗に自動的に設定されます。
 
@@ -254,36 +252,36 @@ AxFファイルのマテリアルから抽出された&#x200B;*メタデータ*&
 
 ### AxFリソースへの出力のマッピング
 
-既存のAxF ファイルに書き出す場合、そのリソースはグラフ出力を使用して更新されます。 Designerは、<b>Usage</b>と同じIDを持つ[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードとリソースIDを一致させます。
+既存のAxF ファイルに書き出す場合、そのリソースはグラフ出力を使用して更新されます。 Designerは、<b>Usage</b>と同じ識別子を持つ[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードとリソース識別子を一致させます。
 
 さらに、出力の<b>グループ</b>のプロパティ&#x200B;*は、AxF書き出しダイアログに一覧表示されるために、&#39;AxF&#39;に設定する必要があります（上記参照）。*
 
-![AxF: Substanceグラフの出力の使用状況](axf-appearance-exchange-format.resources/axf_output_usage.png "AxF: Substanceグラフの出力の使用状況")
+![AxF: Substance グラフの出力使用状況](axf-appearance-exchange-format.resources/axf_output_usage.png "AxF: Substance グラフの出力使用状況")
 
-リソースは、特定のチャンネル数を持つテクスチャ（ビットマップ）またはユニフォーム（値）です。 グラフの出力は、指定したチャンネル数と正確に一致していることが必須です。 そうでない場合は、エクスポート中にそのリソースに対してエラーが発生し、リソースは変更されません。
+リソースは、テクスチャ（ビットマップ）またはユニフォーム（値）で、チャンネル数を指定できます。 グラフ出力は、そのチャンネル数と正確に一致することが必須です。 そうでない場合は、エクスポート中にそのリソースに対してエラーが発生し、リソースは変更されません。
 
 チャンネル数は、出力ノードに提供されるデータのタイプによって異なります。
 
-* <b>ビットマップ（テクスチャ）:</b> [Components](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)プロパティは、チャンネル数を指定するために使用されます。ここで、Rは1チャンネル、RGは2チャンネルです。 このプロパティは、カラービットマップのRGBAチャンネルのうち、リソースにエンコードする必要のあるものをDesignerに通知するために使用されます。
-* <b>値（均一）:</b>ベクトル値の要素の数は、チャネルの数を指定するために使用されます。[Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)は1チャネル、[Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)は2チャネルなどです。
+* <b>ビットマップ(テクスチャ):</b> [Components](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)プロパティは、チャンネル数を指定するために使用されます。ここで、Rは1チャンネル、RGは2チャンネルです。 このプロパティは、カラービットマップのRGBAチャンネルのうち、リソースにエンコードする必要のあるものをDesignerに通知するために使用されます。
+* <b>値（均一）:</b>ベクトル値のコンポーネントの数は、チャンネルの数を指定するために使用されます。[浮動小数](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)は1チャンネル、[浮動小数2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)は2チャンネルです。
 
 >[!IMPORTANT]
 >
-> <b>AxFからAxF</b>へのSubstanceグラフテンプレートで、<b>Specularローブ</b>の貢献度の[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードは、既定で&#x200B;*シングルチャンネル*&#x200B;に構成されています（つまり、Componentsプロパティが&#39;R&#39;に設定されています）。\
-> 読み込んだAxFファイルがSpecularローブリソースで複数のチャンネルを使用している場合は、出力の<b>Components</b>プロパティを適切に設定してください。
+> <b>AxFからAxF</b>へのグラフテンプレートで、<b>Specularローブ</b>の貢献度の[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードは既定で&#x200B;*シングルチャンネル*&#x200B;に構成されています（つまり、Componentsプロパティが&#39;R&#39;に設定されています）。\
+> 読み込んだAxF ファイルがSpecularローブリソースで複数のチャンネルを使用している場合は、出力の<b>Components</b>プロパティを適宜設定してください。
 > 
-> たとえば、2つのチャンネルを使用するSpecularローブリソースの場合（Specularの粗さは赤、Specularの異方性は緑）、コンポーネントプロパティを&#39;RG&#39;に設定します。
+> たとえば、2つのチャンネルを使用するSpecularローブリソース（Specularラフネスは赤、Specular異方性は緑）の場合、コンポーネントプロパティを&#39;RG&#39;に設定します。
 
-## 3DビューでのAxFファイルの表示
+## 3D ビュー内のAxF ファイルの表示
 
-[3Dビュー](../../interface/3d-view/3d-view.md)でAxF SVBRDFマテリアルをレンダリングする方法は、[読み込み設定](#import)によって異なります。
+[3D ビュー](../../interface/3d-view/3d-view.md)のAxF SVBRDFマテリアルをレンダリングする方式は、[インポート設定](#import)によって異なります。
 
 +++PBRに変換
 
-AxFファイルのSVBRDFマテリアルを標準のPBRマテリアルに変換する場合、読み込みの設定には[Substanceグラフ変換テンプレート](#graph-templates)が含まれる可能性があります。
+AxF ファイルのSVBRDFマテリアルを標準のPBRマテリアルに変換する場合、読み込み設定には[Substanceグラフ変換テンプレート](#graph-templates)が含まれる可能性があります。
 
-この場合、3Dビューで&#x200B;**OpenGLレンダラー**&#x200B;を使用し、<code>AxF SVBRFを選択する必要があります</code> シェーダ。\
-次に、読み込みダイアログボックスで設定したSubstanceグラフをドラッグアンドドロップして、その出力をシェーダにコネクトすることができます。
+その場合、3D ビューで&#x200B;**OpenGLレンダラー**&#x200B;を使用し、<code>AxF SVBRFを選択する必要があります</code> シェーダー。\
+次に、読み込みダイアログで設定したグラフをドラッグ&amp;ドロップして、出力をシェーダーに接続できます。
 
 ![AxF:コンバージョン用に表示](axf-appearance-exchange-format.resources/axf-view-for-convert.gif "AxF:コンバージョン用に表示")
 
@@ -291,34 +289,34 @@ AxFファイルのSVBRDFマテリアルを標準のPBRマテリアルに変換�
 
 +++同じ位置で編集
 
-既存のAxFファイルに対して&#x200B;*編集*&#x200B;を実行することを目的としている場合は、以下の手順に従って、選択したレンダラーに従ってSVBRDFマテリアルを表示します。
+既存のAxF ファイルに対して&#x200B;*編集*&#x200B;を行うことを目標としている場合は、以下の手順に従って、選択したレンダラーに応じてSVBRDF マテリアルを視覚化します。
 
-AxFファイル<b>AxF SVBRDF</b>のSVBRDF表現を使用してマテリアルを視覚化するために、専用のGLSLFXシェーダが使用できます。
+次のAxF ファイルのGLSLFX表現を使用してマテリアルを視覚化するために、専用のSVBRDF シェーダーが利用できます： <b>AxF SVBRDF</b>。
 
-シェーダは<b>マテリアル</b>メニューで使用できます。シーンのマテリアルのサブメニュー（デフォルトでは「デフォルト」）を開き、<b>AxF SVBRDF</b>エントリで任意のテクニックを選択します。
+シェーダーは<b>マテリアル</b>メニューで使用できます。シーンのマテリアル （既定では&#39;Default&#39;）のサブメニューを開き、<b>AxF SVBRDF</b>エントリで任意の手法を選択します。
 
-同じサブメニューの<b>編集</b>オプションを使用して、[プロパティ](../../interface/properties/properties.md)ドックにシェーダのプロパティを表示します。\
-特に、<b>タイリング</b>プロパティを使用すると、モデル上のテクスチャのタイリングを調整できるので、マテリアルを適切なスケールで表示できます。
+同じサブメニューの<b>編集</b>オプションを使用して、[プロパティ](../../interface/properties/properties.md)ドックのシェーダーのプロパティを表示します。\
+特に、<b>タイリング</b>プロパティを使用すると、モデル上のテクスチャのタイリングを調整できるので、マテリアルを適切なスケールで視覚化できます。
 
-シェーダを選択した後、グラフの空きスペースでRMBをクリックし、<b>「出力を3Dビューで表示」</b>オプションを選択して、出力を[3Dビュー](../../interface/3d-view/3d-view.md)で表示します。
+シェーダーを選択した後、グラフの空き領域で[元のデータ]をクリックし、[<b>3D ビューに出力を表示</b>]オプションを選択して、出力を[3D ビュー](../../interface/3d-view/3d-view.md)で表示します。
 
-![AxF: SVBRDF GLSLFXシェーダー](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFXシェーダー"){width="600px"}
+![AxF: SVBRDF GLSLFX シェーダー](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX シェーダー"){width="600px"}
 
-このシェーダは現在&#x200B;*処理中*&#x200B;で、一部の機能はまだサポートされていません。 したがって、マテリアルの特性の概要を示すことはできますが、微調整には使用しないでください。
+このシェーダーは現在&#x200B;*進行中*&#x200B;であり、一部の機能はまだサポートされていません。 したがって、マテリアルの特性の概要を示すことはできますが、微調整には使用しないでください。
 
-同じサブメニューの<b>編集</b>オプションを使用して、[プロパティ](../../interface/properties/properties.md)ドックにシェーダのプロパティを表示します。\
-特に、<b>タイリング</b>プロパティを使用すると、モデル上のテクスチャのタイリングを調整できるので、マテリアルを適切なスケールで表示できます。
+同じサブメニューの<b>編集</b>オプションを使用して、[プロパティ](../../interface/properties/properties.md)ドックのシェーダーのプロパティを表示します。\
+特に、<b>タイリング</b>プロパティを使用すると、モデル上のテクスチャのタイリングを調整できるので、マテリアルを適切なスケールで視覚化できます。
 
-シェーダを選択した後、グラフの空きスペースでRMBをクリックし、<b>「出力を3Dビューで表示」</b>オプションを選択して、出力を[3Dビュー](../../interface/3d-view/3d-view.md)で表示します。
+シェーダーを選択した後、グラフの空き領域で[元のデータ]をクリックし、[<b>3D ビューに出力を表示</b>]オプションを選択して、出力を[3D ビュー](../../interface/3d-view/3d-view.md)で表示します。
 
 ![AxF:エディション用に表示](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF:エディション用に表示")
-<i>注意： </i> IrayレンダラーとMDLのサポートは、バージョン16.0.0でDesignerから<i>削除</i>されたため、ビデオの一部を最後までスイッチからIrayレンダラーに移動しないでください。
+<i>注意： </i> IrayレンダラーとMDLのサポートは、バージョン16.0.0でDesignerから<i>削除</i>されたため、最後までスイッチからIrayレンダラーへのビデオの一部を無視してください。
 
 +++
 
 ### サポートされるモデルバリアント
 
-3Dビューで使用されるシェーダは、Specular、フレネル、クリアコートのトランスミッションモデルに対して次のバリエーションをサポートしています。
+3D ビューで使用されるシェーダは、Specular、フレネル、クリアコートのトランスミッションモデルに対して次のバリエーションをサポートしています。
 
 <table>
 <tr style="border: 0;">

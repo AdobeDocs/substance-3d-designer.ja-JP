@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Designerでvisible if式を使用し、条件に基づいてパラメーターの表示を制御する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: If式の表示
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
-
 ---
-
 
 # If式の表示
 
@@ -27,7 +25,7 @@ ht-degree: 1%
 これを行うには、*論理式*&#x200B;を次の<b>Visible if</b>プロパティに入力します：
 
 * グラフの[入力パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* グラフの[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノード；
+* グラフの[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)ノード；
 * グラフの[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードです。
 
 ![入力パラメーターの表示を切り替えています](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "入力パラメーターの表示を切り替えています"){width="512px"}
@@ -93,7 +91,7 @@ input["identifier"]
 | 真 | ` input["my_input"]   input.my_input `  ` input["my_input"] == true   input.my_input == true ` | my\_inputはブール値です |
 | 偽 | ` !input["my_input"]   !input.my_input `  ` input["my_input"] == false   input.my_input == false `  ` input["my_input"] != true   input.my_input != true ` | my\_inputはブール値です |
 | より低い | ` input["my_input"] < 3   input.my_input < 3 ` | my\_inputは整数値です |
-| 次と等しい | ` input["param1"] == 2   input.param1 == 2 ` | param1は浮動小数点値または整数値です |
-| より低い | ` input["my_input"].y < 3   input.my_input.y < 3 ` | my\_inputは、1つ以上の要素を持つ実数または整数値です – 例： float2(x, y), 整数3(x, y, z) |
+| 次と等しい | ` input["param1"] == 2   input.param1 == 2 ` | param1は浮動小数点数または整数値です |
+| より低い | ` input["my_input"].y < 3   input.my_input.y < 3 ` | my\_inputは、1つ以上の要素を持つ浮動小数点または整数値です – 例えば、float2(x, y), integer3(x, y, z) |
 | Or | ` input["param1"] \|\| input["param2"]   input.param1 \|\| input.param2 ` | param1とparam2はブール値です |
 | And | ` input["param1"] > 0 && input["param2"] > 1   input.param1 > 0 && input.param2 > 1 ` | param1とparam2は浮動小数点値または整数値です |

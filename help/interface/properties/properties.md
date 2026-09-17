@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/properties.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Designerのプロパティパネルを使用して、ノードのプロパティとグラフパラメーターを表示および編集します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Properties
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: プロパティ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 
 # プロパティ
 
@@ -61,7 +59,7 @@ Substanceエコシステムの主要な機能である[パラメーターの公�
 
 ノードは、<b>特定のパラメーター</b>または<b>のインスタンスパラメーター</b>を提供します（[アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)または[インスタンス](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)であるかどうかによって異なります）。また、[値](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)を操作するための<b>入力値</b>も提供されます。
 
-[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)および[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomicノードは、可視性に<b>統合属性</b>および<b>条件</b>を備えているため、例外です。 これら2つのプロパティのセットは、「入力」および「出力」の「グラフのプロパティ」で一元的にアクセスすることもできます。
+[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)および[Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)のアトミックノードは、表示に<b>Integration Attributes</b>および<b>Conditions</b>を備えているため、例外です。 これら2つのプロパティのセットは、「入力」および「出力」の「グラフのプロパティ」で一元的にアクセスすることもできます。
 
 グラフにはいくつかの余分なカテゴリがあります。 <b>入力パラメーター</b>は、[公開パラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)、<b>入力</b>および<b>出力</b>は、入力ノードと出力ノードのすべてのプロパティを一覧表示します。 [専用のページで、詳細を説明したすべてのグラフプロパティを検索できます。](../../compositing-graphs/graph-parameters/graph-parameters.md)
 

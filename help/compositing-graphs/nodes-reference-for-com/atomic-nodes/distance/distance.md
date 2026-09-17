@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: '[距離]ノードを使用して、シェイプから距離マップを計算し、マスクや手続き型の効果を作成します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
@@ -8,32 +8,40 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 距離
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '395'
 ht-degree: 8%
-
 ---
-
 
 # 距離
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード：距離](distance.resources/comp_distance_1.png "原子ノード：距離"){width="200px"}
+![原子ノード：距離](distance.resources/comp_distance_1.png "原子ノード：距離"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 マスク内の最も近い白ピクセルの位置を求め、その位置からグラデーションを出力するか、ソース画像内のその位置のカラーを出力します。
 
 このノードは、0.5グレースケール値を超える入力maxの任意のピクセルから外向きの線形フェード（グラデーション）を作成します。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="distance.resources/distance-tooltip.gif" alt="距離ツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -45,40 +53,7 @@ ht-degree: 8%
 
 詳細については、以下の[例](#examples)を参照してください。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 出力コネクタ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 例
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -96,11 +71,6 @@ ht-degree: 8%
 | <b>マスク入力</b> *グレースケール*&#x200B;プライマリ | グレースケールマスクは、境界線の距離の値を計算する必要があります。   0.5のしきい値を使用して画像からバイナリマスクが抽出されます。この値を超えるすべての値は白で、下回るすべての値は黒です。 |
 | <b>ソース入力</b> *カラー/グレースケール* | オプションのグレースケール画像。この画像から、「マスク入力」の最も近い境界にあるピクセル値をコピーします。 |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *カラー/グレースケール* |  |
 
 ## 例
 
@@ -108,17 +78,17 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

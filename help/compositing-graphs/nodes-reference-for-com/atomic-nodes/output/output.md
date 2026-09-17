@@ -1,39 +1,47 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 出力
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 
 # 出力
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード： Output](output.resources/comp_output_1.png "原子ノード： Output"){width="200px"}
+![原子ノード： Output](output.resources/comp_output_1.png "原子ノード： Output"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Outputノードは、Substanceグラフの<b>result</b>を指定します。複数のOutputノードが含まれている場合は、結果の1つを指定します。
 
 グラフの出力ノードに接続されたイメージまたは値は、このグラフを表す[インスタンス化](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)によって出力され、[グラフ出力としてエクスポート](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)できます。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="output.resources/output-tooltip.gif" alt="出力ツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

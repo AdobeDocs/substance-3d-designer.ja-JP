@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Designerでグラフパラメーターを作成および管理し、マテリアルのプロパティやビヘイビアーを制御する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: グラフパラメーター
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
-
 ---
-
 
 # グラフパラメーター
 
@@ -143,7 +141,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-この部分には、グラフのすべての[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)ノードが一覧表示されます。
+この部分には、グラフのすべての[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)ノードが一覧表示されます。
 
 各項目の一番左にあるハンドルをドラッグ&amp;ドロップして、項目を並べ替えることができます。
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 効果的なマテリアル作成のためのSubstance合成グラフにおける値タイプとデータ処理について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance グラフの値
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 2%
-
 ---
-
 
 # Substance グラフの値
 
@@ -32,10 +30,10 @@ ht-degree: 2%
 
 2つの新しいAtomicノードは値で動作します。
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="バリュープロセッサノードアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="バリュープロセッサノードアイコン" width="100px"/></div>  <b>[Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [値プロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)は、任意の数のグレースケール入力またはカラー入力を受け取り、これらの入力に基づいて計算から1つの値を返すことができます。 |
-| <div><img alt="値入力ノードアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="値入力ノードアイコン" width="100px"/></div>  **[値の入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [値入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)を使用すると、値として明示的に定義されたサブグラフに入力スロットを作成できます。 |
+| <div><img alt="値入力ノードアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="値入力ノードアイコン" width="100px"/></div>  **[入力値](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)** | [値入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)を使用すると、値として明示的に定義されたサブグラフに入力スロットを作成できます。 |
 
 さらに、他のノードでは特定の方法で処理されます。
 
@@ -51,9 +49,9 @@ ht-degree: 2%
 
 値の使用は、通常のSubstanceグラフの作業とは少し異なります。
 
-値の接続は、[値プロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)、[値の入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)、または[サブグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)からのみ実行できます。 つまり、最初から値の接続を作成する唯一の方法はバリュープロセッサであり、「静的な値」ノードなどはありません。 代わりに、バリュープロセッサを作成し、静的な値を配置して出力として設定することで、同じ結果が得られます。
+値の関連付けは、[バリュープロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)、[入力値](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)、または[サブグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)からのみ実行できます。 つまり、最初から値の接続を作成する唯一の方法はバリュープロセッサであり、「静的な値」ノードなどはありません。 代わりに、バリュープロセッサを作成し、静的な値を配置して出力として設定することで、同じ結果が得られます。
 
-複数の値、または複数の値のセットやグループを返す場合は、[サブグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)を作成する必要があります。値プロセッサは単一の値のみを返すことができます。
+複数の値、または複数の値のセットやグループを返す場合は、[サブグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)を作成する必要があります。バリュープロセッサーは1つの値のみを返すことができます。
 
 値が表示される場所または使用中の場所を強調表示するには、値入力（値出力）を持つノードを黄色の太い枠線で強調表示します。
 

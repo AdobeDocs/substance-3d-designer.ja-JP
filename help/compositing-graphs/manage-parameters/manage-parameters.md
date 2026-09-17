@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
-description: ワークフローを効率的に整理するために、Substance合成グラフでパラメーターを管理および整理する方法について説明します。
+breadcrumb-title: ""
+description: ワークフローの構成を改善するために、Substance合成グラフでパラメーターを管理および整理する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: パラメーターを管理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
-
 ---
-
 
 # パラメーターを管理
 
@@ -24,7 +22,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 * ノードのすべてのパラメーターの値を[コピーして貼り付け](#copy-paste-parameters)
 * 後で再利用できるように、ノードの値またはすべてのパラメーターを[プリセットファイル](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)に保存します
-* [ノードのパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を表示してアクセス可能にし、それらをリンクします
+* [ノードのパラメーター](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を公開してアクセス可能にし、リンク付けします
 * [他のパラメーターの値に従ってパラメーターを表示または非表示にする](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 * [Substance関数グラフ](../../function-graphs/function-graphs.md)を使用して、パラメーターの値を計算します
 
@@ -40,8 +38,8 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 ノードのプロパティがプロパティドックに表示されている場合、次のセクションヘッダーの&#39;<b>パラメーターの管理</b>&#39;メニューを使用して、ノードパラメーターをグローバルに管理できます。
 
-* [アトミックノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)の場合：特定のパラメーター
-* [インスタンス化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)の場合：インスタンスパラメーター
+* [atomicノード](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)の場合：特定のパラメーター
+* [インスタンスノード](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)の場合：インスタンスパラメーター
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -54,7 +52,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 このメニューのアクションは、そのセクションに一覧表示されているパラメーター&#x200B;*すべて*&#x200B;に影響します：
 
-* <b>パラメーターの表示:</b> [パラメーターの一括表示]ダイアログボックスを開きます。 表示されるパラメーターごとに、新しいグラフ入力が作成され、そのグラフ入力を使用して関数が自動で設定されます。 [この専用ページ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)でパラメーターを表示する方法の詳細をご覧ください。
+* <b>パラメーターの公開：</b> &#39;パラメーターの一括公開&#39;ダイアログを開きます。 公開されている各パラメーターに対して、アクションは新しいグラフ入力を作成し、そのグラフ入力を使用して関数を自動的に設定します。 [この専用ページ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)のパラメーターの公開について詳しく説明します。
 * <b>パラメーターのコピー：</b>以下の[パラメーターのコピーと貼り付け](#copy-paste-parameters)のセクションを参照してください。
 * <b>パラメーターの貼り付け：</b>以下の[パラメーターのコピーと貼り付け](../../compositing-graphs/manage-parameters/manage-parameters.md)のセクションを参照してください。
 * <b>パラメーターをプリセットファイルとして保存する：</b> [この専用ページ](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)のパラメータープリセットの詳細をご覧ください。
@@ -63,7 +61,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 >[!NOTE]
 >
-> 一部のアトミックノードでは使用できないアクションがあります。 以下の[Atomic nodesの制限](#atomic-nodes-limitations)を参照してください。
+> 一部のアトミックノードでは使用できないアクションがあります。 以下の[アトミックノードの制限](#atomic-nodes-limitations)を参照してください。
 
 ### 単一パラメーターのアクション
 
@@ -82,9 +80,9 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 </tr>
 </table>
 
-[Substance関数グラフ](../../function-graphs/the-function-graph/the-function-graph.md)は、次の3つの方法でそのパラメーターに適用できます。
+[Substance関数グラフ](../../function-graphs/the-function-graph/the-function-graph.md)をパラメーターに適用するには、次の3つの方法があります。
 
-* <b>新しいグラフ入力として公開：</b>新しいグラフ入力を作成し、そのグラフ入力を使用して関数を自動的に設定します。 [この専用ページ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)のパラメーターの公開について詳しく説明します。
+* <b>新しいグラフ入力として表示:</b>新しいグラフ入力を作成し、そのグラフ入力を使用して関数を自動設定します。 [この専用ページ](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)でパラメーターを表示する方法の詳細をご覧ください。
 * <b>空の関数：</b>最初から関数を作成します。
 * <b>定数値：</b>パラメーターの現在の値に設定された[定数値ノード](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)から始まる関数を編集します。
 * <b>リセット：</b>パラメーターを既定値と範囲にリセットします。 パラメーターに関数が適用された場合、その関数は破棄されます。
@@ -103,7 +101,7 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 このメニューでは、コピー/ペースト操作を実行できないことに注意してください。 前述のように、ノードのプロパティに表示されます。
 
-このメニューには、以下に示すアトミックノードに関する制限と同じ制限が適用されます。
+以下のアトミックノードに関する同じ制限が、このメニューにも適用されます。
 
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
@@ -120,9 +118,9 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 ## パラメーターのコピー&amp;ペースト
 
-ソースノードのすべてのパラメータ値をコピーし、ターゲットノードに貼り付けることができます。 ソースノードとターゲットノードのパラメーターは、それらの識別子と種類の両方に基づいて<b>一致します</b>。
+ソースノードのすべてのパラメータ値をコピーし、ターゲットノードに貼り付けることができます。 ソースノードとターゲットノードのパラメーターは、それらの識別子ーと型の両方に基づいて<b>一致します</b>。
 
-たとえば、識別子が&#39;scale&#39;で型が&#39;Float&#39;のパラメータ&#39;Scale&#39;を、識別子も&#39;scale&#39;で型が&#39;Float&#39;の別のパラメータ&#39;Shape Scale&#39;にコピーして貼り付けることができます。
+たとえば、パラメータが&#39;scale&#39;で型が&#39;浮動小数&#39;の&#39;Scale&#39;識別子は、識別子が&#39;scale&#39;で型も&#39;浮動小数&#39;の場合に、別のパラメータ&#39;Shape Scale&#39;にコピーして貼り付けることができます。
 
 この機能は、[パラメータープリセットファイル](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)を使用する場合と同様に動作します。 実際、クリップボードにコピーされたデータは、SBSPRSプリセットファイルに保存されたデータと同じであり、任意のテキストエディターにペーストしてレビューおよび編集することができます。
 
@@ -165,11 +163,11 @@ Designerでは、パラメーターを直接調整する以外の方法で制御
 
 [グラデーションマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[入力カラー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[入力カラー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[入力グレースケール](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[入力グレースケール](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[入力値](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[入力値](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

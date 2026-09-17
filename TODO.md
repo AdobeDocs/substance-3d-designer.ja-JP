@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # TODO
 
@@ -22,7 +21,7 @@ ht-degree: 12%
   * メタル/メタリック
   * HDR
   * スペキュラ
-  * Height地図
+  * 高さマップ
   * 不透明度
   * フラスタム
   * タンジェントスペース
@@ -33,8 +32,7 @@ ht-degree: 12%
 
 ## 修正
 
-* ノードページの最初のサンプルイメージのリンクを修正(例： 新しいノイズ)
-* [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)に&#39;負の整数&#39;項目と壊れたリンクがありません
+* ノードページの最初のサンプルイメージのリンクを修正(例： 新規ノイズ)
 
 ## 調査する
 

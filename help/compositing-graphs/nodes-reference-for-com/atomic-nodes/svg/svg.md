@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: SVGノードを使用して、スケーラブルなグラフィックエレメントを作成するためのテクスチャとしてSVGベクターグラフィックを読み込んでレンダリングします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SVG
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 1%
-
+source-wordcount: '425'
+ht-degree: 0%
 ---
-
 
 # SVG
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![アトミックノード: SVG](svg.resources/comp_svg_1.png "アトミックノード: SVG"){width="200px"}
+![アトミックノード: SVG](svg.resources/comp_svg_1.png "アトミックノード: SVG"){width="100%"}
+
+<b>イン：</b> アトミックノード
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 [SVG画像](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)をビットマップとしてレンダリングします。 つまり、ベクトルシェイプをピクセルにマッピングします。
 
@@ -37,27 +37,16 @@ ht-degree: 1%
 </tr>
 </table>
 
-ノードを最初から作成するか、SVGファイルをグラフビューにドロップします。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="svgツールチップ" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+ノードを最初から作成するか、SVGファイルをグラフビューにドロップします。
+
 
 >[!TIP]
 >
@@ -79,20 +68,6 @@ ht-degree: 1%
 > 
 > これらの制限の詳細については、[こちら](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)をご覧ください。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 例
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## パラメーター
 
@@ -112,11 +87,6 @@ ht-degree: 1%
 | --- | --- |
 | <b>背景</b> *グレースケール/カラー*&#x200B;プライマリ | ベクターシェイプで覆われていない領域で使用する出力画像の背景色を設定します。   *接続時に&#39;[背景色](#parameters)&#39;パラメーターを上書きします。* |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール/カラー* |  |
 
 ## 例
 

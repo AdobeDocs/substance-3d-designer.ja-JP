@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substanceグラフのパラメーターが正常に機能しない問題をトラブルシューティングし、解決策を見つけます。
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > Parameters not working as expected
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: パラメーターが予期したとおりに機能しない
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 6%
-
 ---
-
 
 # パラメーターが予期したとおりに機能しない
 
@@ -24,11 +22,11 @@ ht-degree: 6%
 
 ## プレビューモードでパラメーターが機能せず、公開されたSubstance 3Dアセット(SBSAR)です
 
-<b>![（エラー）](parameters-not-working-as-expected.resources/error.svg)問題</b>
+![（エラー）](parameters-not-working-as-expected.resources/error.svg) <b>問題</b>
 
 Designerで[プレビューモード](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)を使用しているとき、またはそのグラフのSubstance 3Dアセット(SBSAR)のパラメーターリスト[公開済み](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)に含まれているときに、グラフの公開パラメーターの一部が&#x200B;*表示されていません*。
 
-<b>![（ティック）](parameters-not-working-as-expected.resources/check.svg)推奨ステップ</b>
+![（ティック）](parameters-not-working-as-expected.resources/check.svg) <b>推奨される手順</b>
 
 不足しているパラメーターは可能性が高い[静的パラメーター](../../glossary/glossary.md)です。グラフが&#x200B;*cooked*&#x200B;になった後（つまり、アルゴリズムを迅速かつ効率的に実行するために処理された後）、*その場で編集することはできません*。 グラフが&#x200B;*編集*&#x200B;または&#x200B;*公開*&#x200B;されるたびに、Designerでクッキングが行われます。 このような制限の影響を受けるパラメーターは、このドキュメントの[パラメーターの公開](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)ページの[制限](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)セクションに記載されています。
 
@@ -37,8 +35,8 @@ Designerで[プレビューモード](../../compositing-graphs/manage-parameters
 静的パラメーターの一覧を次に示します。
 
 | ノード | パラメーター |
-| --- | --- |
-| すべてのノード | タイリングモードのピクセル比 |
+|:---------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+| すべてのノード | タイリングモード、ピクセル比 |
 | [均一な色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | カラーモード |
 | [ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | カラーモード |
 | [ブレンド](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | 描画モードAlpha描画モードで切り抜く領域 |
@@ -47,10 +45,10 @@ Designerで[プレビューモード](../../compositing-graphs/manage-parameters
 
 ## パラメーターに適用されたSubstance関数グラフの結果が正しくありません
 
-<b>![（エラー）](parameters-not-working-as-expected.resources/error.svg)問題</b>
+![（エラー）](parameters-not-working-as-expected.resources/error.svg) <b>問題</b>
 
-負の整数を使用した場合、ノードパラメータに適用されたSubstance関数グラフが期待値を出力しません。
+*負の整数*&#x200B;を使用する場合、ノードグラフーに適用されたSubstance関数パラメーターが期待値を出力しません。
 
-<b>![（ティック）](parameters-not-working-as-expected.resources/check.svg)推奨ステップ</b>
+![（ティック）](parameters-not-working-as-expected.resources/check.svg) <b>推奨される手順</b>
 
 負の整数は現在サポートされていません。 回避策として、[整数2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)の値に負の整数の値を使用し、[ノード](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)を使用して値を抽出します。

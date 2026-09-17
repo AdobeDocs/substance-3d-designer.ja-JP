@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Gradient Mapノードを使用して、カラー化とエフェクトのグラデーションランプを使用してグレースケール値をカラーにマップします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: グラデーションマップ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
-
 ---
-
 
 # グラデーションマップ
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子ノード：グラデーションマップ](gradient-map.resources/comp_gradient_1.png "原子ノード：グラデーションマップ"){width="200px"}
+![原子ノード：グラデーションマップ](gradient-map.resources/comp_gradient_1.png "原子ノード：グラデーションマップ"){width="100%"}
+
+<b>In:</b>個のアトミックノード
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 カスタムグラデーションを使用して、画像内のグレースケール値を再マップします。
 
@@ -37,31 +37,17 @@ ht-degree: 2%
 </tr>
 </table>
 
-このノードは、複数のカラーを正確にマッピングするための、高度で機能豊富なグラデーションエディターを提供します。詳しくは、このページの[グラデーションエディター](#gradient-editor)セクションに移動してください。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## 例
+このノードは、複数のカラーを正確にマッピングするための、高度で機能豊富なグラデーションエディターを提供します。詳しくは、このページの[グラデーションエディター](#gradient-editor)セクションに移動してください。
 
-## パラメーター
+
 
 |  |  |
 | --- | --- |
@@ -255,14 +241,14 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   RGB、HSV、Alphaの各スライダーを使用すると、スライダーを微調整したり、数値を直接設定したりして、カラーを正確に設定できます。
 
   または、スライダーの下にある専用入力フィールドのhexcodeを使用します。
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![カラーピッカー – RGB、HSV、Alphaスライダー](gradient-map.resources/image2017-2-17-18-31-41.png "カラーピッカー – RGB、HSV、Alphaスライダー")
 
@@ -289,7 +275,7 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 選択したカラーがカラーサムネールの上半分にプレビューされます。\
 下半分は以前使用したカラーを表示します。 「LMB」をダブルクリックして、微調整したカラーを元に戻します。
@@ -307,7 +293,7 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 また、カラーサムネールの下には次の機能がボタンとして表示されます。
 
@@ -346,11 +332,6 @@ LMBを押したまま、選択したピンをグラデーションバーに沿�
 | --- | --- |
 | <b>入力</b> *グレースケール*&#x200B;プライマリ | 処理するグレースケール画像を指定します。 |
 
-## 出力コネクタ
-
-|  |  |
-| --- | --- |
-| <b>出力</b> *グレースケール* |  |
 
 ## 例
 

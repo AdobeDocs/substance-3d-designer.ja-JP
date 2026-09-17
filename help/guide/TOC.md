@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 22%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -132,7 +130,9 @@ ht-degree: 22%
       + [バリュープロセッサー](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [ワープ](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [出力](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [入力](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [入力カラー](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [入力グレースケール](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [入力値](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + ノードライブラリ{#node-library}
       + [ノードライブラリ](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + テクスチャ生成{#texture-generators}
@@ -405,7 +405,7 @@ ht-degree: 22%
           + [シェイプの線](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
           + [合計面積テーブル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/summed-area-table/summed-area-table.md)
           + [渦巻き](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/swirl/swirl.md)
-          + [Uber エンボス](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
+          + [Uberエンボス](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
           + [ベクターモーフ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-morph/vector-morph.md)
           + [ベクターワープ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)
         + 法線マップ{#normal-map}
@@ -418,7 +418,7 @@ ht-degree: 22%
           + [通常の結合](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
           + [法線の反転](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
           + [ノーマライズ（標準）](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
-          + [通常のsobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+          + [標準のソベル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [Heightに垂直](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [HeightHQに対して正常](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
           + [標準変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
@@ -471,7 +471,7 @@ ht-degree: 22%
           + [マルチマテリアルブレンド](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
         + PBR ユーティリティ{#pbr-utilities}
           + [PBR ユーティリティ](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-utilities.md)
-          + [ベースカラー/メタリック/粗さコンバーター](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/basecolor-metallic-rou/basecolor-metallic-roughness-converter.md)
+          + [BaseColor/メタリック/ラフネスコンバーター](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/basecolor-metallic-rou/basecolor-metallic-roughness-converter.md)
           + [ベースマテリアル](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md)
           + [PBR アルベドセーフカラー](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color/pbr-albedo-safe-color.md)
           + [PBR BaseColor/メタリック検証](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md)
@@ -518,7 +518,7 @@ ht-degree: 22%
           + [レザーウェア](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [ライト](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [マスクビルダー](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [金属製エッジ耳](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [金属エッジの摩耗](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [ペイント摩耗](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [選択的Dirt](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [日光漂白剤](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -547,7 +547,7 @@ ht-degree: 22%
           + [パスツール](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
           + [パス形式の仕様](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)
           + [パス2D変形](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
-          + [マスクをパスに](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
+          + [パスにマスク](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
           + [多角形パス](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
           + [パスのプレビュー](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
           + [パスワープ](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
