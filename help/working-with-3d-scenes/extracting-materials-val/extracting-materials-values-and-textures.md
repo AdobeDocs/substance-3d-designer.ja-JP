@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+breadcrumb-title: ""
 description: 3Dシーンからマテリアルプロパティを抽出して、マテリアル作成ワークフローのSubstanceグラフで使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
@@ -8,39 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: マテリアルの値とテクスチャの抽出
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
-
 
 # マテリアルの値とテクスチャの抽出
 
 マテリアルのプロパティを抽出して、Substanceグラフで使用できます。
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## テクスチャからの新しいグラフ
-
-</td>
-<td style="border: 0;" valign="top">
-
-### テクスチャを抽出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 値を抽出
-
-</td>
-</tr>
-</table>
 
 ## テクスチャからの新しいグラフ
 
@@ -172,21 +150,21 @@ ht-degree: 0%
 
 ![値をグラフに抽出 – プロパティドックのアクション](extracting-materials-values-and-textures.resources/extractValueAction.png "値をグラフに抽出 – プロパティドックのアクション"){zoomable="yes"}
 
-プロパティドックのマテリアルプロパティのアクション
+プロパティドックの「マテリアル」プロパティのアクション
 
 </td>
 <td style="border: 0;" valign="top">
 
-![グラフに値を抽出 – 「グラフ先の選択」ダイアログ](extracting-materials-values-and-textures.resources/extractValueSelectGraph.png "グラフに値を抽出 – 「グラフ先の選択」ダイアログ"){zoomable="yes"}
+![値をグラフに抽出 – [対象グラフの選択]ダイアログ](extracting-materials-values-and-textures.resources/extractValueSelectGraph.png "値をグラフに抽出 – [対象グラフの選択]ダイアログ"){zoomable="yes"}
 
-「宛先グラフを選択」ダイアログ
+「保存先グラフーを選択」ダイアログ
 
 </td>
 <td style="border: 0;" valign="top">
 
-![値をグラフに抽出 – 値プロセッサノードの関数の定数ノード](extracting-materials-values-and-textures.resources/extractValueResult2.png "値をグラフに抽出 – 値プロセッサノードの関数の定数ノード"){zoomable="yes"}
+![グラフに値を抽出 – バリュープロセッサーノードの関数の定数ノード](extracting-materials-values-and-textures.resources/extractValueResult2.png "グラフに値を抽出 – バリュープロセッサーノードの関数の定数ノード"){zoomable="yes"}
 
-値プロセッサノードの関数の定数ノード
+バリュープロセッサーノードの関数の定数ノード
 
 </td>
 </tr>
@@ -197,7 +175,7 @@ ht-degree: 0%
 値の抽出結果
 
 +++デモンストレーション
-![値をグラフに抽出 – デモ](extracting-materials-values-and-textures.resources/extractValueToGraph.gif "値をグラフに抽出 – デモ"){zoomable="yes"}
+![グラフに値を抽出 – デモ](extracting-materials-values-and-textures.resources/extractValueToGraph.gif "グラフに値を抽出 – デモ"){zoomable="yes"}
 
 
 

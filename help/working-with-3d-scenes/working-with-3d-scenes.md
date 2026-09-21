@@ -1,74 +1,52 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
-description: Substance 3D Designerで3Dシーンを読み込み、編集し、操作して、素材をプレビューおよびテストする方法について説明します。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
+description: Substance 3D Designerで3D シーンを読み込み、編集、操作して、マテリアルをプレビューおよびテストする方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3Dシーンの操作
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+title: 3D シーンの操作
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
 
+# 3D シーンの操作
 
-# 3Dシーンの操作
+![3D シーンの操作](working-with-3d-scenes.resources/workingWith3DScenes.png "3D シーンの操作"){zoomable="yes"}
 
-![3Dシーンの操作](working-with-3d-scenes.resources/workingWith3DScenes.png "3Dシーンの操作"){zoomable="yes"}
+Designerでは、[3D シーン](../glossary/glossary.md)を読み込んで、コンテキスト内のマテリアルで作業できます。 各フォーマットでサポートされている機能のリストを含む、3Dシーンでサポートされているファイルフォーマットのリストは、こちらを参照してください。 <b>&lt;リンクが必要です></b>
 
-Designerでは、[3Dシーン](../glossary/glossary.md)を読み込んで、コンテキストに応じてマテリアルを操作できます。 各形式でサポートされている機能のリストなど、3Dシーンでサポートされているファイル形式のリストはこちらにあります。 <b>&lt;リンクが必要です></b>
+コンテキストで作業するには、シーンの[マテリアル](../glossary/glossary.md)の1つを[上書き](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)して、Designerで作成されたマテリアルに置き換える必要があります。\
+最初から、Designerで利用できる任意のSubstanceグラフテンプレートを使用するか、または3D シーンのマテリアルから[値とテクスチャを抽出](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)して、ゼロから作成することができます。
 
-状況に応じて作業するには、シーンの[マテリアル](../glossary/glossary.md)の1つを[オーバーライド](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)して、Designerで作成されたマテリアルに置き換える必要があります。\
-Designerで利用できる任意のSubstanceグラフテンプレートを使用してゼロから作成することも、3Dシーンのマテリアルを出発点として[値とテクスチャを抽出](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)することもできます。
+3D シーンの処理が完了したら、別のアプリケーションで取り込む新しいファイルに[エクスポート](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)できます。
 
-3Dシーンでの作業が完了したら、別のアプリケーションで取り込む新しいファイルに[書き出し](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)できます。
+USD形式に書き出す場合。このワークフローはすべて<b>非破壊的</b>にすることができます。つまり、編集内容と追加内容のみが書き出されます。
 
-USD形式に書き出す場合。このワークフローはすべて<b>非破壊的</b>にすることができます。つまり、編集と追加のみが書き出されます。
+まず、作業する3D シーンを読み込み、セッション間でDesignerのステータスを維持できるようにする必要があります。
 
-まず、作業する3Dシーンを読み込み、セッション間でDesignerのステートを維持できる必要があります。
+## 3D シーンのコンテンツ
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+3D シーンを読み込むときに、Designerはデータをホストする独自のシーンを作成しました。
 
-## 3Dシーンのコンテンツ
+シーンの次の内容を操作できます。
 
-</td>
-<td style="border: 0;" valign="top">
+* <b>マテリアル:</b>シーンで使用されているすべてのマテリアルは、Designerによって作成されたコピーで[上書き](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)できます。 そのコピーの[マテリアルのプロパティ](../interface/3d-view/material-properties/material-properties.md)をRAW値またはSubstanceグラフからのテクスチャで編集できます。
+* <b>メッシュ:</b>ジオメトリは、ビューポートで直接選択するか、[シーンブラウザー](../interface/3d-view/scene-browser/scene-browser.md)から選択して、そのマテリアル操作にアクセスすることができます（[上書き](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、[リセット](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、[Substanceグラフに展開](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)）
+* <b>ライト:</b> シーン内のすべてのライトは、[シーンブラウザー](../interface/3d-view/scene-browser/scene-browser.md)で無効にできます。
+* <b>カメラ:</b> シーンで検出されたすべてのカメラは、Designerによって追加されたカメラにプリセットとして追加されます。
 
-### シーンのロード
+![3D シーンの内容](working-with-3d-scenes.resources/loaded3DScene.png "3D シーンの内容"){zoomable="yes"}
 
-</td>
-<td style="border: 0;" valign="top">
+Designerは、3D シーンにUSDの説明を使用します。 そのレイアウトは、シーンブラウザーで移動できます。各[USD prim](https://openusd.org/release/glossary.html#usdglossary-prim)型には独自のアイコン（ジオメトリ、マテリアル、シェーダー、カメラ、変形など）があります。
 
-### シーン状態ファイル
-
-</td>
-</tr>
-</table>
-
-## 3Dシーンのコンテンツ
-
-3Dシーンを読み込むと、Designerは独自のシーンを作成してホストします。
-
-シーンの次のコンテンツを操作できます。
-
-* <b>マテリアル:</b> Designerで作成されたコピーで、シーンで使用されているすべてのマテリアルを[上書き](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)できます。 そのコピーの[マテリアルプロパティ](../interface/3d-view/material-properties/material-properties.md)を、SubstanceグラフのRaw値またはテクスチャで編集できます。
-* <b>メッシュ：</b>ジオメトリは、ビューポートまたは[Scene Browser](../interface/3d-view/scene-browser/scene-browser.md)から直接選択して、そのマテリアル操作（[override](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、[reset](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、[extract to Substanceグラフ](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)）にアクセスできます
-* <b>ライト:</b>シーン内のすべてのライトは、[Scene browser](../interface/3d-view/scene-browser/scene-browser.md)で無効にできます。
-* <b>カメラ:</b>シーン内で検出されたすべてのカメラは、Designerによって追加されたカメラにプリセットとして追加されます。
-
-![3Dシーンの内容](working-with-3d-scenes.resources/loaded3DScene.png "3Dシーンの内容"){zoomable="yes"}
-
-Designerでは、3Dシーンの説明に米ドルを使用しています。 そのレイアウトはScene Browserでナビゲートできます。各[USD prim](https://openusd.org/release/glossary.html#usdglossary-prim)タイプには独自のアイコン（ジオメトリ、マテリアル、シェーダ、カメラ、トランスフォームなど）があります。
-
-[Scene Browser](../interface/3d-view/scene-browser/scene-browser.md)を使用して、シーンのコンテンツを選択、有効化、および無効化できます。 したがって、カスタム3Dシーンを操作する場合は、常に表示しておくことをお勧めします。
+[シーンブラウザー](../interface/3d-view/scene-browser/scene-browser.md)を使用して、シーンーのコンテンツを選択、有効、および無効にできます。 したがって、カスタム3Dシーンを操作する場合は、常に表示しておくことをお勧めします。
 
 ## シーンのロード
 
@@ -150,12 +128,12 @@ Designerで作成されたアイテムは、Scene Browserに<b>太字のラベ�
 
 ![シーン状態ファイルの読み込み](working-with-3d-scenes.resources/loadSceneStateFile.gif "シーン状態ファイルの読み込み"){zoomable="yes"}
 
-保存されたシーンの状態は、3Dビューのデフォルトの状態としても使用できるため、新しい3Dビューを作成する際には、常にその状態が使用されます。 この機能は、既定値でマテリアルをSphere 2-Tilesメッシュ上でタイリング値2と特定の環境マップを使用してプレビューする場合に便利です。
+保存されたシーンのステートは、3D ビューのデフォルトのステートとしても使用できるため、新しい3D ビューが作成されるたびに、そのステートが使用されます。 これは、タイリングの値が2で環境マップを指定したSphere 2-Tiles メッシュで、マテリアルのマテリアルをデフォルトでプレビューする場合に便利です。
 
-シーン状態ファイルに関連するアクションは、3Dビューのシーンメニューにあり、[こちら](../interface/3d-view/3d-view.md)で説明されています。
+シーン状態ファイルに関連する操作は、3D ビューのシーンメニューにあり、[こちら](../interface/3d-view/3d-view.md)で説明されています。
 
 シーン状態ファイルはXML形式を使用し、[プロジェクト設定](../interface/preferences-window/project-settings/project-settings.md)で定義されている場合は[エイリアス](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)を使用します。
 
 >[!NOTE]
 >
-> レンダラーはシーン状態ファイルに保存されません。
+> レンダラーがシーン状態ファイルに保存されません。

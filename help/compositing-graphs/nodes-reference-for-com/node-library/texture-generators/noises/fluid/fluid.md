@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
-breadcrumb-title: ''
-description: 流体ノードを使用して、液体および水面のテクスチャエフェクトを作成するための流体のようなノイズパターンを生成します。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+breadcrumb-title: ""
+description: 流体ノードを使用して、液体および水面のテクスチャエフェクトを作成するための流体のようなノイズパターンを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fluid
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 流体
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '121'
 ht-degree: 9%
-
 ---
-
 
 # 流体
 
@@ -33,9 +31,9 @@ ht-degree: 9%
 
 ## 説明
 
-このノードは、流れる流体パターンまたは流れる流体パターンを生成する興味深いノードです。 これは、いくつかのパラメータを持つ、より複雑なノイズの1つです。
+このノードは、流れる流体パターンまたは流れる流体パターンを生成する興味深いノードです。 これは、いくつかのパラメーターを持つ、より複雑なノイズの1つです。
 
-このノイズは、特定のニッチを埋めます：それは雨、漏れ、または重力の効果の下で流体のあらゆるタイプを生成するのに役立ちます。
+このノイズは特定のニッチを満たします：それは雨、漏れ、または重力効果の下で流体の任意の種類を生成するのに役立ちます。
 
 </td>
 </tr>
@@ -51,14 +49,16 @@ ht-degree: 9%
 | <b>障害</b> <i>0.0 - 1.0</i> | ノイズを位相シフトして、小さな変動を発生させます。 |
 | <b>ワープの強さ</b> <i>0.0 - 1.0</i> |  |
 | <b>パターンサイズ</b> <i>0.0 - 1.0</i> |  |
-| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fluid.resources/fluid-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fluid.resources/fluid-ex.gif" class="modal-image" alt="流体 – 例1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-1.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-1.html"
+breadcrumb-title: ""
 description: '[方向性ノイズ 1]ノードを使用して、異方的なテクスチャバリエーションを作成するための方向性ノイズパターンを作成します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 方向性ノイズ 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '291'
 ht-degree: 1%
-
 ---
-
 
 # 方向性ノイズ 1
 
@@ -67,32 +65,23 @@ ht-degree: 1%
 
 ## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![方向性ノイズ 1 – 例1](directional-noise-1.resources/directional_noise_1_1.png "方向性ノイズ 1 – 例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![方向性ノイズ 1 – 例2](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso0.gif "方向性ノイズ 1 – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![方向性ノイズ 1 – 例3](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso1.gif "方向性ノイズ 1 – 例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![方向性ノイズ 1 – 例4](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.3_aniso0.6.gif "方向性ノイズ 1 – 例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-1.resources/directional_noise_1_1.png" class="modal-image" alt="方向性ノイズ 1 – 例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="方向性ノイズ 1 – 例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso1.gif" class="modal-image" alt="方向性ノイズ 1 – 例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-1.resources/noise_directional_noise_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="方向性ノイズ 1 – 例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
