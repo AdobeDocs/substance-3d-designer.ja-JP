@@ -1,8 +1,8 @@
 ---
-source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 11%
 ---
 # TODO
 
@@ -29,6 +29,9 @@ ht-degree: 13%
   * FX-Map
   * ピクセルプロセッサー
   * プリセット
+* AGENTS.mdとスキルをアップデートして、以下を管理します。
+  * 画像：中央揃え、ズーム
+  * 表：自動/固定レイアウト、テキストアラインメント
 
 ## 修正
 

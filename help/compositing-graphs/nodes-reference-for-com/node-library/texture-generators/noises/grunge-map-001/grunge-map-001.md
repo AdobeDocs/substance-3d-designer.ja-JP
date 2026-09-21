@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
+breadcrumb-title: ""
 description: 経年劣化マップ001ノードを使用して、サーフェスのディテールおよび磨耗のエフェクトをマテリアルに加えるためのプロシージャル経年劣化 テクスチャを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 001
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 経年劣化マップ001
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 7%
-
+source-wordcount: '131'
+ht-degree: 6%
 ---
-
 
 # 経年劣化マップ001
 
@@ -26,7 +24,7 @@ ht-degree: 7%
 
 ![](grunge-map-001.resources/grungemap-001.png){width="128px"}
 
-<b>イン：</b> テクスチャジェネレーター> ノイズ
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -49,14 +47,16 @@ ht-degree: 7%
 | <b>コントラスト</b> <i>0.0 - 1.0</i> | 結果のコントラストを調整します。 |
 | <b>反転</b> <i>False/True</i> | 結果を反転します。 |
 | <b>ブラシパターン</b> <i>0.0 - 1.0</i> | ブラシのアルファとして使用する場合に、エッジの周囲にマスクを追加します。 |
-| <b>非正方形拡張</b> <i>False/True</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+| <b>非正方形拡張</b> <i>False/True</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-001.resources/grungemap-001-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-map-001.resources/grungemap-001-ex.gif" class="modal-image" alt="経年劣化マップ001 – 例1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

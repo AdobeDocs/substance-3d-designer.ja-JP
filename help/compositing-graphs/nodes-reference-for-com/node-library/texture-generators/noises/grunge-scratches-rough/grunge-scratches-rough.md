@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+breadcrumb-title: ""
 description: Scratchesの粗いノードを使用して、大きな摩耗や損傷の効果を生み出すための粗いスクラッチパターンを追加します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Rough
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Scratches粗い
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '258'
 ht-degree: 1%
-
 ---
-
 
 # Scratches粗い
 
@@ -45,12 +43,12 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>残高</b> <i>浮動小数</i> | 暗い値と明るい値のバランスを調整します。 |
-| <b>コントラスト</b> <i>浮動小数</i> | 画像のコントラストを調整します。 |
-| <b>反転</b> <i>ブーリアン</i> | `1-x`操作を使用して画像の出力を反転します。 |
-| <b>非正方形拡張</b> <i>ブーリアン</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 | <b>詳細</b> |  |
-| <b>スクラッチの数量</b> <i>浮動小数</i> | サーフェス上のスクラッチの量を調整します。 |
+| <b>スクラッチの数量</b> <i>フロート</i> | サーフェス上のスクラッチの量を調整します。 |
 | <b>仮想記憶タイリング</b> <i>整数</i> | スクラッチに適用されるタイリングの量を調整します。 |
 | <b>ぼかし（仮想記憶）</b> <i>フロート</i> | 傷のぼかしを調整します。 |
 | <b>スクラッチの幅</b> <i>フロート</i> | スクラッチの幅を調整します。 |
@@ -66,13 +64,14 @@ ht-degree: 1%
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" class="modal-image" alt="粗いScratches – 例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" class="modal-image" alt="粗いScratches – 例2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
