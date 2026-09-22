@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
+source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 11%
 ---
 # TODO
@@ -21,7 +21,7 @@ ht-degree: 11%
   * メタル/メタリック
   * HDR
   * スペキュラ
-  * 高さマップ
+  * Height地図
   * 不透明度
   * フラスタム
   * タンジェントスペース
@@ -35,7 +35,8 @@ ht-degree: 11%
 
 ## 修正
 
-* ノードページの最初のサンプルイメージのリンクを修正(例： 新規ノイズ)
+* `BnW spots 2`ページの破損した画像を修正
+* ノードページの最初のサンプルイメージのリンクを修正(例： 新しいノイズ)
 
 ## 調査する
 
