@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  Adobe Experience Leagueで公開されたMarkdownコンテンツを記述するための構文規則、カスタム拡張、およびgotchas。 このスキルは、このリポジトリ（またはその他のExperience Leagueコンテンツリポジトリ）のhelp/の下に見出し、リンク、画像、表、メモ/アラートブロック、UICONTROL/DNLタグ、ビデオ埋め込み、アンカー、既知のレンダリングの落とし穴などのページを作成または編集する場合に使用します。 出典： https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  Adobe Experience Leagueで公開されたMarkdownコンテンツを記述するための構文規則、カスタム拡張、およびgotchas。 このスキルは、このリポジトリ（またはその他のExperience Leagueコンテンツリポジトリ）のhelp/の下に見出し、リンク、画像、表、メモ/アラートブロック、UICONTROL/DNLタグ、ビデオ埋め込み、アンカー、既知のレンダリングの落とし穴などのページを作成または編集する場合に使用します。 出典： https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'
