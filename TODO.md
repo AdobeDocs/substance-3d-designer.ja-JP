@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
+source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 11%
+source-wordcount: '181'
+ht-degree: 6%
 ---
 # TODO
 
@@ -14,7 +14,6 @@ ht-degree: 11%
 ## 追加
 
 * AdobeDocsでのPython APIドキュメントのエントリポイント
-* 3Dビュー： `refineLevel = 0`を使用すると、高ポリゴンメッシュでディスプレイスメントを使用する際のパフォーマンスが向上します
 * 「ドキュメント」ポップアップページの例
 * 用語集：
   * HDR
@@ -41,3 +40,17 @@ ht-degree: 11%
 ## 調査する
 
 * 補正前と補正後のコンポーネント
+
+## LEARNING HUB
+
+- SBSファイルのダウンロードをブロックする条件（[こちら](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)で確認）
+- 公開したり、ToCに含めたりすることなく、ページをライブテストする方法を理解する
+- サンプル一覧のフィルタリングオプション：マイクロサイト？ （[例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
+- サンプル項目の作成を自動化
+  - ファイルからのメタデータの取り込み(JSON、YAML、...)
+  - インラインサムネール（クリックして拡大）
+  - サンプルアイテムの複雑さマーカー
+- サンプル作成者にSBS検証ツールを提供する
+- 3Dアセットからダウンロード可能なSBSファイルについて言及する（アクティブなサブスクリプションを使用）
+
+用語集のマイクロサイト
