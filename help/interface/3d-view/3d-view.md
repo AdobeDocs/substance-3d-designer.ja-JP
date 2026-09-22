@@ -177,7 +177,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 >
 > **テセレーションについて**
 > 
-> メッシュのテセレーションは、[ディスプレイスメントポップアップ](displacement/displacement.md#tessellation)の&#x200B;**テセレーション率**パラメーターを使用して調整できます。
+> メッシュのテセレーションは、[ディスプレイスメントポップアップ](displacement/displacement.md#tessellation)の&#x200B;**テセレーション率**&#x200B;パラメーターを使用して調整できます。
 > このパラメーターで制御される特定のプロパティは、現在の3Dレンダラーによって異なります。
 > 
 > * **ラスタライザー/GPU パストレーサー:** **レベルの調整**&#x200B;という名前のオブジェクト単位のプロパティ。 `Mesh`オブジェクトを[シーンブラウザー](scene-browser/scene-browser.md)で選択して、プロパティを表示し、直接編集します。
