@@ -89,12 +89,12 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 サブカテゴリ名は、ノード自体から取得します。作成しないでください。
 * 複数のバージョンを持つノードの場合（例：カラー/グレースケール/値または番号バリアント）
 セル 1/セル 2)と同様に、他の段落を参照する最後のdescription段落を追加します
-1行の改行で区切られた相対リンクを持つバージョン。 例： `See also: [Input
-grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`。
+1行の改行で区切られた相対リンクを持つバージョン。 例： &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;。
 
 ### &#x200B;3. オプションのコールアウト
 
-`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`などは、アイコン/説明テーブルの&#x200B;**後**に移動します（移動しません）
+`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`などは、アイコン/説明テーブルの&#x200B;**後**&#x200B;に移動します（移動しません）
 （セル内）。 `write-experience-league-markdown`スキルごとの構文です。
 
 ### &#x200B;4. 入力
