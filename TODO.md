@@ -45,7 +45,7 @@ ht-degree: 6%
 
 - SBSファイルのダウンロードをブロックする条件（[こちら](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)で確認）
 - 公開したり、ToCに含めたりすることなく、ページをライブテストする方法を理解する
-- サンプル一覧のフィルタリングオプション：マイクロサイト？ （[例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
+- サンプル一覧のフィルタリングオプション：マイクロサイト？ （[例](https://experienceleague.adobe.com/ja/tools/campaign-error-codes)）
 - サンプル項目の作成を自動化
   - ファイルからのメタデータの取り込み(JSON、YAML、...)
   - インラインサムネール（クリックして拡大）
