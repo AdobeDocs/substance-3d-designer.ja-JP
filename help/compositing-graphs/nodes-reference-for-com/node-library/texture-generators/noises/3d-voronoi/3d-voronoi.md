@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 3D Voronoiノードを使用すると、3Dワールドポジションに基づいてボロノイパターンを生成し、体積細胞テクスチャを作成できます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Voronoi
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 
 # 3D Voronoi
 
@@ -64,31 +62,31 @@ ht-degree: 0%
 | <b>ミンコフスキー数</b> <i>フロート</i> | ミンコフスキー距離の次数<i>p</i>。 距離グラデーションを象限に分割すると、この数は次のように象限に影響します。<br><br>- pは<i>正確</i> 1：直線<br>- pは<i>低</i> 1より：凹<br>- pは<i>大</i> 1より：凸<br><br>対象の値：<br>- <i>1.0</i>:マンハッタン距離<br>- <i>2.0</i>:ユークリッド距離<i>無限大</i>:チェビシェフ距離<br><br><i>注意</i>：このパラメーターは、<b>距離モード</b>パラメーターが<i>ミンコフスキー</i>に設定されている場合にのみ使用できます。<br> |
 | <b>スタイル</b> <i>整数</i> | 3Dボロノイノイズのデータ</i>をレンダリングするノイズを設定します。このメソッドは、3Dスペースの一連の点に基づいています：<br><br>- <i>F1</i>: 3Dスペースの<i>最も近い点</i>までの距離<br>- <i>F2</i>: 3Dスペースの<i>2番目に近い点</i>までの距離<br>- <i>F2-F1\* f2</i><br>- <i>F1/F2</i><br>- <i>エッジ</i>: 3Dスペースのノイズの各セル</i>の間の<i>エッジ<br>- <i>ランダム色</i>: <i>ランダムなフラット色</i>を3Dスペースのノイズの各セルに割り当てます<i></i><br><i> |
 | <b>エッジThickness</b> <i>フロート</i> | 3Dボロノイノイズのセル間で検出されるエッジのThicknessを調整します。 X、Y、およびZ軸で辺が検出されました。セルの<i>深度</i>によっては、一部の太さが他よりも速く増加する場合があります。<br><br><i>注意</i>：このパラメーターは、<b>Style</b>パラメーターが<i>Edge</i>に設定されている場合にのみ使用できます。 |
-| <b>タイリングを有効にする</b> <i>ブーリアン</i> | 3Dボロノイノイズを調整して、結果のパターンがX、Y、Z軸に<i>繰り返す</i>ようにします。 |
+| <b>タイリングを有効にする</b> <i>ブール値</i> | 3Dボロノイノイズを調整して、結果のパターンがX、Y、Z軸に<i>繰り返す</i>ようにします。 |
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" class="modal-image" alt="3D Voronoi – 例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" class="modal-image" alt="3D Voronoi – 例2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" class="modal-image" alt="3D Voronoi – 例3" />
         </td>
     </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" class="modal-image" alt="3Dボロノイ – 例4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" class="modal-image" alt="3Dボロノイ – 例5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" class="modal-image" alt="3Dボロノイ – 例6" />
         </td>
     </tr>
 </table>

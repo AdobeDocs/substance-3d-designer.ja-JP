@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Designerで行ったすべての編集内容を含む3Dシーンを書き出すには、「 3Dシーンを表示」メニューの「シーンを書き出し」アクションを使用します。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: シーンの書き出し
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
-
+source-wordcount: '366'
+ht-degree: 0%
 ---
-
 
 # シーンの書き出し
 
@@ -31,26 +29,6 @@ USD形式への書き出しの場合、シーンのコンテンツは[Scene brow
 > Designerによってシーンに追加されたすべてのアイテムは、書き出されたシーンに含まれます。デフォルトカメラ、デフォルトエンバイロメント、すべてのマテリアルは、その他のライトをコピーします。
 
 ![シーン書き出しアクション](exporting-scenes.resources/exportActions.png "シーン書き出しアクション"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## シーンを書き出し
-
-</td>
-<td style="border: 0;" valign="top">
-
-### シーンをレイヤーとして書き出し
-
-</td>
-<td style="border: 0;" valign="top">
-
-### テクスチャ
-
-</td>
-</tr>
-</table>
 
 ## シーンを書き出し
 

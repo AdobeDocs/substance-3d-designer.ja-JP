@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
-breadcrumb-title: ''
-description: 「3Dシンプレックス」ノイズノードを使用して、滑らかで自然なボリュームノイズを作成するための3Dシンプレックステクスチャパターンを作成します。
+breadcrumb-title: ""
+description: '[3Dシンプレックスノイズ]ノードを使用して、滑らかで自然に見えるボリュームテクスチャを作成するためのシンプレックスノイズパターンを3D生成します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3Dシンプレックスノイズ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 5%
-
 ---
-
 
 # 3Dシンプレックスノイズ
 
@@ -33,10 +31,10 @@ ht-degree: 5%
 
 ## 説明
 
-ベイクされたPosition Mapが入力スロットに接続されると、プロシージャルノイズが発生します。 これは、GPU エンジンでのみ使用します。\
-[3Dパーリンノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)と似ていますが、パフォーマンスと速度が重要な場合は、より速く、簡単になります。
+ベイクした位置マップが入力スロットに接続されると、手続き型ノイズが発生します。 これは、GPUエンジンでのみ使用します。\
+[3Dパーリンノイズ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)と似ていますが、パフォーマンスと速度が重要な場合はより速く、簡単になります。
 
-このノイズは、実際のベイク済みマップではなく、[Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers)を入力としてテストできます（下図の例を参照）。
+このノイズは、実際のノイズではなく、[Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers)を入力としてテストできます（下図の例を参照）。
 
 </td>
 </tr>
@@ -53,10 +51,12 @@ ht-degree: 5%
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-simplex-noise.resources/3d-simplex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-simplex-noise.resources/3d-simplex.gif" class="modal-image" alt="3Dシンプレックスノイズ – 例1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

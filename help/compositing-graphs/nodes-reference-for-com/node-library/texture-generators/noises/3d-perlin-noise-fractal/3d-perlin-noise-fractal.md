@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 3Dパーリンノイズフラクタルノードを使用して、3D空間でフラクタルパーリンノイズパターンを生成し、詳細なボリュームテクスチャを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3Dパーリンノイズフラクタル
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 
 # 3Dパーリンノイズフラクタル
 
@@ -43,7 +41,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> このノイズは、<i>GPU エンジンのみ</i> （例： <b>Direct3D</b>または<b>OpenGL</b>）で使用します。 <b>ツール/エンジンの切り替え…</b>に移動するか、<b>F9</b>キーを押して、目的のエンジンを選択します。
+> このノイズは、<i>GPUエンジンのみ</i> （<b>Direct3D</b>または<b>OpenGL</b>）で使用することを目的としています。 <b>ツール/エンジンの切り替え…</b>に移動するか、<b>F9</b>キーを押して、目的のエンジンを選択します。
 
 <a name="parameters"></a>
 
@@ -51,11 +49,11 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>反転</b> <i>ブーリアン</i> | 出力イメージを反転します。 |
-| <b>スケール</b> <i>浮動小数</i> | フラクタル3Dパーリンノイズの尺度をコントロールします。 |
-| <b>サイズ</b> <i>浮動小数3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3Dパーリンノイズのサイズを制御します。 値が均一でないと、<i>伸縮または収縮</i>効果が発生します。 |
-| <b>オフセット</b> <i>浮動小数3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3Dパーリンノイズの<i>position</i>にオフセットを適用します。 |
-| <b>ゆがみの適用度</b> <i>浮動小数</i> | フラクタル3Dパーリンノイズに適用される<i>ワープ効果</i>の強さを制御します。 |
+| <b>反転</b> <i>ブール値</i> | 出力イメージを反転します。 |
+| <b>スケール</b> <i>フロート</i> | フラクタル3Dパーリンノイズの尺度をコントロールします。 |
+| <b>サイズ</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3Dパーリンノイズのサイズを制御します。 値が均一でないと、<i>伸縮</i>効果が発生します。 |
+| <b>オフセット</b> <i>浮動小数点3</i> | <b>X</b>、<b>Y</b>および<b>Z</b>軸のフラクタル3Dパーリンノイズの<i>position</i>にオフセットを適用します。 |
+| <b>ゆがみの適用度</b> <i>フロート</i> | フラクタル3Dパーリンノイズに適用される<i>ワープ効果</i>の強さを制御します。 |
 | <b>ゆがみスケール乗数</b> <i>フロート</i> | <b>ゆがみの強さ</b>で制御されるワープ効果で使用される<i>変形パターン</i>のスケールを制御します。 |
 | <b>最小レベル</b> <i>整数</i> | フラクタルパターンで使用される繰り返しの最小<i>レベル</i>です。 最小値/最大値の範囲が広いほど、より多くの周波数範囲で変化が生じる<i>豊富なパターン</i>になります。 |
 | <b>最大レベル</b> <i>整数</i> | フラクタルパターンで使用される繰り返しの最大<i>レベル</i>です。 最小値/最大値の範囲が広いほど、より多くの周波数範囲で変化が生じる<i>豊富なパターン</i>になります。 |
@@ -69,16 +67,16 @@ ht-degree: 0%
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" class="modal-image" alt="3Dパーリンノイズフラクタル – 例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" class="modal-image" alt="3Dパーリンノイズフラクタル – 例2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" class="modal-image" alt="3Dパーリンノイズフラクタル – 例3" />
         </td>
     </tr>
 </table>

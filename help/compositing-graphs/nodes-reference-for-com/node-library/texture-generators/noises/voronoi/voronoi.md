@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Voronoiノードを使用して、細胞のテクスチャや有機的なマテリアルエフェクトを作成するためのVoronoiパターンを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Voronoi
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: ボロノイ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '628'
 ht-degree: 0%
-
 ---
-
 
 # ボロノイ
 
@@ -66,29 +64,31 @@ ht-degree: 0%
 | <b>エッジThickness</b> <i>フロート</i> | ボロノイノイズのセル間で検出されるエッジのThicknessを調整します。 X、Y、およびZ軸で辺が検出されました。セルの&#x200B;*深度*&#x200B;によっては、一部の太さが他よりも速く増加する場合があります。<br><br>*注意*：このパラメーターは、**Style**&#x200B;パラメーターが&#x200B;*Edge*&#x200B;に設定されている場合にのみ使用できます。 |
 | <b>ランダムカラーシードモード</b> <i>整数</i> | セルごとのカラー選択のランダムシードを&#x200B;*取得*&#x200B;するメソッドを設定します： <br><br>- *グローバルランダムシード*:ノードから継承&#x200B;*シードを使用します<br>-*&#x200B;手動シード&#x200B;*:*&#x200B;個別&#x200B;*シードを使用します<br><br>*&#x200B;注意&#x200B;*：このパラメーターは、**Style**&#x200B;パラメーターが*&#x200B;ランダムカラー&#x200B;*に設定されている場合にのみ使用できます。* |
 | <b>ランダムカラーシード</b> <i>整数</i> | セルごとのカラー選択に使用する個別のランダムシードです。<br><br>*注意*：このパラメーターは、**Style**&#x200B;パラメーターが&#x200B;*ランダムカラー*&#x200B;に設定されていて、**ランダムカラーシードモード**&#x200B;パラメーターが&#x200B;***手動シード***&#x200B;に設定されている場合にのみ使用できます。 |
-| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
+| <b>非正方形拡張</b> <i>ブーリアン</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant2.jpg" class="modal-image" alt="Voronoi – 例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant3.jpg" class="modal-image" alt="Voronoi – 例2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant5.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant5.jpg" class="modal-image" alt="Voronoi – 例3" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant.jpg" class="modal-image" alt="ボロノイ – 例4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant4.jpg" class="modal-image" alt="ボロノイ – 例5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant6.jpg" class="modal-image" alt="ボロノイ – 例6" />
         </td>
     </tr>
 </table>

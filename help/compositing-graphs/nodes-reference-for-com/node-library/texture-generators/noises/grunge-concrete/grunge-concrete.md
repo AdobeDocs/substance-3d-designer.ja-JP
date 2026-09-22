@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: '[経年劣化コンクリート]ノードを使用して、風化した石積みテクスチャを作成するためのコンクリートのような経年劣化パターンを作成します。'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Concrete
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 経年劣化コンクリート
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 1%
-
 ---
-
 
 # 経年劣化コンクリート
 
@@ -52,17 +50,19 @@ ht-degree: 1%
 | <b>詳細</b> |  |
 | <b>ベースのノイズ</b> <i>フロート</i> | ベーステクスチャのノイズを調整します。 |
 | <b>Dirtの斑点の不透明度</b> <i>フロート</i> | Dirt部分の不透明度を調整します。 |
-| <b>Dirtを反転</b> <i>ブーリアン</i> | Dirtの斑点の影響を反転します。 |
-| <b>Scratchesの不透明度</b> <i>浮動小数</i> | スクラッチの不透明度を調整します。 |
-| <b>シャープ</b> <i>浮動小数</i> | 画像に適用されるシャープ効果の強さを調整します。 |
-| <b>変動の強さ（大）</b> <i>浮動小数</i> | ベーステクスチャに適用される大きなスケール（低周波数）のバリエーションを調整します。 |
+| <b>Dirtを反転</b> <i>ブール値</i> | Dirtの斑点の影響を反転します。 |
+| <b>Scratchesの不透明度</b> <i>フロート</i> | スクラッチの不透明度を調整します。 |
+| <b>シャープ</b> <i>フロート</i> | 画像に適用されるシャープ効果の強さを調整します。 |
+| <b>変動の強さ（大）</b> <i>フロート</i> | ベーステクスチャに適用される大きなスケール（低周波数）のバリエーションを調整します。 |
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" class="modal-image" alt="経年劣化コンクリート – 例1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

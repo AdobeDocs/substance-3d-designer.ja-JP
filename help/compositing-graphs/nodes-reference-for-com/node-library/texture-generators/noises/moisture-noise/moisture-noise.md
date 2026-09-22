@@ -1,43 +1,41 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
-breadcrumb-title: ''
-description: 湿潤ノイズノードを使用して、湿潤面の効果を生み出すための湿潤パターンと凝縮パターンを作成します。
+breadcrumb-title: ""
+description: 湿潤ノイズノードを使用して、湿潤表面効果を作成するための湿気と凝縮パターンを生成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 水分ノイズ1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+title: うるおいノイズ1
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '365'
 ht-degree: 1%
-
 ---
 
-
-# 水分ノイズ1
+# うるおいノイズ1
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![水分ノイズ 1 – アイコン](moisture-noise.resources/moisture_noise_1.png "水分ノイズ 1 – アイコン"){width="200px"}
+![湿気ノイズ1 – アイコン](moisture-noise.resources/moisture_noise_1.png "湿気ノイズ1 – アイコン"){width="200px"}
 
-<b>イン：</b> テクスチャジェネレーター> ノイズ
+<b>In:</b>テクスチャジェネレーター>ノイズ
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-深みのあるスポンジのような<b>湿気</b>ノイズのバリエーションです。
+豊かでスポンジのような<b>湿気</b>のノイズのバリエーションです。
 
-様々な硬さとサイズの円盤で、ベースグレーから始まり、以下のカラーに分散され、追加または削除されます。
+硬さとサイズが様々に異なり、ベースグレーから始まり、以下のカラーに分散され、追加または削除されるディスク。
 
-参照： [水分ノイズ2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
+関連項目： [湿気ノイズ2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
 
 </td>
 </tr>
@@ -49,7 +47,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして指定します。 |
+| <b>出力</b> <i>グレースケール</i> | 生成されるノイズをグレースケールビットマップとして表します。 |
 
 <a name="parameters"></a>
 
@@ -57,10 +55,10 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>スケール</b> <i>整数</i> | ノイズタイルの作成に使用するグリッドの区画。    値を大きくすると、より多くのタイルが描画され、ノイズが濃くなります。 |
-| <b>障害</b> <i>浮動小数</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
-| <b>速度の乱れ</b> <i>浮動小数</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
-| <b>異方性の乱れ</b> <i>浮動小数</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの方向の範囲を制御します。値を大きくすると、より狭く、より明確な方向になります。    方向は、<b>Disorder異方性角度</b>パラメーターで制御されます。 |
+| <b>スケール</b> <i>整数</i> | ノイズタイルの生成に使用するグリッドの区画。    値を大きくすると、描かれるタイルの数が増え、ノイズが高くなります。 |
+| <b>障害</b> <i>フロート</i> | ノイズの成分を置き換えます。    これを使用してノイズをアニメートできます。 |
+| <b>速度の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの間隔を調整します。    これを使用して、ノイズをアニメートするときのディスプレイスメント速度をコントロールできます。 |
+| <b>異方性の乱れ</b> <i>フロート</i> | <b>Disorder</b>パラメーターによって適用されるディスプレイスメントの方向の範囲を制御します。値を大きくすると、より狭く、より明確な方向になります。    方向は、<b>Disorder異方性角度</b>パラメーターで制御されます。 |
 | <b>anisotropy angleの乱れ</b> <i>フロート</i> | <b>Disorder 異方性</b>パラメーターが0ではない場合に、<b>Disorder</b>パラメーターによって適用されるディスプレイスメントの向きを制御します。 |
 | <b>パターンサイズ</b> <i>浮動小数点2</i> | スキャッタパターンのサイズの乗数。1.0は元のスキャタリングサイズです。 |
 | <b>パターンの角度</b> <i>フロート</i> | 散布パターンの方向を指定する角度です。指定する角度はパターンが水平から右に向かって回転する回数です。 |
@@ -71,32 +69,23 @@ ht-degree: 1%
 
 ## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![湿気ノイズ1 – 例1](moisture-noise.resources/moisture_noise_1_1.png "湿気ノイズ1 – 例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![湿気ノイズ1 – 例2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "湿気ノイズ1 – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![湿気ノイズ1 – 例3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "湿気ノイズ1 – 例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![湿気ノイズ1 – 例4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "湿気ノイズ1 – 例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/moisture_noise_1_1.png" class="modal-image" alt="水分ノイズ1 – 例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="水分ノイズ1 – 例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif" class="modal-image" alt="水分ノイズ1 – 例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="水分ノイズ1 – 例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

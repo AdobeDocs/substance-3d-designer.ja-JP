@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: ScratchesのFineノードを使用して、微細なスクラッチパターンを作成し、磨耗やサーフェスのディテールを微調整します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Fine
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Scratches罰金
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '138'
 ht-degree: 2%
-
 ---
-
 
 # Scratches罰金
 
@@ -45,24 +43,25 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>残高</b> <i>浮動小数</i> | 暗い値と明るい値のバランスを調整します。 |
-| <b>コントラスト</b> <i>浮動小数</i> | 画像のコントラストを調整します。 |
-| <b>反転</b> <i>ブーリアン</i> | `1-x`操作を使用して画像の出力を反転します。 |
-| <b>非正方形拡張</b> <i>ブーリアン</i> | カボチャと伸縮の補正を非正方形の比率で有効にします。 |
+| <b>残高</b> <i>フロート</i> | 暗い値と明るい値のバランスを調整します。 |
+| <b>コントラスト</b> <i>フロート</i> | 画像のコントラストを調整します。 |
+| <b>反転</b> <i>ブール値</i> | `1-x`操作を使用して画像の出力を反転します。 |
+| <b>非正方形拡張</b> <i>ブール値</i> | スカッシュとストレッチを非正方形の比率で補正できます。 |
 | <b>詳細</b> |  |
-| <b>Scratches金額</b> <i>浮動小数</i> | 表面の細かい傷の量を調整します。 |
-| <b>シャープの適用度</b> <i>浮動小数</i> | グローバルなシャープ効果の適用度を調整します。 |
+| <b>Scratches金額</b> <i>フロート</i> | 表面の細かい傷の量を調整します。 |
+| <b>シャープの適用度</b> <i>フロート</i> | グローバルなシャープ効果の適用度を調整します。 |
 | <b>スクラッチ値のバイアス</b> <i>フロート</i> | 個々のスクラッチに割り当てられた輝度値のバランスを調整します。 |
 
 ## 例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" class="modal-image" alt="Scratchesの問題 – 例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" class="modal-image" alt="Scratchesの問題 – 例2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

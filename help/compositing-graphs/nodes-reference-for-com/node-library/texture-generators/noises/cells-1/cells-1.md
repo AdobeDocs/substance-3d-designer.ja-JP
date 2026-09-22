@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 「セル 1」ノードを使用して、有機的および生物学的なテクスチャ効果を生み出すための基本的なセルラーパターンを作成します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: セル 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '360'
 ht-degree: 1%
-
 ---
-
 
 # セル 1
 
@@ -73,32 +71,23 @@ ht-degree: 1%
 
 ## 例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![セル 1 – 例1](cells-1.resources/cells_1_1.png "セル 1 – 例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![セル 1 – 例2](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif "セル 1 – 例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![セル 1 – 例3](cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif "セル 1 – 例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![セル 1 – 例4](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif "セル 1 – 例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-1.resources/cells_1_1.png" class="modal-image" alt="セル 1 – 例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif" class="modal-image" alt="セル 1 – 例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif" class="modal-image" alt="セル 1 – 例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="セル 1 – 例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
