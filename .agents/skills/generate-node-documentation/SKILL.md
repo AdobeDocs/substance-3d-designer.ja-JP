@@ -1,13 +1,12 @@
 ---
 name: generate-node-documentation
-description: ""
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+description: |
+  help/compositing-nodes/nodes-reference-for-com/node-library/で使用されている標準グラフと一致するようにSubstance 3D Designerのノード参照ページを作成する方法。 このスキルは、そのノードライブラリツリーの下のノードページ（ノードの説明、入力、出力、パラメーター、または例）や、同等のfunction-node / atomic-nodeリファレンスページを作成または編集する場合に使用します。 フォルダー/目次規則、最少前付、アイコン/説明テーブル、アンカー付き入力/出力/パラメータテーブル、およびサンプルギャラリーを取り上げます。 Adobe Experience Leagueマークダウンの一般的なルール（コールアウト、リンク、UICONTROL/DNL、イメージ）では、write-experience-league-markdownスキルを使用します。このスキルでは、ノードページ構造のみを対象とします。 正規の例： help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md
+source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
-
+source-wordcount: '976'
+ht-degree: 3%
 ---
-
 
 # ノードのドキュメントの生成
 
@@ -32,13 +31,13 @@ lint gotchas) `write-experience-league-markdown`のスキルに従ってくだ�
   共有`help/assets/`フォルダー – 従来のパターンが段階的に廃止されています；新規および
   編集されたページは独自の`.resources`フォルダーを使用します。
 * 各ページには、`help/guide/TOC.md`に対応するエントリがあります。 エレメントを追加または移動する場合
-`TOC.md`とフォルダーレイアウトを一緒に更新してください（CLAUDE.mdのフォルダー/目次を参照）
+`TOC.md`とフォルダーレイアウトを一緒に更新します（AGENTS.mdのフォルダー/目次を参照）
 規約)。
 
 ## 前付
 
 ノードページは&#x200B;**minimal**&#x200B;ブロックを使用します – `title`とブレッドクラム形式のみ
-`description`. (これは、11フィールドのレガシーブロックCLAUDE.mdドキュメントとは異なります。
+`description`. (これは、11フィールドのレガシーブロックAGENTS.mdドキュメントとは異なります。
 通常のコンテンツページ)
 
 ```yaml
@@ -88,6 +87,10 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 * リードイン補助では、文の先頭に`<i>Note:</i>` / `<i>Tip:</i>`を使用します。
 * `In:`行の`>`に`&gt;`を使用します（これはHTML内にあります）。 カテゴリを選択/
 サブカテゴリ名は、ノード自体から取得します。作成しないでください。
+* 複数のバージョンを持つノードの場合（例：カラー/グレースケール/値または番号バリアント）
+セル 1/セル 2)と同様に、他の段落を参照する最後のdescription段落を追加します
+1行の改行で区切られた相対リンクを持つバージョン。 例： &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;。
 
 ### &#x200B;3. オプションのコールアウト
 
@@ -149,27 +152,35 @@ section — 1つは作成しないでください)。
 
 ### &#x200B;7. 例
 
-サンプルの画像/GIFがある場合にのみ含めます。 HTMLギャラリーテーブルを使用する。 `<td>`
-画像あたり（オプションのキャプション付き）。3枚の画像を経て、新しい`<tr>`に折り返します。 メディアパス
-ページの`.resources`フォルダーをポイントします。
+サンプルの画像/GIFがある場合にのみ含めます。 フチなし、固定レイアウトのHTMLを使用する
+ギャラリーテーブル。1つの画像につき1つの`<td>`。3つの画像の後に新しい`<tr>`に折り返します。 メディアパス
+ページの`.resources`フォルダーをポイントします。 HTML `<img>`要素を使用する間隔
+例えば`class="modal-image"`を使用すると、公開された画像が標準で開きます
+画像ビューア。 ノードと例を識別する意味のある`alt`テキストを指定してください
+数値。 このギャラリーでは、マークダウン画像の構文を使用しないでください。
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-部分的に入力された最終行の末尾のセルを空のままにします(`<td …></td>`)
-折り返し ソースにキャプションがない場合は、キャプションを省略します。
+テーブルの`style="table-layout:fixed"`と `style="border: 0;"`
+属性を正確に示しています。境界線、余白、背景スタイルを追加しないでください。
+最後の行の一部が塗りつぶされている場合、その行の後続セルは空白のままにする
+(`<td style="border: 0;"></td>`)で、折り返しではありません。 既存の画像を使用
+順序とファイル名 ページにキャプションがある場合は、キャプションを`alt`テキストとして保存してください
+表示されているキャプションのマークアップを追加する必要があります。 ページにセクションがない場合は、セクション全体を省略します。
+メディアの例
 
 ## 正規型の値
 

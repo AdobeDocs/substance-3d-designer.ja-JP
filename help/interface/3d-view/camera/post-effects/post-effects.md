@@ -1,57 +1,30 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
-description: 3Dビューカメラに後処理効果を適用して、マテリアルのプレビューと表示を強化します。
+breadcrumb-title: ""
+description: 3Dビューカメラに後処理エフェクトを適用して、マテリアルのプレビューと表示を強化します。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: ポストエフェクト
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '726'
 ht-degree: 4%
-
 ---
-
 
 # ポストエフェクト
 
 ![ポストエフェクト](post-effects.resources/postEffects.png "ポストエフェクト"){zoomable="yes"}
 
-カメラのプロパティで、ポストエフェクトを有効にしてレンダリングを強化したり、特定のマテリアルプロパティを確認したりできます。
+カメラプロパティでは、ポストエフェクトがレンダリングを強化したり、特定のマテリアルプロパティを確認したりできます。
 
 これらの効果は社内で開発されており、ラスタライザーおよびGPU パストレーサー [レンダラー](../../../../interface/3d-view/3d-renderers/3d-renderers.md)でのみ使用できます。
 
-[3Dシーンリソース](../../../../resources/3d-scene-resource/3d-scene-resource.md)または[シーン状態ファイル](../../../../working-with-3d-scenes/working-with-3d-scenes.md)の保存時に有効にされたポストエフェクトは、シーン状態の一部として保存されます。
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## トーンマッピング
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ブルーム
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 被写界深度
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+[3D シーンリソース](../../../../resources/3d-scene-resource/3d-scene-resource.md)または[シーンステートファイル](../../../../working-with-3d-scenes/working-with-3d-scenes.md)の保存時に有効にした投稿エフェクトは、シーンステートの一部として保存されます。
 
 ## トーンマッピング
 
@@ -282,7 +255,7 @@ ht-degree: 4%
 この効果は、シーンの照明、カメラ露光量、emissiveマテリアルの影響を受けます。
 
 +++しきい値
-この値を超えるとブルームが表示される輝度。
+この値を超えるとブルームが表示されるルミナンス値。
 
 *左： 1.0 /右： 4.0*
 
@@ -520,9 +493,9 @@ ht-degree: 4%
 +++
 
 +++口径食
-シーン内で猫の目の効果を有効にします。斜めに入る光が円盤ではなく不規則な楕円に入り、ゆがみを引き起こす様子をシミュレートします。
+シーンに猫の目効果を有効にします。斜めに入る光が円盤ではなく不規則な楕円に入り、ゆがみを引き起こす様子をシミュレートします。
 
-この効果は絞り値が大きいほど、つまりF-Stop値が小さいほど顕著になります。
+この効果は、アパーチャが高い場合、つまりF-Stop値が低い場合に顕著になります。
 
 *左： True /右： False*
 

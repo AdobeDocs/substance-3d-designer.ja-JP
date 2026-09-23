@@ -1,47 +1,45 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
-description: ディスプレイスメントポップアップを使用すると、3Dシーンのメッシュに適用されたディスプレイスメントとテッセレーションを簡単に調整できます。
+breadcrumb-title: ""
+description: ディスプレイスメントポップアップを使用すると、3D シーン内のメッシュに適用されるディスプレイスメントとテセレーションを簡単に調整できます。
 helpx_creative_field: ""
 helpx_description: ""
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3Dビュー – ディスプレイスメントポップアップ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+title: 3D ビュー - ディスプレイスメントポップアップ
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # ディスプレイスメントポップアップ
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            <p>3Dビューツールバーで使用できるディスプレイスメントポップアップでは、メッシュのディスプレイスメントとテッセレーションを直接制御できます。</p>
+            <p>3D ビューツールバーで使用できるディスプレイスメントポップアップでは、メッシュのディスプレイスメントとテセレーションを直接制御できます。</p>
             <p>次の3つのパラメーターがあります。<ul>
                 <li>高さスケール</li>
                 <li>高さレベル</li>
                 <li>テッセレーション</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3Dビューのディスプレイスメントポップアップ" />
+            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D ビューのディスプレイスメントポップアップ" />
         </td>
     </tr>
 </table>
 
 ## 高さスケール
 
-メッシュ頂点の法線に沿ったディスプレイスメントの最大距離をシーン単位で指定します。<br>
-Heightマップの値1.0の移動距離です。
+頂点の法線に沿ったディスプレイスメントの最大距離（シーン単位）。<br>
+高さマップ内の値1.0の移動距離です。
 
-Substanceグラフがマテリアルに接続されており、そのグラフに[出力ノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)が含まれている場合
-<code>heightScale</code> 使用方法を選択した場合、ポップアップのHeightスケールパラメーターがそのマテリアルに対して&#x200B;*無効*になります
+Substance グラフがマテリアルに接続されており、そのグラフに[出力ノード](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)が含まれている場合
+<code>heightScale</code> 使用方法を選択した場合、ポップアップのHeightスケールパラメーターは、そのマテリアルに対して&#x200B;*無効*になります
 現在グラフによって動かされているからです。
 
 >[!TIP]
@@ -51,29 +49,36 @@ Substanceグラフがマテリアルに接続されており、そのグラフ�
 
 ## 高さレベル
 
-Heightの&#x200B;*中間点*として使用されるHeightマップのグレースケール値。
+Heightの&#x200B;*中間点*として使用される高さマップのグレースケール値。
 つまり、0.0の標高として使用されるしきい値です。
 
-このしきい値を下回ると頂点が後方にディスプレイスされ、しきい値を上回ると
-頂点を前方にディスプレイスする。
+しきい値を下回ると頂点が逆方向に移動し、しきい値を上回ると
+頂点が前方に移動している。
 
 ## テッセレーション
 
-テッセレーションでは、セグメントに頂点を追加して個々のメッシュ面を分割してから接続します
-1つの面が&#x200B;**6**&#x200B;になるように、すべての頂点の中心に新しい頂点が作成されます。
+テセレーションでは、個々のメッシュ面を細かく分割し、それぞれの線分に頂点を加えてから連結します
+1つの頂点が&#x200B;**6**&#x200B;になるように、中央の新しい頂点へのすべての面を配置します。
 
-このパラメータは、面を再帰的に再分割する回数を定義します。
+このパラメーターは、面を再帰的に再分割する回数を定義します。
 
-テッセレーションパラメーターの&#x200B;*スコープ*&#x200B;は、現在使用されている&#x200B;*レンダラー*によって異なります。適用できます
+テセレーションパラメーターの&#x200B;*scope*&#x200B;は、現在使用されている&#x200B;*renderer*によって異なります。適用できます
 メッシュ単位またはマテリアル単位。
 
 ### メッシュ単位
 
-[ラスタライザー](../3d-renderers/3d-renderers.md#rasterizer)または[GPU パストレーサー](../3d-renderers/3d-renderers.md#gpu-pathtracer)レンダラーを使用する場合、シーン内の各メッシュオブジェクトには&#x200B;*個の要素があります*
+[ラスタライザ](../3d-renderers/3d-renderers.md#rasterizer)または[GPU パストレーサー](../3d-renderers/3d-renderers.md#gpu-pathtracer)のレンダラーを使用する場合、シーン内の各メッシュオブジェクトには&#x200B;*個の要素が存在します*
 サブディビジョン値
 
 サブディビジョンは状況に応じて適用されます。*不均一なHeight値*を持つサーフェスのみが最適化されるように、または
 *非フラットHeightマップ*&#x200B;は、パラメーター値に関係なく細分割されます。
+
+>[!TIP]
+>
+>テセレーション手法には、実際に発生するテセレーションに関係なく実行される準備手順が含まれます。 （例： `Tessellation factor = 1`）
+>高ポリゴンメッシュの場合、この手順は時間がかかることがあり、ディスプレイスメントを使用する際にパフォーマンスに大きな影響を与えます。
+>
+>テセレーションが不要な場合は、[シーンブラウザー](../scene-browser/scene-browser.md#scene-tree)に一覧表示された`Mesh`オブジェクトのプロパティで&#x200B;**Refine level**&#x200B;パラメーターを`0`に設定することで、この手法を完全に無効にできます。
 
 ### マテリアル単位
 

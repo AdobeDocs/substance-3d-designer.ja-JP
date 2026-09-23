@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/3d-view-issues.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: レンダリング、表示、パフォーマンスの問題など、Substance 3D Designerの3Dビューに関する問題のトラブルシューティング
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3Dビューの問題
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1723'
 ht-degree: 0%
-
 ---
-
 
 # 3Dビューの問題
 
@@ -24,11 +22,11 @@ ht-degree: 0%
 
 ## 低パフォーマンス：ディスクリートGPUは使用されていません
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
 Substance 3D Designerは、システムの&#x200B;*discrete* GPU (<b>dGPU</b>)を使用せず、*統合* GPU (<b>iGPU</b>)を使用します。 これにより、グラフや[3Dビュー](../../interface/3d-view/3d-view.md)をレンダリングする際のパフォーマンスが低下します。
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
 グラフィックスを切り替え可能なシステムでは、GPUの製造元によって&#x200B;*dGPU*&#x200B;を強制的に実行できます。これは、専用ソフトウェアの&#x200B;*特定のアプリケーション*&#x200B;に使用されます。
 
@@ -45,13 +43,24 @@ Substance 3D Designerは、システムの&#x200B;*discrete* GPU (<b>dGPU</b>)�
 >
 > 統合GPU (iGPU)は&#x200B;*サポートされていません*。 詳しくは、[必要システム構成](../../getting-started/system-requirements/system-requirements.md)ページをご覧ください。
 
+## 低パフォーマンス：高ポリゴンメッシュでのディスプレイスメント
+
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
+
+新しい3Dレンダラー（ラスタライザーとGPU パストレーサー）を使用すると、高ポリゴンメッシュでディスプレイスメントを使用するときに、3Dビューのパフォーマンスが低下することがあります。
+
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
+
+3Dビューで使用可能なテセレーション手法では、ディスプレイスメントを使用する際にメッシュをさらに細かく分割して表示するため、実際に適用されるテセレーションに関係なく実行される準備手順が必要になります。
+このセクションの[ヒント](../../interface/3d-view/displacement/displacement.md#per-mesh)では、シーン内の`Mesh`オブジェクトごとのテセレーションプロセスを無効にすることで、パフォーマンスの問題に対処しています。
+
 ## 3Dオブジェクトはフラットです
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
-あるセッションで詳細なボリュームを特徴とする3Dオブジェクトは、次のセッションではフラットになりますが、グラフは変更されておらず、高さマップは同じデータを保持します。
+あるセッションで詳細なボリュームを特徴とする3Dオブジェクトは、次のセッションではフラットになりますが、グラフは変更されておらず、Heightマップには同じデータが含まれています。
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
 高さマップに応じた3D物体の変形効果を、**テセレーションディスプレイスメント**&#x200B;と呼ばれる手法を用いて行う。 この方法には2つの手順があります。
 
@@ -61,7 +70,7 @@ Substance 3D Designerは、システムの&#x200B;*discrete* GPU (<b>dGPU</b>)�
 ディスプレイスメント&#x200B;*direction*&#x200B;は既知です：法線ベクトルの方向です。\
 頂点の移動に使用されるディスプレイスメント&#x200B;*distance*&#x200B;は、次のように計算されます： `Distance = Height scale * Height map`。 グラフ内の高さマップが&#x200B;*変更されていない*&#x200B;ため、**Heightスケール**&#x200B;のままになります。
 
-既定のHeightスケール値は&#x200B;**1.0**&#x200B;です。3D ビューに表示されるメッシュと適用される高さマップによっては、ディスプレイスメント効果が&#x200B;*目立たない*&#x200B;可能性があります。
+既定のHeightスケール値は&#x200B;**1.0**&#x200B;です。これは、3Dビューに表示されるメッシュと、それに適用されるHeightマップによっては、*目立たない*&#x200B;ディスプレイスメント効果になる場合があります。
 
 この値は、次の方法で変更できます。
 
@@ -69,17 +78,19 @@ Substance 3D Designerは、システムの&#x200B;*discrete* GPU (<b>dGPU</b>)�
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 左側のツールバーの&#x200B;**ディスプレイスメントポップアップ**&#x200B;を使用します。<br>詳細については、[専用ページ](../../interface/3d-view/displacement/displacement.md)を参照してください。 | [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)ノードを作成し、そのプロパティで`heightScale`の使用法を設定します。<br>この出力に値を指定します。例えば、[定数浮動小数ノード](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats)を使用して値を指定し、*3D ビューにグラフを再適用*&#x200B;します。 |
 
+{style="table-layout:fixed"}
+
 >[!TIP]
 >
 > この手法を使用すると、グラフごとに&#x200B;*カスタムのHeightスケール値*&#x200B;を設定し、そのグラフのマテリアルに合わせて調整できます。
 
 ## 3Dビューが完全に黒くなる
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
 バージョン15.0.0以降では、3Dビューのビューポートはフラットブラックです。 テキストオーバーレイ（サンプルやレンダリング時間など）が表示されるが、3D シーンが表示されない。
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
 バージョン15.1以降
 
@@ -113,11 +124,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最�
 
 ## 「レンダラーがサポートされていません」というメッセージが表示される
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
 バージョン15.0.0以降では、新しい3Dレンダラー（ラスタライザー、GPUパストレーサー）を使用すると、ビューポートの右下隅に「レンダラーはサポートされていません」というメッセージが表示されます。 3Dシーンは表示されません。
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最新のテクノロジーを使用しているため古いGPUではサポートされていない新しい社内の[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)を導入しました。
 
@@ -144,7 +155,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最�
 
 ## 3Dオブジェクトは完全に滑らかに見えます
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
 **Height** [出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)に送信されたデータを処理すると、オブジェクトにはボリュームがあるように見えますが、シェーディングでHeight情報が無視されたかのように、*全体的に滑らかに*&#x200B;見えます。
 
@@ -152,7 +163,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)では、最�
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
 Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)に接続されていることを確認してください。
 
@@ -171,7 +182,7 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 
 ## レンダリングがぼやけている/ピクセル化されている
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
 システムが&#x200B;*画面の拡大/縮小*&#x200B;を使用している場合、レンダリングされたイメージがぼやけたり、ピクセル化されたように見えます。
 
@@ -179,11 +190,11 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
 初期設定では、Designerは&#x200B;*拡大/縮小*&#x200B;の表示解像度を使用して[3Dビュー](../../interface/3d-view/3d-view.md)のレンダリング解像度を定義します。 これを変更して、鮮明なレンダリングに&#x200B;*ネイティブ*&#x200B;のディスプレイ解像度を使用できます。
 
-**編集**&#x200B;メニューを開き、**環境設定…**&#x200B;オプションを選択します。 [環境設定](../../interface/preferences-window/preferences-window.md)ウィンドウで、**3D ビュー**&#x200B;セクションを開き、**ビューポートの拡大・縮小**&#x200B;パラメーターを&#x200B;*なし*&#x200B;に設定します。
+**編集**&#x200B;メニューを開き、**環境設定…**&#x200B;オプションを選択します。 [環境設定](../../interface/preferences-window/preferences-window.md)ウィンドウで、**3Dビュー**&#x200B;セクションを開き、**ビューポートの拡大・縮小**&#x200B;パラメーターを&#x200B;*なし*&#x200B;に設定します。
 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
@@ -194,52 +205,52 @@ Heightデータが&#x200B;*法線*&#x200B;に変換され、**法線** [出力](
 </tr>
 </table>
 
-## テセレーション係数プロパティが見つかりません
+## &#39;Tessellation factor&#39;プロパティが見つかりません
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
-Designerをバージョン15.0.0にアップグレードした後、以前のマテリアルプロパティに「テセレーション率」パラメーターが見つかりません。
+Designerをバージョン15.0.0にアップグレードした後、以前のマテリアルプロパティに「テッセレーション係数」パラメーターが見つかりません。
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
-新しいレンダラー（ラスタライザーとGPU パストレーサー）を使用する場合、「テセレーション率」はこれらのレンダラーのプロパティにあります。 3D ビューで、<b>レンダラー/設定の編集</b>に移動します。 プロパティは、プロパティドックに表示されます。
+新しいレンダラー（ラスタライザとGPU パストレーサー）を使用する場合、「テッセレーション係数」がこれらのレンダラーのプロパティにあります。 3Dビューで、<b>レンダラー/設定の編集</b>に移動します。 プロパティは、プロパティドックに表示されます。
 
 >[!NOTE]
 >
-> テセレーションの範囲は、レンダラーによって異なります。
+> テッセレーションの範囲は、レンダラーによって異なります。
 > 
-> * ラスタライザ/GPU パストレーサー:シーン全体にグローバルに適用される一意の値です。
-> * OpenGL:マテリアルごとに1つの値です。
-> * Iray:メッシュごとに1つの値。
+> * ラスタライザ/GPU パストレーサー:シーン全体にグローバルに適用される固有の値です。
+> * OpenGL:マテリアルごとに1つの値。
+> * Iray:メッシュごとに1つの値です。
 
 ## 3Dオブジェクトの見た目が正しくない：照明に合わせてシェーディングが調整されない
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
-オブジェクトのシェーディングは、オブジェクトの通常のベクトル、正接ベクトル、および従法線ベクトルに依存します。 座標には`[-1, 1]`の範囲を使用しますが、法線マップではほとんどの場合`[0, 1]`の範囲を使用します。 一方の値をもう一方の値に適用するには、<b>バイアスとスケール</b>を適用する必要があります： `value * scale + bias`。
+オブジェクトのシェーディングは、法線、接線、および従法線ベクトルに依存します。 座標には`[-1, 1]`の範囲を使用しますが、法線マップではほとんどの場合`[0, 1]`の範囲を使用します。 一方の値をもう一方の値に適用するには、<b>バイアスとスケール</b>を適用する必要があります： `value * scale + bias`。
 
 たとえば、スケール2とバイアス–1は、x値を`[0, 1]`から`[-1, 1]`に強制的に適用します： `x * 2 - 1`。
 
-Designerでは、3D メッシュで指定されていない限り、標準尺度とバイアスは適用されません。 その情報が不足している場合、[マテリアルのいずれかを上書き](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コンソールで警告が発生します：
+Designerでは、3D メッシュで指定されていない限り、標準尺度とバイアスは適用されません。 その情報が欠落している場合、[そのマテリアルのいずれかを上書き](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コンソールで警告が発生します：
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
 ```
 
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
-少し前にUSDフォーマットに書き出したシーンの場合：最新バージョンのUSDを使用してシーンを再書き出しします。これには必要なデータが含まれます。 シーンの書き出しに使用するソフトウェアによって異なりますが、通常のスケールとバイアスに関連するプロパティがある場合は、それに注意してください。
+少し前にUSD形式に書き出したシーンの場合：最新バージョンのUSDを使用してシーンを再書き出しします。これには必要なデータが含まれます。 法線のスケールとバイアスに関連するプロパティがある場合は、それに注意してください。これは、シーンのエクスポートに使用するソフトウェアによって異なります。
 
-[マテリアルをオーバーライド](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、Designerはメッシュを処理し、その法線、正接、および従法線に関連する欠落データを計算します。 Designerのデフォルトのスケールとバイアスがメッシュに必要な値と一致した場合、メッシュはオーバーライドされると正しく表示されます。
+[マテリアルをオーバーライド](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、Designerはメッシュを処理し、その法線、接線、および従法線に関連する欠落データを計算します。 Designerのデフォルトのスケールとバイアスがメッシュに必要な値と一致した場合、メッシュはオーバーライドされると正しく表示されます。
 
 ## 3Dビューの起動時にクラッシュする
 
-**![（エラー）](3d-view-issues.resources/error.svg)問題**
+![（エラー）](3d-view-issues.resources/error.svg) **問題**
 
 3Dビューの起動時、プロジェクトの作成時、プロジェクトの読み込み時、または3Dビューを手動で開始するときに、Designerがクラッシュする。
 
-**![（ティック）](3d-view-issues.resources/check.svg)推奨ステップ**
+![（ティック）](3d-view-issues.resources/check.svg) **推奨される手順**
 
 まず、ご使用のシステムがDesignerの[必要システム構成](../../getting-started/system-requirements/system-requirements.md)を満たしていることを確認してください。
 
