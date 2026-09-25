@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Substance 3D Designerのキーボードショートカットを使用して、ワークフローを高速化し、生産性を向上させる方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ショートカット
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 18%
@@ -43,6 +43,8 @@ ht-degree: 18%
 | 取り消し | Ctrl + Z | ⌘ + Z |
 | やり直す | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### グラフビュー
 
 **ビューポート**
@@ -60,6 +62,8 @@ ht-degree: 18%
 | ノードメニュー | スペースバー | スペースバー |
 | [ナビゲーションピン](../../interface/the-graph-view/graph-items/graph-items.md)を切り替える | F2 | F2 |
 
+{style="table-layout:fixed"}
+
 **リンク作成モード**
 
 >[!NOTE]
@@ -71,6 +75,8 @@ ht-degree: 18%
 | 標準 | 1 | 1 |
 | マテリアル | 2 | 2 |
 | コンパクトマテリアル | 3 | 3 |
+
+{style="table-layout:fixed"}
 
 **グラフでオブジェクトが選択されたとき**
 
@@ -84,6 +90,8 @@ ht-degree: 18%
 | ノードのドッキング/ドッキング解除 | D | D |
 | ノードを無効にする | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### 2D ビュー
 
 | アクション | Windows | macOS |
@@ -95,14 +103,18 @@ ht-degree: 18%
 | ビューに合わせる | F | F |
 | タイル表示の切り替え | スペースバー | スペースバー |
 
+{style="table-layout:fixed"}
+
 ### 3D ビュー
 
 | アクション | Windows | macOS |
 |:---------------------------------------------------------|:--------------------------------|:-----------------------------|
 | ドリーカメラ（前方/後方パン） | マウスホイール<br>Alt + RMBキーを押しながらドラッグ | MouseWheel<br>⌥ + RMBキーを押しながらドラッグ |
 | 軌道周回カメラ | LMBキーを押しながらドラッグ | LMBキーを押しながらドラッグ |
-| トラック&amp;ペデスタルカメラ（側面および垂直方向パン） | MMB +ドラッグ<br>Ctrl + RMB +ドラッグ | MMB +ドラッグ<br>⌘ + RMB +ドラッグ |
+| トラックとペデスタルのカメラ（横型および縦型パン） | MMB +ドラッグ<br>Ctrl + RMB +ドラッグ | MMB +ドラッグ<br>⌘ + RMB +ドラッグ |
 | 環境を回転 | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | 一時的にポイントライト1のコントロールに切り替える | ⇧ （保留） | ⇧ （保留） |
 | オービットポイントライト1 | LMBキーを押しながらドラッグ | LMBキーを押しながらドラッグ |
 | ドリーポイントライト1 | RMB +ドラッグ | RMB +ドラッグ |
+
+{style="table-layout:fixed"}

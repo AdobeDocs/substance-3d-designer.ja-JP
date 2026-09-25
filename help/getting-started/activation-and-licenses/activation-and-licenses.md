@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ""
 description: Substance 3D Designerをアクティベートし、すべての機能にアクセスするためのライセンスを管理する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ライセンス認証とライセンス
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 | エディション | アクティベーションプロセス |
 |:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloudデスクトップ(CCD) | CCDアプリから製品をインストールし、起動します。 ライセンスに問題がある場合は、次のページに移動してください。[サブスクリプションのエラーが原因で、アプリが起動しない](https://helpx.adobe.com/jp/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [アカウント、プラン、請求に関するヘルプ](https://helpx.adobe.com/jp/account/individual.html) |
+| Creative Cloudデスクトップ(CCD) | CCDアプリから製品をインストールし、起動します。 ライセンスに問題がある場合は、次のページに移動してください。[サブスクリプションのエラーが原因で、アプリが起動しない](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [アカウント、プラン、請求に関するヘルプ](https://helpx.adobe.com/account/individual.html) |
 | スチーム | Steamライブラリから直接製品を起動します。 |
 | Substance（スタンドアロン） | 以下のアクティベーションプロセスを参照してください。 |
 
@@ -48,7 +48,7 @@ Designerを初めて起動すると、アクティベーションウィザード
 
 次のフォルダーにlicense.keyファイルを入れて、Designerを手動でアクティベートできます。
 
-<table data-preserve-html="true">
+<table data-preserve-html="true" style="table-layout:auto">
     <tbody>
         <tr>
             <th style="text-align: left;">Platform</th>
