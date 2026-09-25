@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/activation-and-licenses.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Designerをアクティベートし、すべての機能にアクセスするためのライセンスを管理する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Activation and licenses
@@ -8,22 +8,20 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: ライセンス認証とライセンス
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '375'
 ht-degree: 0%
-
 ---
-
 
 # アプリケーションタイプごとのアクティベーションプロセス
 
 アクティベーションプロセスは、Designerをどこから購入したか、またはどこからアクセスできるかによって異なります。
 
 | エディション | アクティベーションプロセス |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Creative Cloudデスクトップ(CCD) | CCDアプリから製品をインストールし、起動します。 ライセンスに問題がある場合は、次のページに移動してください。[サブスクリプションのエラーが原因で、アプリが起動しない](https://helpx.adobe.com/jp/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [アカウント、プラン、請求に関するヘルプ](https://helpx.adobe.com/jp/account/individual.html) |
 | スチーム | Steamライブラリから直接製品を起動します。 |
 | Substance（スタンドアロン） | 以下のアクティベーションプロセスを参照してください。 |
@@ -31,6 +29,8 @@ ht-degree: 0%
 ## ライセンス認証手順（Substance版）
 
 ### ライセンス認証ウィザードの使用
+
+Designerを初めて起動すると、アクティベーションウィザードが開き、ライセンス認証プロセスがガイドされます。
 
 次の3つの選択肢があります。
 
@@ -49,34 +49,51 @@ ht-degree: 0%
 次のフォルダーにlicense.keyファイルを入れて、Designerを手動でアクティベートできます。
 
 <table data-preserve-html="true">
-<colgroup> <col/> <col/> <col/> <col/> </colgroup><tbody><tr><th style="text-align: left;">Platform</th>
-<th style="text-align: left;">バージョン</th>
-<th colspan="2" style="text-align: left;">パス</th>
-</tr><tr><td rowspan="4" style="text-align: left;"><b>Windows</b></td>
-<td rowspan="2" style="text-align: left;"><b>11.2</b>以上</td>
-<td style="text-align: left;">AppData/ローカル</td>
-<td style="text-align: left;">C:\Users\[ユーザー名]\AppData\Local\Adobe\Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;">AppData/ローミング</td>
-<td style="text-align: left;">C:\Users\[ユーザー名]\AppData\Roaming\Adobe\Adobe Substance 3D Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>11.1</b>以前</td>
-<td style="text-align: left;">AppData/ローカル</td>
-<td style="text-align: left;">C:\Users\[ユーザー名]\AppData\Local\Allegorithmic\Substance Designer</td>
-</tr><tr><td style="text-align: left;">AppData/ローミング</td>
-<td style="text-align: left;">C:\Users\[ユーザー名]\AppData\Roaming\Allegorithmic\Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Mac</b></td>
-<td style="text-align: left;"><b>11.2</b>以上<br/>
-</td>
-<td colspan="2" style="text-align: left;">/Users/[ユーザー名]/Library/Application Support/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b>以前<br/>
-</td>
-<td colspan="2" style="text-align: left;">/Users/[ユーザー名]/Library/Application Support/Allegorithmic/Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Linux</b></td>
-<td style="text-align: left;"><b>11.2</b>以上</td>
-<td colspan="2" style="text-align: left;">/home/[ユーザー名]/.local/share/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b>以前<br/>
-</td>
-<td colspan="2" style="text-align: left;">/home/[ユーザー名]/.local/share/Allegorithmic/Substance Designer</td>
-</tr></tbody></table>
+    <tbody>
+        <tr>
+            <th style="text-align: left;">Platform</th>
+            <th style="text-align: left;">バージョン</th>
+            <th colspan="2" style="text-align: left;">パス</th>
+        </tr>
+        <tr>
+            <td rowspan="4" style="text-align: left;"><b>Windows</b></td>
+            <td rowspan="2" style="text-align: left;"><b>11.2</b>以上</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>11.1</b>以前</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>macOS</b></td>
+            <td style="text-align: left;"><b>11.2</b>以上<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b>以前<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Allegorithmic/Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>Linux</b></td>
+            <td style="text-align: left;"><b>11.2</b>以上</td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b>以前<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Allegorithmic/Substance Designer</code></td>
+        </tr>
+    </tbody>
+</table>
 
 >[!NOTE]
 >
@@ -84,8 +101,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> ファイルの名前が&#x200B;**license.key**&#x200B;であることを確認してください。名前が指定されていない場合、アプリケーションはファイルを見つけることができません。
+> ファイル名が`license.key`であることを確認してください。ファイル名がでない場合、アプリケーションでファイルを見つけることができません。
 
 ### 環境変数
 
-Designerが<b>license.key</b>ファイルをチェックする場所は、[環境変数](../../pipeline-and-project-con/environment-variables/environment-variables.md)で上書きできます。
+Designerが`license.key`ファイルをチェックする場所は、[環境変数](../../pipeline-and-project-con/environment-variables/environment-variables.md)で上書きできます。

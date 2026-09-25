@@ -1,8 +1,8 @@
 ---
-source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '223'
+ht-degree: 5%
 ---
 # TODO
 
@@ -31,6 +31,11 @@ ht-degree: 6%
 * AGENTS.mdとスキルをアップデートして、以下を管理します。
   * 画像：中央揃え、ズーム
   * 表：自動/固定レイアウト、テキストアラインメント
+* DESIGNER-12465: 高さマップが存在しないかフラットな場合、`Refine level`パラメーターは無効です
+* DESIGNER-12652:OpenGLレンダラーに関するパフォーマンストラブルシューティングガイド
+* DESIGNER-11866:Tonemapping functions
+* DESIGNER-10655:ピクセルプロセッサーおよびFX-Mapsのサンプルプロジェクトに例とリファレンスを追加します。
+
 
 ## 修正
 
@@ -41,7 +46,7 @@ ht-degree: 6%
 
 * 補正前と補正後のコンポーネント
 
-## LEARNING HUB
+## 学習ハブ（`learning`分岐）
 
 - SBSファイルのダウンロードをブロックする条件（[こちら](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)で確認）
 - 公開したり、ToCに含めたりすることなく、ページをライブテストする方法を理解する
