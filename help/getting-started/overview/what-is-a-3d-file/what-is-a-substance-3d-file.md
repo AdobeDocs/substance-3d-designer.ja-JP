@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ""
 description: Substance 3Dのファイル形式と、様々なアプリケーションで使用できるプロシージャルマテリアルおよびテクスチャの保存方法について説明します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Substance 3Dファイル(`*.sbs`)は、**パッケージ**&#x200B;とも呼ば�
 
 例えば、オブジェクトのDust量、サッカーチームのジャージの色、カットストーンの床のパターンなどをオンザフライで変更できます。 事実上限界は君の想像力だけだ。
 
-パッケージを&#x200B;*コンパイル済みの自己完結型の&#x200B;**Substance 3Dアーカイブファイル**(`*.sbsar`)に発行*&#x200B;して、含まれているグラフを[アプリケーション統合](https://www.adobe.com/products/substance3d/plugins.html)が存在する外部Substanceで使用できるようにすることができます。
+パッケージを&#x200B;*コンパイル済みの自己完結型の&#x200B;**Substance 3Dアーカイブファイル**(`*.sbsar`)に発行*&#x200B;して、含まれているグラフを[アプリケーション統合](https://www.adobe.com/jp/products/substance3d/plugins.html)が存在する外部Substanceで使用できるようにすることができます。
 
 グラフでは、**100%プロシージャル**&#x200B;のテクスチャが生成される可能性があり、その結果、パッケージのファイルサイズが非常に小さくなります。
 
