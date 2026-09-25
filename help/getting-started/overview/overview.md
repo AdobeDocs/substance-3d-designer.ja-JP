@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+breadcrumb-title: ""
 description: Substance 3D Designerの概要を紹介し、プロシージャルのマテリアルやテクスチャを作成するための機能について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 概要
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 2%
-
 ---
-
 
 # 概要
 
@@ -24,19 +22,19 @@ ht-degree: 2%
 
 他のアプリケーションと比較した結果は次のとおりです。
 
-|  | <div><img alt="Substance 3D Samplerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D Samplerアイコン" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painterアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designerアイコン" width="64px"/></div>  Substance 3D Designer |
-| --- | --- | --- | --- |
-| <b>学習曲線</b> | 低 | 中 | 高 |
-| <b>マテリアルの作成</b> | はい | はい | はい |
-| <b>3Dモデルの作成</b> | いいえ | 制限付き\* | 制限付き\* |
-| <b>フィルター、パターン、エフェクトの作成</b> | いいえ | 制限付き | はい |
-| <b>パラメトリックコンテンツの書き出し</b> | いいえ | いいえ | はい |
+|                                          | <div><img alt="Substance 3D Samplerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D Samplerアイコン" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painterアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designerアイコン" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designerアイコン" width="64px"/></div>  Substance 3D Designer |
+|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **学習曲線** | 低 | 中 | 高 |
+| **マテリアルの作成** | はい | はい | はい |
+| **3Dモデルの作成** | いいえ | 制限付き\* | 制限付き\* |
+| **フィルター、パターン、エフェクトの作成** | いいえ | 制限付き | はい |
+| **パラメトリックコンテンツの書き出し** | いいえ | いいえ | はい |
 
 \*: ディスプレイスメントのみ。[3D ビュー](../../interface/3d-view/3d-view.md)セクションの<b>シーンエクスポート</b>機能を参照してください。
 
 つまり、Substance 3D Designerは最も技術的で高度なテクスチャリングアプリであるといえます。
 
-これにより、ほぼすべてのユースケースまたはシナリオのコンテンツを作成できます。 つまり、UVマッピングされたメッシュに固有のマテリアルやテクスチャのセットなど、1種類の出力に限定されず、より広範な用途に向けてコンテンツを作成できます。
+これにより、ほぼすべてのユースケースやシナリオに対応するコンテンツを作成できます。 つまり、UVマッピングされたメッシュに固有のマテリアルやテクスチャのセットなど、1種類の出力に限定されず、より広範な用途に向けてコンテンツを作成できます。
 
 例えば、PainterとSamplerにあるプロシージャルのスマートコンテンツのほとんどは、Designerから作成および書き出されています。 ブラシAlpha、ジェネレーター、フィルター、ベースマテリアルなどは、すべてDesignerで作成できます。
 
@@ -44,13 +42,13 @@ ht-degree: 2%
 
 Substance 3D Designerは、様々な複雑さで様々な方法でコンテンツを構築できるノードベースのエディターです。 [ワークフローについては専用ページ](../../getting-started/workflow-overview/workflow-overview.md)で詳しく説明しますが、ソフトウェアを使用すると次のような利点があります。
 
-<b>[ノンリニア](../../compositing-graphs/substance-compositing-graphs.md) </b>：一度に多数のテクスチャ出力を作成できます。 1つのマスクまたはスライダーを編集すると、自動的に接続された出力が再計算されます。 ベースカラー、ラフネス、法線などのマップを個別に作成する必要がなくなりました。
+**[ノンリニア](../../compositing-graphs/substance-compositing-graphs.md):**&#x200B;一度に多数のテクスチャ出力を作成できます。 1つのマスクまたはスライダーを編集すると、自動的に接続された出力が再計算されます。 base color、ラフネス、標準などのマップを個別に作成する必要がなくなりました。
 
-<b>[非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b> ：作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
+**[非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):**&#x200B;作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
 
-<b>[統合されたベイク処理](../../bakers/bakers.md) </b>:ソフトウェア内から高度で高速なメッシュベイク処理ツールにアクセスできます。 ベークは別のソフトウェアで行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかります。
+**[統合ベイク処理](../../bakers/bakers.md):**&#x200B;ソフトウェア内から直接、高度で高速なメッシュベイクツールにアクセスできます。 ベークは別のソフトウェアで行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかります。
 
-<b>[パラメトリック](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: 1つのスライダーまたはドロップダウンを使用して、テクスチャのほぼすべての側面を制御するように設定できます。 これにより、1つのアセットに無限のコントロールとバリエーションを追加できます。
+**[パラメトリック](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md):** 1つのスライダーまたはドロップダウンを使用して、テクスチャのほぼすべての側面を制御するように設定できます。 これにより、1つのアセットに無限のコントロールとバリエーションを追加できます。
 
 ## Filetypes
 
@@ -58,7 +56,7 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0;">
 
 ![](overview.resources/ds-sbs-48.png)
 
@@ -69,7 +67,7 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 Substanceファイルは、Designerの&#x200B;**メインソースファイル**&#x200B;です。 Substanceファイルを開くと、**グラフ内のすべてのノードを表示および編集**&#x200B;できます。 これらはパッケージとして表され、グラフ、関数、ビットマップ、メッシュなどの任意の数のリソースを含むことができます。共有するのが難しく、計算するのが遅くなります。 Substance 3D DesignerおよびSubstance Playerでのみ開くことができます。
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0;">
 
 ![](overview.resources/sbsar-48.png)
 
@@ -77,10 +75,10 @@ Substanceファイルは、Designerの&#x200B;**メインソースファイル**
 
 *(\*.SBSAR)*
 
-Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Engine、Unity Engineなど、[Substance 3Dと連携](https://experienceleague.adobe.com/ja/docs/substance-3d/ecosystem/home)するアプリケーション（外部プラグインを含むものもあります）で使用できます。
+Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Application、Unity エンジンなど、[Substance 3Dと連携](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)するエンジン（一部に外部プラグインが含まれる）で使用できます。
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0;">
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
@@ -94,7 +92,7 @@ Substance 3D Designerでは、静的ファイル形式への書き出しが常�
 </tr>
 </table>
 
-これは通常、Designer内で作業する場合は作品をSBS形式に保ち、ターゲットがサポートしている場合（Painterなど）はSBSARに書き出し、SBSARのサポートがない、または必要がない場合は静的ビットマップファイルを使用することを意味します。
+これは通常、Designer内で作業する場合はSBS形式で作業を行い、ターゲットがSBSARをサポートしている場合（Painterなど）はSBSARに書き出し、SBSARをサポートしていない場合は静的ビットマップファイルを使用することを意味します。
 
 ## リソースの種類
 
@@ -102,18 +100,18 @@ Substance 3Dファイルには、様々な目的を持つ様々なリソース�
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td width="16.67%" style="border: 0;">
 
 [![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;">
 
 ### Substance グラフ
 
-Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成して処理し、1つまたは複数のテクスチャ出力に出力できます。 多くの場合、プロジェクトは1つまたは複数のSubstanceグラフを中心に展開されます。
+グラフを使用すると、*2D画像データ*&#x200B;を生成して処理し、1つ以上のテクスチャ出力に出力できます。 多くの場合、プロジェクトは1つ以上のグラフを中心に展開されます。
 
-[Substanceグラフ専用のセクションに移動します。](../../compositing-graphs/substance-compositing-graphs.md)
+[グラフに関するセクションに移動します。](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 </tr>
@@ -121,18 +119,18 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td width="16.67%" style="border: 0;">
 
 [![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;">
 
-### Substance関数グラフ
+### Substance機能グラフ
 
-<b>関数</b>は、抽象化および複雑さのレベルが高くなっています。画像データ（ピクセル値のセット）を処理するのではなく、*単一の値* （整数、浮動小数点、ベクトル）を処理します。 関数は、より複雑な操作を行う場合や、特定の動作を微調整する場合に使用します。 通常、関数はスタンドアロンでは動作せず、Substanceグラフのコンテキスト外では使用されません。
+<b>関数</b>は、抽象化および複雑性のレベルが高くなっています。イメージデータ（ピクセル値のセット）を処理するのではなく、*単一の値* （整数、フロート、ベクター）を処理します。 関数は、より複雑な操作を行う場合や、特定の動作を微調整する場合に使用します。 通常、関数はスタンドアロンでは動作せず、グラフのコンテキスト外では使用されません。
 
-[Substance関数グラフ専用のセクションに移動します。](../../function-graphs/function-graphs.md)
+[Substance機能グラフ専用のセクションに移動します。](../../function-graphs/function-graphs.md)
 
 </td>
 </tr>
@@ -140,24 +138,24 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td width="16.67%" style="border: 0;">
 
 [![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;">
 
 ### グラフ以外のリソース
 
-グラフ以外のリソースは、外部アプリケーション（PhotoshopやAutodesk Mayaなど）から提供される場合もありますが、*Designer内で作成*&#x200B;される場合もあります。 主な違いは、これらはノードベースのグラフではなく、前述のグラフタイプの内部または横で使用する要素であることです。
+グラフ以外のリソースは、外部アプリケーション（PhotoshopやAutodesk Mayaなど）から提供される場合もあれば、*Designer内で作成*&#x200B;される場合もあります。 主な違いは、これらはノードベースのグラフではなく、前述したグラフ型の内部または横で使用されるエレメントであることです。
 
 次のリソースタイプが存在します。
 
 * [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)
 * [ベクターグラフィック(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3Dシーン](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [3D シーン](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [フォント](../../resources/font-resource/font-resource.md)
-* [AxFファイル](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [AxF ファイル](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>
