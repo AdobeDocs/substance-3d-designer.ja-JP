@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ライセンス認証とライセンス
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Designerを初めて起動すると、アクティベーションウィザード
 
 次のフォルダーにlicense.keyファイルを入れて、Designerを手動でアクティベートできます。
 
-<table data-preserve-html="true">
+<table data-preserve-html="true" style="table-layout:auto">
     <tbody>
         <tr>
             <th style="text-align: left;">Platform</th>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tutorialsとラーニング
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '262'
 ht-degree: 0%
 ---
 
@@ -22,72 +22,14 @@ ht-degree: 0%
 
 ## チュートリアル
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[![&#39;最初の手順&#39;チュートリアルの図](tutorials-learning.resources/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### 最初のステップ
-
-Designerを使って最初の一歩を踏み出すことに焦点を当てた初級レベルシリーズ。 UIの基本的な概念を紹介し、次に主要なテクニックに移り、最後にパラメーターを表示して完全なマテリアルを構築する方法について説明します。 短くて焦点が絞られていますが、物事を軽く保つので、初心者にとっては最高のスタートです。
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[![&#39;最初のマテリアルの作成&#39;チュートリアルイラスト](tutorials-learning.resources/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### 最初のマテリアルの作成
-
-大規模でプロシージャル性に優れたマテリアルを作成するプロセス全体を紹介する大規模なスタータービデオシリーズ。 プロセスのすべてのステップがカバーされ、説明されているので、あなたは完了時に多くを学ぶでしょう、しかし、絶対的な初心者のために集中することができます。
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[![&#39;Quicktips&#39;チュートリアルのイラスト](tutorials-learning.resources/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### クイックヒント
-
-各クイックチップビデオでは、一口サイズのノードとテクニックのセットに焦点を当てています。 結果やノード、そして最も重要なパラメータを説明し、アイデアを広げるいくつかの方法を紹介します。
-
-</td>
-</tr>
-</table>
+|                                                                                                                                                                                                                                      |                                  |                                                                                                                                                                                                                                                                                                                                |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![「最初の手順」チュートリアルのイラスト](tutorials-learning.resources/tutorial-first-steps.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en){width="200px"} | **最初のステップ** | Designerを使って最初の一歩を踏み出すことに焦点を当てた初級レベルシリーズ。 UIと基本的な概念について説明し、次に主要なテクニックに進み、最後にパラメーターを表示して完全なマテリアルを構築する方法について説明します。<br><br>短く、集中力がありますが、内容が軽いため、初心者にとって最良のスタートです。 |
+| [![最初のマテリアルを作成しています](tutorials-learning.resources/tutorial-getting-started.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en){width="200px"} | **最初のマテリアルを作成しています** | 大規模でプロシージャル性に優れたマテリアルを作成するプロセス全体を紹介する大規模なスタータービデオシリーズ。<br><br>このプロセスのすべての手順について説明します。完了すると多くのことを学習できますが、初心者にとっては集中力が必要です。 |
+| [![「Quicktips」チュートリアルのイラスト](tutorials-learning.resources/tutorial-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M){width="200px"} | **クイックヒント** | 各クイックチップビデオでは、一口サイズのノードとテクニックのセットに焦点を当てています。<br><br>結果、ノード、および最も重要なパラメーターについて説明し、アイデアを広げるいくつかの方法を示します。 |
 
 ## 記事
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[![&#39;スマートフォンはマテリアルースキャナーです&#39;チュートリアルのイラスト](tutorials-learning.resources/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### スマートフォンはマテリアルースキャナーです
-
-Designerを使用した写真の撮影と処理のプロセス全体を示す深度内記事。 Substance 3D Designerを使用して特定の作業を自動化する良い例を紹介します。
-
-</td>
-</tr>
-</table>
+|                                                                                                                                                                                                                                                                             |                                           |                                                                                                                                                                                                                   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![「お使いのスマートフォンはマテリアルスキャナーです」というチュートリアルのイラスト](tutorials-learning.resources/article-smartphone-material-scanner.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en){width="200px"} | **お使いのスマートフォンはマテリアル検索アプリです** | Substance 3D Designerを使用した写真の撮影と処理のプロセス全体を示す深度内記事です。<br><br>Designerを使用して特定の作業を自動化する方法の良い例を紹介します。 |

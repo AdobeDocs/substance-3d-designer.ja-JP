@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: Substance 3D Designerでプロシージャルマテリアルを最初から最後まで作成するための基本的なワークフローについて説明します。
+description: Substance 3D Designerでプロシージャルマテリアルを作成する場合の基本的なワークフローについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ワークフローの概要
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェ�
 
 グラフインスタンスの詳細については、[Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)での使用に関する[専用セクション](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)があります。
 
-![簡略化されたグラフパラメーター](workflow-overview.resources/parameters-5.png "簡略化されたグラフパラメーター"){zoomable="yes"}
+![グラフのパラメーターを簡易化](workflow-overview.resources/parameters-5.png "グラフのパラメーターを簡易化"){zoomable="yes"}
 
 ## カスタムパラメーター
 
@@ -50,28 +50,28 @@ Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェ�
 
 ## グラフの種類
 
-Substance 3D Designerで編集できる3種類のグラフの概要と、関連するセクションへのリンクを以下に示します。
+Substance 3D Designerで編集できる3種類のグラフの概要と、関連するドキュメントへのリンクを以下に示します。
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Substance グラフ
-
-[Substanceグラフ](https://substance3d.adobe.com/)は、Substance 3D Designerで作成される主な種類のグラフです。 その目的は、設定された解像度、色、または形状に制限されない2D画像データ</b>を<b>生成および処理することです。 これは、静的であらかじめ設定された結果だけでなく、極めて汎用性の高い画像処理ツールおよび生成ツールとして使用されます。
-
-単純な白黒パターンや、他のイメージ上でのみ実行され、それ自体ではコンテンツを生成しないフィルタ、または複数のチャンネルを備えた本格的なプロシージャルマテリアルを作成できます。
-
-グラフは[最も広くサポートされている種類のグラフ](../../getting-started/overview/overview.md)であり、さまざまなワークフローでエクスポートおよび使用できます。
 
 </td>
 </tr>
 </table>
+
+[グラフ](https://substance3d.adobe.com/)は、Substance 3D Designerで作成されたグラフの主要な種類です。 その目的は、設定された解像度、色、または形状に制限されない2D画像データ</b>を<b>生成および処理することです。 これは、静的であらかじめ設定された結果だけでなく、極めて汎用性の高い画像処理ツールおよび生成ツールとして使用されます。
+
+結果は、単純な白黒パターンや、他の画像でのみ実行され、それ自体ではコンテンツを生成しないフィルター、または複数のチャンネルを持つ本格的なマテリアルの形で作成できます。
+
+グラフは[最も広くサポートされている種類のグラフ](../../getting-started/overview/overview.md)であり、さまざまなワークフローでエクスポートおよび使用できます。
 
 #### 例
 
@@ -79,17 +79,17 @@ Substance 3D Designerで編集できる3種類のグラフの概要と、関連�
 
 +++ シンプルなシェイプ
 
-![Substanceグラフのシンプルなシェイプ](workflow-overview.resources/simpleshape.png "Substanceグラフのシンプルなシェイプ"){width="512px" zoomable="yes"}
+![グラフのシンプルなシェイプ](workflow-overview.resources/simpleshape.png "Substanceグラフのシンプルなシェイプ"){width="512px" zoomable="yes"}
 
 デカールの単純なマスクシェイプは、[テキストの一部](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)と[ディスクシェイプ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md)を生成し、[ディスクからエッジを抽出](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)し、最後に[これらをブレンド](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)してから、最終的な[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)として設定することで作成されます。
 
-数字またはエッジのThicknessを含むテキストを外部に公開して、よりダイナミックなグラフにすることができます。
+数字を含むテキストまたはエッジのThicknessを外部に表示して、よりダイナミックなグラフにすることができます。
 
 +++
 
 +++ 調整フィルター
 
-![Substanceグラフの調整フィルター](workflow-overview.resources/simplefilter.png "Substanceグラフの調整フィルター"){width="512px" zoomable="yes"}
+![グラフの調整フィルター](workflow-overview.resources/simplefilter.png "Substanceグラフの調整フィルター"){width="512px" zoomable="yes"}
 
 フィルターグラフでは、法線マップを[入力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) （カスタムプレビュー付き）として指定し、[曲率に変換](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)して、[コントラストを調整](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)して、最終的な[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)として凸型のエッジのマスクを作成します。
 
@@ -97,11 +97,11 @@ Substance 3D Designerで編集できる3種類のグラフの概要と、関連�
 
 +++
 
-+++ 完全なマテリアル
++++ フルマテリアル
 
-![Substanceグラフの完全なマテリアル](workflow-overview.resources/simplematerial.png "Substanceグラフの完全なマテリアル"){width="512px" zoomable="yes"}
+![グラフの完全なマテリアル](workflow-overview.resources/simplematerial.png "Substanceグラフの完全なマテリアル"){width="512px" zoomable="yes"}
 
-より複雑なグラフ [は2つのベースマテリアルをブレンドします](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)。 一方の[ベースマテリアル](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md)はシンプルに保たれ、もう一方はユーザー設定の入力を使用して趣を加えます。 マスクは、最終的な[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)として設定される前に2つのマテリアルのどちらが表示されるかを決定するために使用されます。
+より複雑なグラフ [は2つのベースマテリアルをブレンドします](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)。 一方の[ベースマテリアル](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md)はシンプルに保たれ、もう一方はユーザー設定の入力を使用して趣を加えます。 マスクを使用して、最後の[出力](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)として設定される前に2つのマテリアルのどちらが表示されるかを判断します。
 
 この例では、[リンク作成モード](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)を使用して、複数のリンクの使用を簡略化します。
 
@@ -109,14 +109,18 @@ Substance 3D Designerで編集できる3種類のグラフの概要と、関連�
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
-### Substance関数グラフ
+### Substance機能グラフ
+
+</td>
+</tr>
+</table>
 
 関数は、ピクセル（画像）のセットではなく、**単一の値** （整数、フロート、ベクター）を処理します。 関数もノードグラフですが、[ノードが関与](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)しており、そのインターフェイスはSubstance グラフとは異なります。
 
@@ -127,19 +131,15 @@ Substance 3D Designerで編集できる3種類のグラフの概要と、関連�
 * [ピクセルプロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)または[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)の動作を作成しています
 * 特定の目的で、グラフの画像の代わりに[値](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)を使用しています
 
-</td>
-</tr>
-</table>
-
 #### 例
 
 以下に、Substance関数グラフの一般的な使用例をいくつか示します。
 
 +++ 単純関数
 
-![簡易関数グラフ](workflow-overview.resources/lerpfunction.png "簡易関数グラフ"){width="256px" zoomable="yes"}
+![単純な関数のグラフ](workflow-overview.resources/lerpfunction.png "単純な関数のグラフ"){width="256px" zoomable="yes"}
 
-公開されたパラメーターのコンテキスト内の単純な関数です。 「Intensity」という入力float値を取得し、0 ～ 1（わかりやすい範囲）の範囲を決定し、0.1 ～ 0.8の設定範囲に再マップします。 つまり、ユーザが強度を0に設定すると、内部的には0.1が使用され、UIを1に設定すると0.8が使用され、その間の値はリニアに補間されます。 この種類の関数は、[パラメーターを公開](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)する際に一般的に使用されますが、カスタム関数を使用します。
+表示されるパラメーターのコンテキスト内の単純な関数。 「Intensity」という入力float値を取得し、0 ～ 1（わかりやすい範囲）の範囲を決定し、0.1 ～ 0.8の設定範囲に再マップします。 つまり、ユーザが強度を0に設定すると、内部的には0.1が使用され、UIを1に設定すると0.8が使用され、その間の値はリニアに補間されます。 この種類の関数は、[パラメーターを使用](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)する際に一般的に表示されますが、カスタム関数を使用する場合に使用されます。
 
 この関数は、HLSLやGLSLに似た擬似コードで`lerp(0.1, 0.8, Intensity)`として記述することもできます。
 
@@ -149,9 +149,9 @@ Substance 3D Designerで編集できる3種類のグラフの概要と、関連�
 
 ![高度な関数](workflow-overview.resources/pixel-function.png "高度な関数"){width="512px" zoomable="yes"}
 
-この高度な関数は、2番目のグレースケールマスク入力の強度に基づいてカラーマップ入力の色相を調整するための[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)の内部動作を示しています。
+この高度な関数は、2番目のグレースケールマスク入力の強さに基づいてカラーマップ入力の色相を調整するための[ピクセルプロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)の内部動作を示します。
 
-システム「$pos」変数を使用して両方の入力をサンプリングし、Alphaを取り除き、カラー値をHSLに変換します。次に、サンプリングしたグレースケール値を掛けて色相コンポーネントを変更します。 その後、ベクトルが再度組み立てられ、HSLがRGBに変換されて、最終的な出力にAlphaが戻されます。
+システム「$pos」変数を使用して両方の入力をサンプリングし、Alphaをストリップし、カラー値をHSLに変換します。次に、サンプリングされたグレースケール値を掛けて色相コンポーネントを変更します。 その後、ベクトルが再度組み立てられ、HSLがRGBに変換されて、最終的な出力にAlphaが戻されます。
 
 擬似コードでは、これはずっと複雑な関数で、1行には収まりません。
 

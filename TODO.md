@@ -1,7 +1,7 @@
 ---
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 5%
 ---
 # TODO
@@ -39,6 +39,7 @@ ht-degree: 5%
 
 ## 修正
 
+* [overview.md](help/getting-started/overview/overview.md)のアイコンのサイズを修正
 * `BnW spots 2`ページの破損した画像を修正
 * ノードページの最初のサンプルイメージのリンクを修正(例： 新しいノイズ)
 
