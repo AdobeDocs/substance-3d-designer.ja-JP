@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ""
 description: Substance 3D Designerの必要システム構成を確認して、コンピューターが必要な仕様を満たしていることを確認してください。
 helpx_creative_field: ""
@@ -74,7 +74,7 @@ ht-degree: 0%
 >
 > **TDR （Windowsのみ）**
 >
-> GPUで負荷の高い計算（複雑なグラフのレンダリング、3Dビューでのレンダリング、3Dビューからのシーンの書き出しなど）を実行する場合に、全体的な安定性を最良にするには、**タイムアウトの検出と回復(TDR)**&#x200B;の値を、アドビのドキュメントの[このページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨事項と一致させることを強くお勧めします。
+> GPUで負荷の高い計算（複雑なグラフのレンダリング、3Dビューでのレンダリング、3Dビューからのシーンの書き出しなど）を実行する場合に、全体的な安定性を最良にするには、**タイムアウトの検出と回復(TDR)**&#x200B;の値を、アドビのドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨事項と一致させることを強くお勧めします。
 
 ## サポートされていない設定
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 アプリケーションを問題なく実行するために必要なGPUドライバーの最小バージョンを以下に示します。 このリストは、新しいバージョンのリリースに伴って変更される場合があります。
 
-新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
+新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -121,7 +121,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 **DXR**&#x200B;には次の最小構成が必要です：
 
-* **Windows 10**&#x200B;バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
+* **Windows 10**&#x200B;バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
 * **Pascalアーキテクチャ搭載GPU** (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -130,7 +130,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 ## タブレットの使用
 
-**Windows**&#x200B;のタブレットユーザーは、最も信頼性の高いエクスペリエンスを実現するために、次のページに記載されている設定を適用する必要があります： [ペンとタブレットの構成](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
+**Windows**&#x200B;のタブレットユーザーは、最も信頼性の高いエクスペリエンスを実現するために、次のページに記載されている設定を適用する必要があります： [ペンとタブレットの構成](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
 
 ## 言語
 
