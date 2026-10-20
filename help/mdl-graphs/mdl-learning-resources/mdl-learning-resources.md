@@ -34,7 +34,7 @@ MDLマテリアルの理解を深めるために役立つドキュメントと�
 
 ## チュートリアル
 
-[Substance 3D Tutorials](https://www.adobe.com/learn/substance-3d)のwebサイトでは、MDLグラフに関する次のコンテンツを提供しています。
+[Substance 3D Tutorials](https://www.adobe.com/jp/learn/substance-3d)のwebサイトでは、MDLグラフに関する次のコンテンツを提供しています。
 
 <table>
 <tr style="border: 0;">
@@ -42,7 +42,7 @@ MDLマテリアルの理解を深めるために役立つドキュメントと�
 
 ### Substance 3D DesignerでのMDLの作成
 
-[このシリーズ](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer)は、DesignerでMDLグラフを発見し、MDLマテリアルを操作するための&#x200B;*優れた出発点*&#x200B;です。
+[このシリーズ](https://www.adobe.com/jp/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer)は、DesignerでMDLグラフを発見し、MDLマテリアルを操作するための&#x200B;*優れた出発点*&#x200B;です。
 
 このチュートリアルで取り上げる金属クリアコートのマテリアルは、テクスチャを通してのみ定義することは不可能です。特徴は、異なる動作をする&#x200B;*2つの別々のSpecularハイライト*&#x200B;です。1つは斑点のあるより粗い金属のコート、もう1つは非常に滑らかなクリアトップコートです。
 
@@ -63,7 +63,7 @@ MDLマテリアルの理解を深めるために役立つドキュメントと�
 
 ### MDLマラカイトマテリアル崩壊
 
-[この記事](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)では、テクスチャだけでは実現できない&#x200B;*さらに手の込んだ*&#x200B;マテリアルの制作手順を説明します。 ここでは、MDL グラフと[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)の相乗効果を活用して、非常に効率的に優れた結果を得ることができます。
+[この記事](https://www.adobe.com/jp/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)では、テクスチャだけでは実現できない&#x200B;*さらに手の込んだ*&#x200B;マテリアルの制作手順を説明します。 ここでは、MDL グラフと[Substanceグラフ](../../compositing-graphs/substance-compositing-graphs.md)の相乗効果を活用して、非常に効率的に優れた結果を得ることができます。
 
 「この壮大なチュートリアルでは、CD PROJEKT REDのシニアEnvironment Artistである[Mark Foreman](https://www.artstation.com/oggyart)が、Materialize Contestで受賞したMDL マテリアルを取り上げます。 Markのマテリアルを[Substance share](https://share-legacy.substance3d.com/libraries/4043)からダウンロードできます。」
 
