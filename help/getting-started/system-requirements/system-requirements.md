@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 必要システム構成
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 0250b1ff7cba48ff8d2909e01ccc4618aa4708a3
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '873'
 ht-degree: 0%
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ### Windows
 
-|             | 最小 | おすすめ | 最適 |
-|:------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+|  | 最小 | おすすめ | 最適 |
+| --- | --- | --- | --- |
 | **OS** | Windows 11 64ビット版23H2 | Windows 11 64ビット版24H1 | Windows 11 64ビット版24H2 |
 | **CPU** | Intel Core i5<br>AMD Ryzen 5 | Intel Core i7<br>AMD Ryzen 7 | Intel Core i9<br>AMD Ryzen 9 |
 | **GPU** | NVIDIA GeForce RTX 2060 Super<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>NVIDIA Quadro RTX A4000<br>AMD Radeon RX 6800 XT<br>AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>NVIDIA Quadro RTX 5000 Adaジェネレーション<br>AMD Radeon RX 7900 XTX<br>AMD Radeon Pro W7800 |
@@ -35,19 +35,23 @@ ht-degree: 0%
 
 ### macOS
 
-|             | 最小 | おすすめ | 最適 |
-|:------------|:----------------------------------|:----------------------------------|:----------------------------------|
-| **OS** | macOS14ソノマ | macOS 26タホ | macOS 26タホ |
+|  | 最小 | おすすめ | 最適 |
+| --- | --- | --- | --- |
+| **OS** | macOS 15セコイア | macOS 27ゴールデンゲート | macOS 27ゴールデンゲート |
 | **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **RAM** | 16 GB | 32 GB | 64 GB |
 | **ストレージ** | 30 GBの空き容量のあるSSD | 50 GBの空き容量のあるSSD | 70 GBの空き容量のあるSSD |
 
+>[!WARNING]
+>
+> [VFX Reference Platform](https://vfxplatform.com/)を念頭に置いて構築されたパイプラインでは、macOS 14 SonomaにSubstance 3D Designerをインストールできます。 ただし、Designerは、最小必要システム構成を下回るOSバージョンではテストされていないため、安定性は保証されていません。 新しいバージョンのOSにアップデートすることをお勧めします。
+
 ### Linux
 
 | Enterprise | スチーム |
-|:------------------|:-------------|
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| --- | --- |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## 一般的な推奨事項
 
@@ -69,8 +73,8 @@ ht-degree: 0%
 >[!TIP]
 >
 > **TDR （Windowsのみ）**
-> 
-> GPUで大量の計算を実行する際（複雑なグラフのレンダリング、3Dビューでのレンダリング、3Dビューからのシーンの書き出しなど）に全体的な安定性を最大限に高めるには、**タイムアウトの検出と回復(TDR)**&#x200B;の値がドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨事項と一致していることを確認することを強くお勧めします。
+>
+> GPUで負荷の高い計算（複雑なグラフのレンダリング、3Dビューでのレンダリング、3Dビューからのシーンの書き出しなど）を実行する場合に、全体的な安定性を最良にするには、**タイムアウトの検出と回復(TDR)**&#x200B;の値を、アドビのドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨事項と一致させることを強くお勧めします。
 
 ## サポートされていない設定
 
@@ -103,7 +107,7 @@ ht-degree: 0%
 新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
 
 | OS | NVIDIA | AMD | Intel |
-|:------------|:-----------------------------|:-----------------------------------------|:------------|
+| --- | --- | --- | --- |
 | **ウィンドウ** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
 | **Linux** | 535.129.03 | Radeon 23.20 Pro 23.Q3 | 非対応 |
 
@@ -126,7 +130,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 ## タブレットの使用
 
-**Windows**&#x200B;のタブレットユーザーは、最も信頼性の高いエクスペリエンスを実現するために、次のページで説明されている設定を適用する必要があります： [ペンとタブレットの構成](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
+**Windows**&#x200B;のタブレットユーザーは、最も信頼性の高いエクスペリエンスを実現するために、次のページに記載されている設定を適用する必要があります： [ペンとタブレットの構成](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
 
 ## 言語
 
