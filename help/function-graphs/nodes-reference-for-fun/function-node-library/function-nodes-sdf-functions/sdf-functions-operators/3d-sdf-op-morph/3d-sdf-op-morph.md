@@ -1,13 +1,11 @@
 ---
 title: モーフ
 description: Designer/Substance合成グラフ/ノード合成の参照Substance合成グラフ/Node library/SDF 関数/演算子/モーフ
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
-
 ---
-
 
 # モーフ
 
@@ -40,6 +38,6 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>基本SDF</b> *フロート* | 基本SDFシェイプ。 |
-| <b>ターゲットSDF</b> *フロート* | 対象のSDFシェイプ。 |
-| <b>ミックス要素</b> *フロート* | 入力シェイプのモーフィングに使用するミックス係数。0は基本シェイプ、1はターゲットシェイプです。 |
+| <b>基本SDF</b> *浮動小数* | 基本SDFシェイプ。 |
+| <b>ターゲットSDF</b> *浮動小数* | 対象のSDFシェイプ。 |
+| <b>ミックス要素</b> *浮動小数* | 入力シェイプのモーフィングに使用するミックス係数。0は基本シェイプ、1はターゲットシェイプです。 |

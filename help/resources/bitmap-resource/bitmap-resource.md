@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/resources/bitmap-resource.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: テクスチャベースのマテリアル作成のために、Substance 3D Designerでビットマップリソースを読み込み、作成、使用する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: ビットマップリソース
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
-
 ---
-
 
 # ビットマップリソース
 
@@ -58,7 +56,7 @@ Substance 3D Designerでは、ビットマップのデータを簡単に編集�
 | --- | --- |
 | 識別子 | パッケージ内のビットマップリソースを参照するために使用される関数は、一意である必要があります。 |
 | ファイルパス | リソースによって参照されるビットマップのディスク上のパスです。 |
-| 説明 | このリソースの[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)および[ライブラリ](../../interface/the-library/the-library.md)のツールヒントに表示された説明です。 |
+| 説明 | このリソースの[エクスプローラー](../../interface/the-explorer-window/the-explorer-window.md)と[ライブラリ](../../interface/the-library/the-library.md)のツールヒントに表示された説明です。 |
 | カテゴリ | [ライブラリ](../../interface/the-library/the-library.md)の[リソースの並べ替えとキュレーション](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)に使用されます。 |
 | ラベル | [ライブラリ](../../interface/the-library/the-library.md)の[リソースの並べ替えとキュレーション](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)に使用されます。 |
 | 作成者 | [ライブラリ](../../interface/the-library/the-library.md)の[リソースの並べ替えとキュレーション](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)に使用されます。 |

@@ -1,13 +1,11 @@
 ---
 title: シェル
 description: Designer/Substance合成グラフ/ノード合成の参照グラフ/Substanceライブラリ/SDF 関数/演算子/シェル
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
-
 ---
-
 
 # シェル
 
@@ -40,5 +38,5 @@ ht-degree: 4%
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *フロート* | 入力されたSDFシェイプ。 |
-| <b>Thickness</b> *フロート* | シェルのThicknessは、内側と外側の両方に適用されます。<br>Thicknessを上げると、シェルが丸められます。<br><br><i>既定値： 0.02</i> |
+| <b>SDF</b> *浮動小数* | 入力されたSDFシェイプ。 |
+| <b>Thickness</b> *浮動小数* | シェルのThicknessは、内側と外側の両方に適用されます。<br>Thicknessを上げると、シェルが丸められます。<br><br><i>既定値： 0.02</i> |

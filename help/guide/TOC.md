@@ -3,7 +3,7 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1905'
 ht-degree: 22%
@@ -181,7 +181,7 @@ ht-degree: 22%
           + [ファー1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fur-1/fur-1.md)
           + [ファー2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fur-2/fur-2.md)
           + [ファー3](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fur-3/fur-3.md)
-          + [ガウス雑音](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)
+          + [ガウスノイズ](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)
           + [ガウス斑1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md)
           + [ガウス斑2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
           + [経年劣化コンクリート](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-concrete/grunge-concrete.md)
@@ -219,9 +219,9 @@ ht-degree: 22%
           + [乱雑な線維2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
           + [乱雑な繊維3](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
           + [顕微鏡像](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/microscope-view/microscope-view.md)
-          + [うるおいノイズ1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
-          + [うるおいノイズ2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
-          + [パーリン雑音](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
+          + [水分ノイズ1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+          + [水分ノイズ2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
+          + [パーリンノイズ](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
           + [血漿](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/plasma/plasma.md)
           + [コースティクス](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/caustics/caustics.md)
           + [ボロノイ](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/voronoi/voronoi.md)
@@ -235,8 +235,8 @@ ht-degree: 22%
           + [3Dボリュームマスク](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md)
           + [肺胞](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/alveolus/alveolus.md)
           + [円弧舗装](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/arc-pavement/arc-pavement.md)
-          + [レンガ1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-1/brick-1.md)
-          + [レンガ2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-2/brick-2.md)
+          + [レンガ 1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-1/brick-1.md)
+          + [レンガ 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-2/brick-2.md)
           + [レンガ発生器](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md)
           + [チェッカー1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/checker-1/checker-1.md)
           + [立方体3D](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)
@@ -255,8 +255,8 @@ ht-degree: 22%
           + [グリッドアトラスカラー](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md)
           + [グリッドアトラスグレースケール](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-grayscale/grid-atlas-grayscale.md)
           + [高さ押し出し](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/height-extrude/height-extrude.md)
-          + [メッシュ1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-1/mesh-1.md)
-          + [メッシュ2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-2/mesh-2.md)
+          + [メッシュ 1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-1/mesh-1.md)
+          + [メッシュ 2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/mesh-2/mesh-2.md)
           + [パノラマシェイプ](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/panorama-shape/panorama-shape.md)
           + [多角形1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md)
           + [多角形2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md)
@@ -405,7 +405,7 @@ ht-degree: 22%
           + [シェイプの線](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
           + [合計面積テーブル](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/summed-area-table/summed-area-table.md)
           + [渦巻き](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/swirl/swirl.md)
-          + [Uberエンボス](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
+          + [Uber エンボス](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
           + [ベクターモーフ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-morph/vector-morph.md)
           + [ベクターワープ](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)
         + 法線マップ{#normal-map}
@@ -430,15 +430,15 @@ ht-degree: 22%
           + [写真を並べて表示](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)
         + 変形{#transforms}
           + [変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
-          + [3Dテクスチャオフセット](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
+          + [3D テクスチャオフセット](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
           + [自動切り抜き](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/auto-crop/auto-crop.md)
           + [デカルトを極座標に](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)
           + [クローン-フィルターノード](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/clone-filter-node/clone-filter-node.md)
-          + [ミラー – フィルタノード](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)
+          + [ミラー – フィルターノード](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)
           + [ノイズアップスケール1](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md)
           + [ノイズアップスケール2](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md)
           + [ノイズアップスケール3](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md)
-          + [非正方形の変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
+          + [非正方形変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
           + [不均等な回転](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-uniform-rotation/non-uniform-rotation.md)
           + [極座標から直交座標](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)
           + [クアッド変形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
@@ -606,9 +606,9 @@ ht-degree: 22%
           + [水平方向の角度補正](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/straighten-horizon/straighten-horizon.md)
       + 値{#values}
         + [定数](/help/compositing-graphs/nodes-reference-for-com/node-library/values/constant.md)
-+ Substance関数グラフ{#substance-function-graphs}
-  + [Substance関数グラフ](/help/function-graphs/function-graphs.md)
-  + [Substance関数グラフとは](/help/function-graphs/what-is-a-function/what-is-a-function.md)
++ Substance機能グラフ{#substance-function-graphs}
+  + [Substance機能グラフ](/help/function-graphs/function-graphs.md)
+  + [Substance機能グラフとは](/help/function-graphs/what-is-a-function/what-is-a-function.md)
   + [関数の作成と編集](/help/function-graphs/create-and-edit-function/create-and-edit-a-function.md)
   + [Substance関数グラフ](/help/function-graphs/the-function-graph/the-function-graph.md)
   + 変数{#variables}
@@ -696,15 +696,15 @@ ht-degree: 22%
           + [マテリアルIDを設定](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
           + [マテリアルを設定](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
           + [カラーを設定](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
-          + [粗さを設定](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
+          + [ラフネスを設定](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
           + [メタネスの設定](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-metalness/set-metalness.md)
       + [カラー](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-color/function-nodes-color.md)
       + ランダム{#random}
         + [ランダム](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [ハッシュ関数](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
-+ 3Dシーンの操作{#working-with-3d-scenes}
-  + [3Dシーンの操作](/help/working-with-3d-scenes/working-with-3d-scenes.md)
-  + [シーンマテリアルをオーバーライドする](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
++ 3D シーンの操作{#working-with-3d-scenes}
+  + [3D シーンの操作](/help/working-with-3d-scenes/working-with-3d-scenes.md)
+  + [マテリアルの上書き](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
   + [マテリアルの価値観とテクスチャを抽出する](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
   + [シーンの書き出し](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + ベイカー{#bakers}
@@ -755,12 +755,12 @@ ht-degree: 22%
   + [グラフのレンダリング時にクラッシュ](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [パラメーターが予期したとおりに機能しない](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [画像出力が正しくない](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [3Dビューの問題](/help/technical-issues/3d-view-issues/3d-view-issues.md)
-  + [ベイク処理の問題](/help/technical-issues/baking-issues/baking-issues.md)
+  + [3D ビュー問題](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [ベイクの問題](/help/technical-issues/baking-issues/baking-issues.md)
   + [ユーザーインターフェイスの問題](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Pythonの問題](/help/technical-issues/python-issues/python-issues.md)
   + [MDL グラフおよびIrayレンダラー機能が見つかりません](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
-  + [Substanceモデルグラフ機能が見つかりません](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
+  + [Substanceモデルグラフの機能がありません](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
 + リリースノート{#release-notes}
   + [リリースノート](/help/release-notes/release-notes.md)
   + [すべての変更](/help/release-notes/all-changes/all-changes.md)
@@ -786,14 +786,14 @@ ht-degree: 22%
     + [バージョン2019.2 - 9.2](/help/release-notes/old-versions/version-2019-2-9-2/version-2019-2-9-2.md)
     + [バージョン2019.1 - 9.1](/help/release-notes/old-versions/version-2019-1-9-1/version-2019-1-9-1.md)
 + 廃止された機能{#retired-features}
-  + MDLグラフ{#mdl-graphs}
-    + [MDLグラフ](/help/mdl-graphs/mdl-graphs.md)
-    + [MDLグラフの主な概念](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
-    + [MDLグラフの作成](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
+  + MDL グラフ{#mdl-graphs}
+    + [MDL グラフ](/help/mdl-graphs/mdl-graphs.md)
+    + [MDL グラフの主な概念](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
+    + [MDL グラフの作成](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
     + [MDLライブラリ](/help/mdl-graphs/mdl-library/mdl-library.md)
-    + [MDLグラフでのパラメータの表示](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
-    + [SubstanceグラフとMDL資料](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
+    + [MDL グラフのパラメーターの表示](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
+    + [グラフとMDL マテリアル](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
     + [MDLコンテンツのエクスポート](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
-    + [MDLグラフの警告](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
+    + [MDL グラフの警告](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
     + [MDL学習リソース](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
   + [Iray](/help/interface/3d-view/iray/iray.md)

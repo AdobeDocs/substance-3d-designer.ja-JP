@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: グラフのファイルサイズを縮小して、パフォーマンスとストレージの要件を最適化するためのガイドラインについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Filesize Reduction Guidelines
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Filesizeの削減ガイドライン
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 1%
-
 ---
-
 
 # 概要
 

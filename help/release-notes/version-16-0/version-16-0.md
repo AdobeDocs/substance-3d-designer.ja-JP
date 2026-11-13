@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Designerバージョン16.0のリリースノートを確認してください。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 16.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: バージョン16.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
-
 ---
-
 
 # バージョン16.0
 
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 散在するシェイプは&#x200B;**3Dオブジェクト**&#x200B;になり、すべてのXYZ軸で移動、回転、拡大・縮小できます。
 
-立方体、球、円柱などの&#x200B;**単純なプリミティブ**&#x200B;を使用するか、*Heightマップの押し出し*&#x200B;または&#x200B;*3D SDFシェイプ*&#x200B;のオーサリングで形成された&#x200B;**複雑なカスタムシェイプ**&#x200B;を使用します。 （詳細は以下を参照）
+立方体、球、円柱などの&#x200B;**単純なプリミティブ**&#x200B;を使用するか、*高さマップの押し出し*&#x200B;または&#x200B;*3D SDFシェイプ*&#x200B;をオーサリングして形成された&#x200B;**複雑なカスタムシェイプ**&#x200B;を使用します。 （詳細は以下を参照）
 
 これにより、よりダイナミックで変化に富み、全体的に信頼できるスキャッターが実現します。 さらに、3Dシェイプを反転して、バリエーション用に再利用できるようになりました。 （環境アーティストの皆さん）
 
@@ -75,10 +73,10 @@ ht-degree: 0%
 
 Shape splatter v1ファミリのノードと同様に、Shape splatter v2にはコンパニオンノードの独自のコホートが付属しています。
 
-[シェイプスプラッタv2マッパー](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md)のノードでは、複数のテクスチャをマッピングするための&#x200B;*3平面投影*&#x200B;および&#x200B;*マテリアルID*&#x200B;をサポートすることで、散乱した3Dシェイプにテクスチャを投影できます。 結果は、テクスチャのオフセットとカラーバリエーションについて、グローバルにまたはシェイプごとに調整できます。\
+[シェイプスプラッタv2マッパー](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md)のノードでは、複数のテクスチャをマッピングするための&#x200B;*トライプラナー投影*&#x200B;および&#x200B;*マテリアル ID*&#x200B;をサポートすることで、散乱された3D図形にテクスチャを投影できます。 結果は、テクスチャオフセットとカラーバリエーションについて、グローバルにまたはシェイプごとに調整できます。\
 上級ユーザーは、関数グラフで定義された&#x200B;*カスタムテクスチャマッピング*&#x200B;をセットアップできます。
 
-[シェイプスプラッターv2 to mask](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)は、特定のシェイプやマテリアルIDの選択用のマスクを作成し、グラフの下流でシェイプをより細かく使用できるようにします。
+[シェイプスプラッターv2 to mask](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)は、特定のシェイプやマテリアル IDの選択範囲に対してマスクを作成し、グラフの下流でシェイプをより細かく使用できるようにします。
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
@@ -89,7 +87,7 @@ Shape splatter v1ファミリのノードと同様に、Shape splatter v2には�
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="シェイプスプラッタv2カラーマッパー：法線マッピング" /><br><i>通常のマッピング</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="シェイプスプラッタv2カラーマッパ： SDFシェイプからマテリアルIDごとにマッピング" /><br><i>SDFシェイプからマテリアルIDごとにマッピング</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="Shape splatter v2カラーマッパー： SDFシェイプからマテリアル IDごとにマッピング" /><br><i>SDFシェイプからマテリアル IDごとにマッピング</i>
         </td>
     </tr>
 </table>
@@ -109,12 +107,12 @@ Shape splatter v1ファミリのノードと同様に、Shape splatter v2には�
 
 <a name="3d-sdf-nodes"></a>
 
-### 材料サンプル
+### マテリアルサンプル
 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p><b>錆びたボルト</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材料サンプル</a>は、ノードの形状スプラッタv2ファミリーとその特徴をジャンプするために使用できます。</p><p>グラフの構造、ノード設定、およびテクニックをガイドするために、グラフが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2ツールセットをより実践的に理解することができます。 サンプルグラフは好きなだけ作れるので、自由に試してみてください。</p>
+            <p><b>錆びたボルト</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">マテリアルサンプル</a>は、ノードのShapeスプラッタv2ファミリとその特徴をジャンプするために使用できます。</p><p>グラフの構造、ノード設定、およびテクニックをガイドするように、ノードが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2ツールセットをより実践的に理解することができます。 サンプルグラフは好きなだけ作れるので、自由に試してみてください。</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
             <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
@@ -195,7 +193,7 @@ SDF 関数には、次の4つのカテゴリに分類される[新しいノー�
 
 <img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Substance 3D DesignerでのOpenPBRのサポートと他のDCCとの比較" />
 
-新しいグラフテンプレートを使用して、広く採用されているこの業界標準の作業を開始しましょう。または、OpenPBRに基づいて組み込まれているマテリアルサンプルを確認しましょう。
+新しいグラフテンプレートを使用して、広く採用されているこの業界標準の使用を開始するか、OpenPBRに基づいて組み込みのマテリアルサンプルを確認してください。
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
@@ -203,47 +201,47 @@ SDF 関数には、次の4つのカテゴリに分類される[新しいノー�
             <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBRテンプレート" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="OpenPBR素材のサンプル" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="マテリアルサンプル" />
         </td>
     </tr>
 </table>
 
-OpenPBRシェーダが3Dビューのデフォルトになり、従来のPBRの使用をOpenPBRに一致させることで、以前のバージョンのグラフをネイティブにサポートするようになりました。
+シェーダーがOpenPBRのデフォルトになり、従来のPBRの使用を3D ビューの使用に一致させることで、以前のバージョンのグラフがネイティブにサポートされるようになりました。
 
 OpenPBRシェーダは、薄膜や薄壁などの既存のシェーダよりも多くのエフェクトをサポートしています。 ラスタライズ（ラスタライザー、OpenGL）ではすべてのエフェクトを使用でき、長い時間での屈折も可能です。
 
 <table style="border: none;">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            また、3Dビューで表示されるグラフがそのグラフのマテリアルモデルに適切なシェーダを使用するように、Substanceグラフに新しい<a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'マテリアルモデル'アトリビュート</a>を使用することで、特定のシェーダに関連するワークフローを同期させる方が簡単です。
+            また、3D ビューに表示されるグラフがそのグラフのマテリアルモデルに適したシェーダーを確実に使用するように、Substanceグラフ用に新しい<a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'マテリアルモデル'属性</a>を使用して、特定のシェーダが関与するワークフローを同期させておく方法も簡単です。
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR素材のサンプル" />
+            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="マテリアルサンプル" />
         </td>
     </tr>
 </table>
 
 >[!NOTE]
 > 
->この属性は、公開されたSBSARファイルにも含まれており、マテリアルワークフローに統合されます。
+>この属性は、公開されたSBSARファイルにも含まれており、マテリアルワークフローに組み込むことができます。
 
 <a name="displacement-popup"></a>
 
-## 3Dビューのディスプレイスメントコントロール
+## 3D ビューのディスプレイスメントコントロール
 
-3Dビューツールバーの[新しいディスプレイスメントポップアップ](../../interface/3d-view/displacement/displacement.md)から直接アクセスできるため、3Dビューでのディスプレイスメントとテッセレーションをより迅速かつ簡単に調整できるようになりました。
+3D ビューのディスプレイスメントとテセレーションを簡単に調整できるようになりました。[3D ビュー]ツールバーの[新しいディスプレイスメントポップアップ](../../interface/3d-view/displacement/displacement.md)から、直接アクセスできます。
 
-マテリアルプロパティとレンダラーの設定を何度も繰り返さずに、**Heightスケール**、**Heightレベル**&#x200B;および&#x200B;**テッセレーション**&#x200B;の値を調整します。
+マテリアルのプロパティとレンダラーの設定を何度も繰り返さずに、**Heightスケール**、**Heightレベル**&#x200B;および&#x200B;**テセレーション**&#x200B;の値を調整します。
 
 これらのコントロールは、新しいレンダラー（ラスタライザー、GPU パストレーサー）とOpenGLレンダラーの両方で使用できます。
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3Dビューのディスプレイスメントポップアップ" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D ビューのディスプレイスメントポップアップ" />
 
-シーンに複数のマテリアルが含まれている場合は、<code>Shiftキーを押しながら、事前に調整するシーンのオブジェクトを選択します</code> をクリックするか（ラスタライザとGPU パストレーサーのみ）、Scene Browserで選択します。
+シーンに複数のマテリアルが含まれている場合は、<code>Shiftキーを押しながら、事前に調整するシーンのオブジェクトを選択します</code> をクリックするか（ラスタライズおよびGPU パストレーサーのみ）、シーン一覧で選択します。
 
 >[!NOTE]
 > 
->テッセレーションは、ラスタライズとGPU パストレーサーではオブジェクト単位&#x200B;*で*、OpenGLではマテリアル単位&#x200B;*で*&#x200B;です。
+>テセレーションは、ラスタライザーとGPU パストレーサーではオブジェクトあたり&#x200B;**、OpenGLではマテリアルあたり&#x200B;**&#x200B;です。
 
 <a name="other-changes"></a>
 
@@ -254,25 +252,25 @@ OpenPBRシェーダは、薄膜や薄壁などの既存のシェーダよりも�
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            <p>Substanceグラフの定数値に簡単にアクセスできるように、各型の単純な値を生成するための<a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">新しいノード</a>が追加されました。</p><p>ライブラリの<b>値/定数</b>セクションで、これらすべての値を確認できます。</p>
+            <p>グラフの定数値に簡単にアクセスできるように、各型の単純な値を生成するための<a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">新しいノード</a>が追加されました。</p><p>ライブラリの<b>値/定数</b>セクションで、これらすべての値を確認できます。</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="定数&apos;Float&apos;ノード" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="定数&apos;浮動小数&apos;ノード" />
         </td>
     </tr>
 </table>
 
-### MDLグラフとRayの提供終了
+### MDL グラフとIrayの提供の終了
 
-15.1リリースで通知されたように、MDLグラフ機能セットとIrayレンダラーは、Designerから削除されました。\
+15.1リリースで通知されたように、MDL グラフ機能セットとIrayレンダラーは、Designerから削除されました。\
 社内GPU パストレーサーは、Designerで高品質のフォトリアリスティックレンダリングを行う際に最適なレンダラーです。
 
-Designerは、MDLから離れ、広くサポートされている互換可能なマテリアル定義のシェーディング言語としてMaterialXを選択するようになりました。\
-MaterialXは、コンピューターグラフィックス業界で急速に注目を集めており、DCCやレンダラー全体で完全なシーンポータビリティを実現するためにUSDファイルで携帯することができます。
+Designerは、MDLから離れ、広くサポートされている互換可能なマテリアル定義のシェーディング言語として、MaterialXを選択するようになりました。\
+MaterialXは、コンピューターグラフィックス業界で急速に注目を集めており、USDファイルを使用してDCCやレンダラー全体で完全なシーン移植性を実現できます。
 
 >[!NOTE]
 > 
->MDLグラフとIrayレンダラーのドキュメントは、[専用のサポート終了ページ](../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)から利用できます。
+>MDL グラフとIrayレンダラーのドキュメントは、[専用のサポート終了ページ](../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)から利用できます。
 
 ### VFXプラットフォームのアップグレードとmacOSの最小バージョン
 
@@ -354,30 +352,30 @@ MaterialXは、コンピューターグラフィックス業界で急速に注�
 * [3D書き出し] Designerから書き出したメッシュがusdviewで同じようにレンダリングされない
 * [3D ビュー] 3D ビューにudim以外の要素を割り当てると、シングルタイルレンダリングモードのままになります
 * [3D ビュー] OCIOを使用した場合のクランプ結果
-* [3Dビュー]特定のシーンでオーバーライドされていないマテリアルにグラフテクスチャを適用するとクラッシュする
-* [3Dビュー]フレームバッファを作成するとクラッシュする
-* [3Dビュー] Eclair GPU パストレーサー：壊れたジオメトリで、特定のモデルをレンダリングするとパフォーマンスが低下する
-* [3Dビュー]特定のシーンのテクスチャ変換が正しくない
-* [3Dビュー]固定レンダリング解像度を使用すると、シーン/選択のフレーミングに一貫性がない
-* [3Dビュー]特定のGLTFファイルをレンダリングすると、拡散反射光カラーが正しく表示されない
-* [3Dビュー]特定の状況でレンダラーを切り替える場合に非表示になる環境
-* [3Dビュー]一部の.fbxファイルを読み込むと、マテリアルが正しく検出されない
-* [3Dビュー]マテリアルを複数回上書きすると、タイルが1にリセットされる
-* [3Dビュー] 「UV」カテゴリのプロパティがSBSSCNファイルに保存されない
-* [3Dビュー]単一出力グラフから「3Dビューで出力をリセットして表示」を選択しても、マテリアルがリセットされない
-* [3Dビュー] &#39;レンダリングを保存&#39;：編集したイメージ形式は保持されません
-* [3Dビュー] AMD GPUで選択が機能しない
-* [3Dビュー]ディスク上で修正しても、自己完結型の3Dシーンが更新されない
-* [3Dビュー]上書きすると、一部のカラーマテリアルプロパティが正しくカラーマネジメントされない
-* [3Dビュー]特定のメッシュにUDIMテクスチャが正しく適用されない
-* [3Dビュー] MaterialXマテリアルを含むUSDシーンが正しくレンダリングされない
-* [ベイカー]一部のメッシュでクラッシュする
-* [ベイカー]テクスチャ転送：bkBufferViewCopyでクラッシュする
+* [3D ビュー]特定のシーンについて上書きされていないマテリアルにグラフテクスチャを適用すると、クラッシュが発生する
+* [3D ビュー] フレームバッファー作成時のクラッシュ
+* [3D ビュー] Eclair GPU パストレーサー：特定のモデルをレンダリングすると、ジオメトリが壊れてパフォーマンスが低下する
+* [3D ビュー]特定のシーンのテクスチャ変換が正しくない
+* [3D ビュー]固定レンダリング解像度を使用すると、シーン/選択範囲のフレーミングに一貫性がない
+* [3D ビュー]特定のGLTFファイルをレンダリングすると、拡散反射光カラーが正しく表示されない
+* [3D ビュー]特定のケースでレンダラーを切り替える場合に見えない環境
+* [3D ビュー]一部の.fbxファイルを読み込むと、マテリアルが正しく検出されない
+* [3D ビュー] マテリアルを複数回上書きすると、タイリングが1にリセットされる
+* [3D ビュー] &#39;UVs&#39;カテゴリのプロパティがSBSSCNファイルに保存されません
+* [3D ビュー] 1つの出力グラフからの「3Dビューで出力をリセットおよびビュー」で、マテリアルがリセットされない
+* [3D ビュー] &#39;レンダリングを保存&#39;：編集したイメージフォーマットは保存されません
+* [3D ビュー] AMD GPUで選択が機能しない
+* [3D ビュー]ディスク上で変更すると、自己完結型の3D シーンが更新されない
+* [3D ビュー]上書きすると、一部のカラーマテリアルプロパティが正しくカラーマネジメントされない
+* [3D ビュー]特定のメッシュでUDIMテクスチャが正しく適用されない
+* [3D ビュー] MaterialX マテリアルを使用したUSD シーンが正しくレンダリングされない
+* [ベイカー]一部のメッシュのクラッシュ
+* [ベイカー] テクスチャ転送： bkBufferViewCopyのクラッシュ
 * [Cooker]防止できるケースでWhileループノードに無限ループが発生する
-* [Engine]アプリケーションの終了時にSubstanceエンジンを停止する
-* [一般]アプリケーション終了時のランダムなクラッシュを回避する（Windowsのみ）
-* [グラフ]関数グラフ：特定の状況で型の伝達が正しく機能しない
-* [グラフ]画像入力ノードの名前を変更すると、グラフリンクが削除される
+* [エンジン]アプリケーションを閉じるときにSubstanceエンジンを停止する
+* [一般]アプリケーション終了時にランダムなクラッシュを避ける（Windowsのみ）
+* [グラフ]関数のグラフ：特定の状況で、型の伝達が正しく機能しない
+* [グラフ]イメージ入力ノードの名前を変更すると、グラフリンクが削除される
 * [グラフ]リンクとピンに斑点が表示されることがある
 * [環境設定] 「ビューポートの拡大・縮小」が反転される
 * [プロパティ]インスタンスパラメータを表示しているときにグラフ入力ツイークを修正すると、クラッシュが発生する

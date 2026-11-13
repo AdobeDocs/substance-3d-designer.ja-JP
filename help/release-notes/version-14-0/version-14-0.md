@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-0.html"
-breadcrumb-title: ''
-description: 新しいノード、グラフナビゲーション、パフォーマンスの向上については、 Substance 3D Designerバージョン14.0のリリースノートを参照してください。
+breadcrumb-title: ""
+description: 新しいノード、グラフナビゲーション、パフォーマンスの向上については、 Substance 3D Designerバージョン14.0のリリースノートを確認してください。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 14.0
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: バージョン 14.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
-
 ---
-
 
 # バージョン 14.0
 
@@ -38,29 +36,29 @@ ht-degree: 0%
 
 * <b>桑原フィルター</b> ：さらにスタイルを適用する場合は、[桑原カラー異方性](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[グレースケール](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)フィルターを使用して絵画調の効果を生み出すことができます。 ディテールでは、画像のディテールに合わせた異方性指向性ブラーを適用します。 その結果、画像は内側のシェイプの方向に流れているように見えます。
 
-これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize_jp)で説明しています。 このガイドを使用して、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法を説明します。
+これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize_jp)で説明しています。 このチュートリアルでは、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法について説明します。
 
 その他の強力なノードがパーティに参加します。
 
 * [<b>曲率のスムーズ</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) ：この新しいバージョンでは、すべてのタイリングモードが正しくサポートされ、2つの新しい出力（凸状と凹状）が追加され、精度と性能の両方が向上しました。
-* <b>[Histogram equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b>このノードは、等分布になるように値を調整することで、グレースケールイメージのヒストグラムを等化します。 このノードには、画像のヒストグラムを出力する[ヒストグラムレンダリング](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)と[ヒストグラム計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b>という2つの関連ノードが付属しています </b>ヒストグラムをピクセルの行としてエンコードします。
+* <b>[Histogram equalize](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b>このノードは、等分布を得るために値を調整することにより、グレースケールイメージのヒストグラムを均等にします。 このノードには、画像のヒストグラムを出力する[ヒストグラムレンダリング](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)と[ヒストグラム計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b>という2つの関連ノードが付属しています </b>ヒストグラムをピクセルの行としてエンコードします。
 * <b>[ベベルスムーズ](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b>この機能により、マスクの境界線（外側、内側、または両方）からグラデーションまたはフラットカラーを描くことができます。 ノード[方向の距離](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>グラデーションも描画しますが、特定の方向に描画します。
-* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b>このノードは、[Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)ノードの反対であり、Heightマップによって記述された表面の詳細を法線マップから削除します。
+* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b>このノードは、[Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)ノードの反対であり、高さマップによって記述されたサーフェスの詳細を法線マップから削除します。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-曲線スムーズ
+曲率スムーズ
 
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="曲率_スムーズ_例_1_before">
       <br><i>前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="曲率_スムーズ_サンプル_1_after">
       <br><i>後</i>
     </td>
   </tr>
@@ -131,15 +129,15 @@ ht-degree: 0%
 
 ## QOLの改善
 
-* 大きなプロジェクトで作業するときの<b>パフォーマンス</b>および<b>応答性</b>が向上しました。 たとえば、ノードの削除は最大で75倍高速です。 同じビットマップを数回参照するグラフの場合、[クッキング](../../glossary/glossary.md)時間も短縮されました。
+* 大きなプロジェクトで作業するときの<b>パフォーマンス</b>および<b>応答性</b>が向上しました。 たとえば、ノードの削除は最大で75倍高速です。 同じビットマップを複数回参照するグラフの[クッキング](../../glossary/glossary.md)時間も短縮されました。
 * <b>継承されたパラメーター</b>:パラメーターが[継承](../../glossary/glossary.md)の場合、既定値を表示する代わりに、継承されたパラメーターを表示して、現在使用されている値を確認できるようにします。 継承について詳しくは、[アドビのドキュメントのこの専用ページ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)をご覧ください。
-* macOSでの<b>トラックパッドのサポート</b>は、他のソフトウェアに合わせて、より自然になるように完全に修正されました。 [グラフビュー](../../interface/the-graph-view/the-graph-view.md)の境界を超えるノードの移動も、すべてのオペレーティングシステムでスムーズで一貫性を保つために再検討されました。
+* macOSでの<b>トラックパッドのサポート</b>は、他のソフトウェアに合わせて、より自然になるように完全に修正されました。 [グラフビュー](../../interface/the-graph-view/the-graph-view.md)の境界を越えるノードの移動も、すべてのオペレーティングシステムでスムーズで一貫性を保つために再検討されました。
 
-* <b>2Dビュー： </b>[2Dビュー](../../interface/2d-view/2d-view.md)でタイル表示が有効になっている場合、元のタイルにないピクセルについても値を取得できるようになりました。タイル間で[サンプリング](../../glossary/glossary.md)および値のトランジションを確認する場合に非常に役立ちます。
+* <b>2D ビュー: </b>[2D ビュー](../../interface/2d-view/2d-view.md)でタイル表示が有効になっている場合、元のタイルにないピクセルについても値を取得できるようになりました。タイル間で[サンプリング](../../glossary/glossary.md)や値の変化を確認することは非常に役立ちます。
 
 ![2dビュー](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
-* <b>グラデーションマップ</b>:マウスの中クリックを使用して、すべての[グラデーションキー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)を左または右に移動します（すべてのキー間のすべてのギャップを保持します）。
+* <b>グラデーションマップ</b>:マウスの中クリックを使用して、すべての[グラデーションキー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)を左または右に移動します（すべてのキーの間のすべてのギャップを保持します）。
 * <b>パラメーター</b>:パラメーターを使用してカスタム関数を挿入するために、関数の編集ウィジェットを使用できるようになりました。 これは、[Substance関数グラフ](../../function-graphs/the-function-graph/the-function-graph.md)を使用してパラメーターを操作するカスタムツールを作成するための強力なソリューションです。
 
 <table>
@@ -162,9 +160,9 @@ ht-degree: 0%
 スクリプトAPIには、次の4つの新しいメソッドが含まれています。
 
 * Substance合成グラフのグラフ型を取得・設定するメソッド： myGraph.setGraphType(&quot;newType&quot;) ; myGraph.getGraphType()
-* エディタでパッケージリソースを開くメソッド（例：グラフビューのSubstanceグラフ）: myUIManager.openResourceInEditor(myResource)
-* エクスプローラーでパッケージリソースを選択するメソッド（例：Substanceグラフ）: myUIManager.setExplorerSelection(myResource)
-* グラフビューで特定のノードをフレーム化するメソッド： myUIManager.focusGraphNode(myGraphViewID, myNode)
+* エディタ（グラフビュー内のSubstanceグラフなど）でパッケージリソースを開くメソッド： myUIManager.openResourceInEditor(myResource)
+* エクスプローラー内のパッケージリソース（例：Substanceグラフ）を選択するメソッド：myUIManager.setExplorerSelection(myResource)
+* グラフビュー内の特定のノードをフレームするメソッド： myUIManager.focusGraphNode(myGraphViewID, myNode)
 
 ## VFXプラットフォームの要件
 
@@ -185,39 +183,39 @@ ht-degree: 0%
 
 * [コンテンツ]新しい異方性桑原フィルタ
 * [コンテンツ]新規ベベルスムーズノード
-* [コンテンツ]新規曲線スムーズv2ノード
+* [コンテンツ]新規曲率スムーズv2ノード
 * [コンテンツ]新規方向の距離ノード
 * [コンテンツ]新しいヒストグラムツール：計算、イコライズ、レンダリング
 * [コンテンツ]マスクノードへの新しいID
 * [コンテンツ]新しい[法線の結合解除]ノード
 * [コンテンツ]新しいパレットノード：作成、適用、修正、表示
 * [コンテンツ]新規クオンタイズカラーノード
-* [コンテンツ]不均一な方向ワープ： [強度マップ]の既定値を1に設定します。
+* [コンテンツ]均一でない指向性ワープ: [強度マップの既定値]を1に設定します。
 * [コンテンツ]これらのバージョンのすべてのノードラベルに&#39;Color&#39;または&#39;Grayscale&#39;サフィックスを追加します
-* [コンテンツ] 「ホワイトノイズ」を廃止「ホワイトノイズを高速にする」のみを維持する
-* [コンテンツ] Substance関数グラフで「Negate Float1」ノードを廃止する
+* [コンテンツ] 「ホワイトノイズ」を廃止「ホワイトノイズ」のみを維持「高速」にする
+* [コンテンツ] Substance関数グラフで「Negate 浮動小数1」ノードを廃止する
 * [コンテンツ] 「カラーを量子化」の名前を「カラーを量子化（シンプル）」に変更
-* [2Dビュー] 0 ～ 1の範囲外のピクセルの値が情報パネルに表示される
-* [Engine]&#x200B;[Text]一部のフォントの新しいカーニング
-* [グラフ]インコンテキスト編集中にディープサブグラフを編集する際の無効化時間を短縮
+* [2D ビュー] 0 ～ 1の範囲外のピクセルの値を情報パネルに表示する
+* [エンジン]&#x200B;[テキスト]一部のフォントの新しいカーニング
+* [グラフ]インコンテキスト編集の使用時に、詳細なサブグラフを編集する際の無効化時間を短縮しました
 * [リンカー] SBSASMでビットマップを複製しない
-* [パラメーター]すべての入力パラメータータイプに新しい「関数」ウィジェットを追加します
+* [パラメーター]すべての入力パラメータータイプに新しい「関数」ウィジェットを追加
 * [プロパティ]継承されたパラメータの表示を改善します
 * [UX]トラックパッドのサポートの強化（Macのみ）
-* [UX]選択時にグラフの境界線に達した場合のパンの最新化
+* [UX]選択時にグラフの境界に達した場合のパニングの最新化
 * [UX] 「高DPIを無効にする」機能の削除
 * [ブランディング]スプラッシュ画面と「バージョン情報」ウィンドウの新しいブランディング
-* [グラデーションマップ]すべてのキーとループをシフトする方法を追加する
+* [グラデーションマップ]すべてのキーをシフトしてループさせる方法を追加する
 * [ライブラリ]すべてのデフォルトフィルターを文頭のみ大文字に切り替え
-* [API]グラフビュービューポートで特定のノードをフレームするメソッドを追加する
-* [API]パッケージリソースをエディタ（グラフビューのSubstanceグラフなど）で開くメソッドを追加する
-* [API] Addメソッドを使用して、エクスプローラーでパッケージリソース（Substanceグラフなど）を選択します。
-* [API] Substance合成グラフのグラフ型を取得・設定するメソッドを追加する
+* [API] ビューポートで特定のノードをフレームするAddメソッド
+* [API]パッケージリソースをエディタ（グラフビュー内のSubstanceグラフなど）で開くためのメソッドを追加する
+* [API] エクスプローラー内のパッケージリソース（Substanceグラフなど）を選択する場合は、 Addメソッドを使用します。
+* [API] Substance合成グラフのグラフ型を取得、設定するメソッドを追加する
 * [サードパーティ] 2023年のVFXプラットフォームの推奨事項に従う
 * [サードパーティ] 2024年のVFXプラットフォームの推奨事項に従う
-* [サードパーティ] 23.08に1.82.0米ドルを追加したアップデート
+* [サードパーティ] 1.82.0にアップデートし、USDを23.08にアップデート
 * [サードパーティ] NGLを1.38にアップデート
-* [サードパーティ] OpenColorIOを2.3.xに更新
+* [サードパーティ] OpenColorIOを2.3.xにアップデート
 * [サードパーティ] OpenExrを3.2.xにアップデートする
 * [サードパーティ] OpenSubdivを3.6.xに更新する
 * [サードパーティ] Pythonを3.11.xにアップデートする
@@ -229,22 +227,22 @@ ht-degree: 0%
 
 ### 修正
 
-* [ベイカー]ファイル名が変更されたシーンを再ベイク処理するとクラッシュする
-* [ベイカー]ベイカープリセットをJSONファイルに保存するとクラッシュする
-* [コンテンツ] &#39;スプライン上の散乱&#39;：入力画像のアルファパラメーターを公開します
+* [ベイカー]ファイル名が変更されたシーンを再ベイクするときのクラッシュ
+* [ベイカー] ベイカープリセットをJSON ファイルに保存するとクラッシュが発生する
+* [コンテンツ] &#39;スプライン上の散乱&#39;: 入力画像アルファパラメータを表示
 * [コンテンツ] &#39;タイルSamplerの色&#39;: visibleif式がありません
-* [コンテンツ]異方性反射ノイズ： [X/Y量]の負の値が間違った結果を生成する
-* [コンテンツ]異方性雑音：奇数の値をX量として使用し、Smoothnessを使用しない場合のタイリングの問題
+* [コンテンツ]異方性反射ノイズ: [X/Y量]の負の値が正しくない結果を生成する
+* [コンテンツ]異方性ノイズ：奇数の値をX量として使用し、Smoothnessを使用しない場合のタイリングの問題
 * [コンテンツ]通常の分布関数：max()の配置が正しくないと、NaNが発生する可能性があります
 * [コンテンツ]一部のプラットフォームで、RTO、曲がった法線、RTシャドウが正しく動作しない
-* [コンテンツ]シェイプスプラッタのブレンドカラー： OpenGL法線マップが正しくブレンドされない
+* [コンテンツ]シェイプスプラッタブレンドの色： OpenGL 法線マップが正しくブレンドされない
 * [コンテンツ]ノードラベル内の&#39;Multi&#39;プレフィックスの後に不適切なスペースがあります
-* [依存関係]パッケージ内またはパッケージ間でグラフを移動するとクラッシュする
+* パッケージ内またはパッケージ間でグラフを移動するときに[Dependencies] クラッシュが発生する
 * [エンジン]ワープノードの精度エラーが勾配ぼかしノードに影響する
 * [エンジン] 2 GBを超えるSBSASMコンテンツがある場合、SDのSBSARレイヤーでSBSARを読み取れない
 * [関数グラフ] 0^nの結果が正しくありません
-* [グラフ] &#39;表示ノードサイズ&#39;オプションのラベルが正しくない
-* [グラフ]親のあるコメントを別のグラフにコピーするとクラッシュする
+* [グラフ] &#39;Display node size&#39;オプションのラベルが正しくありません
+* 親のあるコメントを別のグラフにコピーすると、[グラフ]クラッシュが発生する
 * [グラフ] Altキーを押しながらドットノードをドラッグするとフリーズする
 * [グラフ]ノード検索で明白な一致が見落とされる場合がある
 * [グラフ]スーパーグラフを開いた状態で関数グラフを複数回編集すると、パフォーマンスの問題が発生する
@@ -252,11 +250,11 @@ ht-degree: 0%
 * [セキュリティ] ICO解析の領域外メモリーへの書き込みの脆弱性
 * [セキュリティ]未使用の画像形式を廃止する
 * [パラメータ]ビットマップPKGリソースパスは編集できません
-* [パラメーター]値プロセッサーのパラメーターの公開/バッチ公開に関連する問題を修正します
-* [パラメーター]バッチ公開では文字列パラメーターは無視されます
+* [パラメーター] バリュープロセッサーのパラメーターの表示/バッチ表示に関連する問題を修正します
+* [Parameters]バッチ表示時に文字列パラメーターが無視される
 * [プロパティ]プロパティを開いた状態で関数グラフを複数回編集すると、パフォーマンスの問題が発生する
 * [SVG]ラスタライズした画像でシェイプの編集が適用されない
 * [UI]スクロール可能なウィジェットに関するいくつかのバグ/矛盾を修正しました（Windowsのみ）
-* [UI]読み込み/書き出しリストの3Dシーンファイル形式の順序が一致しない
+* [UI]読み込み/書き出しリストの3D シーンファイル形式の順序が一貫しない
 * [UI]ウィンドウのアクションがUIに複製される
-* [バージョン管理] &#39;perforce.py&#39;スクリプトがPython 3で動作しません
+* [バージョン管理] &#39;perforce.py&#39;スクリプトがPython 3で動作しない

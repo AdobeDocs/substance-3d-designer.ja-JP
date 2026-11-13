@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: Substance 3D Designerでプロシージャルマテリアルを作成する場合の基本的なワークフローについて説明します。
+description: Substance 3D Designerでプロシージャルマテリアルを最初から最後まで作成するための基本的なワークフローについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ワークフローの概要
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェ�
 
 グラフインスタンスの詳細については、[Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)での使用に関する[専用セクション](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)があります。
 
-![グラフのパラメーターを簡易化](workflow-overview.resources/parameters-5.png "グラフのパラメーターを簡易化"){zoomable="yes"}
+![簡略化されたグラフパラメーター](workflow-overview.resources/parameters-5.png "簡略化されたグラフパラメーター"){zoomable="yes"}
 
 ## カスタムパラメーター
 

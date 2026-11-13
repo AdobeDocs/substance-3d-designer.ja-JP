@@ -1,13 +1,11 @@
 ---
 title: マテリアルIDを設定
-description: SDFシーンのマテリアルIDを設定します。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+description: SDF シーンのマテリアル IDを設定します。
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 2%
-
 ---
-
 
 # マテリアルIDを設定
 
@@ -17,14 +15,14 @@ ht-degree: 2%
 
 ![マテリアル IDの設定アイコン](set-id.png "マテリアル IDの設定")
 
-<b>In:</b> 3D関数>マテリアル
+<b>In:</b> 3D関数> マテリアル
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 説明
 
-SDFシーンのマテリアルIDを設定します。
+SDF シーンのマテリアル IDを設定します。
 
 この値は、[Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)の&#x200B;*Splatter UVW*&#x200B;出力で、スプラッタされたすべてのSDFシェイプについて取得できます。
 
@@ -40,7 +38,7 @@ SDFシーンのマテリアルIDを設定します。
 
 |                          |                        |
 |--------------------------|------------------------|
-| <b>SDFシーン</b> *フロート* | 入力SDF シーン。 |
+| <b>SDF シーン</b> *浮動小数* | 入力SDF シーン。 |
 | <b>ID</b> *整数* | 設定する整数 ID。 |
 
 

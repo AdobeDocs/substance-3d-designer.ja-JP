@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
-breadcrumb-title: ''
-description: パスとスプラインツールを操作して、グラフに手続き型のパターンとオーガニックなシェイプを作成する方法について説明します。
+breadcrumb-title: ""
+description: パスとスプラインツールを操作して、グラフにプロシージャルパターンやオーガニックなシェイプを作成する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: パススプラインツールの操作
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
-
 ---
-
 
 # パスとスプラインツールの操作
 
@@ -28,7 +26,7 @@ ht-degree: 0%
 
 <b>パス</b>は、直線に接続された一連のポイントです。
 
-<b>スプライン</b>は、制御点とそれらの点の接線によって軌道が形成される滑らかな曲線です。\
+<b>スプライン</b>は、制御点とそれらの点の正接によって軌道が形成される滑らかな曲線です。\
 各点は、イメージのマッピング、ワープ、およびスキャタリングを制御するために使用されるスプラインのHeightとThicknessアトリビュートも制御します。
 
 それぞれ、閉じたシェイプや開いたシェイプを作成できます。
@@ -41,7 +39,7 @@ ht-degree: 0%
 
 ノードは、パスとスプラインを表す<b>エンコードされたデータ</b>を含む画像を出力します。
 
-例えば、右側の画像は、[Paths Polygon](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)ノードによって出力された画像を表しています。
+例えば、右側の画像は、[Paths Polygon](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)ノードによる出力画像を表しています。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -52,7 +50,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-そのため、彼らが作り出す画像はグラフィック要素として直接使用することはできません。 ツールセット内の他のノードで処理してグラフィック結果に変換し、Substanceグラフに使用できるその他のノードで使用できるようにする必要があります。
+そのため、彼らが作り出す画像はグラフィック要素として直接使用することはできません。 ツールセット内の他のノードで処理し、グラフィック結果に変換して、グラフに使用できる残りのノードで使用できるようにする必要があります。
 
 パスとスプラインを操作しながら、パス用の専用[パスのプレビュー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)ノードと、スプライン用の専用<b>プレビュー</b>出力を使用して、画像にマッピングされたこれらのオブジェクトをプレビューできます。
 
@@ -60,16 +58,16 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### 2D表示の操作
+### 2D ビュー相互作用
 
-ツールセットのノードの数が非常に多いため、コントロールギズモを使用して[2Dビュー](../../../../../interface/2d-view/2d-view.md)で直接編集を行うことができます。 これらのギズモには、位置ギズモおよび変換マトリックスが含まれる。
+ツールセットのノードの数が非常に多いため、コントロールギズモを使用して[2D ビュー](../../../../../interface/2d-view/2d-view.md)で直接編集を行うことができます。 これらのギズモには、位置ギズモおよび変換マトリックスが含まれる。
 
-たとえば、[スプライン（3次）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)や[スプライン（多角形）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)などのスプライン生成ノードを使用すると、スプラインの制御点を移動できます。 パスの場合、[パスのクワッド変換](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)を選択すると、同様のコントロールが表示されます。
+たとえば、[スプライン（3次）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)や[スプライン（多角形）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)などのスプライン生成ノードを使用すると、スプラインの制御点を移動できます。 パスの場合、[パスのクアッド変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)を選択すると、同様のコントロールが表示されます。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![2Dビューの3次スプライン](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "2Dビューの3次スプライン")
+![2D ビューの3次スプライン](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "2D ビューの3次スプライン")
 
 </td>
 </tr>
@@ -77,12 +75,12 @@ ht-degree: 0%
 
 ### Performance
 
-パスとスプラインツールは集中的な計算を必要とするため、ツールセットを使用する際には、最高のパフォーマンスと応答性を確保するために、次のいくつかの設定に注意する必要があります。
+パスとスプラインツールには負荷の高い計算が必要なため、ツールセットを操作する際には、最高のパフォーマンスと応答性を得られるよう、いくつかの設定を忘れないようにしてください。
 
-1. ツールセットは、GPU上で高速に実行される<b>Substance engine</b>機能を幅広く利用します。 そのため、次のシステムに対応するエンジンのGPUバージョンを使用してください： <b>Direct3D</b> (Windows)または<b>OpenGL</b> (macOS)。\
+1. ツールセットは、GPU上で高速に実行される<b>Substance engine</b>機能を幅広く利用します。 したがって、お使いのシステムのエンジンのGPUバージョンを使用してください： <b>Direct3D</b> (Windows)または<b>OpenGL</b> (macOS)。\
    エンジンを切り替えるには、<b>F9</b>キーを押すか、メインメニューバーの<b>ツール/エンジンを切り替え…</b>に移動します。
-1. その場合は、[環境設定](../../../../../interface/preferences-window/preferences-window.md)の<b>グラフ</b>セクションで<b>コンテキスト編集</b>をオフにすることを強くお勧めします（このウィンドウにアクセスするには、メインメニューバーの<b>編集/環境設定…</b>に移動します）。\
-   コンテキスト内編集では、ホストグラフのコンテキストでインスタンスノードを開くことができます。これは明らかに非常に便利ですが、ツールセットのイメージキャッシュによって必要とされる計算を指数関数的に増加させる副作用があります。
+1. その場合は、[環境設定](../../../../../interface/preferences-window/preferences-window.md)の「<b>グラフ</b>」セクションで「<b>コンテキスト編集</b>」をオフにすることを強くお勧めします（このウィンドウにアクセスするには、メインメニューバーの「<b>編集/環境設定…</b>」に移動します）。\
+   コンテキスト編集機能を使用すると、ホストグラフのコンテキストでインスタンス化を開くことができます。これは非常に便利ですが、ツールセットの画像キャッシュに必要な計算を指数関数的に増やす副作用があります。
 
 これら2つの設定のいずれかを推奨状態に変更すると、パフォーマンスが大幅に向上します。
 
@@ -94,18 +92,18 @@ ht-degree: 0%
 
 [パス多角形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)は、指定された半径と辺の数の多角形の形状のパスを生成します。
 
-または、[Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)ノードを使用して、グレースケール画像からパスを抽出できます。\
-これは現在、複雑な図形を作成する唯一の方法です。[パスグラフノード](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)のライブラリ全体を利用して、最終的にSubstanceに変換される図形を作成できます。
+または、[Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)ノードを使用して、グレースケールイメージからパスを抽出できます。\
+これは現在、複雑な図形を作成する唯一の方法です。[パスパスパスのノード](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)のライブラリ全体を利用して、最終的にSubstanceに変換される図形を作成できます。
 
 ![パス生成ノード](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "パス生成ノード"){width="600px"}
 
 ### パスの編集
 
-[パス2Dの変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)、[パスのワープ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)および[パスの四角形変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)では、パスのシェイプを編集できます。
+[パス2D 変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)、[パスワープ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)および[パスのクアッド変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)を使用すると、パスの形状を編集できます。
 
 [パスの選択](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)ノードを使用して、インデックスまたは長さでパスを選択することで、不要なパスを削除することもできます。
 
-[パス頂点プロセッサー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)ノードを使用すると、パスの各ポイントでより複雑な処理を実行できます。 [よりシンプルなバージョン](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)が存在し、細かい調整が可能です。
+[Paths 頂点プロセッサ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)ノードを使用すると、パスの各ポイントでより複雑な処理を実行できます。 [よりシンプルなバージョン](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)が存在し、細かい調整が可能です。
 
 <table>
 <tr style="border: 0;">
@@ -114,7 +112,7 @@ ht-degree: 0%
 ### パスのプレビューノード
 
 パスノードの結果のプレビューは、専用の[パスのプレビュー](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)ノードを使用して実行されます。\
-このノードには出力がありません。 ノード上のLMBをダブルクリックして、[2Dビュー](../../../../../interface/2d-view/2d-view.md)にプレビューを表示します。
+このノードには出力がありません。 ノードのLMBをダブルクリックして、[2D ビュー](../../../../../interface/2d-view/2d-view.md)のプレビューを表示します。
 
 個別のパスにはプレビューで一意のカラーが使用され、各パスを簡単に区別できます。
 
@@ -243,7 +241,7 @@ ht-degree: 0%
 
 ### スプラインからイメージを作成する
 
-スプラインのオーサリングと編集が完了したら、そのスプラインを使用して残りのSubstanceグラフノードを活用できるイメージを作成できます。
+スプラインのオーサリングと編集が完了したら、残りのSubstance グラフノードを利用できるイメージを作成するために使用できます。
 
 スプラインを使用してグラフィックスを生成するには、主に次の3つの方法があります。
 

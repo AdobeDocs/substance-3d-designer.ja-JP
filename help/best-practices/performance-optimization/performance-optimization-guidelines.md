@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: グラフのパフォーマンスを向上させ、処理時間を短縮するための、Substance 3D Designerのパフォーマンス最適化ガイドラインについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Performance optimization guidelines
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: パフォーマンス最適化ガイドライン
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 
 # パフォーマンス最適化ガイドライン
 
@@ -65,12 +63,12 @@ ht-degree: 0%
 +++
 
 +++16ビットが不要な場合は8ビットを使用します
-Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの色または8ビットのグレースケールをサポートしていません*。 GPUエンジンは、8/16ビットとグレースケール/カラーの4つの組み合わせをすべてサポートしています。 *現在、UnityおよびUnreal EngineプラグインではCPUエンジンのみが使用されています*。
+Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの色または8ビットのグレースケールをサポートしていません*。 GPU エンジンは、8/16ビットとグレースケール/カラーの4つの組み合わせをすべてサポートしています。 *現在、UnityおよびUnreal エンジンのプラグインではCPU エンジンのみが使用されています*。
 
 +++
 
 +++可能な限りノード出力サイズを最小化する
-場合によっては、ノードのサイズを小さくしても最終結果には影響しませんが、パフォーマンスに影響することがあります。 例えば、同じ出力サイズに設定された均一カラーノードをドキュメントで使用しても意味がありません。均一カラーを絶対[16px x 16px]に設定し、その後のノードを「親を基準」に設定する必要があります。 通常、この方法は、パーリン雑音などの低周波画像に適しています。
+場合によっては、ノードのサイズを小さくしても最終結果には影響しませんが、パフォーマンスに影響することがあります。 例えば、ドキュメントと同じ出力サイズに設定された均一カラーノードを使用しても意味がありません。均一カラーは絶対[16px x 16px]に設定し、後続のノードは親に相対的に設定する必要があります。 通常、この方法は、パーリンノイズなどの低周波画像に適しています。
 
 +++
 
@@ -79,7 +77,7 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 
 +++
 
-+++ブレンドノードを使用する場合は、不要な場合はAlphaブレンドを無効にします
++++ブレンドノードを使用する場合は、不要なときにアルファブレンディングを無効にします
 
 
 +++
@@ -89,23 +87,23 @@ Substance engine (SSE2) *のCPUバージョンは、実際には16ビットの�
 
 +++
 
-+++一部のノイズジェネレーターは、描画されるパターンの量の影響を受けます
++++一部のノイズジェネレータは、描画されるパターンの量に影響されます
 たとえば、[Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)ノードは、追加したパターンの処理が遅くなります。
 
 +++
 
-+++一部のノイズはスケール係数の影響を受けます
-この要素は、実際にはより多くのパターンを描画します。 影響を受けるノードには、ノイズ、セルパターンなどが含まれます。ホワイトノイズパターンが必要な場合は、スケール値が非常に大きいノイズを使用せずに、[ホワイトノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)または[ホワイトノイズ高速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)のノードを使用します。
++++一部のノイズは尺度係数の影響を受けます
+この要素は、実際にはより多くのパターンを描画します。 影響を受けるノードには、ノイズ、セルパターンなどが含まれます。白いノイズパターンが必要な場合は、スケール値が非常に大きいノイズを使用せずに、[白のノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)または[白のノイズを高速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)のノードを使用します。
 
 +++
 
 +++逆に、いくつかの非常に高速なノイズ発生器があります
-[高速のホワイトノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)、[フラクタル和ベース](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)、[異方性ノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md)などです。
+[高速なホワイトノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)、[フラクタル和ベース](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)、[異方性ノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md)などがあります。
 
 +++
 
 +++場合によっては、大量の画像サンプリング機能に注意してください
-[ピクセルプロセッサ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)を除き、関数はCPUエンジンで実行されます。 [Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)または[FXmaps](../../function-graphs/fxmaps/fxmaps.md)で大量のイメージサンプリング（$pos座標の変更）を行う場合、VRAMとCPU RAMの切り替えが頻繁に発生し、パフォーマンスの遅延が発生する可能性があります。
+[ピクセルプロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)を除き、関数はCPU エンジンで実行されます。 [バリュープロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)または[FXmaps](../../function-graphs/fxmaps/fxmaps.md)で大量のイメージサンプリング（$pos座標の変更）を行う場合、VRAMとCPU RAMの間で多くのスワップがあるため、パフォーマンスの遅延が発生します。
 
 +++
 

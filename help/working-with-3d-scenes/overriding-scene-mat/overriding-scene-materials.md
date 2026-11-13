@@ -1,119 +1,119 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ""
-description: 3Dシーンの既存のマテリアルをオーバーライドして、テストやプレビュー用に独自のSubstanceマテリアルに置き換えます。
+description: 3Dシーンの既存のマテリアルをオーバーライドし、テストやプレビュー用に独自のSubstanceマテリアルに置き換えます。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: シーンマテリアルをオーバーライドする
+title: マテリアルの上書き
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
 ---
 
-# シーンマテリアルをオーバーライドする
+# マテリアルの上書き
 
-既存のマテリアルで3Dシーンを操作する場合、これらのマテリアルをオーバーライドして独自のマテリアルに置き換える必要があります。
+既存のマテリアルで3D シーンを操作する場合、これらのマテリアルを上書きして独自の要素に置き換える必要があります。
 
-マテリアルはゼロから作成することも、[Substanceグラフに抽出](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)されたシーンのマテリアルの調整バージョンを作成することもできます。
+マテリアルをゼロから作成することも、[Substanceのグラフに抽出](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)されたシーンのマテリアルの調整後のバージョンを作成することもできます。
 
-![シーンマテリアルをオーバーライドし、微調整してシーン状態にリセットします](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "シーンマテリアルをオーバーライドし、微調整してシーン状態にリセットします"){zoomable="yes"}
+![マテリアルを上書きし、調整して、シーンの状態に戻しています](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "シーンマテリアルを上書きし、調整して、シーンの状態に戻しています"){zoomable="yes"}
 
-## シーンのマテリアルをオーバーライド
+## マテリアルを上書き
 
-シーンで使用されているマテリアルは、新しいマテリアルまたは既存のマテリアルの編集されたバージョンである独自のバージョンでオーバーライドできます。
+シーンで使用されているマテリアルは、新しいバージョンまたは編集された既存のマテリアルの独自のマテリアルで上書きできます。
 
-「材料をオーバーライド」アクションは、次の2つの場所にあります。
+「マテリアルを上書き」アクションは、次の2つの場所にあります。
 
 * マテリアルメニューを開き、目的のマテリアルのサブメニューに移動します
-* シーンオブジェクトでShift+LMBを押して選択し、RMBをクリックしてコンテキストメニューを開きます
+* シーンオブジェクトでShift + LMBを押して選択し、 RMBをクリックしてコンテキストメニューを開きます
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![&#39;3Dビュー&#39;ビューポートのマテリアルを上書き – アクション](overriding-scene-materials.resources/overrideMaterialActionViewport.png "&#39;3Dビュー&#39;ビューポートのマテリアルを上書き – アクション"){zoomable="yes"}
+![マテリアルの上書き – &#39;3D ビュー&#39; ビューポートでの操作](overriding-scene-materials.resources/overrideMaterialActionViewport.png "マテリアルの上書き – &#39;3D ビュー&#39; ビューポートでの操作"){zoomable="yes"}
 
-*3Dビュービューポートのアクション*
+*3D ビュー ビューポートの操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![[マテリアルのオーバーライド] - [マテリアル]メニューのアクション](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "[マテリアルのオーバーライド] - [マテリアル]メニューのアクション"){zoomable="yes"}
+![[マテリアルの上書き] - [マテリアル]メニューでの操作](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "[マテリアルの上書き] - [マテリアル]メニューでの操作"){zoomable="yes"}
 
-*マテリアルメニューのアクション*
+*マテリアルメニューの操作*
 
 </td>
 </tr>
 </table>
 
-Designerのコンテキストでは、シーンの内部の記述に米ドルを使用しています。オーバーライドとは、可能な限りオリジナルと一致するマテリアルのコピーを&#x200B;*作成*&#x200B;し、シーンのメッシュの&#x200B;*マテリアルバインディング*&#x200B;をオリジナルからコピーに変えることを意味します。
+Designerでは、内部シーンの説明にUSDが使用されます。オーバーライドとは、可能な限りオリジナルと一致するマテリアルのコピーを&#x200B;*作成*&#x200B;し、シーンのメッシュの&#x200B;*マテリアルバインディング*&#x200B;をオリジナルからコピーに変えることです。
 
 >[!NOTE]
 >
-> コピーはシーン内のルートの下の&#39;<b>material</b>&#39;フォルダー（USDの&#39;Scope&#39;）に作成され、元のIDと同じIDに数値のサフィックス（例： &#39;rustedMetal\_0&#39;）を使用します
+> コピーは、ルートの下の&#39;<b>マテリアル</b>&#39; シーンー（ USDの&#39;Scope&#39;）にフォルダー内に作成され、元のフォルダーと同じ識別子に数値のサフィックス（例： &#39;rustedMetal\_0&#39;）を使用します
 
 これは、次の2つの重要な点を意味します。
 
-1. 元の素材は一切変更されません。
+1. 元のマテリアルは一切変更されません。
 1. Designerで行った作業はすべてコピーに適用されます。
 
-元のシーンのマテリアルを復元する場合や、必要に応じて簡単な編集前後のチェックを行う場合は、同じ「マテリアルのオーバーライド」アクションを使用して、オーバーライドのオン/オフをいつでも切り替えることができます
+元のシーンのマテリアルを元に戻す場合、または行く途中で簡単な編集前後のチェックを行う場合は、同じ「マテリアルのオーバーライド」操作を使用して、任意の時点でオーバーライドのオン/オフを切り替えることができます
 
-コピーがオリジナルと一致するように作成されることを考えると、ほとんどの場合、マテリアルをオーバーライドしても、Substanceグラフをコピーに接続するかプロパティを変更するまで、外観は変化しません（次の注を参照）。
+コピーがオリジナルと一致するように作成されることを考えると、ほとんどの場合、マテリアルをオーバーライドしても、Substanceグラフをリンクするか、そのプロパティを編集するまで、外観は変わりません（以下の注を参照）。
 
 >[!NOTE]
 >
-> オーバーライドが適用されると、Designerは影響を受けるメッシュの接線と従法線を計算します。特にこれらのメッシュに法線のスケールとバイアスが定義されていないか、別のメッシュを使用している場合、時間がかかり、メッシュのアスペクトが変わることがあります。
+> オーバーライドが適用されると、Designerは影響を受けるメッシュの正接と従法線を計算します。これには時間がかかり、特にメッシュに法線のスケールとバイアスが定義されていない場合、または別のメッシュを使用する場合に、動作が変わります。
 
 >[!IMPORTANT]
 >
 > <b>AdobeStandardMaterial</b>のシェーディングモデルはSubstance 3Dエコシステム全体でサポートされていますが、業界標準ではないため、Blenderなどのサードパーティ製アプリケーションでは&#x200B;*サポートされない場合があります*。
 > 
-> Substance 3Dアプリケーションの外部で最高の相互運用性を実現するために、現在は、サポートするマテリアルプロパティおよび効果がはるかに少ない場合でも、<b>UsdPreviewSurface</b> シェーディングモデルの使用をお勧めします。
+> Substance 3Dアプリケーションの外部で最高の相互運用性を実現するために、シェーディングのプロパティや効果のサポート対象が大幅に少ない場合でも、<b>UsdPreviewSurface</b>マテリアルモデルの使用をお勧めします。
 
 ## シーンの状態にリセット
 
-オーバーライドされた状態を維持したままマテリアルの初期状態に戻す必要がある場合、マテリアルのコピーはすべて初期値にリセットできます。
+上書きされた状態を維持したままマテリアルの初期状態に戻す必要がある場合は、マテリアルコピーを初期値にリセットできます。
 
-マテリアルプロパティ値が修正された場合、またはグラフからテクスチャが適用された場合、プロパティは初期値またはテクスチャに戻ります。
+マテリアルプロパティ値が変更された場合、またはグラフからのテクスチャが適用された場合、プロパティは初期値またはテクスチャに戻ります。
 
 マテリアルは、完全に、またはプロパティごとにリセットできます。
 
-マテリアルのサブメニューまたはメッシュのコンテキストメニューの「マテリアルをシーンの状態にリセット」アクションを使用して、マテリアルを完全にリセットします。
+マテリアルのサブメニューまたはメッシュのコンテキストメニューの「マテリアルをシーンステートにリセット」アクションを使用すると、マテリアルを完全にリセットできます。
 
 アクションは、次の3つの場所で見つけることができます。
 
 * マテリアルメニューを開き、目的のマテリアルのサブメニューに移動します
-* シーンオブジェクトでShift+LMBを押して選択し、RMBをクリックしてコンテキストメニューを開きます
-* そのマテリアルのプロパティの上部にあるハンバーガーメニュー
+* シーンオブジェクトでShift + LMBを押して選択し、 RMBをクリックしてコンテキストメニューを開きます
+* マテリアルプロパティの上部にあるハンバーガーメニュー
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![マテリアルをシーンの状態にリセット – &#39;3D VIew&#39;ビューポートでの動作](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "マテリアルをシーンの状態にリセット – &#39;3D VIew&#39;ビューポートでの動作"){zoomable="yes"}
+![マテリアルをシーンの状態にリセット – &#39;3D ビュー&#39; ビューポートの操作](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "マテリアルをシーンの状態にリセット – &#39;3D ビュー&#39; ビューポートの操作"){zoomable="yes"}
 
-*3Dビュービューポートのアクション*
-
-</td>
-<td style="border: 0;" valign="top">
-
-![マテリアルをシーンの状態にリセット – 「マテリアル」メニューのアクション](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "マテリアルをシーンの状態にリセット – 「マテリアル」メニューのアクション"){zoomable="yes"}
-
-*マテリアルメニューのアクション*
+*3D ビュー ビューポートの操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![マテリアルをシーンの状態にリセット – 「プロパティ」ドックのアクション](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "マテリアルをシーンの状態にリセット – 「プロパティ」ドックのアクション"){zoomable="yes"}
+![マテリアルをシーンの状態にリセットする – [マテリアル]メニューの動作](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "マテリアルをシーンの状態にリセットする – [マテリアル]メニューの動作"){zoomable="yes"}
 
-*マテリアルのプロパティのアクション*
+*マテリアルメニューの操作*
+
+</td>
+<td style="border: 0;" valign="top">
+
+![マテリアルをシーンの状態にリセット – &#39;プロパティ&#39;ドックでの操作](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "マテリアルをシーンの状態にリセット – &#39;プロパティ&#39;ドックでの操作"){zoomable="yes"}
+
+*マテリアルのプロパティの操作*
 
 </td>
 </tr>
@@ -123,14 +123,14 @@ Designerのコンテキストでは、シーンの内部の記述に米ドルを
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-このアクションは、マテリアルの一部の側面のみをリセットする場合に備えて、マテリアルプロパティの&#x200B;*プロパティごと*&#x200B;にも使用できます。
+マテリアルの一部の部分のみをリセットする場合に備えて、マテリアルのプロパティで&#x200B;*プロパティ単位*&#x200B;のアクションも使用できます。
 
-マテリアルプロパティのハンバーガーメニューを開き、「デフォルトのシーン状態にリセット」アクションを見つけます。
+マテリアルプロパティのハンバーガーメニューを開き、「デフォルトのシーンステートにリセット」アクションを見つけます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![シーンの状態にリセット – マテリアルプロパティのアクション](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "シーンの状態にリセット – マテリアルプロパティのアクション"){zoomable="yes"}
+![シーンの状態にリセット – マテリアルのプロパティの動作](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "シーンの状態にリセット – マテリアルのプロパティの動作"){zoomable="yes"}
 
 </td>
 </tr>
@@ -138,11 +138,11 @@ Designerのコンテキストでは、シーンの内部の記述に米ドルを
 
 ## 接続されたマテリアル
 
-繰り返しますが、Designerはシーンのマテリアルを直接変更するのではなく、シーン内にコピーを作成し、メッシュをそのコピーにバインドします（元のコピーはバインドされません）。
+繰り返しますが、Designerはシーンのマテリアルを直接変更するのではなく、シーンにコピーを作成し、メッシュを元のコピーではなく、そのコピーにバインドします。
 
-また、Designerの「マテリアル」メニューには、デフォルトでシーンのマテリアルリストと一致する&#x200B;*独自の*&#x200B;個別のマテリアルリストがあります。 このリストには、いつでも新しいマテリアルを追加できます。
+一方、Designerの「マテリアル」メニューには、*独自*&#x200B;のマテリアルのリストがあり、デフォルトではシーンのマテリアルのリストと一致します。 このリストには、いつでも新しいマテリアルを追加できます。
 
-これは、Designerのみで作成および管理される&#x200B;*別*&#x200B;データセットです。 これらのマテリアルは、シーンの元のマテリアルをオーバーライドするコピーに&#x200B;*接続*&#x200B;されます。
+これは、Designerのみで作成および管理される&#x200B;*別*&#x200B;データセットです。 これらのマテリアルは、シーンの元のマテリアルを上書きする&#x200B;*コピー*&#x200B;に接続されます。
 
 ![マテリアルのオーバーライド – データ回路図](overriding-scene-materials.resources/overridingMaterialsSchematic.png "マテリアルのオーバーライド – データ回路図"){zoomable="yes"}
 

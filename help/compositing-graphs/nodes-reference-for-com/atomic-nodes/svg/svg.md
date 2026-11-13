@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -75,13 +75,13 @@ ht-degree: 0%
 | --- | --- |
 | <b>カラーモード</b> *ブーリアン* | カラーまたはグレースケールで返すノードの出力タイプを指定します。 |
 | <b>背景色</b> *カラー/グレースケール* | ベクターシェイプで覆われていない領域で使用する出力画像の背景色を設定します。   *入力が接続されている場合は、&#39;[Background](#inputs)&#39;入力によって上書きされます。* |
-| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターのテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのSVGノードにドラッグアンドドロップすることをお勧めします。 |
+| <b>PKGリソースパス</b> *文字列* | ノードによって参照されている[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)へのパスです。   手動で入力するのではなく、エクスプローラーからリソースをコピーしてパラメーターテキストフィールドに貼り付けるか、[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)からビットマップリソースを直接グラフのSVGノードにドラッグアンドドロップすることをお勧めします。 |
 
 ## ベクター編集ツール
 
 ベクターシェイプはDesignerで編集できます。 編集ツールの詳細については、[このセクション](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)を参照してください。
 
-## 入力コネクタ
+## 入力コネクター
 
 |  |  |
 | --- | --- |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シーンブラウザー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -78,27 +78,27 @@ Designerは、読み込まれた任意のシーンにオブジェクトを追加
 </tr>
 </table>
 
-* <b>カメラ:</b> シーンの既定のカメラです。 Designerでやり取りできるカメラはこれだけです。 読み込まれたシーンに含まれているカメラはすべて、初期設定のカメラのプリセットとして追加されます。
-* <b>環境：</b>シーンの既定の環境です。 シーンの環境に適用されたテクスチャは、その環境にのみ適用されます。 同様に、環境の回転はその環境にのみ影響します。\
-  読み込まれたシーンに1つ以上の環境光（米ドルで[DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html)）が含まれている場合、デフォルトの環境は自動的に無効になり、シーンの環境光を妨げることはありません。
-* <b>ポイントライト#:</b>ライト/プロパティの編集でDesignerのポイントライトのいずれかが有効になっている場合、各ポイントライトがシーンに追加されます。
+* <b>カメラ:</b> シーンの既定のカメラです。 Designerでやり取りできるカメラはこれだけです。 読み込まれたシーンに含まれているカメラは、デフォルトカメラのプリセットとして追加されます。
+* <b>Environment:</b> シーンの既定のEnvironmentです。 シーンの環境に適用されるテクスチャは、その環境にのみ適用されます。 同様に、環境の回転はその環境にのみ影響します。\
+  読み込まれたシーンに1つ以上の環境光（USDの[DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html)）が含まれている場合は、シーンの環境光を妨げないように初期設定の環境が自動的に無効になります。
+* <b>ポイントライト#:</b>ライト/プロパティの編集でDesignerのポイントライトのいずれかが有効になっている場合は、各ポイントライトがシーンに追加されます。
 
 ## シーン内のオブジェクトの切り替え
 
 ### すべてのタイプ
 
-シーン内の任意のオブジェクトを有効または無効にできます。 無効にすると、オブジェクトはシーンに寄与しなくなります。シャドウを投影したり、光を放出したり、反射したりすることはありません。
+シーンでは、任意のオブジェクトを有効または無効にできます。 無効にすると、オブジェクトはシーンに影響しなくなります。シャドウをキャストしたり、光を放出したり、反射したりすることはありません。
 
 親オブジェクトの状態はその子に継承されるので、親オブジェクトを無効にすると、その子も無効になります。
 
-オブジェクトの表示/非表示は、目のボタン![](scene-browser.resources/sceneBrowser-eyeButton.png)をクリックするか、コンテキストメニューから切り替えることができます。 このメニューには、シーンオブジェクトの表示を管理するためのアクションがいくつか用意されています。
+オブジェクトの表示/非表示は、目のボタン![](scene-browser.resources/sceneBrowser-eyeButton.png)をクリックするか、コンテキストメニューから切り替えることができます。 メニューには、シーンオブジェクトの表示を管理するためのアクションがいくつか用意されています。
 
 * <b>非表示：</b>選択したオブジェクトを無効にします。
 * <b>表示：</b>選択したオブジェクトを有効にします。
 
-特定のアクションは、メッシュの表示に影響します。
+メッシュの表示に特に影響を与えるアクションがいくつかあります。
 
-* <b>表示のみ：</b>選択したメッシュとその子を除くすべてのメッシュを無効にします。
+* <b>表示のみ：</b>選択した項目とその子を除くすべてのメッシュを無効にします。
 * <b>すべて表示：</b>すべてのメッシュを有効にします。
 
 親オブジェクトには、次のような追加のアクションがあります。
@@ -108,42 +108,42 @@ Designerは、読み込まれた任意のシーンにオブジェクトを追加
 * <b>すべての子を展開：</b>選択したオブジェクトの下にあるすべての子のリストを再帰的に展開します。
 * <b>すべての子を折りたたむ：</b>選択したオブジェクトの下にあるすべての子のリストを再帰的に折りたたみます。
 
-![Scene Browser – オブジェクトの表示/非表示の切り替え](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Scene Browser – オブジェクトの表示/非表示の切り替え"){zoomable="yes"}
+![シーンブラウザー – オブジェクトの表示/非表示を切り替えています](scene-browser.resources/sceneBrowser-toggleVisibility.gif "シーンブラウザー – オブジェクトの表示/非表示を切り替えています"){zoomable="yes"}
 
 ### 環境
 
 環境光(DomeLight)の表示/非表示は、他のオブジェクトと同様に有効/無効にできます。
 
-環境光を無効にすると、シーンに対する環境光の効果も無効になります。
+環境光を無効にすると、シーンに対する光源の役割も無効になります。
 
-複数の環境光が有効になっている場合、その光の効果は&#x200B;*累積的に追加*&#x200B;されます。
+複数の環境光が有効になっている場合、照明の効果は&#x200B;*累積的に追加*&#x200B;されます。
 
-![Scene Browser – 環境の表示/非表示の切り替え](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Scene Browser – 環境の表示/非表示の切り替え"){zoomable="yes"}
+![シーンの表示/非表示を切り替えています](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "シーンの表示/非表示を切り替えています"){zoomable="yes"}
 
 ### ライト
 
-シーン内の任意のライトについても同じことが言えます。各ライトは個別に切り替えることができます。
+シーン内の任意のライトでも同じことが言えます。各ライトは個別に切り替えることができます。
 
-![Scene Browser – ライトの表示/非表示の切り替え](scene-browser.resources/sceneBrowser-toggleLights.gif "Scene Browser – ライトの表示/非表示の切り替え"){zoomable="yes"}
+![シーン一覧 – 光源の表示/非表示を切り替えています](scene-browser.resources/sceneBrowser-toggleLights.gif "シーン一覧 – 光源の表示/非表示を切り替えています"){zoomable="yes"}
 
 ## 接続されたマテリアル
 
-Scene Browserでは、オーバーライドされたマテリアルを、Designerの3Dビューの[マテリアルメニュー](../../../interface/3d-view/3d-view.md)にリストされている別のマテリアルにコネクトすることもできます。
+シーンブラウザーを使用すると、オーバーライドされたマテリアルを、3Dビューの[マテリアルメニュー](../../../interface/3d-view/3d-view.md)にDesignerによってリストされた別のマテリアルに接続することもできます。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Designerで一覧表示されるマテリアルは、少なくとも1つのメッシュで使用されるシーンツリー内のマテリアルオブジェクトです。
+Designerで一覧表示されるマテリアルは、シーンツリー内のマテリアルオブジェクトであり、少なくとも1つのメッシュで使用されます。
 
-これらのマテリアルのいずれかを[上書き](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、Designerにより、数字のサフィックスを持つコピーが作成されます。
+これらのマテリアルのいずれかを[上書き](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コピーがDesignerによって作成され、数値の接尾辞が付きます。
 
-オーバーライドされたマテリアルは、コンテキストメニューに追加の項目を提供します。&#39;[接続されたマテリアル](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&#39;サブメニューには、このマテリアルをオーバーライドするために使用できるその他すべての利用可能なマテリアルが一覧表示されます。
+オーバーライドされたマテリアルは、コンテキストメニューに別の項目を表示します。&#39;[接続されたマテリアル](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&#39;サブメニューには、このマテリアルをオーバーライドするために使用できるその他のすべての利用可能なマテリアルが一覧表示されます。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![シーンブラウザー – 接続されたマテリアル](scene-browser.resources/sceneBrowser-connectedMaterial.png "シーンブラウザー – 接続されたマテリアル"){zoomable="yes"}
+![シーンブラウザー – 接続マテリアル](scene-browser.resources/sceneBrowser-connectedMaterial.png "シーンブラウザー – 接続マテリアル"){zoomable="yes"}
 
 </td>
 </tr>

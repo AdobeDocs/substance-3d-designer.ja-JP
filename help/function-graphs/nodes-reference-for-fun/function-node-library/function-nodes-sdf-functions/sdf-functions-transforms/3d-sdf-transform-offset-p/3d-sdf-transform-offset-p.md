@@ -1,13 +1,11 @@
 ---
 title: オフセットP
 description: Designer > Substance合成グラフ >ノード合成のリファレンスグラフ > Substanceライブラリ> SDF 関数 > 変形 >オフセットP
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
-
 ---
-
 
 # オフセットP
 
@@ -40,5 +38,5 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>オフセット</b> *浮動小数点3* | ワールド空間がX、Y、Z方向にオフセットされる距離。 |
-| <b>P</b> *浮動小数点3* | ワールド空間の位置。 この入力を使用して、<b>オフセットP</b>および<b>回転P</b>ノードを使用する追加の変換を適用します。<br><br><i>既定：変換されていないワールドスペースの位置。</i> |
+| <b>オフセット</b> *浮動小数3* | ワールド空間がX、Y、Z方向にオフセットされる距離。 |
+| <b>P</b> *浮動小数3* | ワールド空間の位置。 この入力を使用して、<b>Offset P</b>および<b>Rotate P</b>ノードを使用する他の変換を適用します。<br><br><i>既定：変換されていないワールド空間の位置。</i> |

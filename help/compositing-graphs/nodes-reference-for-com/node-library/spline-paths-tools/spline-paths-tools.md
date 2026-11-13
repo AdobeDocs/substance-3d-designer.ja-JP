@@ -1,30 +1,28 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
-breadcrumb-title: ''
-description: Substanceグラフでプロシージャルなパターン、カーブ、オーガニックなシェイプを作成するためのスプラインおよびパスツールノードにアクセスします。
+breadcrumb-title: ""
+description: グラフでプロシージャルしたパターン、カーブ、オーガニックなシェイプを作成するためのスプラインおよびパスツールノードにアクセスします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: スプラインパスツール
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 
 # スプラインおよびパスツール
 
-スプラインおよびパスツールは、Substanceグラフでパスとスプラインを操作するためのノードの集まりです。
+スプラインおよびパスツールは、Substance グラフでパスとスプラインを操作するためのノードの集まりです。
 
 <b>パス</b>は、直線に接続された一連のポイントです。
 
-<b>スプライン</b>は、制御点とそれらの点の接線によって軌道が形成される滑らかな曲線です。 各点は、イメージのマッピング、ワープ、およびスキャタリングを制御するために使用されるスプラインのHeightとThicknessアトリビュートも制御します。
+<b>スプライン</b>は、制御点とそれらの点の正接によって軌道が形成される滑らかな曲線です。 各点は、イメージのマッピング、ワープ、およびスキャタリングを制御するために使用されるスプラインのHeightとThicknessアトリビュートも制御します。
 
 このカテゴリには、次のサブカテゴリが含まれます。
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ポストエフェクト
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 4%
@@ -255,7 +255,7 @@ ht-degree: 4%
 この効果は、シーンの照明、カメラ露光量、emissiveマテリアルの影響を受けます。
 
 +++しきい値
-この値を超えるとブルームが表示されるルミナンス値。
+この値を超えるとブルームが表示される輝度。
 
 *左： 1.0 /右： 4.0*
 
