@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ""
 description: 3Dビューカメラに後処理エフェクトを適用して、マテリアルのプレビューと表示を強化します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ポストエフェクト
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 これらの効果は社内で開発されており、ラスタライザーおよびGPU パストレーサー [レンダラー](../../../../interface/3d-view/3d-renderers/3d-renderers.md)でのみ使用できます。
 
-[3D シーンリソース](../../../../resources/3d-scene-resource/3d-scene-resource.md)または[シーンステートファイル](../../../../working-with-3d-scenes/working-with-3d-scenes.md)の保存時に有効にした投稿エフェクトは、シーンステートの一部として保存されます。
+[3D シーンリソース](../../../../resources/3d-scene-resource/3d-scene-resource.md)または[シーンステートファイル](../../../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)の保存時に有効にした投稿エフェクトは、シーンステートの一部として保存されます。
 
 ## トーンマッピング
 
@@ -255,7 +255,7 @@ ht-degree: 4%
 この効果は、シーンの照明、カメラ露光量、emissiveマテリアルの影響を受けます。
 
 +++しきい値
-この値を超えるとブルームが表示されるルミナンス値。
+この値を超えるとブルームが表示される輝度。
 
 *左： 1.0 /右： 4.0*
 

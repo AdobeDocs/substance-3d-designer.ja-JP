@@ -1,7 +1,7 @@
 ---
-source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '259'
 ht-degree: 4%
 ---
 # TODO
@@ -41,6 +41,10 @@ ht-degree: 4%
 
 * [WIP] [キーボードショートカット]ページの更新と完了
 
+## 変更点
+
+* スプラインの優先順位を付けるために[スプラインの操作](help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)を再構築します
+
 ## 修正
 
 * [overview.md](help/getting-started/overview/overview.md)のアイコンのサイズを修正
@@ -55,12 +59,18 @@ ht-degree: 4%
 
 - SBSファイルのダウンロードをブロックする条件（[こちら](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)で確認）
 - 公開したり、ToCに含めたりすることなく、ページをライブテストする方法を理解する
-- サンプル一覧のフィルタリングオプション：マイクロサイト？ （[例](https://experienceleague.adobe.com/ja/tools/campaign-error-codes)）
+- サンプル一覧のフィルタリングオプション：マイクロサイト？ （[例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - サンプル項目の作成を自動化
   - ファイルからのメタデータの取り込み(JSON、YAML、...)
   - インラインサムネール（クリックして拡大）
   - サンプルアイテムの複雑さマーカー
 - サンプル作成者にSBS検証ツールを提供する
 - 3Dアセットからダウンロード可能なSBSファイルについて言及する（アクティブなサブスクリプションを使用）
+
+### 追加
+
+* ランディングページ
+* 「新機能」セクション
+* &#39;Functions&#39;セクション(?)
 
 用語集のマイクロサイト

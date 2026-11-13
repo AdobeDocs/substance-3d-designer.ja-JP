@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-13-0.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
+breadcrumb-title: ""
 description: 新しいノード、バージョン9.0、およびポータルノードについては、 Substance 3D Designer Substance engine 13.0のリリースノートを確認してください。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 13.0
@@ -8,21 +8,19 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: バージョン 13.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
-
 ---
-
 
 # バージョン 13.0
 
-Substance 3D Designerのこの13.0.0リリースは、大量の新しいノードを備えたマテリアルアーティストに大きな愛を与え、Substance engine 9.0は初めてループを導入し、グラフであるポータルノードに大きく追加されました。 また、より多くのユーザーにご満足いただけるよう、新しいホーム画面を導入し、追加の言語を提供しています。
+Substance 3D Designerのこの13.0.0リリースは、マテリアルアーティストに大きな愛を与え、膨大な数の新しいノード、初めてループを導入するSubstance engine 9.0、グラフに大きな加わったポータルノードを提供します。 また、より多くのユーザーにご満足いただけるよう、新しいホーム画面を導入し、追加の言語を提供しています。
 
-以前のバージョンで説明したように、このバージョンではSubstanceモデルグラフはサポートされなくなりました。つまり、Designerでグラフを開いたり、編集したり、書き出したりできなくなりました。 この決定を下した理由は、コミュニティフォーラムのこの[投稿](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)で確認できます。
+以前のバージョンでも説明したように、このバージョンではSubstanceモデルグラフはサポートされなくなりました。つまり、Designerで当該グラフを開いたり、編集したり、書き出したりできなくなりました。 この決定を下した理由は、コミュニティフォーラムのこの[投稿](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)で確認できます。
 
 *リリース日：2023年6月6日*
 
@@ -37,9 +35,9 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 * [スプラインツール](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)は、スプラインを生成および調整したり、イメージのマッピング、スキャッタリング、またはワープに使用するためのノードの集まりです。
 * [パスツール](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)は、セグメントのリストの形でマスクから輪郭を抽出し、編集および改善するための別のノードのセットです。
 
-これらすべてのノードは、多くの可能性を提供し、彼らは確かに多くの創造的なアプリケーションを持つことになります。 このツールセットを使いやすくするために、理解すべき重要な概念のツアーについては、[パスとスプラインツールの操作](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)に関するセクションを参照してください。
+これらすべてのノードは、多くの可能性を提供し、彼らは確かに多くの創造的なアプリケーションを持つことになります。 このツールセットを使いやすくするために、理解すべき重要な概念のツアーについては、[パスとスプラインツールの操作](../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)に関するセクションを参照してください。
 
-![スプラインを使用したマテリアル](version-13-0.resources/Splines.png "スプラインを使用したマテリアル")
+![スプラインを使ったマテリアル](version-13-0.resources/Splines.png "スプラインを使ったマテリアル")
 
 [Louise Melin](https://www.artstation.com/troglodette)*による*&#x200B;アートワーク
 
@@ -51,7 +49,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 最初のカテゴリは、スプラインを生成するカテゴリです。
 
-* [スプライン3次](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md): 2点と2接線から；
+* [スプラインキュービック](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md): 2つの点と2つの正接から；
 * [スプラインポリゴン二次](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)：一連の点から；
 * [スプラインの円](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-circle/spline-circle.md)：円形のシェイプに沿っています。
 
@@ -150,7 +148,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 「[パスのマスク](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)」ノードを使用すると、グレースケールパターンの境界線を、セグメントのリストの形式で抽出できます。
 
-その後、[パス2D変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)または[パスワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)ノードを使用してこれらのパスを処理し、必要に応じて微調整できます。  また、[Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)ノードのおかげで、パスをスプラインに変換でき、スキャッタリングなどこれまで言及されていたスプライン専用のノードをすべて利用できます。
+その後、[パス2D 変形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)または[パスワープ](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)でパスを処理し、必要に応じて微調整できます。  また、[Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)ノードのおかげで、パスをスプラインに変換でき、スキャッタリングなどこれまで言及されていたスプライン専用のノードをすべて利用できます。
 
 <table>
 <tr style="border: 0;">
@@ -186,22 +184,22 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 上記の新しいノードはすべて、新しいSubstance engineバージョンに基づいており、主要な新機能<b>loops</b>を最大限に活用しています。
 
-ループは、[Substance関数グラフ](../../function-graphs/function-graphs.md)内でのみ使用することを意図しており、[Pixel Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)、または[Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)にループを実装する可能性があります。 もちろんループは条件が満たされるまで、関数を何度も簡単に繰り返すことができます。 グラフを明るくして精度を上げるのに役立ちます。
+ループは、[Substance関数グラフ](../../function-graphs/function-graphs.md)内でのみ使用することを意図しており、[ピクセルプロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)、または[バリュープロセッサー](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)に実装する可能性が最も高いです。 もちろんループは条件が満たされるまで、関数を何度も簡単に繰り返すことができます。 多くのグラフを明るくし、精度を上げるのに役立ちます。
 
 この専用[チュートリアル](https://www.youtube.com/watch?v=Ggoy8G90oDI)は、ループの操作を開始するのに役立ちます。
 
 また、Substance engine v9では次の点も改善されています。
 
-* [Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードのグラデーションエディターの新しい平面モード（補間なし）
+* [グラデーションマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)ノードのグラデーションエディターの新しい平面モード（補間なし）
 * Substance関数グラフのatomic pow()ノード
 * Samplerノードで境界の折り返しオプション（クランプからエッジ、繰り返し）を追加する
-* [ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)および[方向ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)ノードの最も近いサンプリング
+* [ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)および[指向性ワープ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)ノードの最も近いサンプリング
 
 ## ポータルノード
 
-[ポータル](../../interface/the-graph-view/graph-items/graph-items.md)ノードは、[Dot](../../interface/the-graph-view/graph-items/graph-items.md)ノードの新しい拡張であり、グラフで接続を非表示にすることができます。
+[ポータル](../../interface/the-graph-view/graph-items/graph-items.md)ノードは、[Dot](../../interface/the-graph-view/graph-items/graph-items.md)ノードの新しい拡張機能で、グラフ内の接続を非表示にすることができます。
 
-この機能により、非常に長いコネクションを非表示にしてグラフの読みやすさを向上させることができます。また、グラフのどこからでもキーノードにすばやくアクセスできます。
+この機能により、非常に長いコネクションを非表示にしてグラフの読みやすさを向上させることができます。また、グラフのどこからでも主要なノードにすばやくアクセスできます。
 
 この新機能については、この専用の[チュートリアル](https://www.adobe.com/go/designer-tutorial-portals)で詳細に説明しています。
 
@@ -211,7 +209,7 @@ Substance 3D Designerのこの13.0.0リリースは、大量の新しいノー�
 
 Designerを起動すると、他のAdobe製品と同様に、新しい[ホーム画面](../../interface/home-screen/home-screen.md)にアクセスできます。 この画面では、次の操作を実行できます。
 
-* 新しいグラフをすばやく作成します。
+* すばやく新しいグラフを作成する。
 * サイズ、最後に変更された日付、ファイルパス全体などの詳細については、Designerで最近開いたすべてのファイルのリストを参照してください。
 * 新機能の紹介や簡単なヒントを見つけるチュートリアルなど、学習リソースへのリンクを見つけることができます。
 * 「新機能」画面、「バージョン情報」画面、Substance 3D webサイト、サポートコミュニティフォーラムなどの直接リンク
@@ -249,7 +247,7 @@ Designerで言語を変更する場合は、[環境設定](../../interface/prefe
 * [コンテンツ]スプライン追加ノード
 * [コンテンツ]スプライン選択ノード
 * [コンテンツ] [スプライン結合リスト]ノード
-* [コンテンツ]スプライン2D変換ノード
+* [コンテンツ]スプライン2D変形ノード
 * [コンテンツ]スプラインワープノード
 * [コンテンツ]スプラインサンプルHeightノード
 * [コンテンツ]スプラインサンプルThicknessノード
@@ -261,54 +259,54 @@ Designerで言語を変更する場合は、[環境設定](../../interface/prefe
 * [コンテンツ]スプラインブリッジマッパーの色ノード
 * [コンテンツ]スプラインブリッジマッパーのグレースケールノード
 * [コンテンツ]スプラインフローマッパーノード
-* [コンテンツ] UVマッパーカラーノード
-* [コンテンツ] UVマッパグレースケールノード
+* [コンテンツ] UVマッパーの[色]ノード
+* [コンテンツ] [UVマッパー] [グレースケール]ノード
 * [コンテンツ] [パスからスプラインへ]ノード
 * [コンテンツ]パスノードへのマスク
-* [コンテンツ]パス2D変換ノード
+* [コンテンツ] Paths 2D 変形ノード
 * [コンテンツ] [パス] [ポリゴン]ノード
 * [コンテンツ] [パスをプレビュー]ノード
 * [コンテンツ] [パスワープ]ノード
 * [コンテンツ]パス選択ノード
 * [コンテンツ] [パス] [頂点プロセッサ]ノード
 * [コンテンツ] [パス] [頂点プロセッサ] [シンプル]ノード
-* [コンテンツ]パスノードのクアッドトランスフォーム
-* [コンテンツ]レイトレース環境オクルージョンv2
+* [コンテンツ] [パス上のクアッド変形]ノード
+* [コンテンツ]レイトレースAmbient occlusion v2
 * [コンテンツ]レイトレースベンド法線v2
 * [コンテンツ]レイトレースシャドウv2
 * [エンジン]バージョン9にアップデートします。
 * [エンジン]関数グラフのループノード
 * [エンジン]グラデーションに平面モードを追加
-* [Engine]関数グラフのAtomic pow()ノード
-* [エンジン] Samplerノードに境界の折り返しオプション（クランプからエッジ/繰り返し）を追加
-* [エンジン]ワープおよび方向ワープノードの最も近いサンプリング
-* [エンジン]カラー入力用のシャープフィルターに「パンチスルーアルファ」モードを追加
+* [エンジン]関数グラフのAtomic pow()ノード
+* [エンジン] Samplerノードで境界の折り返しオプション（クランプからエッジ/繰り返し）を追加
+* [エンジン]ワープおよび指向性ワープノードでの最も近いサンプリング
+* [エンジン]カラー入力用のシャープフィルターに「パンチスルーアルファ」モードを追加します
 * [エンジン] FxMap：半球モーフレット
-* [Engine]関数グラフのアトミックなGet/Set操作
-* [エンジン]機能：log/log2/exp、2powの精密機能を活用 – クッカーとエンジンの機能を統合
-* [エンジン]指向性ワープフィルターに「強度オフセット」パラメーターを追加します
-* [API]グラフを合成するためのプリセット管理をサポート
-* [Functions]関数のアトミックノードの入力名を変更する
+* [エンジン]関数グラフでのアトミックなGet/Setオペレーション
+* [エンジン]機能：log/log2/exp、2powの正確な機能を使用 – 調理器とエンジンの機能を統合
+* [エンジン]指向性ワープフィルタに「強度オフセット」パラメータを追加します
+* [API]合成グラフのプリセット管理をサポート
+* [関数]関数アトミックノードの入力名を変更する
 * [ローカライゼーション]ポルトガル語（ブラジル）、イタリア語（イタリア）、スペイン語（スペイン）を追加します。
 * [ローカリゼーション]言語リストの「言語（国）」を尊重する
-* [プリセット]コンテキスト内編集の使用時に、グラフプロパティの「プレビュー」パネルと「プリセット」パネルを無効にする
-* [Substanceモデルグラフ] Substanceモデルグラフのサポート終了
+* [プリセット]コンテキスト編集機能を使用している場合に、グラフのプロパティで「プレビュー」パネルと「プリセット」パネルを無効にする
+* [Substanceモデルのグラフ] Substanceモデルグラフのサポート終了
 
 ### 修正
 
-* [3Dビュー]シーンの統計情報で長い文字列が表示されません（macOSのみ）
+* [3D ビュー] シーン統計情報で長い文字列が表示されません（macOSのみ）
 * [API] &#39;structure::Structure&#39;モジュールは、引き続きAPIリファレンスに含まれています
-* [API] MDLグラフのドットノードに定義やプロパティがない
-* [API]関数ノードのパラメーターを設定すると正しく動作しない
+* [API] MDL グラフのドットノードに定義もプロパティもありません
+* [API] 関数ノードのパラメーターを設定すると正しく動作しない
 * [コンテンツ] 3D Voronoiと3D Voronoi Fractalノードが調理の警告を出す
-* [Engine] &#39;Intensity Map Offset&#39;パラメーターはSSE2エンジンのグレースケールデータには影響しません
-* [エクスプローラ]グラフi/oを削除できます
+* [エンジン] &#39;Intensity Map Offset&#39;パラメーターは、SSE2エンジンのグレースケールデータには影響しません
+* [エクスプローラー] グラフi/oを削除できる
 * [グラフ]ビットマップがインスタンスで使用されている場合は無視されます
 * [グラフ]ノードからノードを作成すると、ドットノードの位置が正しくない
-* [グラフ] 「Enter」キーを使用すると、「パラメーターを表示」ダイアログにフォーカスが移動する
-* [グラフ]コンテキスト編集でビットマップを使用したヒストグラムスキャンで、正しい結果が得られない
+* [グラフ] &#39;Enter&#39;キーを使用した&#39;パラメーターの表示&#39;ダイアログでフォーカスが正しくない
+* [グラフ]コンテキスト編集でビットマップを使用したヒストグラムスキャンで、間違った結果が生じる
 * [ローカライゼーション]さまざまなクリッピングの問題を修正
-* [パラメーター]入力パラメーターを削除するとクラッシュする
-* [Publish]フォルダー内のグラフを、公開したパッケージのルートに移動する
-* [リソース]ディスク上の読み込まれたリソースを更新するとクラッシュする
+* [Parameters] 入力パラメーターを削除するときにクラッシュが発生する
+* [Publish]フォルダー内のグラフが、公開されたパッケージのルートに移動される
+* [Resources]ディスク上の読み込まれたリソースの更新中にクラッシュが発生しました
 * [VisibleIf]条件付き表示/非表示の評価で回帰を修正

@@ -1,13 +1,11 @@
 ---
 title: 和集合
 description: Designer/Substance合成グラフ/ノード合成の参照グラフ/Substanceライブラリ/SDF 関数/演算子/結合
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 5%
-
 ---
-
 
 # 和集合
 
@@ -34,11 +32,11 @@ ht-degree: 5%
 
 >[!INFO]
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
 
 ## 入力
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *フロート* | 最初のSDFシェイプ。 |
-| <b>SDF 2</b> *フロート* | 2番目のSDFシェイプ。 |
+| <b>SDF 1</b> *浮動小数* | 最初のSDFシェイプ。 |
+| <b>SDF 2</b> *浮動小数* | 2番目のSDFシェイプ。 |

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+breadcrumb-title: ""
 description: 事前定義済みのSubstance機能グラフにインスタンス化としてアクセスして、ワークフローを高速化し、機能を強化します。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 関数ノードライブラリ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
-
 ---
-
 
 # 関数ノードライブラリ
 
@@ -32,7 +30,7 @@ Designerでは、[アトミックノード](../../../function-graphs/nodes-refer
 
 >[!INFO]
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](function-nodes-sdf-functions/working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
 
 <table>
 <tr style="border: 0;">
@@ -366,7 +364,7 @@ RGBの色相（六角形）
 
 明度六円錐
 
-RGB明度ルミナンスRec.601
+RGB 明度ルミナンスRec.601
 
 RGB 明度ルミナンスRec.709
 
@@ -465,15 +463,15 @@ Vec2 （ラジアン）を回転
 
 正規分布
 
-ランダムな一様&lbrack;-1, 1&lbrack;
+ランダムな一様[-1, 1[
 
-ランダムに一様&lbrack;a, b&lbrack;
+ランダムに一様[a, b[
 
-Random uniform float2 &lbrack;a, b&lbrack;
+Random uniform float2 [a, b[
 
-Random uniform float3 &lbrack;a, b&lbrack;
+Random uniform float3 [a, b[
 
-Random uniform float4 &lbrack;a, b&lbrack;
+Random uniform float4 [a, b[
 
 </td>
 </tr>

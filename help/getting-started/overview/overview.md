@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: Substance 3D Designerの概要を紹介し、プロシージャルのマテリアルやテクスチャを作成するための機能について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概要
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 
 **[ノンリニア](../../compositing-graphs/substance-compositing-graphs.md):**&#x200B;一度に多数のテクスチャ出力を作成できます。 1つのマスクまたはスライダーを編集すると、自動的に接続された出力が再計算されます。 base color、ラフネス、標準などのマップを個別に作成する必要がなくなりました。
 
-**[非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):**&#x200B;作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
+**[非破壊的](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md):**&#x200B;作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
 
 **[統合ベイク処理](../../bakers/bakers.md):**&#x200B;ソフトウェア内から直接、高度で高速なメッシュベイクツールにアクセスできます。 これにより、別途ソフトウェアでベイクを行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかることがなくなります。
 
@@ -76,7 +76,7 @@ Substanceファイルは、Designerの&#x200B;**メインソースファイル**
 
 `\*.sbsar`
 
-Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Engine、Unity Engineなど、[Substance 3Dと連携](https://experienceleague.adobe.com/ja/docs/substance-3d/ecosystem/home)するアプリケーション（外部プラグインを含むものもあります）で使用できます。
+Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Application、Unity エンジンなど、[Substance 3Dと連携](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)するエンジン（一部に外部プラグインが含まれる）で使用できます。
 
 </td>
 <td style="border: 0;">
@@ -93,7 +93,7 @@ Substance 3D Designerでは、静的ファイル形式への書き出しが常�
 </tr>
 </table>
 
-これは通常、Designer内で作業する場合は作品をSBS形式に保ち、ターゲットがサポートしている場合（Painterなど）はSBSARに書き出し、SBSARのサポートがない、または必要がない場合は静的ビットマップファイルを使用することを意味します。
+これは通常、Designer内で作業する場合はSBS形式で作業を行い、ターゲットがSBSARをサポートしている場合（Painterなど）はSBSARに書き出し、SBSARをサポートしていない場合は静的ビットマップファイルを使用することを意味します。
 
 ## リソースの種類
 
@@ -110,9 +110,9 @@ Substance 3Dファイルには、様々な目的を持つ様々なリソース�
 
 ### Substance グラフ
 
-Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成して処理し、1つまたは複数のテクスチャ出力に出力できます。 多くの場合、プロジェクトは1つまたは複数のSubstanceグラフを中心に展開されます。
+グラフを使用すると、*2D画像データ*&#x200B;を生成して処理し、1つ以上のテクスチャ出力に出力できます。 多くの場合、プロジェクトは1つ以上のグラフを中心に展開されます。
 
-[Substanceグラフ専用のセクションに移動します。](../../compositing-graphs/substance-compositing-graphs.md)
+[グラフに関するセクションに移動します。](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 </tr>
@@ -127,11 +127,11 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 </td>
 <td width="100.00%" style="border: 0;">
 
-### Substance関数グラフ
+### Substance機能グラフ
 
-<b>関数</b>は、抽象化および複雑さのレベルが高くなっています。画像データ（ピクセル値のセット）を処理するのではなく、*単一の値* （整数、浮動小数点、ベクトル）を処理します。 関数は、より複雑な操作を行う場合や、特定の動作を微調整する場合に使用します。 通常、関数はスタンドアロンでは動作せず、Substanceグラフのコンテキスト外では使用されません。
+<b>関数</b>は、抽象化および複雑性のレベルが高くなっています。イメージデータ（ピクセル値のセット）を処理するのではなく、*単一の値* （整数、フロート、ベクター）を処理します。 関数は、より複雑な操作を行う場合や、特定の動作を微調整する場合に使用します。 通常、関数はスタンドアロンでは動作せず、グラフのコンテキスト外では使用されません。
 
-[Substance関数グラフ専用のセクションに移動します。](../../function-graphs/function-graphs.md)
+[Substance機能グラフ専用のセクションに移動します。](../../function-graphs/function-graphs.md)
 
 </td>
 </tr>
@@ -148,15 +148,15 @@ Substanceグラフを使用すると、*2D画像データ*&#x200B;を生成し�
 
 ### グラフ以外のリソース
 
-グラフ以外のリソースは、外部アプリケーション（PhotoshopやAutodesk Mayaなど）から提供される場合もありますが、*Designer内で作成*&#x200B;される場合もあります。 主な違いは、これらはノードベースのグラフではなく、前述のグラフタイプの内部または横で使用する要素であることです。
+グラフ以外のリソースは、外部アプリケーション（PhotoshopやAutodesk Mayaなど）から提供される場合もあれば、*Designer内で作成*&#x200B;される場合もあります。 主な違いは、これらはノードベースのグラフではなく、前述したグラフ型の内部または横で使用されるエレメントであることです。
 
 次のリソースタイプが存在します。
 
 * [ビットマップ](../../resources/bitmap-resource/bitmap-resource.md)
 * [ベクターグラフィック(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3Dシーン](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [3D シーン](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [フォント](../../resources/font-resource/font-resource.md)
-* [AxFファイル](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [AxF ファイル](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

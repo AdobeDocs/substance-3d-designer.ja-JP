@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/output-size.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+breadcrumb-title: ""
 description: Substance合成グラフの出力サイズを設定し、テクスチャの解像度と画質を制御します。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Output size
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 出力サイズ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
-
 ---
-
 
 # 出力サイズ
 
@@ -64,7 +62,7 @@ Output sizeプロパティでは、*対数ステップ*&#x200B;を使用して�
 >[!IMPORTANT]
 >
 > XとYの両方で解像度を上げたり下げたりすると、ピクセル数が&#x200B;*4*&#x200B;倍または除算され、グラフの&#x200B;*パフォーマンス*&#x200B;および&#x200B;*メモリ使用量*&#x200B;に大きな影響を与えます。\
-> したがって、実際に必要な&#x200B;*最低解像度*&#x200B;を使用して、目的の結果を得ることを強くお勧めします。 解像度を管理することは、[パフォーマンス最適化ガイドライン](../../best-practices/performance-optimization/performance-optimization-guidelines.md)の多くの1つです。
+> したがって、実際に必要な&#x200B;*最低解像度*&#x200B;を使用して、目的の結果を得ることを強くお勧めします。 解像度を管理することは、[パフォーマンス最適化ガイドライン](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)の多くの1つです。
 
 >[!NOTE]
 >
@@ -94,7 +92,7 @@ Output Sizeプロパティで&#x200B;*Relative to...* [継承メソッド](../..
 
 * グラフ: *親に相対的*
 * ノード： *入力に対する相対* – ノードの[プライマリ入力](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)によって継承された値がこの場合に使用されます
-* [ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノード： *絶対* - [ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)ページと[パフォーマンス最適化ガイドライン](../../best-practices/performance-optimization/performance-optimization-guidelines.md)を参照して、その理由を確認してください
+* [ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)ノード： *絶対* - [ビットマップリソース](../../resources/bitmap-resource/bitmap-resource.md)ページと[パフォーマンス最適化ガイドライン](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)を参照して、その理由を確認してください
 
 ノードまたはグラフのプロパティをクリックして表示し、[プロパティ](../../interface/properties/properties.md)パネルの<b>基本パラメーター</b>セクションで<b>出力サイズ</b>プロパティを見つけます。 継承法ドロップダウンメニューをクリックし、目的の継承法を選択します。
 

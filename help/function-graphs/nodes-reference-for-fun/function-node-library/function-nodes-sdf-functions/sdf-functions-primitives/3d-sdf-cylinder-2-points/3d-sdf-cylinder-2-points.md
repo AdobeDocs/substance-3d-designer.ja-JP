@@ -1,13 +1,11 @@
 ---
 title: 円柱2点
 description: Designer > Substance合成グラフ >ノードリファレンスのSubstance合成グラフ > Node library > SDF 関数 >プリミティブ> Cylinder 2 point
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 1%
-
 ---
-
 
 # 円柱2点
 
@@ -34,13 +32,13 @@ ht-degree: 1%
 
 >[!INFO]
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
 
 ## 入力
 
 |  |  |
 | :--- | :--- |
-| <b>開始</b> *浮動小数点3* | 円柱の開始ディスクの位置です。<br><br><i>既定値： (0, 0, 0)</i> |
-| <b>終了</b> *浮動小数点3* | 円柱の終了ディスクの位置です。<br><br><i>既定値： (0, 0, 1)</i> |
-| <b>半径</b> *フロート* | 円柱の半径。<br><br><i>既定： 0.25</i> |
-| <b>P</b> *浮動小数点3* | ワールド空間の位置。 この入力を使用して、<b>オフセットP</b>および<b>回転P</b>ノードを使用する追加の変換を適用します。<br><br><i>既定：変換されていないワールドスペースの位置。</i> |
+| <b>開始</b> *浮動小数3* | 円柱の開始ディスクの位置です。<br><br><i>既定値： (0, 0, 0)</i> |
+| <b>終了</b> *浮動小数3* | 円柱の終了ディスクの位置です。<br><br><i>既定値： (0, 0, 1)</i> |
+| <b>半径</b> *浮動小数* | 円柱の半径。<br><br><i>既定： 0.25</i> |
+| <b>P</b> *浮動小数3* | ワールド空間の位置。 この入力を使用して、<b>Offset P</b>および<b>Rotate P</b>ノードを使用する他の変換を適用します。<br><br><i>既定：変換されていないワールド空間の位置。</i> |

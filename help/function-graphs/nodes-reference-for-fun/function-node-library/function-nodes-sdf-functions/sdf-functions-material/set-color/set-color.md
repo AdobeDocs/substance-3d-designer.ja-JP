@@ -1,13 +1,11 @@
 ---
 title: カラーを設定
 description: SDF シーンのマテリアルのbase colorを設定します。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
-
 ---
-
 
 # カラーを設定
 
@@ -34,14 +32,14 @@ SDF シーンのマテリアルのbase colorを設定します。
 
 >[!INFO]
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
 
 ## 入力
 
 |                            |                                  |
 |----------------------------|----------------------------------|
-| <b>SDFシーン</b> *フロート* | 入力SDF シーン。 |
-| <b>基本色</b> *浮動小数点3* | 設定するbase color値。 |
+| <b>SDF シーン</b> *浮動小数* | 入力SDF シーン。 |
+| <b>Base color</b> *浮動小数3* | 設定するbase color値。 |
 
 
 

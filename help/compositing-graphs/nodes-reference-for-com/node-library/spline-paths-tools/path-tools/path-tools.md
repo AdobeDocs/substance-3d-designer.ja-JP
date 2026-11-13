@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+breadcrumb-title: ""
 description: グラフ内のパスを作成、操作、変換するためのすべてのパスツールノードにアクセスできます。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: パスツール
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 1%
-
 ---
-
 
 # パスツール
 
@@ -28,7 +26,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> [パスとスプラインツールの操作](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)について学習して、ツールセットを最大限に活用することをお勧めします。
+> [パスとスプラインツールの操作](../../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)について学習して、ツールセットを最大限に活用することをお勧めします。
 > 
 > 上級ユーザー向けに、[パス形式の仕様](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)では、パスのデータがカラー画像にエンコードされる方法について説明し、このデータを直接操作するためのヒントを提供します。
 

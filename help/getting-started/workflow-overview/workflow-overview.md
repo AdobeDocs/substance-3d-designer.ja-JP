@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: Substance 3D Designerでプロシージャルマテリアルを作成する場合の基本的なワークフローについて説明します。
+description: Substance 3D Designerでプロシージャルマテリアルを最初から最後まで作成するための基本的なワークフローについて説明します。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ワークフローの概要
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Substance 3D Designerはノードベースのエディターです。 つまり�
 
 Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェアでの作業とは異なります。 手動で操作（メニューオプションに移動して彩度を調整したり、スライダーを変更するなど）を行う代わりに、画像を編集または作成する論理的な手順を構築します。 これは、「ノード」と呼ばれる小さな構成要素のネットワークを構築することによって起こります。 画像データは、<b>から右</b>へと構成要素を通って移動し、情報のパスを決定するリンクによって接続されます。 すべてのノードが接続されている場合は、最終的な結果に貢献します。
 
-主な利点は、ワークフローが&#x200B;**非線形**&#x200B;になることです。履歴スタックに入る手動で実行された操作とは異なり、いつでもノードを入れ替えたり変更したりできます。
+主な利点は、ワークフローが&#x200B;**非線形**になることです。履歴スタックに入る手動で実行された操作とは異なり、いつでもノードを入れ替えたり変更したりできます。
 最終結果に影響する最初のコントラスト調整が強すぎると判断した場合は、後で実行したすべての作業を失うことなく、前に戻って調整したり、完全に切り抜いたりすることができます。
 
 ![簡略化されたグラフインスタンス](workflow-overview.resources/sub-graph.png "簡略化されたグラフインスタンス")
@@ -39,14 +39,14 @@ Designerでの作業は、Photoshopなどの他の2D画像編集ソフトウェ�
 
 グラフインスタンスの詳細については、[Substance グラフ](../../compositing-graphs/substance-compositing-graphs.md)での使用に関する[専用セクション](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)があります。
 
-![グラフのパラメーターを簡易化](workflow-overview.resources/parameters-5.png "グラフのパラメーターを簡易化"){zoomable="yes"}
+![簡略化されたグラフパラメーター](workflow-overview.resources/parameters-5.png "簡略化されたグラフパラメーター"){zoomable="yes"}
 
 ## カスタムパラメーター
 
 操作チェーン内のノードには、最終的な結果に影響を与えるボタン、スライダー、設定など、いくつかの形式のコントロールがあります。\
 サブグラフを作成したり、Substanceファイルを別のアプリケーションにエクスポートする場合は、グラフ用に独自の「コントロールパネル」を構築し、他のユーザーが完全に固有のコントロールパネルを使用して微調整および変更を行うことができます。
 
-カスタムパラメーター[こちら](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)の一般的な概念について説明するか、詳細深度に移動して、[パラメーターの表示を開始](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)してください。
+カスタムパラメーター[こちら](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)の一般的な概念について説明するか、詳細深度に移動して、[パラメーターの表示を開始](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)してください。
 
 ## グラフの種類
 

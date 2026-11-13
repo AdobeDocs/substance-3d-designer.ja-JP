@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/home.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
+breadcrumb-title: ""
 description: Substance 3D Designerを使用して、ノードベースのワークフローでプロシージャルマテリアル、テクスチャ、3Dアセットを作成する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Designer > User guide
@@ -8,23 +8,21 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 3D Designerユーザーガイド
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
-
 ---
-
 
 # Substance 3D Designerユーザーガイド
 
 ![Substance 3D Designerのメインウィンドウ](home.resources/sdsummerinterface.jpg "Substance 3D Designerのメインウィンドウ")
 
-[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html) はマテリアルオーサリングソフトウェアです。 ノードグラフを使用して、プロシージャパターンやノイズからテクスチャを生成したり、ビットマップを操作することができます。
+[Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html) はマテリアルオーサリングソフトウェアです。 ノードグラフを使用して、プロシージャルのパターンおよびノイズからテクスチャを生成したり、ビットマップを操作することができます。
 
-Designer で使用されている単語や概念になじみがありませんか？ 「[用語集](../glossary/glossary.md)」に移動して学んでください。
+Designer で使用されている単語や概念になじみがありませんか？ 「[用語集](../learning-tutorials/essentials/glossary/glossary.md)」に移動して学んでください。
 
 このマニュアルで回答されていない質問がある場合は、[コミュニティサポートフォーラム](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1)をダウンロードすることもできます。
 
@@ -53,7 +51,7 @@ Designer で使用されている単語や概念になじみがありません�
 * [エクスプローラー](../interface/the-explorer-window/the-explorer-window.md) — このページでは、Adobe Substance 3D Designer のエクスプローラードックについて説明しています。 このドックを使用すると、パッケージとそのリソースを管理できます。
 * [グラフビュー](../interface/the-graph-view/the-graph-view.md) — このページでは、Substance 3D Designer のグラフビューを提示しています。
 * [ライブラリ](../interface/the-library/the-library.md) — このページでは、Substance 3D Designer のライブラリパネル、そのレイアウト、コンテンツの検索およびフィルタリングに使用できるツールを提示しています。
-* [プロパティ](../interface/properties/properties.md) — このページでは、Substance 3D Designer の属性パネル、そのレイアウト、様々なロールアウトとカテゴリ、およびパラメーターを提示しています。 Substance グラフのプロパティに焦点が絞られています。 Substance機能グラフとFX-Mapグラフのレイアウトがシンプルになりました。
+* [プロパティ](../interface/properties/properties.md) — このページでは、Substance 3D Designer の属性パネル、そのレイアウト、様々なロールアウトとカテゴリ、およびパラメーターを提示しています。 Substance グラフのプロパティに焦点が絞られています。 Substance機能グラフとFX-Map グラフのレイアウトがシンプルになります。
 * [2D ビュー](../interface/2d-view/2d-view.md) — このページでは、Substance 3D Designer の 2D ビューパネルのユーザーインターフェイスおよび機能について説明しています。
 * [3D ビュー](../interface/3d-view/3d-view.md) — 3D ビューは、カスタムメッシュおよびレンダリングされた PBR マテリアルを含んだマテリアルを表示し、理解するのに役立ちます。
 * [依存関係マネージャー](../interface/dependency-manager/dependency-manager.md)
@@ -68,7 +66,7 @@ Designer で使用されている単語や概念になじみがありません�
 
 ## Substance グラフ
 
-* [Substance グラフの重要な概念](../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
+* [Substance グラフの重要な概念](../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
 * [Substance グラフの作成](../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 * [パラメーターの表示](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * [グラフパラメーター](../compositing-graphs/graph-parameters/graph-parameters.md)

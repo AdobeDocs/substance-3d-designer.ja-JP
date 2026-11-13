@@ -1,34 +1,32 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
-breadcrumb-title: ''
-description: Substanceグラフでスプラインを作成、操作、およびレンダリングするためのすべてのスプラインツールノードにアクセスします。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
+breadcrumb-title: ""
+description: グラフでスプラインを作成、操作、およびレンダリングするためのすべてのスプラインツールノードにアクセスします。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: スプラインツール
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
-
 ---
-
 
 # スプラインツール
 
 スプラインツールは、スプラインの生成と調整、およびイメージのマッピング、スキャッタリング、またはワープに使用するためのノードの集まりです。
 
-スプラインは、制御点とそれらの点の接線によって軌道が形成される滑らかな曲線です。 各点は、イメージのマッピング、ワープ、およびスキャタリングを制御するために使用されるスプラインのHeightとThicknessアトリビュートも制御します。
+スプラインは滑らかなカーブであり、そのモーションパスは制御点とそれらの点の正接によって形成されます。 各点は、イメージのマッピング、ワープ、およびスキャタリングを制御するために使用されるスプラインのHeightとThicknessアトリビュートも制御します。
 
 使用を開始するには、このチュートリアルをご覧ください。
 
 >[!TIP]
 >
-> [パスとスプラインツールの操作](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)について学習して、ツールセットを最大限に活用することをお勧めします。
+> [パスとスプラインツールの操作](../../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)について学習して、ツールセットを最大限に活用することをお勧めします。
 
 ## ノードリスト
 
@@ -46,7 +44,7 @@ ht-degree: 1%
 
 [スプライン上の散乱スプライン](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)
 
-[スプライン2D変換](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
+[スプライン2D 変形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
 
 [スプライン（3次）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)
 

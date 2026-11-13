@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: ブレンドノードを使用すると、様々なブレンドモードを使用して2つのテクスチャをブレンドし、合成効果を作成することができます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ブレンド
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 8%
@@ -45,7 +45,7 @@ ht-degree: 8%
 </tr>
 </table>
 
-その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/jp/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
+その機能は、一番上のレイヤーで設定した描画モードによってブレンドされる[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)または[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)で、2つのレイヤーを重ねることと似ています。
 
 >[!TIP]
 >
@@ -58,9 +58,9 @@ ht-degree: 8%
 |  |  |
 | --- | --- |
 | <b>不透明度</b> *浮動小数* | 背景にブレンドされる前景レイヤーの不透明度。 このエフェクトは、不透明度の入力とは独立して機能し、追加のマルチプライヤとして機能します。 |
-| <b>描画モード</b> *整数* [静的](../../../../glossary/glossary.md) | 使用するブレンド操作を設定します。   [描画モードに関する専用ページ](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)を参照してください。 |
-| <b>アルファブレンディング</b> *整数* [静的](../../../../glossary/glossary.md) | カラー入力にアルファチャンネルがある場合のブレンド動作を指定します。<ul data-preserve-html="true"> <li data-preserve-html="true">ソースアルファを使用</li> <li data-preserve-html="true">アルファを無視</li> <li data-preserve-html="true">ストレートアルファブレンディング</li> <li data-preserve-html="true">合成アルファブレンディング</li> </ul> |
-| <b>クロップエリア</b> *浮動小数4* [静的](../../../../glossary/glossary.md) | 追加の不透明度マスクのように動作するカスタムの切り抜き領域を設定できるようにします。 切り抜いた領域には、背景のみが表示されます。 |
+| <b>描画モード</b> *整数* [静的](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 使用するブレンド操作を設定します。   [描画モードに関する専用ページ](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)を参照してください。 |
+| <b>アルファブレンディング</b> *整数* [静的](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | カラー入力にアルファチャンネルがある場合のブレンド動作を指定します。<ul data-preserve-html="true"> <li data-preserve-html="true">ソースアルファを使用</li> <li data-preserve-html="true">アルファを無視</li> <li data-preserve-html="true">ストレートアルファブレンディング</li> <li data-preserve-html="true">合成アルファブレンディング</li> </ul> |
+| <b>クロップエリア</b> *浮動小数4* [静的](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 追加の不透明度マスクのように動作するカスタムの切り抜き領域を設定できるようにします。 切り抜いた領域には、背景のみが表示されます。 |
 
 ## 入力コネクター
 
