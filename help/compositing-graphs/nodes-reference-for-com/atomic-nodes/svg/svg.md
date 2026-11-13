@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: SVGノードを使用して、スケーラブルなグラフィックエレメントを作成するためのテクスチャとしてSVGベクターグラフィックを読み込んでレンダリングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -57,12 +57,12 @@ ht-degree: 0%
 > このノードは外部リソースに依存しているため、これらのノードを使用する際には、いくつかの点に留意する必要があります。
 > 
 > * SVGノードはカラーまたはグレースケールを返すことができますが、リソースがグレースケールベクトルの場合でもデフォルトでカラーが使用されます。 この設定は、グラフの性能や複雑さに影響する可能性があるため、必要に応じて常に「グレースケール」の[カラーモード](#parameters)に切り替えてください。
-> * SVGノードを削除しても、[パッケージ](../../../../learning-tutorials/essentials/glossary/glossary.md#package)の[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)は削除されません。[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)で手動で削除する必要があります。
-> * SVGシェイプは、Substanceグラフでビットマップとして使用するために、[テッセレーション](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation)されてジオメトリ/ポリゴンに変換され、次に&#x200B;*ラスタライズ*&#x200B;されます。 これらの操作に使用されるテクノロジーは、アウトラインなどの複数のベクトルプロパティをサポートしていません。 これらの制限の詳細については、[こちら](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)をご覧ください。
+> * SVGノードを削除しても、[パッケージ](../../../../glossary/glossary.md)の[SVGリソース](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)は削除されません。[エクスプローラー](../../../../interface/the-explorer-window/the-explorer-window.md)で手動で削除する必要があります。
+> * SVGシェイプは、Substanceグラフでビットマップとして使用するために、[テッセレーション](../../../../glossary/glossary.md)されてジオメトリ/ポリゴンに変換され、次に&#x200B;*ラスタライズ*&#x200B;されます。 これらの操作に使用されるテクノロジーは、アウトラインなどの複数のベクトルプロパティをサポートしていません。 これらの制限の詳細については、[こちら](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)をご覧ください。
 
 >[!WARNING]
 >
-> SVGシェイプは、Substanceグラフでビットマップとして使用するために、[テッセレーション](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation)されてジオメトリ/ポリゴンに変換され、次に&#x200B;*ラスタライズ*&#x200B;されます。
+> SVGシェイプは、Substanceグラフでビットマップとして使用するために、[テッセレーション](../../../../glossary/glossary.md)されてジオメトリ/ポリゴンに変換され、次に&#x200B;*ラスタライズ*&#x200B;されます。
 > 
 > これらの操作に使用されるテクノロジーは、アウトラインなどの複数のベクトルプロパティをサポートしていません。
 > 

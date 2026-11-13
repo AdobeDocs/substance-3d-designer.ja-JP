@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ""
 description: Substance 3D Designerの3Dビューを使用して、3Dオブジェクトのマテリアルをプレビューし、照明条件をテストします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D ビュー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '3549'
 ht-degree: 1%
@@ -157,13 +157,13 @@ Point Light 1は、LMBまたはRMBを押したままビューポートのライ�
 Designerには、多数のプリセットメッシュがあります。 これらのメッシュは、均一で使用可能なUV座標を備えており、タイリングテクスチャのほとんどのシナリオに使用できます。 独自の3D メッシュの読み込みと表示も可能です。\
 トップバーの<b>シーン</b>ドロップダウンメニューからデフォルトのメッシュのいずれかを選択します。
 
-カスタム3D シーンの場合は、[「3D シーンの操作」](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)セクションに移動します。
+カスタム3D シーンの場合は、[「3D シーンの操作」](../../working-with-3d-scenes/working-with-3d-scenes.md)セクションに移動します。
 
 ![マテリアルのプロパティを変更しています](3d-view.resources/3d-materials.gif "マテリアルのプロパティを変更しています")
 
 ## シェーダープロパティの変更
 
-Designerでは、デフォルトでいくつかの[シェーダ](../../learning-tutorials/essentials/glossary/glossary.md#shader)を使用できます。各シェーダーには、テクスチャチャンネル以外のオプションがあります。 これらは個別に設定できます。
+Designerでは、デフォルトでいくつかの[シェーダ](../../glossary/glossary.md)を使用できます。各シェーダーには、テクスチャチャンネル以外のオプションがあります。 これらは個別に設定できます。
 
 Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)間でシェーダーが異なり、「共通」ラベルが付いた設定のみがレンダラーの切り替え時に引き継がれます。
 
@@ -177,7 +177,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 >
 > **テセレーションについて**
 > 
-> メッシュのテセレーションは、[ディスプレイスメントポップアップ](displacement/displacement.md#tessellation)の&#x200B;**テセレーション率**&#x200B;パラメーターを使用して調整できます。
+> メッシュのテセレーションは、[ディスプレイスメントポップアップ](displacement/displacement.md#tessellation)の&#x200B;**テセレーション率**パラメーターを使用して調整できます。
 > このパラメーターで制御される特定のプロパティは、現在の3Dレンダラーによって異なります。
 > 
 > * **ラスタライザー/GPU パストレーサー:** **レベルの調整**&#x200B;という名前のオブジェクト単位のプロパティ。 `Mesh`オブジェクトを[シーンブラウザー](scene-browser/scene-browser.md)で選択して、プロパティを表示し、直接編集します。
@@ -187,7 +187,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 ## シーンを書き出し
 
-[このページ](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)の3D シーンの書き出しについて説明します。
+[このページ](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)の3D シーンの書き出しについて説明します。
 
 ### テッセレーションされたメッシュの書き出し（OpenGLレンダラーのみ）
 
@@ -220,7 +220,7 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 >
 > **TDR （Windowsのみ）**
 > 
-> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
+> この機能を使用するには、Designerの[技術要件](../../getting-started/system-requirements/system-requirements.md)で説明されているように、<b>タイムアウトの検出と回復(TDR)</b>がドキュメントの[このページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)の推奨値と一致している必要があります。
 
 ## メニューバー
 
@@ -269,18 +269,18 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 <b>現在のシーンから3Dリソースを作成…:</b>現在のシーンからパッケージ内に新しい[3D シーンリソース](../../resources/3d-scene-resource/3d-scene-resource.md)を作成します。
 
-<b>状態ファイルを読み込む…: </b>外部に保存された[シーン状態ファイル](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)を読み込みます。 3D メッシュは置き換えられず、3Dレンダラー、カメラ、ライトの設定のみが読み込まれます。
+<b>状態ファイルを読み込む…: </b>外部に保存された[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)を読み込みます。 3D メッシュは置き換えられず、3Dレンダラー、カメラ、ライトの設定のみが読み込まれます。
 
-<b>メッシュを含む状態ファイルを読み込む…:</b>外部に保存された[シーン状態ファイル](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbscn)を読み込みます。 3Dレンダラー、カメラ、ライトとその参照3D シーンの設定をロードします。 .
+<b>メッシュを含む状態ファイルを読み込む…:</b>外部に保存された[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbscn)を読み込みます。 3Dレンダラー、カメラ、ライトとその参照3D シーンの設定をロードします。 .
 
-<b>状態ファイルを保存する…: </b>3Dビューの現在の状態を[シーン状態ファイル](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbscn)に保存します。
+<b>状態ファイルを保存する…: </b>3Dビューの現在の状態を[シーン状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbscn)に保存します。
 
-<b>現在の状態を既定として保存： </b>新しい3Dビューを作成するときに既定で使用される3Dビューの現在の状態を[シーンの状態ファイル](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)として設定します。 このファイルは、3Dビューがリセットまたは初期化されるたびに読み込まれ、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で設定できます。
+<b>現在の状態を既定として保存： </b>新しい3Dビューを作成するときに既定で使用される3Dビューの現在の状態を[シーンの状態ファイル](../../working-with-3d-scenes/working-with-3d-scenes.md)として設定します。 このファイルは、3Dビューがリセットまたは初期化されるたびに読み込まれ、[プロジェクト設定](../../interface/preferences-window/project-settings/project-settings.md)で設定できます。
 
-<b>シーンのエクスポート：</b> *（ラスタライザー/GPU パストレーサーレンダラーのみ）*&#x200B;現在のシーンを[統合されたシーン](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)として書き出します。この場合、結果のシーンのみが書き込まれ、元のシーンへの参照はすべて失われます。 書き出されるシーンの内容は、選択した書き出し形式でサポートされる機能によって異なります。\
+<b>シーンのエクスポート：</b> *（ラスタライザー/GPU パストレーサーレンダラーのみ）*&#x200B;現在のシーンを[統合されたシーン](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)として書き出します。この場合、結果のシーンのみが書き込まれ、元のシーンへの参照はすべて失われます。 書き出されるシーンの内容は、選択した書き出し形式でサポートされる機能によって異なります。\
 利用可能な形式：STL、FBX、GLB、GLTF、PLY、USDC、USD、USDA、USDZ、OBJ。
 
-<b>レイヤーを含んだシーンの書き出し：</b> *（ラスタライザーおよびGPU パストレーサーレンダラーのみ）*現在のシーンを[レイヤーシーン](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)として書き出します。元のシーンへのすべての編集内容は、非破壊的なワークフローで個別のファイルに保存されます。 これは、USDファイル形式の場合にのみ使用できます。\
+<b>レイヤーを含んだシーンの書き出し：</b> *（ラスタライザーおよびGPU パストレーサーレンダラーのみ）*現在のシーンを[レイヤーシーン](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)として書き出します。元のシーンへのすべての編集内容は、非破壊的なワークフローで個別のファイルに保存されます。 これは、USDファイル形式の場合にのみ使用できます。\
 利用可能な形式は、USDC、USD、USDAです。
 
 <b>テッセレーションされたジオメトリのエクスポート：</b> *（OpenGLレンダラーのみ）*&#x200B;現在のシーンをテセレーション付きでRAWジオメトリとしてエクスポートします。「シーンのエクスポート」セクションを参照してください。
@@ -300,19 +300,19 @@ Designerの[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers
 
 <b>編集</b> – プロパティウィンドウで現在のマテリアルの設定を編集します。
 
-<b>シェーダーリスト</b> – 現在の[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)で使用できるすべての[シェーダー](../../learning-tutorials/essentials/glossary/glossary.md#shader)。
+<b>シェーダーリスト</b> – 現在の[3Dレンダラー](../../interface/3d-view/3d-renderers/3d-renderers.md)で使用できるすべての[シェーダー](../../glossary/glossary.md)。
 
 <b>定義の読み込み…: </b> （OpenGLレンダラーのみ）独自のカスタム[GLSLFX シェーダーを読み込むことができます。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) シェーダーが上のリストに追加されます。
 
-<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
+<b>共通パラメータのリセット：</b>シェーダ間で共通するすべてのパラメータをリセットします。 例えば、ラスタライザー/GPU パストレーサーレンダラーとOpenGLレンダラーを切り替える場合、[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)のいくつかのパラメーター値が引き継がれます。
 
 <b>名前の変更：</b>このマテリアルのラベルを変更します。
 
 <b>マテリアルのリセット：</b>すべてのシェーダーパラメーターを既定値にリセットします。 テクスチャがシェーダーのサンプラーのいずれかに接続されている場合は、接続が解除されます。
 
-<b>マテリアルをシーンの状態にリセットします： </b>*（ラスタライザまたはGPU パストレーサーレンダラーのみ）* [上書きされたマテリアル](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)のすべてのプロパティを、シーンから元の値にリセットします（元のテクスチャがある場合はリセットします）。
+<b>マテリアルをシーンの状態にリセットします： </b>*（ラスタライザまたはGPU パストレーサーレンダラーのみ）* [上書きされたマテリアル](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)のすべてのプロパティを、シーンから元の値にリセットします（元のテクスチャがある場合はリセットします）。
 
-<b>追加： </b>新しいマテリアルを一覧に追加します。 既定では使用されず、[シーンブラウザー](../../interface/3d-view/scene-browser/scene-browser.md)を使用して[シーン マテリアルに接続](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)されている可能性があります。
+<b>追加： </b>新しいマテリアルを一覧に追加します。 既定では使用されず、[シーンブラウザー](../../interface/3d-view/scene-browser/scene-browser.md)を使用して[シーン マテリアルに接続](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)されている可能性があります。
 
 +++
 

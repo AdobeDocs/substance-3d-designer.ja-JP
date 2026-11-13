@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ""
 description: Substance 3D Designer合成グラフでパラメーターを表示し、マテリアルをカスタマイズおよび再利用可能にする方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: パラメーターの表示
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
@@ -102,7 +102,7 @@ ht-degree: 4%
 | --- | --- |
 | [グラデーションランプ](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)、[カーブエディター](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)、[フォント](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)、[レベルヒストグラム](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | ユーザーが作成したパラメーターでは使用できないウィジェットを要求します。 |
 
-もう1つの重要な制限は、[静的パラメーター](../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter)に関するものです。 これらは、[公開されたSubstance 3Dアセット(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)では変更できません。
+もう1つの重要な制限は、[静的パラメーター](../../../glossary/glossary.md)に関するものです。 これらは、[公開されたSubstance 3Dアセット(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)では変更できません。
 
 グラフが&#x200B;*cooked*&#x200B;された後（つまり、アルゴリズムを迅速かつ効率的に実行するために処理された後）、静的パラメーター – 動的パラメーターとは対照的に – *オンザフライ編集*&#x200B;はできません。 グラフが&#x200B;*編集*&#x200B;または&#x200B;*公開*&#x200B;されるたびに、Designerで料理が行われます。
 

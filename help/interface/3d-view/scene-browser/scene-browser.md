@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ""
 description: シーン内の3D シーン要素、マテリアル、オブジェクトを移動および管理するには、ビューポート・ブラウザを使用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: シーンブラウザー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 3Dビューのシーンブラウザには、シーン内のすべての要素とその階層が一覧表示されます。
 
-オブジェクトの選択、表示/非表示の切り替え、[シーンのマテリアルを上書きする](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)必要があるマテリアルの選択を行うためのコントロールを提供します。
+オブジェクトの選択、表示/非表示の切り替え、[シーンのマテリアルを上書きする](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)必要があるマテリアルの選択を行うためのコントロールを提供します。
 
 Designerでは、シーンの説明と管理に[USD](https://openusd.org/release/index.html)を使用しているため、用語とコンセプトはそのシーンツリーにあります。
 
@@ -38,7 +38,7 @@ Designerでは、シーンの説明と管理に[USD](https://openusd.org/release
 
 オブジェクトは、シーンのルートまで、他のオブジェクトの親になります。 親オブジェクトには、子のリストを展開または折りたたむために使用する矢印ボタンがあります。
 
-一部のオブジェクトには、選択時に[プロパティ](../../../interface/properties/properties.md)ドックで表示および編集できるプロパティがあります：環境、カメラ、ライト、`Mesh`オブジェクトおよびマテリアル[オーバーライド](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)。
+一部のオブジェクトには、選択時に[プロパティ](../../../interface/properties/properties.md)ドックで表示および編集できるプロパティがあります：環境、カメラ、ライト、`Mesh`オブジェクトおよびマテリアル[オーバーライド](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Designerは、読み込まれた任意のシーンにオブジェクトを追加
 
 「ライト」、「カメラ」、「環境」の各メニューで「編集…」アクションを使用すると、シーン内に他のライト、カメラ、環境があるかどうかに関係なく、これらのオブジェクトが編集されます。
 
-これらのオブジェクトは、[書き出し](../../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時にシーンに含められます。
+これらのオブジェクトは、[書き出し](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時にシーンに含められます。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -136,9 +136,9 @@ Designerは、読み込まれた任意のシーンにオブジェクトを追加
 
 Designerで一覧表示されるマテリアルは、シーンツリー内のマテリアルオブジェクトであり、少なくとも1つのメッシュで使用されます。
 
-これらのマテリアルのいずれかを[上書き](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)すると、コピーがDesignerによって作成され、数値の接尾辞が付きます。
+これらのマテリアルのいずれかを[上書き](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コピーがDesignerによって作成され、数値の接尾辞が付きます。
 
-オーバーライドされたマテリアルは、コンテキストメニューに別の項目を表示します。&#39;[接続されたマテリアル](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)&#39;サブメニューには、このマテリアルをオーバーライドするために使用できるその他のすべての利用可能なマテリアルが一覧表示されます。
+オーバーライドされたマテリアルは、コンテキストメニューに別の項目を表示します。&#39;[接続されたマテリアル](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&#39;サブメニューには、このマテリアルをオーバーライドするために使用できるその他のすべての利用可能なマテリアルが一覧表示されます。
 
 </td>
 <td style="border: 0;" valign="top">

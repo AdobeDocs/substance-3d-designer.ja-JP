@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ""
 description: Substance 3D Designerを使用して、ノードベースのワークフローでプロシージャルマテリアル、テクスチャ、3Dアセットを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designerユーザーガイド
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 [Substance 3D Designer](https://www.adobe.com/jp/products/substance3d-designer.html) はマテリアルオーサリングソフトウェアです。 ノードグラフを使用して、プロシージャルのパターンおよびノイズからテクスチャを生成したり、ビットマップを操作することができます。
 
-Designer で使用されている単語や概念になじみがありませんか？ 「[用語集](../learning-tutorials/essentials/glossary/glossary.md)」に移動して学んでください。
+Designer で使用されている単語や概念になじみがありませんか？ 「[用語集](../glossary/glossary.md)」に移動して学んでください。
 
 このマニュアルで回答されていない質問がある場合は、[コミュニティサポートフォーラム](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1)をダウンロードすることもできます。
 
@@ -66,7 +66,7 @@ Designer で使用されている単語や概念になじみがありません�
 
 ## Substance グラフ
 
-* [Substance グラフの重要な概念](../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
+* [Substance グラフの重要な概念](../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
 * [Substance グラフの作成](../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 * [パラメーターの表示](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * [グラフパラメーター](../compositing-graphs/graph-parameters/graph-parameters.md)

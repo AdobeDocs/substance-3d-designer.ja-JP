@@ -1,7 +1,7 @@
 ---
 title: シェイプスプラッタv2マッパーグレースケール
 description: Designer > Substance合成グラフ >ノードリファレンスのSubstance合成グラフ > Node library > Generator > Pattern > Shape splatter v2 mapperグレースケール
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1766'
 ht-degree: 0%
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 >[!TIP]
 > 
-> [**&#39;ラスティボルト&#39;** マテリアルサンプル](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample)は、Shape splatter v2ノードの使用を開始するために使用できます。
+> [**&#39;ラスティボルト&#39;** マテリアルサンプル](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)は、Shape splatter v2ノードの使用を開始するために使用できます。
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)）を参照してください
 
 <a name="inputs"></a>
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 | <b>投影モード</b> *整数* | 入力画像を図形に投影する方式：<br><br>- <b>スプラッタUVから：</b> [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md)ノードが提供するUVを使用します。<br>- <b>Triplanar:</b>トライプラナー投影を使用して、図形のローカルXYZ軸にイメージをマップします。<br>- <b>カスタム関数：</b>関数グラフを作成して、イメージを図形にマッピングします。 |
 | <b>カスタム関数</b> *浮動小数* | 図形のピクセルごとの輝度を浮動小数として指定します。<br><br>次の変数を使用できます：<br>- <code>shape.position.os</code> (浮動小数3)オブジェクト空間での図形の表面の位置。<br>- <code>shape.position.ws</code> (浮動小数3)ワールド空間*.<br>- <code>shape.normal.osのシェイプサーフェスの位置</code> (浮動小数3)オブジェクト空間内のシェイプサーフェスの法線です。<br> - <code>shape.normal.ws</code> (浮動小数3)ワールド空間*.<br>- <code>shape.idのシェイプサーフェスの法線</code> (浮動小数)図形の一意の識別子。<br>- <code>マテリアル.id</code> (浮動小数) [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md)ノードで定義された図形サーフェスのマテリアル IDです。<br><br>*：図形のワールド空間は基点の中心に配置され、図形のHeightは考慮されません。 これは、オブジェクト空間との唯一の違いが方向であることを意味します。<br><br>[シェイプスプラッタv2マッパーグレースケール](shape-splatter-v2-mapper-grayscale.md)ノードの入力をサンプリングする必要がある場合は、次の[サンプルグレースケール](../../../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)ノード入力スロットを使用できます：<br>- 0: グリッドアトラス<br>- 1-8:パターン入力1-8 |
 | <b>コントラストのブレンド</b> *浮動小数* | 平面の投影間のトランジションのシャープ(1)は、フェードグラデーションがないことを意味します。 |
-| <b>画像投影</b> *整数* | 3平面マッピングに影響する投影間で分散された<b>パターン入力#</b>画像の量。<br><br>図形の全辺をカバーするために、各軸に対して前面(+)と背面(-)の平面投影を行い、合計6投影にします。<br><br>- <b>1画像：</b>パターン入力1は、すべての平面投影に使用されます。<br>- <b>3画像：</b>各軸の+/-投影に対して個別のパターン入力が使用されます。<br>- <b>6画像：</b>各投影は、個別のパターン入力を使用します。<br>- &lbrace;111マテリアル ID画像：<b> マテリアル IDごとに個別のパターン入力を使用します。各画像は、すべての平面の投影に使用されます。</b> |
+| <b>画像投影</b> *整数* | 3平面マッピングに影響する投影間で分散された<b>パターン入力#</b>画像の量。<br><br>図形の全辺をカバーするために、各軸に対して前面(+)と背面(-)の平面投影を行い、合計6投影にします。<br><br>- <b>1画像：</b>パターン入力1は、すべての平面投影に使用されます。<br>- <b>3画像：</b>各軸の+/-投影に対して個別のパターン入力が使用されます。<br>- <b>6画像：</b>各投影は、個別のパターン入力を使用します。<br>- {111マテリアル ID画像：<b> マテリアル IDごとに個別のパターン入力を使用します。各画像は、すべての平面の投影に使用されます。</b> |
 | <b>投影センター</b> *浮動小数3* | オブジェクト空間で、軸ごとにトライプラナー投影をオフセットします。<br><br>オフセットは<i>投影スペース全体</i>に適用されるため、ある軸のオフセットが、<i>他の2つの</i> 軸に投影されたテクスチャの配置に影響を与えます。 |
 | <b>投影スケール</b> *浮動小数* | <i>すべての軸</i>の投影されたテクスチャの尺度を、指定した倍率に調整します。 |
 | <b>選択モードの入力</b> *整数* | 図形にマップする入力画像を選択する方法です。<br><br>ソース[シェイプスプラッタv2](../shape-splatter-v2/shape-splatter-v2.md)ノードで選択された<b>シェイプの種類</b>によって、図形へのイメージの割り当て方法が変わります：<br><br>- <b>グリッドアトラス</b>は、一致するグリッドインデックスによって&#39;グリッドアトラス入力&#39;にイメージがフェッチされることを示します（両方のアトラスは同じグリッドサイズを使用する必要があります）<br>- <b>パターン入力</b>は、一致するインデックスによって&#39;パターン入力#&#39;にイメージが割割割り当られます。<br> マテリアル ID.<br><br>インデックスを選択する方法：<br>- <b>スプラッタデータから：</b> &#39;パターン入力#&#39;または&#39;グリッドアトラス入力&#39;のイメージのインデックスを、[Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md)ノードによって割り当てられた図形のインデックスと一致させてください。<br>- <b>手動：</b> &#39;Image index&#39;パラメーターで指定されたインデックスを使用してください。<br>- <b>ランダム：</b> &#39;Random range&#39;パラメーターで指定された範囲です。<b></b> |

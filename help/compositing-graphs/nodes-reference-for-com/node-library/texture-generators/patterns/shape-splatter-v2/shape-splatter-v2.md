@@ -1,7 +1,7 @@
 ---
 title: スプラッタv2シェイプ
 description: Designer > Substance合成グラフ >ノードリファレンスのSubstance合成グラフ > Node library > Generator > Pattern > Shape splatter v2
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> [**&#39;ラスティボルト&#39;** マテリアルサンプル](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample)は、Shape splatter v2ノードの使用を開始するために使用できます。
+> [**&#39;ラスティボルト&#39;** マテリアルサンプル](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)は、Shape splatter v2ノードの使用を開始するために使用できます。
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)）を参照してください
 
 <a name="inputs"></a>
 

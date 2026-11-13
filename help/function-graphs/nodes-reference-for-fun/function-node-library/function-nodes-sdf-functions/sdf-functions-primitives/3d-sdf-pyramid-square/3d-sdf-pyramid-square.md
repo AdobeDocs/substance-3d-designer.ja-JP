@@ -1,7 +1,7 @@
 ---
 title: ピラミッド正方形
 description: Designer > Substance合成グラフ >ノード合成のリファレンスグラフ > Substanceライブラリ> SDF 関数 >プリミティブ> ピラミッドスクエア
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Heightとベースの位置を調整できる、正方形のベースを持つ�
 
 >[!INFO]
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../working-with-sdf-functions.md)）を参照してください
 
 ## 入力
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン16.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Shape splatter v1ファミリのノードと同様に、Shape splatter v2には�
             <p><b>錆びたボルト</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">マテリアルサンプル</a>は、ノードのShapeスプラッタv2ファミリとその特徴をジャンプするために使用できます。</p><p>グラフの構造、ノード設定、およびテクニックをガイドするように、ノードが整理され、注釈が付けられています。</p><p>また、<i>完全に編集可能</i>であるため、サンドボックスとして使用して、シェイプスプラッタv2ツールセットをより実践的に理解することができます。 サンプルグラフは好きなだけ作れるので、自由に試してみてください。</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3Dビューアノードのバウンディングフレーム機能（SDF 関数用）。" />
         </td>
     </tr>
 </table>
@@ -144,9 +144,9 @@ SDF 関数には、次の4つのカテゴリに分類される[新しいノー�
 
 >[!INFO]
 > 
-> [ノードの操作](../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)ページに移動して、これらのSDF 関数の操作を開始してください。
+> [ノードの操作](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)ページに移動して、これらのSDF 関数の操作を開始してください。
 
-<img style="display: block; margin: auto" src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 関数節" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 関数節" />
 
 明確で読みやすいアイコンが付いた軽量のノードにより、3D SDF 関数の構築が思ったより簡単になります。特に、ツールセットに次に追加された機能により…
 

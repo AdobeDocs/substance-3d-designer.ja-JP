@@ -1,7 +1,7 @@
 ---
 title: 丸め
 description: Designer/Substance合成グラフ/ノード合成の参照Substance合成グラフ/ノード・ライブラリ/SDF 関数/演算子/丸め
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 2%
@@ -32,7 +32,7 @@ SDFシェイプを拡張して膨張させ、ハードエッジを滑らかに�
 
 >[!INFO]
 > 
-> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)）を参照してください
+> SDF 関数に関する概念やワークフローについて詳しくは、専用ページ（[SDF 関数の操作](../../working-with-sdf-functions.md)）を参照してください
 
 ## 入力
 

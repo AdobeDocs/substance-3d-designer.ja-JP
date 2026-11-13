@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ""
 description: レンダリング、表示、パフォーマンスなど、Substance 3D Designerの3D ビューに関する問題をトラブルシューティングします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D ビュー問題
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Designerをバージョン15.0.0にアップグレードした後、以前のマ
 
 たとえば、スケール2とバイアス–1は、x値を`[0, 1]`から`[-1, 1]`に強制的に適用します： `x * 2 - 1`。
 
-Designerでは、3D メッシュで指定されていない限り、標準尺度とバイアスは適用されません。 その情報が不足している場合、[マテリアルのいずれかを上書き](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)すると、コンソールで警告が発生します：
+Designerでは、3D メッシュで指定されていない限り、標準尺度とバイアスは適用されません。 その情報が不足している場合、[マテリアルのいずれかを上書き](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、コンソールで警告が発生します：
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -242,7 +242,7 @@ Designerでは、3D メッシュで指定されていない限り、標準尺度
 
 少し前にUSDフォーマットに書き出したシーンの場合：最新バージョンのUSDを使用してシーンを再書き出しします。これには必要なデータが含まれます。 シーンの書き出しに使用するソフトウェアによって異なりますが、通常のスケールとバイアスに関連するプロパティがある場合は、それに注意してください。
 
-[マテリアルをオーバーライド](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)すると、Designerはメッシュを処理し、その法線、正接、および従法線に関連する欠落データを計算します。 Designerのデフォルトのスケールとバイアスがメッシュに必要な値と一致した場合は、オーバーライドされるとメッシュが正しく表示されます。
+[マテリアルをオーバーライド](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)すると、Designerはメッシュを処理し、その法線、正接、および従法線に関連する欠落データを計算します。 Designerのデフォルトのスケールとバイアスがメッシュに必要な値と一致した場合は、オーバーライドされるとメッシュが正しく表示されます。
 
 ## 3D ビュー開始時のクラッシュ
 

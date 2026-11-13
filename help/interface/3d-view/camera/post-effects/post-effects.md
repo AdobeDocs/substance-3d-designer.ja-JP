@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ""
 description: 3Dビューカメラに後処理エフェクトを適用して、マテリアルのプレビューと表示を強化します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ポストエフェクト
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 これらの効果は社内で開発されており、ラスタライザーおよびGPU パストレーサー [レンダラー](../../../../interface/3d-view/3d-renderers/3d-renderers.md)でのみ使用できます。
 
-[3D シーンリソース](../../../../resources/3d-scene-resource/3d-scene-resource.md)または[シーンステートファイル](../../../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)の保存時に有効にした投稿エフェクトは、シーンステートの一部として保存されます。
+[3D シーンリソース](../../../../resources/3d-scene-resource/3d-scene-resource.md)または[シーンステートファイル](../../../../working-with-3d-scenes/working-with-3d-scenes.md)の保存時に有効にした投稿エフェクトは、シーンステートの一部として保存されます。
 
 ## トーンマッピング
 

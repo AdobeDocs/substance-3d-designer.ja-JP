@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ""
 description: 新しいノード、バージョン9.0、およびポータルノードについては、 Substance 3D Designer Substance engine 13.0のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 13.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Substance 3D Designerのこの13.0.0リリースは、マテリアルアーテ�
 * [スプラインツール](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)は、スプラインを生成および調整したり、イメージのマッピング、スキャッタリング、またはワープに使用するためのノードの集まりです。
 * [パスツール](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)は、セグメントのリストの形でマスクから輪郭を抽出し、編集および改善するための別のノードのセットです。
 
-これらすべてのノードは、多くの可能性を提供し、彼らは確かに多くの創造的なアプリケーションを持つことになります。 このツールセットを使いやすくするために、理解すべき重要な概念のツアーについては、[パスとスプラインツールの操作](../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)に関するセクションを参照してください。
+これらすべてのノードは、多くの可能性を提供し、彼らは確かに多くの創造的なアプリケーションを持つことになります。 このツールセットを使いやすくするために、理解すべき重要な概念のツアーについては、[パスとスプラインツールの操作](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)に関するセクションを参照してください。
 
 ![スプラインを使ったマテリアル](version-13-0.resources/Splines.png "スプラインを使ったマテリアル")
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ""
 description: 新しい3DレンダラーとUSDのネイティブサポートについては、Substance 3D Designerバージョン15.0のリリースノートを参照してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン15.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -53,16 +53,16 @@ ht-degree: 0%
 
 ## コンテキスト内のアセットエディション
 
-マテリアルで作業する場合は、[特定の3D シーンのコンテキストでプレビュー](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)します。 そのため、すべてのテクスチャ、カメラ、ライトを含むフルシーンを読み込んでレンダリングできるようになりました。 チェリーの上に表示されます。このシーンがMaterialXシェーダを参照している場合は、ラスタライザを使用して正しくレンダリングされます。
+マテリアルで作業する場合は、[特定の3D シーンのコンテキストでプレビュー](../../working-with-3d-scenes/working-with-3d-scenes.md)します。 そのため、すべてのテクスチャ、カメラ、ライトを含むフルシーンを読み込んでレンダリングできるようになりました。 チェリーの上に表示されます。このシーンがMaterialXシェーダを参照している場合は、ラスタライザを使用して正しくレンダリングされます。
 
 ![USD シーンが読み込まれ、Designerにレンダリングされました](version-15-0.resources/feature_2.png)
 
-読み込みが完了すると、メッシュを選択して（Shiftキーを押しながらクリックするか、シーンブラウザーのおかげで）、[そのマテリアルを上書き](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)することで、シーンを操作できます。 その後、次の操作を実行できます。
+読み込みが完了すると、メッシュを選択して（Shiftキーを押しながらクリックするか、シーンブラウザーのおかげで）、[そのマテリアルを上書き](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)することで、シーンを操作できます。 その後、次の操作を実行できます。
 
 * グラフを作成または読み込み、シーンマテリアルに適用します。
-* 既存のマテリアルを調整するには、[そのテクスチャを抽出](../../learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)して新しいグラフにします。
+* 既存のマテリアルを調整するには、[そのテクスチャを抽出](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)して新しいグラフにします。
 
-最後に、3d シーンを編集したら、[書き出し](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)して、新しいファイルまたは元のファイルの新しいレイヤーとして保存し、データの損失を防ぎます（USDフォーマットの場合のみ）。
+最後に、3d シーンを編集したら、[書き出し](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)して、新しいファイルまたは元のファイルの新しいレイヤーとして保存し、データの損失を防ぎます（USDフォーマットの場合のみ）。
 
 最後に大切なことですが、USD(+ usda、usdc、usdz)、STL、PLY、GLTFに加え、FBXとOBJなど、読み込みと書き出しの両方でサポートされる3d形式が増えています。
 

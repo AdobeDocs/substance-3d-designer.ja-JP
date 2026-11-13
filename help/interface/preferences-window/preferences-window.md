@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ""
 description: Substance 3D Designerの環境設定ウィンドウにアクセスして、アプリケーションの設定と動作をカスタマイズします。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 環境設定
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
 | <b>メモリ予算</b>  *既定：自動* | この割り当ては、システムメモリプール全体の約75 %に対して自動的に計算されます。 この値を手動で設定するには、&#39;*カスタム*&#39;オプションを選択し、隣接する入力フィールドに値を設定します。 |
 
 ディスクへの書き込みは、システムメモリへの書き込みよりも&#x200B;*桁遅く*&#x200B;なります。 そのため、オーバーフローしたデータを一時フォルダーに書き込む必要があるため、グラフのレンダリング時間は&#x200B;*指数関数的に増加*&#x200B;します。\
-これを防ぐために、グラフのメモリ使用量を減らすための推奨事項についてドキュメントの「[Performance Optimization Guidelines](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)」セクションを参照することをお勧めします。
+これを防ぐために、グラフのメモリ使用量を減らすための推奨事項についてドキュメントの「[Performance Optimization Guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md)」セクションを参照することをお勧めします。
 
 #### ジョブスケジューラー
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> グラフのメモリ使用量を減らすための推奨事項については、ドキュメントの「[Performance Optimization Guidelines](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)」セクションを参照することをお勧めします。
+> グラフのメモリ使用量を減らすための推奨事項については、ドキュメントの「[Performance Optimization Guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md)」セクションを参照することをお勧めします。
 
 ## プロジェクト
 
@@ -189,7 +189,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベイカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :Nvidia Pascal GPUでDXRを強制的に使用</li> </ul> |
+| <b>GPU レイトレーシング</b>  *既定：確認済み* | オンにすると、[互換性のあるベイカー](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)のレイトレーシングがGPUで実行されます。   NVIDIA GPUアーキテクチャに応じて、次のGPU レイトレーシングバックエンドがデフォルトになります。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>:チューリング以降</li> <li data-preserve-html="true"><i>Optix</i>:パスカルとマックスウェル</li> </ul>  **注意：** GPUを利用したベイカーについて詳しくは、[Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)ドキュメントの[GPU レイトレーシング](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)セクションを参照してください。  **ヒント：**&#x200B;アプリケーションを開始して&#x200B;*強制的に*&#x200B;別のGPU レイトレーシングバックエンドを使用する場合は、次の&#x200B;*コマンドライン引数*&#x200B;を使用できます： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> :Nvidia Turing以降のGPUでOptixを強制的に使用</li> <li data-preserve-html="true"><code>—force-dxr</code> :Nvidia Pascal GPUでDXRを強制的に使用</li> </ul> |
 
 ## ライブラリ
 

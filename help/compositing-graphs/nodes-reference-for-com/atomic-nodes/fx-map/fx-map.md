@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: FX-Mapノードを使用して、プロシージャルのパターンおよびエフェクトを作成するためのテクスチャに関数グラフを適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -65,7 +65,7 @@ FX-Mapは、画像やパターン入力を繰り返し複製したり再分割�
 | <b>背景</b> *浮動小数/浮動小数4* | 結果を合成する背景色を設定します。 |
 | <b>領域のレンダリング</b> *浮動小数4* | FX-Mapの各辺の開始ピクセル範囲を指定すると、伸縮効果が得られます。 |
 | <b>タイリングの地域</b> *浮動小数4* | FX-Mapのタイリングのオフセットを指定します。 |
-| <b>外側をカリング</b> *ブーリアン* | 通常の範囲から外れる[カリング](../../../../learning-tutorials/essentials/glossary/glossary.md#culling)パターンで最適化を実行します。 |
+| <b>外側をカリング</b> *ブーリアン* | 通常の範囲から外れる[カリング](../../../../glossary/glossary.md)パターンで最適化を実行します。 |
 | <b>ラフネス</b> *浮動小数* | 深度と不透明度の乗数として機能します。 FXマップのブレンドプロセスにバイアスを適用します。 |
 | <b>グローバル不透明度</b> *浮動小数* | FX-mapの出力のグローバル不透明度を設定します。 |
 

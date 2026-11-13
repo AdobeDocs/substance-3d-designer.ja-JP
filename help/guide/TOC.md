@@ -3,36 +3,16 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
-source-wordcount: '1915'
+source-wordcount: '1905'
 ht-degree: 22%
 ---
 
 # Substance 3D Designer {#using}
 
 + [ユーザーガイド](/help/home/home.md)
-+ ラーニングとチュートリアル{#learning-tutorials}
-  + 基本{#essentials}
-    + ベストプラクティス{#best-practices}
-      + [ベストプラクティス](/help/learning-tutorials/essentials/best-practices/best-practices.md)
-      + [Filesizeの削減ガイドライン](/help/learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
-      + [グラフ作成のエチケット](/help/learning-tutorials/essentials/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
-      + [パフォーマンス最適化ガイドライン](/help/learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
-    + キーコンセプト{#key-concepts}
-      + [Substance グラフの重要な概念](/help/learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
-    + [用語集](/help/learning-tutorials/essentials/glossary/glossary.md)
-  + [はじめに](../learning-tutorials/getting-started/getting-started.md)
-  + ノード{#nodes}
-    + [スプラインの操作](/help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)
-    + [SDF 関数の操作](/help/learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
-  + 3D ビュー{#3d-view}
-    + 3D シーンの操作{#working-with-3d-scenes}
-      + [3D シーンの操作](/help/learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)
-      + [マテリアルの上書き](/help/learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)
-      + [マテリアルの価値観とテクスチャを抽出する](/help/learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)
-      + [シーンの書き出し](/help/learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
-  + [すべてのサンプル](../learning-tutorials/all-samples/all-samples.md)
++ [用語集](/help/glossary/glossary.md)
 + はじめに{#getting-started}
   + [はじめに](/help/getting-started/getting-started.md)
   + [ライセンス認証とライセンス](/help/getting-started/activation-and-licenses/activation-and-licenses.md)
@@ -100,6 +80,7 @@ ht-degree: 22%
   + [依存関係からの警告](/help/resources/warnings-from-dep/warnings-from-dependencies.md)
 + Substance グラフ{#substance-graphs}
   + [Substance グラフ](/help/compositing-graphs/substance-compositing-graphs.md)
+  + [Substance グラフの重要な概念](/help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
   + Substance グラフの作成{#creating-a-substance-graph}
     + [Substance グラフの作成](/help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
     + [マテリアルサンプル](/help/compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
@@ -560,6 +541,7 @@ ht-degree: 22%
           + [Triplanar](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
       + スプラインパスツール{#spline-path-tools}
         + [スプラインパスツール](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+        + [パススプラインツールの操作](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)
         + [スプラインへのパス](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)
         + パスツール{#path-tools}
           + [パスツール](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
@@ -664,6 +646,7 @@ ht-degree: 22%
     + 関数ノードライブラリ{#function-node-library}
       + [関数ノードライブラリ](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)
       + SDF 関数{#sdf-functions}
+        + [SDF 関数の操作](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
         + プリミティブ{#sdf-functions-primitives}
           + [キャップ付き円錐](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
           + [キャップ付き円錐（2点）](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)
@@ -719,9 +702,19 @@ ht-degree: 22%
       + ランダム{#random}
         + [ランダム](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [ハッシュ関数](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
++ 3D シーンの操作{#working-with-3d-scenes}
+  + [3D シーンの操作](/help/working-with-3d-scenes/working-with-3d-scenes.md)
+  + [マテリアルの上書き](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
+  + [マテリアルの価値観とテクスチャを抽出する](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
+  + [シーンの書き出し](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + ベイカー{#bakers}
   + [ベイカー](/help/bakers/bakers.md)
   + [ベイカーレガシーインターフェイス](/help/bakers/bakers-legacy-interface/bakers-legacy-interface.md)
++ ベストプラクティス{#best-practices}
+  + [ベストプラクティス](/help/best-practices/best-practices.md)
+  + [Filesizeの削減ガイドライン](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
+  + [グラフ作成のエチケット](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
+  + [パフォーマンス最適化ガイドライン](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + パイプラインおよびプロジェクト設定{#pipeline-and-project-configuration}
   + [パイプラインおよびプロジェクト設定](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
   + [プロジェクト設定ファイル - SBSPRJ](/help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)

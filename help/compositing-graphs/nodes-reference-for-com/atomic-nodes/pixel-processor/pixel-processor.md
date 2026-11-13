@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: ピクセルプロセッサーノードを使用すると、高度なテクスチャ処理用のカスタム式を使用して個々のピクセルを処理できます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ピクセルプロセッサー
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 このピクセルプロセッサーは、[バリュープロセッサー](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)に似ています。これは1つの値でのみ実行され、ピクセルプロセッサーと比較して適切な最適化を行うことができます。
 
-ノードベースのエディターで[シェーダー](../../../../learning-tutorials/essentials/glossary/glossary.md#shader)関数を作成する場合は、ピクセルプロセッサーを使用すると使い慣れた環境を実現できます。
+ノードベースのエディターで[シェーダー](../../../../glossary/glossary.md)関数を作成する場合は、ピクセルプロセッサーを使用すると使い慣れた環境を実現できます。
 
 
 >[!TIP]
@@ -62,7 +62,7 @@ ht-degree: 1%
 > 
 > また、この種のノードを使用して数学的な演算を実行することは、このグラフから何かを得るために必須です。
 > 
-> また、[UV](../../../../learning-tutorials/essentials/glossary/glossary.md#uv)、[テクスチャサンプリング](../../../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling)、およびベクターの概念を理解しておくことをお勧めします。
+> また、[UV](../../../../glossary/glossary.md)、[テクスチャサンプリング](../../../../glossary/glossary.md)、およびベクターの概念を理解しておくことをお勧めします。
 
 
 ## パラメーター
@@ -70,7 +70,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>カラーモード</b> *ブーリアン* | グレースケールとカラー出力画像を切り替えます。 |
-| <b>ピクセル関数あたり</b> *浮動小数/浮動小数4* | [Substance関数のグラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)が出力イメージのピクセルごとに評価されました。   現在のピクセルの[正規化](../../../../learning-tutorials/essentials/glossary/glossary.md#normalization)位置にアクセスするには、<b>$pos</b>変数に設定された[Get 浮動小数 2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)ノードを使用します。 |
+| <b>ピクセル関数あたり</b> *浮動小数/浮動小数4* | [Substance関数のグラフ](../../../../function-graphs/the-function-graph/the-function-graph.md)が出力イメージのピクセルごとに評価されました。   現在のピクセルの[正規化](../../../../glossary/glossary.md)位置にアクセスするには、<b>$pos</b>変数に設定された[Get 浮動小数 2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)ノードを使用します。 |
 
 ## 入力コネクター
 

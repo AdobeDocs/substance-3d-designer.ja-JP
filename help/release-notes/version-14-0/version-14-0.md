@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ""
 description: 新しいノード、グラフナビゲーション、パフォーマンスの向上については、 Substance 3D Designerバージョン14.0のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: バージョン 14.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * <b>桑原フィルター</b> ：さらにスタイルを適用する場合は、[桑原カラー異方性](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[グレースケール](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)フィルターを使用して絵画調の効果を生み出すことができます。 ディテールでは、画像のディテールに合わせた異方性指向性ブラーを適用します。 その結果、画像は内側のシェイプの方向に流れているように見えます。
 
-これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize_jp)で説明しています。 このチュートリアルでは、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法について説明します。
+これらのノード（クオンタイズカラーと異方性桑原）については、[このチュートリアル](https://www.adobe.com/go/designer-tutorial-quantize)で説明しています。 このチュートリアルでは、マテリアルにスタイルを適用したり、カラーをより効率的かつ直感的に操作したりする方法について説明します。
 
 その他の強力なノードがパーティに参加します。
 
@@ -129,11 +129,11 @@ ht-degree: 0%
 
 ## QOLの改善
 
-* 大きなプロジェクトで作業するときの<b>パフォーマンス</b>および<b>応答性</b>が向上しました。 たとえば、ノードの削除は最大で75倍高速です。 同じビットマップを複数回参照するグラフの[クッキング](../../learning-tutorials/essentials/glossary/glossary.md#cooking)時間も短縮されました。
-* <b>継承されたパラメーター</b>:パラメーターが[継承](../../learning-tutorials/essentials/glossary/glossary.md#inheritance)の場合、既定値を表示する代わりに、継承されたパラメーターを表示して、現在使用されている値を確認できるようにします。 継承について詳しくは、[アドビのドキュメントのこの専用ページ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)をご覧ください。
+* 大きなプロジェクトで作業するときの<b>パフォーマンス</b>および<b>応答性</b>が向上しました。 たとえば、ノードの削除は最大で75倍高速です。 同じビットマップを複数回参照するグラフの[クッキング](../../glossary/glossary.md)時間も短縮されました。
+* <b>継承されたパラメーター</b>:パラメーターが[継承](../../glossary/glossary.md)の場合、既定値を表示する代わりに、継承されたパラメーターを表示して、現在使用されている値を確認できるようにします。 継承について詳しくは、[アドビのドキュメントのこの専用ページ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)をご覧ください。
 * macOSでの<b>トラックパッドのサポート</b>は、他のソフトウェアに合わせて、より自然になるように完全に修正されました。 [グラフビュー](../../interface/the-graph-view/the-graph-view.md)の境界を越えるノードの移動も、すべてのオペレーティングシステムでスムーズで一貫性を保つために再検討されました。
 
-* <b>2D ビュー: </b>[2D ビュー](../../interface/2d-view/2d-view.md)でタイル表示が有効になっている場合、元のタイルにないピクセルについても値を取得できるようになりました。タイル間で[サンプリング](../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling)や値の変化を確認することは非常に役立ちます。
+* <b>2D ビュー: </b>[2D ビュー](../../interface/2d-view/2d-view.md)でタイル表示が有効になっている場合、元のタイルにないピクセルについても値を取得できるようになりました。タイル間で[サンプリング](../../glossary/glossary.md)や値の変化を確認することは非常に役立ちます。
 
 ![2dビュー](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 * [コンテンツ] Substance関数グラフで「Negate 浮動小数1」ノードを廃止する
 * [コンテンツ] 「カラーを量子化」の名前を「カラーを量子化（シンプル）」に変更
 * [2D ビュー] 0 ～ 1の範囲外のピクセルの値を情報パネルに表示する
-* [エンジン]&#x200B;[テキスト]一部のフォントの新しいカーニング
+* [エンジン][テキスト]一部のフォントの新しいカーニング
 * [グラフ]インコンテキスト編集の使用時に、詳細なサブグラフを編集する際の無効化時間を短縮しました
 * [リンカー] SBSASMでビットマップを複製しない
 * [パラメーター]すべての入力パラメータータイプに新しい「関数」ウィジェットを追加

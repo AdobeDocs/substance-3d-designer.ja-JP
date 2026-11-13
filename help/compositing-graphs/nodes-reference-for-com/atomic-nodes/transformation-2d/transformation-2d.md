@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 変形 2Dノードを使用して、移動、回転、スケーリングなどのテクスチャに2D変換を適用します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 変形 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 5%
@@ -54,7 +54,7 @@ ht-degree: 5%
 >
 > タイリングを無効にする
 > 
-> &#39;タイリングモード&#39; [基本パラメーター](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter)の[継承メソッド](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance)を&#39;絶対&#39;に設定すると、パラメーター値を&#39;タイリングなし&#39;に設定できます：
+> &#39;タイリングモード&#39; [基本パラメーター](../../../../glossary/glossary.md)の[継承メソッド](../../../../glossary/glossary.md)を&#39;絶対&#39;に設定すると、パラメーター値を&#39;タイリングなし&#39;に設定できます：
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 
@@ -69,8 +69,8 @@ ht-degree: 5%
 | --- | --- |
 | <b>変換行列</b> *浮動小数4* | 直接編集する基になるマトリックスの変形を開きます。 回転とスケールを変更できます。 2D ビューのギズモを使用して調整することもできます。   警告：ビューに直接関連付けられるものではなく、ステップごとに適用できる相対調整です。 |
 | <b>オフセット</b> *浮動小数2* | イメージの2Dディスプレイスメントを定義します。 2D ビュー内のギズモを使用して位置やオフセットを調整することもできます。   2D ビュー出力に直接関連します。 |
-| <b>ミップマップモード</b> *整数* | 手動の[フィルタリング](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap)レベルに切り替えることができます。これにより、テクスチャミップマップを使用して画像のノイズを減らすことができます。 |
-| <b>ミップマップレベル</b> *整数* | 使用する[ミップマップ](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap)レベルを設定します。     *&#39;ミップマップモード&#39;が&#39;手動&#39;に設定されている場合に使用可能* |
+| <b>ミップマップモード</b> *整数* | 手動の[フィルタリング](../../../../glossary/glossary.md)レベルに切り替えることができます。これにより、テクスチャミップマップを使用して画像のノイズを減らすことができます。 |
+| <b>ミップマップレベル</b> *整数* | 使用する[ミップマップ](../../../../glossary/glossary.md)レベルを設定します。     *&#39;ミップマップモード&#39;が&#39;手動&#39;に設定されている場合に使用可能* |
 | <b>マットの色</b> *浮動小数4* | 変形のタイリングが無効な場合に背景として使用される色です。 つまり、変形された入力が出力の一部を覆っていない場合に使用するカラーを設定します。   RGBAカラーで作業している場合は、透明にすることができます。 |
 | <b>フィルタリング</b> *整数* | 使用するダウンサンプリング方法を設定します。 ミップマップレベル量を減らしても特に効果がありません。 |
 

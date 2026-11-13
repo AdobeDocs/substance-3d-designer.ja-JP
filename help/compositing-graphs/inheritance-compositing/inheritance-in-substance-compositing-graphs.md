@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: Substance合成グラフで継承を使用して、再利用可能なグラフ階層とバリエーションを作成する方法について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance グラフの継承
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> このページで説明する概念を理解するための重要なお知らせです。*インスタンス化*&#x200B;は、別のグラフ[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表すノードであり、独自の&#x200B;*個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されています。\
+> このページで説明する概念を理解するための重要なお知らせです。*インスタンス化*&#x200B;は、別のグラフ](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)のグラフを表す[ノードであり、独自の&#x200B;*個別のパラメーター値*&#x200B;を持つため、*インスタンス*&#x200B;という用語が使用されています。\
 > 例えば、同じグラフ内の2つの[Perlin ノイズ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)ノードは、両方とも&#x200B;*独自のパラメーター値セット*&#x200B;を持つ&#x200B;*同じ*&#x200B;ソースグラフ （`noise_perlin_noise.sbs`の`perlin_noise`）を表します。
 
 >[!NOTE]
@@ -128,7 +128,7 @@ ht-degree: 0%
 >[!WARNING]
 >
 > パッケージをSubstance 3Dアセットファイル(SBSAR)に公開する際に、親が&#x200B;*そのまま*&#x200B;適用されます。 つまり、パラメーターを&#x200B;*Absolute*&#x200B;継承メソッドに設定すると、そのパラメーターは公開されたアセット内の現在の値に&#x200B;*ロック*&#x200B;されます。\
-> これは、たとえば、[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)のノードや[最適化の目的](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)には望ましいことですが、グラフで作業する場合は、その他の方法で&#x200B;*明確で意図的な目的*&#x200B;がない限り、*相対値…*&#x200B;継承方式を使用することを&#x200B;*強く*&#x200B;お勧めします。
+> これは、たとえば、[ビットマップ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)のノードや[最適化の目的](../../best-practices/performance-optimization/performance-optimization-guidelines.md)には望ましいことですが、グラフで作業する場合は、その他の方法で&#x200B;*明確で意図的な目的*&#x200B;がない限り、*相対値…*&#x200B;継承方式を使用することを&#x200B;*強く*&#x200B;お勧めします。
 
 ### コンテキスト内編集
 

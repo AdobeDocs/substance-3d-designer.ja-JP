@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: Substance 3D Designerの概要を紹介し、プロシージャルのマテリアルやテクスチャを作成するための機能について説明します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概要
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Substance 3D Designerは、様々な複雑さで様々な方法でコンテン�
 
 **[ノンリニア](../../compositing-graphs/substance-compositing-graphs.md):**&#x200B;一度に多数のテクスチャ出力を作成できます。 1つのマスクまたはスライダーを編集すると、自動的に接続された出力が再計算されます。 base color、ラフネス、標準などのマップを個別に作成する必要がなくなりました。
 
-**[非破壊的](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md):**&#x200B;作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
+**[非破壊的](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):**&#x200B;作業内容を失うことなく、*任意のアクションを元に戻すことができます。* 反復処理と実験が大幅に高速化され、さらに効率的なワークフローが見つかります。
 
 **[統合ベイク処理](../../bakers/bakers.md):**&#x200B;ソフトウェア内から直接、高度で高速なメッシュベイクツールにアクセスできます。 これにより、別途ソフトウェアでベイクを行う必要がなくなり、読み込みや書き出しのプロセスに時間がかかることがなくなります。
 
@@ -76,7 +76,7 @@ Substanceファイルは、Designerの&#x200B;**メインソースファイル**
 
 `\*.sbsar`
 
-Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Application、Unity エンジンなど、[Substance 3Dと連携](https://experienceleague.adobe.com/ja/docs/substance-3d/ecosystem/home)するエンジン（一部に外部プラグインが含まれる）で使用できます。
+Substanceアーカイブは<b>個のコンパイル済み最適化された</b>個のSubstanceファイルです。 計算が非常に高速で、参照問題なく簡単に共有できます。 パラメーターはまだ微調整できますが、グラフの編集は<b>ロックされています</b>。 Substanceアーカイブは、すべてのSubstance 3Dアプリケーション、およびAutodesk 3DS Max &amp; Maya、Unreal Application、Unity エンジンなど、[Substance 3Dと連携](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)するエンジン（一部に外部プラグインが含まれる）で使用できます。
 
 </td>
 <td style="border: 0;">
