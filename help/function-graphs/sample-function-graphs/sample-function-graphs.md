@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-designer/function-graphs/sample-function-graphs.html"
 breadcrumb-title: ""
 description: Substance 3D Designerのサンプル機能グラフを紹介し、高度なテクニックとベストプラクティスについて学びます。
 helpx_creative_field: ""
